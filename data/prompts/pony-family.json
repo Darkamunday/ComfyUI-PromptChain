@@ -1,0 +1,81 @@
+{
+  "name": "Pony Family Prompts",
+  "prompts": [
+    {
+      "id": "pony-quality",
+      "name": "Quality Tags",
+      "category": "Quality",
+      "text": "score_9, score_8_up, score_7_up, {cursor}",
+      "slot": "positive",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    },
+    {
+      "id": "pony-quality-neg",
+      "name": "Quality Negatives",
+      "category": "Quality",
+      "text": "score_6, score_5, score_4",
+      "slot": "negative",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    },
+    {
+      "id": "pony-source-anime",
+      "name": "Anime",
+      "category": "Source",
+      "text": "source_anime",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    },
+    {
+      "id": "pony-source-pony",
+      "name": "Pony",
+      "category": "Source",
+      "text": "source_pony",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    },
+    {
+      "id": "pony-source-furry",
+      "name": "Furry",
+      "category": "Source",
+      "text": "source_furry",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    },
+    {
+      "id": "pony-source-cartoon",
+      "name": "Cartoon",
+      "category": "Source",
+      "text": "source_cartoon",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    },
+    {
+      "id": "pony-photorealistic",
+      "name": "Photorealistic",
+      "category": "Style",
+      "text": "photo, photorealistic, photography, realistic sunlight and shadows, UHD, RAW photo, dslr photo, Fujifilm XT3, depth of field, highly detailed, high contrast, film grain, rim lighting, cinematic lighting, detailed skin, detailed eyes",
+      "slot": "positive",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    },
+    {
+      "id": "pony-photorealistic-neg",
+      "name": "Anti-Anime (for realism)",
+      "category": "Style",
+      "text": "source_anime, source_cartoon, source_furry, source_pony, cartoon, anime, drawing, illustration, 3d, cgi",
+      "slot": "negative",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    },
+    {
+      "id": "pony-anime-style",
+      "name": "Anime Style",
+      "category": "Style",
+      "text": "source_anime, anime, very aesthetic, anime coloring",
+      "slot": "positive",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    },
+    {
+      "id": "pony-anti-realism-neg",
+      "name": "Anti-Realism (for anime)",
+      "category": "Style",
+      "text": "source_furry, source_pony, source_cartoon, 3d, photo, photorealistic",
+      "slot": "negative",
+      "scope": { "type": "family", "architecture": "sdxl", "family": "pony" }
+    }
+  ]
+}

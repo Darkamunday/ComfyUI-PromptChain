@@ -1,0 +1,26 @@
+{
+  "name": "Nova Furry XL Prompts",
+  "prompts": [
+    {
+      "id": "nova-furry-default",
+      "name": "Furry Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Furry Default\nmasterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, furry, anthro\n\nNegative Prompt:\nhuman, multiple tails, modern, recent, old, oldest, graphic, cartoon, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined",
+      "scope": { "type": "model", "model_name": "Nova Furry XL" }
+    },
+    {
+      "id": "nova-furry-detailed",
+      "name": "Detailed Fur/Feathers",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Detailed Fur/Feathers\nmasterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, furry, anthro, BREAK, depth of field, detailed fluffy fur, volumetric lighting\n\nNegative Prompt:\nhuman, multiple tails, modern, recent, old, oldest, graphic, cartoon, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined",
+      "scope": { "type": "model", "model_name": "Nova Furry XL" }
+    },
+    {
+      "id": "nova-furry-scenery",
+      "name": "With Scenery",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// With Scenery\nmasterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, furry, anthro, scenery, BREAK, depth of field, detailed fluffy fur, volumetric lighting\n\nNegative Prompt:\nhuman, multiple tails, modern, recent, old, oldest, graphic, cartoon, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined",
+      "scope": { "type": "model", "model_name": "Nova Furry XL" }
+    }
+  ]
+}

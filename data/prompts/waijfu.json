@@ -1,0 +1,22 @@
+{
+  "scope": {
+    "type": "model",
+    "model_name": "Waijfu"
+  },
+  "prompts": [
+    {
+      "id": "waijfu-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterpiece, best quality\n\nNegative Prompt:\nworst quality, bad quality",
+      "scope": { "type": "model", "model_name": "Waijfu" }
+    },
+    {
+      "id": "waijfu-minimal",
+      "name": "Minimal",
+      "category": "",
+      "text": "// Your Tags\n{cursor}",
+      "scope": { "type": "model", "model_name": "Waijfu" }
+    }
+  ]
+}

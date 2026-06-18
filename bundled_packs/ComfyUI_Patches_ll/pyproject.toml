@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_patches_ll"
+description = "Some patches for Flux|HunYuanVideo|LTXVideo|MochiVideo|WanVideo etc, support TeaCache, PuLID, First Block Cache."
+version = "1.1.2"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/lldacing/ComfyUI_Patches_ll"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "lldacing"
+DisplayName = "ComfyUI_Patches_ll"
+Icon = ""

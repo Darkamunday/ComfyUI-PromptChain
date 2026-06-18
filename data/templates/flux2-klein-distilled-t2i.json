@@ -1,0 +1,317 @@
+{
+  "name": "Text-to-Image",
+  "category": "Generation",
+  "order": 0,
+  "scope": {
+    "type": "family",
+    "architecture": "flux2",
+    "family": "flux2_klein",
+    "version": "Distilled"
+  },
+  "created_at": 1775178000,
+  "id": "flux2-klein-distilled-t2i",
+  "nodes": [
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        900,
+        0
+      ],
+      "size": [
+        225,
+        116
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "FluxGuidance",
+      "offset": [
+        870,
+        430
+      ],
+      "size": [
+        266,
+        80
+      ],
+      "widgets_values": [
+        1.0
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      }
+    },
+    {
+      "type": "BasicGuider",
+      "offset": [
+        1260,
+        170
+      ],
+      "size": [
+        260,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      }
+    },
+    {
+      "type": "SamplerCustomAdvanced",
+      "offset": [
+        1620,
+        460
+      ],
+      "size": [
+        280,
+        392
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        1640,
+        0
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        1960,
+        0
+      ],
+      "size": [
+        330,
+        410
+      ],
+      "widgets_values": [
+        "FluxKlein/%date:yyyy-MM-dd%"
+      ],
+      "properties": {}
+    },
+    {
+      "type": "CLIPLoader",
+      "offset": [
+        850,
+        190
+      ],
+      "size": [
+        340,
+        117.328125
+      ],
+      "widgets_values": [
+        "qwen_3_4b.safetensors",
+        "flux2",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader"
+      }
+    },
+    {
+      "type": "UNETLoader",
+      "offset": [
+        1260,
+        0
+      ],
+      "size": [
+        280,
+        82.65625
+      ],
+      "widgets_values": [
+        "flux-2-klein-4b-fp8.safetensors",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      }
+    },
+    {
+      "type": "RandomNoise",
+      "offset": [
+        1630,
+        290
+      ],
+      "size": [
+        260,
+        83
+      ],
+      "widgets_values": [
+        432010365512701,
+        "randomize"
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      }
+    },
+    {
+      "type": "KSamplerSelect",
+      "offset": [
+        1260,
+        300
+      ],
+      "size": [
+        240,
+        83
+      ],
+      "widgets_values": [
+        "euler"
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      }
+    },
+    {
+      "type": "Flux2Scheduler",
+      "offset": [
+        1230,
+        460
+      ],
+      "size": [
+        301.8125,
+        144
+      ],
+      "widgets_values": [
+        4,
+        1024,
+        1024
+      ],
+      "properties": {
+        "Node name for S&R": "Flux2Scheduler"
+      }
+    },
+    {
+      "type": "EmptyFlux2LatentImage",
+      "offset": [
+        1240,
+        670
+      ],
+      "size": [
+        290,
+        144
+      ],
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyFlux2LatentImage"
+      }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [
+        1630,
+        140
+      ],
+      "size": [
+        246,
+        83
+      ],
+      "widgets_values": [
+        "flux2-vae.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 0,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 9,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 10,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 11,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 4
+    },
+    {
+      "from_node_idx": 12,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 1
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 0,
+      "to_node_idx": 0,
+      "to_slot": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "PerfectDeliberate Prompts",
+  "prompts": [
+    {
+      "id": "pd-anime",
+      "name": "Anime Style",
+      "category": "Styles",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, anime, detailed face, detailed eyes,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, text",
+      "scope": { "type": "model", "model_name": "PerfectDeliberate" }
+    },
+    {
+      "id": "pd-fantasy",
+      "name": "Fantasy Art",
+      "category": "Styles",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, fantasy, detailed, intricate, magical,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, text",
+      "scope": { "type": "model", "model_name": "PerfectDeliberate" }
+    },
+    {
+      "id": "pd-3d",
+      "name": "3D Render",
+      "category": "Styles",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, 3d render, detailed, high quality render,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, text",
+      "scope": { "type": "model", "model_name": "PerfectDeliberate" }
+    }
+  ]
+}

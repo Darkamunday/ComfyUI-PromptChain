@@ -1,0 +1,157 @@
+{
+  "display_name": "JANKU Trained NoobAI - 6.0",
+  "model_name": "JANKU Trained NoobAI",
+  "version": "6.0",
+  "architecture": "sdxl",
+  "family": "noobai",
+  "author": "janxd",
+  "description": "Trained checkpoint based on Illustrious combining NoobAI and RouWei foundations. Emphasizes LoRA-free workflow for generating detailed anime artwork without stacking multiple detailers. 35k+ artist styles trained directly.",
+  "license": "NoobAI-XL 1.0 License",
+  "tags": [
+    "anime",
+    "illustrious",
+    "noobai",
+    "sdxl",
+    "detailed",
+    "lora-free"
+  ],
+  "url": "https://civitai.com/models/1277670/janku-trained-noobai-rouwei-illustrious-xl",
+  "civitai_model_id": 1277670,
+  "quality_position": "end",
+  "release_date": "2025-10-29",
+  "trigger": "masterpiece, best quality, very awa",
+  "default_prompt_id": "janku-default",
+  "negative": "worst quality, low quality, lowres, jpeg artifacts, watermark, signature, text, username, bad hands, mutated hands, extra digits",
+  "notes": "Use artist tags directly (35k+ trained). 'very awa' tag enhances aesthetics and reduces artifacts. VAE baked in. Supports up to 1536x1536 without upscaling.",
+  "tag_sources": [
+    "Danbooru",
+    "e621"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "KSampler": {
+      "steps": 30,
+      "cfg": 3.8,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps_range": [
+        25,
+        30
+      ],
+      "cfg_range": [
+        3.0,
+        5.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "normal",
+        "simple",
+        "sgm_uniform",
+        "karras"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 3.8,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        3.0,
+        5.0
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "normal",
+        "simple",
+        "sgm_uniform",
+        "karras"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 1024,
+      "height": 1536,
+      "_resolutions": [
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 1536
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "f40b9ed2caa912a9",
+      "sha256": null,
+      "filename": "JANKUTrainedNoobaiRouwei_v60.safetensors"
+    }
+  ]
+}

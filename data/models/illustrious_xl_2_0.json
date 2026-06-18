@@ -1,0 +1,155 @@
+{
+  "display_name": "Illustrious XL - 2.0",
+  "model_name": "Illustrious XL",
+  "version": "2.0",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "ONOMAAI",
+  "description": "Official Illustrious base model optimized for illustration and animation. Supports both natural language and Danbooru tag prompts with excellent fine-tuning stability.",
+  "license": "Illustrious License",
+  "tags": [
+    "base model"
+  ],
+  "url": "https://civitai.com/models/1369089/illustrious-xl-20",
+  "civitai_model_id": 1369089,
+  "quality_position": "end",
+  "release_date": "2025-03-18",
+  "trigger": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest",
+  "default_prompt_id": "illustrious-xl-default",
+  "negative": "worst quality, bad quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, signature, watermark, username",
+  "notes": "CFG 2.5-7, Steps 20-35. Supports both Danbooru tags and natural language prompts. Resolution range 512-1536. Baked-in VAE. Official Illustrious base model — use as foundation for fine-tuning or with LoRAs.",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "KSampler": {
+      "steps": 28,
+      "cfg": 6.5,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "steps_range": [
+        20,
+        35
+      ],
+      "cfg_range": [
+        2.5,
+        7.0
+      ],
+      "sampler_name_options": [
+        "dpmpp_2s_ancestral",
+        "euler_ancestral",
+        "dpmpp_2m",
+        "euler"
+      ],
+      "scheduler_options": [
+        "normal",
+        "karras",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 6.5,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        2.5,
+        7.0
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "dpmpp_2s_ancestral",
+        "euler_ancestral",
+        "dpmpp_2m",
+        "euler"
+      ],
+      "scheduler_options": [
+        "normal",
+        "karras",
+        "exponential"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 832,
+      "height": 1216,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1152,
+          "height": 1728
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 1536
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "a4e711f6354a9af1",
+      "sha256": null,
+      "filename": "illustriousXL20_v20.safetensors"
+    }
+  ]
+}

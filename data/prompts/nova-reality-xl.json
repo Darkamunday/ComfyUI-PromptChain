@@ -1,0 +1,33 @@
+{
+  "name": "Nova Reality XL Prompts",
+  "prompts": [
+    {
+      "id": "nova-reality-default",
+      "name": "Realistic Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Realistic Default\nmasterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, photorealistic\n\nNegative Prompt:\nmodern, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, very displeasing, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated",
+      "scope": { "type": "model", "model_name": "Nova Reality XL" }
+    },
+    {
+      "id": "nova-reality-portrait",
+      "name": "Realistic Portrait",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Realistic Portrait\nmasterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, photorealistic, portrait, depth of field, photorealistic details, detailed face, detailed eyes, detailed skin\n\nNegative Prompt:\nmodern, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, very displeasing, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated",
+      "scope": { "type": "model", "model_name": "Nova Reality XL" }
+    },
+    {
+      "id": "nova-reality-scenery",
+      "name": "Scenery/Landscape",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Scenery/Landscape\nmasterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, photorealistic, scenery, depth of field, photorealistic details, cinematic lighting\n\nNegative Prompt:\nmodern, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, very displeasing, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated",
+      "scope": { "type": "model", "model_name": "Nova Reality XL" }
+    },
+    {
+      "id": "nova-reality-cinematic",
+      "name": "Cinematic",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Cinematic\nmasterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, photorealistic, cinematic, dramatic lighting, film grain, depth of field, bokeh, photorealistic details\n\nNegative Prompt:\nmodern, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, very displeasing, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated",
+      "scope": { "type": "model", "model_name": "Nova Reality XL" }
+    }
+  ]
+}

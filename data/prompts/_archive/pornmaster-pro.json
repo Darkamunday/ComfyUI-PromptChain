@@ -1,0 +1,26 @@
+{
+  "name": "PornMaster-Pro Realism Prompts",
+  "prompts": [
+    {
+      "id": "pm-pro-realistic",
+      "name": "Realistic Style",
+      "category": "Styles",
+      "text": "// Quality\nmasterpiece, best quality, newest, highres, absurdres, amazing quality, very aesthetic, realistic, photorealistic, detailed skin, natural lighting,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, anime, cartoon, illustration",
+      "scope": { "type": "model", "model_name": "PornMaster-Pro Realism" }
+    },
+    {
+      "id": "pm-pro-anime",
+      "name": "Anime Style",
+      "category": "Styles",
+      "text": "// Quality\nmasterpiece, best quality, newest, highres, absurdres, amazing quality, very aesthetic, anime, detailed face, detailed eyes,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username",
+      "scope": { "type": "model", "model_name": "PornMaster-Pro Realism" }
+    },
+    {
+      "id": "pm-pro-cosplay",
+      "name": "Cosplay",
+      "category": "Styles",
+      "text": "// Quality\nmasterpiece, best quality, newest, highres, absurdres, amazing quality, very aesthetic, cosplay, realistic, detailed costume, detailed face,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username",
+      "scope": { "type": "model", "model_name": "PornMaster-Pro Realism" }
+    }
+  ]
+}

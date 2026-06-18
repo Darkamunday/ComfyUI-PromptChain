@@ -1,0 +1,19 @@
+{
+  "name": "Hassaku XL (Illustrious) Prompts",
+  "prompts": [
+    {
+      "id": "hassaku-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterpiece, best quality\n\nNegative Prompt:\nworst quality, bad quality, signature",
+      "scope": { "type": "model", "model_name": "Hassaku XL (Illustrious)" }
+    },
+    {
+      "id": "hassaku-sfw",
+      "name": "SFW",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// SFW\nmasterpiece, best quality\n\nNegative Prompt:\nworst quality, bad quality, signature, nude, nsfw",
+      "scope": { "type": "model", "model_name": "Hassaku XL (Illustrious)" }
+    }
+  ]
+}

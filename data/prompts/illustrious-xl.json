@@ -1,0 +1,26 @@
+{
+  "name": "Illustrious XL Prompts",
+  "prompts": [
+    {
+      "id": "illustrious-xl-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, newest\n\nNegative Prompt:\nworst quality, bad quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, signature, watermark, username",
+      "scope": { "type": "model", "model_name": "Illustrious XL" }
+    },
+    {
+      "id": "illustrious-xl-anime",
+      "name": "Anime Style",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Anime Style\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, anime, detailed face, detailed eyes\n\nNegative Prompt:\nworst quality, bad quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, signature, watermark, username",
+      "scope": { "type": "model", "model_name": "Illustrious XL" }
+    },
+    {
+      "id": "illustrious-xl-natural-language",
+      "name": "Natural Language",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\nNegative Prompt:\nworst quality, bad quality",
+      "scope": { "type": "model", "model_name": "Illustrious XL" }
+    }
+  ]
+}

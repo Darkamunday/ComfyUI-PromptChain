@@ -1,0 +1,59 @@
+{
+  "_comment": "Style aliases — maps user phrasing to a canonical prompt-template id from data/prompts/. Curator additions in the DB are preserved across reboots; only NEW seed entries are auto-inserted. The literal scan is word-boundary-anchored and longest-first sorted, so 'anime convention' does NOT trigger 'anime'. The _neutral entry is a synthetic id (no template); it suppresses build-mode default-style injection when the user explicitly asks for none.",
+
+  "flux-photography": [
+    "photo", "photography", "photograph", "photorealistic", "realistic photo",
+    "shot on camera", "dslr photo", "raw photo"
+  ],
+  "flux-cinematic": [
+    "cinematic", "movie still", "film still", "cinematic shot",
+    "cinematic lighting", "movie scene"
+  ],
+  "flux-portrait": [
+    "portrait", "headshot", "portrait photo"
+  ],
+  "flux-3d-render": [
+    "3d render", "3d", "unreal engine", "blender render", "cgi", "3d model",
+    "octane render"
+  ],
+  "flux-fantasy": [
+    "fantasy art", "fantasy illustration", "epic fantasy"
+  ],
+  "flux-concept-art": [
+    "concept art", "concept illustration", "matte painting"
+  ],
+  "flux-product": [
+    "product photo", "product photography", "studio photo"
+  ],
+
+  "illustrious-xl-anime": [
+    "anime", "anime style", "anime version", "make it anime", "70s anime",
+    "studio ghibli", "ghibli", "ghibli style", "anime art"
+  ],
+
+  "pony-photorealistic": [
+    "photo", "photography", "photograph", "photorealistic", "realistic photo",
+    "shot on camera", "dslr photo", "raw photo"
+  ],
+  "pony-anime-style": [
+    "anime", "anime style", "anime version", "make it anime",
+    "anime coloring", "anime art"
+  ],
+
+  "zimage-3d_styles-realistic": [
+    "unreal engine", "unreal engine 5", "ue5", "ue5 render",
+    "aaa game render", "aaa game art", "video game character render",
+    "3d realistic", "realistic 3d render", "3d render realistic"
+  ],
+
+  "_default": [
+    "default style", "default look", "default", "default quality",
+    "the default", "use default", "use the default", "add default style",
+    "add the default", "high quality", "quality tags", "best quality"
+  ],
+
+  "_neutral": [
+    "no style", "neutral style", "no specific style", "keep it neutral",
+    "no style please", "ignore style", "without a style"
+  ]
+}

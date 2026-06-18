@@ -1,0 +1,19 @@
+{
+  "name": "CyberRealistic Pony Prompts",
+  "prompts": [
+    {
+      "id": "cr-pony-photorealistic-full",
+      "name": "Photorealistic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic\nscore_9, score_8_up, score_7_up, photo, photorealistic, photography, realistic sunlight and shadows, UHD, RAW photo, dslr photo, Fujifilm XT3, depth of field, highly detailed, high contrast, film grain, rim lighting, cinematic lighting, detailed skin, detailed eyes\n\nNegative Prompt:\nscore_6, score_5, score_4, worst quality, low quality, normal quality, lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs, source_anime, source_cartoon, source_furry, source_pony, cartoon, anime, drawing, illustration, 3d, cgi",
+      "scope": { "type": "model", "model_name": "CyberRealistic Pony" }
+    },
+    {
+      "id": "cr-pony-anime-full",
+      "name": "Anime",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Anime\nscore_9, score_8_up, score_7_up, source_anime, anime, very aesthetic, anime coloring\n\nNegative Prompt:\nscore_6, score_5, score_4, source_furry, source_pony, source_cartoon, 3d, photo, photorealistic, lowres, bad anatomy, bad hands, ugly, worst quality, low quality",
+      "scope": { "type": "model", "model_name": "CyberRealistic Pony" }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "display_name": "Nova Furry XL - IL v17.0",
+  "model_name": "Nova Furry XL",
+  "version": "IL v17.0",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "Crody",
+  "description": "2D/2.5D furry checkpoint model with great details on furs, scales, and feathers. XL-fied version of Peaki Furry based on Illustrious.",
+  "license": "No commercial use of unedited images",
+  "release_date": "2026-03-21",
+  "tags": [
+    "furry",
+    "anthro",
+    "illustrious",
+    "sdxl",
+    "2d",
+    "2.5d",
+    "scales",
+    "feathers"
+  ],
+  "url": "https://civitai.com/models/503815/nova-furry-xl",
+  "civitai_model_id": 503815,
+  "quality_position": "end",
+  "trigger": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, furry, anthro",
+  "default_prompt_id": "nova-furry-default",
+  "negative": "human, multiple tails, modern, recent, old, oldest, graphic, cartoon, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, very displeasing, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined",
+  "notes": "Euler a recommended. CFG 3-5, steps 20-50. Use BREAK to separate subject from style tags. Works well with fur, scales, and feathers.",
+  "tag_sources": [
+    "e621",
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "KSampler": {
+      "steps": 28,
+      "cfg": 4.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "steps_range": [
+        20,
+        50
+      ],
+      "cfg_range": [
+        3.0,
+        5.0
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "dpmpp_2m",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "normal",
+        "karras"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 4.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        3.0,
+        5.0
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "dpmpp_2m",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "normal",
+        "karras"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 832,
+      "height": 1216,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "5196214a51b1882d",
+      "sha256": null,
+      "filename": "novaFurryXL_ilV170.safetensors"
+    }
+  ]
+}

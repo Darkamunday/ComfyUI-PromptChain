@@ -1,0 +1,444 @@
+{
+  "name": "Image-to-Video",
+  "scope": {
+    "type": "architecture",
+    "architecture": "ltx"
+  },
+  "created_at": 1775275650,
+  "nodes": [
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        1320,
+        0
+      ],
+      "size": [
+        225,
+        116
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        1310,
+        210
+      ],
+      "size": [
+        225,
+        116
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "LTXVConditioning",
+      "offset": [
+        1710,
+        210
+      ],
+      "size": [
+        290,
+        104
+      ],
+      "widgets_values": [
+        24
+      ],
+      "properties": {
+        "Node name for S&R": "LTXVConditioning"
+      }
+    },
+    {
+      "type": "BasicGuider",
+      "offset": [
+        2140,
+        0
+      ],
+      "size": [
+        260,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      }
+    },
+    {
+      "type": "SamplerCustomAdvanced",
+      "offset": [
+        2500,
+        10
+      ],
+      "size": [
+        260,
+        144
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        2140,
+        160
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "CreateVideo",
+      "offset": [
+        2500,
+        240
+      ],
+      "size": [
+        290,
+        104
+      ],
+      "widgets_values": [
+        24
+      ],
+      "properties": {
+        "Node name for S&R": "CreateVideo"
+      }
+    },
+    {
+      "type": "LTXAVTextEncoderLoader",
+      "offset": [
+        1260,
+        410
+      ],
+      "size": [
+        344.28125,
+        117.328125
+      ],
+      "widgets_values": [
+        "gemma_3_12B_it_fp8_scaled.safetensors",
+        "ltx-2.3-22b-distilled-fp8.safetensors",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "LTXAVTextEncoderLoader"
+      }
+    },
+    {
+      "type": "CheckpointLoaderSimple",
+      "offset": [
+        1670,
+        0
+      ],
+      "size": [
+        370,
+        130.65625
+      ],
+      "widgets_values": [
+        "ltx-2.3-22b-distilled-fp8.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      }
+    },
+    {
+      "type": "RandomNoise",
+      "offset": [
+        2130,
+        320
+      ],
+      "size": [
+        240,
+        83
+      ],
+      "widgets_values": [
+        849807879870073,
+        "randomize"
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      }
+    },
+    {
+      "type": "KSamplerSelect",
+      "offset": [
+        2140,
+        480
+      ],
+      "size": [
+        240,
+        83
+      ],
+      "widgets_values": [
+        "euler"
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      }
+    },
+    {
+      "type": "LTXVScheduler",
+      "offset": [
+        2490,
+        410
+      ],
+      "size": [
+        300,
+        170
+      ],
+      "widgets_values": [
+        8,
+        2.05,
+        0.95,
+        true,
+        0.1
+      ],
+      "properties": {
+        "Node name for S&R": "LTXVScheduler"
+      }
+    },
+    {
+      "type": "LTXVImgToVideoInplace",
+      "offset": [
+        1710,
+        390
+      ],
+      "size": [
+        300,
+        156
+      ],
+      "widgets_values": [
+        1,
+        false
+      ],
+      "properties": {
+        "Node name for S&R": "LTXVImgToVideoInplace"
+      }
+    },
+    {
+      "type": "LTXVPreprocess",
+      "offset": [
+        1300,
+        630
+      ],
+      "size": [
+        290,
+        80
+      ],
+      "widgets_values": [
+        18
+      ],
+      "properties": {
+        "Node name for S&R": "LTXVPreprocess"
+      }
+    },
+    {
+      "type": "EmptyLTXVLatentVideo",
+      "offset": [
+        1720,
+        620
+      ],
+      "size": [
+        290,
+        176
+      ],
+      "widgets_values": [
+        1248,
+        544,
+        121,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLTXVLatentVideo"
+      }
+    },
+    {
+      "type": "LoadImage",
+      "offset": [
+        860,
+        0
+      ],
+      "size": [
+        340,
+        460
+      ],
+      "widgets_values": [
+        "i-asked-chatgpt-to-recreate-lady-angry-at-cat-meme-in-v0-4e81h21x76jg1.webp",
+        "image"
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      }
+    },
+    {
+      "type": "SaveVideo",
+      "offset": [
+        2850,
+        10
+      ],
+      "size": [
+        330,
+        200
+      ],
+      "widgets_values": [
+        "video/ComfyUI",
+        "auto",
+        "auto"
+      ],
+      "properties": {
+        "Node name for S&R": "SaveVideo"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 6,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 0,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 2,
+      "to_node_idx": 12,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 2,
+      "to_node_idx": 5,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 9,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 10,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 11,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 12,
+      "from_slot": 0,
+      "to_node_idx": 11,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 12,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 4
+    },
+    {
+      "from_node_idx": 13,
+      "from_slot": 0,
+      "to_node_idx": 12,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 14,
+      "from_slot": 0,
+      "to_node_idx": 12,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 15,
+      "from_slot": 0,
+      "to_node_idx": 13,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 16,
+      "to_slot": 0
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 1,
+      "to_node_idx": 0,
+      "to_slot": 1
+    },
+    {
+      "from_slot": 2,
+      "to_node_idx": 1,
+      "to_slot": 1
+    }
+  ],
+  "id": "ltx23-i2v",
+  "category": "Video",
+  "order": 1
+}

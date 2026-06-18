@@ -1,0 +1,1275 @@
+{
+  "name": "Z-Image Prompts",
+  "prompts": [
+    {
+      "id": "zimage-3d_styles-cartoony",
+      "name": "Cartoony",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Cartoony\nStylized 3D cartoon style with exaggerated proportions and vibrant colors. Fortnite-inspired aesthetic, chunky silhouettes for visibility. Bold saturated palette, simplified textures with realistic materials. Playful approachable game art style.\n\nNegative Prompt:\nrealistic proportions, muted colors, photorealistic, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-cel_shaded_3d",
+      "name": "Cel-Shaded 3D",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Cel-Shaded 3D\nCel-shaded 3D render with bold outlines and flat color shading. Borderlands or anime game style, stylized lighting with sharp shadow edges. Clean vector-like appearance, comic book aesthetic.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, realistic shading, soft shadows, photorealistic",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-chibi_3d",
+      "name": "Chibi 3D",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Chibi 3D\nCute chibi-style 3D character with big head and small body. Adorable proportions, soft rounded features, glossy finish. Bright colorful rendering, studio lighting. High quality 3D render.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, realistic proportions, scary, dark",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-clay_render",
+      "name": "Clay Render",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Clay Render\nA realistic clay figurine with accurate human proportions, sculpted from smooth matte polymer clay. The sculpture has professional realistic handmade quality, displayed in a miniature diorama setting. Macro photography with shallow depth of field.\n\nNegative Prompt:\nanime, cel shading, CGI, digital art, glossy, subsurface scattering, ray tracing, blender render, unreal engine, smooth plastic, 3d render, realistic skin, photorealistic",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-claymation",
+      "name": "Claymation",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Claymation\nA handmade claymation character in stop-motion animation style, sculpted from matte plasticine with visible fingerprint marks and subtle imperfections. Charming stylized proportions with smooth rounded forms, resembling Aardman animations. Miniature set diorama with warm studio lighting, macro photography with shallow depth of field.\n\nNegative Prompt:\nanime, cel shading, CGI, digital art, glossy, subsurface scattering, ray tracing, blender render, unreal engine, smooth plastic, 3d render, realistic skin, photorealistic",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-funko_pop",
+      "name": "Funko Pop",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Funko Pop\nFunko Pop vinyl figure style with oversized square head and small body. Black dot eyes, stylized simplified features. Glossy vinyl material, collectible figure aesthetic. Clean studio render.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, realistic eyes, detailed features, realistic proportions",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-hologram",
+      "name": "Hologram",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Hologram\nSubject rendered as a faint blue hologram like Princess Leia's message in Star Wars, ghostly transparent figure made of flickering light with horizontal scan-lines throughout. See-through luminous blue form against dark background, barely visible ethereal projection.\n\nNegative Prompt:\nsolid opaque, realistic skin, warm tones, natural colors, physical body, flesh tones, fully visible, solid form",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-isometric",
+      "name": "Isometric",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Isometric\nSubject viewed from an isometric perspective at a 45-degree angle above, rendered as a miniature 3D game asset with clean geometric forms. Orthographic projection with no perspective distortion, bright cheerful colors with soft ambient shadows. Tiny diorama scene resembling a mobile game or architectural visualization, sharp detailed render.\n\nNegative Prompt:\nfirst-person view, eye-level camera, vanishing point perspective, realistic photograph, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-low_poly",
+      "name": "Low Poly",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Low Poly\nStylized low poly 3D art with visible geometric facets. Minimalist aesthetic, flat shaded triangular surfaces. Modern indie game style, clean colors with subtle gradients. Sharp edges.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, high detail, realistic, smooth surfaces",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-nendoroid",
+      "name": "Nendoroid",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Nendoroid\nNendoroid chibi figure style with oversized head and small body. Cute collectible figure aesthetic, glossy PVC material look. Clean studio lighting, display stand. High quality 3D render.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, realistic proportions, matte, rough texture",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-pixar",
+      "name": "Pixar/Disney",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Pixar/Disney\nPixar 3D animation style with expressive character design. Soft subsurface scattering skin, large expressive eyes, stylized proportions. Cinematic lighting with warm tones, soft shadows. High quality 3D render, sharp focus.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, realistic, photorealistic, anime, 2D, flat",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-pixel_art",
+      "name": "Pixel Art",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Pixel Art\nDetailed pixel art style with visible pixels creating retro game aesthetic. 16-bit or 32-bit era quality, limited color palette with careful dithering. Clean crisp pixels, nostalgic video game look.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, smooth, anti-aliased, realistic, 3D render",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-ps1_era",
+      "name": "PS1 Era",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - PS1 Era\nPlayStation 1 era 3D graphics with low polygon count and texture warping. Affine texture mapping artifacts, vertex jitter on edges. Gouraud shading, limited color palette. 90s retro game aesthetic, nostalgic early 3D look.\n\nNegative Prompt:\nhigh poly, smooth textures, modern graphics, realistic, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-realistic",
+      "name": "Realistic",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Realistic\n3D render in Unreal Engine 5 style. Video game character with stylized realism, subsurface scattering on skin, rim lighting. AAA game promotional art quality, highly detailed, sharp focus.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, plastic skin, flat lighting, low poly, untextured, amateur, mobile game quality",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-vector_3d",
+      "name": "Vector",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Vector\nClean vector art style with flat solid colors and crisp geometric shapes. Bold outlines, no gradients or textures. Minimalist graphic design aesthetic, scalable illustration look. Simple clean forms, limited color palette.\n\nNegative Prompt:\ngradients, textures, realistic shading, 3D depth, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-voxel",
+      "name": "Voxel/Minecraft",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Voxel/Minecraft\nVoxel art style made of 3D cubes and blocks. Minecraft aesthetic, blocky geometric forms. Bright colors, clean edges, isometric or 3D perspective. Sharp render.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, smooth, curved, realistic, organic shapes",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-3d_styles-wireframe",
+      "name": "Wireframe",
+      "category": "3D Styles",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Styles - Wireframe\nSubject rendered entirely as a 3D wireframe mesh, the figure constructed from geometric lines connecting vertices with no solid surfaces or textures. The entire form is visible as a transparent polygon grid structure, glowing white or green lines against a dark background. Technical CAD visualization style with mathematical precision.\n\nNegative Prompt:\nsolid surfaces, filled polygons, textured skin, realistic rendering, shaded, opaque, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-90s_anime",
+      "name": "90s Anime",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - 90s Anime\n90s retro anime style with nostalgic OVA aesthetic. Bold linework, high contrast cel shading, vibrant saturated colors. Film grain, subtle chromatic aberration, VHS texture. Classic hand-drawn animation look, dynamic action poses.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, modern, digital, 3D, smooth gradients",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-bishonen",
+      "name": "Bishonen",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Bishonen\nBishonen pretty boy anime style with handsome androgynous male character. Romantic shoujo aesthetic with sparkles and roses, flowing hair, delicate features. Soft lighting, dreamy atmosphere, elegant poses. Long-haired pretty boy design, emotionally expressive.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, muscular, rugged, masculine, ugly",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-cel_shaded",
+      "name": "Cel Shaded",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Cel Shaded\nAnime key visual illustration with cel shaded coloring and clean sharp linework. Vibrant colors, expressive character design, detailed background. Masterpiece quality, highly detailed, sharp focus.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, photorealistic, 3D render, western cartoon, sketch, unfinished, flat colors, amateur",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-chibi",
+      "name": "Chibi",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Chibi\nCute chibi anime style with oversized head and small body. Adorable simplified features, big expressive eyes, rounded proportions. Bright cheerful colors, clean linework, kawaii aesthetic.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, realistic proportions, detailed anatomy, scary, dark",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-comic_book",
+      "name": "Comic Book",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Comic Book\nWestern comic book style illustration with bold outlines and vivid colors. Halftone dot shading, dramatic shadows, dynamic superhero poses. Marvel or DC inspired aesthetic, inked linework, punchy saturated palette.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, anime, manga, soft, pastel, realistic",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-donghua",
+      "name": "Donghua",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Donghua\nChinese Donghua anime style with elegant flowing aesthetic. Traditional ink wash painting influences mixed with modern anime rendering. Ethereal atmosphere, intricate costume details, xianxia or wuxia influence. Delicate linework, rich color palette.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, western cartoon, chibi, simple",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-hyperrealistic",
+      "name": "Hyperrealistic",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Hyperrealistic\nHyperrealistic anime style blending photorealism with anime aesthetics. Realistic skin texture with subsurface scattering, expressive anime eyes with realistic reflections. Cinematic studio lighting, detailed hair strands, depth of field. High fidelity rendering, sharp focus.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, flat colors, flat lighting, pure cartoon, chibi, super deformed, sketchy, unfinished",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-irasutoya",
+      "name": "Irasutoya Clipart",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Irasutoya Clipart\nSubject rendered in Irasutoya Japanese clipart style, a simple cute illustration with flat colors and rounded features. Clean minimalist linework with friendly expressive face, manga-influenced but heavily simplified. Approachable stock illustration aesthetic like Japanese free clipart.\n\nNegative Prompt:\nrealistic, detailed, 3D, shaded, complex, dark, serious, photograph, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-manga",
+      "name": "Manga",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Manga\nBlack and white manga illustration with detailed ink linework. Screentone shading, dynamic panel composition, expressive speed lines. High contrast, clean precise lines, professional manga quality.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, color, colored, painted, 3D",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-semi_realistic",
+      "name": "Semi-Realistic",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Semi-Realistic\n2.5D semi-realistic anime style blending expressive anime features with realistic detail. Realistic skin texture and lighting, nuanced facial structure with expressive anime eyes. Modern rendering with soft volumetric shadows, cinematic depth of field. Detailed hair strands, masterpiece quality, sharp focus.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, pure cartoon, chibi, flat colors, amateur",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-shonen",
+      "name": "Shonen",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Shonen\nDynamic shonen anime style with action-packed energy. Bold dramatic linework, intense expressions, dynamic poses. High contrast lighting, speed lines, powerful aura effects. Dragon Ball or Naruto inspired aesthetic.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, static, calm, soft, muted colors",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-studio_ghibli",
+      "name": "Studio Ghibli",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Studio Ghibli\nStudio Ghibli inspired anime style with soft watercolor aesthetic. Hand-painted backgrounds, gentle color palette, whimsical atmosphere. Miyazaki-esque character design, emotional warmth, detailed environmental storytelling.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bad anatomy, deformed, distorted, harsh colors, dark, gritty, realistic, 3D",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-anime-vinyl_sticker",
+      "name": "Vinyl Sticker",
+      "category": "Anime",
+      "text": "// Your Tags\n{cursor}\n\n// Anime - Vinyl Sticker\nVinyl die-cut sticker art style with bold black outlines and white border. Flat vibrant colors, clean vector-like illustration. Designed for cutout shape, simple iconic design. Laptop sticker aesthetic, bold graphic illustration with thick outline.\n\nNegative Prompt:\nrealistic, 3D, shaded, gradients, no outline, complex background, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-bacon",
+      "name": "Francis Bacon",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Francis Bacon\nSubject rendered in Francis Bacon's disturbing painting style, distorted figure with smeared and blurred features suggesting movement or anguish. Isolated against a dark flat background, raw fleshy paint handling with visible brushwork. Psychological intensity and grotesque distortion, figure appearing trapped or contorted, unsettling expressionist portraiture.\n\nNegative Prompt:\nclean, beautiful, peaceful, sharp details, clear features, photorealistic, happy, bright colors, digital, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-davinci",
+      "name": "Da Vinci",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Da Vinci\nSubject rendered in Leonardo da Vinci's painting style with soft sfumato technique, subtle smoky transitions between tones with no harsh edges. Mysterious enigmatic expression, warm earth tones and muted colors. Atmospheric perspective, Renaissance oil painting mastery with delicate glazing layers, Mona Lisa aesthetic.\n\nNegative Prompt:\nharsh lines, bright colors, flat, modern, digital, photograph, sharp edges, cartoon, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-goya",
+      "name": "Goya",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Goya\nFrancisco Goya painting style with dark romantic atmosphere and psychological intensity. Rich shadows with dramatic lighting, Spanish court portrait elegance or Black Paintings darkness. Earthy palette with deep blacks, haunting emotional depth. Old master technique with modern sensibility.\n\nNegative Prompt:\nphotograph, bright cheerful, flat lighting, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-hokusai",
+      "name": "Hokusai",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Hokusai\nKatsushika Hokusai Japanese ukiyo-e woodblock print style. Bold outlines with flat color areas, distinctive wave patterns. Traditional Japanese composition, Mount Fuji or nature subjects. Prussian blue and indigo palette, The Great Wave aesthetic.\n\nNegative Prompt:\nphotograph, western style, realistic shading, oil paint texture, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-klimt",
+      "name": "Klimt",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Klimt\nGustav Klimt Art Nouveau painting with ornate gold leaf patterns and decorative Byzantine motifs. Flat decorative backgrounds with realistic faces, intricate geometric and floral patterns. Rich gold, bronze and jewel tones. Sensual elegance, The Kiss inspired aesthetic.\n\nNegative Prompt:\nphotograph, plain background, minimalist, modern, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-monet",
+      "name": "Monet",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Monet\nClaude Monet impressionist painting with soft dappled brushstrokes capturing light. Broken color technique, luminous atmospheric quality. Pastel color palette, water reflections, plein air aesthetic. Gentle diffused light, dreamy garden or water lily mood.\n\nNegative Prompt:\nphotograph, harsh lines, sharp edges, dark, high contrast, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-mucha",
+      "name": "Mucha",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Mucha\nAlphonse Mucha Art Nouveau poster style with elegant decorative borders and flowing organic lines. Beautiful figure with long flowing hair surrounded by floral motifs. Soft pastel colors with gold accents, ornate circular halo frame. Elegant poster art aesthetic.\n\nNegative Prompt:\nphotograph, plain background, modern, minimalist, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-picasso",
+      "name": "Picasso",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Picasso\nPablo Picasso cubist style with fragmented geometric forms and multiple perspectives. Bold angular shapes, distorted features showing different viewpoints simultaneously. Strong black outlines, muted earth tones or blue period palette. Abstract modernist aesthetic.\n\nNegative Prompt:\nphotograph, realistic proportions, single viewpoint, smooth, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-rembrandt",
+      "name": "Rembrandt",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Rembrandt\nRembrandt oil painting with dramatic chiaroscuro lighting. Golden brown tones emerging from deep shadows, spotlight illuminating subject. Rich impasto texture, warm earth palette. Baroque master technique, intimate psychological portrait quality.\n\nNegative Prompt:\nphotograph, flat lighting, bright colors, cold tones, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-van_gogh",
+      "name": "Van Gogh",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Van Gogh\nPainting in Vincent van Gogh style with bold swirling brushstrokes and thick impasto texture. Expressive post-impressionist technique, dynamic movement in every stroke. Vibrant complementary colors, deep blues and bright yellows. Emotional intensity, Starry Night inspired aesthetic.\n\nNegative Prompt:\nphotograph, smooth, flat colors, realistic, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-artists-warhol",
+      "name": "Warhol",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Warhol\nAndy Warhol pop art style with bold flat colors and high contrast. Screen print aesthetic, graphic simplified forms. Vibrant neon pinks, electric blues, acid yellows. Celebrity portrait treatment, repetition and mass media influence.\n\nNegative Prompt:\nphotograph, subtle colors, realistic shading, painterly, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-concept_art",
+      "name": "Concept Art",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Concept Art\nProfessional concept art, digital painting with painterly brushstrokes. Cinematic composition with dramatic lighting, rich color palette with moody atmosphere. Detailed textures, immersive depth. Entertainment industry quality, sharp focus.\n\nNegative Prompt:\nphotograph, photorealistic, rough sketch, unfinished, flat colors, flat lighting, amateur, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-concept_realistic",
+      "name": "Concept Realistic",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Concept Realistic\nConcept art on toned paper with graphite pencil underdrawing. Subject rendered in hyperrealistic colors with visible pencil linework beneath, detailed color study. Clean background or minimal environment, professional concept art presentation. Sharp focus on subject details.\n\nNegative Prompt:\nphotograph, 3D render, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-concept_sketch",
+      "name": "Concept Sketch",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Concept Sketch\nConcept art sketch on warm toned paper. Charcoal and pencil linework with soft pastel color accents, loose expressive strokes. Visible paper texture, muted color palette with selective highlights. Professional illustration, artist sketchbook study.\n\nNegative Prompt:\nphotograph, photorealistic, 3D render, digital art, clean lines, polished, smooth shading, oversaturated, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-concept_soft_watercolor",
+      "name": "Concept Soft Watercolor",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Concept Soft Watercolor\nSoft concept art with loose watercolor rendering and no visible linework. Ethereal wash-based forms with gentle color bleeding and soft edges. No outlines, shapes defined by color value alone. Minimal background, dreamy painterly character study.\n\nNegative Prompt:\nphotograph, 3D render, hard lines, ink outlines, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-concept_watercolor",
+      "name": "Concept Watercolor",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Concept Watercolor\nConcept art sketch on toned paper with pencil linework colorized in transparent watercolors. Visible graphite underdrawing with soft watercolor washes building form and color. Character study with minimal background, traditional mixed media aesthetic.\n\nNegative Prompt:\nphotograph, 3D render, oil paint, acrylic, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-gouache",
+      "name": "Gouache",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Gouache\nConcept art painted in gouache, opaque watercolor with matte finish. Classic animation production art style, rich flat color areas with subtle gradients. Visible brushwork, warm color palette. Disney or Ghibli background art influence.\n\nNegative Prompt:\nphotograph, 3D render, glossy, transparent, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-ink_wash",
+      "name": "Ink Wash",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Ink Wash\nConcept art in ink wash style with Eastern influences. Sumi-e inspired brushwork, fluid ink gradients from dark to light. Selective watercolor accents on subject, visible brush texture. Atmospheric depth, traditional rice paper aesthetic.\n\nNegative Prompt:\nphotograph, 3D render, digital, harsh lines, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-line_art",
+      "name": "Line Art",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Line Art\nClean concept art linework, precise ink lines with confident strokes. Minimal to no color, focus on form and contour. Professional illustration line drawing, subtle line weight variation. Clear readable silhouette.\n\nNegative Prompt:\nphotograph, 3D render, painted, colored, shaded, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-marker",
+      "name": "Marker/Copic",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Marker/Copic\nSubject rendered as a Copic marker illustration on white paper, the entire figure drawn with bold confident marker strokes and smooth color gradients. Visible marker streaks and layered ink blending, bright saturated colors with clean white highlights left as bare paper. Industrial design sketch aesthetic, professional concept art rendering.\n\nNegative Prompt:\nphotograph, 3D render, pencil, charcoal, realistic skin, digital art, painterly, watercolor, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-concept_art-thumbnail",
+      "name": "Thumbnail",
+      "category": "Concept Art",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art - Thumbnail\nSubject rendered as a quick concept art thumbnail sketch, the figure captured with loose gestural brushstrokes showing only essential forms and values. Rough unfinished exploration sketch with minimal detail, focus on silhouette and composition rather than refinement. Rapid ideation style, expressive and intentionally incomplete.\n\nNegative Prompt:\nphotograph, 3D render, polished, detailed, refined, realistic, finished, clean lines, sharp details, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-ballpoint_pen",
+      "name": "Ballpoint Pen",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Ballpoint Pen\nSubject rendered entirely as a ballpoint pen drawing on white paper, the entire figure drawn in blue ink using layered crosshatching strokes. Monochromatic blue ballpoint illustration with no color, form built through careful pen pressure and hatching density. Hyperrealistic ballpoint art style with fine detailed linework throughout, notebook paper aesthetic.\n\nNegative Prompt:\nfull color, painted, realistic skin tones, photograph, digital art, multiple colors, colored, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-blueprint",
+      "name": "Blueprint",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Blueprint\nTechnical blueprint schematic drawing with white lines on deep blue background. Precise engineering diagram style, architectural drafting aesthetic. Grid lines, measurements, technical annotations. Cyanotype blueprint reproduction look, technical illustration.\n\nNegative Prompt:\nphotograph, color, organic, painterly, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-chalk",
+      "name": "Chalk",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Chalk\nChalk drawing on dark black paper, white and colored chalk creating forms from darkness. Soft dusty texture, layered strokes building highlights. Dramatic contrast with dark background showing through. Traditional chalkboard or toned paper aesthetic.\n\nNegative Prompt:\nphotograph, white background, digital, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-charcoal",
+      "name": "Charcoal",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Charcoal\nCharcoal drawing on textured paper with rich velvety blacks and soft gradations. Expressive marks from vine and compressed charcoal, dramatic chiaroscuro lighting. Smudged blending in shadows, crisp edges on highlights. Deep tonal range, atmospheric depth. Traditional fine art charcoal study.\n\nNegative Prompt:\nphotograph, color, painted, digital, clean lines, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-chinese_ink",
+      "name": "Chinese Ink",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Chinese Ink\nChinese ink brush painting in traditional sumi-e style on rice paper. Fluid ink wash gradations from deep black to pale gray, expressive brushstrokes. Wet-on-wet technique with soft bleeding edges, empty space as compositional element. Zen aesthetic, Eastern brush painting tradition.\n\nNegative Prompt:\nphotograph, western style, digital, hard edges, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-colored_pencil",
+      "name": "Colored Pencil",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Colored Pencil\nColored pencil illustration with rich layered colors and visible pencil strokes. Burnished smooth areas with waxy sheen, textured paper grain showing through lighter areas. Vibrant saturated hues built through multiple layers. Traditional colored pencil realism.\n\nNegative Prompt:\nphotograph, paint, digital, flat colors, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-conte_crayon",
+      "name": "Conte Crayon",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Conte Crayon\nConte crayon drawing on warm toned paper in classical trois crayons technique. Sanguine red-brown and sepia tones with white chalk highlights. Soft hatching and blending, Renaissance life drawing aesthetic. Warm earth tones on buff or gray paper, classical figure study quality.\n\nNegative Prompt:\nphotograph, bright colors, digital, modern, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-crosshatch",
+      "name": "Crosshatch",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Crosshatch\nDetailed crosshatching pen and ink drawing with layered parallel lines creating tonal depth. Fine technical hatching following form contours, multiple angles building shadows. High contrast black ink on white paper, engraving-like precision. Classical crosshatch illustration technique.\n\nNegative Prompt:\nphotograph, color, painted, smooth shading, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-davinci_sketch",
+      "name": "DaVinci Sketch",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - DaVinci Sketch\nSubject rendered as a Leonardo da Vinci anatomical study, the figure drawn in sepia ink and silverpoint on aged yellowed paper. Renaissance master sketch style with precise linework showing anatomical understanding, subtle cross-hatching for shading. Warm brown tones on antique parchment, scientific illustration meets fine art, Da Vinci codex aesthetic.\n\nNegative Prompt:\nfull color, modern, digital, photograph, bright colors, painted, realistic skin tones, clean white paper, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-gesture",
+      "name": "Gesture",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Gesture\nQuick gesture drawing with loose expressive lines capturing movement and energy. Fluid dynamic strokes following line of action, minimal detail maximum expression. Charcoal or graphite on newsprint, figure study aesthetic. Spontaneous confident marks, artistic shorthand for form.\n\nNegative Prompt:\nphotograph, detailed, rendered, stiff, static, digital, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-ink",
+      "name": "Ink",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Ink\nPen and ink drawing with fine precise linework on white paper. Confident strokes with varied line weight, hatching for tonal values. High contrast black ink on clean white, crisp details. Traditional ink illustration, sharp and graphic.\n\nNegative Prompt:\nphotograph, color, painted, pencil, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-pastel",
+      "name": "Pastel",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Pastel\nSoft pastel drawing with rich velvety pigments on textured paper. Smooth blended gradients, visible paper tooth in lighter areas. Chalky matte finish with vibrant colors. Feathered strokes and soft edges, traditional pastel portrait or landscape quality.\n\nNegative Prompt:\nphotograph, oil paint, glossy, digital, hard edges, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-pencil",
+      "name": "Pencil",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Pencil\nSubject rendered as a graphite pencil drawing on white paper, the entire figure sketched in gray pencil with visible hatching and cross-hatching strokes. No color anywhere, only shades of gray from light to dark. Traditional hand-drawn sketch with pencil texture throughout, fine linework for details and softer blending in shadows.\n\nNegative Prompt:\ncolor, colored, painted, photograph, digital art, skin tones, any color, tinted, sepia, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-drawing-stippling",
+      "name": "Stippling",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Stippling\nStippling pointillism drawing made entirely of small dots creating form and shadow. Dense dot clusters in dark areas, sparse dots in highlights. Black ink dots on white paper, incredible patience and detail. Photorealistic stipple art, no lines only dots.\n\nNegative Prompt:\nphotograph, lines, hatching, color, painted, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-editing-face_enhance",
+      "name": "Face Enhance",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Face Enhance\nPhotorealistic face with natural skin texture and visible pores. Preserve exact facial features and identity, subtle micro-details. Natural lighting, sharp focus on eyes.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, plastic skin, airbrushed, altered features",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-editing-strong_restyle",
+      "name": "Strong Restyle",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Strong Restyle\nMajor stylistic transformation while preserving basic composition and subject. Significant detail regeneration, artistic interpretation.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-editing-style_transfer",
+      "name": "Style Transfer",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Style Transfer\nEnhance and refine details while preserving composition. Add stylistic improvements, improved lighting and color grading.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-editing-upscale_refine",
+      "name": "Upscale/Refine",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Upscale/Refine\nPhotorealistic enhancement with natural skin texture, visible pores, fine micro-details. Subtle imperfections preserved, natural sheen under dynamic lighting. Highly detailed, sharp focus.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, oversharpened, artificial",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-figurine-acrylic_stand",
+      "name": "Acrylic Stand",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Acrylic Stand\n2D anime character printed on clear acrylic standee with base. Flat printed artwork on transparent acrylic panel, vibrant CMYK colors. Clean cut edges, small pedestal base. Anime merchandise style, desk decoration collectible.\n\nNegative Prompt:\n3D figure, sculpture, real person, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-figurine-diorama",
+      "name": "Diorama",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Diorama\nDetailed figure diorama with scenic environmental base telling a story. Character figure integrated with themed backdrop elements, environmental props and lighting effects. Display piece with immersive scene design, collector's diorama quality.\n\nNegative Prompt:\nplain base, no environment, floating, blurry, low quality, watermark, text, logo, bad anatomy, deformed",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-figurine-figure_in_box",
+      "name": "Figurine in Box",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Figurine in Box\nSubject rendered as a 1/7 scale PVC realistic anime figurine displayed inside commercial product packaging with clear window display box. The figure has smooth matte skin finish and glossy hair, visible through plastic window. Colorful printed box art, Limited Edition collectible presentation, official merchandise product photography.\n\nNegative Prompt:\nreal person, realistic skin, photograph, open box, no packaging, rough texture, blurry, low quality, watermark, text, logo, bad anatomy, deformed",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-figurine-figure_on_desk",
+      "name": "Figurine on Desk",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Figurine on Desk\nSubject rendered as a 1/7 scale PVC realistic anime figurine displayed on wooden desk surface. The figure has smooth matte skin finish and glossy hair, seamless sculpt with precise painted details. Soft natural window lighting, shallow depth of field. Collector's display photography, lifestyle product shot.\n\nNegative Prompt:\nreal person, realistic skin, photograph, floating, no surface, rough texture, blurry, low quality, watermark, text, logo, bad anatomy, deformed",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-figurine-garage_kit",
+      "name": "Garage Kit",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Garage Kit\nUnpainted resin garage kit figure showing raw sculpt detail. Gray or white resin material, visible panel lines and part seams. Model kit aesthetic with professional sculpting quality, hobbyist collectible. Clean studio lighting.\n\nNegative Prompt:\npainted, colorful, PVC, mass produced, blurry, low quality, watermark, text, logo, bad anatomy, deformed",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-figurine-marble",
+      "name": "Marble",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Marble\nSubject rendered as a classical sculptural bust carved from marble, the figure shown as a stone sculpture depicting only head, neck and upper shoulders on an elegant pedestal base. Smooth polished marble surface with subtle veining, museum lighting casting dramatic shadows. Portrait sculpture with fine carved details, neoclassical statue aesthetic.\n\nNegative Prompt:\nreal person, realistic skin, flesh tones, full body, legs, photograph, living human, soft skin, fabric, clothing texture, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-figurine-miniature",
+      "name": "Miniature",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Miniature\nSubject rendered as a tiny miniature figure in a tilt-shift diorama scene, appearing as a small scale model viewed from above at an angle. Extremely shallow depth of field with blur at top and bottom edges, oversaturated toy-like colors making everything look like a miniature playset. The figure appears doll-sized in a model landscape.\n\nNegative Prompt:\nnormal scale, life-sized, deep focus, realistic proportions, natural colors, muted colors, eye-level view, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-figurine-pvc_figure",
+      "name": "PVC Figurine",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - PVC Figurine\n1/7 scale PVC realistic anime figurine with smooth matte skin finish and glossy hair. Seamless single-piece sculpt, precise painted details. Soft studio lighting on transparent acrylic display base. Commercial product photography, collectible figurine aesthetic.\n\nNegative Prompt:\nreal person, photograph, rough texture, matte hair, blurry, low quality, watermark, text, logo, bad anatomy, deformed",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-blue_hour",
+      "name": "Blue Hour",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Blue Hour\nBlue hour twilight lighting with cool deep blue tones. Soft diffused ambient light, no harsh shadows. Ethereal calm atmosphere, city lights beginning to glow warm against cool sky. Twilight photography aesthetic, dreamlike quality.\n\nNegative Prompt:\nwarm tones, orange, harsh sunlight, bright daylight, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-candlelight",
+      "name": "Candlelight",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Candlelight\nWarm candlelight illumination with soft flickering orange glow. Single point light source, intimate atmosphere with deep warm shadows. Romantic mood, faces softly lit from below or side. Warm color temperature around 1800K, cozy intimate setting.\n\nNegative Prompt:\ncold tones, harsh light, bright, daylight, multiple light sources, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-dramatic",
+      "name": "Dramatic",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Dramatic\nDramatic cinematic lighting with strong directional light and deep shadows. High contrast with sculpted highlights, theatrical mood. Single powerful key light, minimal fill. Intense emotional atmosphere, bold light and shadow interplay.\n\nNegative Prompt:\nflat lighting, even illumination, soft, bright, cheerful, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-film_noir",
+      "name": "Film Noir",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Film Noir\nClassic film noir lighting with dramatic high contrast chiaroscuro. Deep black shadows, stark white highlights, minimal mid-tones. Venetian blind shadows, mysterious atmospheric mood. 1940s black and white cinema aesthetic, low-key dramatic lighting.\n\nNegative Prompt:\ncolor, bright, flat lighting, soft shadows, cheerful, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-golden_hour",
+      "name": "Golden Hour",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Golden Hour\nGolden hour lighting with warm sunset tones of orange, yellow, and amber. Soft diffused sunlight from low angle, long shadows, rim lighting on edges. Warm color temperature around 3000K, romantic atmospheric glow. Magic hour photography aesthetic.\n\nNegative Prompt:\ncold tones, blue, harsh midday light, flat lighting, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-high_key",
+      "name": "High Key",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - High Key\nHigh key lighting with bright airy illumination and minimal shadows. Even soft light from multiple sources, white or light backgrounds. Clean fresh aesthetic, optimistic mood. Overexposed feeling, fashion or beauty photography style.\n\nNegative Prompt:\ndark, shadows, moody, dramatic, high contrast, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-low_key",
+      "name": "Low Key",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Low Key\nLow key lighting with predominantly dark tones and selective highlights. Deep shadows dominating frame, small areas of bright illumination. Moody mysterious atmosphere, dramatic sculptural light on subject. Noir-inspired, theatrical mood.\n\nNegative Prompt:\nbright, airy, flat lighting, even illumination, cheerful, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-moonlight",
+      "name": "Moonlight",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Moonlight\nCool silvery moonlight illumination with soft blue-white tones. Gentle diffused light from above, long soft shadows. Nocturnal atmosphere, stars visible, peaceful night scene. Cool color temperature, ethereal nighttime glow.\n\nNegative Prompt:\nwarm tones, orange, bright daylight, harsh shadows, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-neon",
+      "name": "Neon",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Neon\nNeon lighting with vibrant colorful glow in cyberpunk aesthetic. Electric pink, cyan blue, and purple neon reflections on wet surfaces. Urban night atmosphere, light bleeding and color mixing. Blade Runner inspired, rain-slicked streets reflecting neon signs.\n\nNegative Prompt:\nnatural light, daylight, muted colors, warm tones, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-rim_light",
+      "name": "Rim Light",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Rim Light\nRim lighting with bright backlit edge glow outlining subject. Light source behind subject creating glowing halo around edges. Hair and shoulders catching light, separation from dark background. Dramatic silhouette with luminous edge definition.\n\nNegative Prompt:\nfront lighting, flat lighting, no edge glow, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-studio",
+      "name": "Studio",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Studio\nProfessional studio lighting with clean three-point setup. Key light, fill light, and backlight creating balanced illumination. Even skin tones, controlled shadows, seamless backdrop. Commercial photography quality, polished professional aesthetic.\n\nNegative Prompt:\nnatural light, harsh shadows, uneven lighting, amateur, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-lighting-volumetric",
+      "name": "Volumetric",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Volumetric\nVolumetric lighting with visible light rays cutting through atmosphere. God rays streaming through windows or trees, dust particles catching light. Dramatic shafts of light in hazy air, ethereal divine atmosphere. Cinematic light beams, atmospheric depth.\n\nNegative Prompt:\nclear air, no haze, flat lighting, even illumination, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-art_deco",
+      "name": "Art Deco",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Art Deco\nSubject rendered in Art Deco illustration style, the figure depicted with bold geometric patterns and 1920s glamour aesthetic. Streamlined elegant forms with sunburst motifs, chevrons, and angular designs throughout. Gold, black, and jewel tone color palette with luxurious chrome and metallic accents. Gatsby era poster art sophistication.\n\nNegative Prompt:\nrealistic skin, photograph, organic shapes, rustic, casual, modern, natural, soft curves, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-chrome",
+      "name": "Chrome",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Chrome\nSubject rendered as a chrome metal sculpture, the entire figure constructed from highly reflective polished chrome with mirror-like surface reflecting the environment. Liquid metal aesthetic with smooth metallic curves, silver reflections and highlights throughout. Futuristic chrome robot or T-1000 style metallic form.\n\nNegative Prompt:\nrealistic skin, matte, dull, flesh tones, fabric, organic texture, painted, plastic, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-embroidery",
+      "name": "Embroidery",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Embroidery\nSubject rendered as an embroidered textile artwork, the entire figure created with visible thread stitches on fabric backing. Cross-stitch and crewel embroidery techniques forming the image, raised textured needlework with thread direction following the form. Base fabric weave visible in background areas, traditional needlepoint craft aesthetic.\n\nNegative Prompt:\nrealistic skin, photograph, smooth surface, painted, digital art, woven tapestry, printed fabric, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-fabric",
+      "name": "Fabric/Textile",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Fabric/Textile\nSubject rendered as a woven fabric tapestry, the entire figure depicted in textile artwork with visible weave pattern and thread texture throughout. The image appears as a traditional woven cloth with rich textile colors, the form created through stitched threads on fabric. Tapestry or embroidered wall hanging aesthetic.\n\nNegative Prompt:\nrealistic skin, photograph, smooth surface, plastic, metal, digital art, painted, paper, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-glass",
+      "name": "Glass",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Glass\nSubject rendered as a transparent glass sculpture, the entire figure constructed from clear crystal glass with light refracting through the form. See-through translucent body with visible light caustics and prismatic reflections, delicate glass art aesthetic. Crystal figurine with smooth polished glass surface.\n\nNegative Prompt:\nrealistic skin, opaque, solid, flesh tones, fabric, matte, painted, metal, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-lego",
+      "name": "LEGO",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - LEGO\nMade entirely of LEGO bricks and pieces. Blocky minifigure aesthetic with characteristic yellow skin and simple dot eyes. Plastic brick texture, studs visible on surfaces. Bright primary colors, toy photography style. Everything constructed from interlocking LEGO elements.\n\nNegative Prompt:\nrealistic skin, smooth surfaces, organic shapes, photograph, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-mosaic",
+      "name": "Mosaic",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Mosaic\nSubject rendered as a Byzantine mosaic, the entire figure constructed from small colored tesserae tiles with visible grout lines between each piece. The form is built from hundreds of tiny square stone or glass tiles arranged to create the image, gold leaf accents and rich jewel tones. Ancient Roman church wall mosaic aesthetic, every part of image must be tiny tile stone framgments.\n\nNegative Prompt:\nrealistic skin, photograph, smooth surface, continuous, no tiles, no grout, modern, painted, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-origami",
+      "name": "Origami",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Origami\nSubject rendered as an origami paper sculpture, the entire figure constructed from crisp geometric folds and clean creases in colored paper. Angular faceted surfaces forming the shape through folded planes, visible fold lines and paper edges throughout. Japanese paper folding art style, the figure appearing as a single folded sheet.\n\nNegative Prompt:\nrealistic skin, photograph, soft curves, organic shapes, smooth surfaces, fabric, flesh, glued, cut paper, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-paper_cutting",
+      "name": "Paper Cutting",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Paper Cutting\nSubject rendered as a paper cutting silhouette artwork, the entire figure depicted as an intricate cutout design in black paper on white background. The form created through delicate cut patterns and negative space, lace-like details throughout with sharp clean edges. Scherenschnitte or Chinese paper cutting aesthetic, flat two-dimensional silhouette art.\n\nNegative Prompt:\nrealistic skin, photograph, 3D, depth, shaded, colored, folded, painted, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-material-stained_glass",
+      "name": "Stained Glass",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Stained Glass\nSubject rendered as a stained glass window, the entire figure divided into colorful glass segments separated by bold black lead lines. The form is constructed from translucent jewel-toned glass pieces with light shining through, every part of the image broken into geometric glass shapes. Gothic cathedral window aesthetic with vibrant colors.\n\nNegative Prompt:\nrealistic skin, photograph, solid opaque, smooth continuous surface, no outlines, no segments, muted colors, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-oil_painting-alla_prima",
+      "name": "Alla Prima",
+      "category": "Oil Painting",
+      "text": "// Your Tags\n{cursor}\n\n// Oil Painting - Alla Prima\nAlla prima oil painting, wet-on-wet technique in single session. Loose confident brushstrokes, fresh spontaneous execution. Visible brush marks with soft blended edges, painterly and direct. Bold color mixing on canvas, lively immediate quality.\n\nNegative Prompt:\nwatermark, logo, signature",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-oil_painting-classical_realism",
+      "name": "Classical Realism",
+      "category": "Oil Painting",
+      "text": "// Your Tags\n{cursor}\n\n// Oil Painting - Classical Realism\noil painting on canvas, rich visible brush strokes, thick impasto texture in places, layered oil paint application with subtle blending and wet-on-wet edges, realistic oil paint sheen and color depth, textured surface with visible canvas weave in thinner areas, painterly execution, museum-quality fine art reproduction, muted yet vibrant color palette with harmonious glazing, no digital smoothness, authentic traditional oil painting appearance\n\nNegative Prompt:\nwatermark, logo, signature",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-oil_painting-clean_modern",
+      "name": "Clean Modern",
+      "category": "Oil Painting",
+      "text": "// Your Tags\n{cursor}\n\n// Oil Painting - Clean Modern\nOil painting on canvas with rich visible brushstrokes. Thick impasto texture with layered paint application, wet-on-wet blending and subtle glazing. Visible canvas weave in thinner areas, realistic paint sheen and color depth. Museum-quality fine art, authentic traditional oil painting.\n\nNegative Prompt:\nphotograph, digital art, smooth airbrushed, plastic, 3D render, flat colors, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-oil_painting-expressionist",
+      "name": "Expressionist",
+      "category": "Oil Painting",
+      "text": "// Your Tags\n{cursor}\n\n// Oil Painting - Expressionist\nExpressionist oil painting with bold swirling brushstrokes and thick impasto texture. Intense emotional colors, Van Gogh-inspired dynamic energy. Visible paint ridges, dramatic movement in brushwork. Raw expressive power, vibrant saturated palette.\n\nNegative Prompt:\nwatermark, logo, signature",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-oil_painting-impressionist",
+      "name": "Impressionist",
+      "category": "Oil Painting",
+      "text": "// Your Tags\n{cursor}\n\n// Oil Painting - Impressionist\nImpressionist oil painting with loose visible brushstrokes capturing light and atmosphere. Vibrant broken color, dappled sunlight effects, Monet-inspired palette. Soft edges, painterly texture, plein air quality. Spontaneous brushwork, luminous colors.\n\nNegative Prompt:\nwatermark, logo, signature",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-oil_painting-old_masters",
+      "name": "Old Masters",
+      "category": "Oil Painting",
+      "text": "// Your Tags\n{cursor}\n\n// Oil Painting - Old Masters\nOil painting in the style of Old Masters. Dramatic chiaroscuro lighting with deep shadows and luminous highlights, Rembrandt-style golden undertones. Rich dark background, fine glazing layers for skin depth, classical composition. Baroque influence, museum-quality fine art.\n\nNegative Prompt:\nwatermark, logo, signature",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-oil_painting-palette_knife",
+      "name": "Palette Knife",
+      "category": "Oil Painting",
+      "text": "// Your Tags\n{cursor}\n\n// Oil Painting - Palette Knife\nOil portrait composed entirely of thick chunky blocks of color, no smooth surfaces anywhere. Face constructed from bold rectangular strokes of paint visible as distinct shapes, features suggested only by color placement not fine detail. Heavy textured surface like a Francoise Nielly painting, every inch covered in visible palette knife marks.\n\nNegative Prompt:\nsmooth skin, detailed eyes, clear facial features, photorealistic, clean, refined, soft, blended, airbrushed, digital",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-cinematic",
+      "name": "Cinematic Dramatic",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Cinematic Dramatic\nCinematic still from a major motion picture. Dramatic chiaroscuro lighting with deep shadows, anamorphic lens with subtle lens flare. Cinematic color grading, film grain texture. Natural skin texture, sharp focus, raw photo.\n\nNegative Prompt:\nasymmetrical eyes, crossed eyes, lazy eye, misaligned pupils, deformed face, bad anatomy, blurry, low quality, jpeg artifacts, watermark, text, logo, plastic skin, doll-like, airbrushed, overly smooth skin, cartoon, distorted, flat lighting, overexposed, washed out",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-default",
+      "name": "Default",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Default\nSubject in center and isolated in a dark grey studio background. Real life subject shot on Sony A7RV with 50mm f/1.4 lens, shallow depth of field, cinematic color grading. Photorealistic, natural skin pores and texture, sharp focus, raw photo.\n\nNegative Prompt:\nasymmetrical eyes, crossed eyes, lazy eye, misaligned pupils, deformed face, bad anatomy, blurry, low quality, jpeg artifacts, watermark, text, logo, plastic skin, doll-like, airbrushed, cartoon, distorted",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-documentary",
+      "name": "Documentary",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Documentary\nNational Geographic documentary photography capturing authentic candid moment. Natural available light, environmental storytelling with rich context. Genuine unguarded expression, photojournalistic quality, sharp focus, raw photo.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, posed, artificial lighting, studio backdrop",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-environmental",
+      "name": "Environmental",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Environmental\nEnvironmental portrait with rich contextual background telling a story. Dappled light filtering through natural canopy, atmospheric depth. Subject integrated with surroundings, layers of visual interest. Sharp focus, raw photo.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, plain backdrop, studio lighting, isolated subject",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-epic_landscape",
+      "name": "Epic Landscape",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Epic Landscape\nEpic landscape photography shot on Phase One IQ4 with 24mm wide angle lens at f/11. Volumetric lighting, atmospheric perspective with depth. Tack sharp throughout, raw photo.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, cartoon, distorted, flat lighting, overexposed sky, shallow depth of field, out of focus background",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-fashion_editorial",
+      "name": "Fashion Editorial",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Fashion Editorial\nHigh-end fashion editorial photography, Vogue magazine quality. Dramatic side lighting with shadow sculpting, strong contrast. Editorial pose, runway elegance, 85mm lens with shallow depth of field. Sharp focus, raw photo.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, amateur, flat lighting, casual pose, snapshot",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-film_noir",
+      "name": "Film Noir",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Film Noir\nSubject photographed in classic film noir style, dramatic black and white cinematography with stark high contrast lighting. Hard shadows cutting across the face from a single directional light source, deep impenetrable blacks and bright highlights with minimal midtones. Moody 1940s Hollywood atmosphere with venetian blind shadows, mysterious chiaroscuro lighting. Vintage film grain texture, hardboiled detective movie aesthetic.\n\nNegative Prompt:\ncolor, colorful, flat lighting, bright, cheerful, low contrast, soft shadows, modern, digital, clean, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-golden_hour_landscape",
+      "name": "Golden Hour Landscape",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Golden Hour Landscape\nGolden hour landscape photography with wide angle lens. Warm sunset light with pink and gold sky gradients, volumetric light rays, long shadows. Atmospheric haze and depth, cinematic color grading, sharp focus, raw photo.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, cartoon, distorted, overexposed sky, blown out highlights, cold tones, flat lighting, harsh midday light",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-golden_hour_portrait",
+      "name": "Golden Hour Portrait",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Golden Hour Portrait\nGolden hour portrait photography. Warm sunset light with soft shadows, backlit rim lighting on hair and shoulders. Warm color palette, natural outdoor setting. Natural skin texture with golden glow, sharp focus, raw photo.\n\nNegative Prompt:\nasymmetrical eyes, crossed eyes, lazy eye, misaligned pupils, deformed face, bad anatomy, blurry, low quality, jpeg artifacts, watermark, text, logo, plastic skin, doll-like, airbrushed, overly smooth skin, cartoon, distorted, cold tones, harsh midday lighting, studio lighting",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-macro",
+      "name": "Macro",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Macro\nExtreme macro photography with 100mm macro lens. Shallow depth of field with creamy bokeh, soft backlighting with subtle light rays. Hyper-detailed textures, fine surface details visible, sharp focus on subject.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, flat lighting, deep depth of field",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-medium_format",
+      "name": "Medium Format",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Medium Format\nShot on Hasselblad X2D medium format camera. Incredibly sharp details with beautiful tonal range, smooth gradients. Rich 16-bit color depth, natural color reproduction. Professional studio quality, sharp focus.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, harsh contrast, flat colors, digital noise",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-moody_atmospheric",
+      "name": "Moody Atmospheric",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Moody Atmospheric\nMoody atmospheric photography with dramatic weather elements. Volumetric fog, soft diffused light, cinematic color grading. Emotional depth and tension, high contrast with soft shadows. Sharp focus, raw photo.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, bright cheerful, flat lighting, clear weather, overexposed",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-product",
+      "name": "Product",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Product\nProfessional product photography on clean white seamless background. Soft box lighting with subtle shadow and reflection, rim highlights for separation. E-commerce ready, extremely sharp details, commercial studio quality.\n\nNegative Prompt:\nblurry, low quality, jpeg artifacts, watermark, text, logo, cluttered background, harsh shadows, amateur lighting",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-street_portrait",
+      "name": "Street Portrait",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Street Portrait\nCandid street portrait shot on 35mm lens. Natural available light, documentary photography style. Authentic urban atmosphere, environmental context. Natural skin texture, sharp focus, raw photo.\n\nNegative Prompt:\nasymmetrical eyes, crossed eyes, lazy eye, misaligned pupils, deformed face, bad anatomy, blurry, low quality, jpeg artifacts, watermark, text, logo, plastic skin, doll-like, airbrushed, overly smooth skin, cartoon, distorted, studio lighting, overly posed",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-studio_portrait",
+      "name": "Studio Portrait",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Studio Portrait\nProfessional studio portrait shot on 85mm lens. Clean key light with gentle fill, soft shadows. Shallow depth of field, seamless backdrop. Natural skin texture with fine pores, sharp focus, raw photo.\n\nNegative Prompt:\nasymmetrical eyes, crossed eyes, lazy eye, misaligned pupils, deformed face, bad anatomy, blurry, low quality, jpeg artifacts, watermark, text, logo, plastic skin, doll-like, airbrushed, overly smooth skin, cartoon, distorted, harsh shadows, unflattering lighting",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-photorealistic-vintage_film",
+      "name": "Vintage Film",
+      "category": "Photorealistic",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic - Vintage Film\nSubject photographed on 35mm film with authentic analog aesthetic, visible film grain texture throughout the image with soft halation around highlights. Natural Kodak Portra color palette with slightly lifted blacks and gently faded highlights, warm organic skin tones. Soft analog contrast without digital sharpness, the unmistakable look of real film photography.\n\nNegative Prompt:\ndigital, crisp, oversaturated, harsh contrast, cold tones, perfect clarity, HDR, oversharpened, blurry, low quality, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-watercolor-botanical",
+      "name": "Botanical",
+      "category": "Watercolor",
+      "text": "// Your Tags\n{cursor}\n\n// Watercolor - Botanical\nBotanical watercolor illustration with precise delicate detail. Scientific illustration quality, accurate naturalistic rendering. Soft transparent washes building form, fine brushwork for intricate details. Visible paper texture, muted natural color palette. Traditional botanical art style, museum specimen quality.\n\nNegative Prompt:\nphotograph, 3D render, oil paint, thick paint, impasto, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-watercolor-impressionistic",
+      "name": "Impressionistic",
+      "category": "Watercolor",
+      "text": "// Your Tags\n{cursor}\n\n// Watercolor - Impressionistic\nImpressionistic watercolor painting capturing light and atmosphere. Loose fluid brushstrokes, Monet-inspired color palette. Soft edges with selective detail, luminous transparent layers. Dappled light effects, plein air quality. Visible paper texture, spontaneous yet controlled execution.\n\nNegative Prompt:\nphotograph, 3D render, oil paint, thick paint, impasto, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-watercolor-loose_expressive",
+      "name": "Loose Expressive",
+      "category": "Watercolor",
+      "text": "// Your Tags\n{cursor}\n\n// Watercolor - Loose Expressive\nAbstract watercolor painting, fluid transparent layers of vibrant watercolors on textured cold-pressed paper. Energetic action splatter and drips with soft bleeding edges, wet-on-wet blending creating organic color flows and subtle granulation. Translucent washes with visible paper texture underneath, spontaneous expressive brush marks and accidental blooms. Authentic traditional watercolor appearance, no hard digital edges.\n\nNegative Prompt:\nphotograph, 3D render, oil paint, thick paint, impasto, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-watercolor-portrait",
+      "name": "Portrait/Realistic",
+      "category": "Watercolor",
+      "text": "// Your Tags\n{cursor}\n\n// Watercolor - Portrait/Realistic\nTraditional watercolor portrait with controlled transparent layers. Careful wet-on-dry technique building form gradually, soft skin tones with subtle glazing. Visible paper texture in highlights, delicate color transitions. Classical watercolor portrait style, refined brushwork.\n\nNegative Prompt:\nphotograph, 3D render, oil paint, thick paint, impasto, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    },
+    {
+      "id": "zimage-watercolor-wet_on_wet",
+      "name": "Wet-on-Wet",
+      "category": "Watercolor",
+      "text": "// Your Tags\n{cursor}\n\n// Watercolor - Wet-on-Wet\nDreamy wet-on-wet watercolor painting with soft flowing transitions. Colors bleeding and blending organically, no hard edges. Ethereal atmospheric quality, gentle gradients. Visible paper texture, unpredictable beautiful blooms. Soft focus effect, romantic watercolor aesthetic.\n\nNegative Prompt:\nphotograph, 3D render, oil paint, thick paint, impasto, watermark, text, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "zimage"
+      }
+    }
+  ]
+}

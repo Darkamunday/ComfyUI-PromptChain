@@ -1,0 +1,215 @@
+{
+  "name": "Text-to-Image",
+  "category": "Generation",
+  "order": 0,
+  "scope": {
+    "type": "family",
+    "architecture": "flux",
+    "family": "flux_dev"
+  },
+  "created_at": 1774838377,
+  "id": "e8ebc4ab-2ff6-477c-9941-c5654690702e",
+  "nodes": [
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        859.9999098052979,
+        189.99999410095216
+      ],
+      "size": [
+        225,
+        116
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "KSampler",
+      "offset": [
+        1599.999783358765,
+        159.9999738677979
+      ],
+      "size": [
+        270,
+        400
+      ],
+      "widgets_values": [
+        3257151735,
+        "randomize",
+        40,
+        1,
+        "euler",
+        "simple",
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        1603.5054378387454,
+        -2.1961499999999887
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        1929.9997378387452,
+        0
+      ],
+      "size": [
+        326,
+        413
+      ],
+      "widgets_values": [
+        "flux1/%date:yyyy-MM-dd_hhmmss%"
+      ],
+      "properties": {}
+    },
+    {
+      "type": "DualCLIPLoader",
+      "offset": [
+        859.9999098052979,
+        379.9999435211182
+      ],
+      "size": [
+        313.28125,
+        151.984375
+      ],
+      "widgets_values": [
+        "t5xxl_fp16.safetensors",
+        "clip_l.safetensors",
+        "flux",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "DualCLIPLoader"
+      }
+    },
+    {
+      "type": "UNETLoader",
+      "offset": [
+        859.9999098052979,
+        0
+      ],
+      "size": [
+        304.953125,
+        82.65625
+      ],
+      "widgets_values": [
+        "flux1-dev.safetensors",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      }
+    },
+    {
+      "type": "EmptySD3LatentImage",
+      "offset": [
+        1249.9998153900146,
+        0
+      ],
+      "size": [
+        270,
+        144
+      ],
+      "widgets_values": [
+        896,
+        1152,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "EmptySD3LatentImage"
+      }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [
+        1259.9999114959717,
+        229.9999763977051
+      ],
+      "size": [
+        246,
+        83
+      ],
+      "widgets_values": [
+        "ae.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 0,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 1
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 1,
+      "to_node_idx": 0,
+      "to_slot": 1
+    }
+  ]
+}

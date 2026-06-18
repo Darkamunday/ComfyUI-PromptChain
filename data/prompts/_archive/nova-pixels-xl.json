@@ -1,0 +1,19 @@
+{
+  "name": "Nova Pixels XL Prompts",
+  "prompts": [
+    {
+      "id": "nova-pixels-standard",
+      "name": "Pixel Art",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, 4k, very aesthetic, ultra-detailed, (pixel art, dithering, pixelated, sprite art, 8-bit:1.2),\n\n// Subject\n{cursor}\n\nNegative Prompt:\nlowres, bad anatomy, bad hands, missing fingers, extra digits, cropped, worst quality, sketch, jpeg artifacts, signature, watermark, ugly, deformed, glitch, anime, illustration, cartoon, painting, abstract",
+      "scope": { "type": "model", "model_name": "Nova Pixels XL" }
+    },
+    {
+      "id": "nova-pixels-sprite",
+      "name": "Sprite Art",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, 4k, very aesthetic, ultra-detailed, (pixel art, dithering, pixelated, sprite art, 8-bit:1.2), sprite, game asset, transparent background,\n\n// Character/Object\n{cursor}\n\nNegative Prompt:\nlowres, bad anatomy, bad hands, missing fingers, extra digits, cropped, worst quality, sketch, jpeg artifacts, signature, watermark, ugly, deformed, glitch, anime, illustration, cartoon, painting, abstract",
+      "scope": { "type": "model", "model_name": "Nova Pixels XL" }
+    }
+  ]
+}

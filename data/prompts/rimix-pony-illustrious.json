@@ -1,0 +1,21 @@
+{
+  "scope": {
+    "model_name": "Ri-Mix PONY+Illustrious"
+  },
+  "prompts": [
+    {
+      "id": "rimix-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterwork, masterpiece, best quality, detailed, depth of field, high detail, very aesthetic\n\nNegative Prompt:\nlowres, worst quality, low quality, bad anatomy, bad hands",
+      "scope": { "type": "model", "model_name": "Ri-Mix PONY+Illustrious" }
+    },
+    {
+      "id": "rimix-illustration",
+      "name": "Illustration",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Illustration\nmasterwork, masterpiece, best quality, detailed, depth of field, high detail, very aesthetic, illustration, detailed background\n\nNegative Prompt:\nlowres, worst quality, low quality, bad anatomy, bad hands",
+      "scope": { "type": "model", "model_name": "Ri-Mix PONY+Illustrious" }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "FLUX.1 Dev Prompts",
+  "prompts": [
+    {
+      "id": "flux-photography",
+      "name": "Photography",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Photography\nphotograph, 35mm, natural lighting, sharp focus, shallow depth of field, f/1.8",
+      "scope": {
+        "type": "architecture",
+        "architecture": "flux"
+      }
+    },
+    {
+      "id": "flux-cinematic",
+      "name": "Cinematic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Cinematic\ncinematic still, dramatic lighting, film grain, anamorphic lens, depth of field, teal and orange color grade",
+      "scope": {
+        "type": "architecture",
+        "architecture": "flux"
+      }
+    },
+    {
+      "id": "flux-portrait",
+      "name": "Portrait",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Portrait\nportrait photograph, soft diffused lighting, 85mm lens, shallow depth of field, detailed skin texture, eye contact",
+      "scope": {
+        "type": "architecture",
+        "architecture": "flux"
+      }
+    },
+    {
+      "id": "flux-fantasy",
+      "name": "Fantasy Art",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Fantasy Art\nfantasy illustration, ethereal atmosphere, dramatic lighting, vibrant colors, intricate details, epic composition",
+      "scope": {
+        "type": "architecture",
+        "architecture": "flux"
+      }
+    },
+    {
+      "id": "flux-3d-render",
+      "name": "3D Render",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Render\n3D render, Unreal Engine 5, ray tracing, subsurface scattering, rim lighting, physically based rendering",
+      "scope": {
+        "type": "architecture",
+        "architecture": "flux"
+      }
+    },
+    {
+      "id": "flux-product",
+      "name": "Product Photo",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Product Photo\nproduct photography, studio lighting, softbox, clean background, commercial style, high contrast, crisp shadows",
+      "scope": {
+        "type": "architecture",
+        "architecture": "flux"
+      }
+    },
+    {
+      "id": "flux-concept-art",
+      "name": "Concept Art",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art\nconcept art, digital painting, atmospheric perspective, matte painting style, detailed environment, cinematic composition",
+      "scope": {
+        "type": "architecture",
+        "architecture": "flux"
+      }
+    }
+  ]
+}

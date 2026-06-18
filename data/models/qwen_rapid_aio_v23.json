@@ -1,0 +1,124 @@
+{
+  "display_name": "Qwen Rapid AIO - v23",
+  "model_name": "Qwen Rapid AIO",
+  "version": "v23",
+  "architecture": "qwen_edit",
+  "family": "qwen_aio",
+  "author": "Phr00t",
+  "description": "4-step fast model merging 2509+2511. Integrated lighting/detail enhancement, no external LoRA needed. Supports txt2img and img2img editing.",
+  "license": "Apache 2.0",
+  "tags": [
+    "qwen",
+    "image-edit",
+    "rapid",
+    "4-step",
+    "multimodal",
+    "nsfw"
+  ],
+  "url": "https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO",
+  "release_date": "2025-01-01",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "qwen-edit-anime-photoreal",
+  "negative": "",
+  "notes": "CFG 1.0, 4 steps, euler_ancestral+beta. Fast 4-step model, no external LoRA needed.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "NSFW",
+          "filename": "Qwen-Rapid-AIO-NSFW-v23.safetensors",
+          "size_bytes": 28431840023,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Phr00t/Qwen-Image-Edit-Rapid-AIO",
+            "path": "v23/Qwen-Rapid-AIO-NSFW-v23.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "SFW",
+          "filename": "Qwen-Rapid-AIO-SFW-v23.safetensors",
+          "size_bytes": 28431840023,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Phr00t/Qwen-Image-Edit-Rapid-AIO",
+            "path": "v23/Qwen-Rapid-AIO-SFW-v23.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder (Qwen 2.5 VL 7B)",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_2.5_vl_7b.safetensors",
+          "size_bytes": 16584415576,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+            "path": "split_files/text_encoders/qwen_2.5_vl_7b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "size_bytes": 9384670680,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+            "path": "split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "qwen_image_vae.safetensors",
+      "size_bytes": 253806246,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+        "path": "split_files/vae/qwen_image_vae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 4,
+      "cfg": 1.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "beta",
+      "steps_range": [
+        4,
+        15
+      ],
+      "cfg_range": [
+        1.0,
+        1.5
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "euler",
+        "er_sde"
+      ],
+      "scheduler_options": [
+        "beta",
+        "sgm_uniform",
+        "normal"
+      ]
+    }
+  },
+  "civitai_model_id": 2113348
+}

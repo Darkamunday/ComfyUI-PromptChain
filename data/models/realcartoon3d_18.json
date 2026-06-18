@@ -1,0 +1,94 @@
+{
+  "display_name": "RealCartoon3D - 18",
+  "model_name": "RealCartoon3D",
+  "version": "18",
+  "architecture": "sd15",
+  "family": "",
+  "author": "7whitefire7",
+  "description": "SD 1.5 checkpoint for cartoon-style imagery with realistic touches, supporting diverse human representations and strong LoRA compatibility.",
+  "license": "CreativeML Open RAIL-M",
+  "tags": [
+    "cartoon",
+    "3d",
+    "sd15",
+    "stylized"
+  ],
+  "url": "https://civitai.com/models/94809/realcartoon3d",
+  "civitai_model_id": 94809,
+  "release_date": "2025-02-14",
+  "prompt_style": "tags",
+  "negative": "easynegative, (badhandv4), (bad quality:1.3), (worst quality:1.3), watermark, (blurry), 5-funny-looking-fingers",
+  "notes": "VAE baked in. Use 'Anime', 'Cartoon', 'painted', 'comic' for cartoon look; 'Realistic', 'real' for realism. LoRA strength 0.4-1.0. ADetailer recommended for distant subjects.",
+  "nodes": {
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 7.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "denoise": 0.4,
+      "guide_size": 384,
+      "max_size": 768
+    },
+    "KSampler": {
+      "steps": 35,
+      "cfg": 7.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "steps_range": [
+        30,
+        40
+      ],
+      "cfg_range": [
+        5.0,
+        8.0
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "dpmpp_sde",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 512,
+      "height": 768,
+      "_resolutions": [
+        {
+          "width": 512,
+          "height": 768
+        },
+        {
+          "width": 512,
+          "height": 904
+        },
+        {
+          "width": 768,
+          "height": 512
+        },
+        {
+          "width": 512,
+          "height": 512
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "dc72317f246b220a",
+      "sha256": null,
+      "filename": "realcartoon3d_v18.safetensors"
+    }
+  ]
+}

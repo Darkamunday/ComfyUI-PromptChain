@@ -1,0 +1,112 @@
+{
+  "display_name": "FLUX.1 Krea Dev - 1.0 FP16",
+  "model_name": "FLUX.1 Krea Dev",
+  "version": "1.0 FP16",
+  "architecture": "flux",
+  "family": "flux_dev",
+  "author": "Black Forest Labs / Krea",
+  "description": "Aesthetic-focused FLUX.1 variant. 12B parameter rectified flow transformer trained to minimize the AI look — reduces waxy skin, blurry backgrounds, and boring compositions.",
+  "license": "FLUX.1 Dev Non-Commercial License",
+  "tags": [
+    "flux",
+    "transformer",
+    "photorealistic",
+    "photography",
+    "krea",
+    "aesthetic"
+  ],
+  "url": "https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev",
+  "release_date": "2024-08-01",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "flux-photography",
+  "negative": "",
+  "notes": "CFG 3.0, Steps 28-40, Euler+Simple. Try ipndm_v+kl_optimal for creative/dark aesthetics. Full 16-bit — requires UNETLoader + DualCLIPLoader + VAELoader.",
+  "nodes": {
+    "KSampler": {
+      "steps": 40,
+      "cfg": 3.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "steps_range": [
+        20,
+        50
+      ],
+      "cfg_range": [
+        3.5,
+        5.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "ipndm_v",
+        "sa_solver",
+        "dpmpp_2m",
+        "heun"
+      ],
+      "scheduler_options": [
+        "simple",
+        "kl_optimal",
+        "normal",
+        "sgm_uniform",
+        "beta"
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 896,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1408,
+          "height": 1408
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "ccd067d7bf6b9d4a",
+      "sha256": null,
+      "filename": "flux1-krea-dev.safetensors"
+    }
+  ]
+}

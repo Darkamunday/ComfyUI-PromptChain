@@ -1,0 +1,158 @@
+{
+  "display_name": "HiDream-I1 - Dev FP8",
+  "model_name": "HiDream-I1",
+  "version": "Dev FP8",
+  "architecture": "hidream",
+  "family": "hidream",
+  "author": "HiDream-ai",
+  "description": "17B parameter sparse diffusion transformer. MIT licensed. Guidance-distilled — 28 steps, CFG 1.0. Uses 4 text encoders (CLIP-L, CLIP-G, T5-XXL, LLaMA 3.1 8B).",
+  "license": "MIT",
+  "tags": [
+    "hidream",
+    "17B",
+    "MIT",
+    "text-to-image",
+    "sparse-dit"
+  ],
+  "url": "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI",
+  "release_date": "2025-04-01",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "negative": "",
+  "notes": "CFG 1.0, 28 steps, lcm/simple, shift 6.0. Guidance-distilled. QuadrupleCLIPLoader for 4 text encoders. Shares T5-XXL and Flux VAE with Flux models.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "filename": "hidream_i1_dev_fp8.safetensors",
+      "size_bytes": 17105946040,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/HiDream-I1_ComfyUI",
+        "path": "split_files/diffusion_models/hidream_i1_dev_fp8.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "CLIP-L (HiDream)",
+      "folder": "text_encoders",
+      "filename": "clip_l_hidream.safetensors",
+      "size_bytes": 247586528,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/HiDream-I1_ComfyUI",
+        "path": "split_files/text_encoders/clip_l_hidream.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "CLIP-G (HiDream)",
+      "folder": "text_encoders",
+      "filename": "clip_g_hidream.safetensors",
+      "size_bytes": 1389743104,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/HiDream-I1_ComfyUI",
+        "path": "split_files/text_encoders/clip_g_hidream.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "T5-XXL (shared with Flux)",
+      "folder": "text_encoders",
+      "filename": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+      "size_bytes": 5157348688,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/HiDream-I1_ComfyUI",
+        "path": "split_files/text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "LLaMA 3.1 8B Instruct",
+      "folder": "text_encoders",
+      "filename": "llama_3.1_8b_instruct_fp8_scaled.safetensors",
+      "size_bytes": 9081258056,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/HiDream-I1_ComfyUI",
+        "path": "split_files/text_encoders/llama_3.1_8b_instruct_fp8_scaled.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "VAE (shared with Flux)",
+      "folder": "vae",
+      "filename": "ae.safetensors",
+      "size_bytes": 335304388,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/HiDream-I1_ComfyUI",
+        "path": "split_files/vae/ae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 28,
+      "cfg": 1.0,
+      "sampler_name": "lcm",
+      "scheduler": "simple",
+      "steps_range": [
+        16,
+        50
+      ],
+      "cfg_range": [
+        1.0,
+        5.0
+      ],
+      "sampler_name_options": [
+        "lcm",
+        "euler",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "simple",
+        "normal"
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 1024,
+      "height": 1024,
+      "_resolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1360
+        },
+        {
+          "width": 1360,
+          "height": 768
+        },
+        {
+          "width": 880,
+          "height": 1168
+        },
+        {
+          "width": 1168,
+          "height": 880
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 1248
+        }
+      ]
+    }
+  }
+}

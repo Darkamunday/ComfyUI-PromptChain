@@ -1,0 +1,163 @@
+{
+  "display_name": "Qwen Image - 2512",
+  "model_name": "Qwen Image",
+  "version": "2512",
+  "architecture": "qwen_image",
+  "family": "qwen_image",
+  "author": "Alibaba/Qwen",
+  "description": "Qwen Image generation model for high-quality text-to-image.",
+  "license": "Apache 2.0",
+  "tags": [
+    "qwen",
+    "text-to-image",
+    "multimodal",
+    "natural-language"
+  ],
+  "url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
+  "release_date": "2025-01-01",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "qwen-image-default",
+  "negative": "",
+  "notes": "CFG 3.0, Steps 45, dpmpp_2m+karras, AuraFlow shift 1.73.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_image_2512_bf16.safetensors",
+          "size_bytes": 40861031488,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+            "path": "split_files/diffusion_models/qwen_image_2512_bf16.safetensors"
+          },
+          "quick_hash": "e46ac7270bb56535",
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "qwen_image_2512_fp8_e4m3fn.safetensors",
+          "size_bytes": 20430679144,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+            "path": "split_files/diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors"
+          },
+          "quick_hash": "c5d117b5b7690461",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_2.5_vl_7b.safetensors",
+          "size_bytes": 16584415576,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+            "path": "split_files/text_encoders/qwen_2.5_vl_7b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "size_bytes": 9384670680,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+            "path": "split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "qwen_image_vae.safetensors",
+      "size_bytes": 253806246,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+        "path": "split_files/vae/qwen_image_vae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 45,
+      "cfg": 3.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps_range": [
+        30,
+        60
+      ],
+      "cfg_range": [
+        3.0,
+        7.0
+      ],
+      "sampler_name_options": [
+        "dpmpp_2m",
+        "euler",
+        "euler_ancestral"
+      ],
+      "scheduler_options": [
+        "karras",
+        "sgm_uniform",
+        "simple",
+        "normal"
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 928,
+      "height": 1664,
+      "_resolutions": [
+        {
+          "width": 928,
+          "height": 1664
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 1664,
+          "height": 928
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1280,
+          "height": 1280
+        }
+      ]
+    }
+  },
+  "civitai_model_id": 1864281
+}

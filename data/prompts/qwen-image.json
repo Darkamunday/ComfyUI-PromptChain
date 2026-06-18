@@ -1,0 +1,135 @@
+{
+  "name": "Qwen Image Prompts",
+  "prompts": [
+    {
+      "id": "qwen-image-default",
+      "name": "Natural Language",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Natural Language\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-realistic_photo",
+      "name": "Realistic Photo",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Realistic Photo\nRAW photo, unprocessed, photograph, natural skin texture, soft ambient lighting, shallow depth of field, Ultra HD, 4K, cinematic composition\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-photography",
+      "name": "Photography",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Photography\nphotograph, natural skin texture, soft ambient lighting, shallow depth of field, Ultra HD, 4K, cinematic composition\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-anime",
+      "name": "Anime",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Anime\nanime-style illustration, vibrant colors, clean lines, cel-shaded, detailed background, Ultra HD, 4K\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-semi_realistic_anime",
+      "name": "Semi-Realistic Anime",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Semi-Realistic Anime\nsemi-realistic anime style, detailed rendering, soft shading, natural lighting, expressive eyes, Ultra HD, 4K, cinematic composition\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-ghibli",
+      "name": "Ghibli",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Ghibli\nin the style of Studio Ghibli, warm colors, hand-painted background, soft lighting, whimsical atmosphere, Miyazaki aesthetic\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-oil_painting",
+      "name": "Oil Painting",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Oil Painting\noil painting, visible brushstrokes, rich colors, painterly style, classical composition, dramatic lighting\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-3d_render",
+      "name": "3D Render / CGI",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Render / CGI\n3D render, Unreal Engine 5, ray tracing, subsurface scattering, physically based rendering, cinematic lighting, 8K\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-game_character",
+      "name": "Game Character",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Game Character\n3D render, Unreal Engine 5, photorealistic game character, subsurface scattering skin, ray tracing, physically based rendering, cinematic lighting, 8K\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-cyberpunk",
+      "name": "Cyberpunk",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Cyberpunk\ncyberpunk aesthetic, neon lighting, rain-slicked streets, holographic elements, Blade Runner atmosphere, dramatic shadows, Ultra HD, 4K\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-fantasy",
+      "name": "Fantasy Art",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Fantasy Art\nfantasy illustration, dramatic lighting, rich details, epic composition, in the style of Frank Frazetta, painterly, Ultra HD, 4K\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-comic",
+      "name": "Comic Book",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Comic Book\ncomic-book style, bold ink outlines, cel shading, dynamic composition, halftone shading, vibrant colors\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    },
+    {
+      "id": "qwen-image-watercolor",
+      "name": "Watercolor",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Watercolor\nwatercolor painting, soft washes, paper texture, delicate brushwork, gentle colors, artistic composition\n\nNegative Prompt:\n低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_image"
+      }
+    }
+  ]
+}

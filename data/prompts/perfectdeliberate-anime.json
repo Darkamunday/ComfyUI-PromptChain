@@ -1,0 +1,33 @@
+{
+  "name": "PerfectDeliberate-Anime Prompts",
+  "prompts": [
+    {
+      "id": "pda-default",
+      "name": "Anime Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Anime Default\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, artist name, text",
+      "scope": { "type": "model", "model_name": "PerfectDeliberate-Anime" }
+    },
+    {
+      "id": "pda-detailed",
+      "name": "Anime Detailed",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Anime Detailed\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, anime, detailed face, detailed eyes, intricate details\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, artist name, text",
+      "scope": { "type": "model", "model_name": "PerfectDeliberate-Anime" }
+    },
+    {
+      "id": "pda-cel",
+      "name": "Anime Cel-Shaded",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Anime Cel-Shaded\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, cel shading, flat color, clean color, anime coloring\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, artist name, text",
+      "scope": { "type": "model", "model_name": "PerfectDeliberate-Anime" }
+    },
+    {
+      "id": "pda-ultra",
+      "name": "Ultra Detailed",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Ultra Detailed\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, ultra detailed face, ultra detailed eyes, highly detailed, sharp focus, detailed background\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, artist name, text",
+      "scope": { "type": "model", "model_name": "PerfectDeliberate-Anime" }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "name": "Text-to-Video",
+  "category": "Video",
+  "order": 0,
+  "scope": {
+    "type": "family",
+    "architecture": "hunyuan_video",
+    "family": "hunyuan_video_15"
+  },
+  "created_at": 1775178000,
+  "id": "hunyuanvid15-t2v",
+  "nodes": [
+    {
+      "type": "UNETLoader",
+      "offset": [60, 0],
+      "size": [355, 83],
+      "widgets_values": ["hunyuanvideo1.5_480p_t2v_cfg_distilled_fp8_scaled.safetensors", "default"],
+      "properties": { "Node name for S&R": "UNETLoader" }
+    },
+    {
+      "type": "ModelSamplingSD3",
+      "offset": [60, 120],
+      "size": [315, 80],
+      "widgets_values": [5.0],
+      "properties": { "Node name for S&R": "ModelSamplingSD3" }
+    },
+    {
+      "type": "DualCLIPLoader",
+      "offset": [60, 250],
+      "size": [355, 187],
+      "widgets_values": ["qwen_2.5_vl_7b_fp8_scaled.safetensors", "byt5_small_glyphxl_fp16.safetensors", "hunyuan_video_15", "default"],
+      "properties": { "Node name for S&R": "DualCLIPLoader" }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [60, 490],
+      "size": [340, 116],
+      "widgets_values": [""],
+      "properties": { "Node name for S&R": "CLIPTextEncode" }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [60, 650],
+      "size": [340, 116],
+      "widgets_values": [""],
+      "properties": { "Node name for S&R": "CLIPTextEncode" }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [500, 0],
+      "size": [290, 83],
+      "widgets_values": ["hunyuanvideo15_vae_fp16.safetensors"],
+      "properties": { "Node name for S&R": "VAELoader" }
+    },
+    {
+      "type": "EmptyHunyuanVideo15Latent",
+      "offset": [500, 130],
+      "size": [290, 170],
+      "widgets_values": [848, 480, 97, 1],
+      "properties": { "Node name for S&R": "EmptyHunyuanVideo15Latent" }
+    },
+    {
+      "type": "KSamplerSelect",
+      "offset": [500, 350],
+      "size": [240, 83],
+      "widgets_values": ["euler"],
+      "properties": { "Node name for S&R": "KSamplerSelect" }
+    },
+    {
+      "type": "BasicScheduler",
+      "offset": [500, 480],
+      "size": [290, 130],
+      "widgets_values": ["simple", 20, 1.0],
+      "properties": { "Node name for S&R": "BasicScheduler" }
+    },
+    {
+      "type": "RandomNoise",
+      "offset": [500, 660],
+      "size": [260, 83],
+      "widgets_values": [0, "randomize"],
+      "properties": { "Node name for S&R": "RandomNoise" }
+    },
+    {
+      "type": "CFGGuider",
+      "offset": [860, 0],
+      "size": [260, 120],
+      "widgets_values": [1.0],
+      "properties": { "Node name for S&R": "CFGGuider" }
+    },
+    {
+      "type": "SamplerCustomAdvanced",
+      "offset": [860, 170],
+      "size": [280, 392],
+      "widgets_values": [],
+      "properties": { "Node name for S&R": "SamplerCustomAdvanced" }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [1200, 0],
+      "size": [240, 72],
+      "widgets_values": [],
+      "properties": { "Node name for S&R": "VAEDecode" }
+    },
+    {
+      "type": "CreateVideo",
+      "offset": [1200, 120],
+      "size": [330, 400],
+      "widgets_values": [24, "image/gif", 0],
+      "properties": { "Node name for S&R": "CreateVideo" }
+    }
+  ],
+  "connections": [
+    { "from_node_idx": 0, "from_slot": 0, "to_node_idx": 1, "to_slot": 0 },
+    { "from_node_idx": 1, "from_slot": 0, "to_node_idx": 10, "to_slot": 0 },
+    { "from_node_idx": 2, "from_slot": 0, "to_node_idx": 3, "to_slot": 0 },
+    { "from_node_idx": 2, "from_slot": 0, "to_node_idx": 4, "to_slot": 0 },
+    { "from_node_idx": 3, "from_slot": 0, "to_node_idx": 10, "to_slot": 1 },
+    { "from_node_idx": 4, "from_slot": 0, "to_node_idx": 10, "to_slot": 2 },
+    { "from_node_idx": 5, "from_slot": 0, "to_node_idx": 12, "to_slot": 1 },
+    { "from_node_idx": 6, "from_slot": 0, "to_node_idx": 11, "to_slot": 4 },
+    { "from_node_idx": 7, "from_slot": 0, "to_node_idx": 11, "to_slot": 2 },
+    { "from_node_idx": 8, "from_slot": 0, "to_node_idx": 11, "to_slot": 3 },
+    { "from_node_idx": 9, "from_slot": 0, "to_node_idx": 11, "to_slot": 0 },
+    { "from_node_idx": 10, "from_slot": 0, "to_node_idx": 11, "to_slot": 1 },
+    { "from_node_idx": 11, "from_slot": 0, "to_node_idx": 12, "to_slot": 0 },
+    { "from_node_idx": 12, "from_slot": 0, "to_node_idx": 13, "to_slot": 0 }
+  ],
+  "anchorConnections": [
+    { "from_slot": 1, "to_node_idx": 3, "to_slot": 1 },
+    { "from_slot": 2, "to_node_idx": 4, "to_slot": 1 }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "FLUX.1 Inpaint Fixes",
+  "prompts": [
+    {
+      "id": "flux-inpaint-eyes",
+      "name": "Fix Eyes",
+      "category": "Inpaint",
+      "text": "// Your Tags\n{cursor}\n\n// Fix Eyes\ndetailed eyes, natural symmetrical eyes, sharp focus, looking at viewer",
+      "scope": { "type": "architecture", "architecture": "flux" }
+    },
+    {
+      "id": "flux-inpaint-face",
+      "name": "Fix Face",
+      "category": "Inpaint",
+      "text": "// Your Tags\n{cursor}\n\n// Fix Face\ndetailed face, natural skin texture, symmetrical features, sharp focus, natural expression",
+      "scope": { "type": "architecture", "architecture": "flux" }
+    },
+    {
+      "id": "flux-inpaint-hands",
+      "name": "Fix Hands",
+      "category": "Inpaint",
+      "text": "// Your Tags\n{cursor}\n\n// Fix Hands\ndetailed hand, natural fingers, correct anatomy, five fingers, natural pose, sharp focus",
+      "scope": { "type": "architecture", "architecture": "flux" }
+    },
+    {
+      "id": "flux-inpaint-mouth",
+      "name": "Fix Mouth / Teeth",
+      "category": "Inpaint",
+      "text": "// Your Tags\n{cursor}\n\n// Fix Mouth\nnatural mouth, detailed lips, natural teeth, sharp focus",
+      "scope": { "type": "architecture", "architecture": "flux" }
+    },
+    {
+      "id": "flux-inpaint-skin",
+      "name": "Fix Skin",
+      "category": "Inpaint",
+      "text": "// Your Tags\n{cursor}\n\n// Fix Skin\nnatural skin texture, fine pores, even skin tone, soft natural lighting, sharp focus",
+      "scope": { "type": "architecture", "architecture": "flux" }
+    },
+    {
+      "id": "flux-inpaint-hair",
+      "name": "Fix Hair",
+      "category": "Inpaint",
+      "text": "// Your Tags\n{cursor}\n\n// Fix Hair\ndetailed hair, natural hair strands, consistent hair color, sharp focus",
+      "scope": { "type": "architecture", "architecture": "flux" }
+    },
+    {
+      "id": "flux-inpaint-remove",
+      "name": "Remove Object",
+      "category": "Inpaint",
+      "text": "// Your Tags\n{cursor}\n\n// Remove Object\nempty area, clean seamless continuation of the surroundings, consistent lighting and texture",
+      "scope": { "type": "architecture", "architecture": "flux" }
+    }
+  ]
+}

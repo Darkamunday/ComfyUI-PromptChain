@@ -1,0 +1,125 @@
+{
+  "display_name": "Qwen Edit - 2511",
+  "model_name": "Qwen Edit",
+  "version": "2511",
+  "architecture": "qwen_edit",
+  "family": "qwen_edit",
+  "author": "Alibaba/Qwen",
+  "description": "Instruction-based image editing. Natural language edit prompts with multi-image reference support.",
+  "license": "Apache 2.0",
+  "tags": [
+    "qwen",
+    "image-edit",
+    "instruction",
+    "multimodal",
+    "editing"
+  ],
+  "url": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI",
+  "release_date": "2025-01-01",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "qwen-edit-anime-photoreal",
+  "negative": "",
+  "notes": "CFG 4.0, Steps 40, euler+simple, AuraFlow shift 3.0.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_image_edit_2511_bf16.safetensors",
+          "size_bytes": 40861031560,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+            "path": "split_files/diffusion_models/qwen_image_edit_2511_bf16.safetensors"
+          },
+          "quick_hash": "e10b3c97fd3b16d3",
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "qwen_image_edit_2511_fp8mixed.safetensors",
+          "size_bytes": 20533762817,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+            "path": "split_files/diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors"
+          },
+          "quick_hash": "eca4338f304454f6",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_2.5_vl_7b.safetensors",
+          "size_bytes": 16584415576,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+            "path": "split_files/text_encoders/qwen_2.5_vl_7b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "size_bytes": 9384670680,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+            "path": "split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "qwen_image_vae.safetensors",
+      "size_bytes": 253806246,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+        "path": "split_files/vae/qwen_image_vae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 40,
+      "cfg": 4.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "steps_range": [
+        20,
+        40
+      ],
+      "cfg_range": [
+        3.0,
+        5.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "simple",
+        "normal",
+        "sgm_uniform"
+      ]
+    }
+  },
+  "civitai_model_id": 1884704
+}

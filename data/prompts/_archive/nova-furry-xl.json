@@ -1,0 +1,19 @@
+{
+  "name": "Nova Furry XL Prompts",
+  "prompts": [
+    {
+      "id": "nova-furry-detailed",
+      "name": "Detailed Fur/Feathers",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, furry, anthro,\nBREAK\ndepth of field, detailed fluffy fur, volumetric lighting,\n\n// Character\n{cursor}\n\nNegative Prompt:\nhuman, multiple tails, graphic, cartoon, text, painting, abstract, glitch, deformed, mutated, ugly, long body, lowres, bad anatomy, bad hands, missing fingers, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, conjoined",
+      "scope": { "type": "model", "model_name": "Nova Furry XL" }
+    },
+    {
+      "id": "nova-furry-scenery",
+      "name": "With Scenery",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, furry, anthro, scenery,\nBREAK\ndepth of field, detailed fluffy fur, volumetric lighting,\n\n// Character & Scene\n{cursor}\n\nNegative Prompt:\nhuman, multiple tails, graphic, cartoon, text, painting, abstract, glitch, deformed, mutated, ugly, long body, lowres, bad anatomy, bad hands, missing fingers, (worst quality, bad quality:1.2), sketch, jpeg artifacts, signature, watermark, conjoined",
+      "scope": { "type": "model", "model_name": "Nova Furry XL" }
+    }
+  ]
+}

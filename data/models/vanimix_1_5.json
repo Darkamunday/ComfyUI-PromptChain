@@ -1,0 +1,152 @@
+{
+  "display_name": "VaniMix - 1.5",
+  "model_name": "VaniMix",
+  "version": "1.5",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "Vanilla0",
+  "description": "Semi-realistic illustration model. Slightly fewer body errors than v1.0, more realistic rendering, darker image/skin tones, less anime-like appearance.",
+  "license": "Illustrious License (FAIPL-1.0-SD)",
+  "tags": [
+    "checkpoint merge",
+    "anime",
+    "semi-realistic",
+    "portrait",
+    "digital painting",
+    "fantasy",
+    "illustrious",
+    "nsfw",
+    "sfw",
+    "base model"
+  ],
+  "url": "https://civitai.com/models/1448271/vanimix",
+  "civitai_model_id": 1448271,
+  "quality_position": "end",
+  "trigger": "masterpiece, best quality",
+  "default_prompt_id": "vanimix-default",
+  "negative": "worst quality, bad quality, lowres",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "notes": "CFG 1.5-7, Steps 20-40, Euler A or DPM++ 2M. Baked-in VAE. ADetailer recommended.",
+  "nodes": {
+    "KSampler": {
+      "steps": 30,
+      "cfg": 4.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "steps_range": [
+        20,
+        40
+      ],
+      "cfg_range": [
+        1.5,
+        7.0
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "dpmpp_2m",
+        "euler",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 4.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        1.5,
+        7.0
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "dpmpp_2m",
+        "euler",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 896,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "release_date": "2025-05-27",
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "27940db5a2bc5e4f",
+      "sha256": null,
+      "filename": "vanimix_v15.safetensors"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+__colors__ long hair
+__colors__ short hair
+__colors__ braids
+ponytail
+messy bun

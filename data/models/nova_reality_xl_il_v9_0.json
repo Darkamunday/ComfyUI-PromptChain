@@ -1,0 +1,172 @@
+{
+  "display_name": "Nova Reality XL - IL v9.0",
+  "model_name": "Nova Reality XL",
+  "version": "IL v9.0",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "Nova",
+  "description": "Realistic SDXL/Illustrious checkpoint with great detail and photorealistic feel. Excellent for realistic portraits, scenery, and detailed photography-style outputs.",
+  "license": "CreativeML Open RAIL-M",
+  "tags": [
+    "photorealistic",
+    "realism",
+    "base model",
+    "photo",
+    "fantasy",
+    "photorealism",
+    "realistic",
+    "landscape",
+    "xl",
+    "sdxl"
+  ],
+  "url": "https://civitai.com/models/453428/nova-reality-xl",
+  "civitai_model_id": 453428,
+  "quality_position": "end",
+  "release_date": "2024-12-01",
+  "trigger": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, photorealistic",
+  "default_prompt_id": "nova-reality-default",
+  "negative": "modern, old, oldest, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, very displeasing, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, username, simple background, conjoined, bad ai-generated",
+  "notes": "CFG 4-6, Steps 20-30, Euler a, Clip Skip 1-2. Works best with quality tags and photorealistic descriptors. Baked-in VAE.",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "KSampler": {
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "steps_range": [
+        20,
+        30
+      ],
+      "cfg_range": [
+        4.0,
+        6.0
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "euler",
+        "dpmpp_2m",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "normal",
+        "karras",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -1
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        4.0,
+        6.0
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "euler",
+        "dpmpp_2m",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "normal",
+        "karras",
+        "exponential"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 1024,
+      "height": 1536,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1152,
+          "height": 1728
+        },
+        {
+          "width": 1248,
+          "height": 1824
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1536,
+          "height": 640
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 1536
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "b9d5464a5f7d42d6",
+      "sha256": null,
+      "filename": "novaRealityXL_ilV90.safetensors"
+    }
+  ]
+}

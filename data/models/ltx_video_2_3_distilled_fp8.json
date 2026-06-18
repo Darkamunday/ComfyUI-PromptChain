@@ -1,0 +1,123 @@
+{
+  "display_name": "LTX Video 2.3 - Distilled FP8",
+  "model_name": "LTX Video 2.3",
+  "version": "Distilled FP8",
+  "architecture": "ltx",
+  "family": "ltx23",
+  "author": "Lightricks",
+  "description": "22B parameter joint audio-video generation model. Distilled for 8-step inference. Single unified transformer — no MoE split. VAE bundled in checkpoint.",
+  "license": "LTX Video License",
+  "tags": [
+    "ltx",
+    "video",
+    "audio",
+    "t2v",
+    "i2v",
+    "22B",
+    "distilled",
+    "gemma"
+  ],
+  "url": "https://huggingface.co/Lightricks/LTX-2.3-fp8",
+  "release_date": "2026-03-27",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "negative": "",
+  "notes": "8 steps, euler, CFG 1. Uses CheckpointLoaderSimple (VAE bundled). Gemma 3 12B text encoder loaded separately. 960x544, 121 frames, 24fps.",
+  "files": [
+    {
+      "label": "Checkpoint (Model + VAE)",
+      "folder": "checkpoints",
+      "variants": [
+        {
+          "precision": "fp8",
+          "filename": "ltx-2.3-22b-distilled-fp8.safetensors",
+          "size_bytes": 29531884062,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Lightricks/LTX-2.3-fp8",
+            "path": "ltx-2.3-22b-distilled-fp8.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "nvfp4",
+          "filename": "ltx-2.3-22b-dev-nvfp4.safetensors",
+          "size_bytes": 21701367310,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Lightricks/LTX-2.3-nvfp4",
+            "path": "ltx-2.3-22b-dev-nvfp4.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder (Gemma 3 12B)",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "fp8",
+          "filename": "gemma_3_12B_it_fp8_scaled.safetensors",
+          "size_bytes": 13205434827,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/ltx-2",
+            "path": "split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp4",
+          "filename": "gemma_3_12B_it_fp4_mixed.safetensors",
+          "size_bytes": 9447702218,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/ltx-2",
+            "path": "split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Audio VAE",
+      "folder": "vae",
+      "filename": "LTX23_audio_vae_bf16.safetensors",
+      "size_bytes": 382730642,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Kijai/LTX2.3_comfy",
+        "path": "vae/LTX23_audio_vae_bf16.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "steps_range": [
+        6,
+        15
+      ],
+      "cfg_range": [
+        1.0,
+        3.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral_cfg_pp",
+        "euler_cfg_pp"
+      ],
+      "scheduler_options": [
+        "simple",
+        "normal"
+      ]
+    }
+  }
+}

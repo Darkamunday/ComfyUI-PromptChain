@@ -1,0 +1,174 @@
+{
+  "display_name": "FLUX.1 Schnell - 1.0",
+  "model_name": "FLUX.1 Schnell",
+  "version": "1.0",
+  "architecture": "flux",
+  "family": "flux_schnell",
+  "author": "Black Forest Labs",
+  "description": "12B parameter text-to-image model. Timestep-distilled for fast 1-4 step generation. Apache 2.0 licensed.",
+  "license": "Apache 2.0",
+  "tags": [
+    "flux",
+    "transformer",
+    "photorealistic",
+    "natural-language",
+    "fast",
+    "distilled"
+  ],
+  "url": "https://huggingface.co/Comfy-Org/flux1-schnell",
+  "release_date": "2024-08-01",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "flux-photography",
+  "negative": "",
+  "notes": "CFG 1.0, Steps 1-4, Euler+Simple. Distilled for fast generation. Use natural language prompts.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "flux1-schnell.safetensors",
+          "size_bytes": 23782506688,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/flux1-schnell",
+            "path": "flux1-schnell.safetensors"
+          },
+          "quick_hash": "c4ea2632014b32f3",
+          "sha256": "9403429e0052277ac2a87ad800adece5481eecefd9ed334e1f348723621d2a0a"
+        },
+        {
+          "precision": "fp8",
+          "filename": "flux1-schnell-fp8.safetensors",
+          "size_bytes": 17236328572,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/flux1-schnell",
+            "path": "flux1-schnell-fp8.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "T5-XXL Text Encoder",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "fp16",
+          "filename": "t5xxl_fp16.safetensors",
+          "size_bytes": 9787841024,
+          "source": {
+            "provider": "huggingface",
+            "repo": "comfyanonymous/flux_text_encoders",
+            "path": "t5xxl_fp16.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+          "size_bytes": 5157348688,
+          "source": {
+            "provider": "huggingface",
+            "repo": "comfyanonymous/flux_text_encoders",
+            "path": "t5xxl_fp8_e4m3fn_scaled.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "CLIP-L Text Encoder",
+      "folder": "text_encoders",
+      "filename": "clip_l.safetensors",
+      "size_bytes": 246144152,
+      "source": {
+        "provider": "huggingface",
+        "repo": "comfyanonymous/flux_text_encoders",
+        "path": "clip_l.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "ae.safetensors",
+      "size_bytes": 335304388,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/Lumina_Image_2.0_Repackaged",
+        "path": "split_files/vae/ae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 4,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "steps_range": [
+        1,
+        4
+      ],
+      "cfg_range": [
+        1.0,
+        1.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral"
+      ],
+      "scheduler_options": [
+        "simple",
+        "normal",
+        "sgm_uniform",
+        "beta"
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 896,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1408,
+          "height": 1408
+        }
+      ]
+    }
+  }
+}

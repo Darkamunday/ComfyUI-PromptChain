@@ -1,0 +1,19 @@
+{
+  "name": "Illustrij: Quill Prompts",
+  "prompts": [
+    {
+      "id": "illustrij-quill-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterpiece, best quality\n\nNegative Prompt:\nworst quality, bad quality",
+      "scope": { "type": "model", "model_name": "Illustrij: Quill" }
+    },
+    {
+      "id": "illustrij-quill-painterly",
+      "name": "Painterly",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Painterly\nmasterpiece, best quality, painterly, oil painting, atmospheric lighting\n\nNegative Prompt:\nworst quality, bad quality, flat, sketch",
+      "scope": { "type": "model", "model_name": "Illustrij: Quill" }
+    }
+  ]
+}

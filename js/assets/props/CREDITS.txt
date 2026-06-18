@@ -1,0 +1,49 @@
+Bundled 3D model props
+======================
+
+Most models in this folder are from Kenney (https://kenney.nl) — CC0 1.0
+(Public Domain). No attribution legally required; this credit is a courtesy.
+Kits used: Furniture Kit, Blaster Kit, Survival Kit, Food Kit, Car Kit,
+Mini Skate, City Kit (Roads), Fantasy Town Kit.
+
+License: CC0 1.0 (Public Domain) — https://creativecommons.org/publicdomain/zero/1.0/
+
+schoolDeskOnly.glb and schoolChair.glb are split (by connected component, no mesh
+editing) from "Anime School Desk Model" by 3DGhost903:
+  https://sketchfab.com/3d-models/anime-school-desk-model-5c013e3454ad458e83803ab5b332ef02
+License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Attribution (required): "Anime School Desk Model" by 3DGhost903, licensed under CC BY 4.0.
+
+Quaternius CC0 (https://quaternius.com): sword, dagger, spear, bow, shield, book,
+key, guitar, bag (Ultimate RPG Items + misc). CC0 1.0 — no attribution required.
+
+CC-BY 4.0 (attribution REQUIRED) — via Poly Pizza (poly.pizza):
+  motorcycle.glb, bicycle.glb — "Poly by Google", CC-BY 3.0
+  scooter.glb — Vespa by Jasmine Roberts, CC-BY
+
+Shoe styles (figure footwear, swapped onto a person's feet) — via Poly Pizza:
+  shoe_trainer.glb, shoe_stiletto.glb, shoe_sandal.glb — by jeremy, CC-BY 3.0
+    (attribution required): "Trainer / Stiletto / Sandal" by jeremy, CC-BY 3.0.
+  shoe_boots.glb, shoe_slippers.glb — by Isa Lousberg, CC0 (no attribution required).
+
+boot_right.glb, boot_left.glb (spawnable boot props, normalized + split into a
+right boot and its mirror) — derived from "Rubber boot" by dook via "Poly by Google",
+CC-BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+  Attribution (required): "Rubber boot" by Poly by Google (dook), CC-BY 3.0,
+  https://poly.pizza/m/eFxqLZsis1O
+
+The .glb files are loaded as scene "props" in the 3D Poser, normalized to a
+real-world height, re-pivoted to their base, and re-materialed to a flat matte
+so they read as depth/pose geometry.
+
+js/assets/pose-figure-horse.glb (the 🐾 Creatures horse FIGURE):
+  Attribution (required): "Horse" by MAXDESIGN-3D, CC-BY 4.0,
+  https://sketchfab.com/3d-models/horse-6d0f9c1ce82f41048a282b6c47a50684
+  (Loaded as a posable figure on the "horse" rig profile, re-materialed to the
+  shared clay matte; the GLB embeds its own license metadata in asset.extras.)
+
+js/assets/pose-figure-cat.glb (the 🐾 Creatures cat FIGURE):
+  Attribution (required): "An Animated Cat" by Evil_Katz, CC-BY 4.0,
+  https://sketchfab.com/3d-models/an-animated-cat-aec25699660043a29595f9572149d1e8
+  (Loaded as a posable figure on the "cat" rig profile, re-materialed to the
+  shared clay matte; the GLB embeds its own license metadata in asset.extras.)

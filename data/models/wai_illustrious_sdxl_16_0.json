@@ -1,0 +1,152 @@
+{
+  "display_name": "WAI-Illustrious-SDXL - 16.0",
+  "model_name": "WAI-Illustrious-SDXL",
+  "version": "16.0",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "WAI0731",
+  "description": "SDXL-based checkpoint for anime illustration generation. Built-in VAE. Avoid excessive quality/aesthetic tags as they reduce image clarity.",
+  "license": "Illustrious License (FAIPL 1.0)",
+  "tags": [
+    "checkpoint merge",
+    "anime",
+    "illustration",
+    "illustrious",
+    "nsfw",
+    "base model"
+  ],
+  "url": "https://civitai.com/models/827184/wai-illustrious-sdxl",
+  "civitai_model_id": 827184,
+  "quality_position": "end",
+  "trigger": "masterpiece, best quality, amazing quality, newest",
+  "default_prompt_id": "wai-default",
+  "negative": "bad quality, worst quality, worst detail, sketch, censor",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "notes": "CFG 5-7, Steps 15-30, Euler A. Use resolution larger than 1024x1024. Avoid excessive quality tags. Built-in VAE — do NOT apply external VAE.",
+  "nodes": {
+    "KSampler": {
+      "steps": 25,
+      "cfg": 6.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        5.0,
+        7.0
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "euler",
+        "dpmpp_2m",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 20,
+      "cfg": 6.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        15,
+        25
+      ],
+      "cfg_range": [
+        5.0,
+        7.0
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "euler",
+        "dpmpp_2m",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 1152,
+      "height": 1728,
+      "_resolutions": [
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1152,
+          "height": 1728
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1280,
+          "height": 1280
+        }
+      ]
+    }
+  },
+  "release_date": "2025-12-18",
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "0d0c3c655ccb7183",
+      "sha256": null,
+      "filename": "waiIllustriousSDXL_v160.safetensors"
+    }
+  ]
+}

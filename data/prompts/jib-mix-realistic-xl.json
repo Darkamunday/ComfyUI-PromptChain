@@ -1,0 +1,33 @@
+{
+  "name": "Jib Mix Realistic XL Prompts",
+  "prompts": [
+    {
+      "id": "jibmix-default",
+      "name": "Realistic Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\n35mm photograph, film, bokeh, professional, 4k, highly detailed\n\nNegative Prompt:\n(bokeh)",
+      "scope": { "type": "model", "model_name": "Jib Mix Realistic XL" }
+    },
+    {
+      "id": "jibmix-portrait",
+      "name": "Portrait Photography",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Portrait Photography\n35mm photograph, film, bokeh, professional, 4k, highly detailed, portrait, detailed face, detailed skin\n\nNegative Prompt:\n(bokeh)",
+      "scope": { "type": "model", "model_name": "Jib Mix Realistic XL" }
+    },
+    {
+      "id": "jibmix-cinematic",
+      "name": "Cinematic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Cinematic\ncinematic, dramatic lighting, film grain, depth of field, professional photography\n\nNegative Prompt:\n(bokeh)",
+      "scope": { "type": "model", "model_name": "Jib Mix Realistic XL" }
+    },
+    {
+      "id": "jibmix-studio",
+      "name": "Studio Photography",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Studio Photography\nstudio photography, professional lighting, clean background, high quality, sharp focus, detailed skin\n\nNegative Prompt:\n(bokeh)",
+      "scope": { "type": "model", "model_name": "Jib Mix Realistic XL" }
+    }
+  ]
+}

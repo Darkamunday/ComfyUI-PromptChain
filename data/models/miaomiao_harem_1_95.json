@@ -1,0 +1,105 @@
+{
+  "display_name": "MiaoMiao Harem - 1.95",
+  "model_name": "MiaoMiao Harem",
+  "version": "1.95",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "MiaoMiao",
+  "description": "Illustrious EPS model optimizing texture, semantic understanding, and skin rendering. Integrates anime aesthetics with realistic skin textures while maintaining stable limb proportions. One-prompt simplicity.",
+  "license": "Illustrious License",
+  "tags": [
+    "anime",
+    "illustrious",
+    "sdxl",
+    "realistic skin",
+    "eps"
+  ],
+  "url": "https://civitai.com/models/934764/miaomiao-harem",
+  "civitai_model_id": 934764,
+  "release_date": "2026-02-24",
+  "quality_position": "end",
+  "trigger": "masterpiece, best quality, absurdres, newest, very aesthetic, amazing quality, highres, sensitive, complex background, ultra detailed, best anatomy, HDR, 8K, high detail RAW color art, high contrast, depth of field",
+  "default_prompt_id": "miaomiao-default",
+  "negative": "lowres, (bad), limb asymmetry, bad feet, text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, simple_background, artistic error, username, scan, [abstract], english text, shiny_skin",
+  "notes": "No complex prompting needed. Danbooru tags with spaces. Author uses CFG 6 in all examples. Hires fix recommended: 4x-UltraSharp 2x upscale, 10 steps, 0.3 denoise.",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 6.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "exponential",
+      "denoise": 0.4,
+      "guide_size": 384,
+      "max_size": 768
+    },
+    "KSampler": {
+      "steps": 30,
+      "cfg": 6.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "exponential",
+      "steps_range": [
+        25,
+        40
+      ],
+      "cfg_range": [
+        3.8,
+        6.0
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "euler"
+      ],
+      "scheduler_options": [
+        "exponential",
+        "normal"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 768,
+      "height": 1280,
+      "_resolutions": [
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "9cb2cd71d6917e18",
+      "sha256": null,
+      "filename": "miaomiaoHarem_v195.safetensors"
+    }
+  ]
+}

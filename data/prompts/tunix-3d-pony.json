@@ -1,0 +1,26 @@
+{
+  "name": "TUNIX 3D Stylized Pony Prompts",
+  "prompts": [
+    {
+      "id": "tunix-pony-default",
+      "name": "Pony Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nscore_9, score_8_up, score_7_up\n\nNegative Prompt:\nscore_4, score_5, score_6",
+      "scope": { "type": "model", "model_name": "TUNIX 3D Stylized Pony" }
+    },
+    {
+      "id": "tunix-pony-detailed-3d",
+      "name": "Detailed 3D",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Detailed 3D\nscore_9, score_8_up, score_7_up, 3d, detailed, blender, high detail, volumetric lighting\n\nNegative Prompt:\nscore_4, score_5, score_6, flat, 2d, sketch",
+      "scope": { "type": "model", "model_name": "TUNIX 3D Stylized Pony" }
+    },
+    {
+      "id": "tunix-pony-scenery",
+      "name": "Scenery (No People)",
+      "category": "",
+      "text": "// Scenery\nscenery, no humans, environment, detailed background\n\n// Your Tags\n{cursor}\n\n// Quality\nscore_9, score_8_up, score_7_up\n\nNegative Prompt:\nscore_4, score_5, score_6, person, people, human",
+      "scope": { "type": "model", "model_name": "TUNIX 3D Stylized Pony" }
+    }
+  ]
+}

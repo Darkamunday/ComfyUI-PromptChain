@@ -1,0 +1,150 @@
+{
+  "display_name": "UncannyPleasurePie TripTrap - 2.0",
+  "model_name": "UncannyPleasurePie TripTrap",
+  "version": "2.0",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "TripTrap",
+  "description": "Realistic style Illustrious model. Merge of uncannyValley_Noob3dV3, pleasurechest_v1, and pieModels_impossiblePie. 8 LoRAs baked in. LCM-distilled for fast generation.",
+  "license": "Illustrious License (FAIPL 1.0)",
+  "tags": [
+    "checkpoint merge",
+    "realistic",
+    "3d",
+    "illustrious",
+    "lcm",
+    "fast",
+    "nsfw",
+    "base model"
+  ],
+  "url": "https://civitai.com/models/2147891",
+  "civitai_model_id": 2147891,
+  "quality_position": "end",
+  "release_date": "2025-12-01",
+  "trigger": "masterpiece, best quality",
+  "default_prompt_id": "upp-default",
+  "negative": "worst quality, bad quality, lowres",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "notes": "LCM-distilled model. Use CFG 1.0, only 4 steps with LCM sampler + Simple scheduler. 8 LoRAs baked in.",
+  "nodes": {
+    "KSampler": {
+      "steps": 4,
+      "cfg": 1.0,
+      "sampler_name": "lcm",
+      "scheduler": "simple",
+      "steps_range": [
+        4,
+        8
+      ],
+      "cfg_range": [
+        1.0,
+        1.5
+      ],
+      "sampler_name_options": [
+        "lcm",
+        "euler",
+        "euler_ancestral",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "simple",
+        "normal",
+        "karras"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -1
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 4,
+      "cfg": 1.0,
+      "sampler_name": "lcm",
+      "scheduler": "simple",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        3,
+        8
+      ],
+      "cfg_range": [
+        1.0,
+        1.5
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "lcm",
+        "euler",
+        "euler_ancestral",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "simple",
+        "normal",
+        "karras"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 896,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "62750d4017ea78c6",
+      "sha256": null,
+      "filename": "uncannypleasurepie_v20.safetensors"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "RealCartoon-Pony Prompts",
+  "prompts": [
+    {
+      "id": "rc-pony-default",
+      "name": "Pony Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nscore_9, score_8_up, score_7_up\n\nNegative Prompt:\n(bad quality:1.3), (worst quality:1.3), watermark, (blurry), 5-funny-looking-fingers",
+      "scope": { "type": "model", "model_name": "RealCartoon-Pony" }
+    },
+    {
+      "id": "rc-pony-cartoon",
+      "name": "Cartoon Style",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Cartoon Style\nscore_9, score_8_up, score_7_up, anime, cartoon, painted\n\nNegative Prompt:\n(bad quality:1.3), (worst quality:1.3), watermark, (blurry), 5-funny-looking-fingers, realistic, photo",
+      "scope": { "type": "model", "model_name": "RealCartoon-Pony" }
+    },
+    {
+      "id": "rc-pony-realistic",
+      "name": "Realistic Style",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Realistic Style\nscore_9, score_8_up, score_7_up, realistic, real, photorealistic\n\nNegative Prompt:\n(bad quality:1.3), (worst quality:1.3), watermark, (blurry), 5-funny-looking-fingers, cartoon, anime, painted",
+      "scope": { "type": "model", "model_name": "RealCartoon-Pony" }
+    },
+    {
+      "id": "rc-pony-sfw",
+      "name": "SFW",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// SFW\nscore_9, score_8_up, score_7_up\n\nNegative Prompt:\n(bad quality:1.3), (worst quality:1.3), watermark, (blurry), 5-funny-looking-fingers, nude, nudity, naked, nsfw, nipples",
+      "scope": { "type": "model", "model_name": "RealCartoon-Pony" }
+    }
+  ]
+}

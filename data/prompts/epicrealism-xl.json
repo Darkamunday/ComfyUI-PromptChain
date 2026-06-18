@@ -1,0 +1,26 @@
+{
+  "name": "epiCRealism XL Prompts",
+  "prompts": [
+    {
+      "id": "epicrealism-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default",
+      "scope": { "type": "model", "model_name": "epiCRealism XL" }
+    },
+    {
+      "id": "epicrealism-minimal",
+      "name": "Minimal (No Negatives)",
+      "category": "",
+      "text": "// Your Tags\n{cursor}",
+      "scope": { "type": "model", "model_name": "epiCRealism XL" }
+    },
+    {
+      "id": "epicrealism-photorealistic",
+      "name": "Photorealistic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Photorealistic\nphotorealistic, detailed skin texture, natural lighting\n\nNegative Prompt:\nanime, cartoon, drawing, illustration",
+      "scope": { "type": "model", "model_name": "epiCRealism XL" }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+rtmlib — vendored RTMPose wholebody pose estimator (OpenPose output)
+====================================================================
+
+SOURCE
+  Upstream repo : https://github.com/Tau-J/rtmlib  (Apache-2.0)
+  Commit        : f1bac7d80c88305534dbcdde12da39f6db4c3953  (v0.0.13)
+  License       : Apache-2.0  (see LICENSE.txt, copied verbatim from upstream)
+
+WHAT / WHY
+  rtmlib is the Apache-2.0, pure-Python RTMPose/RTMW inference library from the
+  mmpose / DWPose lineage. It reproduces DWPose-grade wholebody pose estimation
+  (body + feet + face + both hands) AND ships a built-in OpenPose-format renderer,
+  with a clean license. We vendor it as the native OpenPose preprocessor backend
+  so PromptChain no longer depends on comfyui_controlnet_aux's DWPose, whose CMU
+  model weights are non-commercial-licensed and cannot be redistributed.
+
+  The whole `rtmlib/{tools,visualization,__init__,version}` tree is copied as-is
+  (~5316 LOC, 38 .py files). Runtime deps: numpy, opencv-python, tqdm, and
+  onnxruntime (imported LAZILY inside tools/base.py only when the onnxruntime
+  backend actually runs — so the package imports fine without onnxruntime present).
+
+ISOLATION  (cannot collide with a user's pip-installed `rtmlib`)
+  Every executable internal import in upstream is already RELATIVE
+  (`from .tools import …`, `from .. import YOLOX`, `from .skeleton import *`), so
+  this slice is vendored UNCHANGED as a plain subpackage and is only ever imported
+  as `...vendor.rtmlib` — never the top-level name `rtmlib`. It is therefore
+  invisible on sys.path; `import rtmlib` in the host still resolves to a genuine
+  pip install if one exists, and our copy is reached solely via the package path.
+  The only `from rtmlib import …` lines upstream ships sit inside module-level
+  example DOCSTRINGS (never executed); they were rewritten to the vendored path
+  for clarity. Verified: zero executable `import rtmlib` / `from rtmlib.` remain.
+
+OPENPOSE API USED  (see ../pcr_rtmpose_openpose.py wrapper)
+  Wholebody(to_openpose=True, backend='onnxruntime', device=…)  -> (keypoints, scores)
+    133 COCO-wholebody keypoints are converted to 134-keypoint OpenPose layout.
+  draw_skeleton(canvas, keypoints, scores, openpose_skeleton=True)
+    routes to the `openpose134` skeleton and the OpenPose renderer (draw_openpose).
+
+MODEL DOWNLOAD
+  rtmlib auto-downloads its ONNX checkpoints on first inference from OpenMMLab
+  (download.openmmlab.com). Upstream default cache is
+  $TORCH_HOME/hub/checkpoints  (else $XDG_CACHE_HOME/rtmlib/hub, else
+  ~/.cache/rtmlib/hub). The wrapper redirects this to ComfyUI's models tree —
+  <models_dir>/rtmpose/  — by patching tools.file._get_rtmhub_dir at call time
+  (restored afterwards), so weights land alongside other ComfyUI models.
+
+  Default 'balanced' mode models (wholebody = body+feet+face+hands):
+    det  : yolox_m_8xb8-300e_humanart-c2c7a14a.onnx        (~ 100 MB person detector)
+    pose : rtmw-dw-x-l_simcc-cocktail14_270e-256x192.onnx  (~ 290 MB RTMW wholebody)

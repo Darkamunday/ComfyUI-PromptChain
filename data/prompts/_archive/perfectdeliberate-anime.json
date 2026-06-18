@@ -1,0 +1,19 @@
+{
+  "name": "PerfectDeliberate-Anime Prompts",
+  "prompts": [
+    {
+      "id": "pda-detailed",
+      "name": "Anime Detailed",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, anime, detailed face, detailed eyes, intricate details,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, text",
+      "scope": { "type": "model", "model_name": "PerfectDeliberate-Anime" }
+    },
+    {
+      "id": "pda-cel",
+      "name": "Cel-Shaded",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, cel shading, flat color, clean color, anime coloring,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, text",
+      "scope": { "type": "model", "model_name": "PerfectDeliberate-Anime" }
+    }
+  ]
+}

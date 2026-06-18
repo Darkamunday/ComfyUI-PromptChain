@@ -1,0 +1,144 @@
+{
+  "display_name": "Z-Image - Base",
+  "model_name": "Z-Image",
+  "version": "Base",
+  "architecture": "zimage",
+  "family": "zimage_base",
+  "author": "Z-Image Team",
+  "description": "High-quality image generation model using Qwen text encoder. Base version — 25-50 steps, higher quality.",
+  "tags": [
+    "realistic",
+    "photographic",
+    "zimage"
+  ],
+  "release_date": "2025-01-27",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "4k, highly detailed",
+  "default_prompt_id": "zimage-photorealistic-default",
+  "negative": "",
+  "quality_position": "end",
+  "notes": "CFG 3.0, Steps 25-50, res_multistep+beta. Uses Qwen3 4B encoder, no clip skip.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "filename": "z_image_bf16.safetensors",
+      "size_bytes": 12309866400,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/z_image",
+        "path": "split_files/diffusion_models/z_image_bf16.safetensors"
+      },
+      "quick_hash": "2cba1b6dd3930309",
+      "sha256": null
+    },
+    {
+      "label": "Text Encoder",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_3_4b.safetensors",
+          "size_bytes": 8044982048,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image",
+            "path": "split_files/text_encoders/qwen_3_4b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "qwen_3_4b_fp8_mixed.safetensors",
+          "size_bytes": 5631994051,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image",
+            "path": "split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp4",
+          "filename": "qwen_3_4b_fp4_mixed.safetensors",
+          "size_bytes": 3479416193,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image",
+            "path": "split_files/text_encoders/qwen_3_4b_fp4_mixed.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "ae.safetensors",
+      "size_bytes": 335304388,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/z_image",
+        "path": "split_files/vae/ae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 50,
+      "cfg": 3.0,
+      "sampler_name": "res_multistep",
+      "scheduler": "beta",
+      "steps_range": [
+        25,
+        50
+      ],
+      "cfg_range": [
+        2.0,
+        4.0
+      ],
+      "sampler_name_options": [
+        "res_multistep",
+        "euler",
+        "euler_ancestral",
+        "dpmpp_2m",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "beta",
+        "simple",
+        "sgm_uniform",
+        "normal"
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 768,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 768,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 1152,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "name": "Inpaint",
+  "category": "Editing",
+  "order": 10,
+  "scope": {
+    "type": "architecture",
+    "architecture": "flux"
+  },
+  "created_at": 1781308800,
+  "id": "flux-dev-inpaint",
+  "nodes": [
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        1250,
+        190
+      ],
+      "size": [
+        225,
+        116
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "FluxGuidance",
+      "offset": [
+        1550,
+        240
+      ],
+      "size": [
+        312,
+        80
+      ],
+      "widgets_values": [
+        3.5
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      }
+    },
+    {
+      "type": "KSampler",
+      "offset": [
+        1970,
+        290
+      ],
+      "size": [
+        300,
+        474
+      ],
+      "widgets_values": [
+        346924369,
+        "randomize",
+        25,
+        1,
+        "euler",
+        "simple",
+        0.5
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        2020,
+        150
+      ],
+      "size": [
+        252,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        2400,
+        0
+      ],
+      "size": [
+        330,
+        580
+      ],
+      "widgets_values": [
+        "flux1/%date:yyyy-MM-dd_hhmmss%"
+      ],
+      "properties": {}
+    },
+    {
+      "type": "DualCLIPLoader",
+      "offset": [
+        1240,
+        380
+      ],
+      "size": [
+        260,
+        151.984375
+      ],
+      "widgets_values": [
+        "t5xxl_fp16.safetensors",
+        "clip_l.safetensors",
+        "flux",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "DualCLIPLoader"
+      }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [
+        1990,
+        0
+      ],
+      "size": [
+        288.53125,
+        82.65625
+      ],
+      "widgets_values": [
+        "ae.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      }
+    },
+    {
+      "type": "LoadImage",
+      "offset": [
+        840,
+        0
+      ],
+      "size": [
+        350,
+        560
+      ],
+      "widgets_values": [
+        "",
+        "image"
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      }
+    },
+    {
+      "type": "UNETLoader",
+      "offset": [
+        1540,
+        400
+      ],
+      "size": [
+        355.84375,
+        82.65625
+      ],
+      "widgets_values": [
+        "flux1-dev.safetensors",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      }
+    },
+    {
+      "type": "VAEEncode",
+      "offset": [
+        1550,
+        0
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      }
+    },
+    {
+      "type": "SetLatentNoiseMask",
+      "offset": [
+        1550,
+        590
+      ],
+      "size": [
+        264,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "SetLatentNoiseMask"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 0,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 9,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 9,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 1,
+      "to_node_idx": 10,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 9,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 10,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 0
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 1,
+      "to_node_idx": 0,
+      "to_slot": 1
+    }
+  ]
+}

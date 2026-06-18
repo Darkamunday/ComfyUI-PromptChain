@@ -1,0 +1,33 @@
+{
+  "name": "RealVisXL Prompts",
+  "prompts": [
+    {
+      "id": "realvisxl-default",
+      "name": "Realistic Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\nNegative Prompt:\nworst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch, open mouth",
+      "scope": { "type": "model", "model_name": "RealVisXL" }
+    },
+    {
+      "id": "realvisxl-portrait",
+      "name": "Portrait Photography",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Portrait Photography\nphoto of, portrait, detailed face, natural lighting, sharp focus, professional photography\n\nNegative Prompt:\nworst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch, open mouth",
+      "scope": { "type": "model", "model_name": "RealVisXL" }
+    },
+    {
+      "id": "realvisxl-cinematic",
+      "name": "Cinematic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Cinematic\ncinematic, dramatic lighting, film grain, depth of field, bokeh, professional photography\n\nNegative Prompt:\nworst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch, open mouth",
+      "scope": { "type": "model", "model_name": "RealVisXL" }
+    },
+    {
+      "id": "realvisxl-studio",
+      "name": "Studio Photography",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Studio Photography\nstudio photography, professional lighting, clean background, high quality, sharp focus\n\nNegative Prompt:\nworst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch, open mouth",
+      "scope": { "type": "model", "model_name": "RealVisXL" }
+    }
+  ]
+}

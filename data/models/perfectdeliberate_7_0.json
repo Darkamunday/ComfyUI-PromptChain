@@ -1,0 +1,165 @@
+{
+  "display_name": "PerfectDeliberate - 7.0",
+  "model_name": "PerfectDeliberate",
+  "version": "7.0",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "XpucT",
+  "license": "Illustrious License",
+  "tags": [
+    "anime",
+    "3d",
+    "sexy",
+    "porn",
+    "nsfw",
+    "base model",
+    "fantasy",
+    "hentai",
+    "realistic"
+  ],
+  "url": "https://civitai.com/models/24350/perfectdeliberate",
+  "download_url": "https://civitai.com/api/download/models/2636109?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+  "civitai_model_id": 24350,
+  "quality_position": "end",
+  "release_date": "2026-01-28",
+  "trigger": "masterpiece, best quality, amazing quality, very aesthetic, absurdres",
+  "default_prompt_id": "pd-default",
+  "negative": "worst quality, low quality, lowres, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, signature, watermark, username, blurry, artist name, text",
+  "notes": "CFG 5-8, Steps 20-50, Euler a or DPM++ 2M Karras. Versatile model for anime, 3D, and fantasy styles. Baked-in VAE.",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "KSampler": {
+      "steps": 28,
+      "cfg": 7.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "steps_range": [
+        20,
+        50
+      ],
+      "cfg_range": [
+        5.0,
+        8.0
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "dpmpp_2m",
+        "euler",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "normal",
+        "karras",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 7.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        5.0,
+        8.0
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "dpmpp_2m",
+        "euler",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "normal",
+        "karras",
+        "exponential"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 832,
+      "height": 1216,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 960,
+          "height": 1440
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1152,
+          "height": 1728
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1440,
+          "height": 960
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 1536
+        }
+      ]
+    }
+  },
+  "description": "Versatile Illustrious-based checkpoint for anime, 3D, and fantasy art. Known for high quality outputs with deliberate stylistic control.",
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "1c80d573952e333b",
+      "sha256": null,
+      "filename": "perfectdeliberate_v70.safetensors",
+      "download_url": "https://civitai.com/api/download/models/2636109?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    }
+  ]
+}

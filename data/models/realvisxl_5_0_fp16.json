@@ -1,0 +1,121 @@
+{
+  "display_name": "RealVisXL - 5.0 fp16",
+  "model_name": "RealVisXL",
+  "version": "5.0 fp16",
+  "architecture": "sdxl",
+  "family": "",
+  "author": "SG_161222",
+  "description": "Photorealism-focused SDXL checkpoint merged from 10+ source models for quality realistic imagery.",
+  "license": "CreativeML Open RAIL++-M",
+  "tags": [
+    "realistic",
+    "photoreal",
+    "sdxl"
+  ],
+  "url": "https://civitai.com/models/139562/realvisxl-v50",
+  "civitai_model_id": 139562,
+  "release_date": "2024-08-31",
+  "default_prompt_id": "realvisxl-default",
+  "negative": "worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch, open mouth",
+  "notes": "VAE baked in. Hires fix: upscale 1.1-1.5x, denoising 0.1-0.3.",
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "nodes": {
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.4,
+      "guide_size": 384,
+      "max_size": 768
+    },
+    "KSampler": {
+      "steps": 30,
+      "cfg": 5.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps_range": [
+        25,
+        40
+      ],
+      "cfg_range": [
+        3.0,
+        7.0
+      ],
+      "sampler_name_options": [
+        "dpmpp_2m",
+        "euler",
+        "euler_ancestral",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -1,
+      "stop_at_clip_layer_range": [
+        -1,
+        -1
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 832,
+      "height": 1216,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1152,
+          "height": 1728
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 1536
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "f5d11d8049cd2a8f",
+      "sha256": null,
+      "filename": "RealVisXL_V5.0_fp16.safetensors"
+    }
+  ]
+}

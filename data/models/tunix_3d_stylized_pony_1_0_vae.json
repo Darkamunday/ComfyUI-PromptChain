@@ -1,0 +1,120 @@
+{
+  "display_name": "TUNIX 3D Stylized Pony - 1.0 VAE",
+  "model_name": "TUNIX 3D Stylized Pony",
+  "version": "1.0 VAE",
+  "architecture": "sdxl",
+  "family": "pony",
+  "author": "ZyloO",
+  "description": "High-quality 3D stylized checkpoint merge for Pony. Excellent detail, lighting, and skin rendering with Blender-style 3D aesthetics. VAE baked in.",
+  "license": "CreativeML Open RAIL++-M",
+  "tags": [
+    "checkpoint merge",
+    "3d",
+    "stylized",
+    "blender",
+    "cartoon",
+    "detailed",
+    "3dcg",
+    "pony"
+  ],
+  "url": "https://civitai.com/models/558362/tunix-3d-stylized-pony",
+  "civitai_model_id": 558362,
+  "release_date": "2024-07-05",
+  "trigger": "score_9, score_8_up, score_7_up",
+  "default_prompt_id": "tunix-pony-default",
+  "negative": "score_4, score_5, score_6",
+  "notes": "Clip Skip 2 required. Use 'score_9, score_8_up, score_7_up, BREAK' at start of positive prompt. May occasionally add unwanted figures — use 'scenery' or 'no humans' to prevent.",
+  "tag_sources": [
+    "Danbooru",
+    "e621"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 6.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.4,
+      "guide_size": 384,
+      "max_size": 768
+    },
+    "KSampler": {
+      "steps": 30,
+      "cfg": 6.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps_range": [
+        20,
+        40
+      ],
+      "cfg_range": [
+        5.0,
+        7.0
+      ],
+      "sampler_name_options": [
+        "dpmpp_2m",
+        "euler_ancestral",
+        "euler",
+        "dpmpp_sde",
+        "dpmpp_2m_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 896,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "7ef6a18b36f32440",
+      "sha256": null,
+      "filename": "tunix3DStylizedPony_v10VAE.safetensors"
+    }
+  ]
+}

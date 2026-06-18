@@ -1,0 +1,33 @@
+{
+  "name": "Juggernaut XL Prompts",
+  "prompts": [
+    {
+      "id": "juggernaut-basic",
+      "name": "Basic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Basic\ndetailed skin, highlighted skin, natural, realistic texture\n\nNegative Prompt:\nfake eyes, deformed eyes, bad eyes, cgi, 3D, digital, airbrushed",
+      "scope": { "type": "model", "model_name": "Juggernaut XL" }
+    },
+    {
+      "id": "juggernaut-photography",
+      "name": "Photography",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Photography\nraw photography, 8K, masterpiece, cinematic lighting, film grain, shallow depth of field\n\nNegative Prompt:\nfake eyes, deformed eyes, bad eyes, cgi, 3D, digital, airbrushed",
+      "scope": { "type": "model", "model_name": "Juggernaut XL" }
+    },
+    {
+      "id": "juggernaut-cinema",
+      "name": "Cinema",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Cinema\ncinematic still, movie scene, dramatic lighting, professional photography, ultra detailed\n\nNegative Prompt:\nfake eyes, deformed eyes, bad eyes, cgi, 3D, digital, airbrushed",
+      "scope": { "type": "model", "model_name": "Juggernaut XL" }
+    },
+    {
+      "id": "juggernaut-cg",
+      "name": "CG / Video Game",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// CG / Video Game\nhyperrealistic 3d cinematic CG render\n\nNegative Prompt:\nfake eyes, deformed eyes, bad eyes",
+      "scope": { "type": "model", "model_name": "Juggernaut XL" }
+    }
+  ]
+}

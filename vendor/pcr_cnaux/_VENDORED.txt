@@ -1,0 +1,63 @@
+pcr_cnaux — vendored slice of comfyui_controlnet_aux
+====================================================
+
+SOURCE
+  Upstream repo : https://github.com/Fannovel16/comfyui_controlnet_aux  (Apache-2.0)
+  Local copy    : comfyui/custom_nodes/comfyui_controlnet_aux
+  Models        : DepthAnything-V2 weights are Apache-2.0
+                  (depth-anything/Depth-Anything-V2-* on Hugging Face).
+
+WHAT WAS EXTRACTED  (DepthAnything-V2 + Canny + TEED soft-edge/line-art)
+  depth_anything_v2/      full 13-file subtree (dpt, dinov2, dinov2_layers/, util/blocks, util/transform, __init__=DepthAnythingV2Detector)
+  canny/__init__.py       CannyDetector (cv2.Canny + common_input_validate + resize_image_with_pad + HWC3)
+  teed/                   MIT TEED edge detector — Xavier Soria Poma, 2022 (see teed/LICENSE.txt + MIT block below).
+                          ted.py (TED architecture), Fmish/Fsmish/Xmish/Xsmish (smish activations) copied verbatim;
+                          __init__.py=TEDDetector with its one `custom_controlnet_aux.util` import rewritten to `pcr_cnaux.util`.
+                          Serves BOTH soft-edge (default TED 7_model.pth) and line-art (MistoAI MTEED.pth).
+  util.py                 TRIMMED src/.../util.py — only HWC3, common_input_validate, resize_image_with_pad
+                          (+ helpers safer_memory/get_upscale_method/pad64), safe_step, custom_hf_download,
+                          BDS_MODEL_NAME, DEPTH_ANYTHING_V2_MODEL_NAME_DICT. Everything else dropped.
+  utils.py                TRIMMED top-level utils.py — only common_annotator_call, INPUT, define_preprocessor_inputs.
+  native_simple.py        Clean-room TileDetector/LuminanceDetector/ScribbleXDoGDetector (model-free OpenCV, not copied).
+  wrappers.py             PromptChain node classes (DepthAnything, Canny, Tile, Luminance, Scribble, SoftEdge, LineArt).
+  __init__.py             isolation shim + NODE_CLASS_MAPPINGS / NODE_DISPLAY_NAME_MAPPINGS export.
+
+WHY RENAMED  (custom_controlnet_aux -> pcr_cnaux)
+  A user may have a real comfyui_controlnet_aux installed. If we kept the
+  `custom_controlnet_aux` package name, importing our copy would shadow theirs (or
+  vice-versa) and could overwrite its registered nodes. Every `custom_controlnet_aux`
+  reference in the copied files was rewritten to `pcr_cnaux` (verified: zero remain).
+  __init__.py scope-inserts vendor/ onto sys.path only for the duration of import,
+  so `import custom_controlnet_aux` still resolves to the genuine install and our
+  nodes never collide with theirs.
+
+MODEL DOWNLOAD
+  All weights self-download via custom_hf_download into ComfyUI models tree:
+  <models_dir>/controlnet_aux/<repo>/<filename>
+    depth   : .../controlnet_aux/depth-anything/Depth-Anything-V2-Large/depth_anything_v2_vitl.pth
+    softedge: .../controlnet_aux/bdsqlsz/qinglong_controlnet-lllite/Annotators/7_model.pth  (TED, ~3.6 MB)
+    lineart : .../controlnet_aux/TheMistoAI/MistoLine/Anyline/MTEED.pth  (MistoAI TEED, ~6 MB)
+  Resolved lazily through ComfyUI folder_paths.models_dir; falls back to a temp dir
+  if folder_paths is unavailable.
+
+TEED LICENSE  (teed/ subtree — MIT)
+  MIT License
+  Copyright (c) 2022 Xavier Soria Poma
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.

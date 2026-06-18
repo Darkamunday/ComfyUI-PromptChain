@@ -1,0 +1,160 @@
+{
+  "display_name": "Z-Image - Turbo",
+  "model_name": "Z-Image",
+  "version": "Turbo",
+  "architecture": "zimage",
+  "family": "zimage_turbo",
+  "author": "Z-Image Team",
+  "description": "High-quality image generation model using Qwen text encoder. Turbo version — 6-12 steps, fast generation.",
+  "tags": [
+    "realistic",
+    "photographic",
+    "turbo",
+    "fast",
+    "zimage"
+  ],
+  "release_date": "2025-01-01",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "4k, highly detailed",
+  "default_prompt_id": "zimage-photorealistic-default",
+  "negative": "",
+  "quality_position": "end",
+  "notes": "CFG 1.3, Steps 9, res_multistep+beta. Fast generation turbo variant.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "z_image_turbo_bf16.safetensors",
+          "size_bytes": 12309866400,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image_turbo",
+            "path": "split_files/diffusion_models/z_image_turbo_bf16.safetensors"
+          },
+          "quick_hash": "f0b2f760a4753f32",
+          "sha256": null
+        },
+        {
+          "precision": "nvfp4",
+          "filename": "z_image_turbo_nvfp4.safetensors",
+          "size_bytes": 4509509600,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image_turbo",
+            "path": "split_files/diffusion_models/z_image_turbo_nvfp4.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_3_4b.safetensors",
+          "size_bytes": 8044982048,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image_turbo",
+            "path": "split_files/text_encoders/qwen_3_4b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "qwen_3_4b_fp8_mixed.safetensors",
+          "size_bytes": 5631994051,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image_turbo",
+            "path": "split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp4",
+          "filename": "qwen_3_4b_fp4_mixed.safetensors",
+          "size_bytes": 3479416193,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image_turbo",
+            "path": "split_files/text_encoders/qwen_3_4b_fp4_mixed.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "ae.safetensors",
+      "size_bytes": 335304388,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/z_image_turbo",
+        "path": "split_files/vae/ae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 9,
+      "cfg": 1.3,
+      "sampler_name": "res_multistep",
+      "scheduler": "beta",
+      "steps_range": [
+        6,
+        12
+      ],
+      "cfg_range": [
+        1.0,
+        2.0
+      ],
+      "sampler_name_options": [
+        "res_multistep",
+        "euler",
+        "euler_ancestral",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "beta",
+        "simple",
+        "sgm_uniform"
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 768,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 768,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 1152,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  }
+}

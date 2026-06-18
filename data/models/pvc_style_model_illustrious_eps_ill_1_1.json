@@ -1,0 +1,180 @@
+{
+  "display_name": "PVC Style Model (Illustrious) - EPS_Ill_1.1",
+  "model_name": "PVC Style Model (Illustrious)",
+  "version": "EPS_Ill_1.1",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "MIAOKA",
+  "description": "Anime figure generation model optimized for PVC style outputs. Enhances artist prompt stability, limb consistency, and semantic understanding while maintaining distinctive figurine style.",
+  "license": "Research/Non-commercial",
+  "tags": [
+    "anime",
+    "figurine",
+    "pvc",
+    "illustrious",
+    "sdxl",
+    "figure",
+    "statue"
+  ],
+  "url": "https://civitai.com/models/338712/pvc-style-modelmovable-figure-model-xl",
+  "civitai_model_id": 338712,
+  "quality_position": "end",
+  "release_date": "2025-10-28",
+  "trigger": "masterpiece, best quality, absurdres, very aesthetic, ultra-detailed",
+  "default_prompt_id": "pvc-ill-figurine-default",
+  "negative": "worst quality, bad quality, low quality, jpeg artifacts, old, oldest, signature, bad hands, mutated hands, missing fingers, lowres, text error, watermark, unfinished, displeasing, chromatic aberration, shiny_skin, simple_background",
+  "notes": "Euler or Euler a sampler, CFG 3.8-6, 30-35 steps, Clip Skip 2. Upscaling should not exceed 1.5x.",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "KSampler": {
+      "steps": 30,
+      "cfg": 5.0,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "steps_range": [
+        30,
+        35
+      ],
+      "cfg_range": [
+        3.8,
+        6.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral"
+      ],
+      "scheduler_options": [
+        "normal"
+      ]
+    },
+    "UltimateSDUpscale": {
+      "denoise": 0.2
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        20,
+        30
+      ],
+      "cfg_range": [
+        4.0,
+        6.0
+      ],
+      "denoise_range": [
+        0.1,
+        0.3
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral"
+      ],
+      "scheduler_options": [
+        "normal"
+      ]
+    },
+    "PromptChain_RegionalDetailer": {
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "denoise": 0.4,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        20,
+        30
+      ],
+      "cfg_range": [
+        4.0,
+        6.0
+      ],
+      "denoise_range": [
+        0.25,
+        0.55
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral"
+      ],
+      "scheduler_options": [
+        "normal"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 768,
+      "height": 1280,
+      "_resolutions": [
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 920,
+          "height": 1536
+        },
+        {
+          "width": 1024,
+          "height": 1386
+        },
+        {
+          "width": 1152,
+          "height": 1536
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1536,
+          "height": 920
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "116466b892b5cbac",
+      "sha256": null,
+      "filename": "PVCStyleModelMovable_epsIll11.safetensors"
+    }
+  ]
+}

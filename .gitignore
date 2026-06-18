@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+node_modules/
+wildcards/**
+!wildcards/.gitkeep
+data/*
+!data/tags/
+!data/prompts/
+!data/models/
+!data/templates/
+!data/tag-builder/
+data/models/_hash_index.json
+cache/
+*.map
+*.db-journal
+*.db-wal
+*.db-shm
+# dev-only verification scratch (top-level one-off ESM/py harnesses, their temp
+# evals, and test-run logs) — never ship in the pack. Anchored to repo root and
+# to the "_*check"/"_*-eval" shapes so it can't catch __init__.py.
+/_*.mjs
+/_*check.py
+/_*-eval.mjs
+/regress.txt
+# personal deploy helper (hardcoded local paths) — kept local, never shipped
+/deploy.sh
+# internal planning docs live at the working-dir root (C:\comfyui\dev-promptchain),
+# never inside the shipped node
+/dev-promptchain/
+# dev-only probes/harnesses/tests moved out of scripts/ (which keeps only the
+# runtime-imported modules) — kept local, never shipped
+/_harness/

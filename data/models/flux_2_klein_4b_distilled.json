@@ -1,0 +1,185 @@
+{
+  "display_name": "FLUX.2 Klein 4B - Distilled",
+  "model_name": "FLUX.2 Klein 4B",
+  "version": "Distilled",
+  "architecture": "flux2",
+  "family": "flux2_klein",
+  "author": "Black Forest Labs",
+  "description": "4B parameter distilled Flux 2 model. 4-step inference, runs on 8GB VRAM. Apache 2.0 licensed. Uses Qwen3-4B text encoder.",
+  "license": "Apache 2.0",
+  "tags": [
+    "flux2",
+    "klein",
+    "4B",
+    "distilled",
+    "fast",
+    "consumer"
+  ],
+  "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "release_date": "2026-01-14",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "flux2-klein-photography",
+  "negative": "",
+  "notes": "CFG 1.0, 4 steps, Euler. Distilled for fast generation. Uses Qwen3-4B encoder, not Mistral.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "flux-2-klein-4b.safetensors",
+          "size_bytes": 7751105712,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-4b",
+            "path": "split_files/diffusion_models/flux-2-klein-4b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "flux-2-klein-4b-fp8.safetensors",
+          "size_bytes": 4070624520,
+          "source": {
+            "provider": "huggingface",
+            "repo": "black-forest-labs/FLUX.2-klein-4b-fp8",
+            "path": "flux-2-klein-4b-fp8.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "nvfp4",
+          "filename": "flux-2-klein-4b-nvfp4.safetensors",
+          "size_bytes": 2460413488,
+          "source": {
+            "provider": "huggingface",
+            "repo": "black-forest-labs/FLUX.2-klein-4b-nvfp4",
+            "path": "flux-2-klein-4b-nvfp4.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder (Qwen3-4B)",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_3_4b.safetensors",
+          "size_bytes": 8044982048,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-4b",
+            "path": "split_files/text_encoders/qwen_3_4b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp4",
+          "filename": "qwen_3_4b_fp4_flux2.safetensors",
+          "size_bytes": 3848213998,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-4b",
+            "path": "split_files/text_encoders/qwen_3_4b_fp4_flux2.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "flux2-vae.safetensors",
+      "size_bytes": 336211292,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-4b",
+        "path": "split_files/vae/flux2-vae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 4,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "beta",
+      "steps_range": [
+        4,
+        8
+      ],
+      "cfg_range": [
+        1.0,
+        1.0
+      ],
+      "sampler_name_options": [
+        "euler"
+      ],
+      "scheduler_options": [
+        "beta",
+        "simple",
+        "normal"
+      ]
+    },
+    "FluxGuidance": {
+      "guidance": 1.0,
+      "guidance_range": [
+        1.0,
+        3.0
+      ]
+    },
+    "CFGGuider": {
+      "cfg": 1.0,
+      "cfg_range": [
+        1.0,
+        1.0
+      ]
+    },
+    "KSamplerSelect": {
+      "sampler_name": "euler",
+      "sampler_name_options": [
+        "euler"
+      ]
+    },
+    "Flux2Scheduler": {
+      "steps": 4,
+      "steps_range": [
+        4,
+        8
+      ]
+    },
+    "EmptyFlux2LatentImage": {
+      "width": 1024,
+      "height": 1024,
+      "_resolutions": [
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  }
+}

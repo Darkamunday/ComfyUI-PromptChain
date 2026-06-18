@@ -1,0 +1,335 @@
+{
+  "name": "Inpaint",
+  "category": "Editing",
+  "order": 10,
+  "scope": {
+    "type": "family",
+    "architecture": "flux",
+    "family": "flux_fill"
+  },
+  "created_at": 1775181825,
+  "id": "c74e96cf-f36e-4c74-a0ea-74df2db342e2",
+  "nodes": [
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        1250,
+        0
+      ],
+      "size": [
+        225,
+        116
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        1250,
+        190
+      ],
+      "size": [
+        225,
+        116
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "FluxGuidance",
+      "offset": [
+        1550,
+        240
+      ],
+      "size": [
+        312,
+        80
+      ],
+      "widgets_values": [
+        30
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      }
+    },
+    {
+      "type": "InpaintModelConditioning",
+      "offset": [
+        1540,
+        0
+      ],
+      "size": [
+        348.484375,
+        172
+      ],
+      "widgets_values": [
+        true
+      ],
+      "properties": {
+        "Node name for S&R": "InpaintModelConditioning"
+      }
+    },
+    {
+      "type": "KSampler",
+      "offset": [
+        1970,
+        290
+      ],
+      "size": [
+        360,
+        663
+      ],
+      "widgets_values": [
+        346924369,
+        "randomize",
+        30,
+        1,
+        "euler",
+        "normal",
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        2020,
+        150
+      ],
+      "size": [
+        252,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        2399.9766294897977,
+        -0.00684295168071003
+      ],
+      "size": [
+        330,
+        580
+      ],
+      "widgets_values": [
+        "FluxFill/%date:yyyy-MM-dd_hhmmss%"
+      ],
+      "properties": {}
+    },
+    {
+      "type": "DualCLIPLoader",
+      "offset": [
+        1238.911245878052,
+        378.3904051808472
+      ],
+      "size": [
+        260,
+        151.984375
+      ],
+      "widgets_values": [
+        "t5xxl_fp16.safetensors",
+        "clip_l.safetensors",
+        "flux",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "DualCLIPLoader"
+      }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [
+        1990,
+        0
+      ],
+      "size": [
+        288.53125,
+        82.65625
+      ],
+      "widgets_values": [
+        "ae.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      }
+    },
+    {
+      "type": "LoadImage",
+      "offset": [
+        840,
+        0
+      ],
+      "size": [
+        350,
+        560
+      ],
+      "widgets_values": [
+        "",
+        "image"
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      }
+    },
+    {
+      "type": "DifferentialDiffusion",
+      "offset": [
+        1550,
+        590
+      ],
+      "size": [
+        329.28125,
+        104
+      ],
+      "widgets_values": [
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "DifferentialDiffusion"
+      }
+    },
+    {
+      "type": "UNETLoader",
+      "offset": [
+        1540,
+        400
+      ],
+      "size": [
+        355.84375,
+        82.65625
+      ],
+      "widgets_values": [
+        "flux1-fill-dev.safetensors",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 1,
+      "to_node_idx": 4,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 2,
+      "to_node_idx": 4,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 6,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 0,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 9,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 9,
+      "from_slot": 1,
+      "to_node_idx": 3,
+      "to_slot": 4
+    },
+    {
+      "from_node_idx": 10,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 11,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 0
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 1,
+      "to_node_idx": 0,
+      "to_slot": 1
+    },
+    {
+      "from_slot": 2,
+      "to_node_idx": 1,
+      "to_slot": 1
+    }
+  ]
+}

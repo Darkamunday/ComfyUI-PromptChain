@@ -1,0 +1,12 @@
+{
+  "name": "PVC Style Model (Illustrious) Prompts",
+  "prompts": [
+    {
+      "id": "pvc-ill-figurine-default",
+      "name": "Figurine Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine Default\nmasterpiece, best quality, absurdres, very aesthetic, ultra-detailed\n\nNegative Prompt:\nworst quality, bad quality, low quality, jpeg artifacts, old, oldest, signature, bad hands, mutated hands, missing fingers, lowres, text error, watermark, unfinished, displeasing, chromatic aberration, shiny_skin, simple_background",
+      "scope": { "type": "model", "model_name": "PVC Style Model (Illustrious)" }
+    }
+  ]
+}

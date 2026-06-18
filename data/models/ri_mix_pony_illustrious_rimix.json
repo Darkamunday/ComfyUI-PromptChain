@@ -1,0 +1,147 @@
+{
+  "display_name": "Ri-Mix PONY+Illustrious - riMix",
+  "model_name": "Ri-Mix PONY+Illustrious",
+  "version": "riMix",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "phinjo",
+  "description": "Checkpoint merge combining Pony and Illustrious. Versatile illustration style with good detail and aesthetic quality.",
+  "license": "Illustrious License (FAIPL-1.0-SD)",
+  "tags": [
+    "checkpoint merge",
+    "style",
+    "illustration",
+    "pony",
+    "illustrious"
+  ],
+  "url": "https://civitai.com/models/996495/ri-mix-pony-illustrious",
+  "civitai_model_id": 996495,
+  "quality_position": "end",
+  "release_date": "2025-06-18",
+  "trigger": "masterwork, masterpiece, best quality, detailed, depth of field, high detail, very aesthetic",
+  "default_prompt_id": "rimix-default",
+  "negative": "lowres, worst quality, low quality, bad anatomy, bad hands",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "notes": "CFG 5-7, Steps 20-50. Use sdxl_vae.safetensors. ADetailer recommended.",
+  "nodes": {
+    "KSampler": {
+      "steps": 28,
+      "cfg": 6.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps_range": [
+        20,
+        50
+      ],
+      "cfg_range": [
+        5.0,
+        7.0
+      ],
+      "sampler_name_options": [
+        "dpmpp_2m",
+        "euler_ancestral",
+        "euler",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -1
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 6.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        5.0,
+        7.0
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "dpmpp_2m",
+        "euler_ancestral",
+        "euler",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 832,
+      "height": 1216,
+      "_resolutions": [
+        {
+          "width": 768,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1152,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "39ad46aa3a2202c6",
+      "sha256": null,
+      "filename": "riMixPONYIllustrious_riMix.safetensors"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scope": {
+    "type": "model",
+    "model_name": "Unholy Desire Mix"
+  },
+  "prompts": [
+    {
+      "id": "unholy-default",
+      "name": "Anime Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Anime Default\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres\n\nNegative Prompt:\nbad quality, worst quality, worst detail, sketch, censor, extra limbs, deformed fingers, bad anatomy, mutated body, lowres, blurry, text, ugly, hooded eyes, watermark, bad hands, bad proportions, poorly drawn face, poorly drawn hand, pixelated, distorted, jpeg artifacts, overexposed, underexposed, mutated, extra finger, cloned face, bad eyes",
+      "scope": { "type": "model", "model_name": "Unholy Desire Mix" }
+    },
+    {
+      "id": "unholy-cel",
+      "name": "Cel-Shaded",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Cel-Shaded\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, cel shading, flat color, clean color, anime coloring\n\nNegative Prompt:\nbad quality, worst quality, worst detail, sketch, censor, extra limbs, deformed fingers, bad anatomy, mutated body, lowres, blurry, text, ugly, hooded eyes, watermark, bad hands, bad proportions, poorly drawn face, poorly drawn hand, pixelated, distorted, jpeg artifacts, overexposed, underexposed, mutated, extra finger, cloned face, bad eyes",
+      "scope": { "type": "model", "model_name": "Unholy Desire Mix" }
+    },
+    {
+      "id": "unholy-photo",
+      "name": "Photo Detailed",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Photo Detailed\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, ultra detailed face, ultra detailed eyes, realistic, semi-realistic, detailed skin, depth of field, bokeh, cinematic lighting\n\nNegative Prompt:\nbad quality, worst quality, worst detail, sketch, censor, extra limbs, deformed fingers, bad anatomy, mutated body, lowres, blurry, text, ugly, hooded eyes, watermark, bad hands, bad proportions, poorly drawn face, poorly drawn hand, pixelated, distorted, jpeg artifacts, overexposed, underexposed, mutated, extra finger, cloned face, bad eyes",
+      "scope": { "type": "model", "model_name": "Unholy Desire Mix" }
+    },
+    {
+      "id": "unholy-ultra",
+      "name": "Ultra Detailed",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Ultra Detailed\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, ultra detailed face, ultra detailed eyes, highly detailed, intricate details, sharp focus, detailed background\n\nNegative Prompt:\nbad quality, worst quality, worst detail, sketch, censor, extra limbs, deformed fingers, bad anatomy, mutated body, lowres, blurry, text, ugly, hooded eyes, watermark, bad hands, bad proportions, poorly drawn face, poorly drawn hand, pixelated, distorted, jpeg artifacts, overexposed, underexposed, mutated, extra finger, cloned face, bad eyes",
+      "scope": { "type": "model", "model_name": "Unholy Desire Mix" }
+    }
+  ]
+}

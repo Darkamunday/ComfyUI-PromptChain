@@ -1,0 +1,21 @@
+{
+  "scope": {
+    "model_name": "UncannyPleasurePie TripTrap"
+  },
+  "prompts": [
+    {
+      "id": "upp-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterpiece, best quality\n\nNegative Prompt:\nworst quality, bad quality, lowres",
+      "scope": { "type": "model", "model_name": "UncannyPleasurePie TripTrap" }
+    },
+    {
+      "id": "upp-realistic",
+      "name": "Realistic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Realistic\nmasterpiece, best quality, realistic, photorealistic\n\nNegative Prompt:\nworst quality, bad quality, lowres, anime, cartoon, drawing",
+      "scope": { "type": "model", "model_name": "UncannyPleasurePie TripTrap" }
+    }
+  ]
+}

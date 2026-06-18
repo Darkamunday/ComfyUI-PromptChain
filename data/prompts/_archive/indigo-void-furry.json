@@ -1,0 +1,19 @@
+{
+  "name": "Indigo Void Furry Fused XL Prompts",
+  "prompts": [
+    {
+      "id": "indigo-kemono",
+      "name": "Kemono Style",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, perfect quality, absurdres, newest, very aesthetic, kemono, furry, anthro,\n\n// Character\n{cursor}\n\nNegative Prompt:\nshiny skin, shiny clothing, worst quality, low quality, lowres, signature, username, logo, bad hands, mutated hands",
+      "scope": { "type": "model", "model_name": "Indigo Void Furry Fused XL" }
+    },
+    {
+      "id": "indigo-detailed",
+      "name": "Detailed Furry",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, perfect quality, absurdres, newest, very aesthetic, ultra detailed, detailed fur, detailed eyes, detailed background,\n\n// Character\n{cursor}\n\nNegative Prompt:\nshiny skin, shiny clothing, worst quality, low quality, lowres, signature, username, logo, bad hands, mutated hands",
+      "scope": { "type": "model", "model_name": "Indigo Void Furry Fused XL" }
+    }
+  ]
+}

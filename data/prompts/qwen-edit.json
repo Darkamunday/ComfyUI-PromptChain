@@ -1,0 +1,2675 @@
+{
+  "name": "Qwen Edit Prompts",
+  "prompts": [
+    {
+      "id": "qwen-edit-3d-cartoony",
+      "name": "Cartoony",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Cartoony\nstylized cartoony 3D, Fortnite style, exaggerated proportions, high dynamic range, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-cel_shaded_3d",
+      "name": "Cel-Shaded 3D",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Cel-Shaded 3D\ncel-shaded 3D style, stylized game character, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-chibi_3d",
+      "name": "3D Chibi",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - 3D Chibi\ntransform it into 3D Chibi style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-clay_render",
+      "name": "Clay Render",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Clay Render\nsoft clay render, matte material, smooth 3D sculpture, studio lighting, painted eyes, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-claymation",
+      "name": "Claymation",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Claymation\ntransform into stop-motion claymation style figure with visible clay texture, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-hologram",
+      "name": "Hologram",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Hologram\ntransform subject to translucent holographic blue glow, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-isometric",
+      "name": "Isometric",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Isometric\nisometric game art, 3/4 top-down view, pixel art sprite style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-mesh",
+      "name": "Mesh",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Mesh\n3d realistic mesh model, video game character, bright high dynamic range, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-pixar",
+      "name": "Pixar",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Pixar\ntransform it into Pixar style 3D animation, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-pixel_detailed",
+      "name": "Pixel Detailed",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Pixel Detailed\nDetailed pixel art style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-pixel_retro",
+      "name": "Pixel Retro",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Pixel Retro\nConvert to retro pixel art style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-polygon",
+      "name": "Polygon",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Polygon\ntransform it into Poly style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-ps1_era",
+      "name": "PS1 Era",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - PS1 Era\nPS1 era 3D graphics, low polygon count, warped textures, vertex jitter, nostalgic 90s video game, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-realistic",
+      "name": "Realistic",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Realistic\nconvert to unreal engine 5 3d render, photorealistic game character, smooth skin, bright high dynamic range, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-retro_3d",
+      "name": "Retro 3D",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Retro 3D\nRetro 3d low polygon count mesh, video game character, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-vector",
+      "name": "Vector",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Vector\ntransform it into Vector style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-video_game",
+      "name": "Video Game",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Video Game\n3d video game character style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-voxel",
+      "name": "Voxel",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Voxel\nvoxel art style, blocky 3D cubes, Minecraft aesthetic, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-3d-wireframe",
+      "name": "Wireframe",
+      "category": "3D/Video Game",
+      "text": "// Your Tags\n{cursor}\n\n// 3D/Video Game - Wireframe\n3D wireframe model, geometric mesh lines, technical visualization, dark background, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-90s",
+      "name": "90's Anime",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - 90's Anime\n90's Anime Style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-anime",
+      "name": "Anime",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Anime\nDetailed anime style with highlights and shadow, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-art_nouveau",
+      "name": "Art Nouveau",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Art Nouveau\ntransform it into Art Nouveau style with flowing organic lines and decorative patterns, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-bishonen",
+      "name": "Bishonen",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Bishonen\nbishonen romantic anime style, dynamic lighting, sultry expression, bold linework, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-cel_shaded",
+      "name": "Cel-shaded",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Cel-shaded\ncel-shaded anime style, flat colors, bold outlines, clean coloring, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-chibi",
+      "name": "Chibi",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Chibi\ncute chibi anime style, big head, small body, adorable proportions, keep likeness, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-comic_book",
+      "name": "Comic Book",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Comic Book\nconvert to American comic book style with bold outlines, halftone dots, and vivid colors, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-ghibli",
+      "name": "Studio Ghibli",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Studio Ghibli\ndetailed studio ghibli style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-hyperrealistic",
+      "name": "Hyperrealistic",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Hyperrealistic\nHyperrealistic Anime, extreme detail, smooth skin, high dynamic range, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-irasutoya",
+      "name": "Irasutoya",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Irasutoya\ntransform it into Irasutoya style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-manga",
+      "name": "Manga",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Manga\nconvert to black and white manga style with screentones and ink linework, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-photoreal",
+      "name": "Photoreal",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Photoreal\nTransform this into a hyperrealistic life like anime version. Professional studio photography, natural human skin, real facial features, photoreal textures and clothing, lifelike hair, erotic atmosphere, keep same exact pose and expression, relight scene.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-pop_art",
+      "name": "Pop Art",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Pop Art\ntransform it into Pop Art style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-shonen",
+      "name": "Shonen",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Shonen\nshonen action anime style, dynamic lighting, excited expression, bold linework, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-vinyl_sticker",
+      "name": "Vinyl Sticker",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Vinyl Sticker\nvinyl sticker style, grey background, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-anime-watercolor",
+      "name": "Watercolor",
+      "category": "CG/Anime",
+      "text": "// Your Tags\n{cursor}\n\n// CG/Anime - Watercolor\nsoft watercolor anime illustration, painted aesthetic, gentle colors, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-bacon",
+      "name": "Francis Bacon",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Francis Bacon\nFrancis Bacon style, distorted figurative painting, raw emotional intensity, blurred movement, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-davinci",
+      "name": "Da Vinci",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Da Vinci\nLeonardo da Vinci style painting, sfumato technique, soft atmospheric perspective, Renaissance master, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-goya",
+      "name": "Goya",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Goya\ngoya style painting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-klimt",
+      "name": "Klimt",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Klimt\nGustav Klimt style with gold leaf patterns, decorative Art Nouveau elements, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-monet",
+      "name": "Monet",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Monet\ntransform it into Monet impressionist style with soft brushstrokes and light, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-mucha",
+      "name": "Mucha",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Mucha\nAlphonse Mucha Art Nouveau style, ornate decorative borders, flowing hair, elegant poster art, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-picasso",
+      "name": "Picasso",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Picasso\ntransform it into Picasso style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-rembrandt",
+      "name": "Rembrandt",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Rembrandt\ntransform it into Rembrandt style oil painting with dramatic chiaroscuro lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-rick_morty",
+      "name": "Rick & Morty",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Rick & Morty\ntransform it into Rick Morty style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-van_gogh",
+      "name": "Van Gogh",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Van Gogh\ntransform it into Van Gogh style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-artists-warhol",
+      "name": "Warhol",
+      "category": "Artists",
+      "text": "// Your Tags\n{cursor}\n\n// Artists - Warhol\nAndy Warhol pop art style, bold colors, screen print aesthetic, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-ballpoint_pen",
+      "name": "Ballpoint Pen",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Ballpoint Pen\ndetailed ballpoint pen sketch on lined notebook paper, blue ink, casual doodle style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-blueprint",
+      "name": "Blueprint",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Blueprint\ntechnical blueprint schematic style, white lines on blue background, engineering diagram, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-chalk",
+      "name": "Chalk",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Chalk\nchalk drawing on black background, white and colored chalk, dusty texture, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-charcoal",
+      "name": "Charcoal",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Charcoal\ncreate a charcoal sketch of this scene on toned paper, chiaroscuro, white chalk highlights, no colors, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-chinese_ink",
+      "name": "Chinese Ink",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Chinese Ink\ntransform it into Chinese Ink style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-colored_pencil",
+      "name": "Colored Pencil",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Colored Pencil\ncolored pencil illustration, visible pencil strokes, layered colors, textured paper, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-colorize_sketch",
+      "name": "Colorize Sketch",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Colorize Sketch\ncolorize this sketch with vibrant colors",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-concept_realistic",
+      "name": "Concept Realistic",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Concept Realistic\ncreate a pencil sketch of this scene on toned paper, colorize subject with hyperrealistic colors, remove background, concept art style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-concept_soft_watercolor",
+      "name": "Concept Soft Watercolor",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Concept Soft Watercolor\ncreate a pencil sketch of this scene on toned paper, colorize subject with soft loose watercolors and no lines, loose sketch with no outlines, remove background, concept art style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-concept_watercolor",
+      "name": "Concept Watercolor",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Concept Watercolor\ncreate a pencil sketch of this scene on toned paper, colorize subject with watercolors, remove background, concept art style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-conte_crayon",
+      "name": "Conte Crayon",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Conte Crayon\nconte crayon drawing on toned paper, sanguine and sepia tones, classical life drawing style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-crosshatch",
+      "name": "Cross-hatch",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Cross-hatch\npen and ink cross-hatching technique, detailed line shading, black ink on white paper, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-davinci_sketch",
+      "name": "DaVinci Sketch",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - DaVinci Sketch\nLeonardo da Vinci style technical study, sepia ink on aged paper, anatomical annotations, renaissance engineering sketch, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-gesture",
+      "name": "Gesture",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Gesture\nquick loose gesture drawing, expressive fluid lines, figure study style, minimal detail, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-ink",
+      "name": "Ink",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Ink\npen and ink drawing, fine line work, hatching for shading, black ink on white paper, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-line_art",
+      "name": "Line Art",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Line Art\ntransform it into Line style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-marker",
+      "name": "Marker",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Marker\nmarker illustration, Copic marker style, bold colors, smooth gradients, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-pastel",
+      "name": "Pastel",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Pastel\nsoft pastel drawing on textured paper, blended colors, chalky texture, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-pencil",
+      "name": "Pencil",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Pencil\ncreate a light graphite pencil sketch of this scene on white paper, pencil shades, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-drawing-stippling",
+      "name": "Stippling",
+      "category": "Drawing",
+      "text": "// Your Tags\n{cursor}\n\n// Drawing - Stippling\nstippling pointillism technique, dot-based shading, black ink dots on white paper, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-add_smile",
+      "name": "Add Smile",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Add Smile\nchange expression to a natural smile, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-age_down",
+      "name": "Age Down",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Age Down\nmake the subject look younger, reduce age, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-age_up",
+      "name": "Age Up",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Age Up\nmake the subject look older, add age, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-black_white",
+      "name": "Black & White",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Black & White\nconvert to black and white photograph, grayscale, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-blur_background",
+      "name": "Blur Background",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Blur Background\nblur the background, portrait mode depth of field effect, keep subject sharp, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-change_hair",
+      "name": "Change Hair Color",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Change Hair Color\nchange hair color, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-colorize",
+      "name": "Colorize",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Colorize\nadd realistic color to this black and white photo, natural colors, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-enhance_detail",
+      "name": "Enhance Detail",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Enhance Detail\nenhance details, sharpen image, increase clarity, relight scene, keep exact pose and likeness",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-fill_cutoff",
+      "name": "Fill Cut Off",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Fill Cut Off\nfill in cut off parts, keep same exact base image and scale",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-fix_eyes",
+      "name": "Fix Eyes",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Fix Eyes\nopen the closed eyes naturally, fix blink, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-hdr",
+      "name": "HDR",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - HDR\napply HDR effect, high dynamic range, enhanced highlights and shadows, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-mirror",
+      "name": "Mirror",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Mirror\nflip the image horizontally, mirror image",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-photo_conversion",
+      "name": "Photo Conversion",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Photo Conversion\nTransform this into a photograph of a real person. Professional studio photography, natural human skin, real facial features, relight scene, keep same exact pose.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-photo_restore",
+      "name": "Photo Restore",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Photo Restore\nrestore it, fix damage, enhance quality",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-remove_background",
+      "name": "Remove Background",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Remove Background\nremove background, isolate subject on plain white background, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-remove_glasses",
+      "name": "Remove Glasses",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Remove Glasses\nremove the glasses from the subject's face, keep eyes natural, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-remove_subject",
+      "name": "Remove Subject",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Remove Subject\nremove subject, isolate background",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-remove_text",
+      "name": "Remove Text",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Remove Text\nremove all text, watermarks, and logos from the image, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-sepia",
+      "name": "Sepia",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Sepia\nconvert to sepia tone, vintage brown tint, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-smooth_skin",
+      "name": "Smooth Skin",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Smooth Skin\nsmooth skin, remove blemishes, soft natural skin texture, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-swap_background",
+      "name": "Swap Background",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Swap Background\nreplace background with neutral studio backdrop, keep subject, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-vintage_photo",
+      "name": "Vintage Photo",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Vintage Photo\ntransform into vintage faded photograph, old photo aesthetic, film grain, slightly worn, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-figurine-acrylic_stand",
+      "name": "Acrylic Stand",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Acrylic Stand\nTransform into 2D acrylic standee, flat printed character on clear acrylic with base, anime merchandise style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-figurine-bust",
+      "name": "Bust",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Bust\nTransform into detailed bust statue, head and upper torso only, sculpted pedestal base, collectible display piece, keep likeness, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-figurine-diorama",
+      "name": "Diorama",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Diorama\nTransform into detailed diorama figure with scenic base, environmental elements, display piece with themed background, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-figurine-figurine",
+      "name": "Figurine",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Figurine\nTransform into 1/7 scale realistic PVC anime style figurine, single-piece seamless sculpt, soft matte skin, keep exact pose and likeness, use soft studio lighting",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-figurine-figurine_box",
+      "name": "Pretty Figurine in Box",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Pretty Figurine in Box\nTransform the subject into a highly detailed 1/7 scale PVC anime figurine, keep exact pose, Place the figurine in front of a commercial product packaging box that features the original photo of the cosplayer printed prominently on the front and sides, in a realistic figurine collectible box design with window display, and text 'Limited Edition', close-up on figurine, Use soft studio lighting on a neutral desk background.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-figurine-figurine_desk",
+      "name": "Figurine on Desk",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Figurine on Desk\nTransform into 1/7 scale realistic PVC anime style figurine, single-piece seamless sculpt, soft matte skin, keep exact pose and likeness, Use soft studio lighting on a neutral desk background.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-figurine-funko_pop",
+      "name": "Funko Pop",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Funko Pop\nTransform into Funko Pop vinyl figure, oversized square head, small body, black dot eyes, stylized collectible, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-figurine-miniature",
+      "name": "Miniature",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Miniature\ntransform into a tiny miniature diorama with tilt-shift blur effect, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-figurine-nendoroid",
+      "name": "Nendoroid",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Nendoroid\nTransform into Nendoroid chibi figurine, big head, small body, cute proportions, PVC figure on display stand, keep likeness, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-blue_hour",
+      "name": "Blue Hour",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Blue Hour\napply blue hour twilight lighting, cool blue tones, soft diffused light, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-candlelight",
+      "name": "Candlelight",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Candlelight\napply warm candlelight illumination, flickering orange glow, soft shadows, intimate atmosphere, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-dramatic",
+      "name": "Dramatic",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Dramatic\nadd dramatic cinematic lighting with strong shadows and highlights, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-film_noir",
+      "name": "Film Noir",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Film Noir\ntransform into black and white film noir style with dramatic shadows and high contrast lighting, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-golden_hour",
+      "name": "Golden Hour",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Golden Hour\napply golden hour sunset lighting, warm orange tones, soft directional light, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-high_key",
+      "name": "High Key",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - High Key\napply high key lighting, bright and airy, minimal shadows, soft even illumination, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-low_key",
+      "name": "Low Key",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Low Key\napply low key lighting, dark moody atmosphere, selective highlights, deep shadows, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-moonlight",
+      "name": "Moonlight",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Moonlight\napply cool moonlight illumination, silvery blue tones, soft nighttime atmosphere, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-neon",
+      "name": "Neon",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Neon\napply neon lighting, vibrant colored glow, cyberpunk atmosphere, light reflections, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-relight",
+      "name": "Relight Scene",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Relight Scene\nrelight the scene with natural balanced lighting, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-rim_light",
+      "name": "Rim Light",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Rim Light\napply rim lighting, backlit silhouette with glowing edge highlights, dramatic separation, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-lighting-studio",
+      "name": "Studio",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Studio\napply professional studio lighting, 3-point lighting setup, clean even illumination, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-material-art_deco",
+      "name": "Art Deco",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Art Deco\ntransform it into Art Deco style with geometric shapes and 1920s glamour, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-material-embroidery",
+      "name": "Embroidery",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Embroidery\ntransform into embroidered fabric art, visible thread stitches, textile texture, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-material-fabric",
+      "name": "Fabric",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Fabric\ntransform it into Fabric style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-material-lego",
+      "name": "LEGO",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - LEGO\ntransform it into LEGO style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-material-mosaic",
+      "name": "Mosaic",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Mosaic\ntransform into mosaic tile art, small colored tiles, grouted gaps, Byzantine style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-material-origami",
+      "name": "Origami",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Origami\ntransform it into Origami style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-material-paper_cutting",
+      "name": "Paper Cutting",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Paper Cutting\ntransform it into Paper Cutting style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-material-stained_glass",
+      "name": "Stained Glass",
+      "category": "Material",
+      "text": "// Your Tags\n{cursor}\n\n// Material - Stained Glass\ntransform it into stained glass window style with bold outlines and colorful glass segments, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-paint-oil_painting",
+      "name": "Oil Painting",
+      "category": "Paint",
+      "text": "// Your Tags\n{cursor}\n\n// Paint - Oil Painting\nold timey oil painting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-paint-ukiyo_e",
+      "name": "Ukiyo-e",
+      "category": "Paint",
+      "text": "// Your Tags\n{cursor}\n\n// Paint - Ukiyo-e\ntransform it into ukiyo-e Japanese woodblock print style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-paint-watercolor_abstract",
+      "name": "Watercolor Abstract",
+      "category": "Paint",
+      "text": "// Your Tags\n{cursor}\n\n// Paint - Watercolor Abstract\ntransform into abstract watercolor art with flowing colors, wet-on-wet technique, expressive color bleeding, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-paint-watercolor_basic",
+      "name": "Watercolor Basic",
+      "category": "Paint",
+      "text": "// Your Tags\n{cursor}\n\n// Paint - Watercolor Basic\ntransform into a loose watercolor painting with soft edges and visible brushstrokes, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-paint-watercolor_botanical",
+      "name": "Watercolor Botanical",
+      "category": "Paint",
+      "text": "// Your Tags\n{cursor}\n\n// Paint - Watercolor Botanical\ntransform into delicate botanical watercolor illustration, soft washes, precise details, scientific illustration style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-paint-watercolor_splatter",
+      "name": "Watercolor Splatter",
+      "category": "Paint",
+      "text": "// Your Tags\n{cursor}\n\n// Paint - Watercolor Splatter\ntransform into watercolor painting with paint splatters, drips, and spontaneous ink marks, artistic chaos, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-80s_retro",
+      "name": "80s Retro",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - 80s Retro\n1980s aesthetic, neon colors, synthwave vibes, retro atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-airplane",
+      "name": "Airplane",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Airplane\nairplane cabin, first class, window view, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-airport",
+      "name": "Airport",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Airport\nairport terminal scene, travel, departure, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-alley",
+      "name": "Alley",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Alley\ndark city alley, neon signs, gritty atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-ancient_egypt",
+      "name": "Ancient Egypt",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Ancient Egypt\nancient Egyptian temple, hieroglyphics, pharaoh aesthetic, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-ancient_rome",
+      "name": "Ancient Rome",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Ancient Rome\nancient Roman setting, marble columns, classical architecture, toga era, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-arcade",
+      "name": "Arcade",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Arcade\nretro arcade scene, neon lights, gaming machines, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-art_gallery",
+      "name": "Art Gallery",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Art Gallery\nart gallery scene, white walls, paintings, modern atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-art_model",
+      "name": "Art Model",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Art Model\nart model posing scene, artist studio, canvas, easel, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-attic",
+      "name": "Attic",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Attic\ndusty attic scene, old furniture, dim light, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-autumn",
+      "name": "Autumn",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Autumn\nchange the scene to autumn, add falling leaves, orange and red foliage, warm autumn colors, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-bakery",
+      "name": "Bakery",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Bakery\ncozy bakery scene, pastries, warm lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-balcony",
+      "name": "Balcony",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Balcony\nbalcony scene, city view, evening atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-ballroom",
+      "name": "Ballroom",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Ballroom\ngrand ballroom scene, chandeliers, elegant dance hall, ornate decor, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-bar",
+      "name": "Bar",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Bar\nclassic bar scene, bottles, dim lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-bath",
+      "name": "Bath",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Bath\nin bathtub scene, bubble bath, steam rising, relaxing atmosphere, soft lighting, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-beach",
+      "name": "Beach",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Beach\nplace subject on a tropical beach with ocean waves, sandy shore, palm trees, sunny day, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-bedroom",
+      "name": "Bedroom",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Bedroom\ncozy bedroom scene, soft ambient lighting, intimate atmosphere, subject on bed, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-birthday_party",
+      "name": "Birthday Party",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Birthday Party\nbirthday party scene, balloons, cake, celebration, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-bonfire",
+      "name": "Bonfire",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Bonfire\nbonfire beach scene, night, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-bookstore",
+      "name": "Bookstore",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Bookstore\ncozy bookstore interior, shelves of books, warm lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-bordeaux",
+      "name": "Bordeaux",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Bordeaux\nbordeaux chambers, romantic setting, candlelight, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-boudoir",
+      "name": "Boudoir",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Boudoir\nboudoir photography scene, intimate setting, soft dramatic lighting, elegant atmosphere, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-boxing_ring",
+      "name": "Boxing Ring",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Boxing Ring\nboxing ring scene, corner, dramatic lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-bus_stop",
+      "name": "Bus Stop",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Bus Stop\nbus stop scene, city street, waiting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-camping",
+      "name": "Camping",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Camping\ncamping scene, tent, nature, campfire, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-candlelit_dinner",
+      "name": "Candlelit Dinner",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Candlelit Dinner\ncandlelit dinner scene, romantic, intimate, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-casino",
+      "name": "Casino",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Casino\nfancy casino floor scene, at blackjack table, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-cathedral",
+      "name": "Cathedral",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Cathedral\ngothic cathedral interior, stained glass windows, divine light rays, sacred atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-cave",
+      "name": "Cave",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Cave\nmysterious cave scene, stalactites, torch lit, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-champagne_room",
+      "name": "Champagne Room",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Champagne Room\nprivate champagne room, intimate mood, soft light, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-cherry_blossom",
+      "name": "Cherry Blossom",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Cherry Blossom\ncherry blossom garden, pink petals falling, Japanese sakura trees, serene, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-christmas",
+      "name": "Christmas",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Christmas\nChristmas scene, huge room with fireplace and red armchairs, holiday decorations, festive lights, warm cozy atmosphere, wearing santa hat, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-classroom",
+      "name": "Classroom",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Classroom\nclassroom scene, chalkboard in background, subject on desk, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-cliff",
+      "name": "Cliff",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Cliff\ncliff edge scene, ocean view, dramatic atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-club",
+      "name": "Club",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Club\nnightclub scene, dance floor, DJ booth, strobe lights, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-coffee_shop",
+      "name": "Coffee Shop",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Coffee Shop\ncozy coffee shop scene, cafe atmosphere, warm lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-concert",
+      "name": "Concert",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Concert\nconcert stage scene, dramatic spotlight, performance atmosphere, crowd energy, front spotlight on subject, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-conference",
+      "name": "Conference",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Conference\nconference stage scene, photographers holding smartphones, relight scene, exhibitionist, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-convention",
+      "name": "Convention",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Convention\ncosplay convention scene, photographers taking photo, flashes, relight scene, exhibitionist, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-cyberpunk",
+      "name": "Cyberpunk",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Cyberpunk\ntransform into cyberpunk style with neon lighting, holographic effects, and futuristic aesthetic, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-data_center",
+      "name": "Data Center",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Data Center\ndata center, server room, blue lights, tech, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-desert",
+      "name": "Desert",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Desert\nplace subject in a desert landscape with sand dunes, harsh sunlight, arid environment, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-diner",
+      "name": "Diner",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Diner\nretro American diner scene, checkered floor, neon signs, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-dojo",
+      "name": "Dojo",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Dojo\nJapanese dojo scene, martial arts, wooden floor, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-dragon_lair",
+      "name": "Dragon Lair",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Dragon Lair\ndragon's lair scene, gold coin treasure, fire glow, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-dressing_room",
+      "name": "Dressing Room",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Dressing Room\nbackstage dressing room, vanity mirror with lights, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-dungeon",
+      "name": "Dungeon",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Dungeon\ndungeon adventure, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-elevator",
+      "name": "Elevator",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Elevator\nlarge elevator interior, mirrored walls, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-esports_arena",
+      "name": "Esports Arena",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Esports Arena\nesports arena, gaming setup, dramatic lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-fairy_forest",
+      "name": "Fairy Forest",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Fairy Forest\nenchanted fairy forest scene, magical, glowing, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-fantasy",
+      "name": "Fantasy",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Fantasy\ntransform into fantasy setting with magical elements, enchanted atmosphere, mystical lighting, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-foam_party",
+      "name": "Foam Party",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Foam Party\nfoam party scene, club, wet, party atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-foggy",
+      "name": "Foggy",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Foggy\noutdoor forest scene, foggy atmosphere, mysterious mood, moonlit, foggy low visibility, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-forest",
+      "name": "Forest",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Forest\nplace subject in a lush forest with tall trees, dappled sunlight, natural greenery, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-game_show",
+      "name": "Game Show",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Game Show\ngame show scene, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-garage",
+      "name": "Garage",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Garage\ngarage scene, car, tools, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-garden",
+      "name": "Garden",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Garden\nbeautiful garden scene, colorful flowers, manicured hedges, peaceful atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-gondola",
+      "name": "Gondola",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Gondola\nvenetian gondola scene, canal, romantic, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-graduation",
+      "name": "Graduation",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Graduation\ngraduation ceremony scene, cap and gown, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-gravure",
+      "name": "Gravure",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Gravure\nJapanese gravure idol photography style, glamour lighting, professional photoshoot, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-gym",
+      "name": "Gym",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Gym\ngym scene, workout equipment, mirrors, athletic atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-halloween",
+      "name": "Halloween",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Halloween\nspooky Halloween setting, eerie atmosphere, jack-o-lanterns, haunted vibes, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-harem_room",
+      "name": "Harem Room",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Harem Room\nharem room, pillows everywhere, romantic setting, candlelit, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-haunted_house",
+      "name": "Haunted House",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Haunted House\nhaunted house interior, creepy, cobwebs, eerie atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-hot_spring",
+      "name": "Hot Spring",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Hot Spring\nJapanese onsen hot spring, outdoor bath, steam rising, scenic mountain backdrop, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-hot_tub",
+      "name": "Hot Tub",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Hot Tub\nhot tub scene, bubbling water, evening atmosphere, warm lighting, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-ice_rink",
+      "name": "Ice Rink",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Ice Rink\nice skating rink scene, cold atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-japanese_temple",
+      "name": "Japanese Temple",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Japanese Temple\ntraditional Japanese temple, zen garden, peaceful atmosphere, Eastern architecture, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-jungle",
+      "name": "Jungle",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Jungle\ndense jungle scene, tropical plants, humid atmosphere, wild vegetation, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-karaoke",
+      "name": "Karaoke",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Karaoke\nkaraoke room, microphone, colorful lights, intimate atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-kitchen",
+      "name": "Kitchen",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Kitchen\nmodern kitchen scene, cooking atmosphere, warm lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-lake",
+      "name": "Lake",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Lake\nserene lake scene, water reflections, peaceful atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-library",
+      "name": "Library",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Library\nold library scene, towering bookshelves, warm reading light, scholarly atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-limousine",
+      "name": "Limousine",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Limousine\nlimousine interior, luxury, leather seats, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-living_room",
+      "name": "Living Room",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Living Room\ncozy living room scene, fireplace, warm lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-locker_room",
+      "name": "Locker Room",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Locker Room\nempty blue gym locker room scene, at open locker door, by bench, overhead fluorescent lighting, athletic atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-magazine_pinup",
+      "name": "Magazine Pin-up",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Magazine Pin-up\nmagazine pin-up cover, playboy style, glamour light on subject, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-maid_cafe",
+      "name": "Maid Cafe",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Maid Cafe\nJapanese maid cafe scene, kawaii atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-mansion",
+      "name": "Mansion",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Mansion\nmansion scene, intimate atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-medieval",
+      "name": "Medieval",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Medieval\ntransform into medieval setting with castle elements, torchlight, old stone architecture, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-motorcycle",
+      "name": "Motorcycle",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Motorcycle\non motorcycle, open road, freedom, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-mountain",
+      "name": "Mountain",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Mountain\nmountain peak scene, scenic vista, fresh mountain air, majestic landscape, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-movie_theater",
+      "name": "Movie Theater",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Movie Theater\nmovie theater scene, red seats, dark room, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-mud_wrestling",
+      "name": "Mud Wrestling",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Mud Wrestling\nmud wrestling pit scene, mud covered, competitive atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-news_anchor",
+      "name": "News Anchor",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - News Anchor\nnews anchor at desk, TV studio setting, monitors in background, professional broadcast lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-night",
+      "name": "Night",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Night\nnight scene, moonlight, nocturnal atmosphere, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-night_market",
+      "name": "Night Market",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Night Market\nAsian night market scene, street food, colorful lights, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-office",
+      "name": "Office",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Office\ncorporate office scene, modern desk, city view through window, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-onsen",
+      "name": "Onsen",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Onsen\ntraditional Japanese bathhouse interior, wooden tub, lantern lit, steam, tranquil atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-outdoors",
+      "name": "Outdoors",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Outdoors\noutdoor forest scene, campfire lit, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-patio",
+      "name": "Patio",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Patio\nbackyard patio scene, evening, string lights, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-penthouse",
+      "name": "Penthouse",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Penthouse\npenthouse suite scene, city view, luxury atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-photo_studio",
+      "name": "Photo Studio",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Photo Studio\nprofessional photo studio, white backdrop, studio lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-picnic",
+      "name": "Picnic",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Picnic\npicnic scene, park, blanket, sunny day, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-pin_up",
+      "name": "Pin-up",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Pin-up\ndetailed vintage pin-up poster style, playboy style, glamour light on subject, keep same exact pose, text title is \"Pin-up\"",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-pirate_ship",
+      "name": "Pirate Ship",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Pirate Ship\npirate ship deck, ocean waves, adventure atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-pool",
+      "name": "Pool",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Pool\nswimming pool scene, blue water, poolside, summer vibes, bright daylight, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-post_apocalyptic",
+      "name": "Post-Apocalyptic",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Post-Apocalyptic\ntransform into post-apocalyptic scene, urban wasteland, daytime, golden hue, abandoned structures, relight scene, frontal light on subject, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-press_conference",
+      "name": "Press Conference",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Press Conference\npress conference scene, photographers holding smartphones, relight scene, exhibitionist, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-private_jet",
+      "name": "Private Jet",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Private Jet\nprivate jet interior, luxury travel, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-rainy",
+      "name": "Rainy",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Rainy\nadd rain to the scene with wet surfaces, rain drops, overcast sky, puddles, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-ramen_shop",
+      "name": "Ramen Shop",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Ramen Shop\nJapanese ramen shop scene, steam, cozy atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-recording_studio",
+      "name": "Recording Studio",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Recording Studio\nmusic recording studio, microphone, soundproof booth, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-red_carpet",
+      "name": "Red Carpet",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Red Carpet\nred carpet event, paparazzi flashes, glamorous premiere atmosphere, celebrity style, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-rooftop_bar",
+      "name": "Rooftop Bar",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Rooftop Bar\nrooftop bar scene, city skyline, evening atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-royal",
+      "name": "Royal",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Royal\nroyal chamber scene, throne room, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-runway",
+      "name": "Runway",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Runway\nfashion runway scene, catwalk, photographers, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-sauna",
+      "name": "Sauna",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Sauna\nsauna scene, wooden interior, steam, warm ambient lighting, relaxing atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-science_lab",
+      "name": "Science Lab",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Science Lab\nscience laboratory scene, beakers, equipment, clinical lighting, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-shower",
+      "name": "Shower",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Shower\nshower scene, water droplets, steamy atmosphere, wet, tile background, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-ski_slope",
+      "name": "Ski Slope",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Ski Slope\nski slope scene, snow, mountain resort, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-snowy",
+      "name": "Snowy",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Snowy\nsnowy landscape, fresh powder snow, frost covered, cold winter atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-spa",
+      "name": "Spa",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Spa\nspa setting, steam, relaxing atmosphere, wellness retreat, soft lighting, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-space",
+      "name": "Space",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Space\nplace subject in outer space, cosmic background, zero gravity feel, relight scene, subject in astronaut suit, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-spring",
+      "name": "Spring",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Spring\nchange the scene to springtime with cherry blossoms, blooming flowers, fresh green leaves, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-steampunk",
+      "name": "Steampunk",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Steampunk\ntransform into steampunk aesthetic with brass gears, Victorian machinery, steam-powered elements, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-stormy",
+      "name": "Stormy",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Stormy\nstormy weather scene, dark clouds, lightning, dramatic turbulent atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-subway",
+      "name": "Subway",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Subway\nsubway station, underground, urban atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-summer",
+      "name": "Summer",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Summer\nchange the scene to bright summer day with vibrant colors, warm sunshine, lush greenery, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-sunset",
+      "name": "Sunset",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Sunset\ngolden sunset sky scene, warm orange and pink glow, beautiful dusk atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-sushi_bar",
+      "name": "Sushi Bar",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Sushi Bar\nsushi bar scene, Japanese restaurant, intimate atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-tattoo_parlor",
+      "name": "Tattoo Parlor",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Tattoo Parlor\ntattoo parlor scene, edgy, artistic atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-tea_house",
+      "name": "Tea House",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Tea House\ntraditional tea house scene, serene, zen atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-tennis_court",
+      "name": "Tennis Court",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Tennis Court\ntennis court scene, sporty atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-theater",
+      "name": "Theater",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Theater\ntheater stage scene, red curtains, spotlight, dramatic, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-toilet",
+      "name": "Toilet",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Toilet\ntoilet stall scene, bathroom, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-train",
+      "name": "Train",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Train\ntrain compartment, scenic window view, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-underwater",
+      "name": "Underwater",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Underwater\nplace subject underwater, caustic light rays, ocean blue tones, aquatic atmosphere, wavy hair, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-urban",
+      "name": "Urban",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Urban\nplace subject in urban city environment with buildings, streets, modern architecture, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-urban_square",
+      "name": "Urban Square",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Urban Square\nplace subject in times square, busy street, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-victorian",
+      "name": "Victorian",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Victorian\nVictorian era setting, ornate furnishings, 19th century decor, elegant period atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-vip_lounge",
+      "name": "VIP Lounge",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - VIP Lounge\nVIP lounge scene, exclusive, velvet ropes, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-waterfall",
+      "name": "Waterfall",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Waterfall\nwaterfall scene, mist, tropical paradise, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-wedding",
+      "name": "Wedding",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Wedding\nwedding ceremony scene, altar, flowers, romantic atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-wild_west",
+      "name": "Wild West",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Wild West\nwild west saloon scene, wooden interior, dusty atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-wine_cellar",
+      "name": "Wine Cellar",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Wine Cellar\nwine cellar scene, barrels, candlelit, intimate atmosphere, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-winter",
+      "name": "Winter",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Winter\nchange from summertime into wintertime, add snow",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-wizard_tower",
+      "name": "Wizard Tower",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Wizard Tower\nwizard tower interior, magical artifacts, mystical, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scene-yacht",
+      "name": "Yacht",
+      "category": "Scene",
+      "text": "// Your Tags\n{cursor}\n\n// Scene - Yacht\nluxury yacht deck, ocean backdrop, sunny day, relight scene, keep same exact pose",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scripts-combine_2",
+      "name": "Combine 2",
+      "category": "Script Override",
+      "text": "// Your Tags\n{cursor}\n\n// Script Override - Combine 2\n// QWEN Script\n<SCRIPT>\n<|im_start|>system\nYou are an image editing assistant. Execute the edit exactly as stated.<|im_end|>\n<|im_start|>user\nPicture 1: <|vision_start|><|image_pad|><|vision_end|>Picture 2: <|vision_start|><|image_pad|><|vision_end|>{PROMPT}<|im_end|>\n<|im_start|>assistant\n</SCRIPT>\n\n// Your Edits\n",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scripts-combine_3",
+      "name": "Combine 3",
+      "category": "Script Override",
+      "text": "// Your Tags\n{cursor}\n\n// Script Override - Combine 3\n// QWEN Script\n<SCRIPT>\n<|im_start|>system\nYou are an image editing assistant. Execute the edit exactly as stated.<|im_end|>\n<|im_start|>user\nPicture 1: <|vision_start|><|image_pad|><|vision_end|>Picture 2: <|vision_start|><|image_pad|><|vision_end|>Picture 3: <|vision_start|><|image_pad|><|vision_end|>{PROMPT}<|im_end|>\n<|im_start|>assistant\n</SCRIPT>\n\n// Your Edits\n",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-scripts-edit_image",
+      "name": "Edit Image",
+      "category": "Script Override",
+      "text": "// Your Tags\n{cursor}\n\n// Script Override - Edit Image\n// QWEN Script\n<SCRIPT>\n<|im_start|>system\nYou are an image editing assistant. Execute the edit exactly as stated.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>{PROMPT}<|im_end|>\n<|im_start|>assistant\n</SCRIPT>\n\n// Your Edits\n",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    },
+    {
+      "id": "qwen-edit-editing-pose_transfer_anypose",
+      "name": "Pose Transfer (AnyPose)",
+      "category": "Editing",
+      "text": "// Pose Transfer - AnyPose\nMake the person in image 1 do a pose like the person in image 2. Changing the style and background of the image of the person in image 1 is undesirable, so don't do it. The new pose should be pixel accurate to the pose we are trying to copy. The position of the arms and head and legs should be the same as the pose we are trying to copy. Change the field of view and angle to match exactly image 2. Head tilt should match the person in image 2.\n\n// Your Tags\n{cursor}",
+      "scope": {
+        "type": "architecture",
+        "architecture": "qwen_edit"
+      }
+    }
+  ]
+}

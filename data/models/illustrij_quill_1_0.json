@@ -1,0 +1,153 @@
+{
+  "display_name": "Illustrij: Quill - 1.0",
+  "model_name": "Illustrij: Quill",
+  "version": "1.0",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "reijlita",
+  "description": "Hybrid artwork model between anime and semi-realism. Clear, illustrative lines inspired by quill drawings with painterly brushes and subtle oil-painting character. Blends 2D illustration with 3D depth.",
+  "license": "Illustrious License (FAIPL 1.0 SD)",
+  "tags": [
+    "checkpoint merge",
+    "anime",
+    "semi-realistic",
+    "2d",
+    "3d",
+    "illustration",
+    "painterly",
+    "base model",
+    "illustrious"
+  ],
+  "url": "https://civitai.com/models/1904334/illustrij-quill",
+  "download_url": "https://civitai.com/api/download/models/2155473?type=Model&format=SafeTensor&size=full&fp=fp16",
+  "civitai_model_id": 1904334,
+  "quality_position": "end",
+  "release_date": "2025-08-27",
+  "trigger": "masterpiece, best quality",
+  "default_prompt_id": "illustrij-quill-default",
+  "negative": "worst quality, bad quality",
+  "notes": "CFG 4-7. DPM++ 2M Karras or Euler A recommended. Baked-in VAE. ADetailer recommended for distant details.",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "KSampler": {
+      "steps": 30,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps_range": [
+        20,
+        40
+      ],
+      "cfg_range": [
+        4.0,
+        7.0
+      ],
+      "sampler_name_options": [
+        "dpmpp_2m",
+        "euler_ancestral",
+        "euler",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -2
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.25,
+      "guide_size": 384,
+      "max_size": 768,
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        4.0,
+        7.0
+      ],
+      "denoise_range": [
+        0.15,
+        0.4
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "dpmpp_2m",
+        "euler_ancestral",
+        "euler",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "karras",
+        "normal",
+        "exponential"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 896,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1040,
+          "height": 1510
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "37a9bc6d28c104fa",
+      "sha256": null,
+      "filename": "illustrijQuill_v1.safetensors",
+      "download_url": "https://civitai.com/api/download/models/2155473?type=Model&format=SafeTensor&size=full&fp=fp16"
+    }
+  ]
+}

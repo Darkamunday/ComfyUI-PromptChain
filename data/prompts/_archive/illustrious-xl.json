@@ -1,0 +1,19 @@
+{
+  "name": "Illustrious XL Prompts",
+  "prompts": [
+    {
+      "id": "illustrious-anime",
+      "name": "Anime Style",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, anime, detailed face, detailed eyes,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, bad quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, signature, watermark, username",
+      "scope": { "type": "model", "model_name": "Illustrious XL" }
+    },
+    {
+      "id": "illustrious-natural",
+      "name": "Natural Language",
+      "category": "",
+      "text": "// Describe your scene in natural language\n{cursor}\n\nNegative Prompt:\nworst quality, bad quality",
+      "scope": { "type": "model", "model_name": "Illustrious XL" }
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "name": "Combine 2 References",
+  "category": "Editing",
+  "order": 11,
+  "scope": {
+    "type": "family",
+    "architecture": "flux2",
+    "family": "flux2_klein"
+  },
+  "created_at": 1781049600,
+  "id": "flux2-klein-multiref-2",
+  "nodes": [
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        900,
+        0
+      ],
+      "size": [
+        260,
+        140
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        900,
+        200
+      ],
+      "size": [
+        260,
+        140
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "ReferenceLatent",
+      "offset": [
+        1240,
+        0
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      }
+    },
+    {
+      "type": "ReferenceLatent",
+      "offset": [
+        1240,
+        200
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      }
+    },
+    {
+      "type": "ReferenceLatent",
+      "offset": [
+        1540,
+        0
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      }
+    },
+    {
+      "type": "ReferenceLatent",
+      "offset": [
+        1540,
+        200
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      }
+    },
+    {
+      "type": "CFGGuider",
+      "offset": [
+        1860,
+        100
+      ],
+      "size": [
+        260,
+        110
+      ],
+      "widgets_values": [
+        5.0
+      ],
+      "properties": {
+        "Node name for S&R": "CFGGuider"
+      }
+    },
+    {
+      "type": "RandomNoise",
+      "offset": [
+        1860,
+        280
+      ],
+      "size": [
+        260,
+        83
+      ],
+      "widgets_values": [
+        675421876549820,
+        "randomize"
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      }
+    },
+    {
+      "type": "KSamplerSelect",
+      "offset": [
+        1860,
+        420
+      ],
+      "size": [
+        240,
+        60
+      ],
+      "widgets_values": [
+        "euler"
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      }
+    },
+    {
+      "type": "Flux2Scheduler",
+      "offset": [
+        1860,
+        540
+      ],
+      "size": [
+        280,
+        130
+      ],
+      "widgets_values": [
+        20,
+        1024,
+        1024
+      ],
+      "properties": {
+        "Node name for S&R": "Flux2Scheduler"
+      }
+    },
+    {
+      "type": "SamplerCustomAdvanced",
+      "offset": [
+        2200,
+        200
+      ],
+      "size": [
+        280,
+        200
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        2560,
+        0
+      ],
+      "size": [
+        225,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        2840,
+        0
+      ],
+      "size": [
+        300,
+        380
+      ],
+      "widgets_values": [
+        "Flux2Klein/Combine2/%date:yyyy-MM-dd_hhmmss%"
+      ],
+      "properties": {}
+    },
+    {
+      "type": "CLIPLoader",
+      "offset": [
+        520,
+        100
+      ],
+      "size": [
+        340,
+        117.328125
+      ],
+      "widgets_values": [
+        "qwen_3_8b_fp8mixed.safetensors",
+        "flux2",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader"
+      }
+    },
+    {
+      "type": "UNETLoader",
+      "offset": [
+        1540,
+        340
+      ],
+      "size": [
+        320,
+        82.65625
+      ],
+      "widgets_values": [
+        "flux-2-klein-base-9b-fp8.safetensors",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [
+        900,
+        420
+      ],
+      "size": [
+        280,
+        82.65625
+      ],
+      "widgets_values": [
+        "flux2-vae.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      }
+    },
+    {
+      "type": "LoadImage",
+      "offset": [
+        180,
+        300
+      ],
+      "size": [
+        250,
+        400
+      ],
+      "widgets_values": [
+        "example.png",
+        "image"
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      }
+    },
+    {
+      "type": "ImageScaleToTotalPixels",
+      "offset": [
+        520,
+        300
+      ],
+      "size": [
+        280,
+        142.65625
+      ],
+      "widgets_values": [
+        "lanczos",
+        1.0,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "ImageScaleToTotalPixels"
+      }
+    },
+    {
+      "type": "VAEEncode",
+      "offset": [
+        900,
+        560
+      ],
+      "size": [
+        225,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      }
+    },
+    {
+      "type": "LoadImage",
+      "offset": [
+        180,
+        760
+      ],
+      "size": [
+        250,
+        400
+      ],
+      "widgets_values": [
+        "example.png",
+        "image"
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      }
+    },
+    {
+      "type": "ImageScaleToTotalPixels",
+      "offset": [
+        520,
+        760
+      ],
+      "size": [
+        280,
+        142.65625
+      ],
+      "widgets_values": [
+        "lanczos",
+        1.0,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "ImageScaleToTotalPixels"
+      }
+    },
+    {
+      "type": "VAEEncode",
+      "offset": [
+        900,
+        760
+      ],
+      "size": [
+        225,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      }
+    },
+    {
+      "type": "EmptyFlux2LatentImage",
+      "offset": [
+        2200,
+        540
+      ],
+      "size": [
+        290,
+        144
+      ],
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyFlux2LatentImage"
+      }
+    },
+    {
+      "type": "GetImageSize",
+      "offset": [
+        1540,
+        540
+      ],
+      "size": [
+        225,
+        160
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "GetImageSize"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 18,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 18,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 21,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 21,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 14,
+      "from_slot": 0,
+      "to_node_idx": 6,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 6,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 6,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 9,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 22,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 4
+    },
+    {
+      "from_node_idx": 10,
+      "from_slot": 0,
+      "to_node_idx": 11,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 15,
+      "from_slot": 0,
+      "to_node_idx": 11,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 11,
+      "from_slot": 0,
+      "to_node_idx": 12,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 13,
+      "from_slot": 0,
+      "to_node_idx": 0,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 13,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 16,
+      "from_slot": 0,
+      "to_node_idx": 17,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 17,
+      "from_slot": 0,
+      "to_node_idx": 18,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 15,
+      "from_slot": 0,
+      "to_node_idx": 18,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 19,
+      "from_slot": 0,
+      "to_node_idx": 20,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 20,
+      "from_slot": 0,
+      "to_node_idx": 21,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 15,
+      "from_slot": 0,
+      "to_node_idx": 21,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 17,
+      "from_slot": 0,
+      "to_node_idx": 23,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 23,
+      "from_slot": 0,
+      "to_node_idx": 9,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 23,
+      "from_slot": 1,
+      "to_node_idx": 9,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 23,
+      "from_slot": 0,
+      "to_node_idx": 22,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 23,
+      "from_slot": 1,
+      "to_node_idx": 22,
+      "to_slot": 1
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 1,
+      "to_node_idx": 0,
+      "to_slot": 1
+    },
+    {
+      "from_slot": 2,
+      "to_node_idx": 1,
+      "to_slot": 1
+    }
+  ]
+}

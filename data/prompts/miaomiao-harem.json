@@ -1,0 +1,26 @@
+{
+  "name": "MiaoMiao Harem Prompts",
+  "prompts": [
+    {
+      "id": "miaomiao-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Quality\nmasterpiece, best quality, absurdres, newest, very aesthetic, amazing quality, highres, sensitive, complex background, ultra detailed, best anatomy, HDR, 8K, high detail RAW color art, high contrast, depth of field\n\nNegative Prompt:\nlowres, (bad), limb asymmetry, bad feet, text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, simple_background, artistic error, username, scan, [abstract], english text, shiny_skin",
+      "scope": { "type": "model", "model_name": "MiaoMiao Harem" }
+    },
+    {
+      "id": "miaomiao-simple",
+      "name": "Simple",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Quality\nvery aesthetic, masterpiece, best quality, ultra-detailed\n\nNegative Prompt:\nworst quality, bad quality, simple_background, low quality, jpeg artifacts, bad feet, mutated hands and fingers, old, oldest, signature, bad hands",
+      "scope": { "type": "model", "model_name": "MiaoMiao Harem" }
+    },
+    {
+      "id": "miaomiao-sfw",
+      "name": "SFW",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Quality\nmasterpiece, best quality, absurdres, newest, very aesthetic, amazing quality, highres, sensitive, complex background, ultra detailed, best anatomy, HDR, 8K, high detail RAW color art, high contrast, depth of field\n\nNegative Prompt:\nlowres, (bad), limb asymmetry, bad feet, text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, simple_background, artistic error, username, scan, [abstract], english text, shiny_skin, nsfw, nude, nudity, naked, nipples",
+      "scope": { "type": "model", "model_name": "MiaoMiao Harem" }
+    }
+  ]
+}

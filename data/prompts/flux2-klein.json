@@ -1,0 +1,346 @@
+{
+  "name": "FLUX.2 Klein Prompts",
+  "prompts": [
+    {
+      "id": "flux2-klein-photography",
+      "name": "Photography",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Photography\nphotograph, 35mm, natural lighting, sharp focus, shallow depth of field, f/1.8\n\nNegative Prompt:\nblurry, distorted, low quality, watermark, text overlay, plastic surgery, CGI, face smoothing",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-cinematic",
+      "name": "Cinematic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Cinematic\ncinematic still, dramatic lighting, film grain, anamorphic lens, depth of field, teal and orange color grade\n\nNegative Prompt:\nblurry, distorted, low quality, watermark, text overlay",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-portrait",
+      "name": "Portrait",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Portrait\nportrait photograph, soft diffused lighting, 85mm lens, shallow depth of field, detailed skin texture, eye contact\n\nNegative Prompt:\nblurry, distorted features, unnatural proportions, low quality, watermark, plastic surgery, CGI, face smoothing",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-fantasy",
+      "name": "Fantasy Art",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Fantasy Art\nfantasy illustration, ethereal atmosphere, dramatic lighting, vibrant colors, intricate details, epic composition\n\nNegative Prompt:\nblurry, distorted, low quality, watermark, text overlay",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-3d-render",
+      "name": "3D Render",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Render\n3D render, Unreal Engine 5, ray tracing, subsurface scattering, rim lighting, physically based rendering\n\nNegative Prompt:\nblurry, distorted, low quality, watermark, text overlay",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-product",
+      "name": "Product Photo",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Product Photo\nproduct photography, studio lighting, softbox, clean background, commercial style, high contrast, crisp shadows\n\nNegative Prompt:\nblurry, distorted, low quality, watermark, text overlay",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-concept-art",
+      "name": "Concept Art",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Concept Art\nconcept art, digital painting, atmospheric perspective, matte painting style, detailed environment, cinematic composition\n\nNegative Prompt:\nblurry, distorted, low quality, watermark, text overlay",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-3d-render",
+      "name": "Restyle as 3D Render",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Restyle as 3D Render\nRe-render this scene as a high quality 3D render with octane render, volumetric lighting, soft shadows, detailed textures, and subsurface scattering, while maintaining maximum consistency with the reference.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-photo-conversion",
+      "name": "Photo Conversion",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Photo Conversion\nTransform this into a photograph of a real person with natural skin texture, while keeping the same facial features, pose, and composition.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-remove-background",
+      "name": "Remove Background",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Remove Background\nRemove the background and isolate the subject on a plain white background, while keeping the subject in the exact same pose and scale.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-background-swap",
+      "name": "Background Swap",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Background Swap\nChange the background to the described environment while keeping the subject in the exact same position, scale, and pose. Match the subject's lighting to the new environment.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-outfit-change",
+      "name": "Outfit Change",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Outfit Change\nChange the person's outfit to the described clothing, while keeping the same facial features, hairstyle, pose, and background.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-expression",
+      "name": "Expression Change",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Expression Change\nChange the person's expression as described, while keeping the same facial features, head angle, lighting, and background.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-add-element",
+      "name": "Add Element",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Add Element\nAdd the described element to the scene, integrated naturally with matching lighting, shadows, and perspective, while keeping everything else unchanged.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-remove-object",
+      "name": "Remove Object",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Remove Object\nRemove the described object from the image and fill the area naturally to match the surrounding background, while keeping everything else unchanged.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-enhance-detail",
+      "name": "Enhance Detail",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Enhance Detail\nSharpen the image and improve clarity, detail, and dynamic range, while keeping the subject, colors, and composition exactly as they are.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-restore-photo",
+      "name": "Restore Photo",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Restore Photo\nRestore this photo: remove scratches, dust, and noise, repair damaged areas, and correct faded colors, while preserving the original subjects, faces, and composition.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-replace-text",
+      "name": "Replace Text",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Replace Text\nReplace 'ORIGINAL TEXT' with 'NEW TEXT' while maintaining the same font style, size, and color.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-weather",
+      "name": "Weather Change",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Weather Change\nChange the weather as described, adjusting the sky, lighting, and atmosphere accordingly, while keeping the subject and composition identical.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-camera-angle",
+      "name": "Camera Angle",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Camera Angle\nRender the same scene from the described camera angle, while keeping the subject's identity, outfit, and the environment consistent.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-editing-character-sheet",
+      "name": "Character Sheet",
+      "category": "Editing",
+      "text": "// Your Tags\n{cursor}\n\n// Editing - Character Sheet\nCreate a character reference sheet of the same subject showing front, side, and back views on a plain background, preserving identity, outfit, and proportions.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-figurine-pvc",
+      "name": "PVC Figurine",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - PVC Figurine\nTurn the subject into a 1/7 scale collectible PVC figurine with a soft matte finish, displayed on a desk under soft studio lighting, while preserving the character's recognizable features, outfit, and pose.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-figurine-nendoroid",
+      "name": "Nendoroid",
+      "category": "Figurine",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - Nendoroid\nTransform the subject into a Nendoroid chibi figurine with a big head, small body, and cute proportions on a display stand, while preserving the character's recognizable features and outfit.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-lighting-golden-hour",
+      "name": "Golden Hour",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Golden Hour\nRelight the scene with warm golden hour sunlight and soft long shadows, while keeping the subject, pose, and composition identical.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-lighting-studio",
+      "name": "Studio",
+      "category": "Lighting",
+      "text": "// Your Tags\n{cursor}\n\n// Lighting - Studio\nRelight the scene with professional 3-point studio lighting and clean even illumination, while keeping the subject, pose, and composition identical.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-multiref-subject-scene",
+      "name": "Subject + Scene",
+      "category": "Multi-Reference",
+      "text": "// Your Tags\n{cursor}\n\n// Multi-Reference - Subject + Scene\nImage 1 is the subject reference; image 2 is the environment reference. Place the subject from image 1 into the environment from image 2, matching the lighting and perspective of image 2, while keeping the subject's identity, outfit, pose, and art style from image 1 unchanged.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-multiref-outfit-transfer",
+      "name": "Outfit Transfer",
+      "category": "Multi-Reference",
+      "text": "// Your Tags\n{cursor}\n\n// Multi-Reference - Outfit Transfer\nImage 1 is the subject reference; image 2 is the outfit reference. Apply only the outfit from image 2 to the subject from image 1, keeping all other aspects of image 1 — face, body proportions, pose, background, and style — unchanged.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-multiref-style-transfer",
+      "name": "Style From Reference",
+      "category": "Multi-Reference",
+      "text": "// Your Tags\n{cursor}\n\n// Multi-Reference - Style From Reference\nImage 2 is the style reference only. Apply only the artistic style from image 2 to the scene in image 1, keeping the subject's pose, identity, and composition from image 1 unchanged.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-multiref-pose-transfer",
+      "name": "Pose Transfer (photo ref)",
+      "category": "Multi-Reference",
+      "text": "// Your Tags\n{cursor}\n\n// Multi-Reference - Pose Transfer (photo ref)\nImage 1 is the subject reference; image 2 is a body-pose reference only. The subject from image 1 — maintaining exact likeness, art style, materials, and colors — now in the exact body pose shown in image 2. Keep the original background and lighting from image 1, with the scene at the same scale, placement, and perspective; do not adopt image 2's photographic style, skin texture, identity, or background.\n\nNegative Prompt:\nphotograph, photorealistic skin, realistic human",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-multiref-pose-anchor",
+      "name": "Pose Transfer (mannequin ref)",
+      "category": "Multi-Reference",
+      "text": "// Your Tags\n{cursor}\n\n// Multi-Reference - Pose Transfer (mannequin ref)\nThe subject from image 1, now holding the body pose shown in image 2. Image 2 is a gray mannequin pose render or skeleton diagram — use it only for the body pose; its plain background is empty space, not part of the scene. Keep the original background from image 1 around the subject, with the room and its objects at the same real-world scale, placement, and perspective as in image 1.",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    },
+    {
+      "id": "flux2-klein-multiref-pose-refcontrol",
+      "name": "Pose Transfer (RefControl)",
+      "category": "Multi-Reference",
+      "text": "// Pose Transfer - RefControl\nrefcontrol\n\n// Your Tags\n{cursor}",
+      "scope": {
+        "type": "family",
+        "architecture": "flux2",
+        "family": "flux2_klein"
+      }
+    }
+  ]
+}

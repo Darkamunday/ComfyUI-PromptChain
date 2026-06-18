@@ -1,0 +1,106 @@
+{
+  "name": "Text-to-Image",
+  "category": "Generation",
+  "order": 0,
+  "scope": {
+    "type": "family",
+    "architecture": "hidream",
+    "family": "hidream"
+  },
+  "created_at": 1775178000,
+  "id": "hidream-t2i",
+  "nodes": [
+    {
+      "type": "UNETLoader",
+      "offset": [60, 0],
+      "size": [355, 83],
+      "widgets_values": ["hidream_i1_dev_fp8.safetensors", "default"],
+      "properties": { "Node name for S&R": "UNETLoader" }
+    },
+    {
+      "type": "ModelSamplingSD3",
+      "offset": [60, 120],
+      "size": [315, 80],
+      "widgets_values": [6.0],
+      "properties": { "Node name for S&R": "ModelSamplingSD3" }
+    },
+    {
+      "type": "QuadrupleCLIPLoader",
+      "offset": [60, 250],
+      "size": [355, 220],
+      "widgets_values": [
+        "clip_l_hidream.safetensors",
+        "clip_g_hidream.safetensors",
+        "t5xxl_fp8_e4m3fn_scaled.safetensors",
+        "llama_3.1_8b_instruct_fp8_scaled.safetensors",
+        "hidream"
+      ],
+      "properties": { "Node name for S&R": "QuadrupleCLIPLoader" }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [60, 520],
+      "size": [340, 116],
+      "widgets_values": [""],
+      "properties": { "Node name for S&R": "CLIPTextEncode" }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [60, 680],
+      "size": [340, 116],
+      "widgets_values": [""],
+      "properties": { "Node name for S&R": "CLIPTextEncode" }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [500, 0],
+      "size": [290, 83],
+      "widgets_values": ["ae.safetensors"],
+      "properties": { "Node name for S&R": "VAELoader" }
+    },
+    {
+      "type": "EmptySD3LatentImage",
+      "offset": [500, 130],
+      "size": [270, 144],
+      "widgets_values": [1024, 1024, 1],
+      "properties": { "Node name for S&R": "EmptySD3LatentImage" }
+    },
+    {
+      "type": "KSampler",
+      "offset": [860, 0],
+      "size": [300, 500],
+      "widgets_values": [0, "randomize", 28, 1.0, "lcm", "simple", 1.0],
+      "properties": { "Node name for S&R": "KSampler" }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [1220, 0],
+      "size": [240, 72],
+      "widgets_values": [],
+      "properties": { "Node name for S&R": "VAEDecode" }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [1220, 120],
+      "size": [330, 410],
+      "widgets_values": ["HiDream/%date:yyyy-MM-dd_hhmmss%"],
+      "properties": {}
+    }
+  ],
+  "connections": [
+    { "from_node_idx": 0, "from_slot": 0, "to_node_idx": 1, "to_slot": 0 },
+    { "from_node_idx": 1, "from_slot": 0, "to_node_idx": 7, "to_slot": 0 },
+    { "from_node_idx": 2, "from_slot": 0, "to_node_idx": 3, "to_slot": 0 },
+    { "from_node_idx": 2, "from_slot": 0, "to_node_idx": 4, "to_slot": 0 },
+    { "from_node_idx": 3, "from_slot": 0, "to_node_idx": 7, "to_slot": 1 },
+    { "from_node_idx": 4, "from_slot": 0, "to_node_idx": 7, "to_slot": 2 },
+    { "from_node_idx": 5, "from_slot": 0, "to_node_idx": 8, "to_slot": 1 },
+    { "from_node_idx": 6, "from_slot": 0, "to_node_idx": 7, "to_slot": 3 },
+    { "from_node_idx": 7, "from_slot": 0, "to_node_idx": 8, "to_slot": 0 },
+    { "from_node_idx": 8, "from_slot": 0, "to_node_idx": 9, "to_slot": 0 }
+  ],
+  "anchorConnections": [
+    { "from_slot": 1, "to_node_idx": 3, "to_slot": 1 },
+    { "from_slot": 2, "to_node_idx": 4, "to_slot": 1 }
+  ]
+}

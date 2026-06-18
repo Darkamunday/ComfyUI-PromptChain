@@ -1,0 +1,201 @@
+{
+  "_comment": "Curator-authored alternative phrasings for canonical Danbooru tags. Each top-level key is a canonical tag; the array is the list of phrasings users might type. Used by tag_search at index time (concatenated to body_full so the bi-encoder embeds them) AND at query time (literal substring scan, deterministic). Add an entry whenever a real user query fails to retrieve a tag whose definition genuinely covers it. NEVER add aliases that aren't semantically equivalent to the canonical — that's noise that pollutes both the embedding and the literal scan.",
+
+  "foot_focus": [
+    "close up on feet",
+    "close-up on feet",
+    "close up of feet",
+    "close-up of feet",
+    "foot close-up",
+    "feet close up",
+    "feet zoomed in",
+    "foot focus",
+    "feet focus",
+    "feet in foreground",
+    "feet in the foreground",
+    "feet-focused image",
+    "feet-focused close-up"
+  ],
+  "feet_only": [
+    "feet only",
+    "just feet",
+    "only feet visible",
+    "image of just feet",
+    "close up on feet",
+    "close-up on feet",
+    "close up of feet",
+    "close-up of feet",
+    "feet close up",
+    "feet zoomed in",
+    "feet in foreground",
+    "feet in the foreground"
+  ],
+  "hand_focus": [
+    "close up on hands",
+    "close-up on hands",
+    "close up of hands",
+    "hand close-up",
+    "hands close up",
+    "hand focus",
+    "hands focus",
+    "hands in focus",
+    "hands zoomed in"
+  ],
+  "breast_focus": [
+    "close up on chest",
+    "close up on breasts",
+    "chest close-up",
+    "breast close-up",
+    "breast focus",
+    "chest focus",
+    "breasts in focus"
+  ],
+  "ass_focus": [
+    "ass focus",
+    "butt focus",
+    "rear focus",
+    "ass close-up",
+    "butt close-up",
+    "looking at her ass",
+    "looking at her butt",
+    "butt zoomed in"
+  ],
+  "crotch_focus": [
+    "crotch focus",
+    "crotch close-up",
+    "crotch zoomed in"
+  ],
+  "pussy_focus": [
+    "pussy focus",
+    "pussy close-up",
+    "pussy zoomed in"
+  ],
+  "thigh_focus": [
+    "thigh focus",
+    "thigh close-up",
+    "thighs in focus",
+    "thighs zoomed in"
+  ],
+  "mouth_focus": [
+    "mouth focus",
+    "mouth close-up",
+    "lips close up",
+    "lips zoomed in"
+  ],
+  "back_focus": [
+    "back focus",
+    "back close-up",
+    "upper back close up"
+  ],
+  "eye_focus": [
+    "eye focus",
+    "eyes in focus",
+    "eye close-up",
+    "eyes zoomed in"
+  ],
+  "footwear_focus": [
+    "footwear focus",
+    "shoe focus",
+    "shoes close-up",
+    "boots close-up"
+  ],
+
+  "close-up": [
+    "close up",
+    "close-up",
+    "extreme close up",
+    "extreme close-up",
+    "her face up close",
+    "face up close",
+    "face close-up",
+    "face shot",
+    "head shot",
+    "headshot",
+    "zoomed in"
+  ],
+  "portrait": [
+    "portrait",
+    "portrait shot",
+    "head and shoulders shot"
+  ],
+  "wide_shot": [
+    "wide shot",
+    "wide framing",
+    "wide angle"
+  ],
+  "very_wide_shot": [
+    "very wide shot",
+    "extreme wide shot",
+    "establishing shot"
+  ],
+  "full_body": [
+    "full body",
+    "full body shot",
+    "head to toe",
+    "entire body visible"
+  ],
+  "upper_body": [
+    "upper body",
+    "upper body shot",
+    "torso shot",
+    "from the waist up"
+  ],
+  "lower_body": [
+    "lower body",
+    "lower body shot",
+    "from the waist down"
+  ],
+  "cowboy_shot": [
+    "cowboy shot",
+    "from the thighs up",
+    "mid-thigh shot"
+  ],
+
+  "from_below": [
+    "from below",
+    "low angle",
+    "low angle shot",
+    "looking up at her",
+    "below view",
+    "shot from below"
+  ],
+  "from_above": [
+    "from above",
+    "high angle",
+    "high angle shot",
+    "looking down at her",
+    "above view",
+    "shot from above",
+    "bird's eye view"
+  ],
+  "from_side": [
+    "from side",
+    "from her side",
+    "side view",
+    "side profile",
+    "profile shot"
+  ],
+  "from_behind": [
+    "from behind",
+    "rear view",
+    "back view",
+    "shot from behind"
+  ],
+  "from_front": [
+    "from front",
+    "front view",
+    "facing the camera",
+    "shot from the front"
+  ],
+  "dutch_angle": [
+    "dutch angle",
+    "tilted angle",
+    "slanted angle"
+  ],
+  "pov": [
+    "pov",
+    "point of view",
+    "first person view",
+    "from her perspective"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "scope": {
+    "type": "model",
+    "model_name": "WAI-Illustrious-SDXL"
+  },
+  "prompts": [
+    {
+      "id": "wai-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterpiece, best quality, amazing quality, newest\n\nNegative Prompt:\nbad quality, worst quality, worst detail, sketch, censor",
+      "scope": { "type": "model", "model_name": "WAI-Illustrious-SDXL" }
+    },
+    {
+      "id": "wai-sfw",
+      "name": "SFW",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// SFW\nmasterpiece, best quality, amazing quality, newest\n\nNegative Prompt:\nbad quality, worst quality, worst detail, sketch, censor, nsfw",
+      "scope": { "type": "model", "model_name": "WAI-Illustrious-SDXL" }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "display_name": "DAMN! Illustrious/Pony - 5.0",
+  "model_name": "DAMN! Illustrious/Pony",
+  "version": "5.0",
+  "architecture": "sdxl",
+  "family": "noobai",
+  "author": "coyotte",
+  "description": "Realistic model trained on Illustrious. Lower CFG for realism, higher for stylization. DO NOT use score_ tags.",
+  "license": "Illustrious License (FAIPL 1.0)",
+  "tags": [
+    "realistic",
+    "photorealistic",
+    "illustrious",
+    "general use"
+  ],
+  "url": "https://civitai.com/models/428826/damn-illustriouspony-realistic-model",
+  "download_url": "https://civitai.com/api/download/models/2041009?type=Model&format=SafeTensor&size=full&fp=fp16",
+  "civitai_model_id": 428826,
+  "quality_position": "end",
+  "release_date": "2025-07-23",
+  "trigger": "masterpiece, best quality, realistic",
+  "default_prompt_id": "damn-default",
+  "negative": "bad quality, worst quality, low quality",
+  "notes": "CFG 3-6 (lower=realistic, higher=stylized). Steps 30-40. DO NOT use score_ tags. Use sdxl_vae.safetensors for best results.",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "KSampler": {
+      "steps": 35,
+      "cfg": 4.5,
+      "sampler_name": "dpmpp_2m_sde",
+      "scheduler": "karras",
+      "steps_range": [
+        30,
+        40
+      ],
+      "cfg_range": [
+        3.0,
+        6.0
+      ],
+      "sampler_name_options": [
+        "dpmpp_2m_sde",
+        "dpmpp_3m_sde",
+        "dpmpp_sde",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "karras",
+        "exponential",
+        "normal"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -2,
+      "stop_at_clip_layer_range": [
+        -2,
+        -1
+      ]
+    },
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 4.5,
+      "sampler_name": "dpmpp_2m_sde",
+      "scheduler": "karras",
+      "denoise": 0.4,
+      "guide_size": 384,
+      "max_size": 768,
+      "bbox_crop_factor": 2.0,
+      "steps_range": [
+        15,
+        30
+      ],
+      "cfg_range": [
+        3.0,
+        6.0
+      ],
+      "denoise_range": [
+        0.2,
+        0.5
+      ],
+      "guide_size_range": [
+        256,
+        768
+      ],
+      "max_size_range": [
+        512,
+        1024
+      ],
+      "sampler_name_options": [
+        "dpmpp_2m_sde",
+        "dpmpp_3m_sde",
+        "dpmpp_sde",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "karras",
+        "exponential",
+        "normal"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 896,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "7a963da33994e38b",
+      "sha256": null,
+      "filename": "damnIllustriousPony_v50IllustriousNoobai.safetensors",
+      "download_url": "https://civitai.com/api/download/models/2041009?type=Model&format=SafeTensor&size=full&fp=fp16"
+    }
+  ]
+}

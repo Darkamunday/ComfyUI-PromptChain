@@ -1,0 +1,585 @@
+{
+  "name": "ERNIE Image Prompts",
+  "prompts": [
+    {
+      "id": "ernie-text_signage-shop_sign",
+      "name": "Shop Sign",
+      "category": "Text & Signage",
+      "text": "// Your Concept (include exact sign text in quotes)\n{cursor}\n\n// Text & Signage - Shop Sign\nClose-up photograph of a storefront sign mounted above the shop entrance. The sign is legible and sharply rendered, with the exact wording the user specified reproduced cleanly in its described font and color. Surrounding storefront details support the scene: brickwork or painted wood facade, a recessed doorway, small window reflections. Warm tungsten light from inside the shop spills onto the sign, natural late-afternoon ambient light outside. Film-like color, subtle grain, realistic materials and weathering.\n\nNegative Prompt:\ngibberish text, misspelled, distorted letters, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-text_signage-neon_sign",
+      "name": "Neon Sign",
+      "category": "Text & Signage",
+      "text": "// Your Concept (include exact sign text in quotes)\n{cursor}\n\n// Text & Signage - Neon Sign\nA vibrant neon sign glowing against a dark nighttime wall. The exact text specified by the user is formed from bent glass tubes with visible gas-filled glow and faint halation around each stroke. Pink-magenta, electric blue, or acid green neon hues, with subtle reflections on a damp pavement or glass window below. Atmospheric haze, slight lens bloom, shallow depth of field. Cinematic urban night photography, film grain, strong color contrast against deep blacks.\n\nNegative Prompt:\ngibberish text, misspelled, distorted letters, daylight, flat lighting, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-text_signage-menu_board",
+      "name": "Menu Board",
+      "category": "Text & Signage",
+      "text": "// Your Concept (supply exact menu items + prices)\n{cursor}\n\n// Text & Signage - Menu Board\nA hand-lettered chalkboard menu board mounted inside a small cafe or restaurant. The menu items and prices specified by the user are rendered legibly in chalk or paint-marker typography, arranged as a readable list with clear section headers. Wooden frame around the board, warm ambient light from hanging pendant lamps, subtle background blur of the interior. Natural chalk texture, minor smudges, realistic handwritten feel. Color palette of cream, dark forest green, warm brown, pastel accents.\n\nNegative Prompt:\ngibberish text, jumbled letters, unreadable, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-text_signage-graffiti_wall",
+      "name": "Graffiti Wall",
+      "category": "Text & Signage",
+      "text": "// Your Concept (include exact graffiti text)\n{cursor}\n\n// Text & Signage - Graffiti Wall\nA weathered urban wall photographed straight-on, dominated by a large spray-paint graffiti piece containing the exact text specified by the user. Bold drippy letterforms with layered outlines, fill colors, and halo highlights. Tagged walls usually show surrounding stickers, paste-ups, concrete cracks, rusted downpipes. Overcast diffused daylight so colors read true. Documentary street-photo aesthetic with honest urban grit, realistic textures, no stylization.\n\nNegative Prompt:\ngibberish text, clean studio background, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-text_signage-vintage_signpost",
+      "name": "Vintage Signpost",
+      "category": "Text & Signage",
+      "text": "// Your Concept (include exact destination names)\n{cursor}\n\n// Text & Signage - Vintage Signpost\nA weathered wooden signpost at a rural crossroads with multiple arrow-shaped planks pointing in different directions. Each plank is clearly legible with the destination names specified by the user, painted in cream or yellow on dark green or faded red, with distances in miles or kilometers below each place name. Aged wood texture with visible grain and nail heads, slight moss on the post, surrounding grass and trees softly out of focus. Overcast or golden-hour lighting, muted color palette, pastoral travel-photography feel.\n\nNegative Prompt:\ngibberish text, unreadable, modern signage, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-infographic-process_diagram",
+      "name": "Process Diagram",
+      "category": "Infographic",
+      "text": "// Your Concept (supply title + numbered step labels)\n{cursor}\n\n// Infographic - Process Diagram\nEducational infographic on a light beige vintage paper background. The title supplied by the user is rendered prominently at the top center in a bold serif or slab font. Below it, numbered step blocks are arranged in a Z-flow or grid layout, connected by dotted or arrow lines. Each step has a small hand-drawn icon, a short header label, and one or two lines of body text. Warm earthy palette of browns, creams, deep reds, olive greens. Corners decorated with small hand-drawn flourishes relevant to the topic. Clean typography, clear hierarchy, textbook-illustration aesthetic.\n\nNegative Prompt:\ngibberish text, jumbled labels, modern minimalist, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-infographic-species_chart",
+      "name": "Species Chart",
+      "category": "Infographic",
+      "text": "// Your Concept (specify species + panel count)\n{cursor}\n\n// Infographic - Species Chart\nEducational comic-book-style infographic showing a row of vertical panels side by side, each panel depicting one species in hand-drawn illustration style. The top title specified by the user spans the width of the composition in bold caps. Each panel has a species name header, a detailed drawing of the animal/plant, and two or three short annotated facts with tiny arrows pointing to anatomical features. Earthy watercolor palette, cream backgrounds, bold outlines. Nature-encyclopedia aesthetic, scientific yet approachable.\n\nNegative Prompt:\ngibberish text, modern infographic, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-infographic-timeline",
+      "name": "Timeline",
+      "category": "Infographic",
+      "text": "// Your Concept (supply title + chronological entries)\n{cursor}\n\n// Infographic - Timeline\nA horizontal historical timeline infographic. A thick central timeline bar runs left to right across the composition, with date markers and labeled event nodes alternating above and below. The title supplied by the user sits at the top. Each event node has a small illustrated icon, a bold year, a short event name, and a one-sentence description. Muted editorial palette of ink blue, burgundy, antique gold, cream paper. Clean modern editorial layout with restrained typography.\n\nNegative Prompt:\ngibberish text, vertical layout, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-infographic-recipe",
+      "name": "Recipe Infographic",
+      "category": "Infographic",
+      "text": "// Your Concept (supply dish name + ingredients + steps)\n{cursor}\n\n// Infographic - Recipe Infographic\nA single-page recipe infographic with the dish name supplied by the user as the top title in a warm hand-lettered display font. Below, an ingredients column on the left lists each item with a small hand-drawn illustration, and a numbered steps column on the right shows each cooking step with an icon and short instruction. Decorative sprigs, spoons, and ingredient sketches fill corners. Warm kitchen palette of cream, terracotta, olive, deep red. Cookbook-illustration aesthetic, clean readable layout, print-quality typography.\n\nNegative Prompt:\ngibberish text, modern minimal, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-infographic-science",
+      "name": "Science Infographic",
+      "category": "Infographic",
+      "text": "// Your Concept (supply topic + key terms to label)\n{cursor}\n\n// Infographic - Science Infographic\nA wide-format science-education infographic on a deep navy or dark teal background. The topic title supplied by the user appears at the top in a clean sans-serif. The composition is divided into two or three zones, each explaining one concept with a labeled 3D-rendered model or diagram, short caption, and thin connecting leader lines. Accurate anatomical or structural details, chalk-white or pale-gold typography, subtle grid or blueprint lines in the background. Scientific publication aesthetic, calm authoritative feel.\n\nNegative Prompt:\ngibberish text, cute illustration, children's book, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-infographic-comparison_chart",
+      "name": "Comparison Chart",
+      "category": "Infographic",
+      "text": "// Your Concept (supply two items + attribute list)\n{cursor}\n\n// Infographic - Comparison Chart\nA split-screen comparison chart with two items placed symmetrically on either side of a thin vertical divider. The two item names supplied by the user are rendered as bold headers at the top of each half. Beneath each, a large illustration of the item, followed by a row-aligned attribute list with matching values/icons on both sides so readers can compare line by line. Restrained modern palette, plenty of whitespace, clean sans-serif typography. Editorial magazine layout quality.\n\nNegative Prompt:\ngibberish text, single subject, cluttered, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-poster-movie",
+      "name": "Movie Poster",
+      "category": "Poster",
+      "text": "// Your Concept (supply film title + tagline)\n{cursor}\n\n// Poster - Movie Poster\nA theatrical movie poster composition. The film title supplied by the user dominates the lower third in bold custom typography matching the film's genre. A short tagline appears above it in a thinner condensed font. The upper two-thirds shows the hero image — characters, environment, or iconic object — lit cinematically with a distinctive color scheme (teal-and-orange, monochrome with an accent color, neon split-lighting, etc.). Tiny billing block at the very bottom with credits in classic film-poster layout. Painterly-photorealistic hero art, printer-grade color depth.\n\nNegative Prompt:\ngibberish text, jumbled billing block, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-poster-travel",
+      "name": "Travel Poster",
+      "category": "Poster",
+      "text": "// Your Concept (supply destination name)\n{cursor}\n\n// Poster - Travel Poster\nA vintage mid-century travel poster for the destination supplied by the user. The destination name sits as a large bold display title, with a short evocative tagline beneath. The main image depicts an iconic view of the location in stylized flat-vector illustration with clean geometric shapes, layered color fields, and minimal texture grain. Warm saturated mid-century palette of teal, mustard, coral, cream. Composition evokes 1950s-60s airline and railway posters. Crisp printed poster aesthetic.\n\nNegative Prompt:\ngibberish text, photograph, modern gradients, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-poster-concert",
+      "name": "Concert Poster",
+      "category": "Poster",
+      "text": "// Your Concept (supply band/artist name + date + venue)\n{cursor}\n\n// Poster - Concert Poster\nA screen-printed concert poster for the act, date, and venue supplied by the user. The band name dominates in distorted custom typography reflecting the genre — psychedelic swirls, punk cut-paper, metal blackletter, indie hand-drawn. Date and venue information appear in supporting type below. The central image is a bold graphic illustration with limited-palette screen-print aesthetic, heavy ink textures, halftone dot patterns. Gig-poster tradition feel, 2-4 color riso or screen-print look.\n\nNegative Prompt:\ngibberish text, smooth digital gradients, photorealistic, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-poster-minimalist",
+      "name": "Minimalist Poster",
+      "category": "Poster",
+      "text": "// Your Concept (supply title + optional subtitle)\n{cursor}\n\n// Poster - Minimalist Poster\nA minimalist graphic poster using the title supplied by the user as the sole dominant type element. A single bold geometric or symbolic graphic element anchors the composition — a stark silhouette, a single shape, or a clever negative-space gestalt. Generous whitespace, two to three colors maximum, strong grid-based layout. Swiss design / Helvetica tradition, museum print-quality feel. Restrained, confident, high-concept.\n\nNegative Prompt:\ngibberish text, busy composition, many elements, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-poster-split_screen",
+      "name": "Split-Screen Conceptual",
+      "category": "Poster",
+      "text": "// Your Concept (supply opposing concepts + overlay text)\n{cursor}\n\n// Poster - Split-Screen Conceptual\nA conceptual poster with vertical split-screen composition. The left half depicts one side of the contrast supplied by the user, the right half depicts its opposite — lit and colored to emphasize the dichotomy. The overlay text supplied by the user is placed prominently in a bold sans-serif, breaking across the seam or floating on one half. Smaller supporting text blocks in the corners contain technical-looking metadata. Cinematic sci-fi editorial aesthetic, high-contrast lighting, deliberate color temperature divide.\n\nNegative Prompt:\ngibberish text, single subject, flat lighting, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-comic-multi_panel",
+      "name": "Multi-Panel Comic",
+      "category": "Comic Panels",
+      "text": "// Your Concept (supply panel count + dialogue per panel)\n{cursor}\n\n// Comic Panels - Multi-Panel Comic\nA comic page divided into the panel grid specified by the user, with thin black borders between panels and small white gutters. Each panel depicts one beat of the user's story in ink-and-watercolor illustration style. Expressive line art, cool blue-gray limited palette, selective color accents for emphasis. Speech balloons and captions contain exactly the dialogue supplied by the user in clean comic-lettering typography. Western indie-graphic-novel or modern webcomic feel, narrative pacing, consistent character design across panels.\n\nNegative Prompt:\ngibberish dialogue, inconsistent character, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-comic-manga_page",
+      "name": "Manga Page",
+      "category": "Comic Panels",
+      "text": "// Your Concept (supply scene + dialogue)\n{cursor}\n\n// Comic Panels - Manga Page\nA black-and-white manga page with a dynamic irregular panel layout — large establishing panel, smaller action beats, close-up reaction shot. Screen-tone patterns for shading, crisp pen-and-ink linework, expressive speed lines where action demands. Japanese comic lettering in speech bubbles and sound-effect katakana containing exactly the text supplied by the user. Shōnen or seinen manga aesthetic, confident brushwork, sharp contrast, no color except pure black ink on off-white paper.\n\nNegative Prompt:\ngibberish text, full color, western comic style, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-comic-storyboard",
+      "name": "Film Storyboard",
+      "category": "Comic Panels",
+      "text": "// Your Concept (supply scene + shot descriptions)\n{cursor}\n\n// Comic Panels - Film Storyboard\nA film storyboard sheet with a 2×3 or 3×2 grid of panels, each showing one shot of the sequence supplied by the user. Rough gestural pencil-and-marker drawings inside each frame, camera and action notation handwritten below each panel. Arrows indicate camera movement or subject motion. Panel numbers in corners. Professional pre-production storyboard aesthetic, working-drawing energy, not final illustration.\n\nNegative Prompt:\ngibberish annotations, finished illustration, color, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-comic-newspaper_strip",
+      "name": "Newspaper Comic Strip",
+      "category": "Comic Panels",
+      "text": "// Your Concept (supply 3-4 panel gag + dialogue)\n{cursor}\n\n// Comic Panels - Newspaper Comic Strip\nA three or four panel horizontal newspaper comic strip. Each panel has clean thin black borders and flat simple color palette. Characters drawn in a consistent friendly cartoon style with exaggerated expressions driving a short gag. Dialogue in speech balloons uses exactly the text supplied by the user. Title of the strip may appear in the first panel. Classic Sunday-funnies aesthetic — Peanuts, Calvin & Hobbes, Garfield tradition — approachable, readable, humor-driven.\n\nNegative Prompt:\ngibberish text, complex rendering, dark tones, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-comic-educational",
+      "name": "Educational Comic",
+      "category": "Comic Panels",
+      "text": "// Your Concept (supply topic + learning beats)\n{cursor}\n\n// Comic Panels - Educational Comic\nAn educational comic page that teaches the topic supplied by the user across a sequence of five or six panels. A friendly narrator character guides the reader, explaining concepts in clear speech balloons with the exact dialogue supplied. Each panel has a short caption box reinforcing the lesson. Bright flat-color illustration, children's-book friendly, clean line art, rounded shapes. Warm welcoming palette, schoolbook or science-comic aesthetic.\n\nNegative Prompt:\ngibberish text, dark moody, horror, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-ui_mockup-phone_app",
+      "name": "Phone App Screen",
+      "category": "UI Mockup",
+      "text": "// Your Concept (describe app + what screen shows)\n{cursor}\n\n// UI Mockup - Phone App Screen\nA photorealistic render of a modern smartphone held in-hand, angled slightly, with the screen showing the app UI supplied by the user. The UI contains realistic and legible interface elements — status bar with time and battery, navigation headers, buttons with readable labels, content cards with sample text, tab bar at the bottom. Modern iOS or Android design language, crisp pixel-grid alignment. Soft studio lighting, subtle reflections on the glass, shallow depth of field on the hand and background.\n\nNegative Prompt:\ngibberish UI text, blurry screen, low-res UI, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-ui_mockup-desktop_browser",
+      "name": "Desktop Browser",
+      "category": "UI Mockup",
+      "text": "// Your Concept (describe website + sections visible)\n{cursor}\n\n// UI Mockup - Desktop Browser\nA wide-aspect screenshot of a desktop browser showing the website described by the user. The browser chrome is realistic with visible tab title, address bar, bookmarks row. The webpage below has a top navigation bar, a hero banner with headline and subtext, sectioned content cards or grids, and a footer. All visible text is legible and reads as real copy on the subject. Clean modern web design, generous whitespace, consistent typography hierarchy, subtle shadows and rounded corners. Retina-sharp pixel render.\n\nNegative Prompt:\ngibberish text, blurry UI, inconsistent typography, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-ui_mockup-smartwatch",
+      "name": "Smartwatch UI",
+      "category": "UI Mockup",
+      "text": "// Your Concept (describe watch face + data shown)\n{cursor}\n\n// UI Mockup - Smartwatch UI\nA photorealistic close-up of a modern smartwatch worn on a wrist, showing the watch face described by the user. The display contains legible time, date, and complications with short readable labels for heart rate, steps, weather, or notifications. Vibrant OLED colors on deep-black background, crisp anti-aliased text, polished metal or silicone strap details. Soft diffused ambient light, subtle reflection on the display glass, shallow depth of field.\n\nNegative Prompt:\ngibberish numbers, blurry display, analog only, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-sticker_pack-line_sticker",
+      "name": "Line Sticker Pack",
+      "category": "Sticker Pack",
+      "text": "// Your Concept (supply character + expression list)\n{cursor}\n\n// Sticker Pack - Line Sticker Pack\nA grid layout sticker pack sheet — typically 4 rows by 6 columns — featuring the character supplied by the user in a range of expressions and poses, each in its own cell. Each sticker has a short caption in a cute hand-lettered font describing the emotion or phrase. Vibrant hand-drawn chibi illustration style with clean outlines, soft cel-shading, small simple backgrounds or pure white cells. Consistent character design across all cells. Line or Discord sticker aesthetic.\n\nNegative Prompt:\ngibberish captions, inconsistent character, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-sticker_pack-emoji_grid",
+      "name": "Emoji Grid",
+      "category": "Sticker Pack",
+      "text": "// Your Concept (supply subject + expression variants)\n{cursor}\n\n// Sticker Pack - Emoji Grid\nA clean grid of custom emoji icons on a plain white background. Each cell contains one circular or rounded emoji-style face depicting a different expression of the subject supplied by the user — laughing, crying, heart-eyes, angry, sleeping, thinking, etc. Simple bold shapes, glossy highlights on top, soft shadow beneath. Vibrant saturated colors, strong silhouettes, readable at tiny sizes. Apple/Twemoji/Discord emoji aesthetic.\n\nNegative Prompt:\ntext labels, photograph, muted colors, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-sticker_pack-reaction_chart",
+      "name": "Reaction Chart",
+      "category": "Sticker Pack",
+      "text": "// Your Concept (supply subject + reaction list)\n{cursor}\n\n// Sticker Pack - Reaction Chart\nA reference sheet of reaction faces arranged in a grid, each cell labeled with a short mood word in a clean sans-serif. The subject supplied by the user appears in every cell with a distinctly different facial expression and posture, consistent character design throughout. Manga-inspired expression chart aesthetic — eyebrows, mouth, eye shape exaggerated per emotion. Clean flat-color illustration, light gridlines, cream or pure-white background.\n\nNegative Prompt:\ngibberish labels, inconsistent character, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-flashcard-language",
+      "name": "Language Flashcard",
+      "category": "Flashcard",
+      "text": "// Your Concept (supply word + translation + illustration)\n{cursor}\n\n// Flashcard - Language Flashcard\nA vertical rectangular language-learning flashcard with decorative border framing the whole card. The upper two-thirds shows a detailed illustration of the concept supplied by the user in a style fitting the target language's culture. The lower third is a centered text block containing the word in the target script, its romanization if applicable, and the English translation, each on its own line in clear hierarchy. Aged-paper or themed background texture, consistent color palette tied to the cultural setting. Educational flashcard aesthetic.\n\nNegative Prompt:\ngibberish text, photograph, modern minimal, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-flashcard-character_profile",
+      "name": "Character Profile Card",
+      "category": "Flashcard",
+      "text": "// Your Concept (supply character name + stats)\n{cursor}\n\n// Flashcard - Character Profile Card\nA trading-card style character profile with the character name supplied by the user as the top header in bold stylized typography. A large character illustration fills the upper portion inside a decorative frame. Below, a stat block with labeled rows — class, level, abilities, short bio — rendered in small clean readable type. Themed border styled to the character's genre (fantasy scroll, sci-fi hud panel, trading-card foil). Print-ready card aesthetic, consistent internal design language.\n\nNegative Prompt:\ngibberish text, blurry illustration, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-flashcard-educational",
+      "name": "Study Card",
+      "category": "Flashcard",
+      "text": "// Your Concept (supply topic + facts)\n{cursor}\n\n// Flashcard - Study Card\nA single educational study card on a clean cream or pastel background. The topic title supplied by the user sits at the top in bold sans-serif. Below, a small central illustration or diagram of the concept, followed by three to five bullet facts in crisp legible body type. Small icons next to each bullet for visual interest. Soft rounded corners on the card, gentle drop shadow. Modern educational app aesthetic, Quizlet / Anki / Duolingo feel.\n\nNegative Prompt:\ngibberish text, cluttered, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-photorealistic-cinematic_still",
+      "name": "Cinematic Still",
+      "category": "Photorealistic",
+      "text": "// Your Concept\n{cursor}\n\n// Photorealistic - Cinematic Still\nCinematic still from a prestige feature film, shot on anamorphic lenses at 2.39:1 aspect. Strong directional lighting with deep shadow falloff, subtle volumetric atmosphere, film-grain texture across the entire frame. Color grade balanced toward cool shadows and warm highlights, or a distinctive single-color wash. Natural skin with real pores and micro-texture, no plastic smoothness. Sharp focus on subject, smooth bokeh in background, honest film aesthetic.\n\nNegative Prompt:\nasymmetrical eyes, deformed face, plastic skin, doll-like, airbrushed, cartoon, flat lighting, overexposed, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-photorealistic-documentary",
+      "name": "Documentary",
+      "category": "Photorealistic",
+      "text": "// Your Concept\n{cursor}\n\n// Photorealistic - Documentary\nDocumentary photography in the tradition of National Geographic and long-form photojournalism. Natural available light only, unposed candid moment, environmental storytelling with rich contextual detail. Mid-range focal length that preserves spatial relationships. Honest imperfect skin, real clothing wear, authentic expressions. Earthy true-to-life color, no heavy grade. Sharp focus on the subject's eyes, slight ambient bokeh.\n\nNegative Prompt:\nstudio lighting, posed, plastic skin, airbrushed, cartoon, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-photorealistic-golden_hour",
+      "name": "Golden Hour Portrait",
+      "category": "Photorealistic",
+      "text": "// Your Concept\n{cursor}\n\n// Photorealistic - Golden Hour Portrait\nPortrait photograph captured in the last hour before sunset. Low warm sun rakes across the subject from behind, creating a rim light on hair and shoulders and a soft key light wrapping the face. Atmospheric haze carries golden particles through the air. Natural skin texture with visible warmth and subtle sheen, honest micro-detail. Shallow depth of field with creamy bokeh, 85mm equivalent framing, gentle film-like color grade.\n\nNegative Prompt:\nasymmetrical eyes, deformed face, plastic skin, cold tones, harsh midday light, studio lighting, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-photorealistic-editorial_fashion",
+      "name": "Editorial Fashion",
+      "category": "Photorealistic",
+      "text": "// Your Concept\n{cursor}\n\n// Photorealistic - Editorial Fashion\nHigh-end fashion editorial in the style of a Vogue or Harper's Bazaar spread. Strong directional studio or natural light sculpting the subject with bold shadow shapes. Confident editorial pose, impeccable styling, considered color palette matching wardrobe to setting. Shot on medium format equivalent with 85mm to 110mm lens, shallow depth of field. Natural skin texture with subtle pore detail, no airbrushed smoothness. Print-quality tonal range.\n\nNegative Prompt:\ncasual snapshot, amateur lighting, plastic skin, flat lighting, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-photorealistic-street",
+      "name": "Street Photography",
+      "category": "Photorealistic",
+      "text": "// Your Concept\n{cursor}\n\n// Photorealistic - Street Photography\nCandid street photography shot on 35mm equivalent, Henri Cartier-Bresson decisive-moment tradition. Natural available light, honest composition with strong geometry, environmental context telling a story beyond the subject. Monochromatic or muted color, authentic grit and detail. Slight motion-implied energy, sharp focus on the key subject, shallow to mid depth of field.\n\nNegative Prompt:\nstudio, posed, plastic skin, overprocessed, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-photorealistic-neon_night",
+      "name": "Neon Night",
+      "category": "Photorealistic",
+      "text": "// Your Concept\n{cursor}\n\n// Photorealistic - Neon Night\nFirst-person urban night photograph. Narrow wet streets with strong perspective depth, towering architecture with fire escapes and signage on both sides. Saturated neon signage — red, blue, magenta, acid yellow — reflecting in puddles and wet pavement. Strong cyan-blue ambient with warm orange-red accents, volumetric mist in the air, cinematic color separation. Film-like grain, honest low-light color behavior.\n\nNegative Prompt:\ndaylight, flat lighting, desaturated, clean streets, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-photorealistic-film_noir",
+      "name": "Film Noir",
+      "category": "Photorealistic",
+      "text": "// Your Concept\n{cursor}\n\n// Photorealistic - Film Noir\nBlack-and-white film noir photograph in the 1940s Hollywood tradition. Stark high-contrast chiaroscuro lighting from a single hard directional source, deep impenetrable blacks and bright specular highlights with minimal midtones. Venetian-blind shadow patterns cutting across the subject. Vintage grain, mysterious atmosphere, hardboiled-detective mood. No color anywhere, pure silver-gelatin monochrome feel.\n\nNegative Prompt:\ncolor, flat even lighting, modern digital, clean highlights, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-photorealistic-macro",
+      "name": "Macro Detail",
+      "category": "Photorealistic",
+      "text": "// Your Concept\n{cursor}\n\n// Photorealistic - Macro Detail\nExtreme macro photograph at life-size or greater magnification. Tack-sharp focus on the tiny subject, exaggerated surface texture and micro-detail visible at inspection distance. Extremely shallow depth of field with creamy defocused foreground and background, soft backlight picking out translucent edges. Natural color reproduction, gentle ambient fill, laboratory or studio macro aesthetic.\n\nNegative Prompt:\nwide angle, deep depth of field, flat lighting, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-anime-key_visual",
+      "name": "Anime Key Visual",
+      "category": "Anime",
+      "text": "// Your Concept\n{cursor}\n\n// Anime - Key Visual\nOfficial anime key visual illustration, the kind used on Blu-ray covers and promotional posters. Cel-shaded coloring with sharp clean linework, expressive character design with detailed eyes and flowing hair. Detailed environmental background with atmospheric perspective and lighting that supports the character. Vibrant saturated palette, painterly atmospheric highlights, subtle lens bloom on bright areas. High-end studio production quality.\n\nNegative Prompt:\nflat background, amateur sketch, photograph, 3D render, western cartoon, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-anime-90s_ova",
+      "name": "90s OVA",
+      "category": "Anime",
+      "text": "// Your Concept\n{cursor}\n\n// Anime - 90s OVA\n1990s retro anime OVA still with authentic period aesthetic. Bold pen-and-ink linework, high-contrast cel shading with hard shadow edges, vibrant saturated colors on hand-painted backgrounds. Subtle film grain, faint chromatic aberration, VHS-era softness. Dynamic action pose or dramatic character moment, classic hand-drawn animation feel. Nostalgic warm mood, analog-film color.\n\nNegative Prompt:\nmodern digital, 3D render, smooth gradients, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-anime-ghibli",
+      "name": "Ghibli Atmosphere",
+      "category": "Anime",
+      "text": "// Your Concept\n{cursor}\n\n// Anime - Ghibli Atmosphere\nHand-painted anime still in the tradition of Studio Ghibli. Watercolor-textured painterly backgrounds with soft atmospheric perspective, gentle natural lighting, lovingly rendered environmental detail like windblown grass, drifting clouds, or dappled forest light. Character animation in crisp cel style with warm expressive faces and humble clothing. Cozy earthy palette, emphasis on the quiet beauty of everyday moments.\n\nNegative Prompt:\nsharp digital render, 3D, dark horror, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-anime-shoujo",
+      "name": "Shoujo Romance",
+      "category": "Anime",
+      "text": "// Your Concept\n{cursor}\n\n// Anime - Shoujo Romance\nShoujo manga / anime romance illustration aesthetic. Delicate slender character design with large expressive sparkling eyes and flowing hair, elegant gestures. Soft pastel palette of rose, lavender, cream, pale gold. Decorative background elements — falling petals, light particles, sparkling bokeh, rose motifs. Dreamy soft-focus lighting, gentle glow, romantic atmosphere. Screen-tone textures for shading subtleties.\n\nNegative Prompt:\nrough grunge, dark horror, photograph, 3D render, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-illustration-whimsical_3d",
+      "name": "Whimsical 3D",
+      "category": "Illustration",
+      "text": "// Your Concept\n{cursor}\n\n// Illustration - Whimsical 3D\nCharming whimsical 3D illustration with plush-textured subjects and cozy storybook mood. Soft diffused lighting with warm highlights, rich minimalist color palette of creamy whites, vibrant oranges, gentle reds. Subtle film grain overlay, fabric and plush material textures modeled with realistic micro-detail. Friendly playful character design, inviting atmosphere, children's-book illustration feel rendered with modern 3D polish.\n\nNegative Prompt:\nsharp realism, photograph, dark horror, flat shading, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-illustration-flat_vector",
+      "name": "Flat Vector",
+      "category": "Illustration",
+      "text": "// Your Concept\n{cursor}\n\n// Illustration - Flat Vector\nModern minimalist flat-vector illustration with clean geometric shapes, confident color fields, and restrained use of gradients. Limited thoughtful palette, generous negative space, strong silhouettes readable at small sizes. Subtle grain texture overlay for warmth, no outlines or only selective thick outlines. Editorial spot-illustration aesthetic, tech-company brand illustration feel, modern publication quality.\n\nNegative Prompt:\nphotograph, heavy texture, realistic shading, detailed rendering, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-illustration-ukiyo_e",
+      "name": "Ukiyo-e Woodblock",
+      "category": "Illustration",
+      "text": "// Your Concept\n{cursor}\n\n// Illustration - Ukiyo-e Woodblock\nTraditional Japanese Ukiyo-e woodblock print aesthetic. Flat planes of muted color, strong confident outlines in dark indigo ink, decorative Seigaiha wave patterns or stylized clouds as borders. Aged beige rough washi paper texture, subtle bokashi color gradations. Classical composition following Hokusai or Hiroshige tradition, respectful of the period's conventions.\n\nNegative Prompt:\nmodern digital, photograph, 3D render, western style, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-illustration-hand_drawn_comic",
+      "name": "Hand-drawn Comic",
+      "category": "Illustration",
+      "text": "// Your Concept\n{cursor}\n\n// Illustration - Hand-drawn Comic\nHand-drawn comic illustration with confident pen-and-ink linework and flat watercolor fills. Visible paper texture, slight ink bleed where line meets wash, honest handmade feel with tiny imperfections. Warm limited palette built from three or four hand-mixed colors. Indie graphic-novel aesthetic, personal sketchbook feel, emotionally direct.\n\nNegative Prompt:\ndigital perfection, photograph, 3D render, heavy rendering, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-illustration-ink_wash",
+      "name": "Ink Wash",
+      "category": "Illustration",
+      "text": "// Your Concept\n{cursor}\n\n// Illustration - Ink Wash\nEastern ink wash illustration in the sumi-e tradition. Fluid brush-and-ink gradations from deep black to pale gray, expressive confident strokes with wet-on-wet bleeding edges. Generous empty negative space used as compositional element, atmospheric depth implied by ink density alone. Rice-paper ground with visible fiber texture, Zen restraint and calligraphic energy.\n\nNegative Prompt:\nfull color, hard digital edges, photograph, modern, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-3d_render-pixar",
+      "name": "Pixar/Disney",
+      "category": "3D Render",
+      "text": "// Your Concept\n{cursor}\n\n// 3D Render - Pixar/Disney\nPixar and Disney animation-quality 3D render. Expressive appealing character design with soft subsurface-scattering skin, large warm eyes, stylized but believable proportions. Cinematic warm-toned lighting with soft shadow falloff, careful rim lights picking out silhouettes. Hand-crafted surface textures — fabric weave, hair strands, plush fibers, natural materials. Painterly background bokeh, depth of field, studio-feature-film polish.\n\nNegative Prompt:\nphoto, flat shading, harsh lighting, anime, stylized 2D, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-3d_render-claymation",
+      "name": "Claymation",
+      "category": "3D Render",
+      "text": "// Your Concept\n{cursor}\n\n// 3D Render - Claymation\nHand-sculpted claymation aesthetic in the Aardman and Laika tradition. Matte plasticine materials with subtle visible fingerprint marks and honest sculpting tool traces. Charming stylized proportions, warm studio lighting on a miniature practical set with crafted props. Shallow depth of field macro-photography perspective, film grain overlay. Tactile physical feel, stop-motion animation charm.\n\nNegative Prompt:\nphotograph, digital smoothness, CGI plastic sheen, anime, flat lighting, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-3d_render-isometric_mini",
+      "name": "Isometric Miniature",
+      "category": "3D Render",
+      "text": "// Your Concept\n{cursor}\n\n// 3D Render - Isometric Miniature\nIsometric 3D render of a miniature diorama viewed at a 45-degree angle from above. Clean geometric shapes with orthographic projection, no perspective distortion. Pastel color palette with bright cheerful accent hues, soft ambient occlusion shadows, subtle tilt-shift blur at the edges. Cozy storybook miniature feeling, mobile-game or architectural-visualization aesthetic with crafted detail throughout.\n\nNegative Prompt:\nfirst-person view, vanishing-point perspective, photograph, flat 2D, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-painting-oil_classical",
+      "name": "Classical Oil",
+      "category": "Painting",
+      "text": "// Your Concept\n{cursor}\n\n// Painting - Classical Oil\nClassical oil painting on canvas in the tradition of the Old Masters. Dramatic chiaroscuro lighting with luminous highlights and deep warm shadow, Rembrandt-style golden undertones. Fine glazing layers building skin depth, visible brushwork on fabric and background, honest canvas-weave texture in thinner areas. Rich restrained palette — burnt sienna, umber, cream, Venetian red. Museum-quality fine-art finish.\n\nNegative Prompt:\nphotograph, digital smoothness, flat lighting, modern palette, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-painting-impressionist",
+      "name": "Impressionist",
+      "category": "Painting",
+      "text": "// Your Concept\n{cursor}\n\n// Painting - Impressionist\nImpressionist oil painting capturing light and atmosphere above sharp detail. Loose confident visible brushstrokes, broken color technique where adjacent complementary hues vibrate optically. Monet or Renoir palette of soft greens, lavenders, sun-warmed yellows, dappled whites. Plein-air feeling, luminous atmospheric depth, soft edges throughout. Painterly texture, fine-art canvas finish.\n\nNegative Prompt:\nphotograph, hard edges, tight realism, digital, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-painting-watercolor",
+      "name": "Watercolor",
+      "category": "Painting",
+      "text": "// Your Concept\n{cursor}\n\n// Painting - Watercolor\nTraditional watercolor painting on cold-press paper. Loose transparent washes building color in layered glazes, honest water bloom edges where pigment pools, soft wet-on-wet bleeds alongside crisp wet-on-dry marks. Visible paper tooth and tiny paper-fiber imperfections. Fresh airy palette with plenty of untouched white paper, confident gestural brushwork. Artist-studio painting feel.\n\nNegative Prompt:\nopaque gouache, digital smooth gradients, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-painting-gouache",
+      "name": "Gouache",
+      "category": "Painting",
+      "text": "// Your Concept\n{cursor}\n\n// Painting - Gouache\nGouache illustration with opaque matte color fields and subtle visible brushwork. Classic animation-background aesthetic in the tradition of Disney and Ghibli production art. Rich flat color areas with gentle gradations, warm nostalgic palette, confident brushstrokes and soft edges. Paper-textured substrate, hand-painted storybook feel.\n\nNegative Prompt:\ntransparent watercolor, glossy oil, digital gradients, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-painting-chinese_ink",
+      "name": "Chinese Ink",
+      "category": "Painting",
+      "text": "// Your Concept\n{cursor}\n\n// Painting - Chinese Ink\nTraditional Chinese brush-ink painting on rice paper. Flowing confident brushstrokes in deep black ink with a few subtle color accents, gradient washes from saturated black through warm grays to nearly nothing. Empty space used as a compositional partner, visible rice-paper fiber texture, honest marks and mindful brush pressure. Classical Chinese landscape or bird-and-flower tradition.\n\nNegative Prompt:\nwestern style, full color, digital smooth, photograph, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-drawing-charcoal",
+      "name": "Charcoal",
+      "category": "Drawing",
+      "text": "// Your Concept\n{cursor}\n\n// Drawing - Charcoal\nCharcoal drawing on textured paper with rich velvety blacks and atmospheric gradations. Expressive layered marks from vine and compressed charcoal sticks, soft blended shadow areas alongside crisp edge work on highlights. Dramatic chiaroscuro tonal range, visible paper tooth pulling through lighter areas. Traditional fine-art figure-study aesthetic, smudgy organic energy.\n\nNegative Prompt:\nclean digital lines, color, photograph, painted, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-drawing-pencil",
+      "name": "Graphite Pencil",
+      "category": "Drawing",
+      "text": "// Your Concept\n{cursor}\n\n// Drawing - Graphite Pencil\nGraphite pencil drawing on white paper, the entire image rendered in layered pencil strokes from delicate light grays to deep polished darks. Visible hatching and cross-hatching following form, fine detail work with a sharp point. No color anywhere. Traditional hand-drawn feel with paper texture showing through lighter passages, patient tonal control.\n\nNegative Prompt:\ncolor, painted, photograph, digital art, tinted, sepia, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    },
+    {
+      "id": "ernie-drawing-ink_crosshatch",
+      "name": "Ink Crosshatch",
+      "category": "Drawing",
+      "text": "// Your Concept\n{cursor}\n\n// Drawing - Ink Crosshatch\nDetailed pen-and-ink crosshatching drawing, entire composition built from layered parallel lines at multiple angles creating tonal depth. Fine technical hatching following form contours, dense crosshatch in shadow, sparse open line in highlight. Sharp black ink on clean white paper, classical engraving-style precision, no color or wash.\n\nNegative Prompt:\nsmooth shading, color, painted, photograph, digital, blurry, low quality, watermark, logo",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ernie"
+      }
+    }
+  ]
+}

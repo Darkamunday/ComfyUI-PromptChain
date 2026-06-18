@@ -1,0 +1,22 @@
+{
+  "scope": {
+    "type": "model",
+    "model_name": "VaniMix"
+  },
+  "prompts": [
+    {
+      "id": "vanimix-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterpiece, best quality\n\nNegative Prompt:\nworst quality, bad quality, lowres",
+      "scope": { "type": "model", "model_name": "VaniMix" }
+    },
+    {
+      "id": "vanimix-semi-realistic",
+      "name": "Semi-Realistic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Semi-Realistic\nmasterpiece, best quality, semi-realistic, detailed skin\n\nNegative Prompt:\nworst quality, bad quality, lowres",
+      "scope": { "type": "model", "model_name": "VaniMix" }
+    }
+  ]
+}

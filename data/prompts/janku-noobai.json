@@ -1,0 +1,52 @@
+{
+  "name": "JANKU Trained NoobAI Prompts",
+  "prompts": [
+    {
+      "id": "janku-default",
+      "name": "Standard Quality",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Standard Quality\nmasterpiece, best quality, very awa\n\nNegative Prompt:\nworst quality, low quality, lowres, jpeg artifacts, watermark, signature, text, username, bad hands, mutated hands, extra digits",
+      "scope": { "type": "model", "model_name": "JANKU Trained NoobAI" }
+    },
+    {
+      "id": "janku-smoothnoob",
+      "name": "SmoothNoob Embeddings",
+      "category": "Embeddings",
+      "text": "SmoothNoob_Quality",
+      "slot": "positive",
+      "scope": { "type": "model", "model_name": "JANKU Trained NoobAI" }
+    },
+    {
+      "id": "janku-smoothnoob-neg",
+      "name": "SmoothNoob Negative",
+      "category": "Embeddings",
+      "text": "SmoothNoob_Negative-neg",
+      "slot": "negative",
+      "scope": { "type": "model", "model_name": "JANKU Trained NoobAI" }
+    },
+    {
+      "id": "janku-lazy",
+      "name": "Lazy Positive",
+      "category": "Embeddings",
+      "text": "lazypos",
+      "slot": "positive",
+      "scope": { "type": "model", "model_name": "JANKU Trained NoobAI" }
+    },
+    {
+      "id": "janku-lazy-neg",
+      "name": "Lazy Negative",
+      "category": "Embeddings",
+      "text": "lazyneg",
+      "slot": "negative",
+      "scope": { "type": "model", "model_name": "JANKU Trained NoobAI" }
+    },
+    {
+      "id": "janku-very-awa",
+      "name": "Very Awa",
+      "category": "",
+      "text": "very awa",
+      "slot": "positive",
+      "scope": { "type": "model", "model_name": "JANKU Trained NoobAI" }
+    }
+  ]
+}

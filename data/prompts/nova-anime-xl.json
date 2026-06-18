@@ -1,0 +1,47 @@
+{
+  "name": "Nova Anime XL (Illustrious) Prompts",
+  "prompts": [
+    {
+      "id": "nova-anime-default",
+      "name": "Anime Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Anime Default\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres\n\nNegative Prompt:\nworst quality, low quality, normal quality, bad quality, bad anatomy, missing fingers, extra digits, fewer digits, bad hands, bad proportions, poorly drawn face, poorly drawn hands, lowres, text, error, cropped, jpeg artifacts, signature, watermark, username, blurry, cartoon, painting, abstract, glitch",
+      "scope": { "type": "model", "model_name": "Nova Anime XL (Illustrious)" }
+    },
+    {
+      "id": "nova-anime-scenic",
+      "name": "Scenic Volumetric",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Scenic with Volumetric Lighting\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, scenery, depth of field, volumetric lighting, cinematic lighting, atmospheric\n\nNegative Prompt:\nworst quality, low quality, normal quality, bad quality, bad anatomy, missing fingers, extra digits, fewer digits, bad hands, bad proportions, poorly drawn face, poorly drawn hands, lowres, text, error, cropped, jpeg artifacts, signature, watermark, username, blurry, cartoon, painting, abstract, glitch",
+      "scope": { "type": "model", "model_name": "Nova Anime XL (Illustrious)" }
+    },
+    {
+      "id": "nova-anime-character",
+      "name": "Character Detailed",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Character Ultra Detailed\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, detailed face, detailed eyes, detailed clothing, intricate details, sharp focus\n\nNegative Prompt:\nworst quality, low quality, normal quality, bad quality, bad anatomy, missing fingers, extra digits, fewer digits, bad hands, bad proportions, poorly drawn face, poorly drawn hands, lowres, text, error, cropped, jpeg artifacts, signature, watermark, username, blurry, cartoon, painting, abstract, glitch",
+      "scope": { "type": "model", "model_name": "Nova Anime XL (Illustrious)" }
+    },
+    {
+      "id": "nova-anime-landscape",
+      "name": "Landscape",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Landscape/Environment\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, scenery, landscape, environment, detailed background, depth of field, atmospheric perspective\n\nNegative Prompt:\nworst quality, low quality, normal quality, bad quality, bad anatomy, missing fingers, extra digits, fewer digits, bad hands, bad proportions, poorly drawn face, poorly drawn hands, lowres, text, error, cropped, jpeg artifacts, signature, watermark, username, blurry, cartoon, painting, abstract, glitch",
+      "scope": { "type": "model", "model_name": "Nova Anime XL (Illustrious)" }
+    },
+    {
+      "id": "nova-anime-digital",
+      "name": "Digital Art",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Digital Art Enhanced\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, digital art, high resolution, ultra-detailed, vibrant colors, 4k\n\nNegative Prompt:\nworst quality, low quality, normal quality, bad quality, bad anatomy, missing fingers, extra digits, fewer digits, bad hands, bad proportions, poorly drawn face, poorly drawn hands, lowres, text, error, cropped, jpeg artifacts, signature, watermark, username, blurry, cartoon, painting, abstract, glitch",
+      "scope": { "type": "model", "model_name": "Nova Anime XL (Illustrious)" }
+    },
+    {
+      "id": "nova-anime-semi-realistic",
+      "name": "Semi-Realistic 2.5D",
+      "category": "Styles",
+      "text": "// Your Tags\n{cursor}\n\n// Semi-Realistic 2.5D\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres, semi-realistic, detailed skin texture, realistic lighting, soft shadows, depth of field\n\nNegative Prompt:\nworst quality, low quality, normal quality, bad quality, bad anatomy, missing fingers, extra digits, fewer digits, bad hands, bad proportions, poorly drawn face, poorly drawn hands, lowres, text, error, cropped, jpeg artifacts, signature, watermark, username, blurry, cartoon, painting, abstract, glitch",
+      "scope": { "type": "model", "model_name": "Nova Anime XL (Illustrious)" }
+    }
+  ]
+}

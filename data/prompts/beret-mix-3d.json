@@ -1,0 +1,19 @@
+{
+  "name": "Beret Mix 3D Prompts",
+  "prompts": [
+    {
+      "id": "beret-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterpiece, best quality, very aesthetic, absurdres\n\nNegative Prompt:\nlowres, worst quality, low quality, bad anatomy, bad hands",
+      "scope": { "type": "model", "model_name": "Beret Mix 3D" }
+    },
+    {
+      "id": "beret-3d-style",
+      "name": "3D Style",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// 3D Style\nmasterpiece, best quality, very aesthetic, absurdres, 3d, 3dcg, cartoon\n\nNegative Prompt:\nlowres, worst quality, low quality, bad anatomy, bad hands, flat, 2d, sketch",
+      "scope": { "type": "model", "model_name": "Beret Mix 3D" }
+    }
+  ]
+}

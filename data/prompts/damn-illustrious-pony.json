@@ -1,0 +1,26 @@
+{
+  "name": "DAMN! Illustrious/Pony Prompts",
+  "prompts": [
+    {
+      "id": "damn-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Default\nmasterpiece, best quality, realistic\n\nNegative Prompt:\nbad quality, worst quality, low quality",
+      "scope": { "type": "model", "model_name": "DAMN! Illustrious/Pony" }
+    },
+    {
+      "id": "damn-realistic",
+      "name": "Realistic",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Realistic\nmasterpiece, best quality, realistic, photorealistic, real\n\nNegative Prompt:\nbad quality, worst quality, low quality, cartoon, anime, drawing",
+      "scope": { "type": "model", "model_name": "DAMN! Illustrious/Pony" }
+    },
+    {
+      "id": "damn-stylized",
+      "name": "Stylized",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Stylized\nmasterpiece, best quality, realistic, stylized, detailed\n\nNegative Prompt:\nbad quality, worst quality, low quality",
+      "scope": { "type": "model", "model_name": "DAMN! Illustrious/Pony" }
+    }
+  ]
+}

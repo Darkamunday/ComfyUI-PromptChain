@@ -1,0 +1,112 @@
+{
+  "display_name": "MiaoMiao Harem - v19",
+  "model_name": "MiaoMiao Harem",
+  "version": "v19",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "MiaoMiao",
+  "description": "Illustrious model optimizing texture, semantic understanding, and skin texture. Integrates anime aesthetics with realistic skin rendering while maintaining stable limb proportions. Benefits from simplified prompting.",
+  "tags": [
+    "anime",
+    "realistic skin",
+    "illustrious",
+    "sdxl",
+    "texture"
+  ],
+  "url": "https://civitai.com/models/934764/miaomiao-harem",
+  "download_url": "https://civitai.com/api/download/models/2483605?type=Model&format=SafeTensor&size=full&fp=fp16",
+  "civitai_model_id": 934764,
+  "quality_position": "end",
+  "trigger": "masterpiece, best quality, absurdres, newest, very aesthetic, amazing quality, highres, ultra detailed, best anatomy, HDR, 8K, high detail RAW color art, high contrast",
+  "default_prompt_id": "miaomiao-default",
+  "negative": "lowres, bad, limb asymmetry, bad feet, text, error, worst quality, jpeg artifacts, low quality, watermark, chromatic aberration, simple background, english text, shiny skin",
+  "notes": "Complex tags not required for coherent compositions. Has PVC, realistic, and MMD-inspired style variants. CLIPSetLastLayer not recommended.",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "FaceDetailer": {
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler_name": "euler",
+      "scheduler": "exponential",
+      "denoise": 0.4,
+      "guide_size": 384,
+      "max_size": 768
+    },
+    "KSampler": {
+      "steps": 30,
+      "cfg": 5.0,
+      "sampler_name": "euler",
+      "scheduler": "exponential",
+      "steps_range": [
+        20,
+        35
+      ],
+      "cfg_range": [
+        3.8,
+        6.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral"
+      ],
+      "scheduler_options": [
+        "normal",
+        "exponential"
+      ]
+    },
+    "CLIPSetLastLayer": {
+      "stop_at_clip_layer": -1,
+      "stop_at_clip_layer_range": [
+        -1,
+        -1
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 768,
+      "height": 1280,
+      "_resolutions": [
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "quick_hash": "f61d35e0c5f1d486",
+      "sha256": null,
+      "download_url": "https://civitai.com/api/download/models/2483605?type=Model&format=SafeTensor&size=full&fp=fp16"
+    }
+  ]
+}

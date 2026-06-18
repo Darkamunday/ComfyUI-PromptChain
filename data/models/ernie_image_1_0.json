@@ -1,0 +1,124 @@
+{
+  "display_name": "ERNIE Image - 1.0",
+  "model_name": "ERNIE Image",
+  "version": "1.0",
+  "architecture": "ernie",
+  "family": "ernie_base",
+  "author": "Baidu",
+  "description": "8B parameter DiT text-to-image model. Strong text rendering in English and Chinese, complex multi-object prompts, structured layouts. Uses Ministral 3.3B text encoder.",
+  "license": "Apache 2.0",
+  "tags": [
+    "transformer",
+    "photorealistic",
+    "text-rendering",
+    "natural-language"
+  ],
+  "url": "https://huggingface.co/Comfy-Org/ERNIE-Image",
+  "release_date": "2026-04-13",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "ernie-photorealistic-cinematic_still",
+  "negative": "",
+  "notes": "CFG 4.0, Steps 20-50, Euler sampler. Use natural language prompts. No negative prompt needed (uses ConditioningZeroOut).",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "filename": "ernie-image.safetensors",
+      "size_bytes": 16067025480,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/ERNIE-Image",
+        "path": "diffusion_models/ernie-image.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "Ministral 3.3B Text Encoder",
+      "folder": "text_encoders",
+      "filename": "ministral-3-3b.safetensors",
+      "size_bytes": 7717637511,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/ERNIE-Image",
+        "path": "text_encoders/ministral-3-3b.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "flux2-vae.safetensors",
+      "size_bytes": 336213556,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/ERNIE-Image",
+        "path": "vae/flux2-vae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 20,
+      "cfg": 4.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "steps_range": [
+        20,
+        50
+      ],
+      "cfg_range": [
+        3.0,
+        5.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral",
+        "dpmpp_2m",
+        "heun"
+      ],
+      "scheduler_options": [
+        "simple",
+        "normal",
+        "sgm_uniform"
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 1024,
+      "height": 1024,
+      "_resolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 848,
+          "height": 1264
+        },
+        {
+          "width": 1264,
+          "height": 848
+        },
+        {
+          "width": 768,
+          "height": 1376
+        },
+        {
+          "width": 1376,
+          "height": 768
+        },
+        {
+          "width": 896,
+          "height": 1200
+        },
+        {
+          "width": 1200,
+          "height": 896
+        }
+      ]
+    }
+  }
+}

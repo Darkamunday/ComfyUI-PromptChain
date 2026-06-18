@@ -1,0 +1,12 @@
+{
+  "name": "Illustrij: Quill Prompts",
+  "prompts": [
+    {
+      "id": "illustrij-painterly",
+      "name": "Painterly",
+      "category": "",
+      "text": "// Quality\nmasterpiece, best quality, painterly, oil painting, atmospheric lighting,\n\n// Subject\n{cursor}\n\nNegative Prompt:\nworst quality, bad quality, flat, sketch",
+      "scope": { "type": "model", "model_name": "Illustrij: Quill" }
+    }
+  ]
+}

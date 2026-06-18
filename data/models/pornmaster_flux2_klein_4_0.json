@@ -1,0 +1,170 @@
+{
+  "display_name": "PornMaster Flux2 Klein - V4 Base",
+  "model_name": "PornMaster Flux2 Klein",
+  "version": "V4 Base",
+  "architecture": "flux2",
+  "family": "flux2_klein",
+  "author": "iamddtla",
+  "description": "NSFW finetune of FLUX.2 Klein 9B base. Inherits Klein's reference editing (ReferenceLatent) and base CFG sampling; realism-leaning skin/lighting bias. Pairs well with the anything2real LoRAs at 0.4 for anime-to-3D conversion. Download requires a civitai account.",
+  "license": "",
+  "tags": [
+    "flux2",
+    "klein",
+    "9B",
+    "nsfw",
+    "finetune",
+    "realistic"
+  ],
+  "url": "https://civitai.com/models/2382648/pornmaster-flux2-klein",
+  "release_date": "2026-05-29",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "flux2-klein-photography",
+  "negative": "",
+  "notes": "Klein base sampling: 30 steps / CFG 3.5 (locally tuned; official baseline 20 / 5.0). Base variant — no turbo LoRA needed; the V1-V3 era pairing with klein_9B_Turbo_r128 @ 1.0 runs 4 steps at CFG 1 instead. Diffusion weights are on civitai (login required, no auto-download); encoder and VAE below are the standard ungated Klein 9B files.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "fp8",
+          "filename": "pornmasterFlux2Klein_v4BaseFp8.safetensors",
+          "size_bytes": 9567321284,
+          "quick_hash": "68c40b830cffcdd0",
+          "sha256": null
+        },
+        {
+          "precision": "bf16",
+          "filename": "pornmasterFlux2Klein_v4BaseBf16.safetensors",
+          "size_bytes": 18157213384,
+          "sha256": null,
+          "quick_hash": "ac7d510a55bdddf5"
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder (Qwen3-8B)",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "fp8",
+          "filename": "qwen_3_8b_fp8mixed.safetensors",
+          "size_bytes": 8664848742,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-9b",
+            "path": "split_files/text_encoders/qwen_3_8b_fp8mixed.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "bf16",
+          "filename": "qwen_3_8b.safetensors",
+          "size_bytes": 16381517176,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-9b",
+            "path": "split_files/text_encoders/qwen_3_8b.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "flux2-vae.safetensors",
+      "size_bytes": 336211292,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-9b",
+        "path": "split_files/vae/flux2-vae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 30,
+      "cfg": 3.5,
+      "sampler_name": "euler",
+      "scheduler": "beta",
+      "steps_range": [
+        20,
+        50
+      ],
+      "cfg_range": [
+        3.0,
+        7.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "dpmpp_2m",
+        "heun"
+      ],
+      "scheduler_options": [
+        "beta",
+        "simple",
+        "normal"
+      ]
+    },
+    "FluxGuidance": {
+      "guidance": 5.0,
+      "guidance_range": [
+        3.0,
+        7.0
+      ]
+    },
+    "CFGGuider": {
+      "cfg": 3.5,
+      "cfg_range": [
+        3.0,
+        7.0
+      ]
+    },
+    "KSamplerSelect": {
+      "sampler_name": "euler",
+      "sampler_name_options": [
+        "euler",
+        "dpmpp_2m",
+        "heun"
+      ]
+    },
+    "Flux2Scheduler": {
+      "steps": 30,
+      "steps_range": [
+        20,
+        50
+      ]
+    },
+    "EmptyFlux2LatentImage": {
+      "width": 1024,
+      "height": 1024,
+      "_resolutions": [
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  }
+}

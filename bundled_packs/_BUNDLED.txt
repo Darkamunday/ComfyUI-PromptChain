@@ -1,0 +1,36 @@
+Bundled third-party node packs
+==============================
+
+These are third-party ComfyUI node packs that PromptChain ships and COPIES INTO
+the user's custom_nodes/ directory at install time — but only when the pack is
+not already installed (the installer detects it by proof_nodes and skips). They
+are NOT loaded in-process by PromptChain; once copied out they load as ordinary
+standalone packs, so they can never collide with a copy the user already has.
+
+Each pack is a snapshot of the upstream working tree at the commit below, with
+only non-runtime files removed to keep the download small: images
+(png/jpg/gif/webp/svg/…), markdown, .github/, and .gitignore. All .py, .json,
+.yaml, .toml, LICENSE, and runtime data (EVA-CLIP vocab, SeedVR2 *.pt embeddings)
+are preserved. Each pack's original LICENSE is kept intact. Most are verbatim;
+the only local modification is to UltimateSDUpscale (see note).
+
+Source provenance (owner/repo @ commit — license):
+  PuLID_ComfyUI                  cubiq/PuLID_ComfyUI                  @ 93e0c4c226b87b23c0009d671978bad0e77289ff  Apache-2.0
+  ComfyUI_PuLID_Flux_ll          lldacing/ComfyUI_PuLID_Flux_ll      @ 7c7362b806c2c0f4bde8742ada9e7cb05b44d249  Apache-2.0
+  ComfyUI_Patches_ll             lldacing/ComfyUI_Patches_ll         @ 9792a598916aa5b98fa1db1807885812a6592a68  MIT
+  ComfyUI-PuLID-Flux2            iFayens/ComfyUI-PuLID-Flux2         @ 3a0a3f5f18260fc914f96a8c7f0f23c835e881cd  MIT
+  ComfyUI-SeedVR2_VideoUpscaler  numz/ComfyUI-SeedVR2_VideoUpscaler  @ 4490bd1f482e026674543386bb2a4d176da245b9  Apache-2.0
+  ComfyUI_IPAdapter_plus         cubiq/ComfyUI_IPAdapter_plus        @ a0f451a5                                  GPL-3.0
+  ComfyUI_UltimateSDUpscale      ssitu/ComfyUI_UltimateSDUpscale     @ d6b575a (patched)                         GPL-3.0
+
+UltimateSDUpscale local patches (in its __init__.py, both preserved on copy-out):
+  1. The bundled Auto1111 repositories/ submodule is shipped pre-filled, so the
+     original master.zip network fetch on first run is removed.
+  2. A no-op `gradio` stub is installed only when gradio is absent, so the bundled
+     A1111 ultimate-upscale.py (which does `import gradio` for a UI ComfyUI never
+     calls) doesn't crash the pack on a clean install. Auto-cleaned after import.
+
+To refresh a pack: clone the repo at a new commit, strip the same non-runtime
+files, replace the directory here, update the commit above (and re-apply the USDU
+patches if refreshing it). The installer (core/node_install_api.py, "bundle"
+field) copies these by directory name; keep the names matching custom_nodes/.

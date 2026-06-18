@@ -1,0 +1,178 @@
+{
+  "display_name": "FLUX.2 Klein 4B - Base",
+  "model_name": "FLUX.2 Klein 4B",
+  "version": "Base",
+  "architecture": "flux2",
+  "family": "flux2_klein",
+  "author": "Black Forest Labs",
+  "description": "4B parameter base Flux 2 model. Undistilled — full quality, better for LoRAs and fine-tuning. Apache 2.0 licensed. Uses Qwen3-4B text encoder.",
+  "license": "Apache 2.0",
+  "tags": [
+    "flux2",
+    "klein",
+    "4B",
+    "base",
+    "quality",
+    "consumer"
+  ],
+  "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
+  "release_date": "2026-01-14",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "flux2-klein-photography",
+  "negative": "",
+  "notes": "CFG 5.0, 20-50 steps, Euler. Base undistilled — use for quality and LoRA compatibility.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "flux-2-klein-base-4b.safetensors",
+          "size_bytes": 7751105712,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-4b",
+            "path": "split_files/diffusion_models/flux-2-klein-base-4b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "flux-2-klein-base-4b-fp8.safetensors",
+          "size_bytes": 4089498488,
+          "source": {
+            "provider": "huggingface",
+            "repo": "black-forest-labs/FLUX.2-klein-base-4b-fp8",
+            "path": "flux-2-klein-base-4b-fp8.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder (Qwen3-4B)",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_3_4b.safetensors",
+          "size_bytes": 8044982048,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-4b",
+            "path": "split_files/text_encoders/qwen_3_4b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp4",
+          "filename": "qwen_3_4b_fp4_flux2.safetensors",
+          "size_bytes": 3848213998,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-4b",
+            "path": "split_files/text_encoders/qwen_3_4b_fp4_flux2.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "flux2-vae.safetensors",
+      "size_bytes": 336211292,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/vae-text-encorder-for-flux-klein-4b",
+        "path": "split_files/vae/flux2-vae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 30,
+      "cfg": 5.0,
+      "sampler_name": "euler",
+      "scheduler": "beta",
+      "steps_range": [
+        20,
+        50
+      ],
+      "cfg_range": [
+        3.0,
+        7.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "dpmpp_2m",
+        "heun"
+      ],
+      "scheduler_options": [
+        "beta",
+        "simple",
+        "normal"
+      ]
+    },
+    "FluxGuidance": {
+      "guidance": 5.0,
+      "guidance_range": [
+        3.0,
+        7.0
+      ]
+    },
+    "CFGGuider": {
+      "cfg": 5.0,
+      "cfg_range": [
+        3.0,
+        7.0
+      ]
+    },
+    "KSamplerSelect": {
+      "sampler_name": "euler",
+      "sampler_name_options": [
+        "euler",
+        "dpmpp_2m",
+        "heun"
+      ]
+    },
+    "Flux2Scheduler": {
+      "steps": 20,
+      "steps_range": [
+        20,
+        50
+      ]
+    },
+    "EmptyFlux2LatentImage": {
+      "width": 1024,
+      "height": 1024,
+      "_resolutions": [
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  }
+}

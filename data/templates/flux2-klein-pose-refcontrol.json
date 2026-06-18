@@ -1,0 +1,656 @@
+{
+  "name": "Pose Transfer (RefControl)",
+  "category": "Custom",
+  "order": 13,
+  "prompt_id": "flux2-klein-multiref-pose-refcontrol",
+  "description": "Depth-locked pose transfer: the RefControl LoRA makes Klein follow the 3D poser depth render exactly - pose AND geometry. Best when the mesh is clean (custom body); identity comes from the subject image. Klein 9B base.",
+  "scope": {
+    "type": "family",
+    "architecture": "flux2",
+    "family": "flux2_klein"
+  },
+  "created_at": 1781197228,
+  "id": "6f8f583a-cde4-4762-838f-f5713912bbfd",
+  "nodes": [
+    {
+      "type": "UNETLoader",
+      "offset": [
+        850,
+        0
+      ],
+      "size": [
+        380,
+        90
+      ],
+      "widgets_values": [
+        "flux-2-klein-base-9b-fp8.safetensors",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      }
+    },
+    {
+      "type": "LoraLoaderModelOnly",
+      "offset": [
+        1280,
+        0
+      ],
+      "size": [
+        360,
+        82
+      ],
+      "widgets_values": [
+        "flux2_klein_9b_refcontrol_depth.safetensors",
+        0.8
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoaderModelOnly"
+      }
+    },
+    {
+      "type": "CLIPLoader",
+      "offset": [
+        850,
+        140
+      ],
+      "size": [
+        380,
+        110
+      ],
+      "widgets_values": [
+        "qwen_3_8b_fp8mixed.safetensors",
+        "flux2",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader"
+      }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [
+        850,
+        300
+      ],
+      "size": [
+        320,
+        60
+      ],
+      "widgets_values": [
+        "flux2-vae.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      }
+    },
+    {
+      "type": "PromptChain_PoseStudio",
+      "offset": [
+        850,
+        420
+      ],
+      "size": [
+        492.6875,
+        684.671875
+      ],
+      "widgets_values": [
+        "",
+        "{\"version\":3,\"camera\":{\"position\":[-0.05907631253521845,1.4022474856140388,1.0556424592473497],\"target\":[-0.012861931679550681,1.3402004113837596,0.009425734191668792]},\"activeIndex\":0,\"figures\":[{\"uid\":2,\"body\":\"custom\",\"root\":[0,1.83557839158723e-7,-0.1296069154697062],\"rootQuat\":[0,0,0,1],\"rootScale\":[1.0847089667745293,1.0847089667745293,1.0847089667745293],\"joints\":{\"root\":[0.5306,0,0,0.8476],\"shoulderL\":[-0.3572,0.704,-0.2933,-0.5392],\"elbowL\":[-0.8592,-0.0093,-0.003,-0.5115],\"wristL\":[-0.1102,-0.4111,0.0161,-0.9048],\"shoulderR\":[0.3572,0.704,-0.2933,0.5392],\"elbowR\":[0.8592,-0.0093,-0.003,0.5115],\"wristR\":[0.1102,-0.4111,0.0161,0.9048],\"neck\":[0.1624,0,0,0.9867],\"head\":[-0.3783060763221614,0,0,0.9256805672680676],\"hipL\":[-0.568,-0.3667,0.5382,-0.5032],\"kneeL\":[0.9068,0.0854,-0.2058,0.3579],\"ankleL\":[-0.7266,0.5042,-0.0236,0.4661],\"hipR\":[0.568,-0.3667,0.5382,0.5032],\"kneeR\":[0.9068,-0.0854,0.2058,0.3578],\"ankleR\":[-0.7266,-0.5042,0.0236,0.4661],\"chest\":[0.0085,0,0,1],\"spine\":[0.3345,0,0,0.9424],\"back\":[0,0,0,1]},\"jointPos\":{\"Root\":[0,-0.000562518835067749,6.100162863731384e-8],\"pelvis\":[0,-0.015393643795202175,0.8765072291716933],\"spine_01\":[0,0.08837844353790084,-0.0000035875321676330854],\"spine_02\":[0,0.06657692409741382,-0.0015471302564643939],\"spine_03\":[0,0.07465957864769734,-0.005422550541500943],\"spine_04\":[0,0.1554920266911116,0.008057116608445842],\"clavicle_l\":[0.022795276308897883,0.08298090375804652,0.026856951939407736],\"upperarm_l\":[-0.002402820275165144,0.14708170919523886,-0.0024412409402430058],\"lowerarm_l\":[-0.0036035171942785382,0.2335675825791744,0.007550966273508189],\"hand_l\":[-0.0022912098793312925,0.23001713307652003,0.00286084097691249],\"index_01_l\":[-0.014275551244888145,0.10155431967965949,0.00913081387989223],\"index_02_l\":[-0.00032961389198741625,0.024996880173906295,-0.00044333142189619445],\"index_03_l\":[-0.00028979239747665514,0.02228745664691208,-0.000271643739930975],\"middle_01_l\":[0.0011213888258983697,0.0983148121922568,-0.010979589074850082],\"middle_02_l\":[-0.0004448858817340806,0.032625457237979084,-0.00045865285210311413],\"middle_03_l\":[-0.0003890491255636637,0.026699312448423978,-0.00020532777125481538],\"pinky_01_l\":[0.030837264833583806,0.08091115868228371,-0.0306820534557725],\"pinky_02_l\":[-0.0004330708179622891,0.020605956754783012,-0.0003710941079286083],\"pinky_03_l\":[-0.0002436345233339428,0.015057439972830858,0.000014291528107908793],\"ring_01_l\":[0.014671692488870274,0.09115619229805816,-0.023141342176434897],\"ring_02_l\":[-0.00039252417445823095,0.028744175334092386,-0.0004921690172826243],\"ring_03_l\":[-0.00043109167184714653,0.02398470316741926,-0.0001844997920367557],\"thumb_01_l\":[-0.014337413944303988,0.037947991551694336,0.014606909942813218],\"thumb_02_l\":[0.0002165158900121842,0.029646236808427297,-0.0005050097582473731],\"thumb_03_l\":[0.0001837790356754948,0.035048878259355355,-0.0005737583730175779],\"clavicle_r\":[-0.022795276308897883,0.08298090375804652,0.026856951939407736],\"upperarm_r\":[0.002402820275165144,0.14708170919523886,-0.0024412409402430058],\"lowerarm_r\":[0.0036035171942785382,0.2335675825791744,0.007550966273508189],\"hand_r\":[0.0022912098793312925,0.23001713307652003,0.00286084097691249],\"index_01_r\":[0.014275551244888145,0.10155431967965949,0.00913081387989223],\"index_02_r\":[0.00032961389198741625,0.024996880173906295,-0.00044333142189619445],\"index_03_r\":[0.00028979239747665514,0.02228745664691208,-0.000271643739930975],\"middle_01_r\":[-0.0011213888258983697,0.0983148121922568,-0.010979589074850082],\"middle_02_r\":[0.0004448858817340806,0.032625457237979084,-0.00045865285210311413],\"middle_03_r\":[0.0003890491255636637,0.026699312448423978,-0.00020532777125481538],\"pinky_01_r\":[-0.030837264833583806,0.08091115868228371,-0.0306820534557725],\"pinky_02_r\":[0.0004330708179622891,0.020605956754783012,-0.0003710941079286083],\"pinky_03_r\":[0.0002436345233339428,0.015057439972830858,0.000014291528107908793],\"ring_01_r\":[-0.014671692488870274,0.09115619229805816,-0.023141342176434897],\"ring_02_r\":[0.00039252417445823095,0.028744175334092386,-0.0004921690172826243],\"ring_03_r\":[0.00043109167184714653,0.02398470316741926,-0.0001844997920367557],\"thumb_01_r\":[0.014337413944303988,0.037947991551694336,0.014606909942813218],\"thumb_02_r\":[-0.0002165158900121842,0.029646236808427297,-0.0005050097582473731],\"thumb_03_r\":[-0.0001837790356754948,0.035048878259355355,-0.0005737583730175779],\"neck_01\":[-0.002752653457011508,0.11181717143021697,0.011897590182815665],\"head\":[0,0.09913267713272944,-0.0024949000217020546],\"thigh_l\":[0.10406423709112762,-0.01035807409789413,-0.015486810940274154],\"calf_l\":[-0.0018221052984396628,0.38333685158674297,0.0019527052451546005],\"foot_l\":[0.0012040060549528171,0.41225113686717424,0.0060748945009739454],\"ball_l\":[-0.004144214297411963,0.1319912777786764,0.0008641794556751847],\"thigh_r\":[-0.10406423709112762,-0.01035807409789413,-0.015486810940274154],\"calf_r\":[0.0018221052984396628,0.38333685158674297,0.0019527052451546005],\"foot_r\":[-0.0012040060549528171,0.41225113686717424,0.0060748945009739454],\"ball_r\":[0.004144214297411963,0.1319912777786764,0.0008641794556751847]},\"digits\":{\"index_01_l\":[0.1101,0.4792,-0.0033,0.8708],\"index_02_l\":[0.1087,0.0029,0.0061,0.9941],\"index_03_l\":[0.0627,0.0006,0.0187,0.9979],\"middle_01_l\":[0.0982,0.4131,-0.1524,0.8925],\"middle_02_l\":[0.0468,0.0005,0.0367,0.9982],\"middle_03_l\":[0.0677,0.0009,-0.0059,0.9977],\"pinky_01_l\":[0.0467,0.2921,-0.3033,0.9058],\"pinky_02_l\":[0.0809,0.0011,0.0246,0.9964],\"pinky_03_l\":[-0.0087,-0.0002,-0.0113,0.9999],\"ring_01_l\":[0.0521,0.3896,-0.2305,0.8902],\"ring_02_l\":[0.0595,0.0003,0.0431,0.9973],\"ring_03_l\":[0.0596,0.0007,-0.0245,0.9979],\"thumb_01_l\":[-0.2744,-0.7312,-0.4376,-0.4456],\"thumb_02_l\":[-0.069,0.0171,0.1829,-0.9806],\"thumb_03_l\":[-0.1421,0.0069,0.0328,-0.9893],\"index_01_r\":[0.1101,-0.4792,0.0033,0.8708],\"index_02_r\":[0.1087,-0.0029,-0.0061,0.994],\"index_03_r\":[0.0627,-0.0006,-0.0187,0.9978],\"middle_01_r\":[0.0982,-0.4131,0.1524,0.8924],\"middle_02_r\":[0.0468,-0.0005,-0.0367,0.9982],\"middle_03_r\":[0.0677,-0.0009,0.0059,0.9977],\"pinky_01_r\":[0.0467,-0.2921,0.3033,0.9058],\"pinky_02_r\":[0.0809,-0.0011,-0.0246,0.9964],\"pinky_03_r\":[-0.0087,0.0002,0.0113,0.9999],\"ring_01_r\":[0.0521,-0.3896,0.2305,0.8901],\"ring_02_r\":[0.0595,-0.0003,-0.0431,0.9973],\"ring_03_r\":[0.0596,-0.0007,0.0245,0.9979],\"thumb_01_r\":[0.2744,-0.7312,-0.4376,0.4456],\"thumb_02_r\":[-0.069,-0.0171,-0.1829,-0.9806],\"thumb_03_r\":[-0.1421,-0.0069,-0.0328,-0.9893],\"ball_l\":[-0.2622,0.0073,0.0292,0.9645],\"ball_r\":[-0.2622,-0.0073,-0.0292,0.9645]},\"spine\":{\"spine_01\":[0.3345,0,0,0.9424],\"spine_02\":[-0.1026,0,0,0.9947],\"spine_03\":[0.0085,0,0,1],\"spine_04\":[0,0,0,1],\"neck_01\":[0.1624,0,0,0.9867],\"head\":[-0.3783060763221614,0,0,0.9256805672680676]},\"morphs\":{},\"skeletalAmount\":{\"__custom\":1},\"footPins\":{},\"shoes\":false,\"sliders\":{\"gender\":0.5,\"age\":0.5,\"muscle\":0.5,\"weight\":0.5,\"height\":0.5,\"proportions\":0.5,\"african\":0.3333333333333333,\"asian\":0.3333333333333333,\"caucasian\":0.3333333333333333,\"cupsize\":0.5,\"firmness\":0.5,\"breast-trans\":0,\"breast-dist\":0,\"breast-point\":0,\"breast-volume-vert\":0,\"nipple-size\":0,\"nipple-point\":0,\"fem-apple\":0,\"fem-diamond\":0,\"fem-full-hourglass\":0,\"fem-neat-hourglass\":0,\"fem-invert-triangle\":0,\"fem-lean-column\":0,\"fem-rectangle\":0,\"fem-triangle\":0,\"fem-adrenal\":0,\"fem-liver\":0,\"fem-ovary\":0,\"fem-thyroid\":0,\"man-apple\":0,\"man-rectangle\":0,\"man-lean-column\":0,\"man-triangle\":0,\"man-invert-triangle\":0,\"man-trapezoid\":0,\"man-adrenal\":0,\"man-liver\":0,\"man-gonadal\":0,\"man-thyroid\":0,\"torso-scale-depth\":0,\"torso-scale-horiz\":0,\"torso-scale-vert\":0,\"torso-trans-horiz\":0,\"torso-trans-vert\":0,\"torso-trans-depth\":0,\"torso-vshape\":0,\"torso-dorsi\":0,\"torso-pectoral\":0,\"fingers-distance\":0,\"fingers-diameter\":0,\"fingers-length\":0,\"hand-scale\":0,\"hand-position\":0,\"hips\":0,\"glutes\":0,\"stomach\":0,\"neck-circ\":0,\"neck-height\":0,\"head-age\":0,\"head-fat\":0,\"head-angle\":0,\"head-oval\":0,\"head-round\":0,\"head-rectangular\":0,\"head-square\":0,\"head-triangular\":0,\"head-invtriangular\":0,\"head-diamond\":0,\"head-parietal\":0}}],\"props\":[],\"attachments\":[],\"heads\":[{\"box\":[0.3102,0,0.701,0.3769],\"facing\":0.846}],\"regionEntities\":[{\"kind\":\"figure\",\"name\":\"mannequin1\"}]}",
+        1024,
+        1024,
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "PromptChain_PoseStudio",
+        "pcrTrueDepth": true,
+        "pcrOutputMode": "depth",
+        "pcrDepthCurve": "linear"
+      }
+    },
+    {
+      "type": "ImageScaleToTotalPixels",
+      "offset": [
+        1410,
+        420
+      ],
+      "size": [
+        320,
+        110
+      ],
+      "widgets_values": [
+        "nearest-exact",
+        1,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "ImageScaleToTotalPixels"
+      }
+    },
+    {
+      "type": "VAEEncode",
+      "offset": [
+        1410,
+        580
+      ],
+      "size": [
+        220,
+        70
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      }
+    },
+    {
+      "type": "GetImageSize",
+      "offset": [
+        1410,
+        700
+      ],
+      "size": [
+        225,
+        110
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "GetImageSize"
+      }
+    },
+    {
+      "type": "LoadImage",
+      "offset": [
+        850,
+        1160
+      ],
+      "size": [
+        270,
+        330
+      ],
+      "widgets_values": [
+        "tumblr_fa967a22eac5fe2b7c66fe1c32659320_c67697b6_1280.jpg",
+        "image"
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      }
+    },
+    {
+      "type": "ImageScaleToTotalPixels",
+      "offset": [
+        1410,
+        1160
+      ],
+      "size": [
+        320,
+        110
+      ],
+      "widgets_values": [
+        "nearest-exact",
+        1,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "ImageScaleToTotalPixels"
+      }
+    },
+    {
+      "type": "VAEEncode",
+      "offset": [
+        1410,
+        1310
+      ],
+      "size": [
+        220,
+        70
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        1770,
+        0
+      ],
+      "size": [
+        340,
+        150
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        1770,
+        200
+      ],
+      "size": [
+        340,
+        120
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "ReferenceLatent",
+      "offset": [
+        2190,
+        0
+      ],
+      "size": [
+        240,
+        70
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      }
+    },
+    {
+      "type": "ReferenceLatent",
+      "offset": [
+        2190,
+        120
+      ],
+      "size": [
+        240,
+        70
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      }
+    },
+    {
+      "type": "ReferenceLatent",
+      "offset": [
+        2190,
+        260
+      ],
+      "size": [
+        240,
+        70
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      }
+    },
+    {
+      "type": "ReferenceLatent",
+      "offset": [
+        2190,
+        380
+      ],
+      "size": [
+        240,
+        70
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      }
+    },
+    {
+      "type": "CFGGuider",
+      "offset": [
+        2530,
+        0
+      ],
+      "size": [
+        280,
+        110
+      ],
+      "widgets_values": [
+        5
+      ],
+      "properties": {
+        "Node name for S&R": "CFGGuider"
+      }
+    },
+    {
+      "type": "KSamplerSelect",
+      "offset": [
+        2530,
+        160
+      ],
+      "size": [
+        280,
+        60
+      ],
+      "widgets_values": [
+        "euler"
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      }
+    },
+    {
+      "type": "Flux2Scheduler",
+      "offset": [
+        2530,
+        280
+      ],
+      "size": [
+        280,
+        130
+      ],
+      "widgets_values": [
+        20,
+        1024,
+        1024
+      ],
+      "properties": {
+        "Node name for S&R": "Flux2Scheduler"
+      }
+    },
+    {
+      "type": "EmptyFlux2LatentImage",
+      "offset": [
+        2530,
+        470
+      ],
+      "size": [
+        280,
+        130
+      ],
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyFlux2LatentImage"
+      }
+    },
+    {
+      "type": "RandomNoise",
+      "offset": [
+        2530,
+        660
+      ],
+      "size": [
+        280,
+        90
+      ],
+      "widgets_values": [
+        712398571203,
+        "randomize"
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      }
+    },
+    {
+      "type": "SamplerCustomAdvanced",
+      "offset": [
+        2910,
+        200
+      ],
+      "size": [
+        270,
+        120
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        3250,
+        0
+      ],
+      "size": [
+        220,
+        70
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        3250,
+        140
+      ],
+      "size": [
+        310,
+        360
+      ],
+      "widgets_values": [
+        "Flux2Klein/PoseTransfer/%date:yyyy-MM-dd_hhmmss%"
+      ],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 17,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 11,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 12,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 6,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 23,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 6,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 7,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 0,
+      "to_node_idx": 9,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 9,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 11,
+      "from_slot": 0,
+      "to_node_idx": 13,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 13,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 13,
+      "from_slot": 0,
+      "to_node_idx": 14,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 10,
+      "from_slot": 0,
+      "to_node_idx": 14,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 12,
+      "from_slot": 0,
+      "to_node_idx": 15,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 15,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 15,
+      "from_slot": 0,
+      "to_node_idx": 16,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 10,
+      "from_slot": 0,
+      "to_node_idx": 16,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 14,
+      "from_slot": 0,
+      "to_node_idx": 17,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 16,
+      "from_slot": 0,
+      "to_node_idx": 17,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 19,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 1,
+      "to_node_idx": 19,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 20,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 1,
+      "to_node_idx": 20,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 18,
+      "from_slot": 0,
+      "to_node_idx": 22,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 17,
+      "from_slot": 0,
+      "to_node_idx": 22,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 19,
+      "from_slot": 0,
+      "to_node_idx": 22,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 20,
+      "from_slot": 0,
+      "to_node_idx": 22,
+      "to_slot": 4
+    },
+    {
+      "from_node_idx": 21,
+      "from_slot": 0,
+      "to_node_idx": 22,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 22,
+      "from_slot": 0,
+      "to_node_idx": 23,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 23,
+      "from_slot": 0,
+      "to_node_idx": 24,
+      "to_slot": 0
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 1,
+      "to_node_idx": 11,
+      "to_slot": 1
+    },
+    {
+      "from_slot": 2,
+      "to_node_idx": 12,
+      "to_slot": 1
+    }
+  ]
+}

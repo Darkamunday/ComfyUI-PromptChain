@@ -1,0 +1,233 @@
+{
+  "display_name": "FLUX.2 Dev - Q5_K_M",
+  "model_name": "FLUX.2 Dev GGUF",
+  "version": "Q5_K_M",
+  "architecture": "flux2",
+  "family": "flux2_gguf",
+  "author": "Black Forest Labs",
+  "description": "32B parameter rectified flow transformer. Uses Mistral text encoder. GGUF quantized — 24GB fits in VRAM on consumer GPUs.",
+  "license": "FLUX.2 Dev Non-Commercial License",
+  "tags": [
+    "flux2",
+    "transformer",
+    "photorealistic",
+    "mistral",
+    "32B",
+    "gguf"
+  ],
+  "url": "https://huggingface.co/city96/FLUX.2-dev-gguf",
+  "release_date": "2025-01-01",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "flux2-gguf-photography",
+  "negative": "",
+  "notes": "Guidance 3.5, Steps 28-40, Euler+Beta. CFG 1.0 — use FluxGuidance node for guidance control. GGUF requires UnetLoaderGGUF node.",
+  "files": [
+    {
+      "label": "Diffusion Model (GGUF)",
+      "folder": "unet",
+      "variants": [
+        {
+          "precision": "Q5_K_M",
+          "filename": "flux2-dev-Q5_K_M.gguf",
+          "size_bytes": 24057238496,
+          "source": {
+            "provider": "huggingface",
+            "repo": "city96/FLUX.2-dev-gguf",
+            "path": "flux2-dev-Q5_K_M.gguf"
+          },
+          "quick_hash": "8b17a9214c17047d",
+          "sha256": null
+        },
+        {
+          "precision": "Q8_0",
+          "filename": "flux2-dev-Q8_0.gguf",
+          "size_bytes": 35002602464,
+          "source": {
+            "provider": "huggingface",
+            "repo": "city96/FLUX.2-dev-gguf",
+            "path": "flux2-dev-Q8_0.gguf"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "Q4_K_M",
+          "filename": "flux2-dev-Q4_K_M.gguf",
+          "size_bytes": 20082414560,
+          "source": {
+            "provider": "huggingface",
+            "repo": "city96/FLUX.2-dev-gguf",
+            "path": "flux2-dev-Q4_K_M.gguf"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder (Mistral 3)",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "fp8",
+          "filename": "mistral_3_small_flux2_fp8.safetensors",
+          "size_bytes": 18034640095,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/flux2-dev",
+            "path": "split_files/text_encoders/mistral_3_small_flux2_fp8.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp4",
+          "filename": "mistral_3_small_flux2_fp4_mixed.safetensors",
+          "size_bytes": 12275678071,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/flux2-dev",
+            "path": "split_files/text_encoders/mistral_3_small_flux2_fp4_mixed.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "flux2-vae.safetensors",
+      "size_bytes": 336213556,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/flux2-dev",
+        "path": "split_files/vae/flux2-vae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 40,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "beta",
+      "steps_range": [
+        20,
+        50
+      ],
+      "cfg_range": [
+        1.0,
+        1.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "flow_dpm",
+        "dpmpp_2m",
+        "heun"
+      ],
+      "scheduler_options": [
+        "beta",
+        "simple",
+        "normal",
+        "sgm_uniform"
+      ]
+    },
+    "FluxGuidance": {
+      "guidance": 3.5,
+      "guidance_range": [
+        2.0,
+        5.0
+      ]
+    },
+    "KSamplerSelect": {
+      "sampler_name": "euler",
+      "sampler_name_options": [
+        "euler",
+        "flow_dpm",
+        "dpmpp_2m",
+        "heun"
+      ]
+    },
+    "BasicScheduler": {
+      "scheduler": "beta",
+      "steps": 40,
+      "denoise": 1.0,
+      "scheduler_options": [
+        "beta",
+        "simple",
+        "normal",
+        "sgm_uniform"
+      ],
+      "steps_range": [
+        20,
+        50
+      ]
+    },
+    "Flux2Scheduler": {
+      "steps": 40,
+      "steps_range": [
+        20,
+        50
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 896,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 1152,
+          "height": 1728
+        },
+        {
+          "width": 1536,
+          "height": 2688
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1728,
+          "height": 1152
+        },
+        {
+          "width": 2688,
+          "height": 1536
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1408,
+          "height": 1408
+        },
+        {
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    }
+  }
+}

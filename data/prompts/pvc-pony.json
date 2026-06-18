@@ -1,0 +1,19 @@
+{
+  "name": "PVC Style Model (Pony) Prompts",
+  "prompts": [
+    {
+      "id": "pvc-pony-figurine-studio",
+      "name": "Figurine Studio",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine Studio\nscore_9, score_8_up, score_7_up, source_anime\n\nNegative Prompt:\nbad_feet, shiny_skin, blurry, worst_quality, watermark, score_4, score_3, score_2, score_1, simple_background",
+      "scope": { "type": "model", "model_name": "PVC Style Model (Pony)" }
+    },
+    {
+      "id": "pvc-pony-figurine-realistic-bg",
+      "name": "Figurine Realistic BG",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine Realistic BG\nscore_9, score_8_up, score_7_up, source_anime, photo_background, the_real_background\n\nNegative Prompt:\nbad_feet, shiny_skin, blurry, worst_quality, watermark, score_4, score_3, score_2, score_1",
+      "scope": { "type": "model", "model_name": "PVC Style Model (Pony)" }
+    }
+  ]
+}

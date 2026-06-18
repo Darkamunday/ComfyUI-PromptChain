@@ -1,0 +1,166 @@
+{
+  "display_name": "FLUX.1 Fill Dev",
+  "model_name": "FLUX.1 Fill Dev",
+  "version": "1.0",
+  "architecture": "flux",
+  "family": "flux_fill",
+  "author": "Black Forest Labs",
+  "description": "Dedicated inpainting and outpainting model. Trained for seamless mask-based editing — fill regions, remove objects, extend image boundaries.",
+  "license": "FLUX.1 Dev Non-Commercial License",
+  "tags": [
+    "flux",
+    "inpaint",
+    "outpaint",
+    "fill",
+    "mask",
+    "editing"
+  ],
+  "url": "https://huggingface.co/Comfy-Org/flux1-dev",
+  "release_date": "2024-10-01",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "flux-photography",
+  "negative": "",
+  "notes": "CFG 1.0, Steps 30, Euler+Normal, Guidance 30. Use InpaintModelConditioning + DifferentialDiffusion for best results.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "filename": "flux1-fill-dev.safetensors",
+      "size_bytes": 23804922408,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/flux1-dev",
+        "path": "split_files/diffusion_models/flux1-fill-dev.safetensors"
+      },
+      "quick_hash": "755b4921922387ea",
+      "sha256": null
+    },
+    {
+      "label": "T5-XXL Text Encoder",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "fp16",
+          "filename": "t5xxl_fp16.safetensors",
+          "size_bytes": 9787841024,
+          "source": {
+            "provider": "huggingface",
+            "repo": "comfyanonymous/flux_text_encoders",
+            "path": "t5xxl_fp16.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+          "size_bytes": 5157348688,
+          "source": {
+            "provider": "huggingface",
+            "repo": "comfyanonymous/flux_text_encoders",
+            "path": "t5xxl_fp8_e4m3fn_scaled.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "CLIP-L Text Encoder",
+      "folder": "text_encoders",
+      "filename": "clip_l.safetensors",
+      "size_bytes": 246144152,
+      "source": {
+        "provider": "huggingface",
+        "repo": "comfyanonymous/flux_text_encoders",
+        "path": "clip_l.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "ae.safetensors",
+      "size_bytes": 335304388,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/Lumina_Image_2.0_Repackaged",
+        "path": "split_files/vae/ae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 30,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "steps_range": [
+        15,
+        50
+      ],
+      "cfg_range": [
+        1.0,
+        1.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "normal",
+        "simple",
+        "sgm_uniform"
+      ]
+    },
+    "FluxGuidance": {
+      "guidance": 30,
+      "guidance_range": [
+        10.0,
+        50.0
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 896,
+      "height": 1152,
+      "_resolutions": [
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1408,
+          "height": 1408
+        }
+      ]
+    }
+  }
+}
