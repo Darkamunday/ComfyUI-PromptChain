@@ -2455,10 +2455,15 @@
       // open — it would re-run the whole workflow underneath. Swallowed before
       // the typing guard so the save-path input can't leak it either.
       if ((e.ctrlKey || e.metaKey) && e.key === "Enter") { e.preventDefault(); e.stopPropagation(); return; }
-      // Typing in any text field — the save path, or the handoff Inpaint modal's
-      // CM6 prompt editor (a contenteditable DIV, not a TEXTAREA) — must never
-      // trigger Edit hotkeys.
-      if (/^(INPUT|TEXTAREA|SELECT)$/.test(e.target?.tagName || "") || e.target?.isContentEditable) return;
+      // Typing in a genuine TEXT field — the save path, or the handoff Inpaint
+      // modal's CM6 prompt editor (a contenteditable DIV) — must never trigger
+      // Edit hotkeys. But a focused range slider (opacity/feather) or <select> is
+      // NOT a text field: Del/Backspace there must still delete the selection,
+      // else "lasso, then nudge a slider, then hit Del" silently does nothing.
+      const kt = e.target, ktag = kt?.tagName || "";
+      const typingTarget = kt?.isContentEditable || ktag === "TEXTAREA"
+        || (ktag === "INPUT" && !/^(range|checkbox|radio|button|submit|reset|color|file|image)$/i.test(kt.type || ""));
+      if (typingTarget) return;
       if (hiddenEditDialog) { // PS modal: Esc/Enter/OK dismiss, swallow other Edit hotkeys
         if (e.key === "Escape" || e.key === "Enter") { e.preventDefault(); e.stopPropagation(); hiddenEditDialog = null; }
         return;

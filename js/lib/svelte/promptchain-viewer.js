@@ -7422,7 +7422,6 @@ function EditModal($$anchor, $$props) {
   user_effect(() => {
     if (!$$props.open) return;
     const onKey = (e) => {
-      var _a, _b;
       if (get(
         adjustOpen
         // Camera Raw / an elevated handoff modal owns the keyboard
@@ -7432,7 +7431,9 @@ function EditModal($$anchor, $$props) {
         e.stopPropagation();
         return;
       }
-      if (/^(INPUT|TEXTAREA|SELECT)$/.test(((_a = e.target) == null ? void 0 : _a.tagName) || "") || ((_b = e.target) == null ? void 0 : _b.isContentEditable)) return;
+      const kt = e.target, ktag = (kt == null ? void 0 : kt.tagName) || "";
+      const typingTarget = (kt == null ? void 0 : kt.isContentEditable) || ktag === "TEXTAREA" || ktag === "INPUT" && !/^(range|checkbox|radio|button|submit|reset|color|file|image)$/i.test(kt.type || "");
+      if (typingTarget) return;
       if (get(
         hiddenEditDialog
         // PS modal: Esc/Enter/OK dismiss, swallow other Edit hotkeys
