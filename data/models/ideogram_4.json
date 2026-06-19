@@ -1,0 +1,162 @@
+{
+  "display_name": "Ideogram 4.0",
+  "model_name": "Ideogram 4.0",
+  "version": "Base",
+  "architecture": "ideogram",
+  "family": "ideogram4",
+  "author": "Ideogram",
+  "description": "Ideogram 4.0 open-weight text-to-image model (9.3B single-stream DiT) run locally in ComfyUI. Best-in-class in-image text rendering and typography. Uses a Qwen3-VL-8B text encoder and the Flux 2 VAE, plus a second 'unconditional' transformer that drives dual-branch CFG (there is no user negative prompt). Authored in natural language. Weights are non-commercial; generated images may be used commercially.",
+  "license": "Ideogram Non-Commercial Model Agreement (inference code Apache-2.0)",
+  "tags": [
+    "ideogram",
+    "ideogram4",
+    "text-rendering",
+    "typography",
+    "open-weight",
+    "consumer"
+  ],
+  "url": "https://huggingface.co/Comfy-Org/Ideogram-4",
+  "release_date": "2026-06-03",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "",
+  "default_prompt_id": "ideogram-default",
+  "negative": "",
+  "notes": "REQUIRES a ComfyUI version with native Ideogram 4 support (the UNETLoader 'ideogram4' arch, CLIPLoader 'ideogram4' type, Ideogram4Scheduler, DualModelGuider, CFGOverride). Weights from the UN-GATED Comfy-Org/Ideogram-4 mirror (no HF token needed). Two transformers load via two UNETLoaders; the unconditional one feeds DualModelGuider.model_negative. Recommended: Default = 20 steps, Turbo = 12, Quality = 48; DualModelGuider guidance 7; CFGOverride [3, 0.7, 1]; scheduler mu 0.5 / std 1.75; sampler euler. Native output up to 2048px. On a 32 GB card (RTX 5090) full fp8 fits with text-encoder offload; drop the unconditional transformer or encoder to nvfp4 if VRAM is tight. NON-COMMERCIAL weights: fine for personal/local use; commercial deployment of the model needs Ideogram's paid license (generated images themselves are fine to use commercially, except training competing models).",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "fp8",
+          "filename": "ideogram4_fp8_scaled.safetensors",
+          "quick_hash": "e9380be7fe0165c7",
+          "size_bytes": 9280741285,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Ideogram-4",
+            "path": "diffusion_models/ideogram4_fp8_scaled.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "nvfp4",
+          "filename": "ideogram4_nvfp4_mixed.safetensors",
+          "size_bytes": 5490000000,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Ideogram-4",
+            "path": "diffusion_models/ideogram4_nvfp4_mixed.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Unconditional Transformer",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "fp8",
+          "filename": "ideogram4_unconditional_fp8_scaled.safetensors",
+          "quick_hash": "76383548b85c3b56",
+          "size_bytes": 9280741293,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Ideogram-4",
+            "path": "diffusion_models/ideogram4_unconditional_fp8_scaled.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "nvfp4",
+          "filename": "ideogram4_unconditional_nvfp4_mixed.safetensors",
+          "size_bytes": 5490000000,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Ideogram-4",
+            "path": "diffusion_models/ideogram4_unconditional_nvfp4_mixed.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder (Qwen3-VL-8B)",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "fp8",
+          "filename": "qwen3vl_8b_fp8_scaled.safetensors",
+          "size_bytes": 10588637512,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Ideogram-4",
+            "path": "text_encoders/qwen3vl_8b_fp8_scaled.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "nvfp4",
+          "filename": "qwen3vl_8b_nvfp4.safetensors",
+          "size_bytes": 6310000000,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/Ideogram-4",
+            "path": "text_encoders/qwen3vl_8b_nvfp4.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "flux2-vae.safetensors",
+      "size_bytes": 336213556,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/Ideogram-4",
+        "path": "vae/flux2-vae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "Ideogram4Scheduler": {
+      "steps": 20,
+      "steps_range": [
+        12,
+        48
+      ]
+    },
+    "EmptyFlux2LatentImage": {
+      "width": 1024,
+      "height": 1024,
+      "_resolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 1216,
+          "height": 832
+        }
+      ]
+    }
+  }
+}

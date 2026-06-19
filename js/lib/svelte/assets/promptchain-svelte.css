@@ -1411,11 +1411,82 @@
   .pcr-viewer-lineage-node.current.svelte-5cciiw {
     border-color: #4fc3f7;
     background: rgba(79, 195, 247, 0.15);
+    box-shadow: 0 0 0 1px rgba(79, 195, 247, 0.5), 0 0 10px 1px rgba(79, 195, 247, 0.45);
   }
   .pcr-viewer-lineage-node.svelte-5cciiw:hover:not(.current) {
     background: rgba(255, 255, 255, 0.1);
     border-color: #555;
   }
+  /* multi-select for batch delete */
+  .pcr-viewer-lineage-node.selected.svelte-5cciiw {
+    border-color: #ffb84d;
+    box-shadow: 0 0 0 1px rgba(255, 184, 77, 0.6);
+  }
+  /* centered over the thumb so it never collides with the corner badges (dot,
+     layers, fork pip / expander, opbadge) — the .selected ring already frames it */
+  .pcr-lin-selcheck.svelte-5cciiw {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 50%;
+    background: rgba(255, 184, 77, 0.92);
+    color: #1a1208;
+    pointer-events: none;
+    z-index: 3;
+  }
+  .pcr-lin-focuscrumb.svelte-5cciiw {
+    margin: 0 6px 4px;
+    padding: 3px 6px;
+    font-size: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(120, 200, 255, 0.4);
+    background: rgba(40, 70, 95, 0.5);
+    color: #bfe3ff;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .pcr-lin-focuscrumb.svelte-5cciiw:hover { background: rgba(50, 90, 120, 0.7); }
+  .pcr-lin-focusx.svelte-5cciiw { opacity: 0.7; margin-left: 2px; }
+  .pcr-lin-selbar.svelte-5cciiw {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0 6px 4px;
+    padding: 3px 6px;
+    font-size: 10px;
+    border-radius: 4px;
+    background: rgba(95, 65, 20, 0.5);
+    color: #ffd9a3;
+  }
+  .pcr-lin-seldel.svelte-5cciiw {
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: none;
+    background: #e0863a;
+    color: #1a1208;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .pcr-lin-seldel.svelte-5cciiw:hover { background: #f09a4d; }
+  .pcr-lin-selclear.svelte-5cciiw {
+    padding: 2px 5px;
+    border-radius: 3px;
+    border: none;
+    background: transparent;
+    color: #ffd9a3;
+    cursor: pointer;
+  }
+  .pcr-lin-selclear.svelte-5cciiw:hover { color: #fff; }
   .pcr-viewer-lineage-node.svelte-5cciiw img:where(.svelte-5cciiw) {
     width: 100%;
     height: 100%;
@@ -1521,29 +1592,36 @@
   /* ── subway lanes: the rail grows horizontally into parallel vertical lanes ── */
   .pcr-viewer-lineage-visible.lanes.svelte-5cciiw {
     width: auto;
-    max-width: 62vw;
+    max-width: 45vw;
   }
-  .pcr-lin-lanes.svelte-5cciiw {
-    position: relative;
+  /* scroll viewport — fills the rail; the sized tree inside scrolls both axes */
+  .pcr-lin-treescroll.svelte-5cciiw {
     flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 22px;
-    padding: 8px 12px;
     overflow: auto;
+    padding: 8px 12px;
+    position: relative; /* offset origin for centering the current node (contentXY) */
   }
-  .pcr-lin-lanes.svelte-5cciiw::-webkit-scrollbar { width: 7px; height: 7px; }
-  .pcr-lin-lanes.svelte-5cciiw::-webkit-scrollbar-track { background: transparent; }
-  .pcr-lin-lanes.svelte-5cciiw::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+  .pcr-lin-treescroll.svelte-5cciiw::-webkit-scrollbar { width: 7px; height: 7px; }
+  .pcr-lin-treescroll.svelte-5cciiw::-webkit-scrollbar-track { background: transparent; }
+  .pcr-lin-treescroll.svelte-5cciiw::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
   /* both axes scroll here, so kill the default white corner where they meet */
-  .pcr-lin-lanes.svelte-5cciiw::-webkit-scrollbar-corner { background: transparent; }
-  .pcr-lin-col.svelte-5cciiw {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 22px;
-    flex: 0 0 auto;
+  .pcr-lin-treescroll.svelte-5cciiw::-webkit-scrollbar-corner { background: transparent; }
+  /* sized to the tree's extent; nodes are absolutely positioned within it and the
+     SVG connector layer measures geometry relative to this element */
+  .pcr-lin-tree.svelte-5cciiw {
+    position: relative;
+  }
+  .pcr-lin-treenode.svelte-5cciiw {
+    position: absolute;
+    transition: opacity 0.12s ease;
+  }
+  /* fade everything off the displayed image's branch so the active lineage reads
+     at a glance; hovering a faded node brings it back to inspect it */
+  .pcr-lin-treenode.dimmed.svelte-5cciiw {
+    opacity: 0.7;
+  }
+  .pcr-lin-treenode.dimmed.svelte-5cciiw:hover {
+    opacity: 1;
   }
   /* SVG overlay lives inside the scroll content, so it translates with scroll for
      free — geometry is only recomputed on expand/fold/resize/img-load. */
@@ -1558,6 +1636,66 @@
     stroke: #4a4a4a;
     stroke-width: 2;
     fill: none;
+  }
+  /* the displayed image's lineage path — drawn last so it sits over dim edges */
+  .pcr-lin-connectors.svelte-5cciiw path.active:where(.svelte-5cciiw) {
+    stroke: #3b9eff;
+    stroke-width: 3;
+  }
+  /* overflow bundle sitting in a tree row (oldest siblings folded away) */
+  .pcr-lin-treebundle.svelte-5cciiw {
+    width: 64px;
+    height: 44px;
+  }
+  /* faint blue tie between active-branch thumbs and the bright path connecting them */
+  .pcr-lin-treenode.svelte-5cciiw:not(.dimmed) .pcr-viewer-lineage-node:where(.svelte-5cciiw):not(.current) {
+    border-color: rgba(59, 158, 255, 0.45);
+  }
+  /* upscale provenance badge — bottom-left, clears the layers badge (top-left) and dot (bottom-right) */
+  .pcr-lin-opbadge.svelte-5cciiw {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    padding: 0 3px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 3px;
+    background: rgba(20, 20, 20, 0.82);
+    color: #8fd0ff;
+    box-shadow: 0 0 0 1px rgba(59, 158, 255, 0.5);
+    pointer-events: none;
+  }
+  /* at-rest "this node hides N branches" marker; swapped for the ⊞ button on hover */
+  .pcr-lin-forkpip.svelte-5cciiw {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    min-width: 16px;
+    height: 16px;
+    padding: 0 3px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 4px;
+    background: rgba(20, 20, 20, 0.7);
+    color: #c0a3ff;
+    box-shadow: 0 0 0 1px rgba(150, 120, 255, 0.5);
+    pointer-events: none;
+  }
+  .pcr-viewer-lineage-node.svelte-5cciiw:hover .pcr-lin-forkpip:where(.svelte-5cciiw),
+  .pcr-viewer-lineage-node.svelte-5cciiw:hover .pcr-lin-opbadge:where(.svelte-5cciiw) {
+    display: none;
+  }
+  .pcr-viewer-tip-op.svelte-5cciiw {
+    color: #8fd0ff;
   }
   .pcr-lin-expander.svelte-5cciiw {
     position: absolute;

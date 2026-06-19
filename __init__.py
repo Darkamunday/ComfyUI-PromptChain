@@ -13,6 +13,8 @@ from .nodes.attention_couple import AttentionCoupleNode
 from .nodes.regional_detailer import RegionalDetailerNode, MaskedDetailNode
 from .nodes.regional_conditioning import RegionalConditioningNode
 from .nodes.defocus_mask import DefocusMaskNode
+from .nodes.ideogram_sampler import IdeogramSamplerNode
+from .nodes.ideogram_caption import IdeogramCaptionNode
 
 
 # Timestamps on every PromptChain log line. ComfyUI's default formatter
@@ -220,7 +222,7 @@ _threading.Thread(target=_preload, daemon=True).start()
 class PromptChainExtension(ComfyExtension):
     @override
     async def get_node_list(self) -> list[type[io.ComfyNode]]:
-        return [PromptChainNode, PoseStudioNode, AttentionCoupleNode, RegionalDetailerNode, MaskedDetailNode, RegionalConditioningNode, DefocusMaskNode]
+        return [PromptChainNode, PoseStudioNode, AttentionCoupleNode, RegionalDetailerNode, MaskedDetailNode, RegionalConditioningNode, DefocusMaskNode, IdeogramSamplerNode, IdeogramCaptionNode]
 
 
 async def comfy_entrypoint() -> PromptChainExtension:

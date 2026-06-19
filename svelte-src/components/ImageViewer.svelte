@@ -6,7 +6,7 @@
   import RePoseModal from "./RePoseModal.svelte";
   import ConfirmModal from "./sidebar/ConfirmModal.svelte";
   import LineageContextMenu from "./LineageContextMenu.svelte";
-  import { buildRender, ancestry } from "../lib/lineage-lanes.js";
+  import { buildRender, ancestry, CHILDREN_PER_ROW_CAP, CHILDREN_REVEAL_STEP } from "../lib/lineage-lanes.js";
   import { buildFigureRegions, matchRegionByOverlap } from "../lib/region-binding.js";
 
   let {
@@ -270,6 +270,29 @@
     return { byHash, childrenOf, roots };
   })());
 
+  // What operation produced a node, inferred ONLY from data we hold per family node
+  // (dimensions vs its parent). Upscale is the one transform we can call with high
+  // confidence here; re-roll/variation/repose would need a per-node op field from the
+  // server (no seed/prompt on lineage records) — left unlabeled rather than guessed.
+  // Edits are already surfaced separately via the editDocLayers (▦) badge.
+  let lineageOps = $derived.by(() => {
+    const { byHash } = lineageTree;
+    const ops = new Map();
+    for (const item of lineageList) {
+      const p = item?.parent_hash ? byHash.get(item.parent_hash) : null;
+      if (!p || !item.width || !item.height || !p.width || !p.height) continue;
+      if (item.width > p.width * 1.2 && item.height > p.height * 1.2) {
+        const wf = item.width / p.width, hf = item.height / p.height;
+        // only assert a single multiplier when both axes scaled together; otherwise
+        // it's a non-uniform grow — show the badge without an overstated factor
+        const uniform = Math.abs(wf - hf) < 0.05;
+        ops.set(item.hash, { kind: "upscale", factor: wf, uniform, from: { w: p.width, h: p.height } });
+      }
+    }
+    return ops;
+  });
+  const fmtFactor = (f) => (Math.abs(f - Math.round(f)) < 0.05 ? `${Math.round(f)}×` : `${f.toFixed(1)}×`);
+
   let lineageDisplay = $derived((() => {
     const asNodes = (list) => list.map(item => ({ kind: "node", item }));
     if (lineageList.length < 2) return asNodes(lineageList);
@@ -361,11 +384,83 @@
   // so navigating between nodes never re-partitions the lanes, and the displayed
   // image is always on column 0 (anchored on the anchor's root→tip spine).
   let brokenOut = $state(new Set());
+  // Per-parent override of how many siblings render individually before the rest
+  // fold into a "+N" bundle chip; bumped by CHILDREN_REVEAL_STEP on a chip click.
+  let lineageRevealed = $state(new Map());
   let subwayAnchor = $derived(
     lineageFocusHash && lineageTree.byHash.has(lineageFocusHash) ? lineageFocusHash : displayedHash
   );
-  let laneRender = $derived(buildRender(lineageTree, subwayAnchor, brokenOut));
-  let lanesActive = $derived(brokenOut.size > 0 && lineageList.length > 1);
+  // "Focus this branch": a VIEW-ONLY re-root. buildRender renders only this hash's
+  // subtree (no parent_hash mutation, no effect on which image is displayed/loaded).
+  let focusRootHash = $state(null);
+  let laneRender = $derived(buildRender(lineageTree, subwayAnchor, brokenOut,
+    { displayedHash, revealed: lineageRevealed, rootHash: focusRootHash }));
+  let lanesActive = $derived((brokenOut.size > 0 || !!focusRootHash) && lineageList.length > 1);
+  // is `desc` the focus root or a descendant of it? (guarded parent_hash climb)
+  function isInSubtree(desc, rootHash) {
+    const { byHash } = lineageTree;
+    const seen = new Set();
+    let cur = desc;
+    while (cur && byHash.has(cur) && !seen.has(cur)) {
+      seen.add(cur);
+      if (cur === rootHash) return true;
+      cur = byHash.get(cur).parent_hash;
+    }
+    return false;
+  }
+  // Drop a stale focus when it leaves the family OR when navigation (arrows / strip /
+  // timeline) moves the displayed image out of the focused subtree — otherwise the
+  // current image would have no node in the focus-only tree and nothing would mark
+  // "you are here". Writes focusRootHash only in the clear branch, so it can't loop.
+  $effect(() => {
+    if (!focusRootHash) return;
+    if (!lineageTree.byHash.has(focusRootHash) || !isInSubtree(displayedHash, focusRootHash)) focusRootHash = null;
+  });
+  function focusBranch(hash) {
+    if (!hash || !lineageTree.byHash.has(hash)) return;
+    // land on the branch root first if the displayed image is outside the subtree,
+    // so the invalidation effect doesn't immediately clear the focus we just set.
+    if (!isInSubtree(displayedHash, hash)) lineageJump(hash);
+    focusRootHash = hash;
+  }
+  function clearFocus() { focusRootHash = null; }
+
+  // ── per-family expansion persistence ──
+  // Remembers which branches the user expanded, keyed by the IMMUTABLE family root
+  // (a content sha256), so reopening a family restores its tree shape. This is a
+  // pure UI overlay: it stores ONLY brokenOut/revealed and never writes
+  // displayedHash or touches how/which image loads — the family you land on is
+  // always decided by the invoke point, and the materialize effect still guarantees
+  // the displayed image is shown regardless of what was restored.
+  const LANE_PREFS_KEY = "pcr.viewer.lanePrefs.v1";
+  let familyRootHash = $derived(
+    lineageTree.byHash.has(displayedHash) ? ancestry(lineageTree, displayedHash).root : null
+  );
+  let hydratedRoot = null; // plain let: writing it must not re-trigger the hydrate effect
+  function readLanePrefs() {
+    try { return JSON.parse(localStorage.getItem(LANE_PREFS_KEY) || "{}") || {}; } catch { return {}; }
+  }
+  // hydrate once when we enter a family; restore only branches that still exist
+  $effect(() => {
+    const root = familyRootHash;
+    if (!root || root === hydratedRoot) return;
+    hydratedRoot = root;
+    const prefs = readLanePrefs()[root];
+    brokenOut = new Set((prefs?.brokenOut || []).filter(h => lineageTree.byHash.has(h)));
+    lineageRevealed = new Map((prefs?.revealed || []).filter(([k]) => lineageTree.byHash.has(k)));
+  });
+  // persist after hydration; an empty overlay drops the entry rather than storing {}
+  $effect(() => {
+    const root = familyRootHash;
+    const bo = [...brokenOut], rv = [...lineageRevealed];
+    if (!root || root !== hydratedRoot) return;
+    try {
+      const all = readLanePrefs();
+      if (bo.length || rv.length) all[root] = { brokenOut: bo, revealed: rv };
+      else delete all[root];
+      localStorage.setItem(LANE_PREFS_KEY, JSON.stringify(all));
+    } catch {}
+  });
 
   // The child that CONTINUES a node's lane — "expand branches" peels the SIBLINGS,
   // never this. Matches buildLane's primary rule (spine-ward child, else oldest).
@@ -398,7 +493,43 @@
     }
     brokenOut = next;
   }
-  function collapseAllLanes() { brokenOut = new Set(); }
+  function collapseAllLanes() { brokenOut = new Set(); lineageRevealed = new Map(); focusRootHash = null; }
+
+  // ── multi-select (ctrl/⌘/shift-click thumbs) → batch delete ──
+  let selectedHashes = $state(new Set());
+  // Selection is scoped to the visible family: drop any selected hash that isn't in
+  // the current family tree (navigating to another family via arrows/timeline/gallery
+  // must never leave a stale selection that a later [Del] would silently tombstone).
+  // Reads selectedHashes but only writes a strictly smaller set, so it can't loop.
+  $effect(() => {
+    if (!selectedHashes.size) return;
+    const { byHash } = lineageTree;
+    const kept = [...selectedHashes].filter(h => byHash.has(h));
+    if (kept.length !== selectedHashes.size) selectedHashes = new Set(kept);
+  });
+  function toggleSelect(hash) {
+    const next = new Set(selectedHashes);
+    if (next.has(hash)) next.delete(hash); else next.add(hash);
+    selectedHashes = next;
+  }
+  function clearSelection() { if (selectedHashes.size) selectedHashes = new Set(); }
+  // Shared click for every lineage thumb (strip + tree): modifier-click multi-selects;
+  // a plain click clears any selection and navigates.
+  function handleNodeClick(e, item) {
+    if (compareDropdownOpen) {
+      if (item.hash !== displayedHash) enterCompareWith(item.hash, item.filename || item.hash.slice(0, 8));
+      return;
+    }
+    if (e.ctrlKey || e.metaKey || e.shiftKey) { toggleSelect(item.hash); return; }
+    clearSelection();
+    lineageJump(item.hash); exitCompare();
+  }
+  // Page more of a folded row's oldest siblings back into individual columns.
+  function revealMore(parentHash) {
+    const next = new Map(lineageRevealed);
+    next.set(parentHash, (next.get(parentHash) ?? CHILDREN_PER_ROW_CAP - 1) + CHILDREN_REVEAL_STEP);
+    lineageRevealed = next;
+  }
   // the family has at least one fork worth fanning out
   let hasBranches = $derived((() => {
     for (const kids of lineageTree.childrenOf.values()) if (kids.length > 1) return true;
@@ -422,7 +553,7 @@
   // only ever ADDS new roots (never loops).
   $effect(() => {
     if (!lanesActive) return;
-    if (laneRender.columns.some(c => c.nodes.some(n => n.hash === displayedHash))) return;
+    if (laneRender.nodes.some(n => n.hash === displayedHash)) return;
     const { byHash, childrenOf } = lineageTree;
     const a = ancestry(lineageTree, subwayAnchor);
     const toBreak = [];
@@ -451,13 +582,36 @@
   // recompute only on expand/fold/resize/thumbnail-load — never on scroll, never on
   // a timer (event/observer-driven per CLAUDE.md).
   let lanesWrapEl = $state(null);
+  let treeScrollEl = $state(null);
   let connectorGeom = $state([]);
   let connectorBox = $state({ w: 0, h: 0 });
+  // The displayed image's root→self lineage — the active branch. One guarded walk
+  // yields both the edge keys (`parent>child`, for the blue connector highlight)
+  // and the node set (for dimming everything off the active branch). Derived (not
+  // measured) so it re-resolves on navigation without recomputing geometry.
+  let activePath = $derived.by(() => {
+    const nodes = new Set(), edges = new Set();
+    const { byHash } = lineageTree;
+    const seen = new Set(); // cheap defense against malformed data looping the browser
+    let cur = displayedHash;
+    while (cur && byHash.has(cur) && !seen.has(cur)) {
+      seen.add(cur);
+      nodes.add(cur);
+      const p = byHash.get(cur).parent_hash;
+      if (p && byHash.has(p)) edges.add(`${p}>${cur}`);
+      cur = p;
+    }
+    return { nodes, edges };
+  });
+  // split so the highlighted paths paint over the dim ones
+  let connectorsBase = $derived(connectorGeom.filter(g => !activePath.edges.has(g.key)));
+  let connectorsActive = $derived(connectorGeom.filter(g => activePath.edges.has(g.key)));
   let measureScheduled = false;
-  // Row pitch for vertically offsetting broken-out columns so children sit one
-  // generation below their parent. MUST match .pcr-viewer-lineage-node height (64px)
-  // + .pcr-lin-col gap (22px).
+  // Tree layout pitch: a row is one generation (node 64px + 22px gap), a column
+  // one sibling slot (node 64px + 24px gap). Each lineage node is placed at
+  // left = x*LANE_COL_W, top = depth*LANE_ROW_H.
   const LANE_ROW_H = 86;
+  const LANE_COL_W = 88;
   // Layout coords relative to a content root — independent of scroll AND of CSS
   // transform, so the same measurement serves the P3 zoom panel unchanged.
   function contentXY(el, root) {
@@ -497,14 +651,44 @@
   }
   $effect(() => {
     if (!lanesActive) return;
-    const cols = laneRender.columns;   // read → track expand/fold/family changes
-    if (cols) scheduleMeasure();
+    const ns = laneRender.nodes;   // read → track expand/fold/family changes
+    if (ns) scheduleMeasure();
   });
   $effect(() => {
     if (!lanesWrapEl) return;
     const ro = new ResizeObserver(() => scheduleMeasure());
     ro.observe(lanesWrapEl);
     return () => ro.disconnect();
+  });
+  // "You are here": after expand/fold/navigation, bring the displayed image into
+  // view — but only if it has drifted out of (or near the edge of) the viewport, so
+  // we never yank a node the user can already see. Reads displayedHash + nodes so it
+  // re-runs on every relevant change; the rAF lets layout settle first (no timer).
+  function centerCurrentNode() {
+    const scroller = treeScrollEl, wrap = lanesWrapEl;
+    if (!scroller || !wrap) return;
+    const el = wrap.querySelector(`[data-hash="${displayedHash}"]`);
+    if (!el) return;
+    const p = contentXY(el, scroller);
+    // Edge margin clamped per-axis so the "already in view" range stays satisfiable
+    // even on a narrow/linear panel — otherwise a perfectly centered node reads as
+    // out-of-view and re-fires scrollTo on every navigation (jitter).
+    const mX = Math.min(LANE_COL_W, Math.max(8, (scroller.clientWidth - p.w) / 2 - 1));
+    const mY = Math.min(LANE_COL_W, Math.max(8, (scroller.clientHeight - p.h) / 2 - 1));
+    const offL = p.x - scroller.scrollLeft, offT = p.y - scroller.scrollTop;
+    const outH = offL < mX || offL + p.w > scroller.clientWidth - mX;
+    const outV = offT < mY || offT + p.h > scroller.clientHeight - mY;
+    if (!outH && !outV) return;
+    scroller.scrollTo({
+      left: Math.max(0, p.x + p.w / 2 - scroller.clientWidth / 2),
+      top: Math.max(0, p.y + p.h / 2 - scroller.clientHeight / 2),
+      behavior: "smooth",
+    });
+  }
+  $effect(() => {
+    if (!lanesActive) return;
+    displayedHash; laneRender.nodes;   // track → recenter on navigation/expand
+    requestAnimationFrame(centerCurrentNode);
   });
 
   let compareTargets = $derived(
@@ -638,14 +822,18 @@
     console.trace("[PCR][viewer] displayedHash ->", displayedHash, "currentIndex", currentIndex);
   });
 
+  // hash → gallery entry, so per-thumb url lookups are O(1) instead of scanning the
+  // whole gallery array on every reactive render (every lane thumb + bundle preview
+  // hit images.find() before this).
+  let imageByHash = $derived(new Map((images || []).map(i => [i.hash, i])));
   function imageUrl(hash) {
     // support direct URLs for images without DB hash (browse preview)
-    const img = images.find(i => i.hash === hash);
+    const img = imageByHash.get(hash);
     if (img?._directUrl) return img._directUrl;
     return apiURL(`/promptchain/image/${hash}`);
   }
   function thumbUrl(hash) {
-    const img = images.find(i => i.hash === hash);
+    const img = imageByHash.get(hash);
     if (img?._directUrl) return img._directUrl;
     return apiURL(`/promptchain/thumb/${hash}`);
   }
@@ -1321,9 +1509,17 @@
     if (upscaleModalOpen || inpaintModalOpen || editModalOpen || confirmDeleteOpen) return; // a modal owns the keyboard while open
     if (e.key === "Escape") {
       if (compareDropdownOpen) { compareDropdownOpen = false; return; }
+      if (selectedHashes.size) { clearSelection(); return; }
       if (historyExpanded) { historyExpanded = false; return; }
       if (compareMode) { exitCompare(); return; }
       onClose();
+      return;
+    }
+    if ((e.key === "Delete" || e.key === "Backspace") && selectedHashes.size && onDelete) {
+      const t = e.target;
+      if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return; // let editors keep Backspace
+      e.preventDefault();
+      requestDeleteBatch();
       return;
     }
     if ((e.key === "c" || e.key === "C") && !e.ctrlKey && !e.metaKey && hasCompareTargets) {
@@ -1443,15 +1639,26 @@
   // specific lineage node (right-click menu), which may not be the one on screen.
   let deleteTargetHash = $state(null);
 
+  // null = single delete; an array = a multi-select batch (drives the modal copy).
+  let deleteBatch = $state(null);
+
   function requestDelete() {
     if (!onDelete || deleting) return;
     deleteTargetHash = null;
+    deleteBatch = null;
+    confirmDeleteOpen = true;
+  }
+
+  function requestDeleteBatch() {
+    if (!onDelete || deleting || !selectedHashes.size) return;
+    deleteBatch = [...selectedHashes];
     confirmDeleteOpen = true;
   }
 
   function cancelDelete() {
     confirmDeleteOpen = false;
     deleteTargetHash = null;
+    deleteBatch = null;
   }
 
   // ── lineage strip right-click menu ──
@@ -1506,6 +1713,8 @@
     if (!hash) return;
     if (action === "expand-branches") {
       expandBranches(item);
+    } else if (action === "focus-branch") {
+      focusBranch(hash);
     } else if (action === "copy-path") {
       copyPath(hash);
     } else if (action === "edit") {
@@ -1523,9 +1732,52 @@
     }
   }
 
+  async function handleDeleteBatch(hashes) {
+    deleteBatch = null;
+    deleting = true;
+    // Only remove what truly deleted: onDelete throws by contract on failure (file
+    // locked, non-OK, reattach mismatch). Dropping the whole batch optimistically
+    // would hide a still-on-disk image until the next refetch — match the single
+    // delete, which filters only after a successful await.
+    const gone = new Set();
+    try {
+      for (const h of hashes) {
+        try { await onDelete(h); gone.add(h); } catch (err) { console.error("[PromptChain] batch delete failed for", h, err); }
+      }
+      if (gone.size) {
+        selectedHashes = new Set([...selectedHashes].filter(h => !gone.has(h))); // keep any that failed
+        const survivorsOrdered = lineageVisible.map(i => i?.hash).filter(h => h && !gone.has(h));
+        const landHash = (displayedHash && !gone.has(displayedHash)) ? displayedHash : (survivorsOrdered[0] || null);
+        images = images.filter(i => !gone.has(i.hash));
+        const survivors = lineageList.filter(item => item?.hash && !gone.has(item.hash));
+        if (!images.length) {
+          if (survivors.length) {
+            const next = survivors.find(s => s.hash === landHash) || survivors[0];
+            images = survivors;
+            currentIndex = Math.max(0, survivors.findIndex(s => s.hash === next.hash));
+            displayedHash = next.hash;
+          } else {
+            onClose();
+          }
+        } else if (landHash && images.some(i => i.hash === landHash)) {
+          currentIndex = images.findIndex(i => i.hash === landHash);
+          displayedHash = landHash;
+        } else {
+          const idx = Math.min(currentIndex, images.length - 1);
+          currentIndex = idx;
+          displayedHash = images[idx].hash;
+        }
+      }
+    } catch (e) {
+      console.error("[PromptChain] viewer batch delete failed", e);
+    }
+    deleting = false;
+  }
+
   async function handleDelete() {
     confirmDeleteOpen = false;
     if (!onDelete || deleting) return;
+    if (deleteBatch?.length) { await handleDeleteBatch(deleteBatch); return; }
     const hash = deleteTargetHash || displayedHash;
     deleteTargetHash = null;
     // Land on the PREVIOUS member of the same lineage chain (its parent/ancestor)
@@ -1640,33 +1892,29 @@
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <div class="pcr-viewer" bind:this={viewerEl} style="transform: translateY({viewerTransformY}px); opacity: {viewerOpacity}">
   <!-- left: lineage panel -->
-  {#snippet lineageNode(item, lane)}
+  {#snippet lineageNode(item, meta)}
     <!-- svelte-ignore a11y_no_static_element_interactions -->
     <!-- svelte-ignore a11y_click_events_have_key_events -->
     <div
       class="pcr-viewer-lineage-node"
       data-hash={item.hash}
       class:current={item.hash === displayedHash}
+      class:selected={selectedHashes.has(item.hash)}
       class:orphaned={item.orphaned === 1}
       class:compare-candidate={compareDropdownOpen && item.hash !== displayedHash}
       class:compare-left={compareMode && item.hash === displayedHash}
       class:compare-right={compareMode && item.hash === compareTargetHash}
-      onclick={() => {
-        if (compareDropdownOpen) {
-          if (item.hash !== displayedHash) enterCompareWith(item.hash, item.filename || item.hash.slice(0, 8));
-          return;
-        }
-        lineageJump(item.hash); exitCompare();
-      }}
+      onclick={(e) => handleNodeClick(e, item)}
       onmouseenter={(e) => showTip(e, item)}
       onmouseleave={hideTip}
       oncontextmenu={(e) => { hideTip(); openLineageMenu(e, item); }}
     >
-      <img src={thumbUrl(item.hash)} alt="" draggable="false" loading="lazy" onload={scheduleMeasure} />
+      <img src={thumbUrl(item.hash)} alt="" draggable="false" loading="lazy" />
+      {#if selectedHashes.has(item.hash)}<div class="pcr-lin-selcheck">✓</div>{/if}
       <div class="pcr-viewer-lineage-dot"
         class:dot-root={item.hash === laneRender.rootHash}
         class:dot-current={item.hash === displayedHash}
-        class:dot-tip={item.hash === lane.nodes[lane.nodes.length - 1].hash && item.hash !== displayedHash}
+        class:dot-tip={meta?.isTip && item.hash !== displayedHash}
       ></div>
       {#if editDocLayers[item.hash]}
         <div class="pcr-viewer-lineage-layers">
@@ -1675,21 +1923,29 @@
           </svg>
         </div>
       {/if}
-      {#if laneRender.junctionsByNode.get(item.hash)?.hidden.length}
-        <button class="pcr-lin-expander" title="Break this node's {laneRender.junctionsByNode.get(item.hash).hidden.length} other branch(es) into their own columns"
-          onclick={(e) => { e.stopPropagation(); expandBranches(item); }}
-        >⊞{laneRender.junctionsByNode.get(item.hash).hidden.length}</button>
+      {#if lineageOps.get(item.hash)?.kind === "upscale"}
+        {@const op = lineageOps.get(item.hash)}
+        <div class="pcr-lin-opbadge" title="Upscaled {op.uniform ? fmtFactor(op.factor) + ' ' : ''}from {op.from.w}×{op.from.h}">▲{op.uniform ? fmtFactor(op.factor) : ""}</div>
       {/if}
-      {#if brokenOut.has(lane.startHash) && item.hash === lane.startHash}
-        <button class="pcr-lin-fold" title="Fold this column back into its branch"
-          onclick={(e) => { e.stopPropagation(); foldLane(lane.startHash); }}
+      {#if laneRender.junctionsByNode.get(item.hash)?.hidden.length}
+        {@const n = laneRender.junctionsByNode.get(item.hash).hidden.length}
+        <!-- at-rest marker that this node hides branches; the hover ⊞ button below acts on it -->
+        <div class="pcr-lin-forkpip" aria-hidden="true">⋔{n}</div>
+        <button class="pcr-lin-expander" title="Show this node's {n} other branch(es)"
+          onclick={(e) => { e.stopPropagation(); expandBranches(item); }}
+        >⊞{n}</button>
+      {/if}
+      {#if brokenOut.has(item.hash)}
+        <button class="pcr-lin-fold" title="Collapse this branch back in"
+          onclick={(e) => { e.stopPropagation(); foldLane(item.hash); }}
         >⊟</button>
       {/if}
     </div>
   {/snippet}
 
   {#if lineageList.length > 1}
-    <div class="pcr-viewer-lineage pcr-viewer-lineage-visible" class:lanes={lanesActive}>
+    <div class="pcr-viewer-lineage pcr-viewer-lineage-visible" class:lanes={lanesActive}
+      style={lanesActive ? `width: ${laneRender.width * LANE_COL_W + 24}px` : ""}>
       <div class="pcr-viewer-lineage-header">
         <span class="pcr-lin-count">{lineageCurrentIdx + 1} / {lineageList.length}</span>
         {#if hasBranches}
@@ -1701,18 +1957,47 @@
           >{lanesActive ? "⊟" : "⊞"}</button>
         {/if}
       </div>
+      {#if focusRootHash}
+        <button class="pcr-lin-focuscrumb" onclick={clearFocus} title="Showing only this branch — click to show the whole family">
+          ⊙ Focused <span class="pcr-lin-focusx">✕</span>
+        </button>
+      {/if}
+      {#if selectedHashes.size}
+        <div class="pcr-lin-selbar">
+          {selectedHashes.size} selected
+          <button class="pcr-lin-seldel" onclick={requestDeleteBatch} title="Delete selected (Del)">Delete</button>
+          <button class="pcr-lin-selclear" onclick={clearSelection} title="Clear selection (Esc)">✕</button>
+        </div>
+      {/if}
       {#if lanesActive}
-        <div class="pcr-lin-lanes" bind:this={lanesWrapEl}>
-          <svg class="pcr-lin-connectors" width={connectorBox.w} height={connectorBox.h} aria-hidden="true">
-            {#each connectorGeom as g (g.key)}<path d={g.d} />{/each}
-          </svg>
-          {#each laneRender.columns as lane (lane.startHash)}
-            <div class="pcr-lin-col" style="margin-top: {lane.topRow * LANE_ROW_H}px">
-              {#each lane.nodes as item (item.hash)}
-                {@render lineageNode(item, lane)}
-              {/each}
-            </div>
-          {/each}
+        <div class="pcr-lin-treescroll" bind:this={treeScrollEl}>
+          <div class="pcr-lin-tree" bind:this={lanesWrapEl}
+            style="width: {laneRender.width * LANE_COL_W}px; height: {laneRender.height * LANE_ROW_H}px">
+            <svg class="pcr-lin-connectors" width={connectorBox.w} height={connectorBox.h} aria-hidden="true">
+              {#each connectorsBase as g (g.key)}<path d={g.d} />{/each}
+              {#each connectorsActive as g (g.key)}<path class="active" d={g.d} />{/each}
+            </svg>
+            {#each laneRender.nodes as node (node.hash)}
+              <div class="pcr-lin-treenode" class:dimmed={!activePath.nodes.has(node.hash)}
+                style="left: {node.x * LANE_COL_W}px; top: {node.depth * LANE_ROW_H}px">
+                {#if node.kind === "bundle"}
+                  <!-- svelte-ignore a11y_no_static_element_interactions -->
+                  <button class="pcr-viewer-lineage-bundle pcr-lin-treebundle" data-hash={node.hash}
+                    title="{node.count} older generation{node.count > 1 ? 's' : ''} — click to show more"
+                    onclick={() => revealMore(node.parent)}>
+                    <div class="pcr-viewer-lineage-bundle-stack">
+                      {#each node.preview as p (p)}
+                        <img src={thumbUrl(p)} alt="" draggable="false" loading="lazy" />
+                      {/each}
+                    </div>
+                    <span class="pcr-viewer-lineage-bundle-count">+{node.count}</span>
+                  </button>
+                {:else}
+                  {@render lineageNode(node.item, node)}
+                {/if}
+              </div>
+            {/each}
+          </div>
         </div>
       {:else}
         <div class="pcr-viewer-lineage-strip">
@@ -1727,25 +2012,18 @@
                 class:ancestor={i < lineageDisplayCurrentIdx}
                 class:descendant={i > lineageDisplayCurrentIdx}
                 class:branch={d.branch}
+                class:selected={selectedHashes.has(item.hash)}
                 class:orphaned={item.orphaned === 1}
                 class:compare-candidate={compareDropdownOpen && item.hash !== displayedHash}
                 class:compare-left={compareMode && item.hash === displayedHash}
                 class:compare-right={compareMode && item.hash === compareTargetHash}
-                onclick={() => {
-                  // With the compare dropdown open, the strip doubles as the
-                  // target picker — clicking a thumbnail compares against it
-                  // instead of navigating away.
-                  if (compareDropdownOpen) {
-                    if (item.hash !== displayedHash) enterCompareWith(item.hash, item.filename || item.hash.slice(0, 8));
-                    return;
-                  }
-                  lineageJump(item.hash); exitCompare();
-                }}
+                onclick={(e) => handleNodeClick(e, item)}
                 onmouseenter={(e) => showTip(e, item)}
                 onmouseleave={hideTip}
                 oncontextmenu={(e) => { hideTip(); openLineageMenu(e, item); }}
               >
                 <img src={thumbUrl(item.hash)} alt="" draggable="false" loading="lazy" />
+                {#if selectedHashes.has(item.hash)}<div class="pcr-lin-selcheck">✓</div>{/if}
                 <div class="pcr-viewer-lineage-dot"
                   class:dot-root={item.hash === lineageList[0]?.hash}
                   class:dot-current={i === lineageDisplayCurrentIdx}
@@ -1798,6 +2076,10 @@
       <div class="pcr-viewer-tip-name">{hoverTip.item.filename || hoverTip.item.hash?.slice(0, 12)}</div>
       {#if hoverTip.item.created_at}<div>{timeAgo(hoverTip.item.created_at)}</div>{/if}
       {#if hoverTip.item.width && hoverTip.item.height}<div>{hoverTip.item.width}×{hoverTip.item.height}</div>{/if}
+      {#if lineageOps.get(hoverTip.item.hash)?.kind === "upscale"}
+        {@const op = lineageOps.get(hoverTip.item.hash)}
+        <div class="pcr-viewer-tip-op">▲ upscaled {op.uniform ? fmtFactor(op.factor) + " " : ""}from {op.from.w}×{op.from.h}</div>
+      {/if}
       {#if editDocLayers[hoverTip.item.hash]}<div class="pcr-viewer-tip-layers">▦ {editDocLayers[hoverTip.item.hash]} layers — opens layered in Edit</div>{/if}
     </div>
   {/if}
@@ -2362,9 +2644,11 @@
 
 <ConfirmModal
   open={confirmDeleteOpen}
-  title="Delete image"
-  message="Permanently delete this image? This removes the file from disk and can't be undone."
-  confirmLabel="Delete"
+  title={deleteBatch?.length ? `Delete ${deleteBatch.length} images` : "Delete image"}
+  message={deleteBatch?.length
+    ? `Permanently delete these ${deleteBatch.length} selected images? This removes the files from disk and can't be undone.`
+    : "Permanently delete this image? This removes the file from disk and can't be undone."}
+  confirmLabel={deleteBatch?.length ? `Delete ${deleteBatch.length}` : "Delete"}
   onConfirm={handleDelete}
   onCancel={cancelDelete}
 />
@@ -2374,6 +2658,7 @@
     x={lineageMenu.x}
     y={lineageMenu.y}
     canExpand={lineageMenu.item ? canExpand(lineageMenu.item) : false}
+    canFocus={lineageMenu.item ? (lineageTree.childrenOf.get(lineageMenu.item.hash)?.length > 0 && lineageMenu.item.hash !== focusRootHash) : false}
     canEdit={!!onEditSave}
     canDelete={!!onDelete}
     isLocal={isLocalClient}
@@ -2448,11 +2733,82 @@
   .pcr-viewer-lineage-node.current {
     border-color: #4fc3f7;
     background: rgba(79, 195, 247, 0.15);
+    box-shadow: 0 0 0 1px rgba(79, 195, 247, 0.5), 0 0 10px 1px rgba(79, 195, 247, 0.45);
   }
   .pcr-viewer-lineage-node:hover:not(.current) {
     background: rgba(255, 255, 255, 0.1);
     border-color: #555;
   }
+  /* multi-select for batch delete */
+  .pcr-viewer-lineage-node.selected {
+    border-color: #ffb84d;
+    box-shadow: 0 0 0 1px rgba(255, 184, 77, 0.6);
+  }
+  /* centered over the thumb so it never collides with the corner badges (dot,
+     layers, fork pip / expander, opbadge) — the .selected ring already frames it */
+  .pcr-lin-selcheck {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 50%;
+    background: rgba(255, 184, 77, 0.92);
+    color: #1a1208;
+    pointer-events: none;
+    z-index: 3;
+  }
+  .pcr-lin-focuscrumb {
+    margin: 0 6px 4px;
+    padding: 3px 6px;
+    font-size: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(120, 200, 255, 0.4);
+    background: rgba(40, 70, 95, 0.5);
+    color: #bfe3ff;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .pcr-lin-focuscrumb:hover { background: rgba(50, 90, 120, 0.7); }
+  .pcr-lin-focusx { opacity: 0.7; margin-left: 2px; }
+  .pcr-lin-selbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0 6px 4px;
+    padding: 3px 6px;
+    font-size: 10px;
+    border-radius: 4px;
+    background: rgba(95, 65, 20, 0.5);
+    color: #ffd9a3;
+  }
+  .pcr-lin-seldel {
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: none;
+    background: #e0863a;
+    color: #1a1208;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .pcr-lin-seldel:hover { background: #f09a4d; }
+  .pcr-lin-selclear {
+    padding: 2px 5px;
+    border-radius: 3px;
+    border: none;
+    background: transparent;
+    color: #ffd9a3;
+    cursor: pointer;
+  }
+  .pcr-lin-selclear:hover { color: #fff; }
   .pcr-viewer-lineage-node img {
     width: 100%;
     height: 100%;
@@ -2558,29 +2914,36 @@
   /* ── subway lanes: the rail grows horizontally into parallel vertical lanes ── */
   .pcr-viewer-lineage-visible.lanes {
     width: auto;
-    max-width: 62vw;
+    max-width: 45vw;
   }
-  .pcr-lin-lanes {
-    position: relative;
+  /* scroll viewport — fills the rail; the sized tree inside scrolls both axes */
+  .pcr-lin-treescroll {
     flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 22px;
-    padding: 8px 12px;
     overflow: auto;
+    padding: 8px 12px;
+    position: relative; /* offset origin for centering the current node (contentXY) */
   }
-  .pcr-lin-lanes::-webkit-scrollbar { width: 7px; height: 7px; }
-  .pcr-lin-lanes::-webkit-scrollbar-track { background: transparent; }
-  .pcr-lin-lanes::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+  .pcr-lin-treescroll::-webkit-scrollbar { width: 7px; height: 7px; }
+  .pcr-lin-treescroll::-webkit-scrollbar-track { background: transparent; }
+  .pcr-lin-treescroll::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
   /* both axes scroll here, so kill the default white corner where they meet */
-  .pcr-lin-lanes::-webkit-scrollbar-corner { background: transparent; }
-  .pcr-lin-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 22px;
-    flex: 0 0 auto;
+  .pcr-lin-treescroll::-webkit-scrollbar-corner { background: transparent; }
+  /* sized to the tree's extent; nodes are absolutely positioned within it and the
+     SVG connector layer measures geometry relative to this element */
+  .pcr-lin-tree {
+    position: relative;
+  }
+  .pcr-lin-treenode {
+    position: absolute;
+    transition: opacity 0.12s ease;
+  }
+  /* fade everything off the displayed image's branch so the active lineage reads
+     at a glance; hovering a faded node brings it back to inspect it */
+  .pcr-lin-treenode.dimmed {
+    opacity: 0.7;
+  }
+  .pcr-lin-treenode.dimmed:hover {
+    opacity: 1;
   }
   /* SVG overlay lives inside the scroll content, so it translates with scroll for
      free — geometry is only recomputed on expand/fold/resize/img-load. */
@@ -2595,6 +2958,66 @@
     stroke: #4a4a4a;
     stroke-width: 2;
     fill: none;
+  }
+  /* the displayed image's lineage path — drawn last so it sits over dim edges */
+  .pcr-lin-connectors path.active {
+    stroke: #3b9eff;
+    stroke-width: 3;
+  }
+  /* overflow bundle sitting in a tree row (oldest siblings folded away) */
+  .pcr-lin-treebundle {
+    width: 64px;
+    height: 44px;
+  }
+  /* faint blue tie between active-branch thumbs and the bright path connecting them */
+  .pcr-lin-treenode:not(.dimmed) .pcr-viewer-lineage-node:not(.current) {
+    border-color: rgba(59, 158, 255, 0.45);
+  }
+  /* upscale provenance badge — bottom-left, clears the layers badge (top-left) and dot (bottom-right) */
+  .pcr-lin-opbadge {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    padding: 0 3px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 3px;
+    background: rgba(20, 20, 20, 0.82);
+    color: #8fd0ff;
+    box-shadow: 0 0 0 1px rgba(59, 158, 255, 0.5);
+    pointer-events: none;
+  }
+  /* at-rest "this node hides N branches" marker; swapped for the ⊞ button on hover */
+  .pcr-lin-forkpip {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    min-width: 16px;
+    height: 16px;
+    padding: 0 3px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 4px;
+    background: rgba(20, 20, 20, 0.7);
+    color: #c0a3ff;
+    box-shadow: 0 0 0 1px rgba(150, 120, 255, 0.5);
+    pointer-events: none;
+  }
+  .pcr-viewer-lineage-node:hover .pcr-lin-forkpip,
+  .pcr-viewer-lineage-node:hover .pcr-lin-opbadge {
+    display: none;
+  }
+  .pcr-viewer-tip-op {
+    color: #8fd0ff;
   }
   .pcr-lin-expander {
     position: absolute;

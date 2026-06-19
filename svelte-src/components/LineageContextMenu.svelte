@@ -4,6 +4,7 @@
   let {
     x, y,
     canExpand = false,
+    canFocus = false,
     canEdit = false,
     canDelete = false,
     isLocal = false,
@@ -47,8 +48,11 @@
 <div use:portal class="pcr-ctx" bind:this={menuEl} style="left:{pos.left}px;top:{pos.top}px;">
   {#if canExpand}
     <button class="pcr-ctx-item" onclick={() => act("expand-branches")}>Expand branches</button>
-    {#if canEdit || canDelete || isLocal}<div class="pcr-ctx-sep"></div>{/if}
   {/if}
+  {#if canFocus}
+    <button class="pcr-ctx-item" onclick={() => act("focus-branch")}>Focus this branch</button>
+  {/if}
+  {#if (canExpand || canFocus) && (canEdit || canDelete || isLocal)}<div class="pcr-ctx-sep"></div>{/if}
   {#if canEdit}
     <button class="pcr-ctx-item" onclick={() => act("edit")}>Edit</button>
   {/if}

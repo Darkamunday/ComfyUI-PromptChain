@@ -140,7 +140,7 @@ let _executionWorkflowId = null;
 let _lastPreviewUrl = null;
 
 const OUTPUT_NODE_TYPES = new Set(["SaveImage", "PreviewImage"]);
-const KSAMPLER_TYPES = new Set(["KSampler", "KSamplerAdvanced", "PromptChain_RegionalDetailer", "SamplerCustomAdvanced", "UltimateSDUpscale"]);
+const KSAMPLER_TYPES = new Set(["KSampler", "KSamplerAdvanced", "PromptChain_RegionalDetailer", "SamplerCustomAdvanced", "UltimateSDUpscale", "PromptChain_IdeogramSampler"]);
 const IMAGE_LATENT_TYPES = new Set(["IMAGE", "LATENT"]);
 const LOAD_IMAGE_TYPES = new Set(["LoadImage"]);
 

@@ -1,0 +1,385 @@
+{
+  "name": "Ideogram 4 Prompts",
+  "prompts": [
+    {
+      "id": "ideogram-default",
+      "name": "Default",
+      "category": "Photographic",
+      "text": "// Your description\n{cursor}\n\n// Photographic - Default\nA candid natural-light photograph, soft daylight, true-to-life color and texture, sharp focus with a gently blurred background, relaxed off-center framing.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-photographic-cinematic",
+      "name": "Cinematic",
+      "category": "Photographic",
+      "text": "// Your description\n{cursor}\n\n// Photographic - Cinematic\nA cinematic film still, moody low-key lighting, soft teal-and-amber tones, atmospheric depth, a wide dramatic composition, a contemplative mood.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-photographic-studio_portrait",
+      "name": "Studio Portrait",
+      "category": "Photographic",
+      "text": "// Your description\n{cursor}\n\n// Photographic - Studio Portrait\nA clean studio portrait on a seamless grey backdrop, soft key light with a gentle rim light, natural skin detail, a softly blurred background, refined neutral color.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-photographic-product_shot",
+      "name": "Product Shot",
+      "category": "Photographic",
+      "text": "// Your description\n{cursor}\n\n// Photographic - Product Shot\nA clean studio product photo, the subject centered on a soft seamless gradient, gentle rim light and a subtle reflection beneath, crisp detail and true material color, generous negative space.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-photographic-editorial_fashion",
+      "name": "Editorial Fashion",
+      "category": "Photographic",
+      "text": "// Your description\n{cursor}\n\n// Photographic - Editorial Fashion\nA high-fashion editorial photo, dramatic studio lighting with crisp shadows, confident styling, a refined palette, a clean set, a polished glossy finish.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-poster",
+      "name": "Poster",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Poster\nA bold graphic poster, large title 'YOUR TITLE' across the top and 'your subtitle here' below, a striking central subject, screen-print texture with flat high-contrast color blocking, strong typographic hierarchy, confident limited palette (color palette #1B1035, #FF2E97, #00E5FF). Portrait 2:3.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-logo_wordmark",
+      "name": "Logo / Wordmark",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Logo / Wordmark\nA minimalist flat-vector logo, the wordmark 'BRAND NAME' in clean bold sans-serif with a small simple iconic mark above it, two-tone monochrome palette, perfectly centered with generous whitespace on a plain white background, sharp crisp edges, balanced professional brand mark. 1:1.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-badge_emblem",
+      "name": "Badge / Emblem",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Badge / Emblem\nA vintage badge emblem with 'EST. 2026' curved along the top and 'YOUR GUILD' curved along the bottom, a central engraving-style icon, distressed letterpress texture, two-tone cream and dark navy, symmetrical centered composition. 1:1.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-album_cover",
+      "name": "Album Cover",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Album Cover\nA square album cover, bold display title 'ALBUM NAME' centered in glowing chrome 3D type, dark gradient background with film grain, dramatic studio lighting and high contrast, color palette #0A0A0A, #00E5FF, #FF2E97. 1:1.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-book_cover",
+      "name": "Book Cover",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Book Cover\nA book cover on a deep navy background (#0D1B2A), a bold centered two-line white title 'THE TITLE' then 'SECOND LINE' with the second line larger, a smaller grey subtitle beneath 'your subtitle', a central minimalist gold geometric illustration, elegant serif typography. Portrait 2:3.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-magazine_cover",
+      "name": "Magazine Cover",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Magazine Cover\nA premium magazine cover, large bold masthead 'TITLE' across the top and a smaller tagline 'your tagline' beneath, a striking close-up editorial portrait, dramatic studio lighting with crisp shadows, refined sophisticated palette, clean grid with generous margins, glossy print finish. Portrait 3:4.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-packaging",
+      "name": "Packaging",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Packaging\nA product package design, kraft-paper texture background, a centered bold vintage serif name 'PRODUCT NAME' with a small-caps subline 'your descriptor' below, a central hand-drawn engraving-style illustration, warm earthy palette, balanced label layout. 4:5.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-infographic",
+      "name": "Infographic",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Infographic\nA clean modern infographic, title 'HOW IT WORKS' with three numbered step labels '1 Create', '2 Convert', '3 Export', simple flat icons, generous white space, a single accent color (color palette #00D1B2, #111111, #FFFFFF), tidy aligned grid. 4:5.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-sticker",
+      "name": "Sticker",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Sticker\nA die-cut sticker with a thick clean white border, bold flat cartoon shapes and cheerful saturated colors, a single centered subject, simple chunky linework, an optional all-caps word 'YOUR WORD' in bold condensed type, soft even lighting, glossy vinyl finish. 1:1.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-signage",
+      "name": "Signage",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Signage\nA modern signage design, the word 'WELCOME' large and centered with a smaller line 'your second line' beneath, high-contrast lettering legible at a glance, clean museum-style layout, simple solid background. 16:9.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-design-greeting_card",
+      "name": "Greeting Card",
+      "category": "Design",
+      "text": "// Your description\n{cursor}\n\n// Design - Greeting Card\nA charming greeting card, a friendly central illustration with a hand-lettered message 'YOUR MESSAGE' above it, soft warm palette, plenty of breathing room, gentle decorative accents, balanced symmetrical layout. Portrait 4:5.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-typography-bold_headline",
+      "name": "Bold Headline",
+      "category": "Typography",
+      "text": "// Your description\n{cursor}\n\n// Typography - Bold Headline\nLarge bold uppercase sans-serif headline reading 'YOUR TEXT', clean crisp letterforms with tight kerning, high-contrast color on a simple flat background, strong centered composition, sharp edges, modern editorial type treatment.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-typography-3d_inflated_type",
+      "name": "3D Inflated Type",
+      "category": "Typography",
+      "text": "// Your description\n{cursor}\n\n// Typography - 3D Inflated Type\nMassive puffy inflated 3D balloon letters spelling 'YOUR TEXT', a soft glossy plastic surface with smooth highlights and gentle shadows, playful rounded forms filling the frame, a bright cheerful palette, soft studio lighting.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-typography-hand_lettered_script",
+      "name": "Hand-Lettered Script",
+      "category": "Typography",
+      "text": "// Your description\n{cursor}\n\n// Typography - Hand-Lettered Script\nElegant hand-lettered script spelling 'YOUR TEXT', flowing brush-pen strokes with graceful flourishes and natural ink texture, a warm cream paper background, refined calligraphic composition, an artisanal feel.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-typography-neon_sign",
+      "name": "Neon Sign",
+      "category": "Typography",
+      "text": "// Your description\n{cursor}\n\n// Typography - Neon Sign\nA glowing neon sign spelling 'YOUR TEXT' in vibrant cursive tube lighting, a rich magenta-and-cyan glow reflecting on a dark brick wall, soft atmospheric haze, high-contrast night mood, realistic light bloom.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-typography-vintage_letterpress",
+      "name": "Vintage Letterpress",
+      "category": "Typography",
+      "text": "// Your description\n{cursor}\n\n// Typography - Vintage Letterpress\nDistressed vintage letterpress type spelling 'YOUR TEXT', a bold condensed serif with ink texture and a subtle paper deboss, a muted two-tone palette, a classic centered poster layout, a weathered handcrafted print feel.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-typography-chrome_display",
+      "name": "Chrome Display",
+      "category": "Typography",
+      "text": "// Your description\n{cursor}\n\n// Typography - Chrome Display\nSleek liquid-chrome 3D display type spelling 'YOUR TEXT', mirror-polished metal with sharp specular highlights and reflections, a dark gradient background, dramatic rim lighting, a high-gloss futuristic finish.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-illustration-flat_vector",
+      "name": "Flat Vector",
+      "category": "Illustration",
+      "text": "// Your description\n{cursor}\n\n// Illustration - Flat Vector\nDesigned as flat vector illustration with bold clean outlines, simple geometric shapes and large solid color fills, generous negative space, no gradients or texture, even flat lighting, a minimal modern editorial layout and a confident limited palette.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-illustration-anime_manga",
+      "name": "Anime / Manga",
+      "category": "Illustration",
+      "text": "// Your description\n{cursor}\n\n// Illustration - Anime / Manga\nIllustrated in clean cel-shaded anime style with confident crisp linework, large expressive eyes and flat vibrant color fills, soft cinematic rim lighting and gentle gradient shadows, Studio Ghibli-inspired warmth, a dynamic three-quarter composition.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-illustration-comic_graphic_novel",
+      "name": "Comic / Graphic Novel",
+      "category": "Illustration",
+      "text": "// Your description\n{cursor}\n\n// Illustration - Comic / Graphic Novel\nDrawn in bold comic-book style with heavy black ink outlines, dramatic cross-hatching and crisp cel shading, vivid flat colors with halftone dot texture, a high-contrast dynamic composition and strong directional lighting, graphic-novel ink-and-color energy.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-illustration-watercolor",
+      "name": "Watercolor",
+      "category": "Illustration",
+      "text": "// Your description\n{cursor}\n\n// Illustration - Watercolor\nPainted in ink and watercolor with fine crisp linework, soft translucent washes that bleed and pool, visible paper texture and granulating pigment, gentle natural light, loose painterly edges, a delicate romantic mood and an airy pastel palette.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-illustration-oil_painting",
+      "name": "Oil Painting",
+      "category": "Illustration",
+      "text": "// Your description\n{cursor}\n\n// Illustration - Oil Painting\nRendered as a textured oil painting with thick visible impasto brushstrokes and rich blended color, warm directional studio light raking across the canvas, deep saturated darks and luminous highlights, a painterly classical composition, an old-master gallery atmosphere.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-illustration-children_s_book",
+      "name": "Children's Book",
+      "category": "Illustration",
+      "text": "// Your description\n{cursor}\n\n// Illustration - Children's Book\nIllustrated in warm storybook style with soft hand-painted gouache textures, rounded friendly shapes and gentle cozy color, soft diffuse daylight, a charming whimsical composition with plenty of breathing room, a tender heartwarming picture-book mood.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-illustration-concept_art",
+      "name": "Concept Art",
+      "category": "Illustration",
+      "text": "// Your description\n{cursor}\n\n// Illustration - Concept Art\nRendered as painterly digital concept art with loose confident brushwork and soft atmospheric edges, tonal value blocking, dramatic cinematic lighting and deep aerial perspective, an epic widescreen establishing composition, a moody evocative atmosphere.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-illustration-fantasy_art",
+      "name": "Fantasy Art",
+      "category": "Illustration",
+      "text": "// Your description\n{cursor}\n\n// Illustration - Fantasy Art\nPainted as epic fantasy illustration with luminous golden-hour light and glowing magical accents, a rich jewel-toned palette and intricate ornate detail, a sweeping dramatic vista with atmospheric depth, a heroic awe-inspiring storybook mood.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-3d_render-3d_render",
+      "name": "3D Render",
+      "category": "3D & Render",
+      "text": "// Your description\n{cursor}\n\n// 3D & Render - 3D Render\nRendered as a polished 3D scene with smooth subsurface-scattered surfaces, soft global illumination and gentle ambient occlusion, glossy and matte material contrast, a dramatic studio key light on a clean gradient backdrop, crisp reflections, high-contrast stylized realism.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-3d_render-isometric",
+      "name": "Isometric",
+      "category": "3D & Render",
+      "text": "// Your description\n{cursor}\n\n// 3D & Render - Isometric\nComposed as a clean isometric illustration at a true 30-degree angle, a soft pastel palette and smooth vector shading with subtle clay-render volume, even diffuse lighting and gentle long shadows, a tidy miniature-diorama layout on a plain white background.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-3d_render-pixel_art",
+      "name": "Pixel Art",
+      "category": "3D & Render",
+      "text": "// Your description\n{cursor}\n\n// 3D & Render - Pixel Art\nRendered as crisp 16-bit pixel art on a tight grid, a limited indexed color palette with dithered shading, clean hard-edged sprites and chunky readable forms, flat retro-game lighting, a centered composition against a simple background, a nostalgic arcade mood.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-3d_render-clay_figurine",
+      "name": "Clay Figurine",
+      "category": "3D & Render",
+      "text": "// Your description\n{cursor}\n\n// 3D & Render - Clay Figurine\nRendered as a cute claymation figurine sculpted from smooth matte polymer clay, soft rounded handmade forms with gentle fingerprint texture, soft studio lighting on a simple backdrop, a miniature diorama feel, a charming stop-motion look.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-aesthetic-cyberpunk",
+      "name": "Cyberpunk",
+      "category": "Aesthetic",
+      "text": "// Your description\n{cursor}\n\n// Aesthetic - Cyberpunk\nRendered in neon-soaked cyberpunk style with glowing magenta-and-cyan signage reflecting on wet surfaces, dense atmospheric haze and volumetric light, high-contrast darkness pierced by holographic glow, a gritty futuristic city composition, an electric dystopian mood.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-aesthetic-minimalist",
+      "name": "Minimalist",
+      "category": "Aesthetic",
+      "text": "// Your description\n{cursor}\n\n// Aesthetic - Minimalist\nComposed as a clean minimalist design with a single subject and abundant negative space, a soft gradient or solid background, a restrained two-or-three-color palette, flat even lighting, precise balanced placement, an elegant calm uncluttered mood.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-aesthetic-synthwave_retro",
+      "name": "Synthwave / Retro",
+      "category": "Aesthetic",
+      "text": "// Your description\n{cursor}\n\n// Aesthetic - Synthwave / Retro\nRendered in 1980s synthwave style with a glowing neon grid horizon and a setting-sun gradient, chrome accents and purple-and-pink haze, bold retro-futuristic composition, scanline texture, a nostalgic outrun mood. Color palette #1B1035, #FF2E97, #00E5FF.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    },
+    {
+      "id": "ideogram-aesthetic-risograph_screenprint",
+      "name": "Risograph / Screenprint",
+      "category": "Aesthetic",
+      "text": "// Your description\n{cursor}\n\n// Aesthetic - Risograph / Screenprint\nRendered as a risograph screen-print with a limited 2-3 ink palette, grainy halftone texture and slight misregistration, bold flat shapes with overprint blends, matte paper feel, a handmade indie-poster aesthetic.",
+      "scope": {
+        "type": "architecture",
+        "architecture": "ideogram"
+      }
+    }
+  ]
+}

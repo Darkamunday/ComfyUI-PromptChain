@@ -158,8 +158,13 @@ def _detect_safetensor_arch(filepath: str) -> str:
     header = _read_safetensor_header(filepath)
     if not header:
         return "unknown"
-    tensor_names = [k for k in list(header.keys())[:50] if k != "__metadata__"]
-    names_str = " ".join(tensor_names)
+    all_names = [k for k in header.keys() if k != "__metadata__"]
+    # Ideogram 4's marker tensor sits ~200 keys deep in the fp8 checkpoints (leading
+    # keys are .weight_scale quant tensors), past the first-50 window below — so check
+    # the full key set, mirroring ComfyUI's detect_unet_config.
+    if any("embed_image_indicator." in k for k in all_names):
+        return "ideogram"
+    names_str = " ".join(all_names[:50])
     for pattern, arch in ARCHITECTURE_PATTERNS:
         if pattern in names_str:
             if arch == "flux":
@@ -366,6 +371,11 @@ def scan_models() -> int:
                     cached_mtime = info.get("mtime", 0)
                     cached_size = info.get("size", -1)
                     if st.st_mtime == cached_mtime and st.st_size == cached_size:
+                        # Re-detect a previously-unknown arch (cheap header read, no
+                        # re-hash) so fingerprint improvements reclassify old files
+                        # without a full cache wipe.
+                        if info.get("architecture") == "unknown":
+                            info = {**info, "architecture": detect_architecture(filepath)}
                         new_by_hash[h] = info
                         new_by_filename[filename.lower()] = h
                         new_by_path[filepath] = h
