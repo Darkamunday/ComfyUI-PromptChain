@@ -25,7 +25,8 @@ const ARCHITECTURES = [
   { id: "ltx", label: "LTX Video" },
   { id: "hunyuan_video", label: "HunyuanVideo" },
   { id: "hidream", label: "HiDream" },
-  { id: "ernie", label: "ERNIE Image" }
+  { id: "ernie", label: "ERNIE Image" },
+  { id: "ideogram", label: "Ideogram" }
 ];
 const FAMILIES = {
   sdxl: [
@@ -81,6 +82,9 @@ const FAMILIES = {
   ernie: [
     { id: "ernie_base", label: "ERNIE Image" },
     { id: "ernie_turbo", label: "ERNIE Image Turbo" }
+  ],
+  ideogram: [
+    { id: "ideogram4", label: "Ideogram 4" }
   ]
 };
 export {
@@ -89,4 +93,4 @@ export {
   extractPrecisions as e,
   resolveFilesForPrecision as r
 };
-//# sourceMappingURL=model-constants-WRFJ51jF.js.map
+//# sourceMappingURL=model-constants-DOP7d958.js.map

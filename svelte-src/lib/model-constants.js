@@ -32,6 +32,7 @@ export const ARCHITECTURES = [
   { id: "hunyuan_video", label: "HunyuanVideo" },
   { id: "hidream", label: "HiDream" },
   { id: "ernie", label: "ERNIE Image" },
+  { id: "ideogram", label: "Ideogram" },
 ];
 
 export const FAMILIES = {
@@ -88,5 +89,8 @@ export const FAMILIES = {
   ernie: [
     { id: "ernie_base", label: "ERNIE Image" },
     { id: "ernie_turbo", label: "ERNIE Image Turbo" },
+  ],
+  ideogram: [
+    { id: "ideogram4", label: "Ideogram 4" },
   ],
 };
