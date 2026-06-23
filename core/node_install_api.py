@@ -455,6 +455,11 @@ _DL_RETRIES = 5
 # LFS files (multi-GB) routinely get cut mid-stream by the HF CDN.
 _DL_TRANSIENT = (aiohttp.ClientError, asyncio.TimeoutError, ConnectionError)
 
+# Cooperative cancel for the install flow: POST /promptchain/install/cancel sets
+# this; _download checks it per chunk and the section loop checks it between
+# members. Cleared at the start of each section install.
+INSTALL_CANCEL = asyncio.Event()
+
 
 async def _download(resp: web.StreamResponse, url: str, dest: Path) -> bool:
     """Stream a model file to dest, emitting download progress as SSE.
@@ -491,17 +496,30 @@ async def _download(resp: web.StreamResponse, url: str, dest: Path) -> bool:
                         await _send(resp, {"error": f"refusing {dest.name}: {total} bytes exceeds cap"})
                         return False
                     last_pct = -1
+                    last_emit = 0.0
+                    _loop = asyncio.get_running_loop()
+                    t0 = _loop.time()
+                    start_bytes = done
                     with open(tmp, mode) as f:
                         async for chunk in r.content.iter_chunked(1 << 20):
+                            if INSTALL_CANCEL.is_set():
+                                await _log(resp, f"{dest.name}: cancelled")
+                                return False
                             f.write(chunk)
                             done += len(chunk)
                             if done > _MAX_MODEL_BYTES:
                                 raise RuntimeError("exceeded size cap (server lied about Content-Length)")
-                            if total:
-                                pct = int(done / total * 100)
-                                if pct != last_pct:
-                                    last_pct = pct
-                                    await _send(resp, {"stage": "download", "file": dest.name, "pct": pct})
+                            now = _loop.time()
+                            pct = int(done / total * 100) if total else 0
+                            # emit per integer-percent OR every 0.3s, so the bar and
+                            # the byte/sec rate stay live even on a slow large file
+                            if pct != last_pct or now - last_emit >= 0.3:
+                                last_pct = pct
+                                last_emit = now
+                                elapsed = now - t0
+                                bps = int((done - start_bytes) / elapsed) if elapsed > 0 else 0
+                                await _send(resp, {"stage": "download", "file": dest.name,
+                                                   "pct": pct, "done": done, "total": total, "bps": bps})
             if total and tmp.stat().st_size != total:
                 raise RuntimeError(f"incomplete ({tmp.stat().st_size}/{total} bytes)")
             tmp.replace(dest)

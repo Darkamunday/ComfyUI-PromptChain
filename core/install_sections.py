@@ -26,6 +26,7 @@ from aiohttp import web
 
 from .api_utils import error_response, parse_json
 from .node_install_api import (
+    INSTALL_CANCEL,
     NODE_PACKS, _CRITICAL, _bundled_packs_dir, _custom_nodes_dir, _log,
     _open_sse, _pack_status, _pkg_version, _restore_critical, _run, _send,
     install_pack,
@@ -199,9 +200,13 @@ async def _api_section_install(request):
     resp = await _open_sse(request)
     snapshot = {p: _pkg_version(p) for p in _CRITICAL}
     installed_nodepack = False
+    INSTALL_CANCEL.clear()  # fresh run — drop any stale cancel from a prior install
     try:
         await _log(resp, f"Installing {sec['label']}")
         for m in members:
+            if INSTALL_CANCEL.is_set():
+                await _send(resp, {"cancelled": True})
+                return resp
             ms = _member_status(m)
             await _send(resp, {"member": ms["label"], "state": ms["state"]})
             if ms["state"] == "installed":
@@ -232,6 +237,15 @@ async def _api_section_install(request):
         except Exception:
             pass
     return resp
+
+
+@routes.post("/promptchain/install/cancel")
+async def _api_install_cancel(request):
+    """Signal the running section install to stop. _download checks this per
+    chunk and the section loop checks it between members, so the in-flight file
+    bails (keeping a .part for resume) and no further members start."""
+    INSTALL_CANCEL.set()
+    return web.json_response({"ok": True})
 
 
 # ── update check ──────────────────────────────────────────────────

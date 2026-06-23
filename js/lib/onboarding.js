@@ -770,6 +770,23 @@ function buildChecklistScreen(overlay, card) {
 }
 
 // One install-step row reflecting a section's detected health.
+function fmtBytes(n) {
+  if (!n || n < 0) return "0 B";
+  const u = ["B", "KB", "MB", "GB"];
+  let i = 0;
+  while (n >= 1024 && i < u.length - 1) { n /= 1024; i++; }
+  return `${n < 10 && i > 0 ? n.toFixed(1) : Math.round(n)} ${u[i]}`;
+}
+
+// Render the live download stat for the status cell: "12.3 MB/s · 1.2 GB / 3.2 GB".
+function fmtProgress(p) {
+  const parts = [];
+  if (p.bps) parts.push(`${fmtBytes(p.bps)}/s`);
+  if (p.total) parts.push(`${fmtBytes(p.done || 0)} / ${fmtBytes(p.total)}`);
+  if (!parts.length) parts.push(`${p.pct || 0}%`);
+  return parts.join(" · ");
+}
+
 function renderSectionRow(sec, parent) {
   const section = document.createElement("div");
   section.className = "pcr-onboarding-section";
@@ -797,8 +814,17 @@ function renderSectionRow(sec, parent) {
   d.textContent = sec.desc + deferredNote;
   text.append(t, d);
 
+  // Live download progress bar — hidden until this row starts a byte-counted
+  // download (bundled-pack copies have no byte stream, so they stay text-only).
+  const barTrack = document.createElement("div");
+  barTrack.style.cssText = "display:none;height:4px;border-radius:2px;background:rgba(255,255,255,.12);margin-top:7px;overflow:hidden;";
+  const barFill = document.createElement("div");
+  barFill.style.cssText = "height:100%;width:0%;border-radius:2px;background:#e8821e;transition:width .2s ease;";
+  barTrack.appendChild(barFill);
+  text.appendChild(barTrack);
+
   const status = document.createElement("div");
-  status.style.cssText = "font-size:12px;white-space:nowrap;max-width:210px;overflow:hidden;text-overflow:ellipsis;text-align:right;margin-top:2px;";
+  status.style.cssText = "font-size:12px;white-space:nowrap;max-width:240px;overflow:hidden;text-overflow:ellipsis;text-align:right;margin-top:2px;";
   if (installed) { status.style.color = "#6c6"; status.textContent = "✓ Installed"; }
   else if (sec.health === "partial") { status.style.color = "#e0a13a"; status.textContent = `${sec.installed_count} of ${sec.total} installed`; }
 
@@ -807,7 +833,7 @@ function renderSectionRow(sec, parent) {
     if (e.target !== cb && !cb.disabled) cb.checked = !cb.checked;
   });
   parent.appendChild(section);
-  return { sec, cb, status };
+  return { sec, cb, status, barTrack, barFill };
 }
 
 // Consume one per-pack install SSE stream, reporting stage text + log lines.
@@ -817,6 +843,7 @@ async function installOnePack(spec, onStage, onLog) {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(spec.body),
+    signal: spec.signal,
   });
   if (!res.ok || !res.body) {
     const detail = await res.text().catch(() => "");
@@ -846,7 +873,7 @@ async function installOnePack(spec, onStage, onLog) {
       try { evt = JSON.parse(chunk.slice(5).trim()); } catch { continue; }
       if (evt.error) throw new Error(evt.error);
       if (evt.line) { onLog("  " + evt.line); continue; }
-      if (evt.stage === "download") { onStage(`Downloading ${evt.file}… ${evt.pct ?? 0}%`); continue; }
+      if (evt.stage === "download") { onStage({ pct: evt.pct ?? 0, done: evt.done, total: evt.total, bps: evt.bps, file: evt.file }); continue; }
       if (evt.stage === "prefetch") { onStage(`Pre-fetching ${evt.file || "extra weights"}…`); continue; }
       if (evt.stage === "models") { onStage(`Downloading ${evt.count || ""} model file${evt.count > 1 ? "s" : ""}…`); continue; }
       if (evt.stage) { onStage(STAGE[evt.stage] || evt.stage); continue; }
@@ -862,25 +889,64 @@ async function runInstall({ overlay, card, rows, progressLine, log, nav, skip, i
   if (nav) nav.style.pointerEvents = "none"; // no step-nav back-nav mid-install
   if (skip) skip.disabled = true;
   install.disabled = true;
+  install.textContent = "Installing…";
+  install.style.opacity = "0.55";
+  install.style.cursor = "default";
   rows.forEach((r) => { r.cb.disabled = true; });
   progressLine.style.display = "block";
 
+  // Cancel: aborts the in-flight fetch AND tells the server to stop. The current
+  // file finishes its chunk (keeping a .part for resume), then it bails.
+  const controller = new AbortController();
+  let cancelled = false;
+  const cancelBtn = navButton("Cancel", false);
+  cancelBtn.style.marginRight = "8px";
+  cancelBtn.addEventListener("click", () => {
+    if (cancelled) return;
+    cancelled = true;
+    cancelBtn.disabled = true;
+    cancelBtn.textContent = "Cancelling…";
+    controller.abort();
+    fetch("/promptchain/install/cancel", { method: "POST" }).catch(() => {});
+    progressLine.textContent = "Cancelling… the current file finishes, then it stops.";
+  });
+  install.before(cancelBtn);
+
   let anyFailed = false;
   for (let i = 0; i < selected.length; i++) {
-    const { sec, status } = selected[i];
+    if (cancelled) break;
+    const { sec, status, barTrack, barFill } = selected[i];
     progressLine.textContent = `Installing ${i + 1} of ${selected.length}…`;
     status.style.color = "#7bd";
     status.textContent = "⏳ starting…";
+    if (barTrack) { barTrack.style.display = "none"; barFill.style.width = "0%"; }
     log(`▸ ${sec.label}`);
     try {
       // One SSE per section. The section installer skips already-present members
       // server-side, so a partial section only fetches what's still missing.
       await installOnePack(
-        { url: "/promptchain/install/install", body: { section: sec.id } },
-        (s) => { status.textContent = s; }, log);
+        { url: "/promptchain/install/install", body: { section: sec.id }, signal: controller.signal },
+        (s) => {
+          if (typeof s === "string") {
+            if (barTrack) barTrack.style.display = "none";
+            status.textContent = s;
+          } else {
+            // byte-counted download → fill the bar, show rate + size in the cell
+            if (barTrack && s.total) { barTrack.style.display = "block"; barFill.style.width = (s.pct || 0) + "%"; }
+            status.textContent = fmtProgress(s);
+          }
+        }, log);
       status.style.color = "#6c6";
       status.textContent = "✓ done";
+      if (barTrack) barTrack.style.display = "none";
     } catch (e) {
+      if (barTrack) barTrack.style.display = "none";
+      if (cancelled || e.name === "AbortError") {
+        cancelled = true;
+        status.style.color = "#999";
+        status.textContent = "— cancelled";
+        break;
+      }
       anyFailed = true;
       status.style.color = "#e77";
       status.textContent = "✗ failed";
@@ -889,13 +955,16 @@ async function runInstall({ overlay, card, rows, progressLine, log, nav, skip, i
   }
 
   await completeOnboarding();
+  cancelBtn.remove();
 
   // Done — the copied-out packs need a restart to register their nodes. Replace
   // the Install button entirely (not repurpose it — its addEventListener handler
   // can't be cleared by onclick=null and would re-fire runInstall on click).
-  progressLine.textContent = anyFailed
-    ? "Finished with some errors (see log). Restart ComfyUI to load what installed."
-    : "All set! Restart ComfyUI to load the new features.";
+  progressLine.textContent = cancelled
+    ? "Cancelled. Restart ComfyUI to load whatever finished installing."
+    : anyFailed
+      ? "Finished with some errors (see log). Restart ComfyUI to load what installed."
+      : "All set! Restart ComfyUI to load the new features.";
   if (skip) skip.style.display = "none";
 
   const restartBtn = navButton("Restart ComfyUI", true);
