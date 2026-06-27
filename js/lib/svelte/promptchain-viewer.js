@@ -723,9 +723,20 @@ function UpscaleOptionsModal($$anchor, $$props) {
   });
   let engineKind = user_derived(() => get(engineEntry) ? get(engineEntry).architecture === "qwen_edit" ? "qwen" : get(engineEntry).architecture === "zimage" ? "zimage" : get(engineEntry).architecture === "krea2" ? "krea2" : get(engineEntry).architecture === "flux" ? "flux1" : "sdxl" : get(engineSel) === "source" ? "source" : "plain");
   let realism = state(false);
+  const realismAssetsInstalled = (() => {
+    var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j;
+    try {
+      const LG = window.LiteGraph;
+      const clip = ((_e = (_d = (_c = (_b = (_a = LG == null ? void 0 : LG.createNode) == null ? void 0 : _a.call(LG, "CLIPLoader")) == null ? void 0 : _b.widgets) == null ? void 0 : _c.find((w) => w.name === "clip_name")) == null ? void 0 : _d.options) == null ? void 0 : _e.values) || [];
+      const loras = ((_j = (_i = (_h = (_g = (_f = LG == null ? void 0 : LG.createNode) == null ? void 0 : _f.call(LG, "LoraLoaderModelOnly")) == null ? void 0 : _g.widgets) == null ? void 0 : _h.find((w) => w.name === "lora_name")) == null ? void 0 : _i.options) == null ? void 0 : _j.values) || [];
+      return clip.some((o) => /qwen3.?vl.*4b.*abliterated/i.test(o)) && loras.some((o) => /krea2-realism/i.test(o)) && loras.some((o) => /krea2_turbo_projector_scale/i.test(o));
+    } catch {
+      return false;
+    }
+  })();
   let realismAvailable = user_derived(() => {
     var _a;
-    return get(engineKind) === "krea2" && /turbo/i.test(((_a = get(engineEntry)) == null ? void 0 : _a.filename) || "");
+    return get(engineKind) === "krea2" && /turbo/i.test(((_a = get(engineEntry)) == null ? void 0 : _a.filename) || "") && realismAssetsInstalled;
   });
   let sourceGraftable = user_derived(() => {
     var _a;
@@ -2566,9 +2577,20 @@ function InpaintModal($$anchor, $$props) {
   });
   let engineKind = user_derived(() => get(engineEntry) ? get(engineEntry).architecture === "qwen_edit" ? "qwen" : get(engineEntry).architecture === "flux" ? "flux1" : get(engineEntry).architecture === "krea2" ? "krea2" : "sdxl" : "source");
   let realism = state(false);
+  const realismAssetsInstalled = (() => {
+    var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j;
+    try {
+      const LG = window.LiteGraph;
+      const clip = ((_e = (_d = (_c = (_b = (_a = LG == null ? void 0 : LG.createNode) == null ? void 0 : _a.call(LG, "CLIPLoader")) == null ? void 0 : _b.widgets) == null ? void 0 : _c.find((w) => w.name === "clip_name")) == null ? void 0 : _d.options) == null ? void 0 : _e.values) || [];
+      const loras = ((_j = (_i = (_h = (_g = (_f = LG == null ? void 0 : LG.createNode) == null ? void 0 : _f.call(LG, "LoraLoaderModelOnly")) == null ? void 0 : _g.widgets) == null ? void 0 : _h.find((w) => w.name === "lora_name")) == null ? void 0 : _i.options) == null ? void 0 : _j.values) || [];
+      return clip.some((o) => /qwen3.?vl.*4b.*abliterated/i.test(o)) && loras.some((o) => /krea2-realism/i.test(o)) && loras.some((o) => /krea2_turbo_projector_scale/i.test(o));
+    } catch {
+      return false;
+    }
+  })();
   let realismAvailable = user_derived(() => {
     var _a;
-    return get(engineKind) === "krea2" && /turbo/i.test(((_a = get(engineEntry)) == null ? void 0 : _a.filename) || "");
+    return get(engineKind) === "krea2" && /turbo/i.test(((_a = get(engineEntry)) == null ? void 0 : _a.filename) || "") && realismAssetsInstalled;
   });
   let engineGroups = user_derived(() => {
     var _a, _b, _c, _d;
@@ -4418,9 +4440,20 @@ function I2IModal($$anchor, $$props) {
   });
   let engineKind = user_derived(() => get(engineEntry) ? get(engineEntry).architecture === "flux" ? "flux1" : get(engineEntry).architecture === "krea2" ? "krea2" : "sdxl" : "source");
   let realism = state(false);
+  const realismAssetsInstalled = (() => {
+    var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j;
+    try {
+      const LG = window.LiteGraph;
+      const clip = ((_e = (_d = (_c = (_b = (_a = LG == null ? void 0 : LG.createNode) == null ? void 0 : _a.call(LG, "CLIPLoader")) == null ? void 0 : _b.widgets) == null ? void 0 : _c.find((w) => w.name === "clip_name")) == null ? void 0 : _d.options) == null ? void 0 : _e.values) || [];
+      const loras = ((_j = (_i = (_h = (_g = (_f = LG == null ? void 0 : LG.createNode) == null ? void 0 : _f.call(LG, "LoraLoaderModelOnly")) == null ? void 0 : _g.widgets) == null ? void 0 : _h.find((w) => w.name === "lora_name")) == null ? void 0 : _i.options) == null ? void 0 : _j.values) || [];
+      return clip.some((o) => /qwen3.?vl.*4b.*abliterated/i.test(o)) && loras.some((o) => /krea2-realism/i.test(o)) && loras.some((o) => /krea2_turbo_projector_scale/i.test(o));
+    } catch {
+      return false;
+    }
+  })();
   let realismAvailable = user_derived(() => {
     var _a;
-    return get(engineKind) === "krea2" && /turbo/i.test(((_a = get(engineEntry)) == null ? void 0 : _a.filename) || "");
+    return get(engineKind) === "krea2" && /turbo/i.test(((_a = get(engineEntry)) == null ? void 0 : _a.filename) || "") && realismAssetsInstalled;
   });
   let engineGroups = user_derived(() => {
     var _a, _b, _c;

@@ -73,7 +73,20 @@
   // Realism mode: a krea2_turbo-only recipe (abliterated encoder + realism/bypass
   // LoRAs). Tile upscale keeps qwen_image_vae (seam-safe) and USDU's sampler.
   let realism = $state(false);
-  let realismAvailable = $derived(engineKind === "krea2" && /turbo/i.test(engineEntry?.filename || ""));
+  // Realism assets present? (abliterated encoder + realism + projector LoRAs).
+  // Computed once — installed lists don't change without a restart. Hides the
+  // toggle until the Krea 2 Realism pack is installed (Settings → Install).
+  const realismAssetsInstalled = (() => {
+    try {
+      const LG = window.LiteGraph;
+      const clip = LG?.createNode?.("CLIPLoader")?.widgets?.find((w) => w.name === "clip_name")?.options?.values || [];
+      const loras = LG?.createNode?.("LoraLoaderModelOnly")?.widgets?.find((w) => w.name === "lora_name")?.options?.values || [];
+      return clip.some((o) => /qwen3.?vl.*4b.*abliterated/i.test(o))
+        && loras.some((o) => /krea2-realism/i.test(o))
+        && loras.some((o) => /krea2_turbo_projector_scale/i.test(o));
+    } catch { return false; }
+  })();
+  let realismAvailable = $derived(engineKind === "krea2" && /turbo/i.test(engineEntry?.filename || "") && realismAssetsInstalled);
   let sourceGraftable = $derived(engineKind === "source" && !!caps?.graftable);
   // Tile engines share the USDU recipe surface (denoise/climb/tile knobs);
   // qwen is the whole-frame re-render with its own reduced surface.

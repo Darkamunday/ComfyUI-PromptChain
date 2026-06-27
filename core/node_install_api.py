@@ -161,6 +161,28 @@ NODE_PACKS: dict[str, dict] = {
              "dest": "vae/Wan2.1_VAE_upscale2x_imageonly_real_v1.safetensors"},
         ],
     },
+    "Krea2Realism": {
+        "label": "Krea 2 Realism",
+        # Models-only (no custom node). The Realism mode — the krea2_turbo Realism
+        # templates + the editor inpaint/i2i/upscale toggle — swaps in the
+        # abliterated Qwen3-VL encoder (uncensored at encode), a realism LoRA, and
+        # the projector-scale "filter bypass" LoRA. RES4LYF's ClownsharKSampler is
+        # deliberately NOT bundled (its scipy/kornia deps can't be pip-installed at
+        # runtime); the recipe uses the built-in res_multistep sampler instead. The
+        # 268-byte projector LoRA has no upstream URL — it ships in this repo
+        # (data/loras/) and is copied straight into models/loras/ on install.
+        "proof_nodes": [],
+        "models": [
+            {"url": "https://huggingface.co/ahmed22xa/Huihui-Qwen3-VL-4B-Instruct-abliterated-comfy/resolve/main/Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
+             "dest": "text_encoders/Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors"},
+            {"url": "https://huggingface.co/RudySen/Krea2-realism-V1/resolve/main/Krea2-realism-V1.safetensors",
+             "dest": "loras/Krea2-realism-V1.safetensors"},
+        ],
+        "data_models": [
+            {"src": "data/loras/krea2_turbo_projector_scale.safetensors",
+             "dest": "loras/krea2_turbo_projector_scale.safetensors"},
+        ],
+    },
     "StyleReference": {
         "label": "Style Reference",
         # cubiq's IPAdapter pack is BUNDLED (bundled_packs/ComfyUI_IPAdapter_plus),
@@ -388,6 +410,7 @@ def _pack_status(injectable: str) -> dict:
         repos.append({"url": "bundled with PromptChain", "dir": name, "cloned": (cn / name).is_dir()})
     md = _models_dir()
     missing_models = [m["dest"] for m in spec.get("models", []) if not (md / m["dest"]).exists()]
+    missing_models += [m["dest"] for m in spec.get("data_models", []) if not (md / m["dest"]).exists()]
     return {
         "injectable": injectable,
         "label": spec["label"],
@@ -647,6 +670,24 @@ async def install_pack(resp: web.StreamResponse, injectable: str,
                 return False
             if not await _download(resp, m["url"], dest):
                 return False
+
+    # Model files shipped INSIDE this repo (e.g. the 268-byte projector LoRA that
+    # has no upstream URL) — copied straight into models/, no network needed.
+    for m in spec.get("data_models") or []:
+        dest = _resolve_model_dest(m["dest"])
+        if dest is None:
+            await _send(resp, {"error": f"refusing unsafe model path: {m['dest']}"})
+            return False
+        src = _bundled_packs_dir().parent / m["src"]
+        if dest.exists():
+            await _log(resp, f"{m['dest']}: already present, skipping")
+        elif not src.is_file():
+            await _send(resp, {"error": f"bundled model file not found: {m['src']}"})
+            return False
+        else:
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dest)
+            await _log(resp, f"{m['dest']}: copied from PromptChain")
 
     return True
 
