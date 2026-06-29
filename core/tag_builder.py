@@ -3528,6 +3528,24 @@ async def _api_character_counts(request):
     return web.json_response({"counts": counts})
 
 
+@routes.get("/promptchain/tag-builder/characters/identity-index")
+async def _api_character_identity_index(request):
+    # Full normalized-character identity set for TagBuilder2's round-trip
+    # parser, which must recognize EVERY normalized character in existing
+    # prompt text. The public /characters route caps per_page at 200, so an
+    # onMount preload of `per_page=1000` silently saw only the first 200 of
+    # the ~1,486 normalized rows. Project just the five fields the rebind path
+    # reads (parseNatlangPrompt: tag/display/series/base_tags/base_natlang) so
+    # the payload stays small — no wiki_text or unused columns. Unpaginated by
+    # design. Registered above /characters/{tag} so it isn't matched as a tag.
+    db = get_db()
+    rows = db.execute(
+        "SELECT tag, display, series, base_tags, base_natlang "
+        "FROM characters WHERE natlang_status = 'normalized'"
+    ).fetchall()
+    return web.json_response({"characters": [dict(r) for r in rows]})
+
+
 @routes.get("/promptchain/tag-builder/characters/{tag}")
 async def _api_character_detail(request):
     tag = request.match_info["tag"]

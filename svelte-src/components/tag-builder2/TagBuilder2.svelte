@@ -272,6 +272,38 @@
     maximized = !maximized;
     try { localStorage.setItem(MAXIMIZED_KEY, maximized ? "1" : "0"); } catch {}
   }
+
+  // Recently-used picks (character/cast identities + tag items), persisted to
+  // localStorage and surfaced as a pinned strip atop the default "all" view so
+  // the things reached for most are one click away — no searching, no schema.
+  // Disabled for now (user request) — implementation kept intact; flip
+  // RECENT_ENABLED back to true to re-enable the strip + its tracking.
+  const RECENT_ENABLED = false;
+  const RECENT_KEY = "pcr-atb2-recent";
+  const RECENT_MAX = 24;
+  let recentPicks = $state([]);
+  try {
+    const stored = JSON.parse(localStorage.getItem(RECENT_KEY) || "[]");
+    if (Array.isArray(stored)) recentPicks = stored.slice(0, RECENT_MAX);
+  } catch {}
+  // Stable identity for dedupe: an item is keyed by where it lives + its tag;
+  // an identity by character/cast tag (+ cast group).
+  function recentKey(e) {
+    return e.type === "item"
+      ? `item:${e.categoryKey}:${e.groupKey}:${e.item?.item_tag}`
+      : `id:${e.option?.kind}:${e.option?.group || ""}:${e.option?.tag}`;
+  }
+  function recordRecent(entry) {
+    if (!RECENT_ENABLED) return;
+    const k = recentKey(entry);
+    recentPicks = [entry, ...recentPicks.filter(e => recentKey(e) !== k)].slice(0, RECENT_MAX);
+    try { localStorage.setItem(RECENT_KEY, JSON.stringify(recentPicks)); } catch {}
+  }
+  function clearRecent() {
+    recentPicks = [];
+    try { localStorage.setItem(RECENT_KEY, JSON.stringify(recentPicks)); } catch {}
+  }
+
   $effect(() => {
     const el = browserEl;
     if (!el) return;
@@ -733,7 +765,7 @@
     // Preload normalized characters (tag + base_natlang etc.) so the
     // round-trip parser can recognize both tag-form ("cammy_white") and
     // natlang ("Cammy White from Street Fighter.") character identities.
-    const charTagsPromise = fetch(`/promptchain/tag-builder/characters?natlang_status=normalized&per_page=1000&sort=display`)
+    const charTagsPromise = fetch(`/promptchain/tag-builder/characters/identity-index`)
       .then(r => r.ok ? r.json() : { characters: [] })
       .then(d => {
         const chars = d.characters || [];
@@ -1448,6 +1480,7 @@
   //   - active w/o identity     -> bind directly to active
   //   - active with identity    -> open swap-confirm modal
   async function pickIdentityFromBrowser(option) {
+    recordRecent({ type: "identity", option });
     const subj = activeSubject;
     if (subj && subj.character) {
       pendingIdentitySwap = { subjId: subj.id, current: subj.character, next: option };
@@ -3531,6 +3564,7 @@
       toggleModifier(subj.id, item.item_tag);
       return;
     }
+    recordRecent({ type: "item", categoryKey, groupKey, item });
     const cat = CATEGORIES.find(c => c.key === categoryKey);
     if (!cat) return;
     if (cat.scope === "furniture") {
@@ -5121,6 +5155,51 @@
       </div>
 
       {#if activeCategory === "all"}
+        {#snippet recentCard(r)}
+          {#if r.type === "identity"}
+            {@const o = r.option}
+            {@const isChar = o.kind === "character"}
+            {@const rHasImg = isChar ? characterThumbs.has(o.tag) : !!castThumbs[o.group]?.has(o.tag)}
+            <!-- svelte-ignore a11y_click_events_have_key_events -->
+            <!-- svelte-ignore a11y_no_static_element_interactions -->
+            <div class="pcr-atb2-card" title={o.base_natlang || o.display || o.tag} onclick={() => pickIdentityFromBrowser(o)}>
+              <div class="pcr-atb2-card-thumb" class:has-image={rHasImg}>
+                {#if rHasImg}
+                  <img src={isChar
+                    ? `/promptchain/tag-builder/thumb/characters/${encodeURIComponent(o.tag)}`
+                    : `/promptchain/tag-builder/thumb/${encodeURIComponent(o.group)}/${encodeURIComponent(o.tag)}`} alt="" loading="lazy" />
+                {/if}
+              </div>
+              <div class="pcr-atb2-card-name">{o.display || o.tag}</div>
+              {#if o.series}<div class="pcr-atb2-card-group">{o.series}</div>{/if}
+            </div>
+          {:else}
+            {@const it = r.item}
+            {@const rBucket = CATEGORIES.find(c => c.key === r.categoryKey)?.bucket}
+            {@const rHasImg = !!rBucket && hasThumb(rBucket, it.item_tag)}
+            <!-- svelte-ignore a11y_click_events_have_key_events -->
+            <!-- svelte-ignore a11y_no_static_element_interactions -->
+            <div class="pcr-atb2-card" title={it.base_natlang || it.display_name || it.item_tag} onclick={() => pickItemFromAll(it, r.categoryKey, r.groupKey)}>
+              <div class="pcr-atb2-card-thumb" class:has-image={rHasImg}>
+                {#if rHasImg}<img src={thumbUrl(rBucket, it.item_tag)} alt="" loading="lazy" />{/if}
+              </div>
+              <div class="pcr-atb2-card-name">{it.display_name || it.item_tag}</div>
+            </div>
+          {/if}
+        {/snippet}
+        {#if RECENT_ENABLED && recentPicks.length > 0 && !searchQuery.trim()}
+          <div class="pcr-atb2-browser-section pcr-atb2-recent-section">
+            <div class="pcr-atb2-browser-section-header">
+              <span class="pcr-atb2-browser-section-cat">🕘 Recently used</span>
+              <button class="pcr-atb2-recent-clear" onclick={clearRecent} title="Clear recently used">clear</button>
+            </div>
+            <div class="pcr-atb2-grid">
+              {#each recentPicks as r (recentKey(r))}
+                {@render recentCard(r)}
+              {/each}
+            </div>
+          </div>
+        {/if}
         {#if allCategorySections.length === 0}
           <div class="pcr-atb2-empty">{searchQuery ? `No items match "${searchQuery}"` : "Loading…"}</div>
         {:else}
@@ -6270,6 +6349,23 @@
   .pcr-atb2-browser-section-cat { color: #888; }
   .pcr-atb2-browser-section-sep { color: #555; }
   .pcr-atb2-browser-section-grp { color: #d4b8ff; }
+  .pcr-atb2-recent-section .pcr-atb2-browser-section-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .pcr-atb2-recent-clear {
+    margin-left: auto;
+    background: none;
+    border: 1px solid #333;
+    color: #777;
+    border-radius: 4px;
+    font: inherit;
+    font-size: 10px;
+    padding: 1px 8px;
+    cursor: pointer;
+  }
+  .pcr-atb2-recent-clear:hover { color: #ccc; border-color: #555; }
   .pcr-atb2-card {
     background: #ffffff0d;
     border: 1px solid #333;

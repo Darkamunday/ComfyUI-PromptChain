@@ -1,4 +1,4 @@
-import { d as delegate, p as push, a as prop, s as state, c as proxy, u as user_effect, e as set, f as sibling, n as child, i as if_block, g as get, t as template_effect, j as delegated, k as append, l as pop, v as first_child, h as set_class, F as set_style, y as set_text, A as from_html, m as user_derived, w as each, z as index, I as to_array, C as tick, o as bind_this, D as comment, x as set_attribute, q as set_value, S as text, N as unmount, M as mount } from "./disclose-version-CPcS7M7Y.js";
+import { d as delegate, p as push, a as prop, s as state, c as proxy, u as user_effect, e as set, f as sibling, n as child, i as if_block, g as get, t as template_effect, j as delegated, k as append, l as pop, v as first_child, h as set_class, F as set_style, y as set_text, A as from_html, m as user_derived, w as each, z as index, I as to_array, C as tick, o as bind_this, D as comment, x as set_attribute, q as set_value, S as text, L as noop, N as unmount, M as mount } from "./disclose-version-CPcS7M7Y.js";
 import { a as onMount } from "./index-client-DMSJyFwf.js";
 import { a as action } from "./actions-DQdCj5pi.js";
 import { a as bind_checked, b as bind_value } from "./input-uYBeAZAB.js";
@@ -1473,95 +1473,102 @@ var root_18 = from_html(`<div><span class="pcr-atb2-rail-sub-label svelte-ibd6yj
 var root_16 = from_html(`<div class="pcr-atb2-rail-drilldown svelte-ibd6yj"><!> <!></div>`);
 var root_2 = from_html(`<div><span class="pcr-atb2-rail-icon svelte-ibd6yj"> </span> <span class="pcr-atb2-rail-label svelte-ibd6yj"> </span> <!></div> <!>`, 1);
 var root_19 = from_html(`<span class="pcr-atb2-bc-sep svelte-ibd6yj">/</span> <span class="pcr-atb2-bc-group svelte-ibd6yj"> </span>`, 1);
-var root_21 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
+var root_23 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
+var root_24 = from_html(`<div class="pcr-atb2-card-group svelte-ibd6yj"> </div>`);
+var root_22 = from_html(`<div class="pcr-atb2-card svelte-ibd6yj"><div><!></div> <div class="pcr-atb2-card-name svelte-ibd6yj"> </div> <!></div>`);
 var root_26 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
-var root_25 = from_html(`<div><!></div>`);
-var root_28 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
-var root_27 = from_html(`<div><!></div>`);
-var root_29 = from_html(`<div class="pcr-atb2-card-thumb has-image svelte-ibd6yj"><img alt="" loading="lazy" class="svelte-ibd6yj"/></div>`);
-var root_30 = from_html(`<div class="pcr-atb2-card-thumb svelte-ibd6yj"></div>`);
-var root_31 = from_html(`<button title="Edit modifiers" aria-label="Edit modifiers"></button>`);
-var root_24 = from_html(`<div><!> <div class="pcr-atb2-card-name svelte-ibd6yj"><!> </div></div>`);
-var root_23 = from_html(`<div class="pcr-atb2-browser-section svelte-ibd6yj"><div class="pcr-atb2-section-sentinel svelte-ibd6yj"></div> <div class="pcr-atb2-browser-section-header svelte-ibd6yj"><span class="pcr-atb2-browser-section-cat svelte-ibd6yj"> </span> <span class="pcr-atb2-browser-section-sep svelte-ibd6yj">/</span> <span class="pcr-atb2-browser-section-grp svelte-ibd6yj"> </span></div> <div class="pcr-atb2-grid svelte-ibd6yj"></div></div>`);
-var root_34 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">Searching characters…</div>`);
-var root_35 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
-var root_38 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
-var root_39 = from_html(`<div class="pcr-atb2-card-group svelte-ibd6yj"> </div>`);
-var root_37 = from_html(`<div><div><!></div> <div class="pcr-atb2-card-name svelte-ibd6yj"> </div> <!></div>`);
-var root_40 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
-var root_36 = from_html(`<div class="pcr-atb2-grid svelte-ibd6yj"></div> <!>`, 1);
-var root_42 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
+var root_25 = from_html(`<div class="pcr-atb2-card svelte-ibd6yj"><div><!></div> <div class="pcr-atb2-card-name svelte-ibd6yj"> </div></div>`);
+var root_27 = from_html(`<div class="pcr-atb2-browser-section pcr-atb2-recent-section svelte-ibd6yj"><div class="pcr-atb2-browser-section-header svelte-ibd6yj"><span class="pcr-atb2-browser-section-cat svelte-ibd6yj">🕘 Recently used</span> <button class="pcr-atb2-recent-clear svelte-ibd6yj" title="Clear recently used">clear</button></div> <div class="pcr-atb2-grid svelte-ibd6yj"></div></div>`);
+var root_29 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
+var root_34 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
+var root_33 = from_html(`<div><!></div>`);
+var root_36 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
+var root_35 = from_html(`<div><!></div>`);
+var root_37 = from_html(`<div class="pcr-atb2-card-thumb has-image svelte-ibd6yj"><img alt="" loading="lazy" class="svelte-ibd6yj"/></div>`);
+var root_38 = from_html(`<div class="pcr-atb2-card-thumb svelte-ibd6yj"></div>`);
+var root_39 = from_html(`<button title="Edit modifiers" aria-label="Edit modifiers"></button>`);
+var root_32 = from_html(`<div><!> <div class="pcr-atb2-card-name svelte-ibd6yj"><!> </div></div>`);
+var root_31 = from_html(`<div class="pcr-atb2-browser-section svelte-ibd6yj"><div class="pcr-atb2-section-sentinel svelte-ibd6yj"></div> <div class="pcr-atb2-browser-section-header svelte-ibd6yj"><span class="pcr-atb2-browser-section-cat svelte-ibd6yj"> </span> <span class="pcr-atb2-browser-section-sep svelte-ibd6yj">/</span> <span class="pcr-atb2-browser-section-grp svelte-ibd6yj"> </span></div> <div class="pcr-atb2-grid svelte-ibd6yj"></div></div>`);
+var root_20 = from_html(`<!> <!>`, 1);
+var root_42 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">Searching characters…</div>`);
 var root_43 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
 var root_46 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
-var root_45 = from_html(`<div><div><!></div> <div class="pcr-atb2-card-name svelte-ibd6yj"> </div></div>`);
-var root_44 = from_html(`<div class="pcr-atb2-grid svelte-ibd6yj"></div>`);
-var root_47 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">Connect a model to see styles.</div>`);
-var root_48 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">Loading styles…</div>`);
-var root_49 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">No styles found for this model.</div>`);
+var root_47 = from_html(`<div class="pcr-atb2-card-group svelte-ibd6yj"> </div>`);
+var root_45 = from_html(`<div><div><!></div> <div class="pcr-atb2-card-name svelte-ibd6yj"> </div> <!></div>`);
+var root_48 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
+var root_44 = from_html(`<div class="pcr-atb2-grid svelte-ibd6yj"></div> <!>`, 1);
 var root_50 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
-var root_51 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">No items.</div>`);
-var root_55 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
-var root_56 = from_html(`<button title="Edit modifiers" aria-label="Edit modifiers"></button>`);
-var root_54 = from_html(`<div><div><!></div> <div class="pcr-atb2-card-name svelte-ibd6yj"><!> </div></div>`);
-var root_53 = from_html(`<div class="pcr-atb2-browser-section svelte-ibd6yj"><div class="pcr-atb2-section-sentinel svelte-ibd6yj"></div> <div class="pcr-atb2-browser-section-header svelte-ibd6yj"><span class="pcr-atb2-browser-section-grp svelte-ibd6yj"> </span></div> <div class="pcr-atb2-grid svelte-ibd6yj"></div></div>`);
-var root_60 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
-var root_59 = from_html(`<div><!></div>`);
-var root_61 = from_html(`<button title="Edit modifiers" aria-label="Edit modifiers"></button>`);
-var root_62 = from_html(`<div class="pcr-atb2-card-group svelte-ibd6yj"> </div>`);
-var root_63 = from_html(`<div class="pcr-atb2-card-group svelte-ibd6yj"> </div>`);
-var root_58 = from_html(`<div><!> <div class="pcr-atb2-card-name svelte-ibd6yj"><!> </div> <!></div>`);
-var root_57 = from_html(`<div class="pcr-atb2-grid svelte-ibd6yj"></div>`);
-var root_65 = from_html(`<span class="pcr-atb2-card2-avatar pcr-atb2-card2-avatar-img svelte-ibd6yj"><img alt="" class="svelte-ibd6yj"/></span>`);
-var root_66 = from_html(`<span class="pcr-atb2-card2-avatar svelte-ibd6yj"> </span>`);
-var root_67 = from_html(`<span class="pcr-atb2-card2-tag svelte-ibd6yj" title="The regional block this subject rebuilds into"> </span>`);
-var root_68 = from_html(` <!>`, 1);
-var root_71 = from_html(`<button class="pcr-atb2-preset-clear svelte-ibd6yj" title="Unbind identity">&times;</button>`);
-var root_72 = from_html(` <!>`, 1);
-var root_75 = from_html(`<button class="pcr-atb2-preset-clear svelte-ibd6yj" title="Remove outfit">&times;</button>`);
+var root_51 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
+var root_54 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
+var root_53 = from_html(`<div><div><!></div> <div class="pcr-atb2-card-name svelte-ibd6yj"> </div></div>`);
+var root_52 = from_html(`<div class="pcr-atb2-grid svelte-ibd6yj"></div>`);
+var root_55 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">Connect a model to see styles.</div>`);
+var root_56 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">Loading styles…</div>`);
+var root_57 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">No styles found for this model.</div>`);
+var root_58 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj"> </div>`);
+var root_59 = from_html(`<div class="pcr-atb2-empty svelte-ibd6yj">No items.</div>`);
+var root_63 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
+var root_64 = from_html(`<button title="Edit modifiers" aria-label="Edit modifiers"></button>`);
+var root_62 = from_html(`<div><div><!></div> <div class="pcr-atb2-card-name svelte-ibd6yj"><!> </div></div>`);
+var root_61 = from_html(`<div class="pcr-atb2-browser-section svelte-ibd6yj"><div class="pcr-atb2-section-sentinel svelte-ibd6yj"></div> <div class="pcr-atb2-browser-section-header svelte-ibd6yj"><span class="pcr-atb2-browser-section-grp svelte-ibd6yj"> </span></div> <div class="pcr-atb2-grid svelte-ibd6yj"></div></div>`);
+var root_68 = from_html(`<img alt="" loading="lazy" class="svelte-ibd6yj"/>`);
+var root_67 = from_html(`<div><!></div>`);
+var root_69 = from_html(`<button title="Edit modifiers" aria-label="Edit modifiers"></button>`);
+var root_70 = from_html(`<div class="pcr-atb2-card-group svelte-ibd6yj"> </div>`);
+var root_71 = from_html(`<div class="pcr-atb2-card-group svelte-ibd6yj"> </div>`);
+var root_66 = from_html(`<div><!> <div class="pcr-atb2-card-name svelte-ibd6yj"><!> </div> <!></div>`);
+var root_65 = from_html(`<div class="pcr-atb2-grid svelte-ibd6yj"></div>`);
+var root_73 = from_html(`<span class="pcr-atb2-card2-avatar pcr-atb2-card2-avatar-img svelte-ibd6yj"><img alt="" class="svelte-ibd6yj"/></span>`);
+var root_74 = from_html(`<span class="pcr-atb2-card2-avatar svelte-ibd6yj"> </span>`);
+var root_75 = from_html(`<span class="pcr-atb2-card2-tag svelte-ibd6yj" title="The regional block this subject rebuilds into"> </span>`);
 var root_76 = from_html(` <!>`, 1);
-var root_79 = from_html(`<button class="pcr-atb2-preset-clear svelte-ibd6yj" title="Remove pose">&times;</button>`);
-var root_82 = from_html(`<span class="pcr-atb2-section-chev svelte-ibd6yj"> </span>`);
-var root_83 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Identity</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><span class="pcr-atb2-chip pcr-atb2-chip-identity pcr-atb2-chip-jumpable svelte-ibd6yj" title="Jump to Subjects"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span></span></div>`);
-var root_85 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-modifier pcr-atb2-chip-jumpable svelte-ibd6yj" title="Jump to Modifiers"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span>`);
-var root_84 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Modifiers</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><!>  <span class="pcr-atb2-slot-add pcr-atb2-modifier-trigger svelte-ibd6yj">+ add</span></span></div>`);
-var root_88 = from_html(`<span class="pcr-atb2-slot-multi svelte-ibd6yj" title="Multi-select">+</span>`);
-var root_90 = from_html(`<span></span>`);
-var root_89 = from_html(`<span><!>  <span class="pcr-atb2-chip-body svelte-ibd6yj"> </span> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Clear">&times;</button></span>`);
-var root_91 = from_html(`<span class="pcr-atb2-slot-add svelte-ibd6yj">+ add</span>`);
-var root_87 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj"> <!></span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><!> <!></span></div>`);
-var root_81 = from_html(`<div class="pcr-atb2-subj-section svelte-ibd6yj"><div><span class="pcr-atb2-subj-section-title svelte-ibd6yj"> </span> <!></div> <!> <!> <!></div>`);
-var root_93 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-freeform svelte-ibd6yj"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span>`);
-var root_92 = from_html(`<div class="pcr-atb2-subj-section svelte-ibd6yj"><div class="pcr-atb2-subj-section-header svelte-ibd6yj"><span class="pcr-atb2-subj-section-title svelte-ibd6yj">Custom / Freeform</span></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div></div>`);
-var root_96 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-freeform svelte-ibd6yj"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span>`);
-var root_95 = from_html(`<div class="pcr-atb2-subj-section svelte-ibd6yj"><div class="pcr-atb2-subj-section-header svelte-ibd6yj"><span class="pcr-atb2-subj-section-title svelte-ibd6yj"> </span></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div></div>`);
-var root_64 = from_html(`<div><div class="pcr-atb2-card2-header svelte-ibd6yj"><!> <input class="pcr-atb2-subject-name svelte-ibd6yj"/> <span class="pcr-atb2-card2-tag svelte-ibd6yj"> </span> <!> <button class="pcr-atb2-card2-delete svelte-ibd6yj" aria-label="Delete subject">&times;</button></div> <div class="pcr-atb2-subj-section svelte-ibd6yj"><div class="pcr-atb2-subj-section-header svelte-ibd6yj">Subject</div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Identity</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><span class="pcr-atb2-preset-row svelte-ibd6yj"><button class="pcr-atb2-preset-select pcr-atb2-identity-trigger svelte-ibd6yj" type="button"><span class="pcr-atb2-identity-trigger-label svelte-ibd6yj"><!></span> <span class="pcr-atb2-identity-trigger-chev svelte-ibd6yj">▾</span></button> <!></span></span></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Outfit</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><span class="pcr-atb2-preset-row svelte-ibd6yj"><button class="pcr-atb2-preset-select pcr-atb2-preset-trigger svelte-ibd6yj" type="button"><span class="pcr-atb2-preset-trigger-label svelte-ibd6yj"><!></span> <span class="pcr-atb2-preset-trigger-chev svelte-ibd6yj">▾</span></button> <!></span></span></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Pose</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><span class="pcr-atb2-preset-row svelte-ibd6yj"><button class="pcr-atb2-preset-select pcr-atb2-preset-trigger svelte-ibd6yj" type="button"><span class="pcr-atb2-preset-trigger-label svelte-ibd6yj"><!></span> <span class="pcr-atb2-preset-trigger-chev svelte-ibd6yj">▾</span></button> <!></span></span></div></div> <!> <!> <!></div>`);
-var root_99 = from_html(`<span class="pcr-atb2-slot-multi svelte-ibd6yj" title="Multi-select">+</span>`);
-var root_100 = from_html(`<span> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Clear">&times;</button></span>`);
-var root_101 = from_html(`<span class="pcr-atb2-slot-add svelte-ibd6yj">+ add</span>`);
-var root_98 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj"> <!></span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><!> <!></span></div>`);
-var root_103 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-freeform svelte-ibd6yj"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span>`);
-var root_102 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Custom / Freeform</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div>`);
-var root_107 = from_html(`<span class="pcr-atb2-chip-cap pcr-atb2-chip-cap-filled svelte-ibd6yj" title="Edit prop"></span>`);
-var root_106 = from_html(`<span><!> <span class="pcr-atb2-chip-body svelte-ibd6yj"> </span> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Clear">&times;</button></span>`);
-var root_105 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj"> <span class="pcr-atb2-slot-multi svelte-ibd6yj" title="Multi-select">+</span></span> <span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div>`);
-var root_97 = from_html(`<div><div class="pcr-atb2-card2-header svelte-ibd6yj"><span class="pcr-atb2-card2-avatar pcr-atb2-scene-avatar svelte-ibd6yj">🏠</span> <span class="pcr-atb2-card2-title svelte-ibd6yj">Scene</span> <span class="pcr-atb2-card2-tag svelte-ibd6yj">Shared</span> <button class="pcr-atb2-card2-delete svelte-ibd6yj" aria-label="Delete scene">&times;</button></div> <!> <!> <!></div>`);
-var root_108 = from_html(`<div class="pcr-atb2-add-subject pcr-atb2-add-scene svelte-ibd6yj">+ Add Scene</div>`);
-var root_110 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-style svelte-ibd6yj"> </span>`);
-var root_109 = from_html(`<div class="pcr-atb2-card2 pcr-atb2-style-card svelte-ibd6yj"><div class="pcr-atb2-card2-header svelte-ibd6yj"><span class="pcr-atb2-card2-avatar pcr-atb2-style-avatar svelte-ibd6yj">🎨</span>  <span class="pcr-atb2-card2-title pcr-atb2-style-title svelte-ibd6yj" title="Jump to Styles"> </span> <span class="pcr-atb2-card2-tag svelte-ibd6yj">Style</span> <button class="pcr-atb2-card2-delete svelte-ibd6yj" aria-label="Remove style">&times;</button></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div></div>`);
-var root_111 = from_html(`<div class="pcr-atb2-add-subject pcr-atb2-add-style svelte-ibd6yj">+ Add Style</div>`);
-var root_112 = from_html(`<div class="pcr-atb2-qa-overlay svelte-ibd6yj"></div> <div class="pcr-atb2-qa-menu svelte-ibd6yj"><div class="pcr-atb2-qa-menu-title svelte-ibd6yj"> </div> <div class="pcr-atb2-qa-menu-preview svelte-ibd6yj"><div class="pcr-atb2-qa-block svelte-ibd6yj"><div class="pcr-atb2-qa-block-label svelte-ibd6yj">Tag</div> <div class="pcr-atb2-qa-block-value pcr-atb2-qa-block-mono svelte-ibd6yj"> </div></div> <div class="pcr-atb2-qa-block svelte-ibd6yj"><div class="pcr-atb2-qa-block-label svelte-ibd6yj">Natlang</div> <div class="pcr-atb2-qa-block-value svelte-ibd6yj"> </div></div></div> <div class="pcr-atb2-qa-menu-actions svelte-ibd6yj"><button><span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-ready svelte-ibd6yj"></span> Mark Ready</button> <button><span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-unprocessed svelte-ibd6yj"></span> Mark Unprocessed</button> <button><span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-broken svelte-ibd6yj"></span> Mark Broken</button></div></div>`, 1);
-var root_114 = from_html(`<div class="pcr-atb2-identity-dd-empty svelte-ibd6yj">Searching…</div>`);
-var root_115 = from_html(`<div class="pcr-atb2-identity-dd-empty svelte-ibd6yj">No matches.</div>`);
-var root_117 = from_html(`<div class="pcr-atb2-identity-dd-row svelte-ibd6yj"><span class="pcr-atb2-identity-dd-name svelte-ibd6yj"> </span> <span class="pcr-atb2-identity-dd-meta svelte-ibd6yj"><!></span></div>`);
-var root_113 = from_html(`<div class="pcr-atb2-identity-dd svelte-ibd6yj"><input class="pcr-atb2-identity-dd-search svelte-ibd6yj" type="text" placeholder="Search subjects…"/> <div class="pcr-atb2-identity-dd-list svelte-ibd6yj"><!></div></div>`);
-var root_121 = from_html(`<div class="pcr-atb2-preset-dd-empty svelte-ibd6yj">Loading…</div>`);
-var root_122 = from_html(`<div class="pcr-atb2-preset-dd-empty svelte-ibd6yj">No matches.</div>`);
-var root_125 = from_html(`<span class="pcr-atb2-preset-dd-star svelte-ibd6yj" title="Canonical for bound character">★</span>`);
-var root_124 = from_html(`<div><!> <span class="pcr-atb2-preset-dd-name svelte-ibd6yj"> </span> <span class="pcr-atb2-preset-dd-meta svelte-ibd6yj"> </span></div>`);
-var root_120 = from_html(`<div class="pcr-atb2-preset-dd svelte-ibd6yj"><input class="pcr-atb2-preset-dd-search svelte-ibd6yj" type="text"/> <div class="pcr-atb2-preset-dd-list svelte-ibd6yj"><!></div></div>`);
-var root_127 = from_html(`<div><span class="pcr-atb2-modifier-dd-check svelte-ibd6yj"> </span> <span class="pcr-atb2-modifier-dd-name svelte-ibd6yj"> </span></div>`);
-var root_126 = from_html(`<div class="pcr-atb2-modifier-dd svelte-ibd6yj"><div class="pcr-atb2-modifier-dd-list svelte-ibd6yj"></div></div>`);
-var root_128 = from_html(`<div class="pcr-atb2-modal-backdrop svelte-ibd6yj"><div class="pcr-atb2-modal svelte-ibd6yj"><div class="pcr-atb2-modal-title svelte-ibd6yj">Swap identity?</div> <div class="pcr-atb2-modal-body svelte-ibd6yj">Replace <strong class="svelte-ibd6yj"> </strong> with <strong class="svelte-ibd6yj"> </strong>? <div class="pcr-atb2-modal-note svelte-ibd6yj"> </div></div> <div class="pcr-atb2-modal-footer svelte-ibd6yj"><button class="pcr-atb2-btn pcr-atb2-btn-cancel svelte-ibd6yj">Cancel</button> <button class="pcr-atb2-btn pcr-atb2-btn-insert svelte-ibd6yj">Swap</button></div></div></div>`);
+var root_79 = from_html(`<button class="pcr-atb2-preset-clear svelte-ibd6yj" title="Unbind identity">&times;</button>`);
+var root_80 = from_html(` <!>`, 1);
+var root_83 = from_html(`<button class="pcr-atb2-preset-clear svelte-ibd6yj" title="Remove outfit">&times;</button>`);
+var root_84 = from_html(` <!>`, 1);
+var root_87 = from_html(`<button class="pcr-atb2-preset-clear svelte-ibd6yj" title="Remove pose">&times;</button>`);
+var root_90 = from_html(`<span class="pcr-atb2-section-chev svelte-ibd6yj"> </span>`);
+var root_91 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Identity</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><span class="pcr-atb2-chip pcr-atb2-chip-identity pcr-atb2-chip-jumpable svelte-ibd6yj" title="Jump to Subjects"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span></span></div>`);
+var root_93 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-modifier pcr-atb2-chip-jumpable svelte-ibd6yj" title="Jump to Modifiers"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span>`);
+var root_92 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Modifiers</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><!>  <span class="pcr-atb2-slot-add pcr-atb2-modifier-trigger svelte-ibd6yj">+ add</span></span></div>`);
+var root_96 = from_html(`<span class="pcr-atb2-slot-multi svelte-ibd6yj" title="Multi-select">+</span>`);
+var root_98 = from_html(`<span></span>`);
+var root_97 = from_html(`<span><!>  <span class="pcr-atb2-chip-body svelte-ibd6yj"> </span> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Clear">&times;</button></span>`);
+var root_99 = from_html(`<span class="pcr-atb2-slot-add svelte-ibd6yj">+ add</span>`);
+var root_95 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj"> <!></span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><!> <!></span></div>`);
+var root_89 = from_html(`<div class="pcr-atb2-subj-section svelte-ibd6yj"><div><span class="pcr-atb2-subj-section-title svelte-ibd6yj"> </span> <!></div> <!> <!> <!></div>`);
+var root_101 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-freeform svelte-ibd6yj"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span>`);
+var root_100 = from_html(`<div class="pcr-atb2-subj-section svelte-ibd6yj"><div class="pcr-atb2-subj-section-header svelte-ibd6yj"><span class="pcr-atb2-subj-section-title svelte-ibd6yj">Custom / Freeform</span></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div></div>`);
+var root_104 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-freeform svelte-ibd6yj"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span>`);
+var root_103 = from_html(`<div class="pcr-atb2-subj-section svelte-ibd6yj"><div class="pcr-atb2-subj-section-header svelte-ibd6yj"><span class="pcr-atb2-subj-section-title svelte-ibd6yj"> </span></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div></div>`);
+var root_72 = from_html(`<div><div class="pcr-atb2-card2-header svelte-ibd6yj"><!> <input class="pcr-atb2-subject-name svelte-ibd6yj"/> <span class="pcr-atb2-card2-tag svelte-ibd6yj"> </span> <!> <button class="pcr-atb2-card2-delete svelte-ibd6yj" aria-label="Delete subject">&times;</button></div> <div class="pcr-atb2-subj-section svelte-ibd6yj"><div class="pcr-atb2-subj-section-header svelte-ibd6yj">Subject</div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Identity</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><span class="pcr-atb2-preset-row svelte-ibd6yj"><button class="pcr-atb2-preset-select pcr-atb2-identity-trigger svelte-ibd6yj" type="button"><span class="pcr-atb2-identity-trigger-label svelte-ibd6yj"><!></span> <span class="pcr-atb2-identity-trigger-chev svelte-ibd6yj">▾</span></button> <!></span></span></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Outfit</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><span class="pcr-atb2-preset-row svelte-ibd6yj"><button class="pcr-atb2-preset-select pcr-atb2-preset-trigger svelte-ibd6yj" type="button"><span class="pcr-atb2-preset-trigger-label svelte-ibd6yj"><!></span> <span class="pcr-atb2-preset-trigger-chev svelte-ibd6yj">▾</span></button> <!></span></span></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Pose</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><span class="pcr-atb2-preset-row svelte-ibd6yj"><button class="pcr-atb2-preset-select pcr-atb2-preset-trigger svelte-ibd6yj" type="button"><span class="pcr-atb2-preset-trigger-label svelte-ibd6yj"><!></span> <span class="pcr-atb2-preset-trigger-chev svelte-ibd6yj">▾</span></button> <!></span></span></div></div> <!> <!> <!></div>`);
+var root_107 = from_html(`<span class="pcr-atb2-slot-multi svelte-ibd6yj" title="Multi-select">+</span>`);
+var root_108 = from_html(`<span> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Clear">&times;</button></span>`);
+var root_109 = from_html(`<span class="pcr-atb2-slot-add svelte-ibd6yj">+ add</span>`);
+var root_106 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj"> <!></span> <span class="pcr-atb2-slot-value svelte-ibd6yj"><!> <!></span></div>`);
+var root_111 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-freeform svelte-ibd6yj"> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Remove">&times;</button></span>`);
+var root_110 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj">Custom / Freeform</span> <span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div>`);
+var root_115 = from_html(`<span class="pcr-atb2-chip-cap pcr-atb2-chip-cap-filled svelte-ibd6yj" title="Edit prop"></span>`);
+var root_114 = from_html(`<span><!> <span class="pcr-atb2-chip-body svelte-ibd6yj"> </span> <button class="pcr-atb2-chip-x svelte-ibd6yj" aria-label="Clear">&times;</button></span>`);
+var root_113 = from_html(`<div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-label svelte-ibd6yj"> <span class="pcr-atb2-slot-multi svelte-ibd6yj" title="Multi-select">+</span></span> <span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div>`);
+var root_105 = from_html(`<div><div class="pcr-atb2-card2-header svelte-ibd6yj"><span class="pcr-atb2-card2-avatar pcr-atb2-scene-avatar svelte-ibd6yj">🏠</span> <span class="pcr-atb2-card2-title svelte-ibd6yj">Scene</span> <span class="pcr-atb2-card2-tag svelte-ibd6yj">Shared</span> <button class="pcr-atb2-card2-delete svelte-ibd6yj" aria-label="Delete scene">&times;</button></div> <!> <!> <!></div>`);
+var root_116 = from_html(`<div class="pcr-atb2-add-subject pcr-atb2-add-scene svelte-ibd6yj">+ Add Scene</div>`);
+var root_118 = from_html(`<span class="pcr-atb2-chip pcr-atb2-chip-style svelte-ibd6yj"> </span>`);
+var root_117 = from_html(`<div class="pcr-atb2-card2 pcr-atb2-style-card svelte-ibd6yj"><div class="pcr-atb2-card2-header svelte-ibd6yj"><span class="pcr-atb2-card2-avatar pcr-atb2-style-avatar svelte-ibd6yj">🎨</span>  <span class="pcr-atb2-card2-title pcr-atb2-style-title svelte-ibd6yj" title="Jump to Styles"> </span> <span class="pcr-atb2-card2-tag svelte-ibd6yj">Style</span> <button class="pcr-atb2-card2-delete svelte-ibd6yj" aria-label="Remove style">&times;</button></div> <div class="pcr-atb2-slot svelte-ibd6yj"><span class="pcr-atb2-slot-value svelte-ibd6yj"></span></div></div>`);
+var root_119 = from_html(`<div class="pcr-atb2-add-subject pcr-atb2-add-style svelte-ibd6yj">+ Add Style</div>`);
+var root_120 = from_html(`<div class="pcr-atb2-qa-overlay svelte-ibd6yj"></div> <div class="pcr-atb2-qa-menu svelte-ibd6yj"><div class="pcr-atb2-qa-menu-title svelte-ibd6yj"> </div> <div class="pcr-atb2-qa-menu-preview svelte-ibd6yj"><div class="pcr-atb2-qa-block svelte-ibd6yj"><div class="pcr-atb2-qa-block-label svelte-ibd6yj">Tag</div> <div class="pcr-atb2-qa-block-value pcr-atb2-qa-block-mono svelte-ibd6yj"> </div></div> <div class="pcr-atb2-qa-block svelte-ibd6yj"><div class="pcr-atb2-qa-block-label svelte-ibd6yj">Natlang</div> <div class="pcr-atb2-qa-block-value svelte-ibd6yj"> </div></div></div> <div class="pcr-atb2-qa-menu-actions svelte-ibd6yj"><button><span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-ready svelte-ibd6yj"></span> Mark Ready</button> <button><span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-unprocessed svelte-ibd6yj"></span> Mark Unprocessed</button> <button><span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-broken svelte-ibd6yj"></span> Mark Broken</button></div></div>`, 1);
+var root_122 = from_html(`<div class="pcr-atb2-identity-dd-empty svelte-ibd6yj">Searching…</div>`);
+var root_123 = from_html(`<div class="pcr-atb2-identity-dd-empty svelte-ibd6yj">No matches.</div>`);
+var root_125 = from_html(`<div class="pcr-atb2-identity-dd-row svelte-ibd6yj"><span class="pcr-atb2-identity-dd-name svelte-ibd6yj"> </span> <span class="pcr-atb2-identity-dd-meta svelte-ibd6yj"><!></span></div>`);
+var root_121 = from_html(`<div class="pcr-atb2-identity-dd svelte-ibd6yj"><input class="pcr-atb2-identity-dd-search svelte-ibd6yj" type="text" placeholder="Search subjects…"/> <div class="pcr-atb2-identity-dd-list svelte-ibd6yj"><!></div></div>`);
+var root_129 = from_html(`<div class="pcr-atb2-preset-dd-empty svelte-ibd6yj">Loading…</div>`);
+var root_130 = from_html(`<div class="pcr-atb2-preset-dd-empty svelte-ibd6yj">No matches.</div>`);
+var root_133 = from_html(`<span class="pcr-atb2-preset-dd-star svelte-ibd6yj" title="Canonical for bound character">★</span>`);
+var root_132 = from_html(`<div><!> <span class="pcr-atb2-preset-dd-name svelte-ibd6yj"> </span> <span class="pcr-atb2-preset-dd-meta svelte-ibd6yj"> </span></div>`);
+var root_128 = from_html(`<div class="pcr-atb2-preset-dd svelte-ibd6yj"><input class="pcr-atb2-preset-dd-search svelte-ibd6yj" type="text"/> <div class="pcr-atb2-preset-dd-list svelte-ibd6yj"><!></div></div>`);
+var root_135 = from_html(`<div><span class="pcr-atb2-modifier-dd-check svelte-ibd6yj"> </span> <span class="pcr-atb2-modifier-dd-name svelte-ibd6yj"> </span></div>`);
+var root_134 = from_html(`<div class="pcr-atb2-modifier-dd svelte-ibd6yj"><div class="pcr-atb2-modifier-dd-list svelte-ibd6yj"></div></div>`);
+var root_136 = from_html(`<div class="pcr-atb2-modal-backdrop svelte-ibd6yj"><div class="pcr-atb2-modal svelte-ibd6yj"><div class="pcr-atb2-modal-title svelte-ibd6yj">Swap identity?</div> <div class="pcr-atb2-modal-body svelte-ibd6yj">Replace <strong class="svelte-ibd6yj"> </strong> with <strong class="svelte-ibd6yj"> </strong>? <div class="pcr-atb2-modal-note svelte-ibd6yj"> </div></div> <div class="pcr-atb2-modal-footer svelte-ibd6yj"><button class="pcr-atb2-btn pcr-atb2-btn-cancel svelte-ibd6yj">Cancel</button> <button class="pcr-atb2-btn pcr-atb2-btn-insert svelte-ibd6yj">Swap</button></div></div></div>`);
 var root_1 = from_html(`<div><div class="pcr-atb-header svelte-ibd6yj"><span class="pcr-atb-title svelte-ibd6yj">Tag Builder 2</span> <div class="pcr-atb-search-wrapper svelte-ibd6yj"><input class="pcr-atb-search svelte-ibd6yj" type="text"/></div> <button class="pcr-atb2-titlebar-btn svelte-ibd6yj"> </button> <button class="pcr-atb2-close svelte-ibd6yj" aria-label="Close">&times;</button></div> <div class="pcr-atb2-body svelte-ibd6yj"><aside class="pcr-atb2-rail svelte-ibd6yj"><div class="pcr-atb2-rail-heading svelte-ibd6yj">Categories</div> <!></aside> <main class="pcr-atb2-browser svelte-ibd6yj"><div class="pcr-atb2-browser-header svelte-ibd6yj"><span class="pcr-atb2-breadcrumb svelte-ibd6yj"><span>Adding to: <strong class="svelte-ibd6yj"> </strong></span> <!></span></div> <!></main> <aside class="pcr-atb2-outline svelte-ibd6yj"><div class="pcr-atb2-outline-heading svelte-ibd6yj">Subjects &amp; Scene</div> <!>  <div class="pcr-atb2-add-subject svelte-ibd6yj">+ Add Subject</div> <!> <!></aside></div> <div class="pcr-atb2-footer svelte-ibd6yj"><div class="pcr-atb2-mode-toggle svelte-ibd6yj" role="radiogroup" aria-label="Output format"><div role="radio" tabindex="0">Tags</div>  <div role="radio" tabindex="0">Natural Language</div></div> <div class="pcr-atb2-footer-spacer svelte-ibd6yj"></div> <button class="pcr-atb2-btn pcr-atb2-btn-cancel svelte-ibd6yj">Cancel</button> <button class="pcr-atb2-btn pcr-atb2-btn-insert svelte-ibd6yj"> </button></div> <!></div> <!> <!> <!> <!> <!> <!> <!>`, 1);
 function TagBuilder2($$anchor, $$props) {
   var _a;
@@ -1975,6 +1982,26 @@ function TagBuilder2($$anchor, $$props) {
     } catch {
     }
   }
+  const RECENT_ENABLED = false;
+  const RECENT_KEY = "pcr-atb2-recent";
+  const RECENT_MAX = 24;
+  let recentPicks = state(proxy([]));
+  try {
+    const stored = JSON.parse(localStorage.getItem(RECENT_KEY) || "[]");
+    if (Array.isArray(stored)) set(recentPicks, stored.slice(0, RECENT_MAX), true);
+  } catch {
+  }
+  function recentKey(e) {
+    var _a2, _b, _c, _d;
+    return e.type === "item" ? `item:${e.categoryKey}:${e.groupKey}:${(_a2 = e.item) == null ? void 0 : _a2.item_tag}` : `id:${(_b = e.option) == null ? void 0 : _b.kind}:${((_c = e.option) == null ? void 0 : _c.group) || ""}:${(_d = e.option) == null ? void 0 : _d.tag}`;
+  }
+  function clearRecent() {
+    set(recentPicks, [], true);
+    try {
+      localStorage.setItem(RECENT_KEY, JSON.stringify(get(recentPicks)));
+    } catch {
+    }
+  }
   user_effect(() => {
     const el = get(browserEl);
     if (!el) return;
@@ -2315,7 +2342,7 @@ function TagBuilder2($$anchor, $$props) {
     for (const cat of CATEGORIES) {
       if (cat.enabled && cat.bucket) loadBucket(cat.bucket);
     }
-    const charTagsPromise = fetch(`/promptchain/tag-builder/characters?natlang_status=normalized&per_page=1000&sort=display`).then((r) => r.ok ? r.json() : { characters: [] }).then((d) => {
+    const charTagsPromise = fetch(`/promptchain/tag-builder/characters/identity-index`).then((r) => r.ok ? r.json() : { characters: [] }).then((d) => {
       const chars = d.characters || [];
       normalizedCharacterTags = new Set(chars.map((c) => c.tag));
       normalizedCharacters = chars.filter((c) => c.base_natlang && c.base_natlang.trim()).sort((a, b) => (b.base_natlang || "").length - (a.base_natlang || "").length);
@@ -6072,30 +6099,135 @@ ${filtered}` : filtered;
   }
   var node_14 = sibling(div_17, 2);
   {
-    var consequent_22 = ($$anchor2) => {
-      var fragment_4 = comment();
-      var node_15 = first_child(fragment_4);
+    var consequent_27 = ($$anchor2) => {
+      const recentCard = ($$anchor3, r = noop) => {
+        var fragment_4 = comment();
+        var node_15 = first_child(fragment_4);
+        {
+          var consequent_16 = ($$anchor4) => {
+            const o = user_derived(() => r().option);
+            const isChar = user_derived(() => get(o).kind === "character");
+            const rHasImg = user_derived(() => {
+              var _a2;
+              return get(isChar) ? get(characterThumbs).has(get(o).tag) : !!((_a2 = get(castThumbs)[get(o).group]) == null ? void 0 : _a2.has(get(o).tag));
+            });
+            var div_18 = root_22();
+            var div_19 = child(div_18);
+            let classes_11;
+            var node_16 = child(div_19);
+            {
+              var consequent_14 = ($$anchor5) => {
+                var img = root_23();
+                template_effect(($0) => set_attribute(img, "src", $0), [
+                  () => get(isChar) ? `/promptchain/tag-builder/thumb/characters/${encodeURIComponent(get(o).tag)}` : `/promptchain/tag-builder/thumb/${encodeURIComponent(get(o).group)}/${encodeURIComponent(get(o).tag)}`
+                ]);
+                append($$anchor5, img);
+              };
+              if_block(node_16, ($$render) => {
+                if (get(rHasImg)) $$render(consequent_14);
+              });
+            }
+            var div_20 = sibling(div_19, 2);
+            var text_21 = child(div_20);
+            var node_17 = sibling(div_20, 2);
+            {
+              var consequent_15 = ($$anchor5) => {
+                var div_21 = root_24();
+                var text_22 = child(div_21);
+                template_effect(() => set_text(text_22, get(o).series));
+                append($$anchor5, div_21);
+              };
+              if_block(node_17, ($$render) => {
+                if (get(o).series) $$render(consequent_15);
+              });
+            }
+            template_effect(() => {
+              set_attribute(div_18, "title", get(o).base_natlang || get(o).display || get(o).tag);
+              classes_11 = set_class(div_19, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_11, { "has-image": get(rHasImg) });
+              set_text(text_21, get(o).display || get(o).tag);
+            });
+            delegated("click", div_18, () => pickIdentityFromBrowser(get(o)));
+            append($$anchor4, div_18);
+          };
+          var alternate = ($$anchor4) => {
+            const it = user_derived(() => r().item);
+            const rBucket = user_derived(() => {
+              var _a2;
+              return (_a2 = CATEGORIES.find((c) => c.key === r().categoryKey)) == null ? void 0 : _a2.bucket;
+            });
+            const rHasImg = user_derived(() => !!get(rBucket) && hasThumb(get(rBucket), get(it).item_tag));
+            var div_22 = root_25();
+            var div_23 = child(div_22);
+            let classes_12;
+            var node_18 = child(div_23);
+            {
+              var consequent_17 = ($$anchor5) => {
+                var img_1 = root_26();
+                template_effect(($0) => set_attribute(img_1, "src", $0), [() => thumbUrl(get(rBucket), get(it).item_tag)]);
+                append($$anchor5, img_1);
+              };
+              if_block(node_18, ($$render) => {
+                if (get(rHasImg)) $$render(consequent_17);
+              });
+            }
+            var div_24 = sibling(div_23, 2);
+            var text_23 = child(div_24);
+            template_effect(() => {
+              set_attribute(div_22, "title", get(it).base_natlang || get(it).display_name || get(it).item_tag);
+              classes_12 = set_class(div_23, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_12, { "has-image": get(rHasImg) });
+              set_text(text_23, get(it).display_name || get(it).item_tag);
+            });
+            delegated("click", div_22, () => pickItemFromAll(get(it), r().categoryKey, r().groupKey));
+            append($$anchor4, div_22);
+          };
+          if_block(node_15, ($$render) => {
+            if (r().type === "identity") $$render(consequent_16);
+            else $$render(alternate, -1);
+          });
+        }
+        append($$anchor3, fragment_4);
+      };
+      var fragment_5 = root_20();
+      var node_19 = first_child(fragment_5);
       {
-        var consequent_14 = ($$anchor3) => {
-          var div_18 = root_21();
-          var text_21 = child(div_18);
-          template_effect(() => set_text(text_21, get(searchQuery) ? `No items match "${get(searchQuery)}"` : "Loading…"));
-          append($$anchor3, div_18);
+        var consequent_18 = ($$anchor3) => {
+          var div_25 = root_27();
+          var div_26 = child(div_25);
+          var button_2 = sibling(child(div_26), 2);
+          var div_27 = sibling(div_26, 2);
+          each(div_27, 21, () => get(recentPicks), (r) => recentKey(r), ($$anchor4, r) => {
+            recentCard($$anchor4, () => get(r));
+          });
+          delegated("click", button_2, clearRecent);
+          append($$anchor3, div_25);
         };
-        var alternate = ($$anchor3) => {
-          var fragment_5 = comment();
-          var node_16 = first_child(fragment_5);
-          each(node_16, 17, () => get(allCategorySections), (section) => section.key, ($$anchor4, section) => {
+        var d_1 = user_derived(() => RECENT_ENABLED);
+        if_block(node_19, ($$render) => {
+          if (get(d_1)) $$render(consequent_18);
+        });
+      }
+      var node_20 = sibling(node_19, 2);
+      {
+        var consequent_19 = ($$anchor3) => {
+          var div_28 = root_29();
+          var text_24 = child(div_28);
+          template_effect(() => set_text(text_24, get(searchQuery) ? `No items match "${get(searchQuery)}"` : "Loading…"));
+          append($$anchor3, div_28);
+        };
+        var alternate_1 = ($$anchor3) => {
+          var fragment_7 = comment();
+          var node_21 = first_child(fragment_7);
+          each(node_21, 17, () => get(allCategorySections), (section) => section.key, ($$anchor4, section) => {
             const cat = user_derived(() => CATEGORIES.find((c) => c.key === get(section).categoryKey));
-            var div_19 = root_23();
-            var div_20 = sibling(child(div_19), 2);
-            var span_21 = child(div_20);
-            var text_22 = child(span_21);
+            var div_29 = root_31();
+            var div_30 = sibling(child(div_29), 2);
+            var span_21 = child(div_30);
+            var text_25 = child(span_21);
             var span_22 = sibling(span_21, 4);
-            var text_23 = child(span_22);
-            action(div_20, ($$node) => stickyShadow == null ? void 0 : stickyShadow($$node));
-            var div_21 = sibling(div_20, 2);
-            each(div_21, 21, () => get(section).items, (item) => item.item_tag, ($$anchor5, item) => {
+            var text_26 = child(span_22);
+            action(div_30, ($$node) => stickyShadow == null ? void 0 : stickyShadow($$node));
+            var div_31 = sibling(div_30, 2);
+            each(div_31, 21, () => get(section).items, (item) => item.item_tag, ($$anchor5, item) => {
               const sectionCardMods = user_derived(() => !get(section).kind && isCustomizableSlot(get(section).categoryKey, get(section).groupKey) ? cardModifiers(get(item), get(section).categoryKey, get(section).groupKey) : null);
               const sectionCardDotColor = user_derived(() => {
                 var _a2;
@@ -6109,107 +6241,107 @@ ${filtered}` : filtered;
                 var _a2, _b, _c, _d;
                 return get(section).kind === "subject-character" ? ((_b = (_a2 = get(activeSubject)) == null ? void 0 : _a2.character) == null ? void 0 : _b.tag) === get(item).tag : get(section).kind === "subject-cast" ? ((_d = (_c = get(activeSubject)) == null ? void 0 : _c.character) == null ? void 0 : _d.tag) === get(item).item_tag : false;
               });
-              var div_22 = root_24();
-              let classes_11;
-              var node_17 = child(div_22);
+              var div_32 = root_32();
+              let classes_13;
+              var node_22 = child(div_32);
               {
-                var consequent_16 = ($$anchor6) => {
-                  var div_23 = root_25();
-                  let classes_12;
-                  var node_18 = child(div_23);
+                var consequent_21 = ($$anchor6) => {
+                  var div_33 = root_33();
+                  let classes_14;
+                  var node_23 = child(div_33);
                   {
-                    var consequent_15 = ($$anchor7) => {
-                      var img = root_26();
-                      template_effect(($0) => set_attribute(img, "src", $0), [
+                    var consequent_20 = ($$anchor7) => {
+                      var img_2 = root_34();
+                      template_effect(($0) => set_attribute(img_2, "src", $0), [
                         () => `/promptchain/tag-builder/thumb/characters/${encodeURIComponent(get(item).tag)}`
                       ]);
-                      append($$anchor7, img);
+                      append($$anchor7, img_2);
                     };
-                    var d_1 = user_derived(() => get(characterThumbs).has(get(item).tag));
-                    if_block(node_18, ($$render) => {
-                      if (get(d_1)) $$render(consequent_15);
+                    var d_2 = user_derived(() => get(characterThumbs).has(get(item).tag));
+                    if_block(node_23, ($$render) => {
+                      if (get(d_2)) $$render(consequent_20);
                     });
                   }
-                  template_effect(($0) => classes_12 = set_class(div_23, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_12, $0), [
+                  template_effect(($0) => classes_14 = set_class(div_33, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_14, $0), [
                     () => ({ "has-image": get(characterThumbs).has(get(item).tag) })
                   ]);
-                  append($$anchor6, div_23);
+                  append($$anchor6, div_33);
                 };
-                var consequent_18 = ($$anchor6) => {
+                var consequent_23 = ($$anchor6) => {
                   const hasImg = user_derived(() => {
                     var _a2;
                     return (_a2 = get(castThumbs)[get(section).castGroup]) == null ? void 0 : _a2.has(get(item).item_tag);
                   });
-                  var div_24 = root_27();
-                  let classes_13;
-                  var node_19 = child(div_24);
+                  var div_34 = root_35();
+                  let classes_15;
+                  var node_24 = child(div_34);
                   {
-                    var consequent_17 = ($$anchor7) => {
-                      var img_1 = root_28();
-                      template_effect(($0) => set_attribute(img_1, "src", $0), [
+                    var consequent_22 = ($$anchor7) => {
+                      var img_3 = root_36();
+                      template_effect(($0) => set_attribute(img_3, "src", $0), [
                         () => `/promptchain/tag-builder/thumb/${encodeURIComponent(get(section).castGroup)}/${encodeURIComponent(get(item).item_tag)}`
                       ]);
-                      append($$anchor7, img_1);
+                      append($$anchor7, img_3);
                     };
-                    if_block(node_19, ($$render) => {
-                      if (get(hasImg)) $$render(consequent_17);
+                    if_block(node_24, ($$render) => {
+                      if (get(hasImg)) $$render(consequent_22);
                     });
                   }
-                  template_effect(() => classes_13 = set_class(div_24, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_13, { "has-image": get(hasImg) }));
-                  append($$anchor6, div_24);
+                  template_effect(() => classes_15 = set_class(div_34, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_15, { "has-image": get(hasImg) }));
+                  append($$anchor6, div_34);
                 };
-                var consequent_19 = ($$anchor6) => {
-                  var div_25 = root_29();
-                  var img_2 = child(div_25);
-                  template_effect(($0) => set_attribute(img_2, "src", $0), [() => thumbUrl(get(cat).bucket, get(item).item_tag)]);
-                  append($$anchor6, div_25);
+                var consequent_24 = ($$anchor6) => {
+                  var div_35 = root_37();
+                  var img_4 = child(div_35);
+                  template_effect(($0) => set_attribute(img_4, "src", $0), [() => thumbUrl(get(cat).bucket, get(item).item_tag)]);
+                  append($$anchor6, div_35);
                 };
-                var d_2 = user_derived(() => {
+                var d_3 = user_derived(() => {
                   var _a2;
                   return ((_a2 = get(cat)) == null ? void 0 : _a2.bucket) && hasThumb(get(cat).bucket, get(item).item_tag);
                 });
-                var consequent_20 = ($$anchor6) => {
-                  var div_26 = root_30();
-                  append($$anchor6, div_26);
+                var consequent_25 = ($$anchor6) => {
+                  var div_36 = root_38();
+                  append($$anchor6, div_36);
                 };
-                if_block(node_17, ($$render) => {
+                if_block(node_22, ($$render) => {
                   var _a2;
-                  if (get(section).kind === "subject-character") $$render(consequent_16);
-                  else if (get(section).kind === "subject-cast") $$render(consequent_18, 1);
-                  else if (get(d_2)) $$render(consequent_19, 2);
-                  else if ((_a2 = get(cat)) == null ? void 0 : _a2.bucket) $$render(consequent_20, 3);
+                  if (get(section).kind === "subject-character") $$render(consequent_21);
+                  else if (get(section).kind === "subject-cast") $$render(consequent_23, 1);
+                  else if (get(d_3)) $$render(consequent_24, 2);
+                  else if ((_a2 = get(cat)) == null ? void 0 : _a2.bucket) $$render(consequent_25, 3);
                 });
               }
-              var div_27 = sibling(node_17, 2);
-              var node_20 = child(div_27);
+              var div_37 = sibling(node_22, 2);
+              var node_25 = child(div_37);
               {
-                var consequent_21 = ($$anchor6) => {
-                  var button_2 = root_31();
-                  let classes_14;
+                var consequent_26 = ($$anchor6) => {
+                  var button_3 = root_39();
+                  let classes_16;
                   template_effect(() => {
-                    classes_14 = set_class(button_2, 1, "pcr-atb2-card-mod-dot svelte-ibd6yj", null, classes_14, {
+                    classes_16 = set_class(button_3, 1, "pcr-atb2-card-mod-dot svelte-ibd6yj", null, classes_16, {
                       filled: !!get(sectionCardDotColor),
                       hollow: !get(sectionCardDotColor)
                     });
-                    set_style(button_2, get(sectionCardDotColor) ? `background:${get(sectionCardDotColor)}` : "");
+                    set_style(button_3, get(sectionCardDotColor) ? `background:${get(sectionCardDotColor)}` : "");
                   });
-                  delegated("click", button_2, (e) => {
+                  delegated("click", button_3, (e) => {
                     e.stopPropagation();
                     editCardModifiers(get(item), get(section).categoryKey, get(section).groupKey);
                   });
-                  append($$anchor6, button_2);
+                  append($$anchor6, button_3);
                 };
-                if_block(node_20, ($$render) => {
-                  if (get(sectionCardMods)) $$render(consequent_21);
+                if_block(node_25, ($$render) => {
+                  if (get(sectionCardMods)) $$render(consequent_26);
                 });
               }
-              var text_24 = sibling(node_20);
+              var text_27 = sibling(node_25);
               template_effect(
                 ($0) => {
-                  classes_11 = set_class(div_22, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_11, $0);
-                  set_attribute(div_22, "data-item-tag", get(item).item_tag);
-                  set_attribute(div_22, "title", get(item).base_natlang || get(item).display_name || get(item).item_tag);
-                  set_text(text_24, ` ${(get(item).display_name || get(item).item_tag) ?? ""}`);
+                  classes_13 = set_class(div_32, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_13, $0);
+                  set_attribute(div_32, "data-item-tag", get(item).item_tag);
+                  set_attribute(div_32, "title", get(item).base_natlang || get(item).display_name || get(item).item_tag);
+                  set_text(text_27, ` ${(get(item).display_name || get(item).item_tag) ?? ""}`);
                 },
                 [
                   () => ({
@@ -6218,7 +6350,7 @@ ${filtered}` : filtered;
                   })
                 ]
               );
-              delegated("click", div_22, () => {
+              delegated("click", div_32, () => {
                 if (get(section).kind === "subject-character") {
                   if (get(sectionActiveIdentity)) unbindIdentity(get(activeSubject).id);
                   else pickIdentityFromBrowser(characterToOption(get(item)));
@@ -6229,146 +6361,146 @@ ${filtered}` : filtered;
                   pickItemFromAll(get(item), get(section).categoryKey, get(section).groupKey);
                 }
               });
-              delegated("contextmenu", div_22, (e) => {
+              delegated("contextmenu", div_32, (e) => {
                 if (!get(section).kind && get(sectionBucket)) openChipQaMenu(e, get(sectionBucket), get(item));
               });
-              append($$anchor5, div_22);
+              append($$anchor5, div_32);
             });
-            action(div_19, ($$node) => spyTarget == null ? void 0 : spyTarget($$node));
+            action(div_29, ($$node) => spyTarget == null ? void 0 : spyTarget($$node));
             template_effect(() => {
-              set_attribute(div_19, "data-spy-group", get(section).key);
-              set_text(text_22, get(section).categoryLabel);
-              set_text(text_23, get(section).groupLabel);
+              set_attribute(div_29, "data-spy-group", get(section).key);
+              set_text(text_25, get(section).categoryLabel);
+              set_text(text_26, get(section).groupLabel);
             });
-            append($$anchor4, div_19);
+            append($$anchor4, div_29);
           });
-          append($$anchor3, fragment_5);
+          append($$anchor3, fragment_7);
         };
-        if_block(node_15, ($$render) => {
-          if (get(allCategorySections).length === 0) $$render(consequent_14);
-          else $$render(alternate, -1);
+        if_block(node_20, ($$render) => {
+          if (get(allCategorySections).length === 0) $$render(consequent_19);
+          else $$render(alternate_1, -1);
         });
       }
-      append($$anchor2, fragment_4);
+      append($$anchor2, fragment_5);
     };
-    var consequent_32 = ($$anchor2) => {
+    var consequent_37 = ($$anchor2) => {
       const sub = user_derived(() => get(activeSubjectSubitem) ? SUBJECT_SUBITEMS.find((s) => s.key === get(activeSubjectSubitem)) : null);
-      var fragment_6 = comment();
-      var node_21 = first_child(fragment_6);
+      var fragment_8 = comment();
+      var node_26 = first_child(fragment_8);
       {
-        var consequent_28 = ($$anchor3) => {
-          var fragment_7 = comment();
-          var node_22 = first_child(fragment_7);
+        var consequent_33 = ($$anchor3) => {
+          var fragment_9 = comment();
+          var node_27 = first_child(fragment_9);
           {
-            var consequent_23 = ($$anchor4) => {
-              var div_28 = root_34();
-              append($$anchor4, div_28);
+            var consequent_28 = ($$anchor4) => {
+              var div_38 = root_42();
+              append($$anchor4, div_38);
             };
-            var consequent_24 = ($$anchor4) => {
-              var div_29 = root_35();
-              var text_25 = child(div_29);
-              template_effect(() => set_text(text_25, get(searchQuery) ? `No characters match "${get(searchQuery)}"` : "No characters."));
-              append($$anchor4, div_29);
+            var consequent_29 = ($$anchor4) => {
+              var div_39 = root_43();
+              var text_28 = child(div_39);
+              template_effect(() => set_text(text_28, get(searchQuery) ? `No characters match "${get(searchQuery)}"` : "No characters."));
+              append($$anchor4, div_39);
             };
-            var alternate_1 = ($$anchor4) => {
-              var fragment_8 = root_36();
-              var div_30 = first_child(fragment_8);
-              each(div_30, 21, () => get(characters), (char) => char.tag, ($$anchor5, char) => {
+            var alternate_2 = ($$anchor4) => {
+              var fragment_10 = root_44();
+              var div_40 = first_child(fragment_10);
+              each(div_40, 21, () => get(characters), (char) => char.tag, ($$anchor5, char) => {
                 const isActiveIdentity = user_derived(() => {
                   var _a2, _b;
                   return ((_b = (_a2 = get(activeSubject)) == null ? void 0 : _a2.character) == null ? void 0 : _b.tag) === get(char).tag;
                 });
-                var div_31 = root_37();
-                let classes_15;
-                var div_32 = child(div_31);
-                let classes_16;
-                var node_23 = child(div_32);
+                var div_41 = root_45();
+                let classes_17;
+                var div_42 = child(div_41);
+                let classes_18;
+                var node_28 = child(div_42);
                 {
-                  var consequent_25 = ($$anchor6) => {
-                    var img_3 = root_38();
-                    template_effect(($0) => set_attribute(img_3, "src", $0), [
+                  var consequent_30 = ($$anchor6) => {
+                    var img_5 = root_46();
+                    template_effect(($0) => set_attribute(img_5, "src", $0), [
                       () => `/promptchain/tag-builder/thumb/characters/${encodeURIComponent(get(char).tag)}`
                     ]);
-                    append($$anchor6, img_3);
+                    append($$anchor6, img_5);
                   };
-                  var d_3 = user_derived(() => get(characterThumbs).has(get(char).tag));
-                  if_block(node_23, ($$render) => {
-                    if (get(d_3)) $$render(consequent_25);
+                  var d_4 = user_derived(() => get(characterThumbs).has(get(char).tag));
+                  if_block(node_28, ($$render) => {
+                    if (get(d_4)) $$render(consequent_30);
                   });
                 }
-                var div_33 = sibling(div_32, 2);
-                var text_26 = child(div_33);
-                var node_24 = sibling(div_33, 2);
+                var div_43 = sibling(div_42, 2);
+                var text_29 = child(div_43);
+                var node_29 = sibling(div_43, 2);
                 {
-                  var consequent_26 = ($$anchor6) => {
-                    var div_34 = root_39();
-                    var text_27 = child(div_34);
-                    template_effect(() => set_text(text_27, get(char).series));
-                    append($$anchor6, div_34);
+                  var consequent_31 = ($$anchor6) => {
+                    var div_44 = root_47();
+                    var text_30 = child(div_44);
+                    template_effect(() => set_text(text_30, get(char).series));
+                    append($$anchor6, div_44);
                   };
-                  if_block(node_24, ($$render) => {
-                    if (get(char).series) $$render(consequent_26);
+                  if_block(node_29, ($$render) => {
+                    if (get(char).series) $$render(consequent_31);
                   });
                 }
                 template_effect(
                   ($0) => {
-                    classes_15 = set_class(div_31, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_15, { selected: get(isActiveIdentity) });
-                    set_attribute(div_31, "title", get(char).base_natlang || `${get(char).display}${get(char).series ? " — " + get(char).series : ""}`);
-                    classes_16 = set_class(div_32, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_16, $0);
-                    set_text(text_26, get(char).display || get(char).tag);
+                    classes_17 = set_class(div_41, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_17, { selected: get(isActiveIdentity) });
+                    set_attribute(div_41, "title", get(char).base_natlang || `${get(char).display}${get(char).series ? " — " + get(char).series : ""}`);
+                    classes_18 = set_class(div_42, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_18, $0);
+                    set_text(text_29, get(char).display || get(char).tag);
                   },
                   [
                     () => ({ "has-image": get(characterThumbs).has(get(char).tag) })
                   ]
                 );
-                delegated("click", div_31, () => get(isActiveIdentity) ? unbindIdentity(get(activeSubject).id) : pickIdentityFromBrowser(characterToOption(get(char))));
-                append($$anchor5, div_31);
+                delegated("click", div_41, () => get(isActiveIdentity) ? unbindIdentity(get(activeSubject).id) : pickIdentityFromBrowser(characterToOption(get(char))));
+                append($$anchor5, div_41);
               });
-              var node_25 = sibling(div_30, 2);
+              var node_30 = sibling(div_40, 2);
               {
-                var consequent_27 = ($$anchor5) => {
-                  var div_35 = root_40();
-                  var text_28 = child(div_35);
-                  action(div_35, ($$node) => characterLoadMore == null ? void 0 : characterLoadMore($$node));
-                  template_effect(($0) => set_text(text_28, $0), [
+                var consequent_32 = ($$anchor5) => {
+                  var div_45 = root_48();
+                  var text_31 = child(div_45);
+                  action(div_45, ($$node) => characterLoadMore == null ? void 0 : characterLoadMore($$node));
+                  template_effect(($0) => set_text(text_31, $0), [
                     () => get(charactersLoadingMore) ? "Loading more…" : `Showing ${get(characters).length} of ${get(charactersTotal).toLocaleString()} — scroll for more`
                   ]);
-                  append($$anchor5, div_35);
+                  append($$anchor5, div_45);
                 };
-                if_block(node_25, ($$render) => {
-                  if (get(charactersTotal) > get(characters).length) $$render(consequent_27);
+                if_block(node_30, ($$render) => {
+                  if (get(charactersTotal) > get(characters).length) $$render(consequent_32);
                 });
               }
-              append($$anchor4, fragment_8);
+              append($$anchor4, fragment_10);
             };
-            if_block(node_22, ($$render) => {
-              if (get(charactersLoading)) $$render(consequent_23);
-              else if (get(characters).length === 0) $$render(consequent_24, 1);
-              else $$render(alternate_1, -1);
+            if_block(node_27, ($$render) => {
+              if (get(charactersLoading)) $$render(consequent_28);
+              else if (get(characters).length === 0) $$render(consequent_29, 1);
+              else $$render(alternate_2, -1);
             });
           }
-          append($$anchor3, fragment_7);
+          append($$anchor3, fragment_9);
         };
-        var alternate_3 = ($$anchor3) => {
+        var alternate_4 = ($$anchor3) => {
           const castData = user_derived(() => get(castCache)[get(sub).filter]);
-          var fragment_9 = comment();
-          var node_26 = first_child(fragment_9);
+          var fragment_11 = comment();
+          var node_31 = first_child(fragment_11);
           {
-            var consequent_29 = ($$anchor4) => {
-              var div_36 = root_42();
-              var text_29 = child(div_36);
-              template_effect(() => set_text(text_29, `Loading ${get(sub).label ?? ""}…`));
-              append($$anchor4, div_36);
+            var consequent_34 = ($$anchor4) => {
+              var div_46 = root_50();
+              var text_32 = child(div_46);
+              template_effect(() => set_text(text_32, `Loading ${get(sub).label ?? ""}…`));
+              append($$anchor4, div_46);
             };
-            var consequent_30 = ($$anchor4) => {
-              var div_37 = root_43();
-              var text_30 = child(div_37);
-              template_effect(($0) => set_text(text_30, `No ${$0 ?? ""} items.`), [() => get(sub).label.toLowerCase()]);
-              append($$anchor4, div_37);
+            var consequent_35 = ($$anchor4) => {
+              var div_47 = root_51();
+              var text_33 = child(div_47);
+              template_effect(($0) => set_text(text_33, `No ${$0 ?? ""} items.`), [() => get(sub).label.toLowerCase()]);
+              append($$anchor4, div_47);
             };
-            var alternate_2 = ($$anchor4) => {
-              var div_38 = root_44();
-              each(div_38, 21, () => get(castData).items, (item) => item.item_tag, ($$anchor5, item) => {
+            var alternate_3 = ($$anchor4) => {
+              var div_48 = root_52();
+              each(div_48, 21, () => get(castData).items, (item) => item.item_tag, ($$anchor5, item) => {
                 const hasImg = user_derived(() => {
                   var _a2;
                   return (_a2 = get(castThumbs)[get(sub).filter]) == null ? void 0 : _a2.has(get(item).item_tag);
@@ -6377,31 +6509,31 @@ ${filtered}` : filtered;
                   var _a2, _b;
                   return ((_b = (_a2 = get(activeSubject)) == null ? void 0 : _a2.character) == null ? void 0 : _b.tag) === get(item).item_tag;
                 });
-                var div_39 = root_45();
-                let classes_17;
-                var div_40 = child(div_39);
-                let classes_18;
-                var node_27 = child(div_40);
+                var div_49 = root_53();
+                let classes_19;
+                var div_50 = child(div_49);
+                let classes_20;
+                var node_32 = child(div_50);
                 {
-                  var consequent_31 = ($$anchor6) => {
-                    var img_4 = root_46();
-                    template_effect(($0) => set_attribute(img_4, "src", $0), [
+                  var consequent_36 = ($$anchor6) => {
+                    var img_6 = root_54();
+                    template_effect(($0) => set_attribute(img_6, "src", $0), [
                       () => `/promptchain/tag-builder/thumb/${encodeURIComponent(get(sub).filter)}/${encodeURIComponent(get(item).item_tag)}`
                     ]);
-                    append($$anchor6, img_4);
+                    append($$anchor6, img_6);
                   };
-                  if_block(node_27, ($$render) => {
-                    if (get(hasImg)) $$render(consequent_31);
+                  if_block(node_32, ($$render) => {
+                    if (get(hasImg)) $$render(consequent_36);
                   });
                 }
-                var div_41 = sibling(div_40, 2);
-                var text_31 = child(div_41);
+                var div_51 = sibling(div_50, 2);
+                var text_34 = child(div_51);
                 template_effect(
                   ($0) => {
-                    classes_17 = set_class(div_39, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_17, $0);
-                    set_attribute(div_39, "title", get(item).base_natlang || get(item).display_name || get(item).item_tag);
-                    classes_18 = set_class(div_40, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_18, { "has-image": get(hasImg) });
-                    set_text(text_31, get(item).display_name || get(item).item_tag);
+                    classes_19 = set_class(div_49, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_19, $0);
+                    set_attribute(div_49, "title", get(item).base_natlang || get(item).display_name || get(item).item_tag);
+                    classes_20 = set_class(div_50, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_20, { "has-image": get(hasImg) });
+                    set_text(text_34, get(item).display_name || get(item).item_tag);
                   },
                   [
                     () => ({
@@ -6410,113 +6542,113 @@ ${filtered}` : filtered;
                     })
                   ]
                 );
-                delegated("click", div_39, () => get(isActiveIdentity) ? unbindIdentity(get(activeSubject).id) : pickIdentityFromBrowser(castToOption(get(item), get(sub).filter)));
-                delegated("contextmenu", div_39, (e) => openChipQaMenu(e, "cast", get(item)));
-                append($$anchor5, div_39);
+                delegated("click", div_49, () => get(isActiveIdentity) ? unbindIdentity(get(activeSubject).id) : pickIdentityFromBrowser(castToOption(get(item), get(sub).filter)));
+                delegated("contextmenu", div_49, (e) => openChipQaMenu(e, "cast", get(item)));
+                append($$anchor5, div_49);
               });
-              append($$anchor4, div_38);
+              append($$anchor4, div_48);
             };
-            if_block(node_26, ($$render) => {
+            if_block(node_31, ($$render) => {
               var _a2;
-              if (!get(castData) || get(castData).loading) $$render(consequent_29);
-              else if (!((_a2 = get(castData).items) == null ? void 0 : _a2.length)) $$render(consequent_30, 1);
-              else $$render(alternate_2, -1);
+              if (!get(castData) || get(castData).loading) $$render(consequent_34);
+              else if (!((_a2 = get(castData).items) == null ? void 0 : _a2.length)) $$render(consequent_35, 1);
+              else $$render(alternate_3, -1);
             });
           }
-          append($$anchor3, fragment_9);
+          append($$anchor3, fragment_11);
         };
-        if_block(node_21, ($$render) => {
-          if (!get(sub) || get(sub).source === "characters") $$render(consequent_28);
-          else $$render(alternate_3, -1);
+        if_block(node_26, ($$render) => {
+          if (!get(sub) || get(sub).source === "characters") $$render(consequent_33);
+          else $$render(alternate_4, -1);
         });
       }
-      append($$anchor2, fragment_6);
+      append($$anchor2, fragment_8);
     };
-    var consequent_33 = ($$anchor2) => {
-      var div_42 = root_47();
-      append($$anchor2, div_42);
+    var consequent_38 = ($$anchor2) => {
+      var div_52 = root_55();
+      append($$anchor2, div_52);
     };
-    var consequent_34 = ($$anchor2) => {
-      var div_43 = root_48();
-      append($$anchor2, div_43);
-    };
-    var consequent_35 = ($$anchor2) => {
-      var div_44 = root_49();
-      append($$anchor2, div_44);
-    };
-    var consequent_36 = ($$anchor2) => {
-      var div_45 = root_50();
-      var text_32 = child(div_45);
-      template_effect(() => set_text(text_32, `Loading ${get(activeCategoryDef).label ?? ""}…`));
-      append($$anchor2, div_45);
-    };
-    var consequent_37 = ($$anchor2) => {
-      var div_46 = root_51();
-      append($$anchor2, div_46);
+    var consequent_39 = ($$anchor2) => {
+      var div_53 = root_56();
+      append($$anchor2, div_53);
     };
     var consequent_40 = ($$anchor2) => {
-      var fragment_10 = comment();
-      var node_28 = first_child(fragment_10);
-      each(node_28, 17, () => get(groupedSections), (section) => section.key, ($$anchor3, section) => {
-        var div_47 = root_53();
-        var div_48 = sibling(child(div_47), 2);
-        var span_23 = child(div_48);
-        var text_33 = child(span_23);
-        action(div_48, ($$node) => stickyShadow == null ? void 0 : stickyShadow($$node));
-        var div_49 = sibling(div_48, 2);
-        each(div_49, 21, () => get(section).items, (item) => item.item_tag, ($$anchor4, item) => {
+      var div_54 = root_57();
+      append($$anchor2, div_54);
+    };
+    var consequent_41 = ($$anchor2) => {
+      var div_55 = root_58();
+      var text_35 = child(div_55);
+      template_effect(() => set_text(text_35, `Loading ${get(activeCategoryDef).label ?? ""}…`));
+      append($$anchor2, div_55);
+    };
+    var consequent_42 = ($$anchor2) => {
+      var div_56 = root_59();
+      append($$anchor2, div_56);
+    };
+    var consequent_45 = ($$anchor2) => {
+      var fragment_12 = comment();
+      var node_33 = first_child(fragment_12);
+      each(node_33, 17, () => get(groupedSections), (section) => section.key, ($$anchor3, section) => {
+        var div_57 = root_61();
+        var div_58 = sibling(child(div_57), 2);
+        var span_23 = child(div_58);
+        var text_36 = child(span_23);
+        action(div_58, ($$node) => stickyShadow == null ? void 0 : stickyShadow($$node));
+        var div_59 = sibling(div_58, 2);
+        each(div_59, 21, () => get(section).items, (item) => item.item_tag, ($$anchor4, item) => {
           const groupCardMods = user_derived(() => isCustomizableSlot(get(activeCategory), get(item).item_group) ? cardModifiers(get(item), get(activeCategory), get(item).item_group) : null);
           const groupCardDotColor = user_derived(() => {
             var _a2;
             return ((_a2 = get(groupCardMods)) == null ? void 0 : _a2.color) ? customizerColorHex(get(groupCardMods).color) : null;
           });
-          var div_50 = root_54();
-          let classes_19;
-          var div_51 = child(div_50);
-          let classes_20;
-          var node_29 = child(div_51);
+          var div_60 = root_62();
+          let classes_21;
+          var div_61 = child(div_60);
+          let classes_22;
+          var node_34 = child(div_61);
           {
-            var consequent_38 = ($$anchor5) => {
-              var img_5 = root_55();
-              template_effect(($0) => set_attribute(img_5, "src", $0), [() => thumbUrl(get(activeBucket), get(item).item_tag)]);
-              append($$anchor5, img_5);
+            var consequent_43 = ($$anchor5) => {
+              var img_7 = root_63();
+              template_effect(($0) => set_attribute(img_7, "src", $0), [() => thumbUrl(get(activeBucket), get(item).item_tag)]);
+              append($$anchor5, img_7);
             };
-            var d_4 = user_derived(() => hasThumb(get(activeBucket), get(item).item_tag));
-            if_block(node_29, ($$render) => {
-              if (get(d_4)) $$render(consequent_38);
+            var d_5 = user_derived(() => hasThumb(get(activeBucket), get(item).item_tag));
+            if_block(node_34, ($$render) => {
+              if (get(d_5)) $$render(consequent_43);
             });
           }
-          var div_52 = sibling(div_51, 2);
-          var node_30 = child(div_52);
+          var div_62 = sibling(div_61, 2);
+          var node_35 = child(div_62);
           {
-            var consequent_39 = ($$anchor5) => {
-              var button_3 = root_56();
-              let classes_21;
+            var consequent_44 = ($$anchor5) => {
+              var button_4 = root_64();
+              let classes_23;
               template_effect(() => {
-                classes_21 = set_class(button_3, 1, "pcr-atb2-card-mod-dot svelte-ibd6yj", null, classes_21, {
+                classes_23 = set_class(button_4, 1, "pcr-atb2-card-mod-dot svelte-ibd6yj", null, classes_23, {
                   filled: !!get(groupCardDotColor),
                   hollow: !get(groupCardDotColor)
                 });
-                set_style(button_3, get(groupCardDotColor) ? `background:${get(groupCardDotColor)}` : "");
+                set_style(button_4, get(groupCardDotColor) ? `background:${get(groupCardDotColor)}` : "");
               });
-              delegated("click", button_3, (e) => {
+              delegated("click", button_4, (e) => {
                 e.stopPropagation();
                 editCardModifiers(get(item), get(activeCategory), get(item).item_group);
               });
-              append($$anchor5, button_3);
+              append($$anchor5, button_4);
             };
-            if_block(node_30, ($$render) => {
-              if (get(groupCardMods)) $$render(consequent_39);
+            if_block(node_35, ($$render) => {
+              if (get(groupCardMods)) $$render(consequent_44);
             });
           }
-          var text_34 = sibling(node_30);
+          var text_37 = sibling(node_35);
           template_effect(
             ($0, $1) => {
-              classes_19 = set_class(div_50, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_19, $0);
-              set_attribute(div_50, "data-item-tag", get(item).item_tag);
-              set_attribute(div_50, "title", get(item).base_natlang || get(item).display_name || get(item).item_tag);
-              classes_20 = set_class(div_51, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_20, $1);
-              set_text(text_34, ` ${(get(item).display_name || get(item).item_tag) ?? ""}`);
+              classes_21 = set_class(div_60, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_21, $0);
+              set_attribute(div_60, "data-item-tag", get(item).item_tag);
+              set_attribute(div_60, "title", get(item).base_natlang || get(item).display_name || get(item).item_tag);
+              classes_22 = set_class(div_61, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_22, $1);
+              set_text(text_37, ` ${(get(item).display_name || get(item).item_tag) ?? ""}`);
             },
             [
               () => ({
@@ -6528,113 +6660,113 @@ ${filtered}` : filtered;
               })
             ]
           );
-          delegated("click", div_50, () => pickItem(get(item)));
-          delegated("contextmenu", div_50, (e) => {
+          delegated("click", div_60, () => pickItem(get(item)));
+          delegated("contextmenu", div_60, (e) => {
             if (get(activeBucket)) openChipQaMenu(e, get(activeBucket), get(item));
           });
-          append($$anchor4, div_50);
+          append($$anchor4, div_60);
         });
-        action(div_47, ($$node) => spyTarget == null ? void 0 : spyTarget($$node));
+        action(div_57, ($$node) => spyTarget == null ? void 0 : spyTarget($$node));
         template_effect(() => {
-          set_attribute(div_47, "data-spy-group", get(section).groupKey);
-          set_text(text_33, get(section).groupLabel);
+          set_attribute(div_57, "data-spy-group", get(section).groupKey);
+          set_text(text_36, get(section).groupLabel);
         });
-        append($$anchor3, div_47);
+        append($$anchor3, div_57);
       });
-      append($$anchor2, fragment_10);
+      append($$anchor2, fragment_12);
     };
-    var alternate_4 = ($$anchor2) => {
-      var div_53 = root_57();
-      each(div_53, 21, () => get(visibleItems), (item) => item.item_tag, ($$anchor3, item) => {
+    var alternate_5 = ($$anchor2) => {
+      var div_63 = root_65();
+      each(div_63, 21, () => get(visibleItems), (item) => item.item_tag, ($$anchor3, item) => {
         const flatCardMods = user_derived(() => isCustomizableSlot(get(activeCategory), get(item).item_group) ? cardModifiers(get(item), get(activeCategory), get(item).item_group) : null);
         const flatCardDotColor = user_derived(() => {
           var _a2;
           return ((_a2 = get(flatCardMods)) == null ? void 0 : _a2.color) ? customizerColorHex(get(flatCardMods).color) : null;
         });
-        var div_54 = root_58();
-        let classes_22;
-        var node_31 = child(div_54);
+        var div_64 = root_66();
+        let classes_24;
+        var node_36 = child(div_64);
         {
-          var consequent_42 = ($$anchor4) => {
-            var div_55 = root_59();
-            let classes_23;
-            var node_32 = child(div_55);
+          var consequent_47 = ($$anchor4) => {
+            var div_65 = root_67();
+            let classes_25;
+            var node_37 = child(div_65);
             {
-              var consequent_41 = ($$anchor5) => {
-                var img_6 = root_60();
-                template_effect(($0) => set_attribute(img_6, "src", $0), [() => thumbUrl(get(activeBucket), get(item).item_tag)]);
-                append($$anchor5, img_6);
+              var consequent_46 = ($$anchor5) => {
+                var img_8 = root_68();
+                template_effect(($0) => set_attribute(img_8, "src", $0), [() => thumbUrl(get(activeBucket), get(item).item_tag)]);
+                append($$anchor5, img_8);
               };
-              var d_5 = user_derived(() => hasThumb(get(activeBucket), get(item).item_tag));
-              if_block(node_32, ($$render) => {
-                if (get(d_5)) $$render(consequent_41);
+              var d_6 = user_derived(() => hasThumb(get(activeBucket), get(item).item_tag));
+              if_block(node_37, ($$render) => {
+                if (get(d_6)) $$render(consequent_46);
               });
             }
-            template_effect(($0) => classes_23 = set_class(div_55, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_23, $0), [
+            template_effect(($0) => classes_25 = set_class(div_65, 1, "pcr-atb2-card-thumb svelte-ibd6yj", null, classes_25, $0), [
               () => ({
                 "has-image": hasThumb(get(activeBucket), get(item).item_tag)
               })
             ]);
-            append($$anchor4, div_55);
+            append($$anchor4, div_65);
           };
-          if_block(node_31, ($$render) => {
-            if (get(activeCategory) !== "styles") $$render(consequent_42);
+          if_block(node_36, ($$render) => {
+            if (get(activeCategory) !== "styles") $$render(consequent_47);
           });
         }
-        var div_56 = sibling(node_31, 2);
-        var node_33 = child(div_56);
+        var div_66 = sibling(node_36, 2);
+        var node_38 = child(div_66);
         {
-          var consequent_43 = ($$anchor4) => {
-            var button_4 = root_61();
-            let classes_24;
+          var consequent_48 = ($$anchor4) => {
+            var button_5 = root_69();
+            let classes_26;
             template_effect(() => {
-              classes_24 = set_class(button_4, 1, "pcr-atb2-card-mod-dot svelte-ibd6yj", null, classes_24, {
+              classes_26 = set_class(button_5, 1, "pcr-atb2-card-mod-dot svelte-ibd6yj", null, classes_26, {
                 filled: !!get(flatCardDotColor),
                 hollow: !get(flatCardDotColor)
               });
-              set_style(button_4, get(flatCardDotColor) ? `background:${get(flatCardDotColor)}` : "");
+              set_style(button_5, get(flatCardDotColor) ? `background:${get(flatCardDotColor)}` : "");
             });
-            delegated("click", button_4, (e) => {
+            delegated("click", button_5, (e) => {
               e.stopPropagation();
               editCardModifiers(get(item), get(activeCategory), get(item).item_group);
             });
-            append($$anchor4, button_4);
+            append($$anchor4, button_5);
           };
-          if_block(node_33, ($$render) => {
-            if (get(flatCardMods)) $$render(consequent_43);
+          if_block(node_38, ($$render) => {
+            if (get(flatCardMods)) $$render(consequent_48);
           });
         }
-        var text_35 = sibling(node_33);
-        var node_34 = sibling(div_56, 2);
+        var text_38 = sibling(node_38);
+        var node_39 = sibling(div_66, 2);
         {
-          var consequent_44 = ($$anchor4) => {
-            var div_57 = root_62();
-            var text_36 = child(div_57);
+          var consequent_49 = ($$anchor4) => {
+            var div_67 = root_70();
+            var text_39 = child(div_67);
             template_effect(() => {
               var _a2;
-              return set_text(text_36, `${((_a2 = get(item).tags) == null ? void 0 : _a2.length) ?? 0 ?? ""} tags`);
+              return set_text(text_39, `${((_a2 = get(item).tags) == null ? void 0 : _a2.length) ?? 0 ?? ""} tags`);
             });
-            append($$anchor4, div_57);
+            append($$anchor4, div_67);
           };
-          var consequent_45 = ($$anchor4) => {
-            var div_58 = root_63();
-            var text_37 = child(div_58);
-            template_effect(($0) => set_text(text_37, $0), [
+          var consequent_50 = ($$anchor4) => {
+            var div_68 = root_71();
+            var text_40 = child(div_68);
+            template_effect(($0) => set_text(text_40, $0), [
               () => groupDisplay(get(activeBucket), get(item).item_group)
             ]);
-            append($$anchor4, div_58);
+            append($$anchor4, div_68);
           };
-          if_block(node_34, ($$render) => {
-            if (get(activeCategory) === "styles") $$render(consequent_44);
-            else if (!get(activeGroup)) $$render(consequent_45, 1);
+          if_block(node_39, ($$render) => {
+            if (get(activeCategory) === "styles") $$render(consequent_49);
+            else if (!get(activeGroup)) $$render(consequent_50, 1);
           });
         }
         template_effect(
           ($0) => {
-            classes_22 = set_class(div_54, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_22, $0);
-            set_attribute(div_54, "data-item-tag", get(item).item_tag);
-            set_attribute(div_54, "title", get(item).base_natlang || get(item).display_name || get(item).item_tag);
-            set_text(text_35, ` ${(get(item).display_name || get(item).item_tag) ?? ""}`);
+            classes_24 = set_class(div_64, 1, "pcr-atb2-card svelte-ibd6yj", null, classes_24, $0);
+            set_attribute(div_64, "data-item-tag", get(item).item_tag);
+            set_attribute(div_64, "title", get(item).base_natlang || get(item).display_name || get(item).item_tag);
+            set_text(text_38, ` ${(get(item).display_name || get(item).item_tag) ?? ""}`);
           },
           [
             () => ({
@@ -6644,31 +6776,31 @@ ${filtered}` : filtered;
             })
           ]
         );
-        delegated("click", div_54, () => pickItem(get(item)));
-        delegated("contextmenu", div_54, (e) => {
+        delegated("click", div_64, () => pickItem(get(item)));
+        delegated("contextmenu", div_64, (e) => {
           if (get(activeCategory) !== "styles" && get(activeBucket)) openChipQaMenu(e, get(activeBucket), get(item));
         });
-        append($$anchor3, div_54);
+        append($$anchor3, div_64);
       });
-      append($$anchor2, div_53);
+      append($$anchor2, div_63);
     };
     if_block(node_14, ($$render) => {
       var _a2;
-      if (get(activeCategory) === "all") $$render(consequent_22);
-      else if (get(activeCategory) === "subjects") $$render(consequent_32, 1);
-      else if (get(activeCategory) === "styles" && !((_a2 = modelInfo()) == null ? void 0 : _a2.hash)) $$render(consequent_33, 2);
-      else if (get(activeCategory) === "styles" && get(stylesCache).loading) $$render(consequent_34, 3);
-      else if (get(activeCategory) === "styles" && get(visibleItems).length === 0) $$render(consequent_35, 4);
-      else if (get(activeCategory) !== "styles" && get(activeBucketData).loading) $$render(consequent_36, 5);
-      else if (get(visibleItems).length === 0) $$render(consequent_37, 6);
-      else if (get(groupedSections)) $$render(consequent_40, 7);
-      else $$render(alternate_4, -1);
+      if (get(activeCategory) === "all") $$render(consequent_27);
+      else if (get(activeCategory) === "subjects") $$render(consequent_37, 1);
+      else if (get(activeCategory) === "styles" && !((_a2 = modelInfo()) == null ? void 0 : _a2.hash)) $$render(consequent_38, 2);
+      else if (get(activeCategory) === "styles" && get(stylesCache).loading) $$render(consequent_39, 3);
+      else if (get(activeCategory) === "styles" && get(visibleItems).length === 0) $$render(consequent_40, 4);
+      else if (get(activeCategory) !== "styles" && get(activeBucketData).loading) $$render(consequent_41, 5);
+      else if (get(visibleItems).length === 0) $$render(consequent_42, 6);
+      else if (get(groupedSections)) $$render(consequent_45, 7);
+      else $$render(alternate_5, -1);
     });
   }
   bind_this(main, ($$value) => set(browserEl, $$value), () => get(browserEl));
   var aside_1 = sibling(main, 2);
-  var node_35 = sibling(child(aside_1), 2);
-  each(node_35, 17, () => get(subjects), (subj) => subj.id, ($$anchor2, subj) => {
+  var node_40 = sibling(child(aside_1), 2);
+  each(node_40, 17, () => get(subjects), (subj) => subj.id, ($$anchor2, subj) => {
     const typeDef = user_derived(() => SUBJECT_TYPES[get(subj).type] || SUBJECT_TYPES.person);
     const isActive = user_derived(() => get(activeSubjectId) === get(subj).id);
     const charThumbBucket = user_derived(() => {
@@ -6679,18 +6811,18 @@ ${filtered}` : filtered;
       var _a2, _b;
       return ((_a2 = get(subj).character) == null ? void 0 : _a2.kind) === "cast" ? !!((_b = get(castThumbs)[get(subj).character.group]) == null ? void 0 : _b.has(get(subj).character.tag)) : !!(get(subj).character && get(characterThumbs).has(get(subj).character.tag));
     });
-    var div_59 = root_64();
-    let classes_25;
-    var div_60 = child(div_59);
-    var node_36 = child(div_60);
+    var div_69 = root_72();
+    let classes_27;
+    var div_70 = child(div_69);
+    var node_41 = child(div_70);
     {
-      var consequent_46 = ($$anchor3) => {
-        var span_24 = root_65();
-        var img_7 = child(span_24);
+      var consequent_51 = ($$anchor3) => {
+        var span_24 = root_73();
+        var img_9 = child(span_24);
         template_effect(
           ($0) => {
             set_style(span_24, `border-color:${get(typeDef).color ?? ""}`);
-            set_attribute(img_7, "src", $0);
+            set_attribute(img_9, "src", $0);
           },
           [
             () => `/promptchain/tag-builder/thumb/${encodeURIComponent(get(charThumbBucket))}/${encodeURIComponent(get(subj).character.tag)}`
@@ -6698,187 +6830,187 @@ ${filtered}` : filtered;
         );
         append($$anchor3, span_24);
       };
-      var alternate_5 = ($$anchor3) => {
-        var span_25 = root_66();
-        var text_38 = child(span_25);
+      var alternate_6 = ($$anchor3) => {
+        var span_25 = root_74();
+        var text_41 = child(span_25);
         template_effect(() => {
           set_style(span_25, `background:${get(typeDef).color ?? ""}`);
-          set_text(text_38, get(subj).letter);
+          set_text(text_41, get(subj).letter);
         });
         append($$anchor3, span_25);
       };
-      if_block(node_36, ($$render) => {
-        if (get(subj).character && get(charThumbHas)) $$render(consequent_46);
-        else $$render(alternate_5, -1);
-      });
-    }
-    var input_1 = sibling(node_36, 2);
-    var span_26 = sibling(input_1, 2);
-    var text_39 = child(span_26);
-    var node_37 = sibling(span_26, 2);
-    {
-      var consequent_47 = ($$anchor3) => {
-        var span_27 = root_67();
-        var text_40 = child(span_27);
-        template_effect(() => set_text(text_40, get(subj).regionName || "+ new block"));
-        append($$anchor3, span_27);
-      };
-      if_block(node_37, ($$render) => {
-        if (get(regionMode)) $$render(consequent_47);
-      });
-    }
-    var button_5 = sibling(node_37, 2);
-    var div_61 = sibling(div_60, 2);
-    var div_62 = sibling(child(div_61), 2);
-    var span_28 = sibling(child(div_62), 2);
-    var span_29 = child(span_28);
-    var button_6 = child(span_29);
-    var span_30 = child(button_6);
-    var node_38 = child(span_30);
-    {
-      var consequent_49 = ($$anchor3) => {
-        var fragment_11 = root_68();
-        var text_41 = first_child(fragment_11, true);
-        var node_39 = sibling(text_41);
-        {
-          var consequent_48 = ($$anchor4) => {
-            var text_42 = text();
-            template_effect(() => set_text(text_42, `— ${get(subj).character.series ?? ""}`));
-            append($$anchor4, text_42);
-          };
-          if_block(node_39, ($$render) => {
-            if (get(subj).character.series) $$render(consequent_48);
-          });
-        }
-        template_effect(() => set_text(text_41, get(subj).character.display));
-        append($$anchor3, fragment_11);
-      };
-      var alternate_6 = ($$anchor3) => {
-        var text_43 = text("Pick an identity…");
-        append($$anchor3, text_43);
-      };
-      if_block(node_38, ($$render) => {
-        if (get(subj).character) $$render(consequent_49);
+      if_block(node_41, ($$render) => {
+        if (get(subj).character && get(charThumbHas)) $$render(consequent_51);
         else $$render(alternate_6, -1);
       });
     }
-    var node_40 = sibling(button_6, 2);
-    {
-      var consequent_50 = ($$anchor3) => {
-        var button_7 = root_71();
-        delegated("click", button_7, (e) => {
-          e.stopPropagation();
-          unbindIdentity(get(subj).id);
-        });
-        append($$anchor3, button_7);
-      };
-      if_block(node_40, ($$render) => {
-        if (get(subj).character) $$render(consequent_50);
-      });
-    }
-    var div_63 = sibling(div_62, 2);
-    var span_31 = sibling(child(div_63), 2);
-    var span_32 = child(span_31);
-    var button_8 = child(span_32);
-    var span_33 = child(button_8);
-    var node_41 = child(span_33);
+    var input_1 = sibling(node_41, 2);
+    var span_26 = sibling(input_1, 2);
+    var text_42 = child(span_26);
+    var node_42 = sibling(span_26, 2);
     {
       var consequent_52 = ($$anchor3) => {
-        var fragment_13 = root_72();
+        var span_27 = root_75();
+        var text_43 = child(span_27);
+        template_effect(() => set_text(text_43, get(subj).regionName || "+ new block"));
+        append($$anchor3, span_27);
+      };
+      if_block(node_42, ($$render) => {
+        if (get(regionMode)) $$render(consequent_52);
+      });
+    }
+    var button_6 = sibling(node_42, 2);
+    var div_71 = sibling(div_70, 2);
+    var div_72 = sibling(child(div_71), 2);
+    var span_28 = sibling(child(div_72), 2);
+    var span_29 = child(span_28);
+    var button_7 = child(span_29);
+    var span_30 = child(button_7);
+    var node_43 = child(span_30);
+    {
+      var consequent_54 = ($$anchor3) => {
+        var fragment_13 = root_76();
         var text_44 = first_child(fragment_13, true);
-        var node_42 = sibling(text_44);
+        var node_44 = sibling(text_44);
         {
-          var consequent_51 = ($$anchor4) => {
+          var consequent_53 = ($$anchor4) => {
             var text_45 = text();
-            template_effect(() => set_text(text_45, `— ${get(subj).activeOutfit.character_display ?? ""}`));
+            template_effect(() => set_text(text_45, `— ${get(subj).character.series ?? ""}`));
             append($$anchor4, text_45);
           };
-          if_block(node_42, ($$render) => {
-            var _a2;
-            if (get(subj).activeOutfit.character_tag !== ((_a2 = get(subj).character) == null ? void 0 : _a2.tag)) $$render(consequent_51);
+          if_block(node_44, ($$render) => {
+            if (get(subj).character.series) $$render(consequent_53);
           });
         }
-        template_effect(() => set_text(text_44, get(subj).activeOutfit.name));
+        template_effect(() => set_text(text_44, get(subj).character.display));
         append($$anchor3, fragment_13);
       };
       var alternate_7 = ($$anchor3) => {
-        var text_46 = text("Pick outfit…");
+        var text_46 = text("Pick an identity…");
         append($$anchor3, text_46);
       };
-      if_block(node_41, ($$render) => {
-        if (get(subj).activeOutfit) $$render(consequent_52);
+      if_block(node_43, ($$render) => {
+        if (get(subj).character) $$render(consequent_54);
         else $$render(alternate_7, -1);
       });
     }
-    var node_43 = sibling(button_8, 2);
-    {
-      var consequent_53 = ($$anchor3) => {
-        var button_9 = root_75();
-        delegated("click", button_9, (e) => {
-          e.stopPropagation();
-          removePreset(get(subj).id, "outfit");
-        });
-        append($$anchor3, button_9);
-      };
-      if_block(node_43, ($$render) => {
-        if (get(subj).activeOutfit) $$render(consequent_53);
-      });
-    }
-    var div_64 = sibling(div_63, 2);
-    var span_34 = sibling(child(div_64), 2);
-    var span_35 = child(span_34);
-    var button_10 = child(span_35);
-    var span_36 = child(button_10);
-    var node_44 = child(span_36);
+    var node_45 = sibling(button_7, 2);
     {
       var consequent_55 = ($$anchor3) => {
-        var fragment_15 = root_76();
+        var button_8 = root_79();
+        delegated("click", button_8, (e) => {
+          e.stopPropagation();
+          unbindIdentity(get(subj).id);
+        });
+        append($$anchor3, button_8);
+      };
+      if_block(node_45, ($$render) => {
+        if (get(subj).character) $$render(consequent_55);
+      });
+    }
+    var div_73 = sibling(div_72, 2);
+    var span_31 = sibling(child(div_73), 2);
+    var span_32 = child(span_31);
+    var button_9 = child(span_32);
+    var span_33 = child(button_9);
+    var node_46 = child(span_33);
+    {
+      var consequent_57 = ($$anchor3) => {
+        var fragment_15 = root_80();
         var text_47 = first_child(fragment_15, true);
-        var node_45 = sibling(text_47);
+        var node_47 = sibling(text_47);
         {
-          var consequent_54 = ($$anchor4) => {
+          var consequent_56 = ($$anchor4) => {
             var text_48 = text();
-            template_effect(() => set_text(text_48, `— ${get(subj).activePose.character_display ?? ""}`));
+            template_effect(() => set_text(text_48, `— ${get(subj).activeOutfit.character_display ?? ""}`));
             append($$anchor4, text_48);
           };
-          if_block(node_45, ($$render) => {
+          if_block(node_47, ($$render) => {
             var _a2;
-            if (get(subj).activePose.character_tag !== ((_a2 = get(subj).character) == null ? void 0 : _a2.tag)) $$render(consequent_54);
+            if (get(subj).activeOutfit.character_tag !== ((_a2 = get(subj).character) == null ? void 0 : _a2.tag)) $$render(consequent_56);
           });
         }
-        template_effect(() => set_text(text_47, get(subj).activePose.name));
+        template_effect(() => set_text(text_47, get(subj).activeOutfit.name));
         append($$anchor3, fragment_15);
       };
       var alternate_8 = ($$anchor3) => {
-        var text_49 = text("Pick pose…");
+        var text_49 = text("Pick outfit…");
         append($$anchor3, text_49);
       };
-      if_block(node_44, ($$render) => {
-        if (get(subj).activePose) $$render(consequent_55);
+      if_block(node_46, ($$render) => {
+        if (get(subj).activeOutfit) $$render(consequent_57);
         else $$render(alternate_8, -1);
       });
     }
-    var node_46 = sibling(button_10, 2);
+    var node_48 = sibling(button_9, 2);
     {
-      var consequent_56 = ($$anchor3) => {
-        var button_11 = root_79();
-        delegated("click", button_11, (e) => {
+      var consequent_58 = ($$anchor3) => {
+        var button_10 = root_83();
+        delegated("click", button_10, (e) => {
+          e.stopPropagation();
+          removePreset(get(subj).id, "outfit");
+        });
+        append($$anchor3, button_10);
+      };
+      if_block(node_48, ($$render) => {
+        if (get(subj).activeOutfit) $$render(consequent_58);
+      });
+    }
+    var div_74 = sibling(div_73, 2);
+    var span_34 = sibling(child(div_74), 2);
+    var span_35 = child(span_34);
+    var button_11 = child(span_35);
+    var span_36 = child(button_11);
+    var node_49 = child(span_36);
+    {
+      var consequent_60 = ($$anchor3) => {
+        var fragment_17 = root_84();
+        var text_50 = first_child(fragment_17, true);
+        var node_50 = sibling(text_50);
+        {
+          var consequent_59 = ($$anchor4) => {
+            var text_51 = text();
+            template_effect(() => set_text(text_51, `— ${get(subj).activePose.character_display ?? ""}`));
+            append($$anchor4, text_51);
+          };
+          if_block(node_50, ($$render) => {
+            var _a2;
+            if (get(subj).activePose.character_tag !== ((_a2 = get(subj).character) == null ? void 0 : _a2.tag)) $$render(consequent_59);
+          });
+        }
+        template_effect(() => set_text(text_50, get(subj).activePose.name));
+        append($$anchor3, fragment_17);
+      };
+      var alternate_9 = ($$anchor3) => {
+        var text_52 = text("Pick pose…");
+        append($$anchor3, text_52);
+      };
+      if_block(node_49, ($$render) => {
+        if (get(subj).activePose) $$render(consequent_60);
+        else $$render(alternate_9, -1);
+      });
+    }
+    var node_51 = sibling(button_11, 2);
+    {
+      var consequent_61 = ($$anchor3) => {
+        var button_12 = root_87();
+        delegated("click", button_12, (e) => {
           e.stopPropagation();
           removePreset(get(subj).id, "pose");
         });
-        append($$anchor3, button_11);
+        append($$anchor3, button_12);
       };
-      if_block(node_46, ($$render) => {
-        if (get(subj).activePose) $$render(consequent_56);
+      if_block(node_51, ($$render) => {
+        if (get(subj).activePose) $$render(consequent_61);
       });
     }
-    var node_47 = sibling(div_61, 2);
-    each(node_47, 17, () => get(typeDef).slotCategories, index, ($$anchor3, catKey) => {
+    var node_52 = sibling(div_71, 2);
+    each(node_52, 17, () => get(typeDef).slotCategories, index, ($$anchor3, catKey) => {
       const catDef = user_derived(() => CATEGORIES.find((c) => c.key === get(catKey)));
-      var fragment_17 = comment();
-      var node_48 = first_child(fragment_17);
+      var fragment_19 = comment();
+      var node_53 = first_child(fragment_19);
       {
-        var consequent_64 = ($$anchor4) => {
+        var consequent_69 = ($$anchor4) => {
           const catGroups = user_derived(() => get(bucketCache)[get(catDef).bucket].groups);
           const catSlots = user_derived(() => get(subj).slots[get(catKey)] || {});
           const multiSet = user_derived(() => MULTI_GROUPS[get(catDef).bucket] || /* @__PURE__ */ new Set());
@@ -6888,102 +7020,102 @@ ${filtered}` : filtered;
             return !!((_a2 = get(subj).expandedSections) == null ? void 0 : _a2[get(catKey)]);
           });
           const hasChev = user_derived(() => get(emptyCount) > 0);
-          var div_65 = root_81();
-          var div_66 = child(div_65);
-          let classes_26;
-          var span_37 = child(div_66);
-          var text_50 = child(span_37);
-          var node_49 = sibling(span_37, 2);
+          var div_75 = root_89();
+          var div_76 = child(div_75);
+          let classes_28;
+          var span_37 = child(div_76);
+          var text_53 = child(span_37);
+          var node_54 = sibling(span_37, 2);
           {
-            var consequent_57 = ($$anchor5) => {
-              var span_38 = root_82();
-              var text_51 = child(span_38);
-              template_effect(() => set_text(text_51, `${get(isExpanded) ? "▾" : "▸"} +${get(emptyCount) ?? ""}`));
+            var consequent_62 = ($$anchor5) => {
+              var span_38 = root_90();
+              var text_54 = child(span_38);
+              template_effect(() => set_text(text_54, `${get(isExpanded) ? "▾" : "▸"} +${get(emptyCount) ?? ""}`));
               append($$anchor5, span_38);
             };
-            if_block(node_49, ($$render) => {
-              if (get(hasChev)) $$render(consequent_57);
+            if_block(node_54, ($$render) => {
+              if (get(hasChev)) $$render(consequent_62);
             });
           }
-          var node_50 = sibling(div_66, 2);
+          var node_55 = sibling(div_76, 2);
           {
-            var consequent_58 = ($$anchor5) => {
-              var div_67 = root_83();
-              var span_39 = sibling(child(div_67), 2);
+            var consequent_63 = ($$anchor5) => {
+              var div_77 = root_91();
+              var span_39 = sibling(child(div_77), 2);
               var span_40 = child(span_39);
-              var text_52 = child(span_40);
-              var button_12 = sibling(text_52);
-              template_effect(() => set_text(text_52, `${get(subj).character.display ?? ""} `));
+              var text_55 = child(span_40);
+              var button_13 = sibling(text_55);
+              template_effect(() => set_text(text_55, `${get(subj).character.display ?? ""} `));
               delegated("click", span_40, (e) => {
                 e.stopPropagation();
                 jumpToIdentity(get(subj).id);
               });
-              delegated("click", button_12, (e) => {
+              delegated("click", button_13, (e) => {
                 e.stopPropagation();
                 unbindIdentity(get(subj).id);
               });
-              append($$anchor5, div_67);
+              append($$anchor5, div_77);
             };
-            if_block(node_50, ($$render) => {
-              if (get(catKey) === "appearance" && get(subj).character) $$render(consequent_58);
+            if_block(node_55, ($$render) => {
+              if (get(catKey) === "appearance" && get(subj).character) $$render(consequent_63);
             });
           }
-          var node_51 = sibling(node_50, 2);
+          var node_56 = sibling(node_55, 2);
           {
-            var consequent_59 = ($$anchor5) => {
-              var div_68 = root_84();
-              var span_41 = sibling(child(div_68), 2);
-              var node_52 = child(span_41);
-              each(node_52, 19, () => get(subj).modifiers || [], (tok, mi) => tok + " " + mi, ($$anchor6, tok) => {
-                var span_42 = root_85();
-                var text_53 = child(span_42);
-                var button_13 = sibling(text_53);
-                template_effect(() => set_text(text_53, `${get(tok) ?? ""} `));
+            var consequent_64 = ($$anchor5) => {
+              var div_78 = root_92();
+              var span_41 = sibling(child(div_78), 2);
+              var node_57 = child(span_41);
+              each(node_57, 19, () => get(subj).modifiers || [], (tok, mi) => tok + " " + mi, ($$anchor6, tok) => {
+                var span_42 = root_93();
+                var text_56 = child(span_42);
+                var button_14 = sibling(text_56);
+                template_effect(() => set_text(text_56, `${get(tok) ?? ""} `));
                 delegated("click", span_42, (e) => {
                   e.stopPropagation();
                   jumpToModifier(get(subj).id, get(tok));
                 });
-                delegated("click", button_13, (e) => {
+                delegated("click", button_14, (e) => {
                   e.stopPropagation();
                   removeModifier(get(subj).id, get(tok));
                 });
                 append($$anchor6, span_42);
               });
-              var span_43 = sibling(node_52, 2);
+              var span_43 = sibling(node_57, 2);
               delegated("click", span_43, (e) => {
                 e.stopPropagation();
                 openModifierPicker(get(subj).id, e.currentTarget);
               });
-              append($$anchor5, div_68);
+              append($$anchor5, div_78);
             };
-            if_block(node_51, ($$render) => {
-              if (get(catKey) === "appearance") $$render(consequent_59);
+            if_block(node_56, ($$render) => {
+              if (get(catKey) === "appearance") $$render(consequent_64);
             });
           }
-          var node_53 = sibling(node_51, 2);
-          each(node_53, 17, () => get(catGroups), index, ($$anchor5, g) => {
+          var node_58 = sibling(node_56, 2);
+          each(node_58, 17, () => get(catGroups), index, ($$anchor5, g) => {
             const sel = user_derived(() => get(catSlots)[get(g).group_name] || []);
             const isMulti = user_derived(() => get(multiSet).has(get(g).group_name));
-            var fragment_18 = comment();
-            var node_54 = first_child(fragment_18);
+            var fragment_20 = comment();
+            var node_59 = first_child(fragment_20);
             {
-              var consequent_63 = ($$anchor6) => {
-                var div_69 = root_87();
-                var span_44 = child(div_69);
-                var text_54 = child(span_44);
-                var node_55 = sibling(text_54);
+              var consequent_68 = ($$anchor6) => {
+                var div_79 = root_95();
+                var span_44 = child(div_79);
+                var text_57 = child(span_44);
+                var node_60 = sibling(text_57);
                 {
-                  var consequent_60 = ($$anchor7) => {
-                    var span_45 = root_88();
+                  var consequent_65 = ($$anchor7) => {
+                    var span_45 = root_96();
                     append($$anchor7, span_45);
                   };
-                  if_block(node_55, ($$render) => {
-                    if (get(isMulti)) $$render(consequent_60);
+                  if_block(node_60, ($$render) => {
+                    if (get(isMulti)) $$render(consequent_65);
                   });
                 }
                 var span_46 = sibling(span_44, 2);
-                var node_56 = child(span_46);
-                each(node_56, 17, () => get(sel), (item) => item.item_tag, ($$anchor7, item) => {
+                var node_61 = child(span_46);
+                each(node_61, 17, () => get(sel), (item) => item.item_tag, ($$anchor7, item) => {
                   const hasMods = user_derived(() => !!get(item).modifiers);
                   const isFurn = user_derived(() => isFurnitureChip(get(item)));
                   const capColor = user_derived(() => {
@@ -6991,15 +7123,15 @@ ${filtered}` : filtered;
                     return get(isFurn) ? get(item)._furniture.color ? customizerColorHex(get(item)._furniture.color) : null : get(hasMods) ? customizerColorHex((_a2 = get(item).modifiers) == null ? void 0 : _a2.color) : null;
                   });
                   const modTooltip = user_derived(() => get(isFurn) ? "Edit furniture" : get(hasMods) ? modifierTooltip(get(item)) : "");
-                  var span_47 = root_89();
-                  let classes_27;
-                  var node_57 = child(span_47);
+                  var span_47 = root_97();
+                  let classes_29;
+                  var node_62 = child(span_47);
                   {
-                    var consequent_61 = ($$anchor8) => {
-                      var span_48 = root_90();
-                      let classes_28;
+                    var consequent_66 = ($$anchor8) => {
+                      var span_48 = root_98();
+                      let classes_30;
                       template_effect(() => {
-                        classes_28 = set_class(span_48, 1, "pcr-atb2-chip-cap svelte-ibd6yj", null, classes_28, {
+                        classes_30 = set_class(span_48, 1, "pcr-atb2-chip-cap svelte-ibd6yj", null, classes_30, {
                           "pcr-atb2-chip-cap-filled": !!get(capColor) || get(isFurn),
                           "pcr-atb2-chip-cap-hollow": !get(capColor) && !get(isFurn)
                         });
@@ -7014,18 +7146,18 @@ ${filtered}` : filtered;
                       });
                       append($$anchor8, span_48);
                     };
-                    if_block(node_57, ($$render) => {
-                      if (get(hasMods) || get(isFurn)) $$render(consequent_61);
+                    if_block(node_62, ($$render) => {
+                      if (get(hasMods) || get(isFurn)) $$render(consequent_66);
                     });
                   }
-                  var span_49 = sibling(node_57, 2);
-                  var text_55 = child(span_49);
-                  var button_14 = sibling(span_49, 2);
+                  var span_49 = sibling(node_62, 2);
+                  var text_58 = child(span_49);
+                  var button_15 = sibling(span_49, 2);
                   template_effect(
                     ($0) => {
-                      classes_27 = set_class(span_47, 1, "pcr-atb2-chip pcr-atb2-chip-jumpable svelte-ibd6yj", null, classes_27, $0);
+                      classes_29 = set_class(span_47, 1, "pcr-atb2-chip pcr-atb2-chip-jumpable svelte-ibd6yj", null, classes_29, $0);
                       set_attribute(span_49, "title", `Jump to ${get(catDef).label} / ${get(g).display_name || get(g).group_name}`);
-                      set_text(text_55, get(item).display_name || get(item).item_tag);
+                      set_text(text_58, get(item).display_name || get(item).item_tag);
                     },
                     [
                       () => ({
@@ -7038,177 +7170,177 @@ ${filtered}` : filtered;
                     e.stopPropagation();
                     jumpToSlotChip(get(subj).id, get(catKey), get(g).group_name, get(item).item_tag);
                   });
-                  delegated("click", button_14, (e) => {
+                  delegated("click", button_15, (e) => {
                     e.stopPropagation();
                     clearSubjectChip(get(subj).id, get(catKey), get(g).group_name, get(item).item_tag);
                   });
                   append($$anchor7, span_47);
                 });
-                var node_58 = sibling(node_56, 2);
+                var node_63 = sibling(node_61, 2);
                 {
-                  var consequent_62 = ($$anchor7) => {
-                    var span_50 = root_91();
+                  var consequent_67 = ($$anchor7) => {
+                    var span_50 = root_99();
                     delegated("click", span_50, (e) => {
                       e.stopPropagation();
                       jumpToSlot(get(subj).id, get(catKey), get(g).group_name);
                     });
                     append($$anchor7, span_50);
                   };
-                  if_block(node_58, ($$render) => {
-                    if (get(sel).length === 0 || get(isMulti)) $$render(consequent_62);
+                  if_block(node_63, ($$render) => {
+                    if (get(sel).length === 0 || get(isMulti)) $$render(consequent_67);
                   });
                 }
-                template_effect(() => set_text(text_54, `${(get(g).display_name || get(g).group_name) ?? ""} `));
-                append($$anchor6, div_69);
+                template_effect(() => set_text(text_57, `${(get(g).display_name || get(g).group_name) ?? ""} `));
+                append($$anchor6, div_79);
               };
-              if_block(node_54, ($$render) => {
-                if (get(sel).length > 0 || get(isExpanded)) $$render(consequent_63);
+              if_block(node_59, ($$render) => {
+                if (get(sel).length > 0 || get(isExpanded)) $$render(consequent_68);
               });
             }
-            append($$anchor5, fragment_18);
+            append($$anchor5, fragment_20);
           });
           template_effect(() => {
-            classes_26 = set_class(div_66, 1, "pcr-atb2-subj-section-header svelte-ibd6yj", null, classes_26, { clickable: get(hasChev) });
-            set_text(text_50, get(catDef).label);
+            classes_28 = set_class(div_76, 1, "pcr-atb2-subj-section-header svelte-ibd6yj", null, classes_28, { clickable: get(hasChev) });
+            set_text(text_53, get(catDef).label);
           });
-          delegated("click", div_66, (e) => {
+          delegated("click", div_76, (e) => {
             if (get(hasChev)) {
               e.stopPropagation();
               toggleSubjectSection(get(subj).id, get(catKey));
             }
           });
-          append($$anchor4, div_65);
+          append($$anchor4, div_75);
         };
-        if_block(node_48, ($$render) => {
+        if_block(node_53, ($$render) => {
           var _a2, _b;
-          if (get(catDef) && get(catDef).enabled && ((_b = (_a2 = get(bucketCache)[get(catDef).bucket]) == null ? void 0 : _a2.groups) == null ? void 0 : _b.length)) $$render(consequent_64);
+          if (get(catDef) && get(catDef).enabled && ((_b = (_a2 = get(bucketCache)[get(catDef).bucket]) == null ? void 0 : _a2.groups) == null ? void 0 : _b.length)) $$render(consequent_69);
         });
       }
-      append($$anchor3, fragment_17);
+      append($$anchor3, fragment_19);
     });
-    var node_59 = sibling(node_47, 2);
+    var node_64 = sibling(node_52, 2);
     {
-      var consequent_65 = ($$anchor3) => {
-        var div_70 = root_92();
-        var div_71 = sibling(child(div_70), 2);
-        var span_51 = child(div_71);
+      var consequent_70 = ($$anchor3) => {
+        var div_80 = root_100();
+        var div_81 = sibling(child(div_80), 2);
+        var span_51 = child(div_81);
         each(span_51, 23, () => get(subj).freeform, (tok, ti) => tok + "\0" + ti, ($$anchor4, tok) => {
-          var span_52 = root_93();
-          var text_56 = child(span_52);
-          var button_15 = sibling(text_56);
-          template_effect(() => set_text(text_56, `${get(tok) ?? ""} `));
-          delegated("click", button_15, (e) => {
+          var span_52 = root_101();
+          var text_59 = child(span_52);
+          var button_16 = sibling(text_59);
+          template_effect(() => set_text(text_59, `${get(tok) ?? ""} `));
+          delegated("click", button_16, (e) => {
             e.stopPropagation();
             removeFreeform(get(subj).id, get(tok));
           });
           append($$anchor4, span_52);
         });
-        append($$anchor3, div_70);
+        append($$anchor3, div_80);
       };
-      if_block(node_59, ($$render) => {
-        if (get(subj).freeform && get(subj).freeform.length) $$render(consequent_65);
+      if_block(node_64, ($$render) => {
+        if (get(subj).freeform && get(subj).freeform.length) $$render(consequent_70);
       });
     }
-    var node_60 = sibling(node_59, 2);
-    each(node_60, 16, () => ["outfit", "pose", "interaction", "scene"], index, ($$anchor3, sectionKey) => {
+    var node_65 = sibling(node_64, 2);
+    each(node_65, 16, () => ["outfit", "pose", "interaction", "scene"], index, ($$anchor3, sectionKey) => {
       const items = user_derived(() => {
         var _a2;
         return ((_a2 = get(subj).sectionFreeform) == null ? void 0 : _a2[sectionKey]) || [];
       });
-      var fragment_19 = comment();
-      var node_61 = first_child(fragment_19);
+      var fragment_21 = comment();
+      var node_66 = first_child(fragment_21);
       {
-        var consequent_66 = ($$anchor4) => {
-          var div_72 = root_95();
-          var div_73 = child(div_72);
-          var span_53 = child(div_73);
-          var text_57 = child(span_53);
-          var div_74 = sibling(div_73, 2);
-          var span_54 = child(div_74);
+        var consequent_71 = ($$anchor4) => {
+          var div_82 = root_103();
+          var div_83 = child(div_82);
+          var span_53 = child(div_83);
+          var text_60 = child(span_53);
+          var div_84 = sibling(div_83, 2);
+          var span_54 = child(div_84);
           each(span_54, 20, () => get(items), (tok) => tok, ($$anchor5, tok) => {
-            var span_55 = root_96();
-            var text_58 = child(span_55);
-            var button_16 = sibling(text_58);
-            template_effect(() => set_text(text_58, `${tok ?? ""} `));
-            delegated("click", button_16, (e) => {
+            var span_55 = root_104();
+            var text_61 = child(span_55);
+            var button_17 = sibling(text_61);
+            template_effect(() => set_text(text_61, `${tok ?? ""} `));
+            delegated("click", button_17, (e) => {
               e.stopPropagation();
               removeSectionFreeform(get(subj).id, sectionKey, tok);
             });
             append($$anchor5, span_55);
           });
-          template_effect(() => set_text(text_57, `Unbound (${sectionKey ?? ""})`));
-          append($$anchor4, div_72);
+          template_effect(() => set_text(text_60, `Unbound (${sectionKey ?? ""})`));
+          append($$anchor4, div_82);
         };
-        if_block(node_61, ($$render) => {
-          if (get(items).length) $$render(consequent_66);
+        if_block(node_66, ($$render) => {
+          if (get(items).length) $$render(consequent_71);
         });
       }
-      append($$anchor3, fragment_19);
+      append($$anchor3, fragment_21);
     });
     template_effect(() => {
-      classes_25 = set_class(div_59, 1, "pcr-atb2-card2 pcr-atb2-subject-card svelte-ibd6yj", null, classes_25, { active: get(isActive) });
-      set_style(div_59, `--subj-color:${get(typeDef).color ?? ""}`);
+      classes_27 = set_class(div_69, 1, "pcr-atb2-card2 pcr-atb2-subject-card svelte-ibd6yj", null, classes_27, { active: get(isActive) });
+      set_style(div_69, `--subj-color:${get(typeDef).color ?? ""}`);
       set_value(input_1, get(subj).name);
-      set_text(text_39, get(typeDef).label);
+      set_text(text_42, get(typeDef).label);
     });
-    delegated("click", div_59, () => setActiveSubject(get(subj).id));
+    delegated("click", div_69, () => setActiveSubject(get(subj).id));
     delegated("input", input_1, (e) => renameSubject(get(subj).id, e.target.value));
     delegated("click", input_1, (e) => e.stopPropagation());
-    delegated("click", button_5, (e) => {
+    delegated("click", button_6, (e) => {
       e.stopPropagation();
       deleteSubject(get(subj).id);
     });
-    delegated("click", button_6, (e) => {
+    delegated("click", button_7, (e) => {
       e.stopPropagation();
       toggleIdentityPicker(get(subj).id, e.currentTarget);
     });
-    delegated("click", button_8, (e) => {
+    delegated("click", button_9, (e) => {
       e.stopPropagation();
       togglePresetPicker("outfit", get(subj).id, e.currentTarget);
     });
-    delegated("click", button_10, (e) => {
+    delegated("click", button_11, (e) => {
       e.stopPropagation();
       togglePresetPicker("pose", get(subj).id, e.currentTarget);
     });
-    append($$anchor2, div_59);
+    append($$anchor2, div_69);
   });
-  var div_75 = sibling(node_35, 2);
-  var node_62 = sibling(div_75, 2);
+  var div_85 = sibling(node_40, 2);
+  var node_67 = sibling(div_85, 2);
   {
-    var consequent_72 = ($$anchor2) => {
-      var div_76 = root_97();
-      let classes_29;
-      var div_77 = child(div_76);
-      var button_17 = sibling(child(div_77), 6);
-      var node_63 = sibling(div_77, 2);
-      each(node_63, 17, () => get(sceneGroupsList), index, ($$anchor3, g) => {
+    var consequent_77 = ($$anchor2) => {
+      var div_86 = root_105();
+      let classes_31;
+      var div_87 = child(div_86);
+      var button_18 = sibling(child(div_87), 6);
+      var node_68 = sibling(div_87, 2);
+      each(node_68, 17, () => get(sceneGroupsList), index, ($$anchor3, g) => {
         const sel = user_derived(() => get(sceneSelections)[get(g).group_name] || []);
         const isMulti = user_derived(() => MULTI_GROUPS.scene.has(get(g).group_name));
-        var div_78 = root_98();
-        var span_56 = child(div_78);
-        var text_59 = child(span_56);
-        var node_64 = sibling(text_59);
+        var div_88 = root_106();
+        var span_56 = child(div_88);
+        var text_62 = child(span_56);
+        var node_69 = sibling(text_62);
         {
-          var consequent_67 = ($$anchor4) => {
-            var span_57 = root_99();
+          var consequent_72 = ($$anchor4) => {
+            var span_57 = root_107();
             append($$anchor4, span_57);
           };
-          if_block(node_64, ($$render) => {
-            if (get(isMulti)) $$render(consequent_67);
+          if_block(node_69, ($$render) => {
+            if (get(isMulti)) $$render(consequent_72);
           });
         }
         var span_58 = sibling(span_56, 2);
-        var node_65 = child(span_58);
-        each(node_65, 17, () => get(sel), (item) => item.item_tag, ($$anchor4, item) => {
-          var span_59 = root_100();
-          let classes_30;
-          var text_60 = child(span_59);
-          var button_18 = sibling(text_60);
+        var node_70 = child(span_58);
+        each(node_70, 17, () => get(sel), (item) => item.item_tag, ($$anchor4, item) => {
+          var span_59 = root_108();
+          let classes_32;
+          var text_63 = child(span_59);
+          var button_19 = sibling(text_63);
           template_effect(
             ($0) => {
-              classes_30 = set_class(span_59, 1, "pcr-atb2-chip pcr-atb2-chip-jumpable svelte-ibd6yj", null, classes_30, $0);
+              classes_32 = set_class(span_59, 1, "pcr-atb2-chip pcr-atb2-chip-jumpable svelte-ibd6yj", null, classes_32, $0);
               set_attribute(span_59, "title", `Jump to Scene / ${(get(g).display_name || get(g).group_name) ?? ""}`);
-              set_text(text_60, `${(get(item).display_name || get(item).item_tag) ?? ""} `);
+              set_text(text_63, `${(get(item).display_name || get(item).item_tag) ?? ""} `);
             },
             [
               () => ({ "pcr-atb2-chip-unprocessed": isItemUnprocessed(get(item)) })
@@ -7222,74 +7354,74 @@ ${filtered}` : filtered;
               itemTag: get(item).item_tag
             });
           });
-          delegated("click", button_18, (e) => {
+          delegated("click", button_19, (e) => {
             e.stopPropagation();
             clearSceneChip(get(g).group_name, get(item).item_tag);
           });
           append($$anchor4, span_59);
         });
-        var node_66 = sibling(node_65, 2);
+        var node_71 = sibling(node_70, 2);
         {
-          var consequent_68 = ($$anchor4) => {
-            var span_60 = root_101();
+          var consequent_73 = ($$anchor4) => {
+            var span_60 = root_109();
             delegated("click", span_60, () => {
               set(activeCategory, "scene");
               set(activeGroup, get(g).group_name, true);
             });
             append($$anchor4, span_60);
           };
-          if_block(node_66, ($$render) => {
-            if (get(sel).length === 0 || get(isMulti)) $$render(consequent_68);
+          if_block(node_71, ($$render) => {
+            if (get(sel).length === 0 || get(isMulti)) $$render(consequent_73);
           });
         }
-        template_effect(() => set_text(text_59, `${(get(g).display_name || get(g).group_name) ?? ""} `));
-        append($$anchor3, div_78);
+        template_effect(() => set_text(text_62, `${(get(g).display_name || get(g).group_name) ?? ""} `));
+        append($$anchor3, div_88);
       });
-      var node_67 = sibling(node_63, 2);
+      var node_72 = sibling(node_68, 2);
       {
-        var consequent_69 = ($$anchor3) => {
-          var div_79 = root_102();
-          var span_61 = sibling(child(div_79), 2);
+        var consequent_74 = ($$anchor3) => {
+          var div_89 = root_110();
+          var span_61 = sibling(child(div_89), 2);
           each(span_61, 23, () => get(sceneFreeform), (tok, ti) => tok + " " + ti, ($$anchor4, tok) => {
-            var span_62 = root_103();
-            var text_61 = child(span_62);
-            var button_19 = sibling(text_61);
-            template_effect(() => set_text(text_61, `${get(tok) ?? ""} `));
-            delegated("click", button_19, (e) => {
+            var span_62 = root_111();
+            var text_64 = child(span_62);
+            var button_20 = sibling(text_64);
+            template_effect(() => set_text(text_64, `${get(tok) ?? ""} `));
+            delegated("click", button_20, (e) => {
               e.stopPropagation();
               removeSceneFreeform(get(tok));
             });
             append($$anchor4, span_62);
           });
-          append($$anchor3, div_79);
+          append($$anchor3, div_89);
         };
-        if_block(node_67, ($$render) => {
-          if (get(sceneFreeform).length) $$render(consequent_69);
+        if_block(node_72, ($$render) => {
+          if (get(sceneFreeform).length) $$render(consequent_74);
         });
       }
-      var node_68 = sibling(node_67, 2);
-      each(node_68, 17, () => {
+      var node_73 = sibling(node_72, 2);
+      each(node_73, 17, () => {
         var _a2;
         return ((_a2 = get(bucketCache).furniture) == null ? void 0 : _a2.groups) || [];
       }, index, ($$anchor3, fg) => {
         const fsel = user_derived(() => get(sceneSelections)[get(fg).group_name] || []);
-        var fragment_20 = comment();
-        var node_69 = first_child(fragment_20);
+        var fragment_22 = comment();
+        var node_74 = first_child(fragment_22);
         {
-          var consequent_71 = ($$anchor4) => {
-            var div_80 = root_105();
-            var span_63 = child(div_80);
-            var text_62 = child(span_63);
+          var consequent_76 = ($$anchor4) => {
+            var div_90 = root_113();
+            var span_63 = child(div_90);
+            var text_65 = child(span_63);
             var span_64 = sibling(span_63, 2);
             each(span_64, 21, () => get(fsel), (item) => item.item_tag, ($$anchor5, item) => {
               const isCustomized = user_derived(() => isFurnitureChip(get(item)));
-              var span_65 = root_106();
-              let classes_31;
-              var node_70 = child(span_65);
+              var span_65 = root_114();
+              let classes_33;
+              var node_75 = child(span_65);
               {
-                var consequent_70 = ($$anchor6) => {
+                var consequent_75 = ($$anchor6) => {
                   const sceneCapColor = user_derived(() => get(item)._furniture.color ? customizerColorHex(get(item)._furniture.color) : null);
-                  var span_66 = root_107();
+                  var span_66 = root_115();
                   template_effect(() => set_style(span_66, get(sceneCapColor) ? `background:${get(sceneCapColor)}` : "background:#7c3aed"));
                   delegated("click", span_66, (e) => {
                     e.stopPropagation();
@@ -7297,345 +7429,345 @@ ${filtered}` : filtered;
                   });
                   append($$anchor6, span_66);
                 };
-                if_block(node_70, ($$render) => {
-                  if (get(isCustomized)) $$render(consequent_70);
+                if_block(node_75, ($$render) => {
+                  if (get(isCustomized)) $$render(consequent_75);
                 });
               }
-              var span_67 = sibling(node_70, 2);
-              var text_63 = child(span_67);
-              var button_20 = sibling(span_67, 2);
+              var span_67 = sibling(node_75, 2);
+              var text_66 = child(span_67);
+              var button_21 = sibling(span_67, 2);
               template_effect(() => {
-                classes_31 = set_class(span_65, 1, "pcr-atb2-chip svelte-ibd6yj", null, classes_31, { "pcr-atb2-chip-customized": get(isCustomized) });
-                set_text(text_63, get(item).display_name || get(item).item_tag);
+                classes_33 = set_class(span_65, 1, "pcr-atb2-chip svelte-ibd6yj", null, classes_33, { "pcr-atb2-chip-customized": get(isCustomized) });
+                set_text(text_66, get(item).display_name || get(item).item_tag);
               });
-              delegated("click", button_20, (e) => {
+              delegated("click", button_21, (e) => {
                 e.stopPropagation();
                 clearSceneChip(get(fg).group_name, get(item).item_tag);
               });
               append($$anchor5, span_65);
             });
-            template_effect(() => set_text(text_62, `${(get(fg).icon || "📦") ?? ""} ${(get(fg).display_name || get(fg).group_name) ?? ""} `));
-            append($$anchor4, div_80);
+            template_effect(() => set_text(text_65, `${(get(fg).icon || "📦") ?? ""} ${(get(fg).display_name || get(fg).group_name) ?? ""} `));
+            append($$anchor4, div_90);
           };
-          if_block(node_69, ($$render) => {
-            if (get(fsel).length > 0) $$render(consequent_71);
+          if_block(node_74, ($$render) => {
+            if (get(fsel).length > 0) $$render(consequent_76);
           });
         }
-        append($$anchor3, fragment_20);
+        append($$anchor3, fragment_22);
       });
-      template_effect(() => classes_29 = set_class(div_76, 1, "pcr-atb2-card2 pcr-atb2-scene-card svelte-ibd6yj", null, classes_29, { active: get(activeCategoryDef).scope === "global" }));
-      delegated("click", button_17, deleteScene);
-      append($$anchor2, div_76);
+      template_effect(() => classes_31 = set_class(div_86, 1, "pcr-atb2-card2 pcr-atb2-scene-card svelte-ibd6yj", null, classes_31, { active: get(activeCategoryDef).scope === "global" }));
+      delegated("click", button_18, deleteScene);
+      append($$anchor2, div_86);
     };
-    var alternate_9 = ($$anchor2) => {
-      var div_81 = root_108();
-      delegated("click", div_81, spawnScene);
-      append($$anchor2, div_81);
+    var alternate_10 = ($$anchor2) => {
+      var div_91 = root_116();
+      delegated("click", div_91, spawnScene);
+      append($$anchor2, div_91);
     };
-    if_block(node_62, ($$render) => {
-      if (get(sceneSpawned)) $$render(consequent_72);
-      else $$render(alternate_9, -1);
+    if_block(node_67, ($$render) => {
+      if (get(sceneSpawned)) $$render(consequent_77);
+      else $$render(alternate_10, -1);
     });
   }
-  var node_71 = sibling(node_62, 2);
+  var node_76 = sibling(node_67, 2);
   {
-    var consequent_73 = ($$anchor2) => {
-      var div_82 = root_109();
-      var div_83 = child(div_82);
-      var span_68 = sibling(child(div_83), 2);
-      var text_64 = child(span_68);
-      var button_21 = sibling(span_68, 4);
-      var div_84 = sibling(div_83, 2);
-      var span_69 = child(div_84);
+    var consequent_78 = ($$anchor2) => {
+      var div_92 = root_117();
+      var div_93 = child(div_92);
+      var span_68 = sibling(child(div_93), 2);
+      var text_67 = child(span_68);
+      var button_22 = sibling(span_68, 4);
+      var div_94 = sibling(div_93, 2);
+      var span_69 = child(div_94);
       each(span_69, 20, () => get(activeStyle).tags, (tag) => tag, ($$anchor3, tag) => {
-        var span_70 = root_110();
-        var text_65 = child(span_70);
-        template_effect(() => set_text(text_65, tag));
+        var span_70 = root_118();
+        var text_68 = child(span_70);
+        template_effect(() => set_text(text_68, tag));
         append($$anchor3, span_70);
       });
-      template_effect(() => set_text(text_64, get(activeStyle).name));
+      template_effect(() => set_text(text_67, get(activeStyle).name));
       delegated("click", span_68, (e) => {
         e.stopPropagation();
         jumpToTag({ category: "styles", itemTag: get(activeStyle).id });
       });
-      delegated("click", button_21, deleteStyleCard);
-      append($$anchor2, div_82);
+      delegated("click", button_22, deleteStyleCard);
+      append($$anchor2, div_92);
     };
-    var consequent_74 = ($$anchor2) => {
-      var div_85 = root_111();
-      delegated("click", div_85, () => {
+    var consequent_79 = ($$anchor2) => {
+      var div_95 = root_119();
+      delegated("click", div_95, () => {
         set(activeCategory, "styles");
         set(activeGroup, null);
       });
-      append($$anchor2, div_85);
+      append($$anchor2, div_95);
     };
-    if_block(node_71, ($$render) => {
+    if_block(node_76, ($$render) => {
       var _a2;
-      if (get(styleSpawned) && get(activeStyle)) $$render(consequent_73);
-      else if ((_a2 = modelInfo()) == null ? void 0 : _a2.hash) $$render(consequent_74, 1);
+      if (get(styleSpawned) && get(activeStyle)) $$render(consequent_78);
+      else if ((_a2 = modelInfo()) == null ? void 0 : _a2.hash) $$render(consequent_79, 1);
     });
   }
-  var div_86 = sibling(div_3, 2);
-  var div_87 = child(div_86);
-  var div_88 = child(div_87);
-  let classes_32;
-  var div_89 = sibling(div_88, 2);
-  let classes_33;
-  var button_22 = sibling(div_87, 4);
-  var button_23 = sibling(button_22, 2);
-  var text_66 = child(button_23);
-  var node_72 = sibling(div_86, 2);
+  var div_96 = sibling(div_3, 2);
+  var div_97 = child(div_96);
+  var div_98 = child(div_97);
+  let classes_34;
+  var div_99 = sibling(div_98, 2);
+  let classes_35;
+  var button_23 = sibling(div_97, 4);
+  var button_24 = sibling(button_23, 2);
+  var text_69 = child(button_24);
+  var node_77 = sibling(div_96, 2);
   {
-    var consequent_75 = ($$anchor2) => {
+    var consequent_80 = ($$anchor2) => {
       const curStatus = user_derived(() => get(chipQaMenu).item.natlang_status ?? "unprocessed");
       const tagOutput = user_derived(() => get(chipQaMenu).item.base_tags || get(chipQaMenu).item.item_tag);
       const natlangOutput = user_derived(() => get(chipQaMenu).item.base_natlang || "");
-      var fragment_21 = root_112();
-      var div_90 = first_child(fragment_21);
-      var div_91 = sibling(div_90, 2);
-      var div_92 = child(div_91);
-      var text_67 = child(div_92);
-      var div_93 = sibling(div_92, 2);
-      var div_94 = child(div_93);
-      var div_95 = sibling(child(div_94), 2);
-      var text_68 = child(div_95);
-      var div_96 = sibling(div_94, 2);
-      var div_97 = sibling(child(div_96), 2);
-      var text_69 = child(div_97);
-      var div_98 = sibling(div_93, 2);
-      var button_24 = child(div_98);
-      let classes_34;
-      var button_25 = sibling(button_24, 2);
-      let classes_35;
-      var button_26 = sibling(button_25, 2);
+      var fragment_23 = root_120();
+      var div_100 = first_child(fragment_23);
+      var div_101 = sibling(div_100, 2);
+      var div_102 = child(div_101);
+      var text_70 = child(div_102);
+      var div_103 = sibling(div_102, 2);
+      var div_104 = child(div_103);
+      var div_105 = sibling(child(div_104), 2);
+      var text_71 = child(div_105);
+      var div_106 = sibling(div_104, 2);
+      var div_107 = sibling(child(div_106), 2);
+      var text_72 = child(div_107);
+      var div_108 = sibling(div_103, 2);
+      var button_25 = child(div_108);
       let classes_36;
+      var button_26 = sibling(button_25, 2);
+      let classes_37;
+      var button_27 = sibling(button_26, 2);
+      let classes_38;
       template_effect(() => {
-        set_style(div_91, `left:${get(chipQaMenu).x ?? ""}px;top:${get(chipQaMenu).y ?? ""}px`);
-        set_text(text_67, get(chipQaMenu).item.display_name || get(chipQaMenu).item.item_tag);
-        set_text(text_68, get(tagOutput));
-        set_text(text_69, get(natlangOutput) || "(empty)");
-        classes_34 = set_class(button_24, 1, "pcr-atb2-qa-menu-item svelte-ibd6yj", null, classes_34, { current: get(curStatus) === "normalized" });
-        classes_35 = set_class(button_25, 1, "pcr-atb2-qa-menu-item svelte-ibd6yj", null, classes_35, { current: get(curStatus) === "unprocessed" });
-        classes_36 = set_class(button_26, 1, "pcr-atb2-qa-menu-item svelte-ibd6yj", null, classes_36, { current: get(curStatus) === "broken" });
+        set_style(div_101, `left:${get(chipQaMenu).x ?? ""}px;top:${get(chipQaMenu).y ?? ""}px`);
+        set_text(text_70, get(chipQaMenu).item.display_name || get(chipQaMenu).item.item_tag);
+        set_text(text_71, get(tagOutput));
+        set_text(text_72, get(natlangOutput) || "(empty)");
+        classes_36 = set_class(button_25, 1, "pcr-atb2-qa-menu-item svelte-ibd6yj", null, classes_36, { current: get(curStatus) === "normalized" });
+        classes_37 = set_class(button_26, 1, "pcr-atb2-qa-menu-item svelte-ibd6yj", null, classes_37, { current: get(curStatus) === "unprocessed" });
+        classes_38 = set_class(button_27, 1, "pcr-atb2-qa-menu-item svelte-ibd6yj", null, classes_38, { current: get(curStatus) === "broken" });
       });
-      delegated("click", div_90, closeChipQaMenu);
-      delegated("contextmenu", div_90, (e) => {
+      delegated("click", div_100, closeChipQaMenu);
+      delegated("contextmenu", div_100, (e) => {
         e.preventDefault();
         closeChipQaMenu();
       });
-      delegated("click", button_24, () => setChipNatlangStatus(get(chipQaMenu).bucket, get(chipQaMenu).item, "normalized"));
-      delegated("click", button_25, () => setChipNatlangStatus(get(chipQaMenu).bucket, get(chipQaMenu).item, "unprocessed"));
-      delegated("click", button_26, () => setChipNatlangStatus(get(chipQaMenu).bucket, get(chipQaMenu).item, "broken"));
-      append($$anchor2, fragment_21);
+      delegated("click", button_25, () => setChipNatlangStatus(get(chipQaMenu).bucket, get(chipQaMenu).item, "normalized"));
+      delegated("click", button_26, () => setChipNatlangStatus(get(chipQaMenu).bucket, get(chipQaMenu).item, "unprocessed"));
+      delegated("click", button_27, () => setChipNatlangStatus(get(chipQaMenu).bucket, get(chipQaMenu).item, "broken"));
+      append($$anchor2, fragment_23);
     };
-    if_block(node_72, ($$render) => {
-      if (get(chipQaMenu)) $$render(consequent_75);
+    if_block(node_77, ($$render) => {
+      if (get(chipQaMenu)) $$render(consequent_80);
     });
   }
-  var node_73 = sibling(div, 2);
+  var node_78 = sibling(div, 2);
   {
-    var consequent_79 = ($$anchor2) => {
-      var div_99 = root_113();
-      var input_2 = child(div_99);
+    var consequent_84 = ($$anchor2) => {
+      var div_109 = root_121();
+      var input_2 = child(div_109);
       bind_this(input_2, ($$value) => identityPickerSearchEl = $$value, () => identityPickerSearchEl);
-      var div_100 = sibling(input_2, 2);
-      var node_74 = child(div_100);
+      var div_110 = sibling(input_2, 2);
+      var node_79 = child(div_110);
       {
-        var consequent_76 = ($$anchor3) => {
-          var div_101 = root_114();
-          append($$anchor3, div_101);
+        var consequent_81 = ($$anchor3) => {
+          var div_111 = root_122();
+          append($$anchor3, div_111);
         };
-        var consequent_77 = ($$anchor3) => {
-          var div_102 = root_115();
-          append($$anchor3, div_102);
+        var consequent_82 = ($$anchor3) => {
+          var div_112 = root_123();
+          append($$anchor3, div_112);
         };
-        var alternate_11 = ($$anchor3) => {
-          var fragment_22 = comment();
-          var node_75 = first_child(fragment_22);
-          each(node_75, 17, () => get(identityResults), (opt) => opt.kind + ":" + opt.tag, ($$anchor4, opt) => {
-            var div_103 = root_117();
-            var span_71 = child(div_103);
-            var text_70 = child(span_71);
+        var alternate_12 = ($$anchor3) => {
+          var fragment_24 = comment();
+          var node_80 = first_child(fragment_24);
+          each(node_80, 17, () => get(identityResults), (opt) => opt.kind + ":" + opt.tag, ($$anchor4, opt) => {
+            var div_113 = root_125();
+            var span_71 = child(div_113);
+            var text_73 = child(span_71);
             var span_72 = sibling(span_71, 2);
-            var node_76 = child(span_72);
+            var node_81 = child(span_72);
             {
-              var consequent_78 = ($$anchor5) => {
-                var text_71 = text();
-                template_effect(() => set_text(text_71, get(opt).series));
-                append($$anchor5, text_71);
+              var consequent_83 = ($$anchor5) => {
+                var text_74 = text();
+                template_effect(() => set_text(text_74, get(opt).series));
+                append($$anchor5, text_74);
               };
-              var alternate_10 = ($$anchor5) => {
-                var text_72 = text();
-                template_effect(() => set_text(text_72, get(opt).kindLabel));
-                append($$anchor5, text_72);
+              var alternate_11 = ($$anchor5) => {
+                var text_75 = text();
+                template_effect(() => set_text(text_75, get(opt).kindLabel));
+                append($$anchor5, text_75);
               };
-              if_block(node_76, ($$render) => {
-                if (get(opt).kind === "character" && get(opt).series) $$render(consequent_78);
-                else $$render(alternate_10, -1);
+              if_block(node_81, ($$render) => {
+                if (get(opt).kind === "character" && get(opt).series) $$render(consequent_83);
+                else $$render(alternate_11, -1);
               });
             }
-            template_effect(() => set_text(text_70, get(opt).display));
-            delegated("click", div_103, () => pickIdentityFromDropdown(get(opt)));
-            append($$anchor4, div_103);
+            template_effect(() => set_text(text_73, get(opt).display));
+            delegated("click", div_113, () => pickIdentityFromDropdown(get(opt)));
+            append($$anchor4, div_113);
           });
-          append($$anchor3, fragment_22);
+          append($$anchor3, fragment_24);
         };
-        if_block(node_74, ($$render) => {
-          if (get(identityCharLoading) && get(identityResults).length === 0) $$render(consequent_76);
-          else if (get(identityResults).length === 0) $$render(consequent_77, 1);
-          else $$render(alternate_11, -1);
+        if_block(node_79, ($$render) => {
+          if (get(identityCharLoading) && get(identityResults).length === 0) $$render(consequent_81);
+          else if (get(identityResults).length === 0) $$render(consequent_82, 1);
+          else $$render(alternate_12, -1);
         });
       }
-      template_effect(() => set_style(div_99, `left:${get(identityPickerRect).left ?? ""}px; top:${get(identityPickerRect).top ?? ""}px; width:${get(identityPickerRect).width ?? ""}px;`));
-      delegated("click", div_99, (e) => e.stopPropagation());
+      template_effect(() => set_style(div_109, `left:${get(identityPickerRect).left ?? ""}px; top:${get(identityPickerRect).top ?? ""}px; width:${get(identityPickerRect).width ?? ""}px;`));
+      delegated("click", div_109, (e) => e.stopPropagation());
       bind_value(input_2, () => get(identityPickerQuery), ($$value) => set(identityPickerQuery, $$value));
-      append($$anchor2, div_99);
+      append($$anchor2, div_109);
     };
-    if_block(node_73, ($$render) => {
-      if (get(identityPickerOpen)) $$render(consequent_79);
+    if_block(node_78, ($$render) => {
+      if (get(identityPickerOpen)) $$render(consequent_84);
     });
   }
-  var node_77 = sibling(node_73, 2);
+  var node_82 = sibling(node_78, 2);
   {
-    var consequent_83 = ($$anchor2) => {
+    var consequent_88 = ($$anchor2) => {
       const subj = user_derived(() => get(subjects).find((s) => s.id === get(presetPickerOpen).subjId));
       const boundTag = user_derived(() => {
         var _a2, _b;
         return (_b = (_a2 = get(subj)) == null ? void 0 : _a2.character) == null ? void 0 : _b.tag;
       });
-      var div_104 = root_120();
-      var input_3 = child(div_104);
+      var div_114 = root_128();
+      var input_3 = child(div_114);
       bind_this(input_3, ($$value) => presetPickerSearchEl = $$value, () => presetPickerSearchEl);
-      var div_105 = sibling(input_3, 2);
-      var node_78 = child(div_105);
+      var div_115 = sibling(input_3, 2);
+      var node_83 = child(div_115);
       {
-        var consequent_80 = ($$anchor3) => {
-          var div_106 = root_121();
-          append($$anchor3, div_106);
+        var consequent_85 = ($$anchor3) => {
+          var div_116 = root_129();
+          append($$anchor3, div_116);
         };
-        var consequent_81 = ($$anchor3) => {
-          var div_107 = root_122();
-          append($$anchor3, div_107);
+        var consequent_86 = ($$anchor3) => {
+          var div_117 = root_130();
+          append($$anchor3, div_117);
         };
-        var alternate_12 = ($$anchor3) => {
-          var fragment_25 = comment();
-          var node_79 = first_child(fragment_25);
-          each(node_79, 17, () => get(presetPickerResults), (row) => row.id, ($$anchor4, row) => {
+        var alternate_13 = ($$anchor3) => {
+          var fragment_27 = comment();
+          var node_84 = first_child(fragment_27);
+          each(node_84, 17, () => get(presetPickerResults), (row) => row.id, ($$anchor4, row) => {
             const isCanonical = user_derived(() => get(row).character_tag === get(boundTag));
             const presetName = user_derived(() => get(presetPickerOpen).kind === "outfit" ? get(row).outfit_name : get(row).pose_name);
-            var div_108 = root_124();
-            let classes_37;
-            var node_80 = child(div_108);
+            var div_118 = root_132();
+            let classes_39;
+            var node_85 = child(div_118);
             {
-              var consequent_82 = ($$anchor5) => {
-                var span_73 = root_125();
+              var consequent_87 = ($$anchor5) => {
+                var span_73 = root_133();
                 append($$anchor5, span_73);
               };
-              if_block(node_80, ($$render) => {
-                if (get(isCanonical)) $$render(consequent_82);
+              if_block(node_85, ($$render) => {
+                if (get(isCanonical)) $$render(consequent_87);
               });
             }
-            var span_74 = sibling(node_80, 2);
-            var text_73 = child(span_74);
+            var span_74 = sibling(node_85, 2);
+            var text_76 = child(span_74);
             var span_75 = sibling(span_74, 2);
-            var text_74 = child(span_75);
+            var text_77 = child(span_75);
             template_effect(() => {
-              classes_37 = set_class(div_108, 1, "pcr-atb2-preset-dd-row svelte-ibd6yj", null, classes_37, { canonical: get(isCanonical) });
-              set_text(text_73, get(presetName));
-              set_text(text_74, `${get(row).character_display ?? ""}${get(row).character_series ? ` · ${get(row).character_series}` : ""}`);
+              classes_39 = set_class(div_118, 1, "pcr-atb2-preset-dd-row svelte-ibd6yj", null, classes_39, { canonical: get(isCanonical) });
+              set_text(text_76, get(presetName));
+              set_text(text_77, `${get(row).character_display ?? ""}${get(row).character_series ? ` · ${get(row).character_series}` : ""}`);
             });
-            delegated("click", div_108, () => pickPresetFromDropdown(get(row)));
-            append($$anchor4, div_108);
+            delegated("click", div_118, () => pickPresetFromDropdown(get(row)));
+            append($$anchor4, div_118);
           });
-          append($$anchor3, fragment_25);
+          append($$anchor3, fragment_27);
         };
-        if_block(node_78, ($$render) => {
-          if (get(presetPickerLoading) && get(presetPickerResults).length === 0) $$render(consequent_80);
-          else if (get(presetPickerResults).length === 0) $$render(consequent_81, 1);
-          else $$render(alternate_12, -1);
+        if_block(node_83, ($$render) => {
+          if (get(presetPickerLoading) && get(presetPickerResults).length === 0) $$render(consequent_85);
+          else if (get(presetPickerResults).length === 0) $$render(consequent_86, 1);
+          else $$render(alternate_13, -1);
         });
       }
       template_effect(() => {
-        set_style(div_104, `left:${get(presetPickerRect).left ?? ""}px; top:${get(presetPickerRect).top ?? ""}px; width:${get(presetPickerRect).width ?? ""}px;`);
+        set_style(div_114, `left:${get(presetPickerRect).left ?? ""}px; top:${get(presetPickerRect).top ?? ""}px; width:${get(presetPickerRect).width ?? ""}px;`);
         set_attribute(input_3, "placeholder", get(presetPickerOpen).kind === "outfit" ? "Search outfits…" : "Search poses…");
       });
-      delegated("click", div_104, (e) => e.stopPropagation());
+      delegated("click", div_114, (e) => e.stopPropagation());
       bind_value(input_3, () => get(presetPickerQuery), ($$value) => set(presetPickerQuery, $$value));
-      append($$anchor2, div_104);
+      append($$anchor2, div_114);
     };
-    if_block(node_77, ($$render) => {
-      if (get(presetPickerOpen)) $$render(consequent_83);
+    if_block(node_82, ($$render) => {
+      if (get(presetPickerOpen)) $$render(consequent_88);
     });
   }
-  var node_81 = sibling(node_77, 2);
+  var node_86 = sibling(node_82, 2);
   {
-    var consequent_84 = ($$anchor2) => {
+    var consequent_89 = ($$anchor2) => {
       const subj = user_derived(() => get(subjects).find((s) => s.id === get(modifierPickerOpen)));
-      var div_109 = root_126();
-      var div_110 = child(div_109);
-      each(div_110, 20, () => MODIFIER_OPTIONS, (opt) => opt, ($$anchor3, opt) => {
+      var div_119 = root_134();
+      var div_120 = child(div_119);
+      each(div_120, 20, () => MODIFIER_OPTIONS, (opt) => opt, ($$anchor3, opt) => {
         const isOn = user_derived(() => {
           var _a2, _b;
           return !!((_b = (_a2 = get(subj)) == null ? void 0 : _a2.modifiers) == null ? void 0 : _b.includes(opt));
         });
-        var div_111 = root_127();
-        let classes_38;
-        var span_76 = child(div_111);
-        var text_75 = child(span_76);
+        var div_121 = root_135();
+        let classes_40;
+        var span_76 = child(div_121);
+        var text_78 = child(span_76);
         var span_77 = sibling(span_76, 2);
-        var text_76 = child(span_77);
+        var text_79 = child(span_77);
         template_effect(() => {
-          classes_38 = set_class(div_111, 1, "pcr-atb2-modifier-dd-row svelte-ibd6yj", null, classes_38, { on: get(isOn) });
-          set_text(text_75, get(isOn) ? "✓" : "");
-          set_text(text_76, opt);
+          classes_40 = set_class(div_121, 1, "pcr-atb2-modifier-dd-row svelte-ibd6yj", null, classes_40, { on: get(isOn) });
+          set_text(text_78, get(isOn) ? "✓" : "");
+          set_text(text_79, opt);
         });
-        delegated("click", div_111, () => {
+        delegated("click", div_121, () => {
           toggleModifier(get(modifierPickerOpen), opt);
           closeModifierPicker();
         });
-        append($$anchor3, div_111);
+        append($$anchor3, div_121);
       });
-      template_effect(() => set_style(div_109, `left:${get(modifierPickerRect).left ?? ""}px; top:${get(modifierPickerRect).top ?? ""}px; width:${get(modifierPickerRect).width ?? ""}px;`));
-      delegated("click", div_109, (e) => e.stopPropagation());
-      append($$anchor2, div_109);
+      template_effect(() => set_style(div_119, `left:${get(modifierPickerRect).left ?? ""}px; top:${get(modifierPickerRect).top ?? ""}px; width:${get(modifierPickerRect).width ?? ""}px;`));
+      delegated("click", div_119, (e) => e.stopPropagation());
+      append($$anchor2, div_119);
     };
-    if_block(node_81, ($$render) => {
-      if (get(modifierPickerOpen)) $$render(consequent_84);
+    if_block(node_86, ($$render) => {
+      if (get(modifierPickerOpen)) $$render(consequent_89);
     });
   }
-  var node_82 = sibling(node_81, 2);
+  var node_87 = sibling(node_86, 2);
   {
-    var consequent_85 = ($$anchor2) => {
-      var div_112 = root_128();
-      var div_113 = child(div_112);
-      var div_114 = sibling(child(div_113), 2);
-      var strong_1 = sibling(child(div_114));
-      var text_77 = child(strong_1);
+    var consequent_90 = ($$anchor2) => {
+      var div_122 = root_136();
+      var div_123 = child(div_122);
+      var div_124 = sibling(child(div_123), 2);
+      var strong_1 = sibling(child(div_124));
+      var text_80 = child(strong_1);
       var strong_2 = sibling(strong_1, 2);
-      var text_78 = child(strong_2);
-      var div_115 = sibling(strong_2, 2);
-      var text_79 = child(div_115);
-      var div_116 = sibling(div_114, 2);
-      var button_27 = child(div_116);
-      var button_28 = sibling(button_27, 2);
+      var text_81 = child(strong_2);
+      var div_125 = sibling(strong_2, 2);
+      var text_82 = child(div_125);
+      var div_126 = sibling(div_124, 2);
+      var button_28 = child(div_126);
+      var button_29 = sibling(button_28, 2);
       template_effect(() => {
-        set_text(text_77, get(pendingIdentitySwap).current.display);
-        set_text(text_78, get(pendingIdentitySwap).next.display);
-        set_text(text_79, `Identity-derived tags from ${get(pendingIdentitySwap).current.display ?? ""} will be removed and replaced.`);
+        set_text(text_80, get(pendingIdentitySwap).current.display);
+        set_text(text_81, get(pendingIdentitySwap).next.display);
+        set_text(text_82, `Identity-derived tags from ${get(pendingIdentitySwap).current.display ?? ""} will be removed and replaced.`);
       });
-      delegated("click", div_112, cancelIdentitySwap);
-      delegated("click", div_113, (e) => e.stopPropagation());
-      delegated("click", button_27, cancelIdentitySwap);
-      delegated("click", button_28, confirmIdentitySwap);
-      append($$anchor2, div_112);
+      delegated("click", div_122, cancelIdentitySwap);
+      delegated("click", div_123, (e) => e.stopPropagation());
+      delegated("click", button_28, cancelIdentitySwap);
+      delegated("click", button_29, confirmIdentitySwap);
+      append($$anchor2, div_122);
     };
-    if_block(node_82, ($$render) => {
-      if (get(pendingIdentitySwap)) $$render(consequent_85);
+    if_block(node_87, ($$render) => {
+      if (get(pendingIdentitySwap)) $$render(consequent_90);
     });
   }
-  var node_83 = sibling(node_82, 2);
+  var node_88 = sibling(node_87, 2);
   {
-    var consequent_86 = ($$anchor2) => {
+    var consequent_91 = ($$anchor2) => {
       Customizer($$anchor2, {
         get item() {
           return get(customizerOpen).item;
@@ -7650,13 +7782,13 @@ ${filtered}` : filtered;
         onCancel: cancelCustomizer
       });
     };
-    if_block(node_83, ($$render) => {
-      if (get(customizerOpen)) $$render(consequent_86);
+    if_block(node_88, ($$render) => {
+      if (get(customizerOpen)) $$render(consequent_91);
     });
   }
-  var node_84 = sibling(node_83, 2);
+  var node_89 = sibling(node_88, 2);
   {
-    var consequent_87 = ($$anchor2) => {
+    var consequent_92 = ($$anchor2) => {
       {
         let $0 = user_derived(() => get(bucketCache).furniture.mods.actionOverrides || {});
         let $1 = user_derived(() => get(furnitureCustomizerOpen).subjId ? get(subjects).find((s) => s.id === get(furnitureCustomizerOpen).subjId) : null);
@@ -7693,14 +7825,14 @@ ${filtered}` : filtered;
         });
       }
     };
-    if_block(node_84, ($$render) => {
+    if_block(node_89, ($$render) => {
       var _a2;
-      if (get(furnitureCustomizerOpen) && ((_a2 = get(bucketCache).furniture) == null ? void 0 : _a2.mods)) $$render(consequent_87);
+      if (get(furnitureCustomizerOpen) && ((_a2 = get(bucketCache).furniture) == null ? void 0 : _a2.mods)) $$render(consequent_92);
     });
   }
-  var node_85 = sibling(node_84, 2);
+  var node_90 = sibling(node_89, 2);
   {
-    var consequent_88 = ($$anchor2) => {
+    var consequent_93 = ($$anchor2) => {
       FantasyCustomizer($$anchor2, {
         get item() {
           return get(fantasyCustomizerOpen).item;
@@ -7718,8 +7850,8 @@ ${filtered}` : filtered;
         onCancel: cancelFantasyCustomizer
       });
     };
-    if_block(node_85, ($$render) => {
-      if (get(fantasyCustomizerOpen)) $$render(consequent_88);
+    if_block(node_90, ($$render) => {
+      if (get(fantasyCustomizerOpen)) $$render(consequent_93);
     });
   }
   template_effect(() => {
@@ -7731,12 +7863,12 @@ ${filtered}` : filtered;
     set_style(main, `--pcr-atb2-card-min: ${get(cardMinPx) ?? ""}px`);
     classes_10 = set_class(span_19, 1, "pcr-atb2-bc-target svelte-ibd6yj", null, classes_10, { rebind: get(routingTarget).type === "rebind" });
     set_text(text_19, get(routingTarget).label);
-    classes_32 = set_class(div_88, 1, "pcr-atb2-mode-option svelte-ibd6yj", null, classes_32, { active: !get(isNaturalMode) });
-    set_attribute(div_88, "aria-checked", !get(isNaturalMode));
-    classes_33 = set_class(div_89, 1, "pcr-atb2-mode-option svelte-ibd6yj", null, classes_33, { active: get(isNaturalMode) });
-    set_attribute(div_89, "aria-checked", get(isNaturalMode));
-    button_23.disabled = get(totalSelectionCount) === 0;
-    set_text(text_66, `Insert${get(totalSelectionCount) > 0 ? ` (${get(totalSelectionCount)})` : ""}`);
+    classes_34 = set_class(div_98, 1, "pcr-atb2-mode-option svelte-ibd6yj", null, classes_34, { active: !get(isNaturalMode) });
+    set_attribute(div_98, "aria-checked", !get(isNaturalMode));
+    classes_35 = set_class(div_99, 1, "pcr-atb2-mode-option svelte-ibd6yj", null, classes_35, { active: get(isNaturalMode) });
+    set_attribute(div_99, "aria-checked", get(isNaturalMode));
+    button_24.disabled = get(totalSelectionCount) === 0;
+    set_text(text_69, `Insert${get(totalSelectionCount) > 0 ? ` (${get(totalSelectionCount)})` : ""}`);
   });
   bind_value(input, () => get(searchQuery), ($$value) => set(searchQuery, $$value));
   delegated("click", button, toggleMaximized);
@@ -7744,14 +7876,14 @@ ${filtered}` : filtered;
     var _a2;
     (_a2 = onClose()) == null ? void 0 : _a2.apply(this, $$args);
   });
-  delegated("click", div_75, () => spawnSubject("person"));
-  delegated("click", div_88, () => setMode(false));
-  delegated("click", div_89, () => setMode(true));
-  delegated("click", button_22, function(...$$args) {
+  delegated("click", div_85, () => spawnSubject("person"));
+  delegated("click", div_98, () => setMode(false));
+  delegated("click", div_99, () => setMode(true));
+  delegated("click", button_23, function(...$$args) {
     var _a2;
     (_a2 = onClose()) == null ? void 0 : _a2.apply(this, $$args);
   });
-  delegated("click", button_23, handleInsert);
+  delegated("click", button_24, handleInsert);
   append($$anchor, fragment);
   pop();
 }

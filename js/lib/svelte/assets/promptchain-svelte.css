@@ -5745,6 +5745,23 @@
   .pcr-atb2-browser-section-cat.svelte-ibd6yj { color: #888; }
   .pcr-atb2-browser-section-sep.svelte-ibd6yj { color: #555; }
   .pcr-atb2-browser-section-grp.svelte-ibd6yj { color: #d4b8ff; }
+  .pcr-atb2-recent-section.svelte-ibd6yj .pcr-atb2-browser-section-header:where(.svelte-ibd6yj) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .pcr-atb2-recent-clear.svelte-ibd6yj {
+    margin-left: auto;
+    background: none;
+    border: 1px solid #333;
+    color: #777;
+    border-radius: 4px;
+    font: inherit;
+    font-size: 10px;
+    padding: 1px 8px;
+    cursor: pointer;
+  }
+  .pcr-atb2-recent-clear.svelte-ibd6yj:hover { color: #ccc; border-color: #555; }
   .pcr-atb2-card.svelte-ibd6yj {
     background: #ffffff0d;
     border: 1px solid #333;
