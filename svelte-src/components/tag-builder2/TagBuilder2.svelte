@@ -22,6 +22,8 @@
   import Customizer from "./Customizer.svelte";
   import FurnitureCustomizer from "./FurnitureCustomizer.svelte";
   import FantasyCustomizer from "./FantasyCustomizer.svelte";
+  import TagBuilderEditor from "./TagBuilderEditor.svelte";
+  import OverlayManager from "./OverlayManager.svelte";
 
   // Chip groups that open the modifier customizer instead of dropping
   // straight into a slot. Mirrors v1's CUSTOMIZABLE_GROUPS.
@@ -821,6 +823,8 @@
       if (cat.enabled && cat.bucket) loadBucket(cat.bucket);
     }
 
+    loadOverlayCount();  // show the "Your edits" button if any deltas exist
+
     // Preload normalized characters (tag + base_natlang etc.) so the
     // round-trip parser can recognize both tag-form ("cammy_white") and
     // natlang ("Cammy White from Street Fighter.") character identities.
@@ -1307,6 +1311,193 @@
     bucketCache = { ...bucketCache };
     subjects = [...subjects];
     sceneSelections = { ...sceneSelections };
+  }
+
+  // ----------------------------------------------------------------------
+  //  USER LIBRARY EDITING (delta overlay)
+  // ----------------------------------------------------------------------
+  // Which buckets the user can add/edit/delete. MUST mirror the backend
+  // ENTITY_REGISTRY in core/tag_overlay.py.
+  const OVERLAY_EDITABLE_BUCKETS = new Set([
+    "cast", "appearance", "clothing", "pose", "scene", "expression", "action", "nsfw_action",
+  ]);
+
+  // Every bucket's {bucket}_items table shares one chip schema, so a single
+  // descriptor drives the editor for all of them.
+  const OVERLAY_ITEM_FIELDS = [
+    { key: "item_tag", label: "Tag (ID)", type: "text", required: true, mono: true, pkField: true },
+    { key: "display_name", label: "Display name", type: "text" },
+    { key: "item_group", label: "Group", type: "group", required: true },
+    { key: "base_tags", label: "Base tags", type: "text", mono: true },
+    { key: "base_natlang", label: "Natural language", type: "textarea" },
+    { key: "sort_order", label: "Sort order", type: "number" },
+  ];
+  function overlayFieldsFor(_bucket) { return OVERLAY_ITEM_FIELDS; }
+
+  function isOverlayEditable(bucket) { return OVERLAY_EDITABLE_BUCKETS.has(bucket); }
+  function bucketItemsTable(bucket) { return `${bucket}_items`; }
+
+  let overlayEditorOpen = $state(null);
+  // { bucket, table, mode:"add"|"edit", fields, initial, groups }
+
+  function openOverlayEditor(bucket, item, mode) {
+    if (!isOverlayEditable(bucket)) return;
+    closeChipQaMenu();
+    const groups = bucketCache[bucket]?.groups || [];
+    const fields = overlayFieldsFor(bucket);
+    const initial = mode === "edit"
+      ? { ...item }
+      : { item_group: (item && item.item_group) || groups[0]?.group_name || "", sort_order: 100 };
+    overlayEditorOpen = { bucket, table: bucketItemsTable(bucket), mode, fields, initial, groups };
+  }
+  function closeOverlayEditor() { overlayEditorOpen = null; }
+  async function commitOverlayEditor() {
+    const ed = overlayEditorOpen;
+    if (!ed) return;
+    // Refresh the affected data BEFORE closing the modal. The modal overlay
+    // blocks the grid/list, so the user can't click a stale (pre-edit) row
+    // until fresh data is in place — otherwise a quick insert emits the old
+    // value.
+    if (ed.kind === "character") await refreshCharacterRow(ed.initial?.tag);
+    else await reloadBucketItems(ed.bucket);
+    overlayEditorOpen = null;
+    loadOverlayCount();
+  }
+
+  async function overlayDelete(bucket, item) {
+    closeChipQaMenu();
+    // A user add is just dropped; a tombstoned base item is only restorable
+    // from the (Phase 2) management view, so confirm before hiding it.
+    const label = item.display_name || item.item_tag;
+    const msg = item._overlay === "add"
+      ? `Remove your added item “${label}”?`
+      : `Hide “${label}” from the library? You can bring it back from your edits list.`;
+    if (typeof window !== "undefined" && !window.confirm(msg)) return;
+    try {
+      const res = await fetch(
+        `/promptchain/tag-builder/overlay/${bucketItemsTable(bucket)}/${encodeURIComponent(item.item_tag)}`,
+        { method: "DELETE" });
+      if (!res.ok) { console.error(`[TagBuilder2] overlay delete failed: ${res.status}`); return; }
+    } catch (e) { console.error("[TagBuilder2] overlay delete error", e); return; }
+    await reloadBucketItems(bucket);
+    loadOverlayCount();
+  }
+
+  async function overlayRestore(bucket, item) {
+    closeChipQaMenu();
+    try {
+      const res = await fetch(
+        `/promptchain/tag-builder/overlay/${bucketItemsTable(bucket)}/${encodeURIComponent(item.item_tag)}/restore`,
+        { method: "POST" });
+      if (!res.ok) { console.error(`[TagBuilder2] overlay restore failed: ${res.status}`); return; }
+    } catch (e) { console.error("[TagBuilder2] overlay restore error", e); return; }
+    await reloadBucketItems(bucket);
+    loadOverlayCount();
+  }
+
+  // Re-fetch one bucket's items (now overlay-merged) and patch the cache in
+  // place — keeps groups/thumbs, refreshes the browse grid without a full
+  // reload. Used after any overlay add/edit/delete/restore.
+  async function reloadBucketItems(bucket) {
+    if (bucket === "furniture") return;  // props loads via its own bundle
+    try {
+      // no-store so an edit/add/delete is never masked by a cached items GET.
+      const res = await fetch(`/promptchain/tag-builder/buckets/${bucket}/items`, { cache: "no-store" });
+      if (!res.ok) return;
+      const items = (await res.json()).items || [];
+      const cur = bucketCache[bucket] || { groups: [], thumbs: new Set() };
+      bucketCache = { ...bucketCache, [bucket]: { ...cur, items, loaded: true, loading: false } };
+    } catch (e) {
+      console.error(`[TagBuilder2] reload bucket items failed: ${bucket}`, e);
+    }
+  }
+
+  // --- Character editing (Phase 2b) -------------------------------------
+  // Characters have a different shape than bucket chips (PK `tag`, no group),
+  // so a small dedicated context menu + field set; the generic overlay engine
+  // and editor modal handle the rest. Plain-field edits only for now.
+  const CHARACTER_FIELDS = [
+    { key: "tag", label: "Tag (ID)", type: "text", required: true, mono: true, pkField: true },
+    { key: "display", label: "Display name", type: "text" },
+    { key: "series", label: "Series", type: "text" },
+    { key: "base_tags", label: "Base tags (prompt)", type: "textarea", mono: true },
+    { key: "base_natlang", label: "Natural language", type: "textarea" },
+  ];
+
+  let charEditMenu = $state(null);  // { x, y, char }
+  function openCharEditMenu(e, char) {
+    if (!char) return;
+    e.preventDefault();
+    e.stopPropagation();
+    charEditMenu = { x: e.clientX, y: e.clientY, char };
+  }
+  function closeCharEditMenu() { charEditMenu = null; }
+
+  function openCharacterEditor(char) {
+    closeCharEditMenu();
+    overlayEditorOpen = {
+      bucket: "character", table: "characters", mode: "edit",
+      fields: CHARACTER_FIELDS, initial: { ...char }, groups: [], kind: "character",
+    };
+  }
+
+  async function characterRestore(char) {
+    closeCharEditMenu();
+    try {
+      const res = await fetch(
+        `/promptchain/tag-builder/overlay/characters/${encodeURIComponent(char.tag)}/restore`,
+        { method: "POST" });
+      if (!res.ok) { console.error(`[TagBuilder2] character restore failed: ${res.status}`); return; }
+    } catch (e) { console.error("[TagBuilder2] character restore error", e); return; }
+    await refreshCharacterRow(char.tag);
+    loadOverlayCount();
+  }
+
+  // Re-fetch one character's merged values and patch it into the list in place
+  // (keeps scroll/pagination, unlike a full re-query). Detail returns the char
+  // columns at the top level + the _overlay flag.
+  async function refreshCharacterRow(tag) {
+    if (!tag) return;
+    try {
+      const res = await fetch(`/promptchain/tag-builder/characters/${encodeURIComponent(tag)}`, { cache: "no-store" });
+      if (!res.ok) return;
+      const data = await res.json();
+      const i = characters.findIndex(c => c.tag === tag);
+      if (i >= 0) {
+        const { outfits, poses, ...charFields } = data;
+        characters[i] = charFields;        // full replace resets _overlay on restore
+        characters = [...characters];
+      }
+    } catch (e) {
+      console.error("[TagBuilder2] character refresh failed", e);
+    }
+  }
+
+  // --- "Your edits" management view -------------------------------------
+  const OVERLAY_TABLE_LABELS = {
+    cast_items: "Cast", appearance_items: "Appearance", clothing_items: "Clothing",
+    pose_items: "Pose", scene_items: "Scene", expression_items: "Expression",
+    action_items: "Action", nsfw_action_items: "NSFW Actions", characters: "Characters",
+  };
+  let overlayManagerOpen = $state(false);
+  let overlayTotalCount = $state(0);
+
+  async function loadOverlayCount() {
+    try {
+      const res = await fetch("/promptchain/tag-builder/overlay", { cache: "no-store" });
+      if (!res.ok) return;
+      const t = (await res.json()).total || {};
+      overlayTotalCount = (t.adds || 0) + (t.edits || 0) + (t.deletes || 0);
+    } catch (e) {
+      console.error("[TagBuilder2] overlay count failed", e);
+    }
+  }
+  function openOverlayManager() { overlayManagerOpen = true; }
+  function closeOverlayManager() { overlayManagerOpen = false; }
+  async function onOverlayChanged() {
+    await loadOverlayCount();
+    // best-effort: refresh the active bucket so a restored/removed item shows
+    if (activeBucket && bucketCache[activeBucket]?.loaded) await reloadBucketItems(activeBucket);
   }
 
   // ----------------------------------------------------------------------
@@ -5296,6 +5487,11 @@
           <button class="pcr-atb2-view-btn" class:active={viewMode === "cards"} role="radio" aria-checked={viewMode === "cards"} title="Card view" onclick={() => setViewMode("cards")}>▦</button>
           <button class="pcr-atb2-view-btn" class:active={viewMode === "list"} role="radio" aria-checked={viewMode === "list"} title="List view" onclick={() => setViewMode("list")}>☰</button>
         </div>
+        {#if overlayTotalCount > 0}
+          <button class="pcr-atb2-myedits-btn" title="Review your edits" onclick={openOverlayManager}>
+            ✎ {overlayTotalCount}
+          </button>
+        {/if}
       </div>
 
       {#if activeCategory === "all"}
@@ -5444,6 +5640,7 @@
                     class="pcr-atb2-card"
                     class:selected={isActiveIdentity}
                     onclick={() => isActiveIdentity ? unbindIdentity(activeSubject.id) : pickIdentityFromBrowser(characterToOption(char))}
+                    oncontextmenu={(e) => openCharEditMenu(e, char)}
                     title={char.base_natlang || `${char.display}${char.series ? " — " + char.series : ""}`}
                   >
                     <div class="pcr-atb2-card-thumb" class:has-image={characterThumbs.has(char.tag)}>
@@ -6139,17 +6336,39 @@
           <div class="pcr-atb2-qa-block-value">{natlangOutput || "(empty)"}</div>
         </div>
       </div>
-      <div class="pcr-atb2-qa-menu-actions">
-        <button class="pcr-atb2-qa-menu-item" class:current={curStatus === "normalized"} onclick={() => setChipNatlangStatus(chipQaMenu.bucket, chipQaMenu.item, "normalized")}>
-          <span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-ready"></span> Mark Ready
-        </button>
-        <button class="pcr-atb2-qa-menu-item" class:current={curStatus === "unprocessed"} onclick={() => setChipNatlangStatus(chipQaMenu.bucket, chipQaMenu.item, "unprocessed")}>
-          <span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-unprocessed"></span> Mark Unprocessed
-        </button>
-        <button class="pcr-atb2-qa-menu-item" class:current={curStatus === "broken"} onclick={() => setChipNatlangStatus(chipQaMenu.bucket, chipQaMenu.item, "broken")}>
-          <span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-broken"></span> Mark Broken
-        </button>
-      </div>
+      <!-- natlang_status is a base-DB column; a user-added item lives only in
+           the overlay, so marking it would silently no-op. Hide for adds. -->
+      {#if chipQaMenu.item._overlay !== "add"}
+        <div class="pcr-atb2-qa-menu-actions">
+          <button class="pcr-atb2-qa-menu-item" class:current={curStatus === "normalized"} onclick={() => setChipNatlangStatus(chipQaMenu.bucket, chipQaMenu.item, "normalized")}>
+            <span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-ready"></span> Mark Ready
+          </button>
+          <button class="pcr-atb2-qa-menu-item" class:current={curStatus === "unprocessed"} onclick={() => setChipNatlangStatus(chipQaMenu.bucket, chipQaMenu.item, "unprocessed")}>
+            <span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-unprocessed"></span> Mark Unprocessed
+          </button>
+          <button class="pcr-atb2-qa-menu-item" class:current={curStatus === "broken"} onclick={() => setChipNatlangStatus(chipQaMenu.bucket, chipQaMenu.item, "broken")}>
+            <span class="pcr-atb2-qa-dot pcr-atb2-qa-dot-broken"></span> Mark Broken
+          </button>
+        </div>
+      {/if}
+      {#if isOverlayEditable(chipQaMenu.bucket)}
+        <div class="pcr-atb2-qa-menu-actions pcr-atb2-qa-menu-edit">
+          <button class="pcr-atb2-qa-menu-item" onclick={() => openOverlayEditor(chipQaMenu.bucket, chipQaMenu.item, "edit")}>
+            ✏️ Edit…
+          </button>
+          <button class="pcr-atb2-qa-menu-item" onclick={() => openOverlayEditor(chipQaMenu.bucket, chipQaMenu.item, "add")}>
+            ➕ Add item to this group…
+          </button>
+          {#if chipQaMenu.item._overlay === "edit"}
+            <button class="pcr-atb2-qa-menu-item" onclick={() => overlayRestore(chipQaMenu.bucket, chipQaMenu.item)}>
+              ↩️ Restore default
+            </button>
+          {/if}
+          <button class="pcr-atb2-qa-menu-item pcr-atb2-qa-menu-danger" onclick={() => overlayDelete(chipQaMenu.bucket, chipQaMenu.item)}>
+            {chipQaMenu.item._overlay === "add" ? "🗑️ Remove your item" : "🗑️ Delete"}
+          </button>
+        </div>
+      {/if}
     </div>
   {/if}
 </div>
@@ -6323,6 +6542,49 @@
   />
 {/if}
 
+<!-- USER LIBRARY EDITOR (delta overlay) -->
+{#if overlayEditorOpen}
+  <TagBuilderEditor
+    bucket={overlayEditorOpen.bucket}
+    table={overlayEditorOpen.table}
+    mode={overlayEditorOpen.mode}
+    fields={overlayEditorOpen.fields}
+    initial={overlayEditorOpen.initial}
+    groups={overlayEditorOpen.groups}
+    onConfirm={commitOverlayEditor}
+    onCancel={closeOverlayEditor}
+  />
+{/if}
+
+<!-- CHARACTER EDIT MENU (right-click a character card) -->
+{#if charEditMenu}
+  <!-- svelte-ignore a11y_click_events_have_key_events -->
+  <!-- svelte-ignore a11y_no_static_element_interactions -->
+  <div class="pcr-atb2-qa-overlay" onclick={closeCharEditMenu} oncontextmenu={(e) => { e.preventDefault(); closeCharEditMenu(); }}></div>
+  <div class="pcr-atb2-qa-menu" style="left:{charEditMenu.x}px;top:{charEditMenu.y}px">
+    <div class="pcr-atb2-qa-menu-title">{charEditMenu.char.display || charEditMenu.char.tag}</div>
+    <div class="pcr-atb2-qa-menu-actions">
+      <button class="pcr-atb2-qa-menu-item" onclick={() => openCharacterEditor(charEditMenu.char)}>
+        ✏️ Edit character…
+      </button>
+      {#if charEditMenu.char._overlay === "edit"}
+        <button class="pcr-atb2-qa-menu-item" onclick={() => characterRestore(charEditMenu.char)}>
+          ↩️ Restore default
+        </button>
+      {/if}
+    </div>
+  </div>
+{/if}
+
+<!-- "YOUR EDITS" MANAGEMENT VIEW (delta overlay) -->
+{#if overlayManagerOpen}
+  <OverlayManager
+    labels={OVERLAY_TABLE_LABELS}
+    onClose={closeOverlayManager}
+    onChanged={onOverlayChanged}
+  />
+{/if}
+
 <style>
   .pcr-atb2 {
     width: min(95vw, 1200px);
@@ -6469,6 +6731,13 @@
   }
   .pcr-atb2-view-btn:hover { color: #ccc; border-color: #555; }
   .pcr-atb2-view-btn.active { background: #3a2a4a; color: #d4b8ff; border-color: #5a4a6a; }
+
+  .pcr-atb2-myedits-btn {
+    flex: 0 0 auto; margin-left: 6px; height: 22px; padding: 0 8px;
+    background: #3a2a4a; border: 1px solid #5a4a6a; color: #d4b8ff;
+    border-radius: 4px; cursor: pointer; font-size: 12px; line-height: 1;
+  }
+  .pcr-atb2-myedits-btn:hover { background: #463358; border-color: #6a5a7a; }
 
   .pcr-atb2-grid {
     display: grid;
@@ -7015,6 +7284,11 @@
   }
   .pcr-atb2-qa-menu-item:hover { background: #2a2540; }
   .pcr-atb2-qa-menu-item.current { color: #fff; font-weight: 600; }
+  .pcr-atb2-qa-menu-edit {
+    border-top: 1px solid var(--pcr-border, #2a2a32);
+    margin-top: 4px;
+  }
+  .pcr-atb2-qa-menu-danger { color: #f87171; }
   .pcr-atb2-qa-dot {
     width: 10px;
     height: 10px;

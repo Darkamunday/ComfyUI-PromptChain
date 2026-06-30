@@ -1,7 +1,7 @@
 <h1 align="left"><img src="docs/spacer.webp" width="10" alt=""><img src="docs/wordmark.webp" alt="ComfyUI-PromptChain" height="43"></h1>
 
 <p align="center">
-  <img src="docs/hero.webp" alt="PromptChain: 3D posing, structured prompt authoring, and layered editing in ComfyUI" width="100%">
+  <img src="docs/hero2.webp" alt="PromptChain: 3D posing, structured prompt authoring, and layered editing in ComfyUI" width="100%">
 </p>
 
 > ⚠️ **Beta.** This is an early public release; things may change and break. Feedback welcome.
@@ -98,6 +98,15 @@ git clone https://github.com/mobcat40/ComfyUI-PromptChain.git
 ```
 
 Add the **Prompt Chain** node from the node menu, and onboarding takes it from there.
+
+## Demo workflows
+
+Drag any of these into ComfyUI to load a ready-made graph (they reference checkpoints, ControlNet, and upscale models you'll need installed — onboarding can fetch them):
+
+- **[Orc Warrior Rig](docs/Orc-Warrior-Rig.json)** — a 3D-posed orc warrior rendered on SDXL with per-figure regional conditioning (Attention Couple) and mask-correct face detailing.
+- **[PVC Han Juri Taunt Pose](docs/PVC-HanJuri-Taunt-Pose.json)** — a single PVC-figure-style character driven from the 3D Poser into an SDXL ControlNet render with Regional Detailer.
+- **[Ryu SDXL → Krea 2 Pipeline](docs/Ryu-SDXL-Krea2-Pipeline.json)** — a full three-stage pipeline: a 3D-posed SDXL base render, an UltraSharp upscale, then a Krea 2 (FP8) image-to-image refine pass.
+- **[Horse Full Pipeline](docs/horse-full-pipeline.json)** — the orc-on-horse scene end to end: multi-figure regional SDXL base, UltraSharp upscale, and a Krea 2 (FP8) refine — the workflow behind the splash above.
 
 ## Nodes
 

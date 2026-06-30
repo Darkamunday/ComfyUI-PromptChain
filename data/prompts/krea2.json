@@ -815,7 +815,7 @@
       "id": "krea2-figurine-pvc_figure",
       "name": "PVC Figurine",
       "category": "Figurine",
-      "text": "// Your Tags\n{cursor}\n\n// Figurine - PVC Figurine\n1/7 scale PVC realistic anime figurine with smooth matte skin finish and glossy hair. Seamless single-piece sculpt, precise painted details. Soft studio lighting on transparent acrylic display base. Commercial product photography, collectible figurine aesthetic.",
+      "text": "// Your Tags\n{cursor}\n\n// Figurine - PVC Figurine\n1/7 scale PVC realistic anime figurine with smooth matte skin finish and glossy hair. Seamless single-piece sculpt, precise painted details. Soft studio lighting.",
       "scope": {
         "type": "architecture",
         "architecture": "krea2"

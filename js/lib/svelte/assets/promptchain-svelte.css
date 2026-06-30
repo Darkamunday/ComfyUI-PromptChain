@@ -1,3 +1,74 @@
+/* Shared modal styles — imported by sidebar modals that portal to document.body.
+   These must be global (not scoped) since portaled elements live outside component DOM. */
+
+.pcr-modal-backdrop {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 10001;
+}
+.pcr-modal {
+  background: #262626;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  min-width: 320px; max-width: 480px;
+}
+.pcr-modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #3a3a3a;
+}
+.pcr-modal-title { font-size: 16px; font-weight: 600; color: #fff; }
+.pcr-modal-close {
+  display: flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px; padding: 0;
+  background: transparent; border: none; border-radius: 4px;
+  color: #888; cursor: pointer;
+}
+.pcr-modal-close:hover { background: rgba(255, 255, 255, 0.1); color: #fff; }
+.pcr-modal-close svg { width: 16px; height: 16px; }
+.pcr-modal-body { padding: 20px; }
+.pcr-modal-footer {
+  display: flex; justify-content: flex-end; gap: 10px;
+  padding: 16px 20px; border-top: 1px solid #3a3a3a;
+}
+.pcr-modal-btn {
+  padding: 8px 16px; border: none; border-radius: 6px;
+  font-size: 14px; font-weight: 500; cursor: pointer; outline: none;
+}
+.pcr-modal-btn:focus-visible {
+  outline: 2px solid var(--comfy-primary, #5dcaff);
+  outline-offset: 2px;
+}
+.pcr-modal-btn-secondary { background: #3a3a3a; color: #ccc; }
+.pcr-modal-btn-secondary:hover { background: #4a4a4a; }
+.pcr-modal-btn-primary { background: #973f00; color: #fff; }
+.pcr-modal-btn-primary:hover, .pcr-modal-btn-primary:focus { background: #c85909; }
+.pcr-modal-btn-danger { background: #8b2020; color: #fff; }
+.pcr-modal-btn-danger:hover, .pcr-modal-btn-danger:focus { background: #b42a2a; }
+
+/* Sectioned-card chrome for the upscale + inpaint options panels — each logical
+   group (Engine / Mode / Prompt / Settings / …) sits in a titled card, so the
+   two modals read identically. Global (the modals portal to body). */
+.pcr-mcard {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 11px 13px;
+  margin-bottom: 12px;
+  display: flex; flex-direction: column; gap: 9px;
+}
+.pcr-mcard:last-child { margin-bottom: 0; }
+/* card children stack on the card's gap — kill the section margins that were
+   tuned for the old flat layout so they don't double up. */
+.pcr-mcard > * { margin-top: 0 !important; }
+.pcr-mcard-title {
+  font-size: 10.5px; font-weight: 700; letter-spacing: 0.7px;
+  text-transform: uppercase; color: #7c7c7c;
+}
+
+  .pcr-cf-msg.svelte-sjfwjz { margin: 0; font-size: 13px; color: var(--input-text, #ccc); line-height: 1.4; }
 
   .pcr-slider-container.svelte-nuvs0d {
     display: flex;
@@ -118,77 +189,6 @@
     background: #4fc3f7;
     box-shadow: 0 0 4px rgba(79, 195, 247, 0.4);
   }
-/* Shared modal styles — imported by sidebar modals that portal to document.body.
-   These must be global (not scoped) since portaled elements live outside component DOM. */
-
-.pcr-modal-backdrop {
-  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex; align-items: center; justify-content: center;
-  z-index: 10001;
-}
-.pcr-modal {
-  background: #262626;
-  border: 1px solid #3a3a3a;
-  border-radius: 8px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-  min-width: 320px; max-width: 480px;
-}
-.pcr-modal-header {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 16px 20px;
-  border-bottom: 1px solid #3a3a3a;
-}
-.pcr-modal-title { font-size: 16px; font-weight: 600; color: #fff; }
-.pcr-modal-close {
-  display: flex; align-items: center; justify-content: center;
-  width: 28px; height: 28px; padding: 0;
-  background: transparent; border: none; border-radius: 4px;
-  color: #888; cursor: pointer;
-}
-.pcr-modal-close:hover { background: rgba(255, 255, 255, 0.1); color: #fff; }
-.pcr-modal-close svg { width: 16px; height: 16px; }
-.pcr-modal-body { padding: 20px; }
-.pcr-modal-footer {
-  display: flex; justify-content: flex-end; gap: 10px;
-  padding: 16px 20px; border-top: 1px solid #3a3a3a;
-}
-.pcr-modal-btn {
-  padding: 8px 16px; border: none; border-radius: 6px;
-  font-size: 14px; font-weight: 500; cursor: pointer; outline: none;
-}
-.pcr-modal-btn:focus-visible {
-  outline: 2px solid var(--comfy-primary, #5dcaff);
-  outline-offset: 2px;
-}
-.pcr-modal-btn-secondary { background: #3a3a3a; color: #ccc; }
-.pcr-modal-btn-secondary:hover { background: #4a4a4a; }
-.pcr-modal-btn-primary { background: #973f00; color: #fff; }
-.pcr-modal-btn-primary:hover, .pcr-modal-btn-primary:focus { background: #c85909; }
-.pcr-modal-btn-danger { background: #8b2020; color: #fff; }
-.pcr-modal-btn-danger:hover, .pcr-modal-btn-danger:focus { background: #b42a2a; }
-
-/* Sectioned-card chrome for the upscale + inpaint options panels — each logical
-   group (Engine / Mode / Prompt / Settings / …) sits in a titled card, so the
-   two modals read identically. Global (the modals portal to body). */
-.pcr-mcard {
-  background: #1e1e1e;
-  border: 1px solid #333;
-  border-radius: 8px;
-  padding: 11px 13px;
-  margin-bottom: 12px;
-  display: flex; flex-direction: column; gap: 9px;
-}
-.pcr-mcard:last-child { margin-bottom: 0; }
-/* card children stack on the card's gap — kill the section margins that were
-   tuned for the old flat layout so they don't double up. */
-.pcr-mcard > * { margin-top: 0 !important; }
-.pcr-mcard-title {
-  font-size: 10.5px; font-weight: 700; letter-spacing: 0.7px;
-  text-transform: uppercase; color: #7c7c7c;
-}
-
-  .pcr-cf-msg.svelte-sjfwjz { margin: 0; font-size: 13px; color: var(--input-text, #ccc); line-height: 1.4; }
 
   .pcr-spi.svelte-zjr12h { position: relative; width: 100%; }
   .pcr-spi-field.svelte-zjr12h {
@@ -5568,6 +5568,138 @@
   .pcr-atb2-fc-ok.svelte-20btvh { background: #7c3aed; border-color: #7c3aed; color: white; }
   .pcr-atb2-fc-ok.svelte-20btvh:hover { background: #8b5cf6; }
 
+  .pcr-atb2-ed-overlay.svelte-1gvv7n0 {
+    position: fixed; inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100075;
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .pcr-atb2-ed-modal.svelte-1gvv7n0 {
+    background: var(--pcr-panel, #1a1a1f);
+    color: var(--pcr-text, #e6e6e6);
+    border: 1px solid var(--pcr-border, #2a2a32);
+    border-radius: 10px;
+    width: 420px; max-width: 100%; max-height: 90vh;
+    display: flex; flex-direction: column;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+  }
+  .pcr-atb2-ed-header.svelte-1gvv7n0 {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--pcr-border, #2a2a32);
+  }
+  .pcr-atb2-ed-title.svelte-1gvv7n0 { font-size: 14px; text-transform: capitalize; }
+  .pcr-atb2-ed-close.svelte-1gvv7n0 {
+    background: transparent; border: 0; color: inherit;
+    font-size: 22px; line-height: 1; cursor: pointer; padding: 0 6px;
+  }
+  .pcr-atb2-ed-body.svelte-1gvv7n0 {
+    padding: 14px; display: flex; flex-direction: column; gap: 10px;
+    overflow-y: auto;
+  }
+  .pcr-atb2-ed-row.svelte-1gvv7n0 { display: flex; flex-direction: column; gap: 4px; }
+  .pcr-atb2-ed-label.svelte-1gvv7n0 { font-size: 12px; color: #b9b9c4; }
+  .pcr-atb2-ed-req.svelte-1gvv7n0 { color: #f87171; margin-left: 2px; }
+  .pcr-atb2-ed-input.svelte-1gvv7n0 {
+    width: 100%; box-sizing: border-box;
+    padding: 8px 10px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--pcr-border, #2a2a32);
+    border-radius: 6px;
+    color: inherit; font-size: 13px;
+    resize: vertical;
+    /* Render the native <select> popup dark instead of light-on-white. */
+    color-scheme: dark;
+  }
+  /* Belt-and-suspenders for browsers that honor option colors directly. */
+  .pcr-atb2-ed-input.svelte-1gvv7n0 option:where(.svelte-1gvv7n0) {
+    background-color: var(--pcr-panel, #1a1a1f);
+    color: var(--pcr-text, #e6e6e6);
+  }
+  .pcr-atb2-ed-input.svelte-1gvv7n0:focus { outline: none; border-color: #7c3aed; }
+  .pcr-atb2-ed-input[readonly].svelte-1gvv7n0 { opacity: 0.6; cursor: not-allowed; }
+  .pcr-atb2-ed-mono.svelte-1gvv7n0 { font-family: ui-monospace, "Cascadia Code", monospace; }
+  .pcr-atb2-ed-hint.svelte-1gvv7n0 { font-size: 11px; color: #777; }
+  .pcr-atb2-ed-error.svelte-1gvv7n0 {
+    padding: 8px 10px; border-radius: 6px;
+    background: rgba(248, 113, 113, 0.12);
+    border: 1px solid rgba(248, 113, 113, 0.4);
+    color: #fca5a5; font-size: 12px;
+  }
+  .pcr-atb2-ed-footer.svelte-1gvv7n0 {
+    display: flex; justify-content: flex-end; gap: 8px;
+    padding: 12px 14px;
+    border-top: 1px solid var(--pcr-border, #2a2a32);
+  }
+  .pcr-atb2-ed-btn.svelte-1gvv7n0 {
+    padding: 8px 14px; border-radius: 6px;
+    border: 1px solid var(--pcr-border, #2a2a32);
+    background: rgba(255, 255, 255, 0.04);
+    color: inherit; cursor: pointer; font-size: 13px;
+  }
+  .pcr-atb2-ed-cancel.svelte-1gvv7n0:hover { background: rgba(255, 255, 255, 0.08); }
+  .pcr-atb2-ed-ok.svelte-1gvv7n0 { background: #7c3aed; border-color: #7c3aed; color: #fff; }
+  .pcr-atb2-ed-ok.svelte-1gvv7n0:hover:not(:disabled) { background: #8b5cf6; }
+  .pcr-atb2-ed-ok.svelte-1gvv7n0:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .pcr-atb2-mgr-overlay.svelte-19qbuu5 {
+    position: fixed; inset: 0; background: rgba(0, 0, 0, 0.6); z-index: 100074;
+    display: flex; align-items: center; justify-content: center; padding: 24px;
+  }
+  .pcr-atb2-mgr-modal.svelte-19qbuu5 {
+    background: var(--pcr-panel, #1a1a1f); color: var(--pcr-text, #e6e6e6);
+    border: 1px solid var(--pcr-border, #2a2a32); border-radius: 10px;
+    width: 560px; max-width: 100%; max-height: 86vh;
+    display: flex; flex-direction: column; box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+  }
+  .pcr-atb2-mgr-header.svelte-19qbuu5 {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 14px; border-bottom: 1px solid var(--pcr-border, #2a2a32);
+  }
+  .pcr-atb2-mgr-title.svelte-19qbuu5 { font-size: 14px; }
+  .pcr-atb2-mgr-header-actions.svelte-19qbuu5 { display: flex; align-items: center; gap: 8px; }
+  .pcr-atb2-mgr-export.svelte-19qbuu5 {
+    padding: 5px 10px; font-size: 12px; border-radius: 6px;
+    border: 1px solid var(--pcr-border, #2a2a32); background: rgba(255,255,255,0.04);
+    color: inherit; cursor: pointer;
+  }
+  .pcr-atb2-mgr-export.svelte-19qbuu5:hover:not(:disabled) { background: rgba(255,255,255,0.08); }
+  .pcr-atb2-mgr-export.svelte-19qbuu5:disabled { opacity: 0.4; cursor: not-allowed; }
+  .pcr-atb2-mgr-close.svelte-19qbuu5 { background: transparent; border: 0; color: inherit; font-size: 22px; line-height: 1; cursor: pointer; padding: 0 6px; }
+  .pcr-atb2-mgr-body.svelte-19qbuu5 { padding: 8px 14px 14px; overflow-y: auto; }
+  .pcr-atb2-mgr-empty.svelte-19qbuu5 { padding: 28px 8px; text-align: center; color: #888; font-size: 13px; line-height: 1.5; }
+  .pcr-atb2-mgr-section.svelte-19qbuu5 { margin-top: 12px; }
+  .pcr-atb2-mgr-section-title.svelte-19qbuu5 {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.6px;
+    color: #9b8cff; padding: 6px 2px 4px; border-bottom: 1px solid var(--pcr-border, #2a2a32); margin-bottom: 4px;
+  }
+  .pcr-atb2-mgr-row.svelte-19qbuu5 { display: flex; align-items: center; gap: 8px; padding: 6px 2px; font-size: 13px; }
+  .pcr-atb2-mgr-tag.svelte-19qbuu5 {
+    flex: 0 0 auto; font-size: 10px; text-transform: uppercase; letter-spacing: 0.4px;
+    padding: 2px 6px; border-radius: 4px;
+  }
+  .pcr-atb2-mgr-badge-edit.svelte-19qbuu5 { background: rgba(124, 58, 237, 0.2); color: #c4b5fd; }
+  .pcr-atb2-mgr-badge-del.svelte-19qbuu5 { background: rgba(248, 113, 113, 0.18); color: #fca5a5; }
+  .pcr-atb2-mgr-badge-add.svelte-19qbuu5 { background: rgba(52, 211, 153, 0.18); color: #6ee7b7; }
+  .pcr-atb2-mgr-name.svelte-19qbuu5 { flex: 1 1 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pcr-atb2-mgr-fields.svelte-19qbuu5 { flex: 0 1 auto; color: #888; font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 180px; }
+  .pcr-atb2-mgr-mono.svelte-19qbuu5 { font-family: ui-monospace, "Cascadia Code", monospace; }
+  .pcr-atb2-mgr-act.svelte-19qbuu5 {
+    flex: 0 0 auto; padding: 4px 10px; font-size: 12px; border-radius: 5px;
+    border: 1px solid var(--pcr-border, #2a2a32); background: rgba(255,255,255,0.04);
+    color: inherit; cursor: pointer;
+  }
+  .pcr-atb2-mgr-act.svelte-19qbuu5:hover:not(:disabled) { background: rgba(124, 58, 237, 0.2); }
+  .pcr-atb2-mgr-act-danger.svelte-19qbuu5:hover:not(:disabled) { background: rgba(248, 113, 113, 0.2); }
+  .pcr-atb2-mgr-act.svelte-19qbuu5:disabled { opacity: 0.5; cursor: not-allowed; }
+  .pcr-atb2-mgr-footer.svelte-19qbuu5 { display: flex; justify-content: flex-end; padding: 12px 14px; border-top: 1px solid var(--pcr-border, #2a2a32); }
+  .pcr-atb2-mgr-btn.svelte-19qbuu5 {
+    padding: 8px 16px; border-radius: 6px; border: 1px solid var(--pcr-border, #2a2a32);
+    background: #7c3aed; border-color: #7c3aed; color: #fff; cursor: pointer; font-size: 13px;
+  }
+  .pcr-atb2-mgr-btn.svelte-19qbuu5:hover { background: #8b5cf6; }
+
   .pcr-atb2.svelte-ibd6yj {
     width: min(95vw, 1200px);
     height: 88vh;
@@ -5713,6 +5845,13 @@
   }
   .pcr-atb2-view-btn.svelte-ibd6yj:hover { color: #ccc; border-color: #555; }
   .pcr-atb2-view-btn.active.svelte-ibd6yj { background: #3a2a4a; color: #d4b8ff; border-color: #5a4a6a; }
+
+  .pcr-atb2-myedits-btn.svelte-ibd6yj {
+    flex: 0 0 auto; margin-left: 6px; height: 22px; padding: 0 8px;
+    background: #3a2a4a; border: 1px solid #5a4a6a; color: #d4b8ff;
+    border-radius: 4px; cursor: pointer; font-size: 12px; line-height: 1;
+  }
+  .pcr-atb2-myedits-btn.svelte-ibd6yj:hover { background: #463358; border-color: #6a5a7a; }
 
   .pcr-atb2-grid.svelte-ibd6yj {
     display: grid;
@@ -6259,6 +6398,11 @@
   }
   .pcr-atb2-qa-menu-item.svelte-ibd6yj:hover { background: #2a2540; }
   .pcr-atb2-qa-menu-item.current.svelte-ibd6yj { color: #fff; font-weight: 600; }
+  .pcr-atb2-qa-menu-edit.svelte-ibd6yj {
+    border-top: 1px solid var(--pcr-border, #2a2a32);
+    margin-top: 4px;
+  }
+  .pcr-atb2-qa-menu-danger.svelte-ibd6yj { color: #f87171; }
   .pcr-atb2-qa-dot.svelte-ibd6yj {
     width: 10px;
     height: 10px;

@@ -14,6 +14,7 @@ from aiohttp import web
 import server
 
 from .api_utils import parse_json, error_response
+from . import tag_overlay
 
 # Shares the AI debug channel so `match-characters` traces sit alongside
 # the rest of the Prompt Generator pipeline in comfyui.log.
@@ -3245,10 +3246,12 @@ async def _api_bucket_items(request):
         rows = db.execute(
             f"SELECT * FROM {items_table} ORDER BY sort_order, item_tag"
         ).fetchall()
+    base_items = [dict(r) for r in rows]
+    add_filter = {"item_group": group} if group else None
     return web.json_response({
         "bucket": bucket,
         "ui_type": BUCKET_UI.get(bucket, "mixer"),
-        "items": [dict(r) for r in rows],
+        "items": tag_overlay.apply_overlay(items_table, base_items, add_filter),
     })
 
 
@@ -3498,8 +3501,12 @@ async def _api_characters(request):
         params + [per_page, offset],
     ).fetchall()
 
+    # Merge user edits onto this page. 2b is edit-only, so no overlay adds
+    # exist to break LIMIT/OFFSET; adds/deletes (which would) are deferred.
+    merged = tag_overlay.apply_overlay("characters", [dict(r) for r in rows])
+
     return web.json_response({
-        "characters": [dict(r) for r in rows],
+        "characters": merged,
         "total": total,
         "page": page,
         "per_page": per_page,
@@ -3570,6 +3577,8 @@ async def _api_character_detail(request):
     char = db.execute("SELECT * FROM characters WHERE tag = ?", (tag,)).fetchone()
     if not char:
         return web.json_response({"error": "Character not found"}, status=404)
+    # Apply user edits (dict — downstream uses char["..."] / dict(char), both fine).
+    char = (tag_overlay.apply_overlay("characters", [dict(char)]) or [dict(char)])[0]
 
     outfits = db.execute(
         "SELECT * FROM outfits WHERE character_tag = ? ORDER BY sort_order, outfit_name",

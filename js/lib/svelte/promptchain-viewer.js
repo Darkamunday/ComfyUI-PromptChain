@@ -2,8 +2,9 @@ import { b as block, B as BranchManager, d as delegate, p as push, a as prop, s 
 import { o as onDestroy } from "./index-client-DMSJyFwf.js";
 import { a as action } from "./actions-DQdCj5pi.js";
 import { b as bind_value, a as bind_checked } from "./input-uYBeAZAB.js";
-import { i as init_select, s as select_option, b as bind_select_value, S as SettingsSlider } from "./SettingsSlider-CGAv0t38.js";
+import { i as init_select, s as select_option, b as bind_select_value } from "./select-_w1LVgSK.js";
 import { p as portal, C as ConfirmModal } from "./ConfirmModal-B3-HqCkU.js";
+import { S as SettingsSlider } from "./SettingsSlider-zD6I4sr7.js";
 import { P as PopupAnchor, h as html } from "./PopupAnchor-BiqQRa3b.js";
 const NAN = Symbol("NaN");
 function key(node, get_key, render_fn) {
