@@ -27,7 +27,7 @@
   } = $props();
 
   // Checkpoint-family models can swap in place; flux/z-image use a different loader.
-  const NON_CHECKPOINT_ARCHS = new Set(["flux", "flux_fill", "flux_schnell", "flux2", "zimage", "zimage_base"]);
+  const NON_CHECKPOINT_ARCHS = new Set(["flux", "flux_fill", "flux_schnell", "flux2", "zimage", "zimage_base", "lumina2"]);
   function canSwapInPlace(model) {
     if (!hasCheckpointGraph || !onSwapInPlace || !model) return false;
     const arch = (modelSettings[model.hash]?.architecture || "").toLowerCase();

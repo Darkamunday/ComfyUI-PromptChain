@@ -20,6 +20,7 @@ export const ARCHITECTURES = [
   { id: "hunyuan_video", label: "HunyuanVideo" }, { id: "hidream", label: "HiDream" },
   { id: "ernie", label: "ERNIE Image" },
   { id: "ideogram", label: "Ideogram" },
+  { id: "lumina2", label: "Lumina2" },
 ];
 
 export const FAMILIES = {
@@ -37,6 +38,7 @@ export const FAMILIES = {
   hidream: [{ id: "hidream", label: "HiDream-I1" }],
   ernie: [{ id: "ernie_base", label: "ERNIE Image" }, { id: "ernie_turbo", label: "ERNIE Image Turbo" }],
   ideogram: [{ id: "ideogram4", label: "Ideogram 4" }],
+  lumina2: [{ id: "lumina2", label: "Lumina Image 2.0" }],
 };
 
 // ── supported node types + widgets ─────────────────────────────────
@@ -776,6 +778,11 @@ function applyArchSamplerDefaults(defaults, architecture, family) {
     defaults.scheduler = "simple";
     if ("steps" in defaults) defaults.steps = 8;
     if ("denoise" in defaults) defaults.denoise = 0.45;
+  } else if (arch === "lumina2") {
+    defaults.cfg = 4.0;
+    defaults.sampler_name = "res_multistep";
+    defaults.scheduler = "simple";
+    if ("steps" in defaults) defaults.steps = 36;
   }
 }
 

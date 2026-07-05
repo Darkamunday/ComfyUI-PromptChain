@@ -141,7 +141,8 @@ function ModelPicker($$anchor, $$props) {
     "flux_schnell",
     "flux2",
     "zimage",
-    "zimage_base"
+    "zimage_base",
+    "lumina2"
   ]);
   function canSwapInPlace(model) {
     var _a;

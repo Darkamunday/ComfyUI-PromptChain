@@ -32,7 +32,8 @@ const ARCHITECTURES = [
   { id: "hunyuan_video", label: "HunyuanVideo" },
   { id: "hidream", label: "HiDream" },
   { id: "ernie", label: "ERNIE Image" },
-  { id: "ideogram", label: "Ideogram" }
+  { id: "ideogram", label: "Ideogram" },
+  { id: "lumina2", label: "Lumina2" }
 ];
 const FAMILIES = {
   sdxl: [
@@ -94,6 +95,9 @@ const FAMILIES = {
   ],
   ideogram: [
     { id: "ideogram4", label: "Ideogram 4" }
+  ],
+  lumina2: [
+    { id: "lumina2", label: "Lumina Image 2.0" }
   ]
 };
 export {

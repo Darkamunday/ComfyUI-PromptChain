@@ -1,0 +1,125 @@
+{
+  "display_name": "Lumina Image 2.0 - BF16",
+  "model_name": "Lumina Image 2.0",
+  "version": "BF16",
+  "architecture": "lumina2",
+  "family": "lumina2",
+  "author": "Alpha-VLLM",
+  "description": "2.6B parameter text-to-image model using the Unified Next-DiT architecture. ComfyUI repackaged split files use a Lumina2 diffusion model, Gemma 2 2B text encoder, and AE VAE.",
+  "license": "Apache 2.0",
+  "tags": [
+    "lumina2",
+    "lumina-image",
+    "text-to-image",
+    "next-dit",
+    "gemma"
+  ],
+  "url": "https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged",
+  "release_date": "2025-01-22",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "You are an assistant designed to generate superior images with the superior degree of image-text alignment based on textual prompts or user prompts. <Prompt Start>",
+  "default_prompt_id": "lumina2-default",
+  "negative": "blurry ugly bad",
+  "quality_position": "start",
+  "notes": "Official ComfyUI example recommends shift 6 with 36 steps. Lower steps can work if shift is reduced; 20 steps with shift 3 is noted as a lower-artifact option.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "filename": "lumina_2_model_bf16.safetensors",
+      "size_bytes": 5219585680,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/Lumina_Image_2.0_Repackaged",
+        "path": "split_files/diffusion_models/lumina_2_model_bf16.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "Text Encoder",
+      "folder": "text_encoders",
+      "filename": "gemma_2_2b_fp16.safetensors",
+      "size_bytes": 5232958283,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/Lumina_Image_2.0_Repackaged",
+        "path": "split_files/text_encoders/gemma_2_2b_fp16.safetensors"
+      },
+      "sha256": null
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "ae.safetensors",
+      "size_bytes": 335304388,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/Lumina_Image_2.0_Repackaged",
+        "path": "split_files/vae/ae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 36,
+      "cfg": 4.0,
+      "sampler_name": "res_multistep",
+      "scheduler": "simple",
+      "steps_range": [
+        20,
+        50
+      ],
+      "cfg_range": [
+        3.0,
+        6.0
+      ],
+      "sampler_name_options": [
+        "res_multistep",
+        "euler",
+        "dpmpp_2m",
+        "dpmpp_sde"
+      ],
+      "scheduler_options": [
+        "simple",
+        "normal",
+        "beta"
+      ]
+    },
+    "ModelSamplingAuraFlow": {
+      "shift": 6.0,
+      "shift_range": [
+        3.0,
+        8.0
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 1024,
+      "height": 1024,
+      "_resolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1360
+        },
+        {
+          "width": 1360,
+          "height": 768
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 1248,
+          "height": 832
+        }
+      ]
+    }
+  }
+}

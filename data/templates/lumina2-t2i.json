@@ -1,0 +1,265 @@
+{
+  "name": "Text-to-Image",
+  "category": "Generation",
+  "order": 0,
+  "scope": {
+    "type": "family",
+    "architecture": "lumina2",
+    "family": "lumina2"
+  },
+  "created_at": 1775600000,
+  "id": "lumina2-t2i",
+  "nodes": [
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        420,
+        0
+      ],
+      "size": [
+        425,
+        180
+      ],
+      "widgets_values": [
+        "You are an assistant designed to generate superior images with the superior degree of image-text alignment based on textual prompts or user prompts. <Prompt Start>"
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        420,
+        230
+      ],
+      "size": [
+        425,
+        180
+      ],
+      "widgets_values": [
+        "blurry ugly bad"
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "UNETLoader",
+      "offset": [
+        60,
+        0
+      ],
+      "size": [
+        340,
+        83
+      ],
+      "widgets_values": [
+        "lumina_2_model_bf16.safetensors",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      }
+    },
+    {
+      "type": "ModelSamplingAuraFlow",
+      "offset": [
+        60,
+        120
+      ],
+      "size": [
+        315,
+        80
+      ],
+      "widgets_values": [
+        6
+      ],
+      "properties": {
+        "Node name for S&R": "ModelSamplingAuraFlow"
+      }
+    },
+    {
+      "type": "CLIPLoader",
+      "offset": [
+        60,
+        250
+      ],
+      "size": [
+        340,
+        117
+      ],
+      "widgets_values": [
+        "gemma_2_2b_fp16.safetensors",
+        "lumina2",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader"
+      }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [
+        60,
+        410
+      ],
+      "size": [
+        290,
+        83
+      ],
+      "widgets_values": [
+        "ae.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      }
+    },
+    {
+      "type": "EmptySD3LatentImage",
+      "offset": [
+        500,
+        460
+      ],
+      "size": [
+        315,
+        144
+      ],
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "EmptySD3LatentImage"
+      }
+    },
+    {
+      "type": "KSampler",
+      "offset": [
+        880,
+        80
+      ],
+      "size": [
+        315,
+        500
+      ],
+      "widgets_values": [
+        555934016055860,
+        "randomize",
+        36,
+        4,
+        "res_multistep",
+        "simple",
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        1240,
+        80
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        1240,
+        210
+      ],
+      "size": [
+        330,
+        410
+      ],
+      "widgets_values": [
+        "Lumina2/%date:yyyy-MM-dd_hhmmss%"
+      ],
+      "properties": {}
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 7,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 7,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 7,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 0,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 8,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 7,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 8,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 0,
+      "to_node_idx": 9,
+      "to_slot": 0
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 1,
+      "to_node_idx": 0,
+      "to_slot": 1
+    },
+    {
+      "from_slot": 2,
+      "to_node_idx": 1,
+      "to_slot": 1
+    }
+  ]
+}
