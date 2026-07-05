@@ -97,7 +97,8 @@ const FAMILIES = {
     { id: "ideogram4", label: "Ideogram 4" }
   ],
   lumina2: [
-    { id: "lumina2", label: "Lumina Image 2.0" }
+    { id: "lumina2", label: "Lumina Image 2.0" },
+    { id: "lumina2_netayume", label: "NetaYume Lumina" }
   ]
 };
 export {

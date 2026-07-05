@@ -1,0 +1,228 @@
+{
+  "name": "Text-to-Image",
+  "category": "Generation",
+  "order": 0,
+  "scope": {
+    "type": "model",
+    "architecture": "lumina2",
+    "model_name": "NetaYume Lumina"
+  },
+  "created_at": 1783279000,
+  "id": "netayume-lumina-t2i",
+  "nodes": [
+    {
+      "type": "CheckpointLoaderSimple",
+      "offset": [
+        60,
+        0
+      ],
+      "size": [
+        315,
+        122
+      ],
+      "widgets_values": [
+        "NetaYume_v4_all_in_one.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      }
+    },
+    {
+      "type": "ModelSamplingAuraFlow",
+      "offset": [
+        420,
+        0
+      ],
+      "size": [
+        315,
+        80
+      ],
+      "widgets_values": [
+        6
+      ],
+      "properties": {
+        "Node name for S&R": "ModelSamplingAuraFlow"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        420,
+        130
+      ],
+      "size": [
+        425,
+        180
+      ],
+      "widgets_values": [
+        "You are an assistant designed to generate anime images based on textual prompts. <Prompt Start>"
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        420,
+        350
+      ],
+      "size": [
+        425,
+        180
+      ],
+      "widgets_values": [
+        "You are an assistant designed to generate low-quality images based on textual prompts. <Prompt Start> bad quality, worst quality, worst detail, sketch, censor, simple background, transparent background"
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "EmptyLatentImage",
+      "offset": [
+        60,
+        180
+      ],
+      "size": [
+        315,
+        144
+      ],
+      "widgets_values": [
+        1024,
+        1536,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      }
+    },
+    {
+      "type": "KSampler",
+      "offset": [
+        900,
+        80
+      ],
+      "size": [
+        315,
+        500
+      ],
+      "widgets_values": [
+        95693338216838,
+        "randomize",
+        45,
+        5.5,
+        "res_multistep",
+        "linear_quadratic",
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        1260,
+        80
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        1260,
+        210
+      ],
+      "size": [
+        330,
+        410
+      ],
+      "widgets_values": [
+        "NetaYume/%date:yyyy-MM-dd_hhmmss%"
+      ],
+      "properties": {}
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 0,
+      "from_slot": 1,
+      "to_node_idx": 2,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 0,
+      "from_slot": 1,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 6,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 0,
+      "from_slot": 2,
+      "to_node_idx": 6,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 7,
+      "to_slot": 0
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 1,
+      "to_node_idx": 2,
+      "to_slot": 1
+    },
+    {
+      "from_slot": 2,
+      "to_node_idx": 3,
+      "to_slot": 1
+    }
+  ]
+}

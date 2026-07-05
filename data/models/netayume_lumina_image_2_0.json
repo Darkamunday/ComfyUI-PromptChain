@@ -1,0 +1,161 @@
+{
+  "display_name": "NetaYume Lumina - V4 All-in-One",
+  "model_name": "NetaYume Lumina",
+  "version": "V4 All-in-One",
+  "architecture": "lumina2",
+  "family": "lumina2_netayume",
+  "author": "duongve",
+  "description": "Anime-focused Lumina Image 2.0 finetune. The all-in-one checkpoints include the Lumina image backbone, Gemma 2 2B text encoder, and VAE for direct ComfyUI CheckpointLoaderSimple use.",
+  "license": "Apache 2.0",
+  "tags": [
+    "lumina2",
+    "netayume",
+    "anime",
+    "text-to-image",
+    "danbooru",
+    "checkpoint"
+  ],
+  "url": "https://huggingface.co/duongve/NetaYume-Lumina-Image-2.0",
+  "release_date": "2025-08-06",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "commas",
+  "prompt_style": "tags",
+  "trigger": "You are an assistant designed to generate anime images based on textual prompts. <Prompt Start>",
+  "default_prompt_id": "netayume-anime-default",
+  "negative": "You are an assistant designed to generate low-quality images based on textual prompts. <Prompt Start> bad quality, worst quality, worst detail, sketch, censor, simple background, transparent background",
+  "quality_position": "start",
+  "notes": "README recommends CFG 4-7, 40-50 steps, and either Euler a + normal or res_multistep + linear_quadratic. Template defaults use res_multistep/linear_quadratic at CFG 5.5 with AuraFlow shift 6.",
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "variants": [
+        {
+          "precision": "v4",
+          "filename": "NetaYume_v4_all_in_one.safetensors",
+          "size_bytes": 10620229821,
+          "source": {
+            "provider": "huggingface",
+            "repo": "duongve/NetaYume-Lumina-Image-2.0",
+            "path": "NetaYume_v4_all_in_one.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "v3",
+          "filename": "NetaYume_v3_all_in_one.safetensors",
+          "size_bytes": 10620231245,
+          "source": {
+            "provider": "huggingface",
+            "repo": "duongve/NetaYume-Lumina-Image-2.0",
+            "path": "NetaYume_v3_all_in_one.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "v3.5-pretrained",
+          "filename": "NetaYumev35_pretrained_all_in_one.safetensors",
+          "size_bytes": 10620231237,
+          "source": {
+            "provider": "huggingface",
+            "repo": "duongve/NetaYume-Lumina-Image-2.0",
+            "path": "NetaYumev35_pretrained_all_in_one.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "v2-plus",
+          "filename": "NetaYume_v2_plus_all_in_one.safetensors",
+          "size_bytes": 10620229821,
+          "source": {
+            "provider": "huggingface",
+            "repo": "duongve/NetaYume-Lumina-Image-2.0",
+            "path": "NetaYume_v2_plus_all_in_one.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "v2",
+          "filename": "NetaYume_Lumina_v2_all_in_one.safetensors",
+          "size_bytes": 10620229821,
+          "source": {
+            "provider": "huggingface",
+            "repo": "duongve/NetaYume-Lumina-Image-2.0",
+            "path": "NetaYume_Lumina_v2_all_in_one.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 45,
+      "cfg": 5.5,
+      "sampler_name": "res_multistep",
+      "scheduler": "linear_quadratic",
+      "steps_range": [
+        30,
+        60
+      ],
+      "cfg_range": [
+        4.0,
+        7.0
+      ],
+      "sampler_name_options": [
+        "res_multistep",
+        "euler_ancestral",
+        "euler",
+        "dpmpp_2m"
+      ],
+      "scheduler_options": [
+        "linear_quadratic",
+        "normal",
+        "simple"
+      ]
+    },
+    "ModelSamplingAuraFlow": {
+      "shift": 6.0,
+      "shift_range": [
+        3.0,
+        8.0
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 1024,
+      "height": 1536,
+      "_resolutions": [
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  }
+}

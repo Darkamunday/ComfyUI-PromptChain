@@ -124,5 +124,6 @@ export const FAMILIES = {
   ],
   lumina2: [
     { id: "lumina2", label: "Lumina Image 2.0" },
+    { id: "lumina2_netayume", label: "NetaYume Lumina" },
   ],
 };
