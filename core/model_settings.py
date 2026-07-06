@@ -684,16 +684,28 @@ def _file_exists_in_folder(filename: str, folder_type: str, min_size: int = 0) -
     floor is half the estimate — enough to reject a real stub while accepting a
     complete file that's a few percent under the guess.
     """
-    try:
-        for folder in folder_paths.get_folder_paths(folder_type):
-            path = os.path.join(folder, filename)
-            if not os.path.isfile(path):
-                continue
-            if min_size and os.path.getsize(path) < min_size * 0.5:
-                continue
-            return True
-    except Exception:
-        pass
+    folder_types = [folder_type]
+    if folder_type == "text_encoders":
+        folder_types.append("clip")
+    elif folder_type == "clip":
+        folder_types.append("text_encoders")
+
+    seen = set()
+    for ft in folder_types:
+        try:
+            for folder in folder_paths.get_folder_paths(ft):
+                real = os.path.realpath(folder)
+                if real in seen:
+                    continue
+                seen.add(real)
+                path = os.path.join(folder, filename)
+                if not os.path.isfile(path):
+                    continue
+                if min_size and os.path.getsize(path) < min_size * 0.5:
+                    continue
+                return True
+        except Exception:
+            continue
     return False
 
 
