@@ -2,11 +2,11 @@
 Prompt preset storage — reusable prompt snippets scoped by model classification.
 
 Two layers:
-  System: data/prompts/*.json — shipped preset packs (read-only)
-  User:   {user_dir}/PromptChain/prompts/*.json — user-created presets
+  System: data/prompts/**/*.json — shipped preset packs (read-only)
+  User:   {user_dir}/PromptChain/prompts/**/*.json — user-created presets
 
-Each file contains a list of prompts. Filenames are organizational only —
-all files are ingested and merged. User prompts with the same `id` override
+Each file contains a list of prompts. Files may be organized into subdirectories.
+All JSON files are discovered recursively and merged. User prompts with the same `id` override
 system prompts. Prompts are filtered by scope against the current model's
 architecture, family, version, or exact hash.
 """
@@ -46,7 +46,7 @@ def _ingest_dir(directory: Path) -> dict[str, dict]:
     result = {}
     if not directory.is_dir():
         return result
-    for path in directory.glob("*.json"):
+    for path in directory.rglob("*.json"):
         data = _read_json(path)
         if not data:
             continue
@@ -116,7 +116,7 @@ def delete(prompt_id: str) -> bool:
         return False
 
     with _write_lock:
-        for path in user_dir.glob("*.json"):
+        for path in user_dir.rglob("*.json"):
             data = _read_json(path)
             if not data:
                 continue
