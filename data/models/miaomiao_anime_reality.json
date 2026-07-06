@@ -104,6 +104,7 @@
     {
       "label": "Checkpoint",
       "folder": "checkpoints",
+      "filename": "miaomiaoAnimeReality_ani10.safetensors",
       "sha256": null,
       "download_url": "https://civitai.com/api/download/models/3032391?type=Model&format=SafeTensor"
     }

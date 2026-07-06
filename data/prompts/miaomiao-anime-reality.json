@@ -1,0 +1,26 @@
+{
+  "name": "MiaoMiao Anime Reality Prompts",
+  "prompts": [
+    {
+      "id": "miaomiao-anime-reality-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Quality\nmasterpiece, best quality, absurdres, newest, very aesthetic, amazing quality, highres, ultra detailed, best anatomy, HDR, 8K, high detail RAW color art, high contrast\n\nNegative Prompt:\nlowres, bad, text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, simple background, artistic error, username, scan, english text",
+      "scope": { "type": "model", "model_name": "MiaoMiao Anime Reality" }
+    },
+    {
+      "id": "miaomiao-anime-reality-simple",
+      "name": "Simple",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Quality\nvery aesthetic, masterpiece, best quality, ultra detailed\n\nNegative Prompt:\nworst quality, bad quality, low quality, jpeg artifacts, bad hands, bad feet, old, oldest, signature, watermark",
+      "scope": { "type": "model", "model_name": "MiaoMiao Anime Reality" }
+    },
+    {
+      "id": "miaomiao-anime-reality-sfw",
+      "name": "SFW",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Quality\nmasterpiece, best quality, absurdres, newest, very aesthetic, amazing quality, highres, ultra detailed, best anatomy, HDR, 8K, high detail RAW color art, high contrast\n\nNegative Prompt:\nlowres, bad, text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, simple background, artistic error, username, scan, english text, nsfw, nude, nudity, naked, nipples",
+      "scope": { "type": "model", "model_name": "MiaoMiao Anime Reality" }
+    }
+  ]
+}

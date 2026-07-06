@@ -124,7 +124,7 @@
         130.65625
       ],
       "widgets_values": [
-        "miaomiaoAnimeReality.safetensors"
+        "miaomiaoAnimeReality_ani10.safetensors"
       ],
       "properties": {
         "Node name for S&R": "CheckpointLoaderSimple"
