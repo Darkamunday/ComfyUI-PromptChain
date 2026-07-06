@@ -97,20 +97,22 @@
       "properties": {}
     },
     {
-      "type": "CLIPSetLastLayer",
+      "type": "CLIPLoader",
       "offset": [
         860.4098616524972,
         374.5878772084344
       ],
       "size": [
-        225,
-        83.984375
+        346.78125,
+        117.328125
       ],
       "widgets_values": [
-        -2
+        "anima_baseV10_txt.safetensors",
+        "qwen_image",
+        "default"
       ],
       "properties": {
-        "Node name for S&R": "CLIPSetLastLayer"
+        "Node name for S&R": "CLIPLoader"
       }
     },
     {
@@ -147,6 +149,23 @@
       ],
       "properties": {
         "Node name for S&R": "EmptyLatentImage"
+      }
+    },
+    {
+      "type": "VAELoader",
+      "offset": [
+        1155.408771371861,
+        374.5878772084344
+      ],
+      "size": [
+        366.40625,
+        82.65625
+      ],
+      "widgets_values": [
+        "qwen_image_vae.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
       }
     }
   ],
@@ -194,14 +213,8 @@
       "to_slot": 0
     },
     {
-      "from_node_idx": 6,
-      "from_slot": 1,
-      "to_node_idx": 5,
-      "to_slot": 0
-    },
-    {
-      "from_node_idx": 6,
-      "from_slot": 2,
+      "from_node_idx": 8,
+      "from_slot": 0,
       "to_node_idx": 3,
       "to_slot": 1
     },
