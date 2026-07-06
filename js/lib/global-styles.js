@@ -1429,6 +1429,10 @@ export function injectStyles() {
     .pcr-context-menu {
       min-width: 160px;
       max-width: 220px;
+      max-height: 65vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      overscroll-behavior: contain;
       padding: 4px 0;
     }
     .pcr-context-item {
