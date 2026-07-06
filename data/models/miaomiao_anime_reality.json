@@ -1,0 +1,110 @@
+{
+  "display_name": "MiaoMiao Anime Reality - Anima",
+  "model_name": "MiaoMiao Anime Reality",
+  "version": "Anima",
+  "architecture": "sdxl",
+  "family": "illustrious",
+  "author": "MiaoMiao",
+  "description": "Anima version of MiaoMiao Anime Reality using split ComfyUI loaders: UNETLoader, CLIPLoader, and Qwen Image VAE.",
+  "tags": [
+    "anime",
+    "realistic",
+    "illustrious",
+    "sdxl",
+    "diffusion model"
+  ],
+  "url": "https://civitai.red/models/480956/miaomiao-anime-reality?modelVersionId=3032391",
+  "download_url": "https://civitai.com/api/download/models/3032391?type=Model&format=SafeTensor",
+  "civitai_model_id": 480956,
+  "quality_position": "start",
+  "trigger": "amazing quality, awesome, inspiring, cinematic composition, soft shadows, film grain, shallow depth of field, high budget, cinemascope, epic, color graded cinematic, atmospheric lighting, imperfections, natural, shallow dof, best quality, score_9, score_8, score_7, photorealistic, raw photo, ultra detailed",
+  "default_prompt_id": "miaomiao-anime-reality-default",
+  "negative": "worst quality, low quality, score_1, score_2, score_3, score_4, artist name, simple background, lowres, bad, text, error, fewer, extra, missing, jpeg artifacts, watermark, unfinished, displeasing, oldest, early, signature, artistic error, username, scan, english text, shiny hair, extra toes",
+  "notes": "Use split loaders. Diffusion model: miaomiaoAnimeReality_ani10.safetensors via UNETLoader. Text encoder: miaomiaoAnimeReality_ani10_txt.safetensors via CLIPLoader type stable_diffusion. VAE: QWEN/qwen_image_vae.safetensors.",
+  "tag_sources": [
+    "Danbooru"
+  ],
+  "tag_format": "spaces",
+  "prompt_style": "tags",
+  "nodes": {
+    "KSampler": {
+      "steps": 30,
+      "cfg": 4.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "steps_range": [
+        20,
+        40
+      ],
+      "cfg_range": [
+        3.0,
+        6.0
+      ],
+      "sampler_name_options": [
+        "euler",
+        "euler_ancestral"
+      ],
+      "scheduler_options": [
+        "simple",
+        "normal",
+        "exponential"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 920,
+      "height": 1536,
+      "_resolutions": [
+        {
+          "width": 920,
+          "height": 1536
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 1536,
+          "height": 920
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "filename": "miaomiaoAnimeReality_ani10.safetensors",
+      "sha256": null,
+      "download_url": "https://civitai.com/api/download/models/3032391?type=Model&format=SafeTensor"
+    },
+    {
+      "label": "Text Encoder",
+      "folder": "text_encoders",
+      "filename": "miaomiaoAnimeReality_ani10_txt.safetensors",
+      "sha256": null
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "QWEN/qwen_image_vae.safetensors",
+      "size_bytes": 253806246,
+      "sha256": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MiaoMiao Anime Reality Prompts",
+  "prompts": [
+    {
+      "id": "miaomiao-anime-reality-default",
+      "name": "Default",
+      "category": "",
+      "text": "// Your Tags\n{cursor}\n\n// Quality\namazing quality, awesome, inspiring, cinematic composition, soft shadows, film grain, shallow depth of field, high budget, cinemascope, epic, color graded cinematic, atmospheric lighting, imperfections, natural, shallow dof, best quality, score_9, score_8, score_7, photorealistic, raw photo, ultra detailed\n\nNegative Prompt:\nworst quality, low quality, score_1, score_2, score_3, score_4, artist name, simple background, lowres, bad, text, error, fewer, extra, missing, jpeg artifacts, watermark, unfinished, displeasing, oldest, early, signature, artistic error, username, scan, english text, shiny hair, extra toes",
+      "scope": { "type": "model", "model_name": "MiaoMiao Anime Reality" }
+    }
+  ]
+}

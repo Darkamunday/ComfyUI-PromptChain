@@ -1,0 +1,241 @@
+{
+  "name": "Text-to-Image",
+  "category": "Generation",
+  "order": 0,
+  "scope": {
+    "type": "model",
+    "model_name": "MiaoMiao Anime Reality"
+  },
+  "created_at": 1783350000,
+  "id": "miaomiao-anime-reality-t2i",
+  "nodes": [
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        860,
+        0
+      ],
+      "size": [
+        225,
+        116
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        860,
+        190
+      ],
+      "size": [
+        225,
+        116
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "KSampler",
+      "offset": [
+        1600,
+        0
+      ],
+      "size": [
+        344.15625,
+        565.328125
+      ],
+      "widgets_values": [
+        2011866924,
+        "randomize",
+        30,
+        4,
+        "euler",
+        "simple",
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        2000,
+        0
+      ],
+      "size": [
+        225,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        2000,
+        150
+      ],
+      "size": [
+        247.25,
+        419.046875
+      ],
+      "widgets_values": [
+        "Anima/%date:yyyy-MM-dd_hhmmss%"
+      ],
+      "properties": {}
+    },
+    {
+      "type": "VAELoader",
+      "offset": [
+        1160,
+        0
+      ],
+      "size": [
+        366.40625,
+        82.65625
+      ],
+      "widgets_values": [
+        "QWEN/qwen_image_vae.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      }
+    },
+    {
+      "type": "UNETLoader",
+      "offset": [
+        1160,
+        150
+      ],
+      "size": [
+        371.65625,
+        82.65625
+      ],
+      "widgets_values": [
+        "miaomiaoAnimeReality_ani10.safetensors",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      }
+    },
+    {
+      "type": "CLIPLoader",
+      "offset": [
+        1160,
+        300
+      ],
+      "size": [
+        346.78125,
+        117.328125
+      ],
+      "widgets_values": [
+        "miaomiaoAnimeReality_ani10_txt.safetensors",
+        "stable_diffusion",
+        "default"
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader"
+      }
+    },
+    {
+      "type": "EmptyLatentImage",
+      "offset": [
+        1160,
+        470
+      ],
+      "size": [
+        382.625,
+        144
+      ],
+      "widgets_values": [
+        920,
+        1536,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 4,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 0,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 7,
+      "from_slot": 0,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 8,
+      "from_slot": 0,
+      "to_node_idx": 2,
+      "to_slot": 3
+    }
+  ],
+  "anchorConnections": [
+    {
+      "from_slot": 1,
+      "to_node_idx": 0,
+      "to_slot": 1
+    },
+    {
+      "from_slot": 2,
+      "to_node_idx": 1,
+      "to_slot": 1
+    }
+  ]
+}
