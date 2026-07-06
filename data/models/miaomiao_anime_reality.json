@@ -104,7 +104,7 @@
     {
       "label": "Text Encoder",
       "folder": "text_encoders",
-      "filename": "anima_baseV10_txt.safetensors",
+      "filename": "miaomiaoAnimeReality_ani10_txt.safetensors",
       "sha256": null
     },
     {
