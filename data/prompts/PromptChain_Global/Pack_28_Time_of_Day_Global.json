@@ -4,7 +4,7 @@
     {
       "id": "time_sunrise",
       "name": "Sunrise",
-      "text": "Set the scene at sunrise with soft golden light, fresh atmosphere, long shadows, and gentle morning color.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene at sunrise with soft golden light, fresh atmosphere, long shadows, and gentle morning color.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "time_early_morning",
       "name": "Early Morning",
-      "text": "Set the scene in early morning with cool fresh light, quiet surroundings, and a clean start-of-day feeling.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene in early morning with cool fresh light, quiet surroundings, and a clean start-of-day feeling.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "time_late_morning",
       "name": "Late Morning",
-      "text": "Set the scene in late morning with bright but soft daylight, natural color, and calm clarity.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene in late morning with bright but soft daylight, natural color, and calm clarity.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "time_midday",
       "name": "Midday",
-      "text": "Set the scene at midday with strong clear daylight, vivid color, and high visibility.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene at midday with strong clear daylight, vivid color, and high visibility.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "time_afternoon",
       "name": "Afternoon",
-      "text": "Set the scene in the afternoon with warm natural light, comfortable contrast, and relaxed daytime energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene in the afternoon with warm natural light, comfortable contrast, and relaxed daytime energy.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "time_golden_hour",
       "name": "Golden Hour",
-      "text": "Set the scene during golden hour with warm sunlight, soft highlights, and cinematic amber tones.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene during golden hour with warm sunlight, soft highlights, and cinematic amber tones.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "time_sunset",
       "name": "Sunset",
-      "text": "Set the scene at sunset with rich sky colors, warm fading light, and gentle evening atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene at sunset with rich sky colors, warm fading light, and gentle evening atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "time_dusk",
       "name": "Dusk",
-      "text": "Set the scene at dusk with fading twilight, cool blue shadows, and a quiet transitional mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene at dusk with fading twilight, cool blue shadows, and a quiet transitional mood.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "time_blue_hour",
       "name": "Blue Hour",
-      "text": "Set the scene during blue hour with deep cool tones, soft ambient light, and elegant evening atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene during blue hour with deep cool tones, soft ambient light, and elegant evening atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "time_night",
       "name": "Night",
-      "text": "Set the scene at night with controlled darkness, readable subject lighting, and calm nighttime mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene at night with controlled darkness, readable subject lighting, and calm nighttime mood.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "time_midnight",
       "name": "Midnight",
-      "text": "Set the scene at midnight with deep shadows, moonlight, quiet atmosphere, and strong mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene at midnight with deep shadows, moonlight, quiet atmosphere, and strong mood.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "time_rainy_evening",
       "name": "Rainy Evening",
-      "text": "Set the scene during a rainy evening with diffused light, wet reflections, and cozy muted atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene during a rainy evening with diffused light, wet reflections, and cozy muted atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "time_snowy_morning",
       "name": "Snowy Morning",
-      "text": "Set the scene during a snowy morning with soft white light, cold air, and quiet winter stillness.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene during a snowy morning with soft white light, cold air, and quiet winter stillness.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "time_neon_night",
       "name": "Neon Night",
-      "text": "Set the scene at neon-lit night with colorful artificial light, reflective surfaces, and stylish urban mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene at neon-lit night with colorful artificial light, reflective surfaces, and stylish urban mood.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "time_candlelit_night",
       "name": "Candlelit Night",
-      "text": "Set the scene at night lit by candles, with warm glow, soft falloff, and intimate atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// time of day\nSet the scene at night lit by candles, with warm glow, soft falloff, and intimate atmosphere.",
       "scope": {
         "type": "global"
       },

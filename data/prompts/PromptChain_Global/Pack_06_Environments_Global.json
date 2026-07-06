@@ -4,7 +4,7 @@
     {
       "id": "environment_cozy_cafe",
       "name": "Cozy Cafe",
-      "text": "Place the subject in a cozy café with warm lighting, inviting décor, wooden textures, and a comfortable everyday atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject in a cozy café with warm lighting, inviting décor, wooden textures, and a comfortable everyday atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "environment_grand_library",
       "name": "Grand Library",
-      "text": "Place the subject in a grand library with tall bookshelves, warm reading light, and an elegant scholarly atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject in a grand library with tall bookshelves, warm reading light, and an elegant scholarly atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "environment_shinto_shrine",
       "name": "Shinto Shrine",
-      "text": "Place the subject at a peaceful Shinto shrine with traditional architecture, stone paths, lanterns, and a serene atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject at a peaceful Shinto shrine with traditional architecture, stone paths, lanterns, and a serene atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "environment_sunny_beach",
       "name": "Sunny Beach",
-      "text": "Place the subject on a bright sunny beach with clear sky, clean sand, and vivid coastal colors.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject on a bright sunny beach with clear sky, clean sand, and vivid coastal colors.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "environment_forest_path",
       "name": "Forest Path",
-      "text": "Place the subject on a forest path surrounded by lush greenery, filtered light, and a calm natural atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject on a forest path surrounded by lush greenery, filtered light, and a calm natural atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "environment_modern_city",
       "name": "Modern City Street",
-      "text": "Place the subject in a modern city street environment with detailed buildings, urban atmosphere, and realistic visual activity.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject in a modern city street environment with detailed buildings, urban atmosphere, and realistic visual activity.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "environment_bedroom",
       "name": "Cozy Bedroom",
-      "text": "Place the subject in a stylish cozy bedroom with soft furnishings, natural light, and a relaxed personal atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject in a stylish cozy bedroom with soft furnishings, natural light, and a relaxed personal atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "environment_flower_garden",
       "name": "Flower Garden",
-      "text": "Place the subject in a vibrant flower garden filled with seasonal blossoms and a cheerful outdoor atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject in a vibrant flower garden filled with seasonal blossoms and a cheerful outdoor atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "environment_fantasy_castle",
       "name": "Fantasy Castle",
-      "text": "Place the subject in an elegant fantasy castle with grand stone architecture, detailed interiors, and noble atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject in an elegant fantasy castle with grand stone architecture, detailed interiors, and noble atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "environment_cyberpunk_city",
       "name": "Cyberpunk City",
-      "text": "Place the subject in a futuristic cyberpunk city filled with neon light, dense urban structure, and a high-tech atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// environments\nPlace the subject in a futuristic cyberpunk city filled with neon light, dense urban structure, and a high-tech atmosphere.",
       "scope": {
         "type": "global"
       },

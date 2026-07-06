@@ -4,7 +4,7 @@
     {
       "id": "pattern_floral",
       "name": "Floral Pattern",
-      "text": "Add tasteful floral patterns to clothing, wallpaper, fabric, or decoration with balanced scale and natural color harmony.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd tasteful floral patterns to clothing, wallpaper, fabric, or decoration with balanced scale and natural color harmony.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "pattern_geometric",
       "name": "Geometric Pattern",
-      "text": "Add clean geometric patterns with repeated shapes, sharp structure, and modern visual order.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd clean geometric patterns with repeated shapes, sharp structure, and modern visual order.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "pattern_stripes",
       "name": "Stripes",
-      "text": "Add stripe patterns with clear spacing, fabric-aware wrapping, and balanced visual rhythm.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd stripe patterns with clear spacing, fabric-aware wrapping, and balanced visual rhythm.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "pattern_plaid",
       "name": "Plaid",
-      "text": "Add plaid fabric patterns with intersecting lines, woven texture, and classic styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd plaid fabric patterns with intersecting lines, woven texture, and classic styling.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "pattern_polka_dots",
       "name": "Polka Dots",
-      "text": "Add polka dot patterns with consistent spacing, playful character, and clean surface placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd polka dot patterns with consistent spacing, playful character, and clean surface placement.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "pattern_damask",
       "name": "Damask",
-      "text": "Add damask-style decorative patterns with ornate symmetry, elegant curves, and refined historical texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd damask-style decorative patterns with ornate symmetry, elegant curves, and refined historical texture.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "pattern_lace_overlay",
       "name": "Lace Overlay",
-      "text": "Add lace overlay detail with delicate openwork, semi-transparent structure, and graceful edges.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd lace overlay detail with delicate openwork, semi-transparent structure, and graceful edges.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "pattern_stars",
       "name": "Star Pattern",
-      "text": "Add star patterns with magical or playful character, balanced spacing, and clean decorative placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd star patterns with magical or playful character, balanced spacing, and clean decorative placement.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "pattern_moon",
       "name": "Moon Motif",
-      "text": "Add moon motifs through accessories, fabric decoration, background detail, or fantasy design elements.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd moon motifs through accessories, fabric decoration, background detail, or fantasy design elements.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "pattern_tribal",
       "name": "Tribal Motif",
-      "text": "Add stylized tribal-inspired motifs with respectful abstract geometry and strong graphic rhythm.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd stylized tribal-inspired motifs with respectful abstract geometry and strong graphic rhythm.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "pattern_wave",
       "name": "Wave Pattern",
-      "text": "Add flowing wave patterns with smooth curves, natural rhythm, and ocean-inspired elegance.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd flowing wave patterns with smooth curves, natural rhythm, and ocean-inspired elegance.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "pattern_leaf",
       "name": "Leaf Pattern",
-      "text": "Add leaf patterns with botanical detail, organic shapes, and natural color harmony.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd leaf patterns with botanical detail, organic shapes, and natural color harmony.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "pattern_checkerboard",
       "name": "Checkerboard",
-      "text": "Add checkerboard patterns with crisp contrast, clean repetition, and controlled visual impact.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd checkerboard patterns with crisp contrast, clean repetition, and controlled visual impact.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "pattern_embroidery",
       "name": "Embroidery",
-      "text": "Add embroidered patterns with raised thread texture, decorative detail, and realistic fabric integration.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd embroidered patterns with raised thread texture, decorative detail, and realistic fabric integration.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "pattern_filigree",
       "name": "Filigree",
-      "text": "Add intricate filigree ornamentation with fine curling lines, metallic elegance, and refined craftsmanship.",
+      "text": "// Your Prompt\n{cursor}\n\n// patterns\nAdd intricate filigree ornamentation with fine curling lines, metallic elegance, and refined craftsmanship.",
       "scope": {
         "type": "global"
       },

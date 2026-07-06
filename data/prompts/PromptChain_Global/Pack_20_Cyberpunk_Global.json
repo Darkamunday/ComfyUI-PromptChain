@@ -4,7 +4,7 @@
     {
       "id": "cyberpunk_neon_street",
       "name": "Neon Street",
-      "text": "Place the scene on a rainy neon-lit street with glowing signs, reflective pavement, dense urban detail, and a stylish cyberpunk atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nPlace the scene on a rainy neon-lit street with glowing signs, reflective pavement, dense urban detail, and a stylish cyberpunk atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "cyberpunk_back_alley",
       "name": "Back Alley",
-      "text": "Create a cyberpunk back alley with pipes, cables, graffiti, vending machines, neon spill light, and gritty urban texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nCreate a cyberpunk back alley with pipes, cables, graffiti, vending machines, neon spill light, and gritty urban texture.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "cyberpunk_rooftop",
       "name": "Rooftop",
-      "text": "Place the subject on a high rooftop overlooking a neon megacity with wind, distant lights, and dramatic vertical scale.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nPlace the subject on a high rooftop overlooking a neon megacity with wind, distant lights, and dramatic vertical scale.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "cyberpunk_night_market",
       "name": "Night Market",
-      "text": "Create a crowded cyberpunk night market with food stalls, holographic ads, colorful umbrellas, and glowing atmospheric detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nCreate a crowded cyberpunk night market with food stalls, holographic ads, colorful umbrellas, and glowing atmospheric detail.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "cyberpunk_augments",
       "name": "Cybernetic Augments",
-      "text": "Add tasteful cybernetic augment details such as glowing interface lines, mechanical limbs, or subtle facial tech while keeping the design elegant.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nAdd tasteful cybernetic augment details such as glowing interface lines, mechanical limbs, or subtle facial tech while keeping the design elegant.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "cyberpunk_hacker_room",
       "name": "Hacker Room",
-      "text": "Place the scene in a cluttered hacker room filled with monitors, cables, dim neon light, keyboards, and digital atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nPlace the scene in a cluttered hacker room filled with monitors, cables, dim neon light, keyboards, and digital atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "cyberpunk_megacity",
       "name": "Megacity",
-      "text": "Create a dense cyberpunk megacity with towering skyscrapers, vertical layers, traffic lights, fog, and luminous advertising.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nCreate a dense cyberpunk megacity with towering skyscrapers, vertical layers, traffic lights, fog, and luminous advertising.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "cyberpunk_subway",
       "name": "Subway Station",
-      "text": "Set the scene in a futuristic underground subway station with neon panels, wet tiles, crowds, and gritty detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nSet the scene in a futuristic underground subway station with neon panels, wet tiles, crowds, and gritty detail.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "cyberpunk_club",
       "name": "Neon Club",
-      "text": "Place the subject in a neon club with saturated colored lights, haze, reflective surfaces, and energetic nightlife mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nPlace the subject in a neon club with saturated colored lights, haze, reflective surfaces, and energetic nightlife mood.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "cyberpunk_raincoat",
       "name": "Cyberpunk Raincoat",
-      "text": "Dress the subject in a sleek cyberpunk raincoat with glossy material, sharp silhouette, and neon reflections.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nDress the subject in a sleek cyberpunk raincoat with glossy material, sharp silhouette, and neon reflections.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "cyberpunk_vendor_stall",
       "name": "Street Vendor Stall",
-      "text": "Create a small street vendor stall with steam, lanterns, holographic signs, and lively night-city texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nCreate a small street vendor stall with steam, lanterns, holographic signs, and lively night-city texture.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "cyberpunk_drone",
       "name": "Surveillance Drone",
-      "text": "Add a hovering surveillance drone with glowing sensors, compact mechanical design, and believable lighting interaction.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nAdd a hovering surveillance drone with glowing sensors, compact mechanical design, and believable lighting interaction.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "cyberpunk_arcade",
       "name": "Retro Arcade",
-      "text": "Place the scene in a cyberpunk arcade with old machines, neon screens, reflective floors, and nostalgic futuristic energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nPlace the scene in a cyberpunk arcade with old machines, neon screens, reflective floors, and nostalgic futuristic energy.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "cyberpunk_bridge",
       "name": "Skybridge",
-      "text": "Set the scene on a glass skybridge high above a neon city, with glowing traffic far below and strong perspective depth.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nSet the scene on a glass skybridge high above a neon city, with glowing traffic far below and strong perspective depth.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "cyberpunk_apartment",
       "name": "Tiny Tech Apartment",
-      "text": "Create a cramped cyberpunk apartment with glowing monitors, cluttered tech, city lights through windows, and lived-in detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// cyberpunk\nCreate a cramped cyberpunk apartment with glowing monitors, cluttered tech, city lights through windows, and lived-in detail.",
       "scope": {
         "type": "global"
       },

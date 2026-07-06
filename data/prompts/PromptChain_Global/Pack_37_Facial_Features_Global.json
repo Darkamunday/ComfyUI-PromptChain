@@ -4,7 +4,7 @@
     {
       "id": "face_soft_features",
       "name": "Soft Facial Features",
-      "text": "Give the subject soft, balanced facial features with gentle contours, clear expression, and natural appeal.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nGive the subject soft, balanced facial features with gentle contours, clear expression, and natural appeal.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "face_sharp_features",
       "name": "Sharp Facial Features",
-      "text": "Give the subject sharper facial features with defined cheekbones, focused eyes, and a confident presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nGive the subject sharper facial features with defined cheekbones, focused eyes, and a confident presence.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "face_round_cheeks",
       "name": "Round Cheeks",
-      "text": "Give the subject softly rounded cheeks for a cute, friendly look while keeping proportions natural.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nGive the subject softly rounded cheeks for a cute, friendly look while keeping proportions natural.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "face_delicate_nose",
       "name": "Delicate Nose",
-      "text": "Use a delicate nose shape with subtle shading and balanced facial harmony.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nUse a delicate nose shape with subtle shading and balanced facial harmony.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "face_defined_jawline",
       "name": "Defined Jawline",
-      "text": "Use a more defined jawline with clean facial structure and confident character presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nUse a more defined jawline with clean facial structure and confident character presence.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "face_small_mouth",
       "name": "Small Mouth",
-      "text": "Use a small, delicate mouth with clear expression and soft natural detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nUse a small, delicate mouth with clear expression and soft natural detail.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "face_full_lips",
       "name": "Full Lips",
-      "text": "Use fuller lips with tasteful shaping, natural highlights, and balanced facial proportions.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nUse fuller lips with tasteful shaping, natural highlights, and balanced facial proportions.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "face_freckles",
       "name": "Subtle Freckles",
-      "text": "Add subtle freckles across the cheeks and nose for natural charm and believable skin detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nAdd subtle freckles across the cheeks and nose for natural charm and believable skin detail.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "face_beauty_mark",
       "name": "Beauty Mark",
-      "text": "Add a small beauty mark placed naturally on the face as a tasteful character detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nAdd a small beauty mark placed naturally on the face as a tasteful character detail.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "face_rosy_cheeks",
       "name": "Rosy Cheeks",
-      "text": "Add soft rosy cheeks that enhance warmth, emotion, and natural expression.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nAdd soft rosy cheeks that enhance warmth, emotion, and natural expression.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "face_delicate_eyelashes",
       "name": "Delicate Eyelashes",
-      "text": "Add delicate eyelashes that frame the eyes without overpowering the face.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nAdd delicate eyelashes that frame the eyes without overpowering the face.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "face_thick_eyebrows",
       "name": "Thicker Eyebrows",
-      "text": "Use slightly thicker eyebrows to create stronger expression and character identity.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nUse slightly thicker eyebrows to create stronger expression and character identity.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "face_thin_eyebrows",
       "name": "Thin Eyebrows",
-      "text": "Use thin, refined eyebrows for an elegant and polished facial look.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nUse thin, refined eyebrows for an elegant and polished facial look.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "face_symmetry",
       "name": "Balanced Face",
-      "text": "Keep the face balanced and symmetrical with coherent proportions, natural expression, and clean feature placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nKeep the face balanced and symmetrical with coherent proportions, natural expression, and clean feature placement.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "face_expressive",
       "name": "Expressive Face",
-      "text": "Emphasize an expressive face with clear eyes, readable emotion, and appealing facial animation.",
+      "text": "// Your Prompt\n{cursor}\n\n// facial features\nEmphasize an expressive face with clear eyes, readable emotion, and appealing facial animation.",
       "scope": {
         "type": "global"
       },

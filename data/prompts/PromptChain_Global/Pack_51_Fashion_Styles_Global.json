@@ -4,7 +4,7 @@
     {
       "id": "fashion_casual_chic",
       "name": "Casual Chic",
-      "text": "Style the outfit as casual chic with simple modern pieces, tasteful coordination, and effortless polish.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit as casual chic with simple modern pieces, tasteful coordination, and effortless polish.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "fashion_streetwear_layered",
       "name": "Layered Streetwear",
-      "text": "Style the outfit with layered streetwear pieces, strong silhouette, urban details, and confident personality.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with layered streetwear pieces, strong silhouette, urban details, and confident personality.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "fashion_soft_girl",
       "name": "Soft Girl",
-      "text": "Style the outfit with soft colors, gentle accessories, cute textures, and a sweet approachable mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with soft colors, gentle accessories, cute textures, and a sweet approachable mood.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "fashion_gothic_lolita",
       "name": "Gothic Lolita",
-      "text": "Style the outfit with gothic lolita influence, layered frills, lace, bows, dark elegance, and careful balance.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with gothic lolita influence, layered frills, lace, bows, dark elegance, and careful balance.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "fashion_elegant_formal",
       "name": "Elegant Formal",
-      "text": "Style the outfit as elegant formalwear with refined tailoring, graceful fabric, and polished presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit as elegant formalwear with refined tailoring, graceful fabric, and polished presentation.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "fashion_academia",
       "name": "Academia",
-      "text": "Style the outfit with academia influence, neat layers, muted colors, classic shoes, books, and scholarly charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with academia influence, neat layers, muted colors, classic shoes, books, and scholarly charm.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "fashion_bohemian",
       "name": "Bohemian",
-      "text": "Style the outfit with bohemian influence, flowing fabrics, earthy tones, handmade accessories, and relaxed artistic charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with bohemian influence, flowing fabrics, earthy tones, handmade accessories, and relaxed artistic charm.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "fashion_techwear",
       "name": "Techwear",
-      "text": "Style the outfit with techwear influence, functional layers, straps, sleek fabric, and futuristic practicality.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with techwear influence, functional layers, straps, sleek fabric, and futuristic practicality.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "fashion_pastel",
       "name": "Pastel Fashion",
-      "text": "Style the outfit with pastel colors, soft shapes, cute accessories, and gentle visual sweetness.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with pastel colors, soft shapes, cute accessories, and gentle visual sweetness.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "fashion_punk",
       "name": "Punk Fashion",
-      "text": "Style the outfit with punk influence, bold accessories, dark fabric, metal details, and rebellious energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with punk influence, bold accessories, dark fabric, metal details, and rebellious energy.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "fashion_royal",
       "name": "Royal Fashion",
-      "text": "Style the outfit with royal elegance, luxurious fabrics, ornate decoration, and noble posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with royal elegance, luxurious fabrics, ornate decoration, and noble posture.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "fashion_fairycore",
       "name": "Fairycore",
-      "text": "Style the outfit with fairycore influence, soft natural colors, delicate accessories, floral details, and magical lightness.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with fairycore influence, soft natural colors, delicate accessories, floral details, and magical lightness.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "fashion_cyber_fashion",
       "name": "Cyber Fashion",
-      "text": "Style the outfit with futuristic cyber fashion, glossy materials, glowing accents, and sleek geometric design.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with futuristic cyber fashion, glossy materials, glowing accents, and sleek geometric design.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "fashion_winter_layered",
       "name": "Layered Winter Fashion",
-      "text": "Style the outfit with warm winter layers, cozy textures, scarves, coats, and seasonal comfort.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with warm winter layers, cozy textures, scarves, coats, and seasonal comfort.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "fashion_summer_light",
       "name": "Light Summer Fashion",
-      "text": "Style the outfit with lightweight summer clothing, breathable fabrics, bright colors, and relaxed sunny energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// fashion styles\nStyle the outfit with lightweight summer clothing, breathable fabrics, bright colors, and relaxed sunny energy.",
       "scope": {
         "type": "global"
       },

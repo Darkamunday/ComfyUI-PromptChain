@@ -4,7 +4,7 @@
     {
       "id": "scifi_starship_bridge",
       "name": "Starship Bridge",
-      "text": "Place the scene on a futuristic starship bridge with holographic displays, sleek control panels, clean metallic surfaces, and a sense of deep-space exploration.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nPlace the scene on a futuristic starship bridge with holographic displays, sleek control panels, clean metallic surfaces, and a sense of deep-space exploration.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "scifi_orbital_station",
       "name": "Orbital Station",
-      "text": "Place the scene inside or near a large orbital station with curved windows, advanced technology, and a breathtaking view of a planet below.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nPlace the scene inside or near a large orbital station with curved windows, advanced technology, and a breathtaking view of a planet below.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "scifi_android_lab",
       "name": "Android Laboratory",
-      "text": "Create a high-tech android laboratory with clean white surfaces, diagnostic equipment, soft blue lighting, and refined futuristic machinery.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nCreate a high-tech android laboratory with clean white surfaces, diagnostic equipment, soft blue lighting, and refined futuristic machinery.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "scifi_mecha_hangar",
       "name": "Mecha Hangar",
-      "text": "Place the scene in a massive mecha hangar with towering machines, maintenance platforms, industrial lighting, and a grand sense of scale.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nPlace the scene in a massive mecha hangar with towering machines, maintenance platforms, industrial lighting, and a grand sense of scale.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "scifi_alien_world",
       "name": "Alien World",
-      "text": "Set the scene on an alien world with unfamiliar terrain, exotic plant life, strange atmospheric colors, and a believable otherworldly environment.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nSet the scene on an alien world with unfamiliar terrain, exotic plant life, strange atmospheric colors, and a believable otherworldly environment.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "scifi_space_colony",
       "name": "Space Colony",
-      "text": "Create a space colony environment with domed habitats, advanced infrastructure, artificial atmosphere, and a clean futuristic settlement design.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nCreate a space colony environment with domed habitats, advanced infrastructure, artificial atmosphere, and a clean futuristic settlement design.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "scifi_hologram_room",
       "name": "Hologram Room",
-      "text": "Place the subject in a hologram-filled room with translucent interface panels, floating data displays, and soft futuristic glow.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nPlace the subject in a hologram-filled room with translucent interface panels, floating data displays, and soft futuristic glow.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "scifi_cybernetic_clinic",
       "name": "Cybernetic Clinic",
-      "text": "Create a cybernetic medical clinic with advanced prosthetics, surgical lights, clean glass surfaces, and precise technical detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nCreate a cybernetic medical clinic with advanced prosthetics, surgical lights, clean glass surfaces, and precise technical detail.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "scifi_zero_gravity",
       "name": "Zero Gravity",
-      "text": "Create a zero-gravity scene with floating objects, soft motion, suspended hair or clothing, and a graceful sense of weightlessness.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nCreate a zero-gravity scene with floating objects, soft motion, suspended hair or clothing, and a graceful sense of weightlessness.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "scifi_mars_base",
       "name": "Mars Base",
-      "text": "Set the scene in a Mars research base with red dust outside, sealed modular structures, scientific equipment, and rugged survival detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nSet the scene in a Mars research base with red dust outside, sealed modular structures, scientific equipment, and rugged survival detail.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "scifi_nebula_window",
       "name": "Nebula Window",
-      "text": "Place the subject near a large spacecraft window overlooking a colorful nebula, distant stars, and soft cosmic light.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nPlace the subject near a large spacecraft window overlooking a colorful nebula, distant stars, and soft cosmic light.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "scifi_robot_companion",
       "name": "Robot Companion",
-      "text": "Add a friendly robot companion with clean readable design, polished surfaces, expressive mechanical details, and believable scale.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nAdd a friendly robot companion with clean readable design, polished surfaces, expressive mechanical details, and believable scale.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "scifi_futuristic_city",
       "name": "Futuristic City",
-      "text": "Create a futuristic city with sleek towers, elevated transit, glowing signs, advanced architecture, and dense urban life.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nCreate a futuristic city with sleek towers, elevated transit, glowing signs, advanced architecture, and dense urban life.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "scifi_power_core",
       "name": "Power Core Chamber",
-      "text": "Place the scene inside a power core chamber with glowing energy, circular machinery, reflective surfaces, and controlled technological drama.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nPlace the scene inside a power core chamber with glowing energy, circular machinery, reflective surfaces, and controlled technological drama.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "scifi_ai_archive",
       "name": "AI Archive",
-      "text": "Create an AI archive filled with glowing data towers, quiet servers, holographic memory panels, and a thoughtful futuristic atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// scifi\nCreate an AI archive filled with glowing data towers, quiet servers, holographic memory panels, and a thoughtful futuristic atmosphere.",
       "scope": {
         "type": "global"
       },

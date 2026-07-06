@@ -4,7 +4,7 @@
     {
       "id": "hair_long_straight",
       "name": "Long Straight Hair",
-      "text": "Give the subject long, silky straight hair with smooth flow, clean strand definition, and a polished, elegant appearance.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nGive the subject long, silky straight hair with smooth flow, clean strand definition, and a polished, elegant appearance.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "hair_long_wavy",
       "name": "Long Wavy Hair",
-      "text": "Style the hair as long, soft waves with natural movement, gentle volume, and a graceful, feminine look.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nStyle the hair as long, soft waves with natural movement, gentle volume, and a graceful, feminine look.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "hair_short_bob",
       "name": "Short Bob",
-      "text": "Give the subject a neat short bob haircut with clean shape, soft volume, and face-framing balance.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nGive the subject a neat short bob haircut with clean shape, soft volume, and face-framing balance.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "hair_hime_cut",
       "name": "Hime Cut",
-      "text": "Style the hair as a classic hime cut with straight bangs, long side locks, and a refined, elegant presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nStyle the hair as a classic hime cut with straight bangs, long side locks, and a refined, elegant presentation.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "hair_pixie_cut",
       "name": "Pixie Cut",
-      "text": "Give the subject a stylish pixie cut with short textured layers and a confident, modern look.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nGive the subject a stylish pixie cut with short textured layers and a confident, modern look.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "hair_high_ponytail",
       "name": "High Ponytail",
-      "text": "Style the hair into a high ponytail with dynamic lift, loose face-framing strands, and lively movement.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nStyle the hair into a high ponytail with dynamic lift, loose face-framing strands, and lively movement.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "hair_low_ponytail",
       "name": "Low Ponytail",
-      "text": "Gather the hair into a low ponytail with a calm, elegant silhouette and natural softness.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nGather the hair into a low ponytail with a calm, elegant silhouette and natural softness.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "hair_twin_tails",
       "name": "Twin Tails",
-      "text": "Style the hair into long twin tails with balanced symmetry, playful energy, and expressive movement.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nStyle the hair into long twin tails with balanced symmetry, playful energy, and expressive movement.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "hair_braided",
       "name": "Braided Hair",
-      "text": "Style the hair with detailed braids, clear woven structure, and elegant decorative texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nStyle the hair with detailed braids, clear woven structure, and elegant decorative texture.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "hair_messy_natural",
       "name": "Messy Natural Hair",
-      "text": "Give the hair a naturally messy, relaxed style with subtle flyaway strands and believable texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// hair\nGive the hair a naturally messy, relaxed style with subtle flyaway strands and believable texture.",
       "scope": {
         "type": "global"
       },

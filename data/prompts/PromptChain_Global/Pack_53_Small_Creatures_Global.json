@@ -4,7 +4,7 @@
     {
       "id": "creature_fairy",
       "name": "Fairy Companion",
-      "text": "Add a small fairy companion with delicate wings, soft glow, and playful but elegant presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a small fairy companion with delicate wings, soft glow, and playful but elegant presence.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "creature_spirit_orb",
       "name": "Spirit Orb",
-      "text": "Add small glowing spirit orbs that float gently through the scene and create subtle magical atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd small glowing spirit orbs that float gently through the scene and create subtle magical atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "creature_tiny_dragon",
       "name": "Tiny Dragon",
-      "text": "Add a tiny dragon companion with detailed scales, little wings, and curious expressive behavior.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a tiny dragon companion with detailed scales, little wings, and curious expressive behavior.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "creature_slime",
       "name": "Cute Slime",
-      "text": "Add a cute fantasy slime with glossy surface, simple expression, and charming round shape.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a cute fantasy slime with glossy surface, simple expression, and charming round shape.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "creature_familiar_cat",
       "name": "Cat Familiar",
-      "text": "Add a magical cat familiar with expressive eyes, subtle aura, and intelligent presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a magical cat familiar with expressive eyes, subtle aura, and intelligent presence.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "creature_fox_familiar",
       "name": "Fox Familiar",
-      "text": "Add a fox familiar with soft fur, bright eyes, and a graceful mystical feeling.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a fox familiar with soft fur, bright eyes, and a graceful mystical feeling.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "creature_bird_familiar",
       "name": "Bird Familiar",
-      "text": "Add a small bird familiar with delicate feathers, natural perch, and gentle magical charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a small bird familiar with delicate feathers, natural perch, and gentle magical charm.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "creature_mushroom_sprite",
       "name": "Mushroom Sprite",
-      "text": "Add a tiny mushroom sprite with earthy colors, cute expression, and forest-fantasy detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a tiny mushroom sprite with earthy colors, cute expression, and forest-fantasy detail.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "creature_plant_sprite",
       "name": "Plant Sprite",
-      "text": "Add a tiny plant sprite with leafy details, soft glow, and cheerful natural energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a tiny plant sprite with leafy details, soft glow, and cheerful natural energy.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "creature_clockwork_pet",
       "name": "Clockwork Pet",
-      "text": "Add a small clockwork pet with brass details, tiny gears, and a charming mechanical personality.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a small clockwork pet with brass details, tiny gears, and a charming mechanical personality.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "creature_robot_pet",
       "name": "Robot Pet",
-      "text": "Add a small robot pet with clean design, glowing eyes, and friendly futuristic behavior.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a small robot pet with clean design, glowing eyes, and friendly futuristic behavior.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "creature_shadow_wisp",
       "name": "Shadow Wisp",
-      "text": "Add a small shadow wisp with smoky form, subtle glow, and mysterious non-threatening presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a small shadow wisp with smoky form, subtle glow, and mysterious non-threatening presence.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "creature_light_wisp",
       "name": "Light Wisp",
-      "text": "Add a small light wisp with warm glow, drifting motion, and gentle magical support.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a small light wisp with warm glow, drifting motion, and gentle magical support.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "creature_butterfly_spirits",
       "name": "Butterfly Spirits",
-      "text": "Add glowing butterfly spirits that flutter softly through the scene with elegant magical motion.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd glowing butterfly spirits that flutter softly through the scene with elegant magical motion.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "creature_mini_golem",
       "name": "Mini Golem",
-      "text": "Add a small stone or clay golem with simple carved features, sturdy shape, and friendly charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// small creatures\nAdd a small stone or clay golem with simple carved features, sturdy shape, and friendly charm.",
       "scope": {
         "type": "global"
       },

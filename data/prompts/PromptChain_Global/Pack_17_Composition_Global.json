@@ -4,7 +4,7 @@
     {
       "id": "composition_centered",
       "name": "Centered Composition",
-      "text": "Use centered composition to make the subject clear, balanced, and visually stable.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse centered composition to make the subject clear, balanced, and visually stable.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "composition_rule_of_thirds",
       "name": "Rule of Thirds",
-      "text": "Use rule-of-thirds composition for natural balance and pleasing visual structure.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse rule-of-thirds composition for natural balance and pleasing visual structure.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "composition_symmetrical",
       "name": "Symmetrical Composition",
-      "text": "Use symmetrical composition with balanced elements and clean visual order.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse symmetrical composition with balanced elements and clean visual order.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "composition_dynamic",
       "name": "Dynamic Composition",
-      "text": "Use dynamic composition with diagonal energy, movement, and visual momentum.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse dynamic composition with diagonal energy, movement, and visual momentum.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "composition_negative_space",
       "name": "Negative Space",
-      "text": "Use negative space to create breathing room, visual elegance, and strong subject focus.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse negative space to create breathing room, visual elegance, and strong subject focus.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "composition_leading_lines",
       "name": "Leading Lines",
-      "text": "Use leading lines in the environment to guide attention toward the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse leading lines in the environment to guide attention toward the subject.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "composition_close_up",
       "name": "Close Up",
-      "text": "Use close-up composition to emphasize facial expression, eyes, and emotional detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse close-up composition to emphasize facial expression, eyes, and emotional detail.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "composition_full_body",
       "name": "Full Body",
-      "text": "Use full-body composition to clearly show the subject's pose, outfit, and silhouette.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse full-body composition to clearly show the subject's pose, outfit, and silhouette.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "composition_environmental",
       "name": "Environmental Composition",
-      "text": "Use environmental composition that balances the subject with meaningful background detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse environmental composition that balances the subject with meaningful background detail.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "composition_candid",
       "name": "Candid Composition",
-      "text": "Use candid composition with natural posture, imperfect framing, and a believable moment-in-time feel.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse candid composition with natural posture, imperfect framing, and a believable moment-in-time feel.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "composition_cinematic_wide",
       "name": "Cinematic Wide",
-      "text": "Use cinematic wide framing with strong environment, dramatic spacing, and visual storytelling.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse cinematic wide framing with strong environment, dramatic spacing, and visual storytelling.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "composition_portrait_vertical",
       "name": "Vertical Portrait",
-      "text": "Use vertical portrait framing that focuses on the subject's face, outfit, and body line.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse vertical portrait framing that focuses on the subject's face, outfit, and body line.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "composition_layered_depth",
       "name": "Layered Depth",
-      "text": "Create layered depth with foreground, subject, and background elements clearly separated.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nCreate layered depth with foreground, subject, and background elements clearly separated.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "composition_minimal",
       "name": "Minimal Composition",
-      "text": "Use minimal composition with clean shapes, reduced clutter, and strong visual clarity.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse minimal composition with clean shapes, reduced clutter, and strong visual clarity.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "composition_storytelling",
       "name": "Storytelling Composition",
-      "text": "Use storytelling composition where pose, setting, lighting, and details suggest a clear moment or narrative.",
+      "text": "// Your Prompt\n{cursor}\n\n// composition\nUse storytelling composition where pose, setting, lighting, and details suggest a clear moment or narrative.",
       "scope": {
         "type": "global"
       },

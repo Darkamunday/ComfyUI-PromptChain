@@ -4,7 +4,7 @@
     {
       "id": "animal_cat",
       "name": "Cat",
-      "text": "Add a realistic domestic cat with soft fur, expressive eyes, natural posture, and believable interaction with the scene.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a realistic domestic cat with soft fur, expressive eyes, natural posture, and believable interaction with the scene.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "animal_fox",
       "name": "Fox",
-      "text": "Add a graceful fox with a fluffy tail, alert ears, detailed fur, and a quiet intelligent presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a graceful fox with a fluffy tail, alert ears, detailed fur, and a quiet intelligent presence.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "animal_wolf",
       "name": "Wolf",
-      "text": "Add a majestic wolf with thick fur, strong posture, and a calm wild presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a majestic wolf with thick fur, strong posture, and a calm wild presence.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "animal_rabbit",
       "name": "Rabbit",
-      "text": "Add a cute rabbit with soft fur, bright eyes, and gentle posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a cute rabbit with soft fur, bright eyes, and gentle posture.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "animal_owl",
       "name": "Owl",
-      "text": "Add an owl with detailed feathers, large expressive eyes, and a wise still presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd an owl with detailed feathers, large expressive eyes, and a wise still presence.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "animal_butterflies",
       "name": "Butterflies",
-      "text": "Add delicate butterflies with colorful wings, soft motion, and natural placement in the scene.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd delicate butterflies with colorful wings, soft motion, and natural placement in the scene.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "animal_horse",
       "name": "Horse",
-      "text": "Add a horse with strong anatomy, flowing mane, and realistic posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a horse with strong anatomy, flowing mane, and realistic posture.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "animal_dragon",
       "name": "Dragon",
-      "text": "Add a fantasy dragon with detailed scales, powerful wings, and majestic presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a fantasy dragon with detailed scales, powerful wings, and majestic presence.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "animal_bird",
       "name": "Songbird",
-      "text": "Add a small songbird with delicate feathers and natural perched posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a small songbird with delicate feathers and natural perched posture.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "animal_dog",
       "name": "Dog",
-      "text": "Add a friendly dog with expressive eyes, natural fur, and warm companionship.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a friendly dog with expressive eyes, natural fur, and warm companionship.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "animal_deer",
       "name": "Deer",
-      "text": "Add a graceful deer with elegant antlers, soft fur, and calm forest presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a graceful deer with elegant antlers, soft fur, and calm forest presence.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "animal_fish",
       "name": "Colorful Fish",
-      "text": "Add colorful fish with flowing fins, shimmering scales, and natural aquatic movement.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd colorful fish with flowing fins, shimmering scales, and natural aquatic movement.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "animal_raven",
       "name": "Raven",
-      "text": "Add a raven with glossy black feathers, sharp silhouette, and mysterious atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a raven with glossy black feathers, sharp silhouette, and mysterious atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "animal_panda",
       "name": "Panda",
-      "text": "Add a gentle panda with soft black-and-white fur and relaxed posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a gentle panda with soft black-and-white fur and relaxed posture.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "animal_tiger",
       "name": "Tiger",
-      "text": "Add a powerful tiger with vivid stripes, muscular body, and intense presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals\nAdd a powerful tiger with vivid stripes, muscular body, and intense presence.",
       "scope": {
         "type": "global"
       },

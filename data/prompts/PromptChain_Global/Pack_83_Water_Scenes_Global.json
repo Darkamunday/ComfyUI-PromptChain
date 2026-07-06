@@ -4,7 +4,7 @@
     {
       "id": "water_ocean_shore",
       "name": "Ocean Shore",
-      "text": "Place the scene at the ocean shore with waves, foam, wet sand, and open coastal light.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nPlace the scene at the ocean shore with waves, foam, wet sand, and open coastal light.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "water_calm_lake",
       "name": "Calm Lake",
-      "text": "Place the scene beside a calm lake with reflections, gentle ripples, and peaceful natural depth.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nPlace the scene beside a calm lake with reflections, gentle ripples, and peaceful natural depth.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "water_river_crossing",
       "name": "River Crossing",
-      "text": "Place the scene near a river crossing with stones, flowing water, plants, and soft natural sound implied.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nPlace the scene near a river crossing with stones, flowing water, plants, and soft natural sound implied.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "water_rain_puddles",
       "name": "Rain Puddles",
-      "text": "Add rain puddles with reflections, ripples, and wet ground detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nAdd rain puddles with reflections, ripples, and wet ground detail.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "water_hot_spring",
       "name": "Hot Spring",
-      "text": "Place the scene near a hot spring with steam, stones, warm water, and serene atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nPlace the scene near a hot spring with steam, stones, warm water, and serene atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "water_fountain",
       "name": "Fountain",
-      "text": "Add a fountain with flowing water, stone or metal detail, droplets, and refined public-space atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nAdd a fountain with flowing water, stone or metal detail, droplets, and refined public-space atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "water_underwater_view",
       "name": "Underwater View",
-      "text": "Create an underwater view with blue filtered light, drifting particles, fish, and soft aquatic movement.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nCreate an underwater view with blue filtered light, drifting particles, fish, and soft aquatic movement.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "water_waterfall_pool",
       "name": "Waterfall Pool",
-      "text": "Place the scene near a waterfall pool with mist, rocks, rushing water, and lush surroundings.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nPlace the scene near a waterfall pool with mist, rocks, rushing water, and lush surroundings.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "water_boat_lake",
       "name": "Boat on Lake",
-      "text": "Add a small boat on a lake with reflections, gentle water movement, and quiet travel mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nAdd a small boat on a lake with reflections, gentle water movement, and quiet travel mood.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "water_harbor_dock",
       "name": "Harbor Dock",
-      "text": "Place the scene on a harbor dock with boats, ropes, wooden boards, and maritime atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nPlace the scene on a harbor dock with boats, ropes, wooden boards, and maritime atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "water_glass_rain",
       "name": "Rain on Glass",
-      "text": "Add rain on glass with streaking droplets, soft outside blur, and cozy indoor contrast.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nAdd rain on glass with streaking droplets, soft outside blur, and cozy indoor contrast.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "water_reflecting_pool",
       "name": "Reflecting Pool",
-      "text": "Add a reflecting pool with still water, mirrored architecture or sky, and elegant calm.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nAdd a reflecting pool with still water, mirrored architecture or sky, and elegant calm.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "water_stream_forest",
       "name": "Forest Stream",
-      "text": "Place the scene by a forest stream with stones, moss, filtered light, and gentle motion.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nPlace the scene by a forest stream with stones, moss, filtered light, and gentle motion.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "water_waves_night",
       "name": "Moonlit Waves",
-      "text": "Use moonlit waves with silver highlights, dark blue water, and quiet nighttime beauty.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nUse moonlit waves with silver highlights, dark blue water, and quiet nighttime beauty.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "water_flooded_street",
       "name": "Flooded Street",
-      "text": "Create a shallow flooded street with reflections, rain mood, and controlled urban atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// water scenes\nCreate a shallow flooded street with reflections, rain mood, and controlled urban atmosphere.",
       "scope": {
         "type": "global"
       },

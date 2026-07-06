@@ -4,7 +4,7 @@
     {
       "id": "prop_book",
       "name": "Book",
-      "text": "Add a book as a meaningful prop, placed naturally in the subject's hands or environment with readable detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a book as a meaningful prop, placed naturally in the subject's hands or environment with readable detail.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "prop_sword",
       "name": "Sword",
-      "text": "Add a sword with believable grip, polished material, and design that matches the character or setting.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a sword with believable grip, polished material, and design that matches the character or setting.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "prop_staff",
       "name": "Magic Staff",
-      "text": "Add a magic staff with carved details, subtle glow, and a design that supports a fantasy theme.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a magic staff with carved details, subtle glow, and a design that supports a fantasy theme.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "prop_umbrella",
       "name": "Umbrella",
-      "text": "Add an umbrella with natural fabric tension, handle detail, and believable interaction with weather or pose.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd an umbrella with natural fabric tension, handle detail, and believable interaction with weather or pose.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "prop_lantern",
       "name": "Lantern",
-      "text": "Add a lantern giving off warm light, with glass, metal, and soft glow that affects the nearby scene.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a lantern giving off warm light, with glass, metal, and soft glow that affects the nearby scene.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "prop_camera",
       "name": "Camera",
-      "text": "Add a camera prop with realistic lens detail, strap placement, and a natural connection to the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a camera prop with realistic lens detail, strap placement, and a natural connection to the subject.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "prop_phone",
       "name": "Phone",
-      "text": "Add a modern phone with believable scale, screen glow, and natural hand placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a modern phone with believable scale, screen glow, and natural hand placement.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "prop_flower",
       "name": "Single Flower",
-      "text": "Add a single flower held gently or placed nearby, with delicate petals and natural color.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a single flower held gently or placed nearby, with delicate petals and natural color.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "prop_bouquet",
       "name": "Bouquet",
-      "text": "Add a bouquet of flowers with layered stems, varied blossoms, and balanced decorative detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a bouquet of flowers with layered stems, varied blossoms, and balanced decorative detail.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "prop_notebook",
       "name": "Notebook",
-      "text": "Add a notebook or journal with paper texture, visible pages, and a thoughtful everyday feeling.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a notebook or journal with paper texture, visible pages, and a thoughtful everyday feeling.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "prop_headphones",
       "name": "Headphones",
-      "text": "Add headphones as a modern accessory or prop with clear fit, clean shape, and subtle technical detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd headphones as a modern accessory or prop with clear fit, clean shape, and subtle technical detail.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "prop_instrument",
       "name": "Musical Instrument",
-      "text": "Add a musical instrument with correct scale, believable materials, and natural interaction with the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a musical instrument with correct scale, believable materials, and natural interaction with the subject.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "prop_potion",
       "name": "Potion Bottle",
-      "text": "Add a potion bottle with colored liquid, glass reflections, and a small magical accent.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a potion bottle with colored liquid, glass reflections, and a small magical accent.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "prop_plush",
       "name": "Plush Toy",
-      "text": "Add a soft plush toy with cute shape, fabric texture, and cozy charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a soft plush toy with cute shape, fabric texture, and cozy charm.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "prop_backpack",
       "name": "Backpack",
-      "text": "Add a backpack with straps, pockets, fabric texture, and believable weight placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// props\nAdd a backpack with straps, pockets, fabric texture, and believable weight placement.",
       "scope": {
         "type": "global"
       },

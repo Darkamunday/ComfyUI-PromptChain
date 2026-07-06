@@ -4,7 +4,7 @@
     {
       "id": "region_japanese_town",
       "name": "Japanese Town",
-      "text": "Place the scene in a quiet Japanese town with narrow streets, tiled roofs, vending machines, utility poles, and everyday local detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene in a quiet Japanese town with narrow streets, tiled roofs, vending machines, utility poles, and everyday local detail.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "region_kyoto_alley",
       "name": "Old Kyoto Alley",
-      "text": "Place the scene in an old Kyoto-style alley with wooden buildings, stone paths, lanterns, and refined traditional atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene in an old Kyoto-style alley with wooden buildings, stone paths, lanterns, and refined traditional atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "region_tokyo_crossing",
       "name": "Tokyo Crossing",
-      "text": "Place the scene at a busy Tokyo-inspired crossing with crowds, lights, signs, tall buildings, and energetic urban motion.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene at a busy Tokyo-inspired crossing with crowds, lights, signs, tall buildings, and energetic urban motion.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "region_european_old_town",
       "name": "European Old Town",
-      "text": "Place the scene in a European old town with cobblestone streets, warm windows, aged stone, and historical charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene in a European old town with cobblestone streets, warm windows, aged stone, and historical charm.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "region_paris_street",
       "name": "Parisian Street",
-      "text": "Place the scene on a Parisian-style street with elegant buildings, café seating, trees, and refined city atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene on a Parisian-style street with elegant buildings, café seating, trees, and refined city atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "region_london_rain",
       "name": "Rainy London Street",
-      "text": "Place the scene on a rainy London-style street with wet pavement, old brick, umbrellas, and muted city light.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene on a rainy London-style street with wet pavement, old brick, umbrellas, and muted city light.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "region_mediterranean_village",
       "name": "Mediterranean Village",
-      "text": "Place the scene in a Mediterranean village with white walls, blue accents, stone paths, and bright coastal sunlight.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene in a Mediterranean village with white walls, blue accents, stone paths, and bright coastal sunlight.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "region_desert_bazaar",
       "name": "Desert Bazaar",
-      "text": "Place the scene in a desert bazaar with fabric awnings, warm dust, spices, lanterns, and lively market texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene in a desert bazaar with fabric awnings, warm dust, spices, lanterns, and lively market texture.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "region_nordic_village",
       "name": "Nordic Village",
-      "text": "Place the scene in a Nordic village with wooden houses, snow or pine trees, warm windows, and crisp northern air.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene in a Nordic village with wooden houses, snow or pine trees, warm windows, and crisp northern air.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "region_tropical_island",
       "name": "Tropical Island",
-      "text": "Place the scene on a tropical island with palm trees, clear water, bright flowers, and relaxed humid atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene on a tropical island with palm trees, clear water, bright flowers, and relaxed humid atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "region_mountain_temple",
       "name": "Mountain Temple",
-      "text": "Place the scene at a mountain temple with stone steps, prayer flags or lanterns, mist, and high-altitude calm.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene at a mountain temple with stone steps, prayer flags or lanterns, mist, and high-altitude calm.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "region_coastal_harbor",
       "name": "Coastal Harbor",
-      "text": "Place the scene in a coastal harbor with boats, ropes, sea air, wooden docks, and soft maritime light.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene in a coastal harbor with boats, ropes, sea air, wooden docks, and soft maritime light.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "region_rural_countryside",
       "name": "Rural Countryside",
-      "text": "Place the scene in a rural countryside with fields, fences, simple houses, open sky, and peaceful daily life.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene in a rural countryside with fields, fences, simple houses, open sky, and peaceful daily life.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "region_island_shrine",
       "name": "Island Shrine",
-      "text": "Place the scene near an island shrine surrounded by sea breeze, stone torii, bright water, and quiet sacred atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene near an island shrine surrounded by sea breeze, stone torii, bright water, and quiet sacred atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "region_futuristic_tokyo",
       "name": "Futuristic Tokyo",
-      "text": "Place the scene in a futuristic Tokyo-like city with vertical signage, neon, sleek transit, and dense advanced urban detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// regional environments\nPlace the scene in a futuristic Tokyo-like city with vertical signage, neon, sleek transit, and dense advanced urban detail.",
       "scope": {
         "type": "global"
       },

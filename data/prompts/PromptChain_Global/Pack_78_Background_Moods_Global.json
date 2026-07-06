@@ -4,7 +4,7 @@
     {
       "id": "bg_mood_clean_minimal",
       "name": "Clean Minimal",
-      "text": "Use a clean minimal background with simple shapes, controlled color, and strong subject focus.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a clean minimal background with simple shapes, controlled color, and strong subject focus.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "bg_mood_lived_in",
       "name": "Lived-In Space",
-      "text": "Use a lived-in background with personal objects, gentle clutter, and believable everyday detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a lived-in background with personal objects, gentle clutter, and believable everyday detail.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "bg_mood_luxury_interior",
       "name": "Luxury Interior",
-      "text": "Use a luxury interior background with polished surfaces, refined furniture, and elegant lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a luxury interior background with polished surfaces, refined furniture, and elegant lighting.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "bg_mood_old_world",
       "name": "Old World",
-      "text": "Use an old-world background with aged wood, stone, antique objects, and historical warmth.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse an old-world background with aged wood, stone, antique objects, and historical warmth.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "bg_mood_future_clean",
       "name": "Clean Future",
-      "text": "Use a clean futuristic background with sleek lines, glass, soft lights, and advanced design.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a clean futuristic background with sleek lines, glass, soft lights, and advanced design.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "bg_mood_overgrown_ruins",
       "name": "Overgrown Ruins",
-      "text": "Use overgrown ruins with vines, cracked stone, moss, and quiet lost-history atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse overgrown ruins with vines, cracked stone, moss, and quiet lost-history atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "bg_mood_cute_room",
       "name": "Cute Room",
-      "text": "Use a cute room background with soft colors, plush objects, posters or decor without readable text, and cozy charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a cute room background with soft colors, plush objects, posters or decor without readable text, and cozy charm.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "bg_mood_dark_simple",
       "name": "Dark Simple",
-      "text": "Use a dark but simple background with readable subject lighting and controlled visual drama.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a dark but simple background with readable subject lighting and controlled visual drama.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "bg_mood_bright_outdoors",
       "name": "Bright Outdoors",
-      "text": "Use a bright outdoor background with open sky, clean natural light, and uplifting atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a bright outdoor background with open sky, clean natural light, and uplifting atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "bg_mood_busy_market",
       "name": "Busy Market",
-      "text": "Use a busy market background with stalls, warm lights, soft crowd detail, and lively environmental texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a busy market background with stalls, warm lights, soft crowd detail, and lively environmental texture.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "bg_mood_soft_nature",
       "name": "Soft Nature",
-      "text": "Use a soft nature background with greenery, flowers, water, or sky blurred gently behind the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a soft nature background with greenery, flowers, water, or sky blurred gently behind the subject.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "bg_mood_rainy_city",
       "name": "Rainy City",
-      "text": "Use a rainy city background with wet pavement, muted tones, light reflections, and urban calm.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a rainy city background with wet pavement, muted tones, light reflections, and urban calm.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "bg_mood_magical_depth",
       "name": "Magical Depth",
-      "text": "Use a magical background with layered glow, particles, distant structures, and atmospheric fantasy detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a magical background with layered glow, particles, distant structures, and atmospheric fantasy detail.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "bg_mood_stage_backdrop",
       "name": "Stage Backdrop",
-      "text": "Use a stage backdrop with lights, curtains, haze, and performance-oriented focus.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a stage backdrop with lights, curtains, haze, and performance-oriented focus.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "bg_mood_window_scene",
       "name": "Window Scene",
-      "text": "Use a window-based background with visible light source, outside view, curtains, and indoor depth.",
+      "text": "// Your Prompt\n{cursor}\n\n// background moods\nUse a window-based background with visible light source, outside view, curtains, and indoor depth.",
       "scope": {
         "type": "global"
       },

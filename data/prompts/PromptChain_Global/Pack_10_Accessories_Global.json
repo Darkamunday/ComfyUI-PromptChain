@@ -4,7 +4,7 @@
     {
       "id": "accessory_round_glasses",
       "name": "Round Glasses",
-      "text": "Add thin round glasses that frame the face clearly and give the subject an intelligent, gentle look.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd thin round glasses that frame the face clearly and give the subject an intelligent, gentle look.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "accessory_sunglasses",
       "name": "Sunglasses",
-      "text": "Add stylish sunglasses with clean reflections and a confident modern appearance.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd stylish sunglasses with clean reflections and a confident modern appearance.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "accessory_choker",
       "name": "Choker",
-      "text": "Add a tasteful choker around the neck, using simple clean design or subtle decorative detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd a tasteful choker around the neck, using simple clean design or subtle decorative detail.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "accessory_necklace",
       "name": "Pendant Necklace",
-      "text": "Add a delicate pendant necklace with subtle metallic detail and natural placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd a delicate pendant necklace with subtle metallic detail and natural placement.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "accessory_earrings",
       "name": "Earrings",
-      "text": "Add elegant earrings that complement the subject without overpowering the design.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd elegant earrings that complement the subject without overpowering the design.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "accessory_hairpin",
       "name": "Hair Ornament",
-      "text": "Add decorative hair ornaments or hairpins that sit naturally in the hairstyle.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd decorative hair ornaments or hairpins that sit naturally in the hairstyle.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "accessory_ribbon",
       "name": "Ribbon",
-      "text": "Add a ribbon accessory with soft fabric folds and a neat, charming presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd a ribbon accessory with soft fabric folds and a neat, charming presentation.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "accessory_hat",
       "name": "Hat",
-      "text": "Add a stylish hat that fits naturally on the head and complements the outfit.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd a stylish hat that fits naturally on the head and complements the outfit.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "accessory_scarf",
       "name": "Scarf",
-      "text": "Add a soft scarf wrapped naturally around the neck with believable folds.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd a soft scarf wrapped naturally around the neck with believable folds.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "accessory_backpack",
       "name": "Backpack",
-      "text": "Add a practical backpack with straps, pockets, and realistic weight placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd a practical backpack with straps, pockets, and realistic weight placement.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "accessory_bag",
       "name": "Shoulder Bag",
-      "text": "Add a shoulder bag or handbag with clean design, natural strap placement, and realistic material.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd a shoulder bag or handbag with clean design, natural strap placement, and realistic material.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "accessory_gloves",
       "name": "Gloves",
-      "text": "Add fitted gloves with clear finger structure and believable fabric or leather texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd fitted gloves with clear finger structure and believable fabric or leather texture.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "accessory_belt",
       "name": "Belt",
-      "text": "Add a belt that fits naturally around the waist with visible buckle and material detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd a belt that fits naturally around the waist with visible buckle and material detail.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "accessory_flower_crown",
       "name": "Flower Crown",
-      "text": "Add a delicate flower crown with balanced placement and natural floral detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd a delicate flower crown with balanced placement and natural floral detail.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "accessory_headphones",
       "name": "Headphones",
-      "text": "Add modern headphones with clean shape, realistic fit, and subtle tech styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// accessories\nAdd modern headphones with clean shape, realistic fit, and subtle tech styling.",
       "scope": {
         "type": "global"
       },

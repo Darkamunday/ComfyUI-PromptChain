@@ -4,7 +4,7 @@
     {
       "id": "jewelry_simple_earrings",
       "name": "Simple Earrings",
-      "text": "Add simple earrings that complement the face with clean metallic highlights and tasteful scale.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd simple earrings that complement the face with clean metallic highlights and tasteful scale.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "jewelry_drop_earrings",
       "name": "Drop Earrings",
-      "text": "Add elegant drop earrings with graceful shape, reflective detail, and balanced placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd elegant drop earrings with graceful shape, reflective detail, and balanced placement.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "jewelry_hoop_earrings",
       "name": "Hoop Earrings",
-      "text": "Add hoop earrings with clean circular shape, polished metal, and stylish modern appeal.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd hoop earrings with clean circular shape, polished metal, and stylish modern appeal.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "jewelry_choker",
       "name": "Choker",
-      "text": "Add a fitted choker around the neck with tasteful detail and natural placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd a fitted choker around the neck with tasteful detail and natural placement.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "jewelry_pendant",
       "name": "Pendant Necklace",
-      "text": "Add a pendant necklace with a small focal charm, subtle shine, and believable weight.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd a pendant necklace with a small focal charm, subtle shine, and believable weight.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "jewelry_layered_necklaces",
       "name": "Layered Necklaces",
-      "text": "Add layered necklaces with varied chain lengths, delicate highlights, and refined styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd layered necklaces with varied chain lengths, delicate highlights, and refined styling.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "jewelry_bracelet",
       "name": "Bracelet",
-      "text": "Add a bracelet with small decorative detail and natural wrist placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd a bracelet with small decorative detail and natural wrist placement.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "jewelry_bangles",
       "name": "Bangles",
-      "text": "Add stacked bangles with polished surfaces, subtle reflections, and rhythmic visual detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd stacked bangles with polished surfaces, subtle reflections, and rhythmic visual detail.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "jewelry_rings",
       "name": "Rings",
-      "text": "Add rings on the fingers with correct scale, tasteful design, and clear metallic detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd rings on the fingers with correct scale, tasteful design, and clear metallic detail.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "jewelry_hair_chain",
       "name": "Hair Chain",
-      "text": "Add a delicate hair chain woven into the hairstyle with graceful shine and secure placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd a delicate hair chain woven into the hairstyle with graceful shine and secure placement.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "jewelry_tiara",
       "name": "Tiara",
-      "text": "Add a small tiara or crown with refined metalwork, gemstones, and regal elegance.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd a small tiara or crown with refined metalwork, gemstones, and regal elegance.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "jewelry_gemstone",
       "name": "Gemstone Jewelry",
-      "text": "Add gemstone jewelry with colored facets, realistic reflections, and ornate craftsmanship.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd gemstone jewelry with colored facets, realistic reflections, and ornate craftsmanship.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "jewelry_silver_set",
       "name": "Silver Jewelry Set",
-      "text": "Use a matching silver jewelry set with cool reflections and elegant coordination.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nUse a matching silver jewelry set with cool reflections and elegant coordination.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "jewelry_gold_set",
       "name": "Gold Jewelry Set",
-      "text": "Use a matching gold jewelry set with warm metallic shine and luxurious harmony.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nUse a matching gold jewelry set with warm metallic shine and luxurious harmony.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "jewelry_fantasy_ornaments",
       "name": "Fantasy Ornaments",
-      "text": "Add fantasy jewelry ornaments with arcane shapes, engraved metal, and subtle magical detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// jewelry\nAdd fantasy jewelry ornaments with arcane shapes, engraved metal, and subtle magical detail.",
       "scope": {
         "type": "global"
       },

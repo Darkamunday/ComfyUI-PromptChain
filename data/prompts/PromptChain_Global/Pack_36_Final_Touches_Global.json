@@ -4,7 +4,7 @@
     {
       "id": "final_balanced_exposure",
       "name": "Balanced Exposure",
-      "text": "Balance the exposure so the subject is clearly visible, highlights are controlled, and shadows retain detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nBalance the exposure so the subject is clearly visible, highlights are controlled, and shadows retain detail.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "final_color_harmony",
       "name": "Color Harmony",
-      "text": "Improve color harmony across the subject, background, clothing, and lighting for a cohesive image.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nImprove color harmony across the subject, background, clothing, and lighting for a cohesive image.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "final_subject_focus",
       "name": "Subject Focus",
-      "text": "Keep strong focus on the main subject by controlling background complexity and visual contrast.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nKeep strong focus on the main subject by controlling background complexity and visual contrast.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "final_depth",
       "name": "Depth Enhancement",
-      "text": "Enhance depth with subtle foreground, midground, and background separation.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nEnhance depth with subtle foreground, midground, and background separation.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "final_soft_polish",
       "name": "Soft Polish",
-      "text": "Add a soft polished finish that improves appeal without blurring important details.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nAdd a soft polished finish that improves appeal without blurring important details.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "final_crisp_details",
       "name": "Crisp Details",
-      "text": "Sharpen important details such as eyes, hair, clothing edges, and key props while avoiding overprocessing.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nSharpen important details such as eyes, hair, clothing edges, and key props while avoiding overprocessing.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "final_natural_skin",
       "name": "Natural Skin",
-      "text": "Keep skin tones natural, flattering, and consistent with the lighting environment.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nKeep skin tones natural, flattering, and consistent with the lighting environment.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "final_clean_background",
       "name": "Clean Background",
-      "text": "Clean up the background so it supports the subject and avoids distracting visual noise.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nClean up the background so it supports the subject and avoids distracting visual noise.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "final_material_consistency",
       "name": "Material Consistency",
-      "text": "Ensure each material looks consistent, with believable texture, thickness, and response to light.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nEnsure each material looks consistent, with believable texture, thickness, and response to light.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "final_expression_readability",
       "name": "Expression Readability",
-      "text": "Make the facial expression clear, appealing, and emotionally readable.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nMake the facial expression clear, appealing, and emotionally readable.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "final_pose_readability",
       "name": "Pose Readability",
-      "text": "Make the body pose readable, anatomically coherent, and visually balanced.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nMake the body pose readable, anatomically coherent, and visually balanced.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "final_lighting_coherence",
       "name": "Lighting Coherence",
-      "text": "Ensure all lighting directions, shadows, highlights, and reflections feel coherent.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nEnsure all lighting directions, shadows, highlights, and reflections feel coherent.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "final_style_consistency",
       "name": "Style Consistency",
-      "text": "Keep the style consistent across face, hair, clothes, props, background, and rendering.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nKeep the style consistent across face, hair, clothes, props, background, and rendering.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "final_remove_noise",
       "name": "Remove Visual Noise",
-      "text": "Reduce unnecessary visual noise, repeated details, and clutter that weakens the final composition.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nReduce unnecessary visual noise, repeated details, and clutter that weakens the final composition.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "final_export_polish",
       "name": "Export Polish",
-      "text": "Apply a final polished look with strong clarity, clean detail, balanced colors, and finished presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// final touches\nApply a final polished look with strong clarity, clean detail, balanced colors, and finished presentation.",
       "scope": {
         "type": "global"
       },

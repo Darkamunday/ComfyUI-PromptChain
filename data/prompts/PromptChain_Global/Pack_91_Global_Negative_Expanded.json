@@ -4,7 +4,7 @@
     {
       "id": "negative_no_bad_hands",
       "name": "No Bad Hands",
-      "text": "Avoid malformed hands, extra fingers, missing fingers, fused fingers, broken wrists, and unreadable gestures.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid malformed hands, extra fingers, missing fingers, fused fingers, broken wrists, and unreadable gestures.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "negative_no_bad_face",
       "name": "No Bad Face",
-      "text": "Avoid warped facial features, asymmetrical eyes, broken mouth shapes, distorted nose, and unnatural expression.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid warped facial features, asymmetrical eyes, broken mouth shapes, distorted nose, and unnatural expression.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "negative_no_extra_limbs",
       "name": "No Extra Limbs",
-      "text": "Avoid extra arms, extra legs, duplicate hands, repeated feet, ghost limbs, and accidental body fragments.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid extra arms, extra legs, duplicate hands, repeated feet, ghost limbs, and accidental body fragments.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "negative_no_duplicate_subject",
       "name": "No Duplicate Subject",
-      "text": "Avoid duplicate characters, cloned faces, unwanted copies, ghost subjects, and repeated silhouettes.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid duplicate characters, cloned faces, unwanted copies, ghost subjects, and repeated silhouettes.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "negative_no_text",
       "name": "No Text",
-      "text": "Avoid visible text, captions, logos, usernames, signatures, watermarks, and random letters.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid visible text, captions, logos, usernames, signatures, watermarks, and random letters.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "negative_no_artifacts",
       "name": "No Artifacts",
-      "text": "Avoid jpeg artifacts, compression noise, blocky texture, render glitches, broken edges, and corrupted details.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid jpeg artifacts, compression noise, blocky texture, render glitches, broken edges, and corrupted details.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "negative_no_muddy_lighting",
       "name": "No Muddy Lighting",
-      "text": "Avoid muddy shadows, underexposed faces, unclear background, blown highlights, and inconsistent light direction.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid muddy shadows, underexposed faces, unclear background, blown highlights, and inconsistent light direction.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "negative_no_clutter",
       "name": "No Clutter",
-      "text": "Avoid excessive clutter, random props, repeated objects, busy background noise, and details that distract from the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid excessive clutter, random props, repeated objects, busy background noise, and details that distract from the subject.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "negative_no_style_drift",
       "name": "No Style Drift",
-      "text": "Avoid mixed rendering styles, inconsistent realism levels, mismatched face style, and clashing visual language.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid mixed rendering styles, inconsistent realism levels, mismatched face style, and clashing visual language.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "negative_no_poor_perspective",
       "name": "No Poor Perspective",
-      "text": "Avoid warped rooms, broken furniture perspective, floating objects, inconsistent scale, and impossible geometry.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid warped rooms, broken furniture perspective, floating objects, inconsistent scale, and impossible geometry.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "negative_no_bad_materials",
       "name": "No Bad Materials",
-      "text": "Avoid plastic-looking skin, muddy fabric, incorrect metal reflections, broken glass, and unrealistic material response.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid plastic-looking skin, muddy fabric, incorrect metal reflections, broken glass, and unrealistic material response.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "negative_no_overprocessed",
       "name": "No Overprocessed Look",
-      "text": "Avoid excessive sharpening, oversaturation, heavy filters, crushed blacks, and artificial HDR halos.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid excessive sharpening, oversaturation, heavy filters, crushed blacks, and artificial HDR halos.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "negative_no_unwanted_nsfw",
       "name": "No Unwanted NSFW",
-      "text": "Avoid unintended nudity, sexualized framing, explicit poses, or revealing clothing unless the user specifically requests it.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid unintended nudity, sexualized framing, explicit poses, or revealing clothing unless the user specifically requests it.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "negative_no_lowres",
       "name": "No Low Resolution",
-      "text": "Avoid low-resolution appearance, blurry subject, missing detail, soft face, and weak texture quality.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid low-resolution appearance, blurry subject, missing detail, soft face, and weak texture quality.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "negative_no_cropped_subject",
       "name": "No Bad Crop",
-      "text": "Avoid cutting off important parts of the subject, accidental missing head, missing hands, missing feet, or awkward framing.",
+      "text": "// Your Prompt\n{cursor}\n\n// global negative expanded\nAvoid cutting off important parts of the subject, accidental missing head, missing hands, missing feet, or awkward framing.",
       "scope": {
         "type": "global"
       },

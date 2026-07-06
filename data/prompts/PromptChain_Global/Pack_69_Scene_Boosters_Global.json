@@ -4,7 +4,7 @@
     {
       "id": "booster_more_story",
       "name": "More Story",
-      "text": "Strengthen the story by making the subject, pose, props, lighting, and setting feel connected to a clear moment.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nStrengthen the story by making the subject, pose, props, lighting, and setting feel connected to a clear moment.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "booster_more_depth",
       "name": "More Depth",
-      "text": "Increase visual depth using layered foreground, midground, and background details with controlled focus.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease visual depth using layered foreground, midground, and background details with controlled focus.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "booster_more_texture",
       "name": "More Texture",
-      "text": "Increase material texture on clothing, surfaces, props, skin, hair, and environment while keeping the image clean.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease material texture on clothing, surfaces, props, skin, hair, and environment while keeping the image clean.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "booster_more_motion",
       "name": "More Motion",
-      "text": "Add a sense of motion through hair, clothing, pose, environmental particles, or directional composition.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nAdd a sense of motion through hair, clothing, pose, environmental particles, or directional composition.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "booster_more_intimacy",
       "name": "More Intimacy",
-      "text": "Make the scene feel more intimate with closer framing, softer expression, gentle lighting, and reduced background distraction.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nMake the scene feel more intimate with closer framing, softer expression, gentle lighting, and reduced background distraction.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "booster_more_scale",
       "name": "More Scale",
-      "text": "Make the scene feel larger in scale with distant structures, wide framing, atmospheric perspective, and grand environmental cues.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nMake the scene feel larger in scale with distant structures, wide framing, atmospheric perspective, and grand environmental cues.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "booster_more_warmth",
       "name": "More Warmth",
-      "text": "Increase warmth through soft color, gentle lighting, welcoming atmosphere, and emotionally approachable expression.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease warmth through soft color, gentle lighting, welcoming atmosphere, and emotionally approachable expression.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "booster_more_drama",
       "name": "More Drama",
-      "text": "Increase drama through stronger lighting contrast, clear silhouette, expressive pose, and purposeful composition.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease drama through stronger lighting contrast, clear silhouette, expressive pose, and purposeful composition.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "booster_more_cuteness",
       "name": "More Cuteness",
-      "text": "Increase cuteness through softer expression, rounded shapes, gentle posture, bright eyes, and charming details.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease cuteness through softer expression, rounded shapes, gentle posture, bright eyes, and charming details.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "booster_more_elegance",
       "name": "More Elegance",
-      "text": "Increase elegance through refined posture, clean lines, tasteful accessories, graceful fabrics, and balanced composition.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease elegance through refined posture, clean lines, tasteful accessories, graceful fabrics, and balanced composition.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "booster_more_realism",
       "name": "More Realism",
-      "text": "Increase realism through believable lighting, natural anatomy, material accuracy, grounded environment, and subtle imperfections.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease realism through believable lighting, natural anatomy, material accuracy, grounded environment, and subtle imperfections.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "booster_more_fantasy",
       "name": "More Fantasy",
-      "text": "Increase fantasy through magical details, ornate design, glowing accents, and imaginative environment elements.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease fantasy through magical details, ornate design, glowing accents, and imaginative environment elements.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "booster_more_cinematic",
       "name": "More Cinematic",
-      "text": "Increase cinematic feeling through intentional framing, controlled lighting, story-focused composition, and cohesive color grade.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease cinematic feeling through intentional framing, controlled lighting, story-focused composition, and cohesive color grade.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "booster_more_polish",
       "name": "More Polish",
-      "text": "Increase polish by refining edges, balancing exposure, clarifying details, and improving overall visual harmony.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease polish by refining edges, balancing exposure, clarifying details, and improving overall visual harmony.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "booster_more_focus",
       "name": "More Focus",
-      "text": "Increase focus on the main subject by reducing visual clutter, strengthening contrast, and guiding the eye clearly.",
+      "text": "// Your Prompt\n{cursor}\n\n// scene boosters\nIncrease focus on the main subject by reducing visual clutter, strengthening contrast, and guiding the eye clearly.",
       "scope": {
         "type": "global"
       },

@@ -4,7 +4,7 @@
     {
       "id": "workspace_writer_desk",
       "name": "Writer Desk",
-      "text": "Place the scene at a writer's desk with notebooks, pens, lamp light, stacked books, and thoughtful creative focus.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a writer's desk with notebooks, pens, lamp light, stacked books, and thoughtful creative focus.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "workspace_art_desk",
       "name": "Art Desk",
-      "text": "Place the scene at an art desk with sketches, brushes, paints, reference images without readable text, and creative clutter.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at an art desk with sketches, brushes, paints, reference images without readable text, and creative clutter.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "workspace_streaming_setup",
       "name": "Streaming Setup",
-      "text": "Place the scene at a streaming setup with monitors, microphone, headphones, colored lights, and modern digital energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a streaming setup with monitors, microphone, headphones, colored lights, and modern digital energy.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "workspace_lab_bench",
       "name": "Lab Bench",
-      "text": "Place the scene at a laboratory bench with glassware, samples, equipment, clean lighting, and careful scientific detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a laboratory bench with glassware, samples, equipment, clean lighting, and careful scientific detail.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "workspace_mechanic_bench",
       "name": "Mechanic Bench",
-      "text": "Place the scene at a mechanic workbench with tools, parts, grease marks, metal surfaces, and practical realism.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a mechanic workbench with tools, parts, grease marks, metal surfaces, and practical realism.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "workspace_fashion_studio",
       "name": "Fashion Studio",
-      "text": "Place the scene in a fashion studio with fabric rolls, mannequins, sketches, mirrors, and refined clothing-design detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene in a fashion studio with fabric rolls, mannequins, sketches, mirrors, and refined clothing-design detail.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "workspace_kitchen_counter",
       "name": "Kitchen Counter",
-      "text": "Place the scene at a kitchen counter with ingredients, utensils, cutting board, warm domestic light, and active cooking detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a kitchen counter with ingredients, utensils, cutting board, warm domestic light, and active cooking detail.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "workspace_library_table",
       "name": "Library Table",
-      "text": "Place the scene at a library table with books, lamp, quiet space, notes without readable text, and scholarly atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a library table with books, lamp, quiet space, notes without readable text, and scholarly atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "workspace_blacksmith_forge",
       "name": "Blacksmith Forge",
-      "text": "Place the scene at a blacksmith forge with tools, hot metal glow, anvil, smoke, and rugged craft detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a blacksmith forge with tools, hot metal glow, anvil, smoke, and rugged craft detail.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "workspace_alchemy_table",
       "name": "Alchemy Table",
-      "text": "Place the scene at an alchemy table with bottles, herbs, glowing liquids, parchment, and magical experimentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at an alchemy table with bottles, herbs, glowing liquids, parchment, and magical experimentation.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "workspace_office_desk",
       "name": "Office Desk",
-      "text": "Place the scene at a modern office desk with computer, papers without readable text, coffee, clean lighting, and professional atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a modern office desk with computer, papers without readable text, coffee, clean lighting, and professional atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "workspace_music_studio",
       "name": "Music Studio",
-      "text": "Place the scene in a music studio with instruments, mixing desk, acoustic panels, cables, and warm creative lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene in a music studio with instruments, mixing desk, acoustic panels, cables, and warm creative lighting.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "workspace_greenhouse_table",
       "name": "Greenhouse Worktable",
-      "text": "Place the scene at a greenhouse worktable with pots, soil, plant labels kept unreadable, tools, and filtered light.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a greenhouse worktable with pots, soil, plant labels kept unreadable, tools, and filtered light.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "workspace_architect_table",
       "name": "Architect Table",
-      "text": "Place the scene at an architect's table with model buildings, rulers, plans without readable text, and clean design atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at an architect's table with model buildings, rulers, plans without readable text, and clean design atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "workspace_magic_research",
       "name": "Magic Research Desk",
-      "text": "Place the scene at a magic research desk with spellbooks, crystals, glowing notes, candles, and focused arcane study.",
+      "text": "// Your Prompt\n{cursor}\n\n// workspaces\nPlace the scene at a magic research desk with spellbooks, crystals, glowing notes, candles, and focused arcane study.",
       "scope": {
         "type": "global"
       },

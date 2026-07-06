@@ -4,7 +4,7 @@
     {
       "id": "color_warm_palette",
       "name": "Warm Palette",
-      "text": "Use a warm color palette built around amber, soft orange, warm red, and golden tones while preserving natural balance.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse a warm color palette built around amber, soft orange, warm red, and golden tones while preserving natural balance.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "color_cool_palette",
       "name": "Cool Palette",
-      "text": "Use a cool color palette built around blue, teal, silver, and soft violet tones with clean visual harmony.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse a cool color palette built around blue, teal, silver, and soft violet tones with clean visual harmony.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "color_pastel_palette",
       "name": "Pastel Palette",
-      "text": "Use a pastel color palette with soft pinks, gentle blues, creamy yellows, and low saturation for a delicate look.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse a pastel color palette with soft pinks, gentle blues, creamy yellows, and low saturation for a delicate look.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "color_vibrant_palette",
       "name": "Vibrant Palette",
-      "text": "Use vibrant colors with strong saturation, clean contrast, and lively visual energy without making the image harsh.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse vibrant colors with strong saturation, clean contrast, and lively visual energy without making the image harsh.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "color_muted_palette",
       "name": "Muted Palette",
-      "text": "Use muted colors with controlled saturation, subtle contrast, and a refined cinematic feel.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse muted colors with controlled saturation, subtle contrast, and a refined cinematic feel.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "color_earth_tones",
       "name": "Earth Tones",
-      "text": "Use natural earth tones such as warm browns, olive greens, clay reds, sand, and soft beige.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse natural earth tones such as warm browns, olive greens, clay reds, sand, and soft beige.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "color_monochrome",
       "name": "Monochrome",
-      "text": "Use a refined monochrome palette with careful tonal separation, clean contrast, and elegant simplicity.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse a refined monochrome palette with careful tonal separation, clean contrast, and elegant simplicity.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "color_black_gold",
       "name": "Black and Gold",
-      "text": "Use a black and gold palette with luxurious contrast, warm metallic accents, and dramatic elegance.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse a black and gold palette with luxurious contrast, warm metallic accents, and dramatic elegance.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "color_white_silver",
       "name": "White and Silver",
-      "text": "Use a white and silver palette with clean brightness, cool metallic accents, and refined minimalism.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse a white and silver palette with clean brightness, cool metallic accents, and refined minimalism.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "color_red_black",
       "name": "Red and Black",
-      "text": "Use a red and black palette with dramatic contrast, bold styling, and controlled intensity.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse a red and black palette with dramatic contrast, bold styling, and controlled intensity.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "color_blue_white",
       "name": "Blue and White",
-      "text": "Use a blue and white palette with fresh clarity, cool atmosphere, and clean visual balance.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse a blue and white palette with fresh clarity, cool atmosphere, and clean visual balance.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "color_neon_palette",
       "name": "Neon Palette",
-      "text": "Use neon colors with glowing accents, saturated highlights, and stylish futuristic contrast.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse neon colors with glowing accents, saturated highlights, and stylish futuristic contrast.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "color_soft_gradient",
       "name": "Soft Gradient",
-      "text": "Use soft gradient color transitions that blend smoothly across the scene and support a polished visual mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse soft gradient color transitions that blend smoothly across the scene and support a polished visual mood.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "color_cinematic_grade",
       "name": "Cinematic Grade",
-      "text": "Apply a cinematic color grade with balanced contrast, controlled saturation, and cohesive mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nApply a cinematic color grade with balanced contrast, controlled saturation, and cohesive mood.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "color_natural_colors",
       "name": "Natural Colors",
-      "text": "Use natural color rendering with believable skin tones, realistic material color, and balanced white balance.",
+      "text": "// Your Prompt\n{cursor}\n\n// colors\nUse natural color rendering with believable skin tones, realistic material color, and balanced white balance.",
       "scope": {
         "type": "global"
       },

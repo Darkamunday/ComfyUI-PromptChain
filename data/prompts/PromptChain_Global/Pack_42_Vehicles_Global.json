@@ -4,7 +4,7 @@
     {
       "id": "vehicle_motorcycle",
       "name": "Motorcycle",
-      "text": "Add a motorcycle with clear mechanical detail, polished surfaces, believable scale, and strong visual presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a motorcycle with clear mechanical detail, polished surfaces, believable scale, and strong visual presence.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "vehicle_car_modern",
       "name": "Modern Car",
-      "text": "Add a modern car with clean reflections, realistic proportions, and polished exterior detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a modern car with clean reflections, realistic proportions, and polished exterior detail.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "vehicle_sports_car",
       "name": "Sports Car",
-      "text": "Add a sleek sports car with aerodynamic shape, glossy paint, and dramatic styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a sleek sports car with aerodynamic shape, glossy paint, and dramatic styling.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "vehicle_vintage_car",
       "name": "Vintage Car",
-      "text": "Add a vintage car with classic bodywork, chrome details, and nostalgic character.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a vintage car with classic bodywork, chrome details, and nostalgic character.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "vehicle_train",
       "name": "Train",
-      "text": "Add a train or train platform context with believable scale, tracks, lighting, and travel atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a train or train platform context with believable scale, tracks, lighting, and travel atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "vehicle_bicycle",
       "name": "Bicycle",
-      "text": "Add a bicycle with clear frame structure, wheels, handlebars, and natural placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a bicycle with clear frame structure, wheels, handlebars, and natural placement.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "vehicle_scooter",
       "name": "Scooter",
-      "text": "Add a scooter with compact design, urban charm, and realistic scale.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a scooter with compact design, urban charm, and realistic scale.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "vehicle_airship",
       "name": "Airship",
-      "text": "Add a fantasy or steampunk airship with large balloon structure, rigging, and grand sky presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a fantasy or steampunk airship with large balloon structure, rigging, and grand sky presence.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "vehicle_spaceship",
       "name": "Spaceship",
-      "text": "Add a spaceship with advanced design, glowing engines, clean panels, and believable futuristic scale.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a spaceship with advanced design, glowing engines, clean panels, and believable futuristic scale.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "vehicle_mecha",
       "name": "Mecha",
-      "text": "Add a large mecha with strong mechanical silhouette, layered armor plates, and industrial detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a large mecha with strong mechanical silhouette, layered armor plates, and industrial detail.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "vehicle_boat",
       "name": "Boat",
-      "text": "Add a boat with water interaction, realistic materials, and calm travel atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a boat with water interaction, realistic materials, and calm travel atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "vehicle_sailboat",
       "name": "Sailboat",
-      "text": "Add a sailboat with fabric sails, mast rigging, and a peaceful ocean or lake setting.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a sailboat with fabric sails, mast rigging, and a peaceful ocean or lake setting.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "vehicle_subway",
       "name": "Subway Train",
-      "text": "Add a subway train with urban transit detail, platform lighting, and everyday city atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a subway train with urban transit detail, platform lighting, and everyday city atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "vehicle_hovercraft",
       "name": "Hover Vehicle",
-      "text": "Add a futuristic hover vehicle with glowing lift elements, sleek design, and advanced technology.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a futuristic hover vehicle with glowing lift elements, sleek design, and advanced technology.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "vehicle_carriage",
       "name": "Horse Carriage",
-      "text": "Add a horse carriage with wooden wheels, decorative structure, and historical or fantasy charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// vehicles\nAdd a horse carriage with wooden wheels, decorative structure, and historical or fantasy charm.",
       "scope": {
         "type": "global"
       },

@@ -4,7 +4,7 @@
     {
       "id": "group_two_subjects",
       "name": "Two Subjects",
-      "text": "Compose a scene with two subjects clearly separated, visually balanced, and interacting naturally without merging anatomy.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCompose a scene with two subjects clearly separated, visually balanced, and interacting naturally without merging anatomy.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "group_three_subjects",
       "name": "Three Subjects",
-      "text": "Compose a scene with three subjects arranged clearly, each with readable pose, expression, and role in the image.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCompose a scene with three subjects arranged clearly, each with readable pose, expression, and role in the image.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "group_small_team",
       "name": "Small Team",
-      "text": "Compose a small team scene with coordinated outfits, distinct silhouettes, and shared purpose.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCompose a small team scene with coordinated outfits, distinct silhouettes, and shared purpose.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "group_crowd_background",
       "name": "Crowd Background",
-      "text": "Add a soft background crowd for atmosphere while keeping the main subject dominant and readable.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nAdd a soft background crowd for atmosphere while keeping the main subject dominant and readable.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "group_stage_performance",
       "name": "Stage Performance Group",
-      "text": "Create a stage performance group with coordinated poses, bright lighting, and energetic presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate a stage performance group with coordinated poses, bright lighting, and energetic presentation.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "group_classroom",
       "name": "Classroom Group",
-      "text": "Create a classroom group setting with students or classmates in the background, keeping detail controlled and non-distracting.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate a classroom group setting with students or classmates in the background, keeping detail controlled and non-distracting.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "group_party",
       "name": "Party Group",
-      "text": "Create a friendly party group scene with decorations, varied poses, warm lighting, and lively social atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate a friendly party group scene with decorations, varied poses, warm lighting, and lively social atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "group_festival",
       "name": "Festival Group",
-      "text": "Create a festival group scene with lanterns, stalls, crowd warmth, and clear focus on the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate a festival group scene with lanterns, stalls, crowd warmth, and clear focus on the subject.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "group_adventure_party",
       "name": "Adventure Party",
-      "text": "Create an adventure party with varied fantasy roles, readable gear, and strong group composition.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate an adventure party with varied fantasy roles, readable gear, and strong group composition.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "group_cafe_table",
       "name": "Cafe Table Group",
-      "text": "Create a small group seated at a café table with drinks, natural conversation energy, and cozy detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate a small group seated at a café table with drinks, natural conversation energy, and cozy detail.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "group_battle_lineup",
       "name": "Battle Lineup",
-      "text": "Create a non-graphic battle-ready lineup with strong silhouettes, dramatic posture, and clear character roles.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate a non-graphic battle-ready lineup with strong silhouettes, dramatic posture, and clear character roles.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "group_family_scene",
       "name": "Family Scene",
-      "text": "Create a gentle family-style group scene with relaxed warmth, believable spacing, and domestic atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate a gentle family-style group scene with relaxed warmth, believable spacing, and domestic atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "group_idol_unit",
       "name": "Idol Unit",
-      "text": "Create an idol unit scene with coordinated costumes, polished stage lighting, and cheerful energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate an idol unit scene with coordinated costumes, polished stage lighting, and cheerful energy.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "group_research_team",
       "name": "Research Team",
-      "text": "Create a research team scene in a lab or study setting with tools, notes, and focused collaboration.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate a research team scene in a lab or study setting with tools, notes, and focused collaboration.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "group_market_crowd",
       "name": "Market Crowd",
-      "text": "Create a market crowd with environmental figures, stalls, movement, and busy but controlled background detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// group scenes\nCreate a market crowd with environmental figures, stalls, movement, and busy but controlled background detail.",
       "scope": {
         "type": "global"
       },

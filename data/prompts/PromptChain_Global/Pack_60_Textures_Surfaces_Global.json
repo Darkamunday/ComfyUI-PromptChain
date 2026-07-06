@@ -4,7 +4,7 @@
     {
       "id": "texture_wet_pavement",
       "name": "Wet Pavement",
-      "text": "Add wet pavement with realistic reflections, uneven surface detail, and light interaction.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nAdd wet pavement with realistic reflections, uneven surface detail, and light interaction.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "texture_old_stone",
       "name": "Old Stone",
-      "text": "Use old stone surfaces with cracks, moss, weathering, and believable age.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse old stone surfaces with cracks, moss, weathering, and believable age.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "texture_polished_marble",
       "name": "Polished Marble",
-      "text": "Use polished marble with veining, soft reflections, and refined luxury detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse polished marble with veining, soft reflections, and refined luxury detail.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "texture_weathered_wood",
       "name": "Weathered Wood",
-      "text": "Use weathered wood with grain, scratches, softened edges, and natural age.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse weathered wood with grain, scratches, softened edges, and natural age.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "texture_clean_glass",
       "name": "Clean Glass",
-      "text": "Use clean glass with transparent reflections, edge highlights, and believable refraction.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse clean glass with transparent reflections, edge highlights, and believable refraction.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "texture_frosted_glass",
       "name": "Frosted Glass",
-      "text": "Use frosted glass with soft diffusion, muted reflections, and subtle surface texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse frosted glass with soft diffusion, muted reflections, and subtle surface texture.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "texture_brick_wall",
       "name": "Brick Wall",
-      "text": "Use a brick wall with mortar lines, uneven color, and real surface variation.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse a brick wall with mortar lines, uneven color, and real surface variation.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "texture_concrete",
       "name": "Concrete",
-      "text": "Use concrete with subtle pores, stains, cracks, and grounded industrial texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse concrete with subtle pores, stains, cracks, and grounded industrial texture.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "texture_sand",
       "name": "Sand",
-      "text": "Use sand with fine grains, footprints or wind patterns where appropriate, and natural light response.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse sand with fine grains, footprints or wind patterns where appropriate, and natural light response.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "texture_snow",
       "name": "Snow Surface",
-      "text": "Use snow surface detail with soft accumulation, footprints, sparkle, and cold diffusion.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse snow surface detail with soft accumulation, footprints, sparkle, and cold diffusion.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "texture_water",
       "name": "Water Surface",
-      "text": "Use water surface detail with ripples, reflections, transparency, and natural movement.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse water surface detail with ripples, reflections, transparency, and natural movement.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "texture_metal_scratched",
       "name": "Scratched Metal",
-      "text": "Use scratched metal with small marks, worn edges, and realistic specular highlights.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse scratched metal with small marks, worn edges, and realistic specular highlights.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "texture_ceramic",
       "name": "Ceramic",
-      "text": "Use ceramic surfaces with subtle glaze, smooth form, and small imperfections.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse ceramic surfaces with subtle glaze, smooth form, and small imperfections.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "texture_paper",
       "name": "Paper",
-      "text": "Use paper texture with fibers, folds, soft shadowing, and natural thickness.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse paper texture with fibers, folds, soft shadowing, and natural thickness.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "texture_fur",
       "name": "Fur Texture",
-      "text": "Use fur texture with layered strands, soft volume, and directional lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// textures and surfaces\nUse fur texture with layered strands, soft volume, and directional lighting.",
       "scope": {
         "type": "global"
       },

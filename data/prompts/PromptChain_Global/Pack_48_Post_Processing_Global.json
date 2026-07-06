@@ -4,7 +4,7 @@
     {
       "id": "post_soft_bloom",
       "name": "Soft Bloom",
-      "text": "Add gentle bloom to bright highlights while keeping important details clear and controlled.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nAdd gentle bloom to bright highlights while keeping important details clear and controlled.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "post_film_grain",
       "name": "Film Grain",
-      "text": "Add subtle film grain for texture and cinematic character without reducing clarity.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nAdd subtle film grain for texture and cinematic character without reducing clarity.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "post_vignette",
       "name": "Soft Vignette",
-      "text": "Add a soft vignette to guide focus toward the subject while keeping the frame natural.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nAdd a soft vignette to guide focus toward the subject while keeping the frame natural.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "post_color_grade_warm",
       "name": "Warm Color Grade",
-      "text": "Apply a warm color grade that enhances skin tones, golden highlights, and emotional warmth.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nApply a warm color grade that enhances skin tones, golden highlights, and emotional warmth.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "post_color_grade_cool",
       "name": "Cool Color Grade",
-      "text": "Apply a cool color grade with blues, teals, and restrained contrast for a calm mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nApply a cool color grade with blues, teals, and restrained contrast for a calm mood.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "post_high_contrast",
       "name": "High Contrast",
-      "text": "Increase contrast for stronger drama while preserving detail in both highlights and shadows.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nIncrease contrast for stronger drama while preserving detail in both highlights and shadows.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "post_low_contrast",
       "name": "Low Contrast",
-      "text": "Use lower contrast for a soft, gentle, airy, or nostalgic final look.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nUse lower contrast for a soft, gentle, airy, or nostalgic final look.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "post_sharpen_subject",
       "name": "Sharpen Subject",
-      "text": "Sharpen the main subject subtly, especially the eyes, face, hair, and key outfit details.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nSharpen the main subject subtly, especially the eyes, face, hair, and key outfit details.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "post_soft_background",
       "name": "Soft Background",
-      "text": "Soften the background slightly to improve subject separation and visual focus.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nSoften the background slightly to improve subject separation and visual focus.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "post_light_leaks",
       "name": "Light Leaks",
-      "text": "Add tasteful light leaks for analog charm, warmth, and casual photographic character.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nAdd tasteful light leaks for analog charm, warmth, and casual photographic character.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "post_chromatic_aberration",
       "name": "Subtle Chromatic Aberration",
-      "text": "Add very subtle chromatic aberration only at high-contrast edges for cinematic lens character.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nAdd very subtle chromatic aberration only at high-contrast edges for cinematic lens character.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "post_hdr_balance",
       "name": "HDR Balance",
-      "text": "Balance dynamic range so shadows retain detail and highlights remain controlled.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nBalance dynamic range so shadows retain detail and highlights remain controlled.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "post_matte_finish",
       "name": "Matte Finish",
-      "text": "Apply a matte finish with softened blacks, controlled highlights, and refined editorial mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nApply a matte finish with softened blacks, controlled highlights, and refined editorial mood.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "post_glossy_finish",
       "name": "Glossy Finish",
-      "text": "Apply a glossy polished finish with clean highlights, rich color, and premium presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nApply a glossy polished finish with clean highlights, rich color, and premium presentation.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "post_clean_export",
       "name": "Clean Export",
-      "text": "Finish with clean export quality, no visible compression artifacts, strong clarity, and consistent style.",
+      "text": "// Your Prompt\n{cursor}\n\n// post processing\nFinish with clean export quality, no visible compression artifacts, strong clarity, and consistent style.",
       "scope": {
         "type": "global"
       },

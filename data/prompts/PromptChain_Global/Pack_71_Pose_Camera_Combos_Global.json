@@ -4,7 +4,7 @@
     {
       "id": "combo_close_shy",
       "name": "Close Shy Portrait",
-      "text": "Use a close portrait framing with a shy expression, soft blush, gentle eye contact, and a simple supportive background.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse a close portrait framing with a shy expression, soft blush, gentle eye contact, and a simple supportive background.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "combo_full_outfit",
       "name": "Full Outfit Showcase",
-      "text": "Use full-body framing with clear posture, readable footwear, visible outfit details, and balanced background.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse full-body framing with clear posture, readable footwear, visible outfit details, and balanced background.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "combo_low_hero",
       "name": "Low Hero Pose",
-      "text": "Use a low-angle hero composition with confident posture, strong silhouette, and dramatic but readable lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse a low-angle hero composition with confident posture, strong silhouette, and dramatic but readable lighting.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "combo_window_sitting",
       "name": "Window Sitting Portrait",
-      "text": "Pose the subject sitting near a window with soft natural light, relaxed posture, and thoughtful atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nPose the subject sitting near a window with soft natural light, relaxed posture, and thoughtful atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "combo_walking_city",
       "name": "Walking City Shot",
-      "text": "Show the subject walking through a city environment with natural motion, urban detail, and balanced framing.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nShow the subject walking through a city environment with natural motion, urban detail, and balanced framing.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "combo_running_action",
       "name": "Running Action Shot",
-      "text": "Capture the subject running with motion cues, dynamic angle, flowing clothing, and clear direction.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nCapture the subject running with motion cues, dynamic angle, flowing clothing, and clear direction.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "combo_over_shoulder_story",
       "name": "Over Shoulder Story Shot",
-      "text": "Use an over-the-shoulder angle to create a narrative interaction or discovery moment.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse an over-the-shoulder angle to create a narrative interaction or discovery moment.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "combo_cafe_close",
       "name": "Cafe Close Moment",
-      "text": "Frame the subject in a cozy café close-up with warm lighting, drink props, and gentle expression.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nFrame the subject in a cozy café close-up with warm lighting, drink props, and gentle expression.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "combo_rooftop_wide",
       "name": "Rooftop Wide Shot",
-      "text": "Use wide framing on a rooftop with city depth, wind, and strong environmental scale.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse wide framing on a rooftop with city depth, wind, and strong environmental scale.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "combo_magic_fullbody",
       "name": "Magic Full Body",
-      "text": "Use full-body framing for a magic pose with readable gesture, glowing effects, and clear silhouette.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse full-body framing for a magic pose with readable gesture, glowing effects, and clear silhouette.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "combo_rain_reflection",
       "name": "Rain Reflection Shot",
-      "text": "Use wet reflective ground, rainy mood, and subject-focused framing for a cinematic scene.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse wet reflective ground, rainy mood, and subject-focused framing for a cinematic scene.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "combo_flower_field",
       "name": "Flower Field Portrait",
-      "text": "Use portrait framing in a flower field with soft depth, petals, and gentle natural light.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse portrait framing in a flower field with soft depth, petals, and gentle natural light.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "combo_train_station",
       "name": "Train Station Moment",
-      "text": "Frame the subject at a train station with travel atmosphere, platform detail, and emotional pause.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nFrame the subject at a train station with travel atmosphere, platform detail, and emotional pause.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "combo_bedroom_soft",
       "name": "Soft Bedroom Portrait",
-      "text": "Use a soft bedroom setting with cozy textures, gentle light, and natural relaxed pose.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse a soft bedroom setting with cozy textures, gentle light, and natural relaxed pose.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "combo_backlit_silhouette",
       "name": "Backlit Silhouette",
-      "text": "Use backlighting to create a strong silhouette while keeping face or key details readable.",
+      "text": "// Your Prompt\n{cursor}\n\n// pose camera combos\nUse backlighting to create a strong silhouette while keeping face or key details readable.",
       "scope": {
         "type": "global"
       },

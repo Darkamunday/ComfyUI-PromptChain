@@ -4,7 +4,7 @@
     {
       "id": "companion_cat",
       "name": "Cat Companion",
-      "text": "Add a cat companion that interacts naturally with the subject, sitting nearby, looking up, or resting comfortably.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a cat companion that interacts naturally with the subject, sitting nearby, looking up, or resting comfortably.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "companion_dog",
       "name": "Dog Companion",
-      "text": "Add a dog companion with friendly body language, natural scale, and warm emotional connection to the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a dog companion with friendly body language, natural scale, and warm emotional connection to the subject.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "companion_fox",
       "name": "Fox Companion",
-      "text": "Add a fox companion with graceful posture, alert expression, and subtle fantasy or woodland mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a fox companion with graceful posture, alert expression, and subtle fantasy or woodland mood.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "companion_bird_on_hand",
       "name": "Bird on Hand",
-      "text": "Place a small bird perched on the subject's hand or shoulder with delicate balance and soft detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nPlace a small bird perched on the subject's hand or shoulder with delicate balance and soft detail.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "companion_butterflies",
       "name": "Butterfly Companions",
-      "text": "Add butterflies around the subject, creating gentle movement, color, and delicate atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd butterflies around the subject, creating gentle movement, color, and delicate atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "companion_spirit_wisp",
       "name": "Spirit Wisp Companion",
-      "text": "Add a small glowing spirit wisp near the subject with soft light and friendly magical presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a small glowing spirit wisp near the subject with soft light and friendly magical presence.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "companion_robot_pet",
       "name": "Robot Pet Companion",
-      "text": "Add a small robot pet with clean mechanical design, glowing eyes, and friendly companion behavior.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a small robot pet with clean mechanical design, glowing eyes, and friendly companion behavior.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "companion_tiny_dragon",
       "name": "Tiny Dragon Companion",
-      "text": "Add a tiny dragon companion with expressive eyes, detailed scales, and curious body language.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a tiny dragon companion with expressive eyes, detailed scales, and curious body language.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "companion_plush_toy",
       "name": "Plush Companion",
-      "text": "Add a soft plush companion held by the subject or placed nearby, with cozy fabric texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a soft plush companion held by the subject or placed nearby, with cozy fabric texture.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "companion_familiar",
       "name": "Magical Familiar",
-      "text": "Add a magical familiar that feels bonded to the subject, with subtle glow, intelligent eyes, and clear personality.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a magical familiar that feels bonded to the subject, with subtle glow, intelligent eyes, and clear personality.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "companion_fairy",
       "name": "Fairy Companion",
-      "text": "Add a small fairy companion with delicate wings, soft glow, and playful movement around the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a small fairy companion with delicate wings, soft glow, and playful movement around the subject.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "companion_shadow_pet",
       "name": "Shadow Pet",
-      "text": "Add a harmless shadow-like pet creature with smoky edges, glowing eyes, and cute mysterious character.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a harmless shadow-like pet creature with smoky edges, glowing eyes, and cute mysterious character.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "companion_clockwork_bird",
       "name": "Clockwork Bird",
-      "text": "Add a clockwork bird companion with brass wings, tiny gears, and delicate mechanical charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a clockwork bird companion with brass wings, tiny gears, and delicate mechanical charm.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "companion_plant_sprite",
       "name": "Plant Sprite Companion",
-      "text": "Add a plant sprite companion with leafy details, tiny body, and cheerful natural energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a plant sprite companion with leafy details, tiny body, and cheerful natural energy.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "companion_slime_pet",
       "name": "Slime Pet",
-      "text": "Add a cute slime pet with glossy surface, simple expression, and playful round shape.",
+      "text": "// Your Prompt\n{cursor}\n\n// companions\nAdd a cute slime pet with glossy surface, simple expression, and playful round shape.",
       "scope": {
         "type": "global"
       },

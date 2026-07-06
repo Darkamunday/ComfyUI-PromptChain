@@ -4,7 +4,7 @@
     {
       "id": "outfit_preset_cozy_casual",
       "name": "Cozy Casual",
-      "text": "Dress the subject in a cozy casual outfit with soft layers, warm fabrics, relaxed fit, and approachable everyday charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in a cozy casual outfit with soft layers, warm fabrics, relaxed fit, and approachable everyday charm.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "outfit_preset_elegant_gothic",
       "name": "Elegant Gothic",
-      "text": "Dress the subject in elegant gothic fashion with dark fabrics, lace accents, refined accessories, and dramatic but tasteful styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in elegant gothic fashion with dark fabrics, lace accents, refined accessories, and dramatic but tasteful styling.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "outfit_preset_fantasy_adventurer",
       "name": "Fantasy Adventurer",
-      "text": "Dress the subject as a fantasy adventurer with practical layers, belts, pouches, boots, and travel-ready details.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject as a fantasy adventurer with practical layers, belts, pouches, boots, and travel-ready details.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "outfit_preset_luxury_formal",
       "name": "Luxury Formal",
-      "text": "Dress the subject in luxury formalwear with polished fabric, refined silhouette, tasteful jewelry, and elegant posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in luxury formalwear with polished fabric, refined silhouette, tasteful jewelry, and elegant posture.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "outfit_preset_modern_street",
       "name": "Modern Streetwear",
-      "text": "Dress the subject in modern streetwear with layered shapes, bold accessories, comfortable fit, and urban personality.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in modern streetwear with layered shapes, bold accessories, comfortable fit, and urban personality.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "outfit_preset_academia",
       "name": "Academia Outfit",
-      "text": "Dress the subject in academia-inspired clothing with neat layers, muted tones, books, and scholarly charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in academia-inspired clothing with neat layers, muted tones, books, and scholarly charm.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "outfit_preset_soft_pastel",
       "name": "Soft Pastel Outfit",
-      "text": "Dress the subject in soft pastel clothing with gentle colors, cute accessories, and light airy styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in soft pastel clothing with gentle colors, cute accessories, and light airy styling.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "outfit_preset_techwear",
       "name": "Techwear Outfit",
-      "text": "Dress the subject in sleek techwear with functional straps, waterproof fabrics, pockets, and futuristic urban design.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in sleek techwear with functional straps, waterproof fabrics, pockets, and futuristic urban design.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "outfit_preset_winter_layers",
       "name": "Winter Layers",
-      "text": "Dress the subject in layered winter clothing with coat, scarf, gloves, boots, and warm fabric textures.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in layered winter clothing with coat, scarf, gloves, boots, and warm fabric textures.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "outfit_preset_summer_light",
       "name": "Light Summer Outfit",
-      "text": "Dress the subject in lightweight summer clothing with breathable fabrics, bright color, and relaxed sunny mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in lightweight summer clothing with breathable fabrics, bright color, and relaxed sunny mood.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "outfit_preset_royal_ceremonial",
       "name": "Royal Ceremonial",
-      "text": "Dress the subject in royal ceremonial clothing with ornate trim, layered fabric, jewelry, and dignified presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in royal ceremonial clothing with ornate trim, layered fabric, jewelry, and dignified presence.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "outfit_preset_idol_stage",
       "name": "Idol Stage Outfit",
-      "text": "Dress the subject in a polished stage outfit with sparkling accents, coordinated colors, and energetic performance appeal.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in a polished stage outfit with sparkling accents, coordinated colors, and energetic performance appeal.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "outfit_preset_work_uniform",
       "name": "Work Uniform",
-      "text": "Dress the subject in a neat professional uniform suited to the role, with clean fit, practical details, and believable material.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in a neat professional uniform suited to the role, with clean fit, practical details, and believable material.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "outfit_preset_travel_clothes",
       "name": "Travel Clothes",
-      "text": "Dress the subject in travel-ready clothing with comfortable layers, bag, sturdy shoes, and practical accessories.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in travel-ready clothing with comfortable layers, bag, sturdy shoes, and practical accessories.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "outfit_preset_mage_robes",
       "name": "Mage Robes",
-      "text": "Dress the subject in layered mage robes with embroidered trim, flowing fabric, magical accessories, and scholarly fantasy style.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit presets\nDress the subject in layered mage robes with embroidered trim, flowing fabric, magical accessories, and scholarly fantasy style.",
       "scope": {
         "type": "global"
       },

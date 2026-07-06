@@ -4,7 +4,7 @@
     {
       "id": "text_no_visible_text",
       "name": "No Visible Text",
-      "text": "Avoid adding visible text, letters, captions, labels, logos, or signs unless the prompt specifically asks for them.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nAvoid adding visible text, letters, captions, labels, logos, or signs unless the prompt specifically asks for them.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "text_clean_signage",
       "name": "Clean Signage",
-      "text": "If signs are present, keep them visually simple and avoid unreadable or garbled lettering.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nIf signs are present, keep them visually simple and avoid unreadable or garbled lettering.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "text_book_pages_blank",
       "name": "Blank Book Pages",
-      "text": "If books or papers appear, keep pages mostly blank or filled with indistinct texture rather than readable text.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nIf books or papers appear, keep pages mostly blank or filled with indistinct texture rather than readable text.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "text_no_watermark",
       "name": "No Watermark",
-      "text": "Avoid watermark-like marks, signatures, social media handles, creator names, or artificial branding.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nAvoid watermark-like marks, signatures, social media handles, creator names, or artificial branding.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "text_no_random_symbols",
       "name": "No Random Symbols",
-      "text": "Avoid random letters, broken symbols, fake UI text, or scattered typography that distracts from the image.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nAvoid random letters, broken symbols, fake UI text, or scattered typography that distracts from the image.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "text_magical_symbols_ok",
       "name": "Decorative Symbols Only",
-      "text": "Allow decorative runes or symbols only when they are part of a magical or ornamental design, not random readable text.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nAllow decorative runes or symbols only when they are part of a magical or ornamental design, not random readable text.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "text_clean_ui",
       "name": "Clean UI Elements",
-      "text": "If interface elements are included, keep them simple, abstract, and visually coherent without requiring readable words.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nIf interface elements are included, keep them simple, abstract, and visually coherent without requiring readable words.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "text_poster_abstract",
       "name": "Abstract Posters",
-      "text": "If posters appear in the background, keep their designs abstract or image-based rather than filled with text.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nIf posters appear in the background, keep their designs abstract or image-based rather than filled with text.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "text_label_free_product",
       "name": "No Product Labels",
-      "text": "Avoid product labels or brand markings on objects unless specifically requested.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nAvoid product labels or brand markings on objects unless specifically requested.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "text_tattoo_symbols",
       "name": "Decorative Tattoos",
-      "text": "If tattoos are included, make them decorative shapes, patterns, or symbolic motifs rather than readable writing.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nIf tattoos are included, make them decorative shapes, patterns, or symbolic motifs rather than readable writing.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "text_newspaper_texture",
       "name": "Newspaper Texture",
-      "text": "If newspapers appear, use blurred column-like texture without readable headlines or detailed text.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nIf newspapers appear, use blurred column-like texture without readable headlines or detailed text.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "text_screen_glow",
       "name": "Screen Glow Without Text",
-      "text": "If screens appear, use glow, shapes, icons, or abstract interface detail rather than legible text.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nIf screens appear, use glow, shapes, icons, or abstract interface detail rather than legible text.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "text_banner_no_words",
       "name": "Wordless Banners",
-      "text": "If banners or flags appear, use colors, crests, or symbols instead of written words.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nIf banners or flags appear, use colors, crests, or symbols instead of written words.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "text_clean_background",
       "name": "Text-Free Background",
-      "text": "Keep the background free of unwanted text so the subject and composition remain clean.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nKeep the background free of unwanted text so the subject and composition remain clean.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "text_prompt_only_when_requested",
       "name": "Text Only When Requested",
-      "text": "Only include readable text when the user explicitly asks for specific words or typography.",
+      "text": "// Your Prompt\n{cursor}\n\n// text guidance\nOnly include readable text when the user explicitly asks for specific words or typography.",
       "scope": {
         "type": "global"
       },

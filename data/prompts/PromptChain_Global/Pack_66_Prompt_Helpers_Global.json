@@ -4,7 +4,7 @@
     {
       "id": "helper_preserve_subject",
       "name": "Preserve Subject",
-      "text": "Preserve the main subject's identity, outfit logic, pose readability, and key visual traits while improving the scene around them.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nPreserve the main subject's identity, outfit logic, pose readability, and key visual traits while improving the scene around them.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "helper_improve_scene",
       "name": "Improve Scene Detail",
-      "text": "Improve the scene by adding meaningful background detail, lighting coherence, and material clarity without changing the core subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nImprove the scene by adding meaningful background detail, lighting coherence, and material clarity without changing the core subject.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "helper_keep_simple",
       "name": "Keep It Simple",
-      "text": "Keep the composition simple, clear, and uncluttered, focusing attention on the main subject and essential visual idea.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nKeep the composition simple, clear, and uncluttered, focusing attention on the main subject and essential visual idea.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "helper_add_depth",
       "name": "Add Depth",
-      "text": "Add depth using foreground, midground, background layering, atmospheric perspective, and controlled focus.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nAdd depth using foreground, midground, background layering, atmospheric perspective, and controlled focus.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "helper_make_cohesive",
       "name": "Make Cohesive",
-      "text": "Make all elements feel cohesive, including lighting, clothing, environment, color palette, pose, and rendering style.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nMake all elements feel cohesive, including lighting, clothing, environment, color palette, pose, and rendering style.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "helper_focus_face",
       "name": "Focus Face",
-      "text": "Prioritize the face, eyes, expression, and emotional readability while keeping the rest of the image supportive.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nPrioritize the face, eyes, expression, and emotional readability while keeping the rest of the image supportive.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "helper_focus_outfit",
       "name": "Focus Outfit",
-      "text": "Prioritize outfit design, fabric texture, accessories, and full-body readability.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nPrioritize outfit design, fabric texture, accessories, and full-body readability.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "helper_focus_environment",
       "name": "Focus Environment",
-      "text": "Prioritize the environment and sense of place while keeping the subject naturally integrated.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nPrioritize the environment and sense of place while keeping the subject naturally integrated.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "helper_more_realistic",
       "name": "More Realistic",
-      "text": "Make the image more realistic through believable lighting, materials, anatomy, depth, and physical interaction.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nMake the image more realistic through believable lighting, materials, anatomy, depth, and physical interaction.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "helper_more_anime",
       "name": "More Anime",
-      "text": "Make the image more anime-inspired through expressive eyes, clean shapes, appealing stylization, and polished character design.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nMake the image more anime-inspired through expressive eyes, clean shapes, appealing stylization, and polished character design.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "helper_reduce_darkness",
       "name": "Reduce Darkness",
-      "text": "Avoid making the image too dark; keep subject and background readable with balanced exposure and controlled shadows.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nAvoid making the image too dark; keep subject and background readable with balanced exposure and controlled shadows.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "helper_reduce_clutter",
       "name": "Reduce Clutter",
-      "text": "Remove unnecessary visual clutter and repeated details so the scene feels clean and intentional.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nRemove unnecessary visual clutter and repeated details so the scene feels clean and intentional.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "helper_stronger_story",
       "name": "Stronger Story",
-      "text": "Strengthen the story by making the pose, expression, props, background, and lighting suggest a clear moment.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nStrengthen the story by making the pose, expression, props, background, and lighting suggest a clear moment.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "helper_soften_image",
       "name": "Soften Image",
-      "text": "Soften harsh edges, harsh lighting, and aggressive contrast while preserving important detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nSoften harsh edges, harsh lighting, and aggressive contrast while preserving important detail.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "helper_sharpen_key_details",
       "name": "Sharpen Key Details",
-      "text": "Sharpen key details such as eyes, facial features, hair, hands, props, and outfit accents without overprocessing.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt helpers\nSharpen key details such as eyes, facial features, hair, hands, props, and outfit accents without overprocessing.",
       "scope": {
         "type": "global"
       },

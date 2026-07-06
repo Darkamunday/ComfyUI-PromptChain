@@ -4,7 +4,7 @@
     {
       "id": "animal_black_cat",
       "name": "Black Cat",
-      "text": "Add a sleek black cat with glossy fur, bright eyes, natural posture, and subtle mysterious charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a sleek black cat with glossy fur, bright eyes, natural posture, and subtle mysterious charm.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "animal_white_cat",
       "name": "White Cat",
-      "text": "Add a soft white cat with clean fur detail, gentle expression, and cozy domestic presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a soft white cat with clean fur detail, gentle expression, and cozy domestic presence.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "animal_calico_cat",
       "name": "Calico Cat",
-      "text": "Add a calico cat with varied fur patches, expressive eyes, and natural playful posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a calico cat with varied fur patches, expressive eyes, and natural playful posture.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "animal_husky",
       "name": "Husky",
-      "text": "Add a husky dog with thick fur, bright eyes, upright ears, and friendly energetic presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a husky dog with thick fur, bright eyes, upright ears, and friendly energetic presence.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "animal_golden_retriever",
       "name": "Golden Retriever",
-      "text": "Add a golden retriever with warm fur, friendly expression, and loyal companion energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a golden retriever with warm fur, friendly expression, and loyal companion energy.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "animal_shiba_inu",
       "name": "Shiba Inu",
-      "text": "Add a shiba inu with curled tail, alert ears, compact body, and charming confident posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a shiba inu with curled tail, alert ears, compact body, and charming confident posture.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "animal_red_panda",
       "name": "Red Panda",
-      "text": "Add a red panda with fluffy tail, soft fur, cute face, and gentle forest charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a red panda with fluffy tail, soft fur, cute face, and gentle forest charm.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "animal_snow_fox",
       "name": "Snow Fox",
-      "text": "Add a snow fox with white fur, sharp ears, fluffy tail, and quiet winter elegance.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a snow fox with white fur, sharp ears, fluffy tail, and quiet winter elegance.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "animal_arctic_wolf",
       "name": "Arctic Wolf",
-      "text": "Add an arctic wolf with pale fur, strong silhouette, and calm wilderness presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd an arctic wolf with pale fur, strong silhouette, and calm wilderness presence.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "animal_hawk",
       "name": "Hawk",
-      "text": "Add a hawk with sharp eyes, detailed feathers, and proud perched or flying posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a hawk with sharp eyes, detailed feathers, and proud perched or flying posture.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "animal_swan",
       "name": "Swan",
-      "text": "Add a swan with elegant neck, white feathers, and peaceful water presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd a swan with elegant neck, white feathers, and peaceful water presence.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "animal_koi_fish",
       "name": "Koi Fish",
-      "text": "Add koi fish with bright patterns, smooth motion, and reflective water detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd koi fish with bright patterns, smooth motion, and reflective water detail.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "animal_jellyfish",
       "name": "Jellyfish",
-      "text": "Add glowing jellyfish with translucent bodies, flowing tendrils, and soft aquatic light.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd glowing jellyfish with translucent bodies, flowing tendrils, and soft aquatic light.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "animal_fireflies",
       "name": "Fireflies",
-      "text": "Add fireflies with tiny warm glows, gentle spacing, and magical evening atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd fireflies with tiny warm glows, gentle spacing, and magical evening atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "animal_moths",
       "name": "Moths",
-      "text": "Add delicate moths with muted wings, soft motion, and quiet nighttime detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// animals expanded\nAdd delicate moths with muted wings, soft motion, and quiet nighttime detail.",
       "scope": {
         "type": "global"
       },

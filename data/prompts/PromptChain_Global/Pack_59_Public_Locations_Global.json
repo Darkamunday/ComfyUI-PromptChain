@@ -4,7 +4,7 @@
     {
       "id": "location_museum",
       "name": "Museum",
-      "text": "Place the scene in a museum with exhibit lighting, polished floors, quiet space, and tasteful cultural detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in a museum with exhibit lighting, polished floors, quiet space, and tasteful cultural detail.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "location_art_gallery",
       "name": "Art Gallery",
-      "text": "Place the scene in an art gallery with clean walls, framed art, soft lighting, and refined atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in an art gallery with clean walls, framed art, soft lighting, and refined atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "location_aquarium",
       "name": "Aquarium",
-      "text": "Place the scene in an aquarium with blue light, large glass tanks, fish silhouettes, and calm underwater glow.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in an aquarium with blue light, large glass tanks, fish silhouettes, and calm underwater glow.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "location_botanical_garden",
       "name": "Botanical Garden",
-      "text": "Place the scene in a botanical garden with curated plants, glass structures, pathways, and peaceful natural beauty.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in a botanical garden with curated plants, glass structures, pathways, and peaceful natural beauty.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "location_amusement_park",
       "name": "Amusement Park",
-      "text": "Place the scene in an amusement park with colorful lights, rides, cheerful background detail, and lively energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in an amusement park with colorful lights, rides, cheerful background detail, and lively energy.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "location_festival_street",
       "name": "Festival Street",
-      "text": "Place the scene on a festival street with lanterns, stalls, decorations, and celebratory atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene on a festival street with lanterns, stalls, decorations, and celebratory atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "location_movie_theater",
       "name": "Movie Theater",
-      "text": "Place the scene in a movie theater with red seats, dim light, screen glow, and cinematic mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in a movie theater with red seats, dim light, screen glow, and cinematic mood.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "location_rooftop_garden",
       "name": "Rooftop Garden",
-      "text": "Place the scene in a rooftop garden with plants, city view, seating, and peaceful elevated atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in a rooftop garden with plants, city view, seating, and peaceful elevated atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "location_public_park",
       "name": "Public Park",
-      "text": "Place the scene in a public park with trees, paths, benches, grass, and relaxed outdoor life.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in a public park with trees, paths, benches, grass, and relaxed outdoor life.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "location_train_station",
       "name": "Train Station",
-      "text": "Place the scene in a train station with platforms, signs, rails, lighting, and travel atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in a train station with platforms, signs, rails, lighting, and travel atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "location_airport",
       "name": "Airport",
-      "text": "Place the scene in an airport with large windows, polished floors, luggage, and modern travel energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in an airport with large windows, polished floors, luggage, and modern travel energy.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "location_bookstore",
       "name": "Bookstore",
-      "text": "Place the scene in a bookstore with shelves, warm lights, stacks of books, and cozy browsing atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in a bookstore with shelves, warm lights, stacks of books, and cozy browsing atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "location_record_store",
       "name": "Record Store",
-      "text": "Place the scene in a record store with album covers, shelves, posters, and nostalgic music culture.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in a record store with album covers, shelves, posters, and nostalgic music culture.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "location_arcade_center",
       "name": "Arcade Center",
-      "text": "Place the scene in an arcade center with game cabinets, neon lights, screens, and playful energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in an arcade center with game cabinets, neon lights, screens, and playful energy.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "location_observatory",
       "name": "Observatory",
-      "text": "Place the scene in an observatory with telescopes, star charts, domed architecture, and night-sky atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// public locations\nPlace the scene in an observatory with telescopes, star charts, domed architecture, and night-sky atmosphere.",
       "scope": {
         "type": "global"
       },

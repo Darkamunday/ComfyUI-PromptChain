@@ -4,7 +4,7 @@
     {
       "id": "profession_teacher",
       "name": "Teacher",
-      "text": "Present the subject as a teacher with professional clothing, a calm instructive presence, and a classroom or educational atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a teacher with professional clothing, a calm instructive presence, and a classroom or educational atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "profession_doctor",
       "name": "Doctor",
-      "text": "Present the subject as a doctor with clean medical attire, composed expression, and a professional healthcare setting.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a doctor with clean medical attire, composed expression, and a professional healthcare setting.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "profession_nurse",
       "name": "Nurse",
-      "text": "Present the subject as a nurse with neat medical uniform, caring expression, and a clean clinical environment.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a nurse with neat medical uniform, caring expression, and a clean clinical environment.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "profession_scientist",
       "name": "Scientist",
-      "text": "Present the subject as a scientist in a laboratory with equipment, careful focus, and a curious analytical presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a scientist in a laboratory with equipment, careful focus, and a curious analytical presence.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "profession_artist",
       "name": "Artist",
-      "text": "Present the subject as an artist surrounded by sketches, paints, tools, and creative studio atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as an artist surrounded by sketches, paints, tools, and creative studio atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "profession_musician",
       "name": "Musician",
-      "text": "Present the subject as a musician with an instrument, expressive posture, and a performance or practice setting.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a musician with an instrument, expressive posture, and a performance or practice setting.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "profession_chef",
       "name": "Chef",
-      "text": "Present the subject as a chef in a kitchen with clean uniform, cooking tools, and professional culinary energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a chef in a kitchen with clean uniform, cooking tools, and professional culinary energy.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "profession_detective",
       "name": "Detective",
-      "text": "Present the subject as a detective with sharp observation, refined clothing, and a mysterious investigative atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a detective with sharp observation, refined clothing, and a mysterious investigative atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "profession_pilot",
       "name": "Pilot",
-      "text": "Present the subject as a pilot with professional uniform, confident posture, and aviation-themed setting.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a pilot with professional uniform, confident posture, and aviation-themed setting.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "profession_mechanic",
       "name": "Mechanic",
-      "text": "Present the subject as a mechanic with practical clothing, tools, workshop detail, and grounded working energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a mechanic with practical clothing, tools, workshop detail, and grounded working energy.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "profession_barista",
       "name": "Barista",
-      "text": "Present the subject as a barista in a café with apron, coffee tools, warm lighting, and approachable charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a barista in a café with apron, coffee tools, warm lighting, and approachable charm.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "profession_librarian",
       "name": "Librarian",
-      "text": "Present the subject as a librarian with thoughtful expression, bookshelves, gentle styling, and quiet intellectual atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a librarian with thoughtful expression, bookshelves, gentle styling, and quiet intellectual atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "profession_photographer",
       "name": "Photographer",
-      "text": "Present the subject as a photographer holding or using a camera with creative focus and documentary energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a photographer holding or using a camera with creative focus and documentary energy.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "profession_fashion_model",
       "name": "Fashion Model",
-      "text": "Present the subject as a fashion model with polished styling, confident posture, and editorial presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a fashion model with polished styling, confident posture, and editorial presence.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "profession_gamer_streamer",
       "name": "Streamer",
-      "text": "Present the subject as a streamer or gamer with desk setup, headphones, monitors, and colorful ambient lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// professions\nPresent the subject as a streamer or gamer with desk setup, headphones, monitors, and colorful ambient lighting.",
       "scope": {
         "type": "global"
       },

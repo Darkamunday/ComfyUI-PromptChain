@@ -4,7 +4,7 @@
     {
       "id": "quality_best",
       "name": "Best Quality",
-      "text": "Prioritize best quality output with clean rendering, coherent detail, strong composition, and polished visual finish.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nPrioritize best quality output with clean rendering, coherent detail, strong composition, and polished visual finish.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "quality_high_detail",
       "name": "High Detail",
-      "text": "Increase detail across the subject, clothing, environment, and materials while keeping the image readable.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nIncrease detail across the subject, clothing, environment, and materials while keeping the image readable.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "quality_professional",
       "name": "Professional Finish",
-      "text": "Give the image a professional finish with balanced lighting, refined color, clean edges, and strong presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nGive the image a professional finish with balanced lighting, refined color, clean edges, and strong presentation.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "quality_masterpiece",
       "name": "Masterpiece Quality",
-      "text": "Aim for a masterpiece-level image with excellent composition, polished detail, emotional clarity, and strong visual impact.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nAim for a masterpiece-level image with excellent composition, polished detail, emotional clarity, and strong visual impact.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "quality_clean_render",
       "name": "Clean Render",
-      "text": "Use clean rendering with crisp subject detail, controlled background information, and minimal visual artifacts.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nUse clean rendering with crisp subject detail, controlled background information, and minimal visual artifacts.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "quality_high_fidelity",
       "name": "High Fidelity",
-      "text": "Maintain high fidelity in textures, proportions, lighting, facial features, and material behavior.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nMaintain high fidelity in textures, proportions, lighting, facial features, and material behavior.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "quality_premium",
       "name": "Premium Quality",
-      "text": "Create a premium-quality result with refined styling, strong subject focus, and elegant image balance.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nCreate a premium-quality result with refined styling, strong subject focus, and elegant image balance.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "quality_sharp_focus",
       "name": "Sharp Focus",
-      "text": "Keep the main subject sharply focused with clear facial detail and controlled depth of field.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nKeep the main subject sharply focused with clear facial detail and controlled depth of field.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "quality_balanced",
       "name": "Balanced Quality",
-      "text": "Balance detail, lighting, color, and composition so no single element overwhelms the image.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nBalance detail, lighting, color, and composition so no single element overwhelms the image.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "quality_realistic_detail",
       "name": "Realistic Detail",
-      "text": "Use realistic detail in skin, hair, fabric, objects, and light interaction without making the image noisy.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nUse realistic detail in skin, hair, fabric, objects, and light interaction without making the image noisy.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "quality_visual_clarity",
       "name": "Visual Clarity",
-      "text": "Improve visual clarity by keeping the subject readable, silhouette clean, and background supportive.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nImprove visual clarity by keeping the subject readable, silhouette clean, and background supportive.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "quality_polished_style",
       "name": "Polished Style",
-      "text": "Polish the style so the image feels intentional, cohesive, and aesthetically finished.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nPolish the style so the image feels intentional, cohesive, and aesthetically finished.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "quality_coherent_design",
       "name": "Coherent Design",
-      "text": "Keep all design elements coherent, including clothing, lighting, environment, pose, and mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nKeep all design elements coherent, including clothing, lighting, environment, pose, and mood.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "quality_attractive_finish",
       "name": "Attractive Finish",
-      "text": "Create an attractive final image with pleasing color, clear detail, and strong viewer appeal.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nCreate an attractive final image with pleasing color, clear detail, and strong viewer appeal.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "quality_gallery_ready",
       "name": "Gallery Ready",
-      "text": "Make the image feel gallery-ready with refined composition, clean execution, and memorable visual quality.",
+      "text": "// Your Prompt\n{cursor}\n\n// quality\nMake the image feel gallery-ready with refined composition, clean execution, and memorable visual quality.",
       "scope": {
         "type": "global"
       },

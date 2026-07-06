@@ -4,7 +4,7 @@
     {
       "id": "hands_peace_sign",
       "name": "Peace Sign",
-      "text": "Have the subject make a cheerful peace sign with natural finger placement and relaxed hand anatomy.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nHave the subject make a cheerful peace sign with natural finger placement and relaxed hand anatomy.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "hands_waving",
       "name": "Waving",
-      "text": "Have the subject wave warmly toward the viewer with an open hand and friendly body language.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nHave the subject wave warmly toward the viewer with an open hand and friendly body language.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "hands_heart",
       "name": "Heart Hands",
-      "text": "Have the subject form a heart shape with both hands, keeping the fingers clean, readable, and naturally posed.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nHave the subject form a heart shape with both hands, keeping the fingers clean, readable, and naturally posed.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "hands_behind_back",
       "name": "Hands Behind Back",
-      "text": "Place the subject's hands gently behind their back for a sweet, polite, or slightly shy pose.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nPlace the subject's hands gently behind their back for a sweet, polite, or slightly shy pose.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "hands_in_pockets",
       "name": "Hands in Pockets",
-      "text": "Place the subject's hands casually in their pockets with relaxed shoulders and natural posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nPlace the subject's hands casually in their pockets with relaxed shoulders and natural posture.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "hands_crossed_arms",
       "name": "Crossed Arms",
-      "text": "Pose the subject with arms crossed confidently while preserving believable anatomy and hand placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nPose the subject with arms crossed confidently while preserving believable anatomy and hand placement.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "hands_touching_hair",
       "name": "Touching Hair",
-      "text": "Have one hand gently touch or brush the hair, creating a soft, natural, and expressive gesture.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nHave one hand gently touch or brush the hair, creating a soft, natural, and expressive gesture.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "hands_holding_book",
       "name": "Holding Book",
-      "text": "Have the subject hold an open book naturally, with believable grip, readable hand placement, and relaxed arms.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nHave the subject hold an open book naturally, with believable grip, readable hand placement, and relaxed arms.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "hands_holding_cup",
       "name": "Holding Cup",
-      "text": "Have the subject hold a warm cup or mug with both hands, creating a cozy and grounded moment.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nHave the subject hold a warm cup or mug with both hands, creating a cozy and grounded moment.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "hands_clasped",
       "name": "Clasped Hands",
-      "text": "Place the subject's hands clasped together gently in front of the body, suggesting calmness or anticipation.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nPlace the subject's hands clasped together gently in front of the body, suggesting calmness or anticipation.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "hands_pointing",
       "name": "Pointing",
-      "text": "Have the subject point toward something with a clear, readable gesture and natural wrist angle.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nHave the subject point toward something with a clear, readable gesture and natural wrist angle.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "hands_covering_mouth",
       "name": "Covering Mouth",
-      "text": "Have the subject lightly cover their mouth with one hand to suggest surprise, shyness, or laughter.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nHave the subject lightly cover their mouth with one hand to suggest surprise, shyness, or laughter.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "hands_on_hips",
       "name": "Hands on Hips",
-      "text": "Pose the subject with hands on hips, creating a confident and assertive silhouette.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nPose the subject with hands on hips, creating a confident and assertive silhouette.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "hands_holding_flower",
       "name": "Holding Flower",
-      "text": "Have the subject hold a flower delicately, with soft fingers and careful attention to hand anatomy.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nHave the subject hold a flower delicately, with soft fingers and careful attention to hand anatomy.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "hands_prayer",
       "name": "Prayer Hands",
-      "text": "Place the subject's hands together in a gentle prayer-like gesture, creating a calm or reverent mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// hands\nPlace the subject's hands together in a gentle prayer-like gesture, creating a calm or reverent mood.",
       "scope": {
         "type": "global"
       },

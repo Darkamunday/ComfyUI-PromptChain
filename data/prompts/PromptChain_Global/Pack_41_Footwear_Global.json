@@ -4,7 +4,7 @@
     {
       "id": "footwear_sneakers",
       "name": "Sneakers",
-      "text": "Give the subject clean modern sneakers with realistic soles, fabric detail, and casual styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject clean modern sneakers with realistic soles, fabric detail, and casual styling.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "footwear_boots",
       "name": "Boots",
-      "text": "Give the subject boots with structured material, clear seams, and grounded practical design.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject boots with structured material, clear seams, and grounded practical design.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "footwear_ankle_boots",
       "name": "Ankle Boots",
-      "text": "Give the subject ankle boots with polished silhouette, natural fit, and stylish detailing.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject ankle boots with polished silhouette, natural fit, and stylish detailing.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "footwear_heels",
       "name": "Heels",
-      "text": "Give the subject elegant heels with refined shape, balanced posture, and tasteful presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject elegant heels with refined shape, balanced posture, and tasteful presentation.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "footwear_mary_janes",
       "name": "Mary Janes",
-      "text": "Give the subject Mary Jane shoes with rounded shape, strap detail, and classic charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject Mary Jane shoes with rounded shape, strap detail, and classic charm.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "footwear_sandals",
       "name": "Sandals",
-      "text": "Give the subject sandals with clear straps, natural fit, and relaxed warm-weather styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject sandals with clear straps, natural fit, and relaxed warm-weather styling.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "footwear_loafers",
       "name": "Loafers",
-      "text": "Give the subject loafers with polished leather texture, clean stitching, and smart casual appeal.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject loafers with polished leather texture, clean stitching, and smart casual appeal.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "footwear_combat_boots",
       "name": "Combat Boots",
-      "text": "Give the subject combat boots with rugged soles, strong silhouette, and practical texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject combat boots with rugged soles, strong silhouette, and practical texture.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "footwear_tall_boots",
       "name": "Tall Boots",
-      "text": "Give the subject tall boots with clean material structure, natural leg fit, and stylish silhouette.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject tall boots with clean material structure, natural leg fit, and stylish silhouette.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "footwear_slippers",
       "name": "Slippers",
-      "text": "Give the subject soft slippers with cozy material and relaxed indoor comfort.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject soft slippers with cozy material and relaxed indoor comfort.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "footwear_barefoot",
       "name": "Barefoot",
-      "text": "Show the subject barefoot with natural foot placement, clean anatomy, and context-appropriate presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nShow the subject barefoot with natural foot placement, clean anatomy, and context-appropriate presentation.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "footwear_fantasy_boots",
       "name": "Fantasy Boots",
-      "text": "Give the subject fantasy boots with decorative trim, practical structure, and design matching the outfit.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject fantasy boots with decorative trim, practical structure, and design matching the outfit.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "footwear_sci_fi_shoes",
       "name": "Sci-Fi Footwear",
-      "text": "Give the subject futuristic footwear with sleek surfaces, glowing accents, and advanced design language.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject futuristic footwear with sleek surfaces, glowing accents, and advanced design language.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "footwear_school_shoes",
       "name": "School Shoes",
-      "text": "Give the subject neat school shoes with polished surface, simple design, and uniform-appropriate styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject neat school shoes with polished surface, simple design, and uniform-appropriate styling.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "footwear_winter_boots",
       "name": "Winter Boots",
-      "text": "Give the subject warm winter boots with thick material, fur lining, and practical seasonal detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// footwear\nGive the subject warm winter boots with thick material, fur lining, and practical seasonal detail.",
       "scope": {
         "type": "global"
       },

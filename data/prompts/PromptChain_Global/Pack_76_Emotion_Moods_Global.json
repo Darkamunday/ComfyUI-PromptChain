@@ -4,7 +4,7 @@
     {
       "id": "mood_quiet_confidence",
       "name": "Quiet Confidence",
-      "text": "Create quiet confidence through composed posture, steady eyes, controlled expression, and calm visual strength.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate quiet confidence through composed posture, steady eyes, controlled expression, and calm visual strength.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "mood_gentle_loneliness",
       "name": "Gentle Loneliness",
-      "text": "Create gentle loneliness through negative space, soft expression, muted color, and quiet environmental distance.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate gentle loneliness through negative space, soft expression, muted color, and quiet environmental distance.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "mood_first_love",
       "name": "First Love",
-      "text": "Create a first-love feeling with shy warmth, soft eye contact, delicate blush, and gentle romantic tension.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate a first-love feeling with shy warmth, soft eye contact, delicate blush, and gentle romantic tension.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "mood_after_victory",
       "name": "After Victory",
-      "text": "Create an after-victory mood with tired relief, subtle pride, softened lighting, and story-worn detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate an after-victory mood with tired relief, subtle pride, softened lighting, and story-worn detail.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "mood_before_storm",
       "name": "Before the Storm",
-      "text": "Create a before-the-storm mood with heavy atmosphere, tense stillness, wind, and dramatic anticipation.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate a before-the-storm mood with heavy atmosphere, tense stillness, wind, and dramatic anticipation.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "mood_home_comfort",
       "name": "Home Comfort",
-      "text": "Create home comfort with warm light, cozy objects, relaxed posture, and safe familiar surroundings.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate home comfort with warm light, cozy objects, relaxed posture, and safe familiar surroundings.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "mood_secret_wonder",
       "name": "Secret Wonder",
-      "text": "Create secret wonder with curious expression, soft magical glow, hidden detail, and discovery-focused framing.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate secret wonder with curious expression, soft magical glow, hidden detail, and discovery-focused framing.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "mood_bittersweet",
       "name": "Bittersweet",
-      "text": "Create a bittersweet mood with gentle sadness, warm memory, soft light, and restrained emotional detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate a bittersweet mood with gentle sadness, warm memory, soft light, and restrained emotional detail.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "mood_festival_joy",
       "name": "Festival Joy",
-      "text": "Create festival joy with lanterns, crowd warmth, bright expression, food stalls, and celebratory color.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate festival joy with lanterns, crowd warmth, bright expression, food stalls, and celebratory color.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "mood_calm_power",
       "name": "Calm Power",
-      "text": "Create calm power with still posture, controlled energy, intense gaze, and restrained dramatic lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate calm power with still posture, controlled energy, intense gaze, and restrained dramatic lighting.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "mood_sleepy_morning",
       "name": "Sleepy Morning",
-      "text": "Create sleepy morning mood with soft bed light, relaxed expression, messy hair, and gentle domestic detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate sleepy morning mood with soft bed light, relaxed expression, messy hair, and gentle domestic detail.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "mood_determined_journey",
       "name": "Determined Journey",
-      "text": "Create determined journey mood with travel gear, forward motion, purposeful gaze, and open environment.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate determined journey mood with travel gear, forward motion, purposeful gaze, and open environment.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "mood_melancholy_rain",
       "name": "Melancholy Rain",
-      "text": "Create melancholy rain mood with wet reflections, muted color, thoughtful expression, and soft gray light.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate melancholy rain mood with wet reflections, muted color, thoughtful expression, and soft gray light.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "mood_sparkling_stage",
       "name": "Sparkling Stage",
-      "text": "Create sparkling stage mood with bright lights, energetic pose, polished costume, and performance confidence.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate sparkling stage mood with bright lights, energetic pose, polished costume, and performance confidence.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "mood_peaceful_magic",
       "name": "Peaceful Magic",
-      "text": "Create peaceful magic with soft glow, gentle particles, calm expression, and harmonious fantasy atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// emotion moods\nCreate peaceful magic with soft glow, gentle particles, calm expression, and harmonious fantasy atmosphere.",
       "scope": {
         "type": "global"
       },

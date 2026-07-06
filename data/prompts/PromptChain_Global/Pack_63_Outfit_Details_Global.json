@@ -4,7 +4,7 @@
     {
       "id": "outfit_layered_fabrics",
       "name": "Layered Fabrics",
-      "text": "Add layered fabrics with visible overlap, natural thickness, seam detail, and believable clothing structure.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd layered fabrics with visible overlap, natural thickness, seam detail, and believable clothing structure.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "outfit_frills",
       "name": "Frills",
-      "text": "Add clean frills along hems, sleeves, collar, or skirt with balanced decorative detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd clean frills along hems, sleeves, collar, or skirt with balanced decorative detail.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "outfit_bows",
       "name": "Bows",
-      "text": "Add fabric bows with soft folds, clear knot structure, and charming placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd fabric bows with soft folds, clear knot structure, and charming placement.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "outfit_lace_trim",
       "name": "Lace Trim",
-      "text": "Add lace trim with delicate patterning, semi-transparent edges, and refined decorative texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd lace trim with delicate patterning, semi-transparent edges, and refined decorative texture.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "outfit_embroidery",
       "name": "Embroidery",
-      "text": "Add embroidered details with raised thread texture, decorative motifs, and natural fabric integration.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd embroidered details with raised thread texture, decorative motifs, and natural fabric integration.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "outfit_silver_filigree",
       "name": "Silver Filigree",
-      "text": "Add ornate silver filigree details with curling lines, polished highlights, and elegant craftsmanship.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd ornate silver filigree details with curling lines, polished highlights, and elegant craftsmanship.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "outfit_gold_accents",
       "name": "Gold Accents",
-      "text": "Add tasteful gold accents through buttons, trim, jewelry, or decorative metalwork.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd tasteful gold accents through buttons, trim, jewelry, or decorative metalwork.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "outfit_crimson_details",
       "name": "Crimson Details",
-      "text": "Add crimson accent details through ribbons, gemstones, embroidery, or lining for controlled dramatic color.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd crimson accent details through ribbons, gemstones, embroidery, or lining for controlled dramatic color.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "outfit_belts_straps",
       "name": "Belts and Straps",
-      "text": "Add belts and straps with buckles, leather texture, natural tension, and practical placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd belts and straps with buckles, leather texture, natural tension, and practical placement.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "outfit_buttons",
       "name": "Buttons",
-      "text": "Add buttons with correct alignment, material shine, and believable attachment to the clothing.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd buttons with correct alignment, material shine, and believable attachment to the clothing.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "outfit_pleats",
       "name": "Pleats",
-      "text": "Add pleated fabric with clean repeated folds, natural drape, and structured movement.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd pleated fabric with clean repeated folds, natural drape, and structured movement.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "outfit_sheer_overlay",
       "name": "Sheer Overlay",
-      "text": "Add a sheer fabric overlay with transparency, soft edges, and believable layered material.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd a sheer fabric overlay with transparency, soft edges, and believable layered material.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "outfit_cape",
       "name": "Cape",
-      "text": "Add a cape or cloak with flowing fabric, clear attachment points, and dramatic silhouette.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd a cape or cloak with flowing fabric, clear attachment points, and dramatic silhouette.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "outfit_high_collar",
       "name": "High Collar",
-      "text": "Add a high collar that frames the neck and face with elegant structure.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd a high collar that frames the neck and face with elegant structure.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "outfit_asymmetrical_design",
       "name": "Asymmetrical Design",
-      "text": "Add asymmetrical clothing design with balanced visual weight and intentional styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// outfit details\nAdd asymmetrical clothing design with balanced visual weight and intentional styling.",
       "scope": {
         "type": "global"
       },

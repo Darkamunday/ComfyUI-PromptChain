@@ -4,7 +4,7 @@
     {
       "id": "shot_extreme_close_up",
       "name": "Extreme Close Up",
-      "text": "Frame the subject in an extreme close-up focused on the eyes, mouth, or a key detail, with strong intimacy and clear texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nFrame the subject in an extreme close-up focused on the eyes, mouth, or a key detail, with strong intimacy and clear texture.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "shot_close_up",
       "name": "Close Up",
-      "text": "Frame the subject in a close-up that emphasizes facial expression, eye detail, and emotional readability.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nFrame the subject in a close-up that emphasizes facial expression, eye detail, and emotional readability.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "shot_medium_close_up",
       "name": "Medium Close Up",
-      "text": "Frame the subject from the chest or shoulders upward, balancing expression, clothing detail, and background context.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nFrame the subject from the chest or shoulders upward, balancing expression, clothing detail, and background context.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "shot_medium_shot",
       "name": "Medium Shot",
-      "text": "Frame the subject from the waist upward with natural body language and enough environment to support the scene.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nFrame the subject from the waist upward with natural body language and enough environment to support the scene.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "shot_cowboy",
       "name": "Cowboy Shot",
-      "text": "Frame the subject from mid-thigh upward, showing posture, hands, outfit, and character presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nFrame the subject from mid-thigh upward, showing posture, hands, outfit, and character presence.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "shot_full_body",
       "name": "Full Body Shot",
-      "text": "Frame the full body clearly from head to toe, keeping pose, outfit, and silhouette readable.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nFrame the full body clearly from head to toe, keeping pose, outfit, and silhouette readable.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "shot_wide",
       "name": "Wide Shot",
-      "text": "Use a wide shot that shows the full subject and meaningful surrounding environment.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nUse a wide shot that shows the full subject and meaningful surrounding environment.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "shot_establishing",
       "name": "Establishing Shot",
-      "text": "Use an establishing shot that prioritizes the environment, scale, and sense of place while keeping the subject integrated.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nUse an establishing shot that prioritizes the environment, scale, and sense of place while keeping the subject integrated.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "shot_overhead",
       "name": "Overhead Shot",
-      "text": "Use an overhead view looking down on the scene, creating graphic composition and clear spatial layout.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nUse an overhead view looking down on the scene, creating graphic composition and clear spatial layout.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "shot_low_angle_hero",
       "name": "Low Angle Hero Shot",
-      "text": "Use a low-angle hero shot to make the subject feel powerful, dramatic, and visually dominant.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nUse a low-angle hero shot to make the subject feel powerful, dramatic, and visually dominant.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "shot_high_angle_cute",
       "name": "High Angle Cute Shot",
-      "text": "Use a high-angle shot to create a softer, cuter, or more vulnerable impression while keeping anatomy natural.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nUse a high-angle shot to create a softer, cuter, or more vulnerable impression while keeping anatomy natural.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "shot_over_shoulder",
       "name": "Over Shoulder Shot",
-      "text": "Use an over-the-shoulder shot to create narrative depth and the feeling of interaction with another subject or scene element.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nUse an over-the-shoulder shot to create narrative depth and the feeling of interaction with another subject or scene element.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "shot_pov",
       "name": "POV Shot",
-      "text": "Frame the image as a point-of-view shot that makes the viewer feel present inside the scene.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nFrame the image as a point-of-view shot that makes the viewer feel present inside the scene.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "shot_silhouette",
       "name": "Silhouette Shot",
-      "text": "Create a silhouette-focused shot using strong backlight, clear outline, and readable subject shape.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nCreate a silhouette-focused shot using strong backlight, clear outline, and readable subject shape.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "shot_reflection",
       "name": "Reflection Shot",
-      "text": "Compose the image using a mirror, window, water, or polished surface reflection as a key visual element.",
+      "text": "// Your Prompt\n{cursor}\n\n// shot types\nCompose the image using a mirror, window, water, or polished surface reflection as a key visual element.",
       "scope": {
         "type": "global"
       },

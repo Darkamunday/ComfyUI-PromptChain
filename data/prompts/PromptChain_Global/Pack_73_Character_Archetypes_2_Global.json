@@ -4,7 +4,7 @@
     {
       "id": "archetype_princess",
       "name": "Princess",
-      "text": "Present the subject as a graceful princess with refined clothing, elegant posture, delicate accessories, and a gentle royal presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a graceful princess with refined clothing, elegant posture, delicate accessories, and a gentle royal presence.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "archetype_queen",
       "name": "Queen",
-      "text": "Present the subject as a dignified queen with commanding posture, ornate clothing, regal accessories, and calm authority.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a dignified queen with commanding posture, ornate clothing, regal accessories, and calm authority.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "archetype_wandering_hero",
       "name": "Wandering Hero",
-      "text": "Present the subject as a wandering hero with practical travel gear, determined expression, and a story-worn presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a wandering hero with practical travel gear, determined expression, and a story-worn presence.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "archetype_alchemist",
       "name": "Alchemist",
-      "text": "Present the subject as an alchemist with bottles, notes, herbs, gloves, and a curious experimental atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as an alchemist with bottles, notes, herbs, gloves, and a curious experimental atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "archetype_fortune_teller",
       "name": "Fortune Teller",
-      "text": "Present the subject as a fortune teller with mystical accessories, cards, crystals, layered fabrics, and mysterious warmth.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a fortune teller with mystical accessories, cards, crystals, layered fabrics, and mysterious warmth.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "archetype_detective",
       "name": "Detective",
-      "text": "Present the subject as a detective with sharp eyes, thoughtful posture, practical clothing, and investigative atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a detective with sharp eyes, thoughtful posture, practical clothing, and investigative atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "archetype_thief",
       "name": "Rogue",
-      "text": "Present the subject as a nimble rogue with lightweight clothing, hidden tools, alert posture, and clever confidence.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a nimble rogue with lightweight clothing, hidden tools, alert posture, and clever confidence.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "archetype_ranger",
       "name": "Ranger",
-      "text": "Present the subject as a forest ranger or fantasy archer with practical outdoor clothing, natural colors, and calm awareness.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a forest ranger or fantasy archer with practical outdoor clothing, natural colors, and calm awareness.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "archetype_bard",
       "name": "Bard",
-      "text": "Present the subject as a bard with musical accessories, expressive clothing, confident charm, and performance energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a bard with musical accessories, expressive clothing, confident charm, and performance energy.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "archetype_monk",
       "name": "Monk",
-      "text": "Present the subject as a disciplined monk with simple robes, calm posture, and quiet spiritual focus.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a disciplined monk with simple robes, calm posture, and quiet spiritual focus.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "archetype_beast_tamer",
       "name": "Beast Tamer",
-      "text": "Present the subject as a beast tamer with practical gear, animal companion cues, and confident gentle command.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a beast tamer with practical gear, animal companion cues, and confident gentle command.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "archetype_scholar",
       "name": "Scholar",
-      "text": "Present the subject as a scholar with books, notes, glasses or writing tools, and a thoughtful intellectual presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a scholar with books, notes, glasses or writing tools, and a thoughtful intellectual presence.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "archetype_inventor",
       "name": "Inventor",
-      "text": "Present the subject as an inventor with tools, sketches, mechanical parts, and bright creative curiosity.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as an inventor with tools, sketches, mechanical parts, and bright creative curiosity.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "archetype_gardener",
       "name": "Gardener",
-      "text": "Present the subject as a gardener with gloves, plants, flowers, earthy textures, and warm natural calm.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a gardener with gloves, plants, flowers, earthy textures, and warm natural calm.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "archetype_traveler",
       "name": "Traveler",
-      "text": "Present the subject as a traveler with layered clothing, bag, map, weathered details, and a sense of journey.",
+      "text": "// Your Prompt\n{cursor}\n\n// character archetypes\nPresent the subject as a traveler with layered clothing, bag, map, weathered details, and a sense of journey.",
       "scope": {
         "type": "global"
       },

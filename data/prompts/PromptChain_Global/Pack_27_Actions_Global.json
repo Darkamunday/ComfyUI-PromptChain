@@ -4,7 +4,7 @@
     {
       "id": "action_reading",
       "name": "Reading",
-      "text": "Show the subject reading a book naturally, with focused expression, relaxed posture, and a calm atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject reading a book naturally, with focused expression, relaxed posture, and a calm atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "action_writing",
       "name": "Writing",
-      "text": "Show the subject writing in a notebook or journal with thoughtful focus and natural hand placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject writing in a notebook or journal with thoughtful focus and natural hand placement.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "action_drawing",
       "name": "Drawing",
-      "text": "Show the subject sketching or drawing with creative concentration, visible tools, and relaxed posture.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject sketching or drawing with creative concentration, visible tools, and relaxed posture.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "action_cooking",
       "name": "Cooking",
-      "text": "Show the subject cooking with utensils, ingredients, active hand movement, and a lively kitchen setting.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject cooking with utensils, ingredients, active hand movement, and a lively kitchen setting.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "action_drinking",
       "name": "Drinking",
-      "text": "Show the subject enjoying a drink naturally, with believable hand placement and a relaxed mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject enjoying a drink naturally, with believable hand placement and a relaxed mood.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "action_dancing",
       "name": "Dancing",
-      "text": "Show the subject dancing gracefully with flowing motion, expressive pose, and rhythmic energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject dancing gracefully with flowing motion, expressive pose, and rhythmic energy.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "action_singing",
       "name": "Singing",
-      "text": "Show the subject singing with expressive emotion, performance posture, and clear stage or casual context.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject singing with expressive emotion, performance posture, and clear stage or casual context.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "action_playing_instrument",
       "name": "Playing Instrument",
-      "text": "Show the subject playing a musical instrument with believable hand placement and engaged expression.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject playing a musical instrument with believable hand placement and engaged expression.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "action_shopping",
       "name": "Shopping",
-      "text": "Show the subject shopping with bags, storefront detail, casual movement, and everyday atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject shopping with bags, storefront detail, casual movement, and everyday atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "action_waiting_train",
       "name": "Waiting for Train",
-      "text": "Show the subject waiting at a train platform with natural posture and urban transit atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject waiting at a train platform with natural posture and urban transit atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "action_using_phone",
       "name": "Using Phone",
-      "text": "Show the subject using a phone with realistic hand placement, soft screen glow, and modern casual context.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject using a phone with realistic hand placement, soft screen glow, and modern casual context.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "action_taking_photo",
       "name": "Taking Photo",
-      "text": "Show the subject taking a photo with a camera or phone, using a clear pose and focused expression.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject taking a photo with a camera or phone, using a clear pose and focused expression.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "action_casting_spell",
       "name": "Casting Spell",
-      "text": "Show the subject casting a spell with controlled magical energy, confident posture, and readable hand gesture.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject casting a spell with controlled magical energy, confident posture, and readable hand gesture.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "action_sword_pose",
       "name": "Holding Sword",
-      "text": "Show the subject holding a sword with stable posture, believable grip, and heroic visual presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject holding a sword with stable posture, believable grip, and heroic visual presence.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "action_resting",
       "name": "Resting",
-      "text": "Show the subject resting peacefully with relaxed body language and a quiet comfortable atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// actions\nShow the subject resting peacefully with relaxed body language and a quiet comfortable atmosphere.",
       "scope": {
         "type": "global"
       },

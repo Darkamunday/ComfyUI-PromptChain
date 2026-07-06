@@ -4,7 +4,7 @@
     {
       "id": "mystery_foggy_street",
       "name": "Foggy Street",
-      "text": "Create a foggy street atmosphere with limited visibility, muted light, and quiet suspense without excessive gore.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nCreate a foggy street atmosphere with limited visibility, muted light, and quiet suspense without excessive gore.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "mystery_abandoned_house",
       "name": "Abandoned House",
-      "text": "Place the scene in an abandoned house with peeling walls, broken furniture, dust, and atmospheric tension.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nPlace the scene in an abandoned house with peeling walls, broken furniture, dust, and atmospheric tension.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "mystery_old_mansion",
       "name": "Old Mansion",
-      "text": "Create an old mansion setting with dark wood, antique decor, long corridors, and restrained gothic mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nCreate an old mansion setting with dark wood, antique decor, long corridors, and restrained gothic mood.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "mystery_candle_corridor",
       "name": "Candlelit Corridor",
-      "text": "Use a candlelit corridor with long shadows, warm flicker, and a sense of hidden story.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nUse a candlelit corridor with long shadows, warm flicker, and a sense of hidden story.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "mystery_shadow_figure",
       "name": "Shadow Figure",
-      "text": "Add a vague shadowy figure in the distance, keeping it subtle, atmospheric, and non-graphic.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nAdd a vague shadowy figure in the distance, keeping it subtle, atmospheric, and non-graphic.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "mystery_rain_window",
       "name": "Rainy Window",
-      "text": "Use a rainy window with streaking droplets, dim interior light, and reflective melancholy.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nUse a rainy window with streaking droplets, dim interior light, and reflective melancholy.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "mystery_attic",
       "name": "Dusty Attic",
-      "text": "Place the scene in a dusty attic with old trunks, soft beams of light, and forgotten objects.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nPlace the scene in a dusty attic with old trunks, soft beams of light, and forgotten objects.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "mystery_library_night",
       "name": "Library at Night",
-      "text": "Create a nighttime library with dim lamps, towering shelves, and quiet investigative mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nCreate a nighttime library with dim lamps, towering shelves, and quiet investigative mood.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "mystery_clock_room",
       "name": "Clock Room",
-      "text": "Place the scene in a room filled with old clocks, brass details, ticking atmosphere, and surreal mystery.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nPlace the scene in a room filled with old clocks, brass details, ticking atmosphere, and surreal mystery.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "mystery_mirror",
       "name": "Antique Mirror",
-      "text": "Add an antique mirror with aged glass, ornate frame, and unsettling reflective atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nAdd an antique mirror with aged glass, ornate frame, and unsettling reflective atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "mystery_forest_night",
       "name": "Forest at Night",
-      "text": "Set the scene in a nighttime forest with moonlight, mist, silhouettes, and restrained suspense.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nSet the scene in a nighttime forest with moonlight, mist, silhouettes, and restrained suspense.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "mystery_empty_station",
       "name": "Empty Station",
-      "text": "Place the scene in an empty train station at night with fluorescent light, long platforms, and lonely atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nPlace the scene in an empty train station at night with fluorescent light, long platforms, and lonely atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "mystery_hidden_door",
       "name": "Hidden Door",
-      "text": "Add a hidden door or secret passage with subtle clues, aged materials, and discovery-focused composition.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nAdd a hidden door or secret passage with subtle clues, aged materials, and discovery-focused composition.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "mystery_old_photographs",
       "name": "Old Photographs",
-      "text": "Add old photographs as props or background detail, creating nostalgia and mystery.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nAdd old photographs as props or background detail, creating nostalgia and mystery.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "mystery_occult_symbols",
       "name": "Occult Symbols",
-      "text": "Add subtle occult-style symbols as environmental detail with restrained gothic fantasy atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// horror and mystery\nAdd subtle occult-style symbols as environmental detail with restrained gothic fantasy atmosphere.",
       "scope": {
         "type": "global"
       },

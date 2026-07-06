@@ -4,7 +4,7 @@
     {
       "id": "mix_bright_anime_portrait",
       "name": "Bright Anime Portrait",
-      "text": "Create a bright anime-inspired portrait with soft daylight, clean facial detail, expressive eyes, and a simple supportive background.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a bright anime-inspired portrait with soft daylight, clean facial detail, expressive eyes, and a simple supportive background.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "mix_cozy_cafe_character",
       "name": "Cozy Cafe Character",
-      "text": "Create a cozy café character scene with warm light, drink props, natural posture, and inviting everyday atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a cozy café character scene with warm light, drink props, natural posture, and inviting everyday atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "mix_rainy_city_portrait",
       "name": "Rainy City Portrait",
-      "text": "Create a rainy city portrait with wet reflections, muted colors, readable subject lighting, and emotional atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a rainy city portrait with wet reflections, muted colors, readable subject lighting, and emotional atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "mix_fantasy_hero",
       "name": "Fantasy Hero",
-      "text": "Create a fantasy hero scene with confident pose, detailed outfit, magical environment, and grand but readable composition.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a fantasy hero scene with confident pose, detailed outfit, magical environment, and grand but readable composition.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "mix_soft_bedroom",
       "name": "Soft Bedroom Portrait",
-      "text": "Create a soft bedroom portrait with warm domestic light, relaxed posture, cozy fabrics, and gentle expression.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a soft bedroom portrait with warm domestic light, relaxed posture, cozy fabrics, and gentle expression.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "mix_cyberpunk_neon",
       "name": "Cyberpunk Neon Character",
-      "text": "Create a cyberpunk neon character scene with stylish lighting, reflective surfaces, futuristic fashion, and clear subject focus.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a cyberpunk neon character scene with stylish lighting, reflective surfaces, futuristic fashion, and clear subject focus.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "mix_shrine_petals",
       "name": "Shrine Petals Portrait",
-      "text": "Create a shrine portrait with drifting petals, traditional architecture, soft daylight, and serene atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a shrine portrait with drifting petals, traditional architecture, soft daylight, and serene atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "mix_library_magic",
       "name": "Library Magic",
-      "text": "Create a magical library scene with books, glowing particles, warm reading light, and scholarly fantasy detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a magical library scene with books, glowing particles, warm reading light, and scholarly fantasy detail.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "mix_idol_stage",
       "name": "Idol Stage Shot",
-      "text": "Create an idol stage image with sparkling lights, confident pose, polished costume, and lively performance energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate an idol stage image with sparkling lights, confident pose, polished costume, and lively performance energy.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "mix_snowy_window",
       "name": "Snowy Window Scene",
-      "text": "Create a snowy window scene with warm indoor light, cold outdoor contrast, soft fabrics, and peaceful winter mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a snowy window scene with warm indoor light, cold outdoor contrast, soft fabrics, and peaceful winter mood.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "mix_forest_familiar",
       "name": "Forest Familiar",
-      "text": "Create a forest scene with a small companion creature, filtered light, greenery, and gentle fantasy atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a forest scene with a small companion creature, filtered light, greenery, and gentle fantasy atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "mix_luxury_editorial",
       "name": "Luxury Editorial Portrait",
-      "text": "Create a luxury editorial portrait with refined styling, polished lighting, elegant pose, and premium presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a luxury editorial portrait with refined styling, polished lighting, elegant pose, and premium presentation.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "mix_school_life",
       "name": "School Life Moment",
-      "text": "Create a school-life moment with clean uniform styling, classroom or campus context, relaxed expression, and slice-of-life charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a school-life moment with clean uniform styling, classroom or campus context, relaxed expression, and slice-of-life charm.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "mix_space_android",
       "name": "Space Android",
-      "text": "Create a futuristic android scene with clean sci-fi surfaces, soft blue light, glowing details, and elegant technology.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a futuristic android scene with clean sci-fi surfaces, soft blue light, glowing details, and elegant technology.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "mix_dark_fantasy_noble",
       "name": "Dark Fantasy Noble",
-      "text": "Create a dark fantasy noble portrait with ornate clothing, controlled shadows, gothic setting, and readable dramatic lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// global mix presets\nCreate a dark fantasy noble portrait with ornate clothing, controlled shadows, gothic setting, and readable dramatic lighting.",
       "scope": {
         "type": "global"
       },

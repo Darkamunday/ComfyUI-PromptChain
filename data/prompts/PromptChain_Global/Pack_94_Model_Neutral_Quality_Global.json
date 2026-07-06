@@ -4,7 +4,7 @@
     {
       "id": "neutral_quality_clean",
       "name": "Clean Quality",
-      "text": "Use clean high-quality rendering with readable forms, clear subject focus, balanced detail, and coherent style.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nUse clean high-quality rendering with readable forms, clear subject focus, balanced detail, and coherent style.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "neutral_quality_detailed",
       "name": "Detailed Quality",
-      "text": "Add meaningful detail to the subject, outfit, materials, and environment without creating clutter or visual noise.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nAdd meaningful detail to the subject, outfit, materials, and environment without creating clutter or visual noise.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "neutral_quality_soft",
       "name": "Soft Quality",
-      "text": "Use soft appealing rendering with gentle gradients, smooth light transitions, and polished visual comfort.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nUse soft appealing rendering with gentle gradients, smooth light transitions, and polished visual comfort.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "neutral_quality_sharp",
       "name": "Sharp Quality",
-      "text": "Keep important details sharp, especially eyes, face, hair, hands, clothing edges, and key props.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nKeep important details sharp, especially eyes, face, hair, hands, clothing edges, and key props.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "neutral_quality_balanced",
       "name": "Balanced Quality",
-      "text": "Balance realism, stylization, lighting, color, detail, and composition so the image feels cohesive.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nBalance realism, stylization, lighting, color, detail, and composition so the image feels cohesive.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "neutral_quality_premium",
       "name": "Premium Quality",
-      "text": "Create a polished premium image with refined color, clean lighting, strong composition, and attractive finishing detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nCreate a polished premium image with refined color, clean lighting, strong composition, and attractive finishing detail.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "neutral_quality_natural",
       "name": "Natural Quality",
-      "text": "Use natural colors, believable light, grounded materials, and restrained post-processing.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nUse natural colors, believable light, grounded materials, and restrained post-processing.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "neutral_quality_cinematic",
       "name": "Cinematic Quality",
-      "text": "Use cinematic composition, cohesive color, meaningful lighting, and visual storytelling without forcing the scene too dark.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nUse cinematic composition, cohesive color, meaningful lighting, and visual storytelling without forcing the scene too dark.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "neutral_quality_anime",
       "name": "Anime-Friendly Quality",
-      "text": "Support anime-style images with expressive face, clean shapes, readable outfit, appealing color, and polished character design.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nSupport anime-style images with expressive face, clean shapes, readable outfit, appealing color, and polished character design.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "neutral_quality_realistic",
       "name": "Realism-Friendly Quality",
-      "text": "Support realistic images with natural skin, believable materials, proper exposure, and physically plausible lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nSupport realistic images with natural skin, believable materials, proper exposure, and physically plausible lighting.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "neutral_quality_print",
       "name": "Print-Ready Quality",
-      "text": "Use strong clarity, clean edges, controlled noise, and consistent finish suitable for high-quality output.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nUse strong clarity, clean edges, controlled noise, and consistent finish suitable for high-quality output.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "neutral_quality_social",
       "name": "Social-Ready Quality",
-      "text": "Create a clear attractive image with strong subject readability, eye-catching color, and clean composition.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nCreate a clear attractive image with strong subject readability, eye-catching color, and clean composition.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "neutral_quality_gallery",
       "name": "Gallery Quality",
-      "text": "Create a visually memorable image with refined detail, strong mood, balanced composition, and finished presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nCreate a visually memorable image with refined detail, strong mood, balanced composition, and finished presentation.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "neutral_quality_promptchain_default",
       "name": "PromptChain Default Quality",
-      "text": "Apply a safe default quality boost with clear subject, readable background, balanced lighting, clean anatomy, and polished detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nApply a safe default quality boost with clear subject, readable background, balanced lighting, clean anatomy, and polished detail.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "neutral_quality_final_polish",
       "name": "Final Polish Quality",
-      "text": "Apply final polish to lighting, color, detail, composition, materials, and subject clarity.",
+      "text": "// Your Prompt\n{cursor}\n\n// model neutral quality\nApply final polish to lighting, color, detail, composition, materials, and subject clarity.",
       "scope": {
         "type": "global"
       },

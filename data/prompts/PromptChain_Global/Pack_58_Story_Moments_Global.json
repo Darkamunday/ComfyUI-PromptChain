@@ -4,7 +4,7 @@
     {
       "id": "story_first_meeting",
       "name": "First Meeting",
-      "text": "Create the feeling of a first meeting, with curious eye contact, gentle tension, and a sense of possibility.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate the feeling of a first meeting, with curious eye contact, gentle tension, and a sense of possibility.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "story_quiet_morning",
       "name": "Quiet Morning",
-      "text": "Create a quiet morning moment with soft light, relaxed posture, and peaceful everyday detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a quiet morning moment with soft light, relaxed posture, and peaceful everyday detail.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "story_after_rain",
       "name": "After the Rain",
-      "text": "Create a scene just after rain with wet surfaces, fresh air, soft reflections, and calm renewal.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a scene just after rain with wet surfaces, fresh air, soft reflections, and calm renewal.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "story_farewell",
       "name": "Farewell",
-      "text": "Create a farewell moment with restrained emotion, meaningful distance, and subtle body language.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a farewell moment with restrained emotion, meaningful distance, and subtle body language.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "story_discovery",
       "name": "Discovery",
-      "text": "Create a discovery moment where the subject notices something important, with focused attention and visual curiosity.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a discovery moment where the subject notices something important, with focused attention and visual curiosity.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "story_secret",
       "name": "Secret",
-      "text": "Create a secretive moment with hushed atmosphere, close framing, and a sense of hidden information.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a secretive moment with hushed atmosphere, close framing, and a sense of hidden information.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "story_preparation",
       "name": "Preparation",
-      "text": "Create a preparation moment with tools, clothing adjustments, focused expression, and anticipation.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a preparation moment with tools, clothing adjustments, focused expression, and anticipation.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "story_rest_after_journey",
       "name": "Rest After Journey",
-      "text": "Create a resting moment after a journey, with tired but peaceful expression and travel-worn details.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a resting moment after a journey, with tired but peaceful expression and travel-worn details.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "story_magical_awakening",
       "name": "Magical Awakening",
-      "text": "Create a magical awakening moment with subtle glow, surprised expression, and controlled supernatural energy.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a magical awakening moment with subtle glow, surprised expression, and controlled supernatural energy.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "story_royal_arrival",
       "name": "Royal Arrival",
-      "text": "Create a royal arrival moment with elegant posture, grand setting, and ceremonial atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a royal arrival moment with elegant posture, grand setting, and ceremonial atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "story_battle_ready",
       "name": "Battle Ready",
-      "text": "Create a battle-ready moment with stable stance, focused expression, and dramatic but clean composition.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a battle-ready moment with stable stance, focused expression, and dramatic but clean composition.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "story_cafe_date",
       "name": "Cafe Date",
-      "text": "Create a gentle café-date feeling with warm light, soft expression, drinks or desserts, and intimate everyday charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a gentle café-date feeling with warm light, soft expression, drinks or desserts, and intimate everyday charm.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "story_late_night_work",
       "name": "Late Night Work",
-      "text": "Create a late-night work moment with desk light, papers or screens, tired focus, and quiet atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate a late-night work moment with desk light, papers or screens, tired focus, and quiet atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "story_festival_evening",
       "name": "Festival Evening",
-      "text": "Create an evening festival moment with lanterns, food stalls, crowd warmth, and colorful celebration.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate an evening festival moment with lanterns, food stalls, crowd warmth, and colorful celebration.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "story_hidden_power",
       "name": "Hidden Power",
-      "text": "Create the feeling of hidden power emerging, using subtle energy, intense gaze, and restrained visual drama.",
+      "text": "// Your Prompt\n{cursor}\n\n// story moments\nCreate the feeling of hidden power emerging, using subtle energy, intense gaze, and restrained visual drama.",
       "scope": {
         "type": "global"
       },

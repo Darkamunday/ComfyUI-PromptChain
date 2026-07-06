@@ -4,7 +4,7 @@
     {
       "id": "indoor_soft_bedding",
       "name": "Soft Bedding",
-      "text": "Add soft bedding with pillows, blankets, fabric folds, and warm domestic comfort.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd soft bedding with pillows, blankets, fabric folds, and warm domestic comfort.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "indoor_desk_lamp",
       "name": "Desk Lamp",
-      "text": "Add a desk lamp with warm focused light, realistic shade, and cozy working atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd a desk lamp with warm focused light, realistic shade, and cozy working atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "indoor_books_stack",
       "name": "Stacked Books",
-      "text": "Add stacks of books with varied sizes, paper texture, and scholarly detail while avoiding readable text.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd stacks of books with varied sizes, paper texture, and scholarly detail while avoiding readable text.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "indoor_coffee_table",
       "name": "Coffee Table",
-      "text": "Add a coffee table with small everyday objects, warm surfaces, and believable living-room placement.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd a coffee table with small everyday objects, warm surfaces, and believable living-room placement.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "indoor_houseplants",
       "name": "Houseplants",
-      "text": "Add houseplants with varied leaf shapes, natural placement, and fresh indoor life.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd houseplants with varied leaf shapes, natural placement, and fresh indoor life.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "indoor_wall_art",
       "name": "Wall Art",
-      "text": "Add framed wall art as abstract or image-based decor without readable text, supporting the room mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd framed wall art as abstract or image-based decor without readable text, supporting the room mood.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "indoor_rain_window",
       "name": "Rainy Window",
-      "text": "Add a rainy window with water streaks, soft exterior blur, and cozy indoor contrast.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd a rainy window with water streaks, soft exterior blur, and cozy indoor contrast.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "indoor_sunlit_curtains",
       "name": "Sunlit Curtains",
-      "text": "Add curtains glowing softly with daylight, natural folds, and gentle fabric texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd curtains glowing softly with daylight, natural folds, and gentle fabric texture.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "indoor_floor_cushions",
       "name": "Floor Cushions",
-      "text": "Add floor cushions with soft compression, fabric texture, and relaxed sitting atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd floor cushions with soft compression, fabric texture, and relaxed sitting atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "indoor_vanity_mirror",
       "name": "Vanity Mirror",
-      "text": "Add a vanity mirror with soft bulbs, cosmetic objects, and reflective dressing-room detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd a vanity mirror with soft bulbs, cosmetic objects, and reflective dressing-room detail.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "indoor_kitchen_items",
       "name": "Kitchen Items",
-      "text": "Add kitchen items such as bowls, utensils, cutting boards, and jars for believable domestic context.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd kitchen items such as bowls, utensils, cutting boards, and jars for believable domestic context.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "indoor_shelf_collectibles",
       "name": "Shelf Collectibles",
-      "text": "Add small shelf collectibles, figures, boxes, or decor as background personality without clutter.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd small shelf collectibles, figures, boxes, or decor as background personality without clutter.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "indoor_candle_cluster",
       "name": "Candle Cluster",
-      "text": "Add a cluster of candles with warm flames, wax detail, and soft atmospheric glow.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd a cluster of candles with warm flames, wax detail, and soft atmospheric glow.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "indoor_fabric_drapes",
       "name": "Fabric Drapes",
-      "text": "Add decorative fabric drapes with flowing folds, rich texture, and soft interior elegance.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd decorative fabric drapes with flowing folds, rich texture, and soft interior elegance.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "indoor_window_seat",
       "name": "Window Seat",
-      "text": "Add a window seat with cushions, daylight, outside view, and peaceful sitting atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// indoor details\nAdd a window seat with cushions, daylight, outside view, and peaceful sitting atmosphere.",
       "scope": {
         "type": "global"
       },

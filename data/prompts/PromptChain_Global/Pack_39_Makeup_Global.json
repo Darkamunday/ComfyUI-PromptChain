@@ -4,7 +4,7 @@
     {
       "id": "makeup_natural",
       "name": "Natural Makeup",
-      "text": "Use natural makeup with subtle skin enhancement, soft lip color, and light eye definition.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse natural makeup with subtle skin enhancement, soft lip color, and light eye definition.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "makeup_soft_glam",
       "name": "Soft Glam",
-      "text": "Use soft glam makeup with polished skin, gentle eye shading, and flattering highlights.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse soft glam makeup with polished skin, gentle eye shading, and flattering highlights.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "makeup_smokey_eye",
       "name": "Smokey Eye",
-      "text": "Use tasteful smokey eye makeup with controlled shadow, defined lashes, and dramatic elegance.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse tasteful smokey eye makeup with controlled shadow, defined lashes, and dramatic elegance.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "makeup_rosy",
       "name": "Rosy Makeup",
-      "text": "Use rosy makeup with warm cheeks, soft lips, and a fresh romantic appearance.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse rosy makeup with warm cheeks, soft lips, and a fresh romantic appearance.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "makeup_glossy_lips",
       "name": "Glossy Lips",
-      "text": "Add glossy lips with natural reflections, soft color, and polished finish.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nAdd glossy lips with natural reflections, soft color, and polished finish.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "makeup_matte_lips",
       "name": "Matte Lips",
-      "text": "Use matte lip color with clean edges, soft texture, and refined style.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse matte lip color with clean edges, soft texture, and refined style.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "makeup_winged_liner",
       "name": "Winged Eyeliner",
-      "text": "Use winged eyeliner with clean shape, sharp definition, and stylish character.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse winged eyeliner with clean shape, sharp definition, and stylish character.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "makeup_soft_eyeshadow",
       "name": "Soft Eyeshadow",
-      "text": "Use soft eyeshadow with gentle blending, flattering color, and natural depth.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse soft eyeshadow with gentle blending, flattering color, and natural depth.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "makeup_fantasy",
       "name": "Fantasy Makeup",
-      "text": "Use fantasy-inspired makeup with subtle shimmer, unusual color accents, and elegant magical styling.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse fantasy-inspired makeup with subtle shimmer, unusual color accents, and elegant magical styling.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "makeup_gothic",
       "name": "Gothic Makeup",
-      "text": "Use gothic makeup with darker tones, defined eyes, and dramatic but tasteful presentation.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse gothic makeup with darker tones, defined eyes, and dramatic but tasteful presentation.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "makeup_idol",
       "name": "Idol Makeup",
-      "text": "Use bright idol-style makeup with sparkling highlights, cheerful color, and polished stage-ready charm.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse bright idol-style makeup with sparkling highlights, cheerful color, and polished stage-ready charm.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "makeup_editorial",
       "name": "Editorial Makeup",
-      "text": "Use editorial makeup with bold but controlled styling, refined color design, and fashion-forward impact.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse editorial makeup with bold but controlled styling, refined color design, and fashion-forward impact.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "makeup_no_makeup",
       "name": "No-Makeup Look",
-      "text": "Use a no-makeup look with fresh skin, subtle natural tones, and believable facial detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse a no-makeup look with fresh skin, subtle natural tones, and believable facial detail.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "makeup_glitter",
       "name": "Glitter Accents",
-      "text": "Add subtle glitter accents near the eyes or cheeks for sparkling detail without overwhelming the face.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nAdd subtle glitter accents near the eyes or cheeks for sparkling detail without overwhelming the face.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "makeup_clean_skin",
       "name": "Clean Skin Finish",
-      "text": "Use clean skin finish with balanced texture, natural highlights, and soft flattering detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// makeup\nUse clean skin finish with balanced texture, natural highlights, and soft flattering detail.",
       "scope": {
         "type": "global"
       },

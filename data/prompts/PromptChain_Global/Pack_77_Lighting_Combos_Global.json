@@ -4,7 +4,7 @@
     {
       "id": "light_combo_day_white_room",
       "name": "Bright White Room",
-      "text": "Use bright daylight in a white room with clean reflections, soft shadows, and airy high-key exposure.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse bright daylight in a white room with clean reflections, soft shadows, and airy high-key exposure.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "light_combo_warm_lamp_bedroom",
       "name": "Warm Lamp Bedroom",
-      "text": "Use warm bedside or desk lamp light with cozy falloff, soft shadows, and intimate indoor mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse warm bedside or desk lamp light with cozy falloff, soft shadows, and intimate indoor mood.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "light_combo_sunset_backlight",
       "name": "Sunset Backlight",
-      "text": "Use sunset backlighting with glowing hair edges, warm rim light, and controlled face visibility.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse sunset backlighting with glowing hair edges, warm rim light, and controlled face visibility.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "light_combo_forest_dappled",
       "name": "Dappled Forest Light",
-      "text": "Use dappled forest light passing through leaves, creating natural highlights, soft shadows, and organic depth.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse dappled forest light passing through leaves, creating natural highlights, soft shadows, and organic depth.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "light_combo_neon_reflections",
       "name": "Neon Reflections",
-      "text": "Use neon light reflecting on wet surfaces, glossy clothing, glass, or metal for stylish color depth.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse neon light reflecting on wet surfaces, glossy clothing, glass, or metal for stylish color depth.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "light_combo_overcast_portrait",
       "name": "Overcast Portrait",
-      "text": "Use overcast daylight for soft flattering portrait lighting with minimal harsh shadows.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse overcast daylight for soft flattering portrait lighting with minimal harsh shadows.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "light_combo_candle_gothic",
       "name": "Gothic Candlelight",
-      "text": "Use candlelight in a darker gothic space with warm highlights, deep but readable shadows, and atmospheric glow.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse candlelight in a darker gothic space with warm highlights, deep but readable shadows, and atmospheric glow.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "light_combo_blue_lab",
       "name": "Blue Laboratory Light",
-      "text": "Use cool blue laboratory lighting with clean highlights, glass reflections, and a precise technical mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse cool blue laboratory lighting with clean highlights, glass reflections, and a precise technical mood.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "light_combo_snow_diffuse",
       "name": "Snow Diffuse Light",
-      "text": "Use snow-reflected diffuse light with soft cool brightness and gentle winter clarity.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse snow-reflected diffuse light with soft cool brightness and gentle winter clarity.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "light_combo_stage_spotlights",
       "name": "Stage Spotlights",
-      "text": "Use stage spotlights with clear beams, performance focus, and balanced subject visibility.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse stage spotlights with clear beams, performance focus, and balanced subject visibility.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "light_combo_firelight_night",
       "name": "Firelight Night",
-      "text": "Use warm firelight at night with flickering orange highlights, soft falloff, and deep atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse warm firelight at night with flickering orange highlights, soft falloff, and deep atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "light_combo_rain_gray",
       "name": "Gray Rain Light",
-      "text": "Use gray rainy daylight with muted color, diffused contrast, and reflective environmental softness.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse gray rainy daylight with muted color, diffused contrast, and reflective environmental softness.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "light_combo_moon_fog",
       "name": "Moonlit Fog",
-      "text": "Use moonlight through fog with cool blue tones, soft silhouettes, and quiet mystery.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse moonlight through fog with cool blue tones, soft silhouettes, and quiet mystery.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "light_combo_golden_window",
       "name": "Golden Window Light",
-      "text": "Use golden light through a window with warm beams, dust motes, and natural indoor glow.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse golden light through a window with warm beams, dust motes, and natural indoor glow.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "light_combo_hologram_glow",
       "name": "Hologram Glow",
-      "text": "Use hologram glow as a light source with cyan or violet accents, soft reflections, and futuristic atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// lighting combos\nUse hologram glow as a light source with cyan or violet accents, soft reflections, and futuristic atmosphere.",
       "scope": {
         "type": "global"
       },

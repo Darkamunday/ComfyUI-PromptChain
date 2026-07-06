@@ -4,7 +4,7 @@
     {
       "id": "cleanup_preserve_core_prompt",
       "name": "Preserve Core Prompt",
-      "text": "Preserve the user's main subject, setting, and intent while improving clarity, detail, lighting, and coherence.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nPreserve the user's main subject, setting, and intent while improving clarity, detail, lighting, and coherence.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "cleanup_remove_conflicts",
       "name": "Remove Conflicts",
-      "text": "Avoid contradictory instructions such as bright daylight and dark night together unless the contrast is intentional.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nAvoid contradictory instructions such as bright daylight and dark night together unless the contrast is intentional.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "cleanup_prioritize_subject",
       "name": "Prioritize Subject",
-      "text": "Keep the main subject as the clear visual focus, with background and props supporting rather than competing.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nKeep the main subject as the clear visual focus, with background and props supporting rather than competing.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "cleanup_clean_prompt_flow",
       "name": "Clean Prompt Flow",
-      "text": "Organize the image idea into subject, action, environment, lighting, mood, style, and finishing detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nOrganize the image idea into subject, action, environment, lighting, mood, style, and finishing detail.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "cleanup_reduce_tag_spam",
       "name": "Reduce Tag Spam",
-      "text": "Avoid unnecessary repeated tags; use clear descriptive phrasing that works across multiple image models.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nAvoid unnecessary repeated tags; use clear descriptive phrasing that works across multiple image models.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "cleanup_fix_lighting_bias",
       "name": "Fix Lighting Bias",
-      "text": "If the image becomes too dark, replace vague cinematic lighting with specific readable lighting and balanced exposure.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nIf the image becomes too dark, replace vague cinematic lighting with specific readable lighting and balanced exposure.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "cleanup_simplify_scene",
       "name": "Simplify Scene",
-      "text": "Simplify the scene by removing unnecessary props, extra characters, and competing background details.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nSimplify the scene by removing unnecessary props, extra characters, and competing background details.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "cleanup_strengthen_materials",
       "name": "Strengthen Materials",
-      "text": "Clarify fabric, metal, glass, leather, skin, hair, and environmental materials with realistic surface behavior.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nClarify fabric, metal, glass, leather, skin, hair, and environmental materials with realistic surface behavior.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "cleanup_strengthen_pose",
       "name": "Strengthen Pose",
-      "text": "Clarify pose, weight distribution, hand placement, body direction, and readable silhouette.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nClarify pose, weight distribution, hand placement, body direction, and readable silhouette.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "cleanup_strengthen_mood",
       "name": "Strengthen Mood",
-      "text": "Clarify the emotional tone through expression, color, lighting, environment, and pose.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nClarify the emotional tone through expression, color, lighting, environment, and pose.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "cleanup_fix_background",
       "name": "Fix Background",
-      "text": "Make the background specific, readable, and supportive instead of vague, empty, or overly dark.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nMake the background specific, readable, and supportive instead of vague, empty, or overly dark.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "cleanup_fix_anatomy",
       "name": "Fix Anatomy",
-      "text": "Prioritize natural proportions, clean joints, correct hands, readable face, and believable body alignment.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nPrioritize natural proportions, clean joints, correct hands, readable face, and believable body alignment.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "cleanup_model_neutral",
       "name": "Model Neutral Rewrite",
-      "text": "Use plain descriptive language that works for anime, semi-realistic, realistic, SDXL, Flux, Lumina, and Qwen-style models.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nUse plain descriptive language that works for anime, semi-realistic, realistic, SDXL, Flux, Lumina, and Qwen-style models.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "cleanup_keep_concise",
       "name": "Keep Concise",
-      "text": "Keep the prompt concise enough to remain focused while still giving strong subject, setting, lighting, and quality guidance.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nKeep the prompt concise enough to remain focused while still giving strong subject, setting, lighting, and quality guidance.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "cleanup_final_check",
       "name": "Final Check",
-      "text": "Ensure the prompt has no obvious contradictions, no missing subject, no vague background, and no unwanted text instruction.",
+      "text": "// Your Prompt\n{cursor}\n\n// prompt cleanup\nEnsure the prompt has no obvious contradictions, no missing subject, no vague background, and no unwanted text instruction.",
       "scope": {
         "type": "global"
       },

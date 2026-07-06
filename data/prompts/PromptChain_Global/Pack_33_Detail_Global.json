@@ -4,7 +4,7 @@
     {
       "id": "detail_skin_texture",
       "name": "Natural Skin Detail",
-      "text": "Preserve natural skin detail with soft texture, subtle imperfections, believable shading, and balanced smoothness.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nPreserve natural skin detail with soft texture, subtle imperfections, believable shading, and balanced smoothness.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "detail_hair_strands",
       "name": "Hair Strand Detail",
-      "text": "Emphasize individual hair strands, soft flyaways, natural shine, and believable hair flow.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nEmphasize individual hair strands, soft flyaways, natural shine, and believable hair flow.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "detail_eye_reflections",
       "name": "Eye Reflections",
-      "text": "Enhance the eyes with clean reflections, detailed irises, bright catchlights, and expressive clarity.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nEnhance the eyes with clean reflections, detailed irises, bright catchlights, and expressive clarity.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "detail_fabric_folds",
       "name": "Fabric Folds",
-      "text": "Enhance clothing with natural fabric folds, seam detail, thickness, and material-specific behavior.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nEnhance clothing with natural fabric folds, seam detail, thickness, and material-specific behavior.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "detail_jewelry",
       "name": "Jewelry Detail",
-      "text": "Enhance jewelry with small highlights, metal reflections, gemstone clarity, and refined craftsmanship.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nEnhance jewelry with small highlights, metal reflections, gemstone clarity, and refined craftsmanship.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "detail_environment",
       "name": "Environmental Detail",
-      "text": "Add meaningful environmental detail while keeping the composition readable and focused.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nAdd meaningful environmental detail while keeping the composition readable and focused.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "detail_micro_texture",
       "name": "Micro Texture",
-      "text": "Add subtle micro textures to materials, skin, clothing, and surfaces for a more grounded image.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nAdd subtle micro textures to materials, skin, clothing, and surfaces for a more grounded image.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "detail_reflections",
       "name": "Reflections",
-      "text": "Add believable reflections on glass, metal, water, or polished surfaces according to the lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nAdd believable reflections on glass, metal, water, or polished surfaces according to the lighting.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "detail_atmospheric_depth",
       "name": "Atmospheric Depth",
-      "text": "Add depth through foreground, midground, background separation, haze, and controlled contrast.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nAdd depth through foreground, midground, background separation, haze, and controlled contrast.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "detail_motion_flow",
       "name": "Motion Flow",
-      "text": "Add natural motion cues through hair, clothing, pose, or environmental movement.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nAdd natural motion cues through hair, clothing, pose, or environmental movement.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "detail_clean_edges",
       "name": "Clean Edges",
-      "text": "Keep important shapes clean and readable with clear silhouettes and controlled detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nKeep important shapes clean and readable with clear silhouettes and controlled detail.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "detail_surface_wear",
       "name": "Subtle Wear",
-      "text": "Add subtle wear, scuffs, fabric variation, or material aging where appropriate for realism.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nAdd subtle wear, scuffs, fabric variation, or material aging where appropriate for realism.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "detail_background_balance",
       "name": "Background Balance",
-      "text": "Keep the background detailed enough to feel alive but not so busy that it competes with the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nKeep the background detailed enough to feel alive but not so busy that it competes with the subject.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "detail_light_interaction",
       "name": "Light Interaction",
-      "text": "Ensure light interacts realistically with skin, hair, clothing, props, and the environment.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nEnsure light interacts realistically with skin, hair, clothing, props, and the environment.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "detail_final_clarity",
       "name": "Final Clarity",
-      "text": "Improve overall clarity, subject readability, material detail, and coherent image finish.",
+      "text": "// Your Prompt\n{cursor}\n\n// detail\nImprove overall clarity, subject readability, material detail, and coherent image finish.",
       "scope": {
         "type": "global"
       },

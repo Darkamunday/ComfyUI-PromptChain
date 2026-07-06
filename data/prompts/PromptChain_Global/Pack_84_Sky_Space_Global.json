@@ -4,7 +4,7 @@
     {
       "id": "sky_clear_blue",
       "name": "Clear Blue Sky",
-      "text": "Use a clear blue sky with bright visibility, clean color, and uplifting openness.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nUse a clear blue sky with bright visibility, clean color, and uplifting openness.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "sky_cloudy",
       "name": "Cloudy Sky",
-      "text": "Use a cloudy sky with soft light diffusion, layered cloud shapes, and gentle atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nUse a cloudy sky with soft light diffusion, layered cloud shapes, and gentle atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "sky_dramatic_clouds",
       "name": "Dramatic Clouds",
-      "text": "Use dramatic clouds with strong shapes, atmospheric depth, and cinematic sky presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nUse dramatic clouds with strong shapes, atmospheric depth, and cinematic sky presence.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "sky_pink_sunset",
       "name": "Pink Sunset Sky",
-      "text": "Use a pink sunset sky with soft gradients, warm highlights, and romantic evening mood.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nUse a pink sunset sky with soft gradients, warm highlights, and romantic evening mood.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "sky_star_field",
       "name": "Star Field",
-      "text": "Use a star-filled sky with clear constellations, deep blue tones, and quiet wonder.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nUse a star-filled sky with clear constellations, deep blue tones, and quiet wonder.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "sky_milky_way",
       "name": "Milky Way",
-      "text": "Use a Milky Way sky with dense stars, cosmic color, and grand night atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nUse a Milky Way sky with dense stars, cosmic color, and grand night atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "sky_aurora",
       "name": "Aurora",
-      "text": "Add aurora lights across the night sky with flowing green, blue, or violet ribbons and soft glow.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nAdd aurora lights across the night sky with flowing green, blue, or violet ribbons and soft glow.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "sky_full_moon",
       "name": "Full Moon",
-      "text": "Add a full moon with silver light, quiet atmosphere, and clear nighttime silhouette.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nAdd a full moon with silver light, quiet atmosphere, and clear nighttime silhouette.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "sky_eclipse",
       "name": "Eclipse",
-      "text": "Add an eclipse-like sky with dramatic glow, unusual light, and mystical tension.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nAdd an eclipse-like sky with dramatic glow, unusual light, and mystical tension.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "sky_shooting_stars",
       "name": "Shooting Stars",
-      "text": "Add shooting stars crossing the sky with subtle trails and magical nighttime feeling.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nAdd shooting stars crossing the sky with subtle trails and magical nighttime feeling.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "sky_planets",
       "name": "Visible Planets",
-      "text": "Add visible planets or moons in the sky for a fantasy or sci-fi atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nAdd visible planets or moons in the sky for a fantasy or sci-fi atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "sky_nebula",
       "name": "Nebula Sky",
-      "text": "Use a nebula-filled sky with colorful cosmic clouds, distant stars, and surreal beauty.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nUse a nebula-filled sky with colorful cosmic clouds, distant stars, and surreal beauty.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "sky_storm_front",
       "name": "Storm Front",
-      "text": "Use a storm front approaching with layered clouds, wind, and atmospheric pressure.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nUse a storm front approaching with layered clouds, wind, and atmospheric pressure.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "sky_god_rays",
       "name": "God Rays",
-      "text": "Add sunlight breaking through clouds with visible rays, soft haze, and uplifting scale.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nAdd sunlight breaking through clouds with visible rays, soft haze, and uplifting scale.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "sky_cloud_sea",
       "name": "Sea of Clouds",
-      "text": "Place the scene above a sea of clouds with bright light, floating atmosphere, and grand elevation.",
+      "text": "// Your Prompt\n{cursor}\n\n// sky and space\nPlace the scene above a sea of clouds with bright light, floating atmosphere, and grand elevation.",
       "scope": {
         "type": "global"
       },

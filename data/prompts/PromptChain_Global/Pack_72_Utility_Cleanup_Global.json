@@ -4,7 +4,7 @@
     {
       "id": "cleanup_no_extra_people",
       "name": "No Extra People",
-      "text": "Avoid adding extra people or background characters unless the prompt explicitly requests them.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nAvoid adding extra people or background characters unless the prompt explicitly requests them.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "cleanup_keep_one_subject",
       "name": "Keep One Subject",
-      "text": "Keep the image focused on a single main subject with no duplicates, clones, or unintended companions.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nKeep the image focused on a single main subject with no duplicates, clones, or unintended companions.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "cleanup_keep_outfit",
       "name": "Keep Outfit Consistent",
-      "text": "Keep the outfit consistent across the body with matching fabrics, accessories, colors, and design logic.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nKeep the outfit consistent across the body with matching fabrics, accessories, colors, and design logic.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "cleanup_keep_hair_consistent",
       "name": "Keep Hair Consistent",
-      "text": "Keep hairstyle, hair color, length, and accessories consistent throughout the image.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nKeep hairstyle, hair color, length, and accessories consistent throughout the image.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "cleanup_keep_eye_color",
       "name": "Keep Eye Color",
-      "text": "Keep the eye color consistent, clear, and symmetrical unless heterochromia is requested.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nKeep the eye color consistent, clear, and symmetrical unless heterochromia is requested.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "cleanup_keep_background_simple",
       "name": "Keep Background Simple",
-      "text": "Keep the background simple and supportive, avoiding clutter that competes with the subject.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nKeep the background simple and supportive, avoiding clutter that competes with the subject.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "cleanup_no_random_props",
       "name": "No Random Props",
-      "text": "Avoid adding random objects, weapons, food, signs, animals, or decorations unless requested.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nAvoid adding random objects, weapons, food, signs, animals, or decorations unless requested.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "cleanup_no_style_conflict",
       "name": "No Style Conflict",
-      "text": "Avoid mixing incompatible styles within the same image, keeping rendering, clothing, and environment visually coherent.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nAvoid mixing incompatible styles within the same image, keeping rendering, clothing, and environment visually coherent.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "cleanup_no_dark_bias",
       "name": "No Dark Bias",
-      "text": "Avoid unnecessary darkening; preserve readable exposure, visible background, and clear subject lighting.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nAvoid unnecessary darkening; preserve readable exposure, visible background, and clear subject lighting.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "cleanup_no_overdetail",
       "name": "No Overdetail",
-      "text": "Avoid excessive small details that create noise, clutter, or visual confusion.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nAvoid excessive small details that create noise, clutter, or visual confusion.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "cleanup_anatomy_priority",
       "name": "Anatomy Priority",
-      "text": "Prioritize clean anatomy, believable joints, readable hands, and natural body proportions.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nPrioritize clean anatomy, believable joints, readable hands, and natural body proportions.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "cleanup_face_priority",
       "name": "Face Priority",
-      "text": "Prioritize a clean, attractive, symmetrical, expressive face with readable eyes and mouth.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nPrioritize a clean, attractive, symmetrical, expressive face with readable eyes and mouth.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "cleanup_hands_priority",
       "name": "Hands Priority",
-      "text": "Prioritize correct hand anatomy, natural finger count, and believable hand gestures.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nPrioritize correct hand anatomy, natural finger count, and believable hand gestures.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "cleanup_material_priority",
       "name": "Material Priority",
-      "text": "Prioritize believable material behavior for cloth, skin, metal, glass, leather, hair, and environmental surfaces.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nPrioritize believable material behavior for cloth, skin, metal, glass, leather, hair, and environmental surfaces.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "cleanup_prompt_balance",
       "name": "Prompt Balance",
-      "text": "Balance all prompt elements so subject, outfit, lighting, background, and mood work together without overpowering each other.",
+      "text": "// Your Prompt\n{cursor}\n\n// utility cleanup\nBalance all prompt elements so subject, outfit, lighting, background, and mood work together without overpowering each other.",
       "scope": {
         "type": "global"
       },

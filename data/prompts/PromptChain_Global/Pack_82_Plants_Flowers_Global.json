@@ -4,7 +4,7 @@
     {
       "id": "plant_cherry_blossoms",
       "name": "Cherry Blossoms",
-      "text": "Add cherry blossoms with soft pink petals, delicate branches, and gentle spring atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd cherry blossoms with soft pink petals, delicate branches, and gentle spring atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -13,7 +13,7 @@
     {
       "id": "plant_roses",
       "name": "Roses",
-      "text": "Add roses with layered petals, rich color, natural leaves, and romantic detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd roses with layered petals, rich color, natural leaves, and romantic detail.",
       "scope": {
         "type": "global"
       },
@@ -22,7 +22,7 @@
     {
       "id": "plant_lilies",
       "name": "Lilies",
-      "text": "Add lilies with elegant petals, clean shapes, and refined floral presence.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd lilies with elegant petals, clean shapes, and refined floral presence.",
       "scope": {
         "type": "global"
       },
@@ -31,7 +31,7 @@
     {
       "id": "plant_sunflowers",
       "name": "Sunflowers",
-      "text": "Add sunflowers with bright yellow petals, large centers, and cheerful summer warmth.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd sunflowers with bright yellow petals, large centers, and cheerful summer warmth.",
       "scope": {
         "type": "global"
       },
@@ -40,7 +40,7 @@
     {
       "id": "plant_lavender",
       "name": "Lavender",
-      "text": "Add lavender with purple flower spikes, soft field texture, and calming color.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd lavender with purple flower spikes, soft field texture, and calming color.",
       "scope": {
         "type": "global"
       },
@@ -49,7 +49,7 @@
     {
       "id": "plant_wisteria",
       "name": "Wisteria",
-      "text": "Add hanging wisteria blossoms with cascading purple clusters and dreamy garden atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd hanging wisteria blossoms with cascading purple clusters and dreamy garden atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -58,7 +58,7 @@
     {
       "id": "plant_hydrangea",
       "name": "Hydrangea",
-      "text": "Add hydrangea flowers with clustered petals, soft blue or pink color, and lush garden volume.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd hydrangea flowers with clustered petals, soft blue or pink color, and lush garden volume.",
       "scope": {
         "type": "global"
       },
@@ -67,7 +67,7 @@
     {
       "id": "plant_lotus",
       "name": "Lotus",
-      "text": "Add lotus flowers with broad leaves, calm water, and serene spiritual beauty.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd lotus flowers with broad leaves, calm water, and serene spiritual beauty.",
       "scope": {
         "type": "global"
       },
@@ -76,7 +76,7 @@
     {
       "id": "plant_maple_leaves",
       "name": "Maple Leaves",
-      "text": "Add maple leaves with red, orange, or gold seasonal color and graceful shapes.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd maple leaves with red, orange, or gold seasonal color and graceful shapes.",
       "scope": {
         "type": "global"
       },
@@ -85,7 +85,7 @@
     {
       "id": "plant_ivy",
       "name": "Ivy",
-      "text": "Add ivy climbing walls, stone, or wood with natural growth patterns and soft greenery.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd ivy climbing walls, stone, or wood with natural growth patterns and soft greenery.",
       "scope": {
         "type": "global"
       },
@@ -94,7 +94,7 @@
     {
       "id": "plant_moss",
       "name": "Moss",
-      "text": "Add moss covering stones, roots, or old surfaces with soft texture and natural damp atmosphere.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd moss covering stones, roots, or old surfaces with soft texture and natural damp atmosphere.",
       "scope": {
         "type": "global"
       },
@@ -103,7 +103,7 @@
     {
       "id": "plant_fern",
       "name": "Ferns",
-      "text": "Add ferns with delicate fronds, layered greenery, and forest-floor detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd ferns with delicate fronds, layered greenery, and forest-floor detail.",
       "scope": {
         "type": "global"
       },
@@ -112,7 +112,7 @@
     {
       "id": "plant_bamboo",
       "name": "Bamboo",
-      "text": "Add bamboo stalks with vertical rhythm, green leaves, and peaceful natural structure.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd bamboo stalks with vertical rhythm, green leaves, and peaceful natural structure.",
       "scope": {
         "type": "global"
       },
@@ -121,7 +121,7 @@
     {
       "id": "plant_glowing_flora",
       "name": "Glowing Flora",
-      "text": "Add fantasy glowing plants with subtle bioluminescence, soft light, and magical natural detail.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd fantasy glowing plants with subtle bioluminescence, soft light, and magical natural detail.",
       "scope": {
         "type": "global"
       },
@@ -130,7 +130,7 @@
     {
       "id": "plant_wildflowers",
       "name": "Wildflowers",
-      "text": "Add wildflowers with varied colors, natural spacing, and cheerful meadow texture.",
+      "text": "// Your Prompt\n{cursor}\n\n// plants and flowers\nAdd wildflowers with varied colors, natural spacing, and cheerful meadow texture.",
       "scope": {
         "type": "global"
       },
