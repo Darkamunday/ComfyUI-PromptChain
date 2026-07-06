@@ -1,0 +1,140 @@
+{
+  "name": "Pack_21_Medieval_Global",
+  "prompts": [
+    {
+      "id": "medieval_castle_hall",
+      "name": "Castle Hall",
+      "text": "Place the scene in a grand medieval castle hall with stone walls, banners, long tables, torchlight, and noble atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_village",
+      "name": "Medieval Village",
+      "text": "Create a medieval village with timber-framed houses, cobblestone paths, market stalls, and grounded historical detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_blacksmith",
+      "name": "Blacksmith Workshop",
+      "text": "Set the scene in a blacksmith workshop with glowing forge, tools, anvils, sparks, and rugged handcrafted texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_tavern",
+      "name": "Tavern",
+      "text": "Place the scene in a warm medieval tavern with wooden beams, candlelight, mugs, barrels, and lively rustic atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_forest_road",
+      "name": "Forest Road",
+      "text": "Create a medieval forest road with wagon tracks, tall trees, mossy stones, and travel-worn atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_knight_armor",
+      "name": "Knight Armor",
+      "text": "Add medieval knight armor with polished plate, leather straps, chainmail texture, and realistic weight.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_royal_court",
+      "name": "Royal Court",
+      "text": "Create a royal court setting with elegant banners, polished floors, noble clothing, and refined ceremonial presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_monastery",
+      "name": "Monastery",
+      "text": "Place the scene in a quiet monastery with stone arches, candles, manuscripts, and peaceful spiritual atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_market",
+      "name": "Market Square",
+      "text": "Create a medieval market square with colorful stalls, baskets, fabrics, people, and authentic daily-life detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_battlefield",
+      "name": "After Battle",
+      "text": "Create a restrained medieval battlefield aftermath with broken banners, muddy ground, distant smoke, and dramatic historical mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_throne_room",
+      "name": "Throne Room",
+      "text": "Place the subject in a medieval throne room with carved stone, royal decorations, dramatic light, and authority.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_wizard_tower",
+      "name": "Wizard Tower",
+      "text": "Set the scene in an old wizard tower with books, candles, maps, telescopes, and magical scholarly clutter.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_farm",
+      "name": "Countryside Farm",
+      "text": "Create a medieval countryside farm with fields, wooden fences, simple cottages, animals, and warm rural detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_cathedral",
+      "name": "Cathedral Interior",
+      "text": "Place the scene inside a medieval cathedral with high arches, stained glass, stone columns, and solemn beauty.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    },
+    {
+      "id": "medieval_dungeon",
+      "name": "Dungeon Corridor",
+      "text": "Create a medieval dungeon corridor with rough stone, iron bars, torchlight, and cautious atmospheric tension.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "medieval"
+    }
+  ]
+}

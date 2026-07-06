@@ -1,0 +1,140 @@
+{
+  "name": "Pack_28_Time_of_Day_Global",
+  "prompts": [
+    {
+      "id": "time_sunrise",
+      "name": "Sunrise",
+      "text": "Set the scene at sunrise with soft golden light, fresh atmosphere, long shadows, and gentle morning color.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_early_morning",
+      "name": "Early Morning",
+      "text": "Set the scene in early morning with cool fresh light, quiet surroundings, and a clean start-of-day feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_late_morning",
+      "name": "Late Morning",
+      "text": "Set the scene in late morning with bright but soft daylight, natural color, and calm clarity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_midday",
+      "name": "Midday",
+      "text": "Set the scene at midday with strong clear daylight, vivid color, and high visibility.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_afternoon",
+      "name": "Afternoon",
+      "text": "Set the scene in the afternoon with warm natural light, comfortable contrast, and relaxed daytime energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_golden_hour",
+      "name": "Golden Hour",
+      "text": "Set the scene during golden hour with warm sunlight, soft highlights, and cinematic amber tones.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_sunset",
+      "name": "Sunset",
+      "text": "Set the scene at sunset with rich sky colors, warm fading light, and gentle evening atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_dusk",
+      "name": "Dusk",
+      "text": "Set the scene at dusk with fading twilight, cool blue shadows, and a quiet transitional mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_blue_hour",
+      "name": "Blue Hour",
+      "text": "Set the scene during blue hour with deep cool tones, soft ambient light, and elegant evening atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_night",
+      "name": "Night",
+      "text": "Set the scene at night with controlled darkness, readable subject lighting, and calm nighttime mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_midnight",
+      "name": "Midnight",
+      "text": "Set the scene at midnight with deep shadows, moonlight, quiet atmosphere, and strong mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_rainy_evening",
+      "name": "Rainy Evening",
+      "text": "Set the scene during a rainy evening with diffused light, wet reflections, and cozy muted atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_snowy_morning",
+      "name": "Snowy Morning",
+      "text": "Set the scene during a snowy morning with soft white light, cold air, and quiet winter stillness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_neon_night",
+      "name": "Neon Night",
+      "text": "Set the scene at neon-lit night with colorful artificial light, reflective surfaces, and stylish urban mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    },
+    {
+      "id": "time_candlelit_night",
+      "name": "Candlelit Night",
+      "text": "Set the scene at night lit by candles, with warm glow, soft falloff, and intimate atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "time of day"
+    }
+  ]
+}

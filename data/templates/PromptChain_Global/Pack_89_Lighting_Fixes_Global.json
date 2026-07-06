@@ -1,0 +1,140 @@
+{
+  "name": "Pack_89_Lighting_Fixes_Global",
+  "prompts": [
+    {
+      "id": "fix_brighten_scene",
+      "name": "Brighten Scene",
+      "text": "Brighten the scene with balanced exposure while keeping highlights controlled and shadows detailed.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_reduce_heavy_shadows",
+      "name": "Reduce Heavy Shadows",
+      "text": "Reduce heavy shadows so the subject and background remain readable without losing depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_soften_harsh_light",
+      "name": "Soften Harsh Light",
+      "text": "Soften harsh lighting by diffusing bright areas, easing contrast, and smoothing shadow transitions.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_keep_face_lit",
+      "name": "Keep Face Lit",
+      "text": "Ensure the face remains clearly lit, expressive, and readable even in dramatic or night lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_avoid_black_background",
+      "name": "Avoid Black Background",
+      "text": "Avoid a plain black background unless requested; keep visible environmental context and usable depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_even_lighting",
+      "name": "Even Lighting",
+      "text": "Use more even lighting across the scene to reduce muddy patches, harsh contrast, and lost details.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_clean_white_balance",
+      "name": "Clean White Balance",
+      "text": "Correct the white balance so colors look natural, skin tones stay believable, and lighting feels coherent.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_control_bloom",
+      "name": "Control Bloom",
+      "text": "Keep glow and bloom controlled so highlights feel atmospheric without washing out details.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_night_readability",
+      "name": "Night Readability",
+      "text": "For night scenes, keep enough moonlight, lamp light, or reflected light for the subject to remain readable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_window_exposure",
+      "name": "Window Exposure",
+      "text": "Balance window light so interiors stay visible and outdoor highlights do not overpower the scene.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_backlight_balance",
+      "name": "Backlight Balance",
+      "text": "Balance backlighting with fill light so the silhouette is attractive but the subject is not lost.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_no_muddy_colors",
+      "name": "No Muddy Colors",
+      "text": "Avoid muddy or dull colors by keeping values separated, saturation controlled, and lighting clean.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_reflection_lighting",
+      "name": "Reflection Lighting",
+      "text": "Make reflections follow the scene lighting direction and surface material realistically.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_skin_lighting",
+      "name": "Skin Lighting",
+      "text": "Keep skin lighting flattering, natural, and consistent with the surrounding environment.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    },
+    {
+      "id": "fix_background_visibility",
+      "name": "Background Visibility",
+      "text": "Keep the background visible enough to support the scene while preserving clear subject focus.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting fixes"
+    }
+  ]
+}

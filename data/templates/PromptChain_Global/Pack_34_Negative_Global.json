@@ -1,0 +1,140 @@
+{
+  "name": "Pack_34_Negative_Global",
+  "prompts": [
+    {
+      "id": "negative_low_quality",
+      "name": "Low Quality Cleanup",
+      "text": "Avoid low quality rendering, blurry details, muddy textures, poor composition, and unfinished areas.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_text_watermark",
+      "name": "No Text or Watermark",
+      "text": "Avoid visible text, watermark, signature, logo, username, captions, and unwanted writing in the image.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_bad_anatomy",
+      "name": "Bad Anatomy Cleanup",
+      "text": "Avoid broken anatomy, distorted limbs, incorrect joints, warped body structure, and unnatural proportions.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_bad_hands",
+      "name": "Bad Hands Cleanup",
+      "text": "Avoid malformed hands, extra fingers, missing fingers, fused fingers, broken wrists, and unreadable hand poses.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_bad_face",
+      "name": "Bad Face Cleanup",
+      "text": "Avoid distorted facial features, asymmetrical eyes, warped mouth, broken nose, and unnatural expressions.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_extra_limbs",
+      "name": "Extra Limb Cleanup",
+      "text": "Avoid extra arms, extra legs, duplicate hands, duplicate faces, and unwanted body parts.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_bad_lighting",
+      "name": "Bad Lighting Cleanup",
+      "text": "Avoid underexposure, overexposure, harsh muddy shadows, blown highlights, and inconsistent lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_clutter",
+      "name": "Clutter Cleanup",
+      "text": "Avoid unnecessary clutter, distracting background objects, and visual noise that weakens the main subject.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_artifacts",
+      "name": "Artifact Cleanup",
+      "text": "Avoid jpeg artifacts, compression noise, strange texture glitches, broken edges, and rendering errors.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_poor_perspective",
+      "name": "Perspective Cleanup",
+      "text": "Avoid broken perspective, floating objects, warped furniture, and inconsistent scale.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_bad_materials",
+      "name": "Material Cleanup",
+      "text": "Avoid plastic-looking skin, unrealistic fabric, incorrect metal reflections, and muddy material response.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_duplicate_subject",
+      "name": "Duplicate Subject Cleanup",
+      "text": "Avoid accidental duplicate subjects, ghost figures, split faces, and repeated character fragments.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_overprocessed",
+      "name": "Overprocessed Cleanup",
+      "text": "Avoid excessive sharpening, oversaturation, heavy artificial filters, and unnatural post-processing.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_wrong_style",
+      "name": "Style Drift Cleanup",
+      "text": "Avoid unwanted style drift, inconsistent rendering, mismatched realism levels, and clashing visual language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    },
+    {
+      "id": "negative_unwanted_nsfw",
+      "name": "Unwanted NSFW Cleanup",
+      "text": "Avoid unintended nudity, sexualized framing, or explicit content unless specifically requested.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "negative"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Pack_15_Photography_Global",
+  "prompts": [
+    {
+      "id": "photo_raw",
+      "name": "Raw Photo",
+      "text": "Give the image a raw photo feeling with realistic exposure, natural color response, and believable imperfections.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_editorial",
+      "name": "Editorial Photography",
+      "text": "Present the image as editorial photography with polished styling, confident composition, and premium magazine-like finish.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_portrait",
+      "name": "Portrait Photography",
+      "text": "Compose the image as professional portrait photography with flattering light, clear facial detail, and natural depth separation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_fashion",
+      "name": "Fashion Photography",
+      "text": "Present the image as fashion photography with outfit-focused composition, polished posing, and refined styling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_lifestyle",
+      "name": "Lifestyle Photography",
+      "text": "Create a lifestyle photography look with natural setting, candid energy, and believable everyday detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_street",
+      "name": "Street Photography",
+      "text": "Create a street photography look with real urban context, natural movement, and candid visual storytelling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_documentary",
+      "name": "Documentary Photography",
+      "text": "Create a documentary photography feeling with grounded realism, natural framing, and believable environmental context.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_fine_art",
+      "name": "Fine Art Photography",
+      "text": "Create a fine-art photography feeling with careful composition, refined mood, and deliberate visual structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_product",
+      "name": "Product Photography",
+      "text": "Use product photography clarity with clean lighting, sharp detail, and strong material readability.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_macro",
+      "name": "Macro Photography",
+      "text": "Use macro photography emphasis with extreme close detail, shallow depth, and crisp texture focus.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_analog_film",
+      "name": "Analog Film",
+      "text": "Give the image an analog film character with subtle grain, natural contrast, and timeless color response.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_polaroid",
+      "name": "Instant Film",
+      "text": "Give the image an instant-film feeling with soft contrast, nostalgic color, and casual charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_high_fashion",
+      "name": "High Fashion",
+      "text": "Present the image as high-fashion photography with bold styling, refined elegance, and strong visual identity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_cinematic_still",
+      "name": "Cinematic Still",
+      "text": "Frame the image like a cinematic still with visual storytelling, balanced composition, and expressive atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    },
+    {
+      "id": "photo_travel",
+      "name": "Travel Photography",
+      "text": "Create a travel photography feel with a strong sense of place, natural lighting, and rich environmental detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "photography"
+    }
+  ]
+}

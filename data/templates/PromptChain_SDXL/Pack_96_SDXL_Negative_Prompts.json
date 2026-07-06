@@ -1,0 +1,85 @@
+{
+  "name": "Pack_96_SDXL_Negative_Prompts",
+  "prompts": [
+    {
+      "id": "sdxl_negative_clean",
+      "name": "SDXL Clean Negative",
+      "text": "low quality, worst quality, low resolution, blurry, out of focus, jpeg artifacts, compression artifacts, bad anatomy, bad hands, malformed hands, extra fingers, missing fingers, fused fingers, bad face, distorted face, asymmetrical eyes, cross-eye, poorly drawn eyes, deformed body, extra limbs, missing limbs, duplicate subject, mutated limbs, unnatural proportions, bad perspective, broken composition, messy background, cluttered background, text, watermark, logo, signature, username",
+      "scope": {
+        "type": "architecture",
+        "architecture": "sdxl"
+      },
+      "category": "sdxl negative"
+    },
+    {
+      "id": "sdxl_negative_anime_semireal",
+      "name": "SDXL Anime Semi-Real Negative",
+      "text": "low quality, worst quality, low resolution, blurry, jpeg artifacts, bad anatomy, bad hands, malformed hands, extra fingers, missing fingers, fused fingers, bad face, distorted face, asymmetrical eyes, poorly drawn eyes, deformed body, extra limbs, missing limbs, duplicate character, mutated limbs, unnatural proportions, bad perspective, messy background, text, watermark, logo, signature, username, realistic skin pores, harsh realism, uncanny face",
+      "scope": {
+        "type": "architecture",
+        "architecture": "sdxl"
+      },
+      "category": "sdxl negative"
+    },
+    {
+      "id": "sdxl_negative_realistic",
+      "name": "SDXL Realistic Negative",
+      "text": "low quality, worst quality, low resolution, blurry, out of focus, jpeg artifacts, overprocessed, oversharpened, plastic skin, waxy skin, bad anatomy, bad hands, extra fingers, missing fingers, bad face, distorted face, asymmetrical eyes, crossed eyes, deformed body, extra limbs, missing limbs, duplicate person, unnatural proportions, bad perspective, messy background, text, watermark, logo, signature",
+      "scope": {
+        "type": "architecture",
+        "architecture": "sdxl"
+      },
+      "category": "sdxl negative"
+    },
+    {
+      "id": "sdxl_negative_short",
+      "name": "SDXL Short Negative",
+      "text": "low quality, blurry, bad anatomy, bad hands, bad face, extra fingers, missing fingers, extra limbs, duplicate subject, text, watermark, logo, signature",
+      "scope": {
+        "type": "architecture",
+        "architecture": "sdxl"
+      },
+      "category": "sdxl negative"
+    },
+    {
+      "id": "sdxl_negative_hands_anatomy",
+      "name": "SDXL Hands Anatomy Cleanup",
+      "text": "bad hands, malformed hands, extra fingers, missing fingers, fused fingers, broken wrists, bad anatomy, unnatural proportions, deformed body, extra limbs, missing limbs, mutated limbs",
+      "scope": {
+        "type": "architecture",
+        "architecture": "sdxl"
+      },
+      "category": "sdxl negative"
+    },
+    {
+      "id": "sdxl_negative_text_watermark",
+      "name": "SDXL Text Watermark Cleanup",
+      "text": "text, watermark, logo, signature, username, caption, letters, words, random symbols, unreadable text, brand mark",
+      "scope": {
+        "type": "architecture",
+        "architecture": "sdxl"
+      },
+      "category": "sdxl negative"
+    },
+    {
+      "id": "sdxl_negative_background_cleanup",
+      "name": "SDXL Background Cleanup",
+      "text": "messy background, cluttered background, broken perspective, warped room, floating objects, duplicate objects, random props, visual noise",
+      "scope": {
+        "type": "architecture",
+        "architecture": "sdxl"
+      },
+      "category": "sdxl negative"
+    },
+    {
+      "id": "sdxl_negative_overprocessed",
+      "name": "SDXL Overprocessed Cleanup",
+      "text": "overprocessed, oversharpened, oversaturated, harsh contrast, crushed blacks, blown highlights, artificial HDR, plastic skin, waxy skin, muddy colors",
+      "scope": {
+        "type": "architecture",
+        "architecture": "sdxl"
+      },
+      "category": "sdxl negative"
+    }
+  ]
+}

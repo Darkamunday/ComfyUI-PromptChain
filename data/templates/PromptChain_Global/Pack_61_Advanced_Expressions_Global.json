@@ -1,0 +1,140 @@
+{
+  "name": "Pack_61_Advanced_Expressions_Global",
+  "prompts": [
+    {
+      "id": "expression_shy_smile",
+      "name": "Shy Smile",
+      "text": "Give the subject a shy smile with softened eyes, slight blush, gentle posture, and reserved warmth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_nervous",
+      "name": "Nervous",
+      "text": "Give the subject a nervous expression with uncertain eyes, tense mouth, and subtle anxious body language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_embarrassed",
+      "name": "Embarrassed",
+      "text": "Give the subject an embarrassed expression with visible blush, averted gaze, and hesitant body language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_teary_smile",
+      "name": "Teary Smile",
+      "text": "Give the subject a teary smile with moist eyes, emotional softness, and a bittersweet feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_blank_stare",
+      "name": "Blank Stare",
+      "text": "Give the subject a blank stare with neutral mouth, unfocused eyes, and quiet emotional distance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_suspicious",
+      "name": "Suspicious",
+      "text": "Give the subject a suspicious expression with narrowed eyes, tilted head, and cautious body language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_proud",
+      "name": "Proud",
+      "text": "Give the subject a proud expression with lifted chin, confident eyes, and composed posture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_annoyed",
+      "name": "Annoyed",
+      "text": "Give the subject an annoyed expression with slight frown, narrowed eyes, and restrained irritation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_gentle",
+      "name": "Gentle",
+      "text": "Give the subject a gentle expression with soft eyes, relaxed mouth, and kind presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_curious",
+      "name": "Curious",
+      "text": "Give the subject a curious expression with attentive eyes, slight head tilt, and open interest.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_worried",
+      "name": "Worried",
+      "text": "Give the subject a worried expression with tense brows, uncertain eyes, and protective body language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_elegant_smile",
+      "name": "Elegant Smile",
+      "text": "Give the subject an elegant smile with refined composure, calm eyes, and graceful restraint.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_mischievous_safe",
+      "name": "Teasing Smile",
+      "text": "Give the subject a teasing smile with playful eyes, slight smirk, and lively charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_awe",
+      "name": "Awe",
+      "text": "Give the subject an expression of awe with widened eyes, parted lips, and a sense of wonder.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    },
+    {
+      "id": "expression_focus",
+      "name": "Focused",
+      "text": "Give the subject a focused expression with steady gaze, relaxed mouth, and clear concentration.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced expressions"
+    }
+  ]
+}

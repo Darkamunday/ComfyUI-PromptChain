@@ -1,0 +1,140 @@
+{
+  "name": "Pack_76_Emotion_Moods_Global",
+  "prompts": [
+    {
+      "id": "mood_quiet_confidence",
+      "name": "Quiet Confidence",
+      "text": "Create quiet confidence through composed posture, steady eyes, controlled expression, and calm visual strength.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_gentle_loneliness",
+      "name": "Gentle Loneliness",
+      "text": "Create gentle loneliness through negative space, soft expression, muted color, and quiet environmental distance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_first_love",
+      "name": "First Love",
+      "text": "Create a first-love feeling with shy warmth, soft eye contact, delicate blush, and gentle romantic tension.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_after_victory",
+      "name": "After Victory",
+      "text": "Create an after-victory mood with tired relief, subtle pride, softened lighting, and story-worn detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_before_storm",
+      "name": "Before the Storm",
+      "text": "Create a before-the-storm mood with heavy atmosphere, tense stillness, wind, and dramatic anticipation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_home_comfort",
+      "name": "Home Comfort",
+      "text": "Create home comfort with warm light, cozy objects, relaxed posture, and safe familiar surroundings.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_secret_wonder",
+      "name": "Secret Wonder",
+      "text": "Create secret wonder with curious expression, soft magical glow, hidden detail, and discovery-focused framing.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_bittersweet",
+      "name": "Bittersweet",
+      "text": "Create a bittersweet mood with gentle sadness, warm memory, soft light, and restrained emotional detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_festival_joy",
+      "name": "Festival Joy",
+      "text": "Create festival joy with lanterns, crowd warmth, bright expression, food stalls, and celebratory color.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_calm_power",
+      "name": "Calm Power",
+      "text": "Create calm power with still posture, controlled energy, intense gaze, and restrained dramatic lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_sleepy_morning",
+      "name": "Sleepy Morning",
+      "text": "Create sleepy morning mood with soft bed light, relaxed expression, messy hair, and gentle domestic detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_determined_journey",
+      "name": "Determined Journey",
+      "text": "Create determined journey mood with travel gear, forward motion, purposeful gaze, and open environment.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_melancholy_rain",
+      "name": "Melancholy Rain",
+      "text": "Create melancholy rain mood with wet reflections, muted color, thoughtful expression, and soft gray light.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_sparkling_stage",
+      "name": "Sparkling Stage",
+      "text": "Create sparkling stage mood with bright lights, energetic pose, polished costume, and performance confidence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    },
+    {
+      "id": "mood_peaceful_magic",
+      "name": "Peaceful Magic",
+      "text": "Create peaceful magic with soft glow, gentle particles, calm expression, and harmonious fantasy atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "emotion moods"
+    }
+  ]
+}

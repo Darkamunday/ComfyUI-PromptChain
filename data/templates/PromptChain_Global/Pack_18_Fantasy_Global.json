@@ -1,0 +1,140 @@
+{
+  "name": "Pack_18_Fantasy_Global",
+  "prompts": [
+    {
+      "id": "fantasy_arcane_magic",
+      "name": "Arcane Magic",
+      "text": "Add arcane magic through glowing runes, elegant energy patterns, and subtle supernatural detail that supports the scene.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_fairy_realm",
+      "name": "Fairy Realm",
+      "text": "Create a fairy-realm feeling with delicate glowing plants, soft magical light, and enchanted natural beauty.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_dragon_lair",
+      "name": "Dragon Lair",
+      "text": "Create a dragon lair environment with ancient stone, treasure details, warm glow, and grand fantasy atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_crystal_cavern",
+      "name": "Crystal Cavern",
+      "text": "Place the scene in a crystal cavern with luminous facets, reflective surfaces, and mystical depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_floating_islands",
+      "name": "Floating Islands",
+      "text": "Create floating islands with waterfalls, clouds, ancient ruins, and a grand sense of scale.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_ancient_ruins",
+      "name": "Ancient Ruins",
+      "text": "Use ancient fantasy ruins with weathered stone, vines, carved symbols, and a sense of forgotten history.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_magic_school",
+      "name": "Magic School",
+      "text": "Create a magic school setting with old books, enchanted objects, ornate halls, and scholarly fantasy mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_enchanted_forest",
+      "name": "Enchanted Forest",
+      "text": "Use an enchanted forest filled with glowing flora, mossy paths, soft mist, and subtle magical life.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_celestial_temple",
+      "name": "Celestial Temple",
+      "text": "Create a celestial temple with luminous architecture, clouds, star motifs, and serene divine atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_underwater_kingdom",
+      "name": "Underwater Kingdom",
+      "text": "Create an underwater kingdom with coral architecture, bioluminescent light, drifting particles, and dreamlike depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_dark_castle",
+      "name": "Dark Castle",
+      "text": "Create a dark fantasy castle with gothic towers, heavy atmosphere, dramatic lighting, and ornate shadowed detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_spirit_world",
+      "name": "Spirit World",
+      "text": "Create a spirit-world atmosphere with translucent forms, glowing paths, soft mist, and quiet supernatural beauty.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_alchemist_room",
+      "name": "Alchemist Room",
+      "text": "Create an alchemist room with glass bottles, notes, herbs, glowing liquids, and old wooden shelves.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_moonlit_ritual",
+      "name": "Moonlit Ritual",
+      "text": "Create a moonlit ritual scene with candles, symbols, soft smoke, and mysterious magical focus.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_royal_court",
+      "name": "Royal Fantasy Court",
+      "text": "Create a royal fantasy court with grand interiors, refined clothing, polished floors, and noble atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "fantasy"
+    }
+  ]
+}

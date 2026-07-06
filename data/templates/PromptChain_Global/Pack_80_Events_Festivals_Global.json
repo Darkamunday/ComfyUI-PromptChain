@@ -1,0 +1,140 @@
+{
+  "name": "Pack_80_Events_Festivals_Global",
+  "prompts": [
+    {
+      "id": "event_summer_festival",
+      "name": "Summer Festival",
+      "text": "Create a summer festival scene with lanterns, stalls, yukata-inspired clothing, warm evening light, and cheerful crowd energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_fireworks_night",
+      "name": "Fireworks Night",
+      "text": "Create a fireworks-night scene with colorful bursts in the sky, soft glow on faces, and festive atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_school_festival",
+      "name": "School Festival",
+      "text": "Create a school festival scene with decorated stalls, handmade signs kept unreadable, students, and playful campus energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_masquerade_ball",
+      "name": "Masquerade Ball",
+      "text": "Create a masquerade ball scene with elegant masks, formal clothing, chandeliers, and refined mystery.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_royal_ceremony",
+      "name": "Royal Ceremony",
+      "text": "Create a royal ceremony with grand halls, banners, formal posture, polished floors, and dignified atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_winter_holiday",
+      "name": "Winter Holiday",
+      "text": "Create a winter holiday scene with warm lights, snow outside, cozy decorations, and festive comfort.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_spring_picnic",
+      "name": "Spring Picnic",
+      "text": "Create a spring picnic scene with blanket, basket, blossoms, soft grass, and relaxed outdoor warmth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_music_concert",
+      "name": "Music Concert",
+      "text": "Create a music concert scene with stage lights, crowd silhouettes, instruments, and performance energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_fashion_show",
+      "name": "Fashion Show",
+      "text": "Create a fashion show scene with runway lighting, confident walking pose, polished outfit detail, and editorial presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_market_day",
+      "name": "Market Day",
+      "text": "Create a market-day scene with stalls, produce, fabrics, casual crowd movement, and lively everyday detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_cafe_meetup",
+      "name": "Cafe Meetup",
+      "text": "Create a casual café meetup with drinks, table details, warm light, and friendly social mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_graduation",
+      "name": "Graduation",
+      "text": "Create a graduation scene with formal clothing, celebratory posture, soft pride, and clean ceremony detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_tea_ceremony",
+      "name": "Tea Ceremony",
+      "text": "Create a tea ceremony scene with careful posture, traditional objects, calm rhythm, and refined cultural atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_night_parade",
+      "name": "Night Parade",
+      "text": "Create a night parade with lanterns, performers, decorative clothing, crowd depth, and colorful motion.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    },
+    {
+      "id": "event_stargazing",
+      "name": "Stargazing",
+      "text": "Create a stargazing event with blankets, telescope, night sky, quiet wonder, and soft cool lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "events and festivals"
+    }
+  ]
+}

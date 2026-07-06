@@ -1,0 +1,140 @@
+{
+  "name": "Pack_11_Materials_Global",
+  "prompts": [
+    {
+      "id": "material_cotton",
+      "name": "Cotton",
+      "text": "Use natural cotton fabric with soft texture, breathable structure, and subtle wrinkles.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_denim",
+      "name": "Denim",
+      "text": "Use denim material with visible weave, sturdy structure, and realistic seam detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_silk",
+      "name": "Silk",
+      "text": "Use silk fabric with smooth flow, gentle sheen, and elegant highlights.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_satin",
+      "name": "Satin",
+      "text": "Use satin material with glossy reflections, soft folds, and luxurious surface response.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_velvet",
+      "name": "Velvet",
+      "text": "Use velvet material with rich softness, deep color absorption, and subtle directional texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_lace",
+      "name": "Lace",
+      "text": "Use delicate lace with intricate patterns, semi-transparent detail, and refined edges.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_leather",
+      "name": "Leather",
+      "text": "Use leather material with natural grain, subtle shine, and realistic thickness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_wool",
+      "name": "Wool",
+      "text": "Use wool fabric with warm texture, soft fibers, and cozy seasonal character.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_metal",
+      "name": "Polished Metal",
+      "text": "Use polished metal with clean reflections, realistic highlights, and durable surface detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_brushed_metal",
+      "name": "Brushed Metal",
+      "text": "Use brushed metal with fine linear texture and muted reflective quality.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_gold",
+      "name": "Gold",
+      "text": "Use gold accents with warm metallic shine and ornate detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_silver",
+      "name": "Silver",
+      "text": "Use silver accents with cool metallic reflections and clean elegant finish.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_glass",
+      "name": "Glass",
+      "text": "Use transparent glass with believable refraction, highlights, and edge definition.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_crystal",
+      "name": "Crystal",
+      "text": "Use crystal material with sharp facets, luminous reflections, and clear structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    },
+    {
+      "id": "material_wood",
+      "name": "Wood",
+      "text": "Use natural wood with visible grain, warm tones, and realistic surface variation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "materials"
+    }
+  ]
+}

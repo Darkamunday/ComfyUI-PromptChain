@@ -1,0 +1,140 @@
+{
+  "name": "Pack_12_Weather_Global",
+  "prompts": [
+    {
+      "id": "weather_clear_sky",
+      "name": "Clear Sky",
+      "text": "Set the scene under a clear blue sky with bright visibility and a clean uplifting atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_golden_sunset",
+      "name": "Golden Sunset",
+      "text": "Use a golden sunset sky with warm colors, soft highlights, and a calm evening mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_light_rain",
+      "name": "Light Rain",
+      "text": "Add gentle rainfall with subtle droplets, soft reflections, and a peaceful rainy atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_heavy_rain",
+      "name": "Heavy Rain",
+      "text": "Add heavy rainfall with visible streaks, wet surfaces, and dramatic environmental mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_snowfall",
+      "name": "Snowfall",
+      "text": "Add soft falling snow with a quiet winter atmosphere and delicate white highlights.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_blizzard",
+      "name": "Blizzard",
+      "text": "Create a strong snowy atmosphere with windblown snow, reduced visibility, and cold intensity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_mist",
+      "name": "Mist",
+      "text": "Add soft mist to create atmospheric depth, gentle diffusion, and a mysterious calm mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_fog",
+      "name": "Fog",
+      "text": "Use dense fog to soften the background, increase depth, and create a quiet mysterious atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_storm_clouds",
+      "name": "Storm Clouds",
+      "text": "Add dark storm clouds with strong contrast and a sense of approaching weather.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_thunderstorm",
+      "name": "Thunderstorm",
+      "text": "Create a thunderstorm with heavy clouds, dramatic lighting, rain, and distant lightning.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_rainbow",
+      "name": "Rainbow",
+      "text": "Add a natural rainbow after rain with soft sky colors and uplifting atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_windy",
+      "name": "Windy",
+      "text": "Make the scene windy with moving hair, shifting clothing, and visible environmental motion.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_autumn_leaves",
+      "name": "Autumn Leaves",
+      "text": "Add drifting autumn leaves and warm seasonal colors.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_cherry_blossoms",
+      "name": "Cherry Blossoms",
+      "text": "Add floating cherry blossom petals with a soft spring atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    },
+    {
+      "id": "weather_summer_sun",
+      "name": "Summer Sun",
+      "text": "Use bright summer sunlight with vivid color, strong warmth, and clear outdoor energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "weather"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Pack_56_Creature_Features_Global",
+  "prompts": [
+    {
+      "id": "feature_cat_ears",
+      "name": "Cat Ears",
+      "text": "Add expressive cat ears with soft fur, natural placement, and emotion matching the subject's expression.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_fox_ears",
+      "name": "Fox Ears",
+      "text": "Add elegant fox ears with soft fur texture, pointed shape, and graceful fantasy character.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_bunny_ears",
+      "name": "Bunny Ears",
+      "text": "Add soft bunny ears with gentle shape, natural fur texture, and cute expressive posture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_wolf_ears",
+      "name": "Wolf Ears",
+      "text": "Add wolf ears with slightly sharper shape, realistic fur detail, and alert character presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_horns_small",
+      "name": "Small Horns",
+      "text": "Add small horns with natural placement, smooth material, and tasteful fantasy design.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_horns_large",
+      "name": "Large Horns",
+      "text": "Add large fantasy horns with curved silhouette, natural integration, and clear character identity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_feather_wings",
+      "name": "Feathered Wings",
+      "text": "Add feathered wings with layered feathers, believable structure, and graceful placement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_dragon_wings",
+      "name": "Dragon Wings",
+      "text": "Add dragon-like wings with membrane detail, bone structure, and fantasy scale.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_angel_halo",
+      "name": "Halo",
+      "text": "Add a subtle halo with soft glow, clean circular form, and divine atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_tail_cat",
+      "name": "Cat Tail",
+      "text": "Add a cat tail with soft fur, natural curve, and expressive movement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_tail_fox",
+      "name": "Fox Tail",
+      "text": "Add a fluffy fox tail with thick fur, graceful curve, and fantasy charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_tail_dragon",
+      "name": "Dragon Tail",
+      "text": "Add a dragon tail with scales, tapered shape, and natural pose integration.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_scales",
+      "name": "Subtle Scales",
+      "text": "Add subtle scale details on skin or accessories with tasteful placement and refined texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_pointed_ears",
+      "name": "Pointed Ears",
+      "text": "Add pointed ears for an elf or fantasy character with natural anatomy and clean silhouette.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    },
+    {
+      "id": "feature_glowing_markings",
+      "name": "Glowing Markings",
+      "text": "Add glowing markings on skin, clothing, or accessories with controlled brightness and coherent magical design.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "creature features"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Pack_13_Atmosphere_Global",
+  "prompts": [
+    {
+      "id": "atmosphere_cozy",
+      "name": "Cozy",
+      "text": "Create a cozy atmosphere with warm visual comfort, soft details, inviting surroundings, and a calm personal feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_peaceful",
+      "name": "Peaceful",
+      "text": "Create a peaceful atmosphere with gentle pacing, relaxed body language, soft environmental detail, and visual calm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_romantic",
+      "name": "Romantic",
+      "text": "Create a romantic atmosphere with soft lighting, gentle color harmony, intimate framing, and subtle emotional warmth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_dreamlike",
+      "name": "Dreamlike",
+      "text": "Create a dreamlike atmosphere with soft transitions, delicate lighting, slightly surreal beauty, and graceful visual flow.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_mysterious",
+      "name": "Mysterious",
+      "text": "Create a mysterious atmosphere with restrained contrast, subtle shadows, atmospheric depth, and a sense of hidden story.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_magical",
+      "name": "Magical",
+      "text": "Create a magical atmosphere with subtle glow, floating particles, elegant wonder, and believable fantasy detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_melancholic",
+      "name": "Melancholic",
+      "text": "Create a melancholic atmosphere with quiet emotion, muted colors, gentle stillness, and restrained sadness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_energetic",
+      "name": "Energetic",
+      "text": "Create an energetic atmosphere with dynamic composition, vivid details, lively body language, and strong visual momentum.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_luxury",
+      "name": "Luxury",
+      "text": "Create a luxurious atmosphere with refined styling, premium materials, elegant lighting, and polished visual presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_wholesome",
+      "name": "Wholesome",
+      "text": "Create a wholesome atmosphere with warmth, kindness, soft expression, gentle surroundings, and approachable charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_dark_fantasy",
+      "name": "Dark Fantasy",
+      "text": "Create a dark fantasy atmosphere with rich shadows, ornate details, dramatic mood, and grounded mystical elements.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_slice_of_life",
+      "name": "Slice of Life",
+      "text": "Create a natural slice-of-life atmosphere with everyday realism, relaxed details, believable setting, and candid charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_epic",
+      "name": "Epic",
+      "text": "Create an epic atmosphere with grand scale, strong visual presence, dramatic depth, and a sense of importance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_serene",
+      "name": "Serene",
+      "text": "Create a serene atmosphere with quiet balance, soft colors, graceful composition, and a sense of inner stillness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    },
+    {
+      "id": "atmosphere_playful",
+      "name": "Playful",
+      "text": "Create a playful atmosphere with lively expression, charming details, light energy, and cheerful visual personality.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "atmosphere"
+    }
+  ]
+}

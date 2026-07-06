@@ -1,0 +1,140 @@
+{
+  "name": "Pack_29_Seasons_Global",
+  "prompts": [
+    {
+      "id": "season_spring",
+      "name": "Spring",
+      "text": "Set the season to spring with fresh greenery, blossoms, soft warmth, and a feeling of renewal.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_cherry_blossom",
+      "name": "Cherry Blossom Season",
+      "text": "Set the scene during cherry blossom season with pink petals, soft spring light, and delicate atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_rainy_spring",
+      "name": "Rainy Spring",
+      "text": "Set the season to rainy spring with wet leaves, soft gray light, and fresh floral atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_summer",
+      "name": "Summer",
+      "text": "Set the season to summer with bright sun, vivid colors, warm air, and lively outdoor energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_late_summer",
+      "name": "Late Summer",
+      "text": "Set the season to late summer with golden warmth, lush greenery, and a slightly nostalgic mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_tropical_summer",
+      "name": "Tropical Summer",
+      "text": "Set the season to tropical summer with saturated greenery, bright skies, and humid warmth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_autumn",
+      "name": "Autumn",
+      "text": "Set the season to autumn with golden leaves, crisp air, warm earth tones, and soft seasonal light.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_late_autumn",
+      "name": "Late Autumn",
+      "text": "Set the season to late autumn with bare branches, muted colors, cool air, and reflective mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_winter",
+      "name": "Winter",
+      "text": "Set the season to winter with cold light, warm clothing, quiet air, and seasonal stillness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_snowy_winter",
+      "name": "Snowy Winter",
+      "text": "Set the season to snowy winter with white landscapes, frosted details, and soft diffused light.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_holiday_winter",
+      "name": "Holiday Winter",
+      "text": "Set the scene during a warm holiday winter with soft lights, cozy interiors, and festive comfort.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_early_spring",
+      "name": "Early Spring",
+      "text": "Set the season to early spring with budding plants, gentle sun, and cool fresh air.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_harvest_autumn",
+      "name": "Harvest Autumn",
+      "text": "Set the season to harvest autumn with warm fields, ripe produce, and rich natural colors.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_foggy_winter",
+      "name": "Foggy Winter",
+      "text": "Set the season to foggy winter with muted whites, soft visibility, and cold atmospheric depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    },
+    {
+      "id": "season_flower_summer",
+      "name": "Flowering Summer",
+      "text": "Set the season to a flowering summer with blooming fields, bright sunshine, and cheerful natural color.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "seasons"
+    }
+  ]
+}

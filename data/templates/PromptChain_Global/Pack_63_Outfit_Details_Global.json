@@ -1,0 +1,140 @@
+{
+  "name": "Pack_63_Outfit_Details_Global",
+  "prompts": [
+    {
+      "id": "outfit_layered_fabrics",
+      "name": "Layered Fabrics",
+      "text": "Add layered fabrics with visible overlap, natural thickness, seam detail, and believable clothing structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_frills",
+      "name": "Frills",
+      "text": "Add clean frills along hems, sleeves, collar, or skirt with balanced decorative detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_bows",
+      "name": "Bows",
+      "text": "Add fabric bows with soft folds, clear knot structure, and charming placement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_lace_trim",
+      "name": "Lace Trim",
+      "text": "Add lace trim with delicate patterning, semi-transparent edges, and refined decorative texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_embroidery",
+      "name": "Embroidery",
+      "text": "Add embroidered details with raised thread texture, decorative motifs, and natural fabric integration.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_silver_filigree",
+      "name": "Silver Filigree",
+      "text": "Add ornate silver filigree details with curling lines, polished highlights, and elegant craftsmanship.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_gold_accents",
+      "name": "Gold Accents",
+      "text": "Add tasteful gold accents through buttons, trim, jewelry, or decorative metalwork.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_crimson_details",
+      "name": "Crimson Details",
+      "text": "Add crimson accent details through ribbons, gemstones, embroidery, or lining for controlled dramatic color.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_belts_straps",
+      "name": "Belts and Straps",
+      "text": "Add belts and straps with buckles, leather texture, natural tension, and practical placement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_buttons",
+      "name": "Buttons",
+      "text": "Add buttons with correct alignment, material shine, and believable attachment to the clothing.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_pleats",
+      "name": "Pleats",
+      "text": "Add pleated fabric with clean repeated folds, natural drape, and structured movement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_sheer_overlay",
+      "name": "Sheer Overlay",
+      "text": "Add a sheer fabric overlay with transparency, soft edges, and believable layered material.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_cape",
+      "name": "Cape",
+      "text": "Add a cape or cloak with flowing fabric, clear attachment points, and dramatic silhouette.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_high_collar",
+      "name": "High Collar",
+      "text": "Add a high collar that frames the neck and face with elegant structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    },
+    {
+      "id": "outfit_asymmetrical_design",
+      "name": "Asymmetrical Design",
+      "text": "Add asymmetrical clothing design with balanced visual weight and intentional styling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outfit details"
+    }
+  ]
+}

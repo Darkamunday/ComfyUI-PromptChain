@@ -1,0 +1,140 @@
+{
+  "name": "Pack_64_Environment_Details_Global",
+  "prompts": [
+    {
+      "id": "env_detail_dust_motes",
+      "name": "Dust Motes",
+      "text": "Add subtle dust motes floating in light beams for depth and atmospheric realism.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_falling_petals",
+      "name": "Falling Petals",
+      "text": "Add falling petals drifting through the scene with soft motion and natural spacing.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_wet_reflections",
+      "name": "Wet Reflections",
+      "text": "Add wet surface reflections that mirror lights, colors, and silhouettes realistically.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_floating_leaves",
+      "name": "Floating Leaves",
+      "text": "Add drifting leaves moved by gentle wind, creating seasonal motion and atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_steam",
+      "name": "Steam",
+      "text": "Add soft steam rising from food, drink, vents, or warm water with natural diffusion.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_smoke",
+      "name": "Smoke",
+      "text": "Add controlled smoke or haze with soft edges, layered depth, and believable movement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_sunbeams",
+      "name": "Sunbeams",
+      "text": "Add sunbeams cutting through windows, trees, or haze with subtle light particles.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_water_droplets",
+      "name": "Water Droplets",
+      "text": "Add water droplets on glass, skin, clothing, or surfaces with believable highlights.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_snow_accumulation",
+      "name": "Snow Accumulation",
+      "text": "Add snow accumulation on ground, clothing, rooftops, or objects with natural softness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_flower_petals_ground",
+      "name": "Petals on Ground",
+      "text": "Add scattered flower petals on the ground with organic placement and color variation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_cables_pipes",
+      "name": "Cables and Pipes",
+      "text": "Add cables, pipes, vents, or mechanical details to create a more lived-in technical environment.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_books_papers",
+      "name": "Books and Papers",
+      "text": "Add scattered books or papers with believable placement and texture while avoiding readable text.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_table_items",
+      "name": "Table Items",
+      "text": "Add small table items such as cups, dishes, notebooks, or tools to make the space feel lived-in.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_lantern_glow",
+      "name": "Lantern Glow",
+      "text": "Add lantern glow affecting nearby objects with warm falloff and soft shadows.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    },
+    {
+      "id": "env_detail_background_people",
+      "name": "Distant People",
+      "text": "Add distant background figures only as soft environmental silhouettes, not competing with the main subject.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment details"
+    }
+  ]
+}

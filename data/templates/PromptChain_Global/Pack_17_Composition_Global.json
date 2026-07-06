@@ -1,0 +1,140 @@
+{
+  "name": "Pack_17_Composition_Global",
+  "prompts": [
+    {
+      "id": "composition_centered",
+      "name": "Centered Composition",
+      "text": "Use centered composition to make the subject clear, balanced, and visually stable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_rule_of_thirds",
+      "name": "Rule of Thirds",
+      "text": "Use rule-of-thirds composition for natural balance and pleasing visual structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_symmetrical",
+      "name": "Symmetrical Composition",
+      "text": "Use symmetrical composition with balanced elements and clean visual order.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_dynamic",
+      "name": "Dynamic Composition",
+      "text": "Use dynamic composition with diagonal energy, movement, and visual momentum.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_negative_space",
+      "name": "Negative Space",
+      "text": "Use negative space to create breathing room, visual elegance, and strong subject focus.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_leading_lines",
+      "name": "Leading Lines",
+      "text": "Use leading lines in the environment to guide attention toward the subject.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_close_up",
+      "name": "Close Up",
+      "text": "Use close-up composition to emphasize facial expression, eyes, and emotional detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_full_body",
+      "name": "Full Body",
+      "text": "Use full-body composition to clearly show the subject's pose, outfit, and silhouette.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_environmental",
+      "name": "Environmental Composition",
+      "text": "Use environmental composition that balances the subject with meaningful background detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_candid",
+      "name": "Candid Composition",
+      "text": "Use candid composition with natural posture, imperfect framing, and a believable moment-in-time feel.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_cinematic_wide",
+      "name": "Cinematic Wide",
+      "text": "Use cinematic wide framing with strong environment, dramatic spacing, and visual storytelling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_portrait_vertical",
+      "name": "Vertical Portrait",
+      "text": "Use vertical portrait framing that focuses on the subject's face, outfit, and body line.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_layered_depth",
+      "name": "Layered Depth",
+      "text": "Create layered depth with foreground, subject, and background elements clearly separated.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_minimal",
+      "name": "Minimal Composition",
+      "text": "Use minimal composition with clean shapes, reduced clutter, and strong visual clarity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    },
+    {
+      "id": "composition_storytelling",
+      "name": "Storytelling Composition",
+      "text": "Use storytelling composition where pose, setting, lighting, and details suggest a clear moment or narrative.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "composition"
+    }
+  ]
+}

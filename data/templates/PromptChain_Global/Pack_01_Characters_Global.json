@@ -1,0 +1,95 @@
+{
+  "name": "Pack_01_Characters_Global",
+  "prompts": [
+    {
+      "id": "character_catgirl",
+      "name": "Catgirl",
+      "text": "Transform the subject into a graceful anime catgirl with expressive feline ears, a soft fluffy tail, bright attentive eyes, delicate facial features, and subtle feline mannerisms. Keep the overall design appealing, readable, and suitable for a wide range of anime or semi-realistic image models.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    },
+    {
+      "id": "character_fox_spirit",
+      "name": "Fox Spirit",
+      "text": "Transform the subject into an elegant fox spirit inspired by Japanese folklore, with refined facial features, soft fox ears, luxurious flowing hair, golden expressive eyes, and a mystical, graceful presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    },
+    {
+      "id": "character_shrine_maiden",
+      "name": "Shrine Maiden",
+      "text": "Present the subject as a traditional shrine maiden with a calm, kind expression, tasteful ceremonial clothing, graceful posture, and a refined, spiritual presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    },
+    {
+      "id": "character_high_elf",
+      "name": "High Elf",
+      "text": "Transform the subject into a beautiful high elf with long pointed ears, luminous eyes, graceful proportions, flowing hair, and an elegant fantasy presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    },
+    {
+      "id": "character_witch",
+      "name": "Witch",
+      "text": "Present the subject as a stylish young witch with layered magical clothing, ornate accessories, a confident expression, and a subtle mystical aura.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    },
+    {
+      "id": "character_mage",
+      "name": "Mage",
+      "text": "Transform the subject into a talented arcane mage with layered robes, magical accessories, subtle rune motifs, and an intelligent, composed expression.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    },
+    {
+      "id": "character_knight",
+      "name": "Knight",
+      "text": "Present the subject as a noble knight with heroic posture, polished armor, layered garments, and a strong but elegant presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    },
+    {
+      "id": "character_android",
+      "name": "Android",
+      "text": "Transform the subject into a futuristic android with clean synthetic design, sleek details, glowing accents, and a refined technological aesthetic.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    },
+    {
+      "id": "character_maid",
+      "name": "Maid",
+      "text": "Present the subject as a charming maid with a neat classic maid outfit, gentle expression, crisp detailing, and a welcoming presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    },
+    {
+      "id": "character_idol",
+      "name": "Idol",
+      "text": "Transform the subject into an energetic idol performer with a polished stage-ready look, bright expressive eyes, stylish costume details, and a vibrant presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "characters"
+    }
+  ]
+}

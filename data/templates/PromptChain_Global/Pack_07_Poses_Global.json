@@ -1,0 +1,140 @@
+{
+  "name": "Pack_07_Poses_Global",
+  "prompts": [
+    {
+      "id": "pose_relaxed_standing",
+      "name": "Relaxed Standing",
+      "text": "Pose the subject standing naturally with balanced weight, relaxed shoulders, believable posture, and a calm everyday presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_confident_standing",
+      "name": "Confident Standing",
+      "text": "Pose the subject standing confidently with strong posture, lifted chin, composed body language, and a clear sense of presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_sitting_floor",
+      "name": "Sitting on Floor",
+      "text": "Pose the subject sitting comfortably on the floor with natural leg placement, relaxed arms, and believable body balance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_sitting_chair",
+      "name": "Sitting on Chair",
+      "text": "Pose the subject sitting naturally on a chair with realistic posture, comfortable weight distribution, and relaxed body language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_kneeling",
+      "name": "Kneeling",
+      "text": "Pose the subject kneeling gracefully with elegant posture, balanced hands, and a calm expressive silhouette.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_walking",
+      "name": "Walking",
+      "text": "Pose the subject walking naturally with believable motion, proper weight shift, and relaxed limb placement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_running",
+      "name": "Running",
+      "text": "Pose the subject running dynamically with energetic movement, flowing hair or clothing, and a clear sense of direction.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_looking_back",
+      "name": "Looking Back",
+      "text": "Pose the subject looking back over one shoulder with natural torso rotation, expressive eye contact, and a cinematic silhouette.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_leaning_wall",
+      "name": "Leaning Against Wall",
+      "text": "Pose the subject leaning casually against a wall with relaxed posture and natural body weight.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_stretching",
+      "name": "Stretching",
+      "text": "Pose the subject stretching naturally with extended limbs, relaxed muscles, and believable anatomy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_jump",
+      "name": "Mid Jump",
+      "text": "Capture the subject mid-jump with dynamic movement, lifted hair or clothing, and a lively sense of energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_reaching_out",
+      "name": "Reaching Out",
+      "text": "Pose the subject reaching gently toward the viewer, creating depth, connection, and visual engagement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_crouching",
+      "name": "Crouching",
+      "text": "Pose the subject crouching low with stable balance, natural limb placement, and an alert expression.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_dancing",
+      "name": "Dancing",
+      "text": "Pose the subject dancing gracefully with flowing movement, expressive rhythm, and elegant body lines.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    },
+    {
+      "id": "pose_sleeping",
+      "name": "Sleeping Pose",
+      "text": "Pose the subject sleeping peacefully with relaxed features, soft body position, and a calm atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "poses"
+    }
+  ]
+}

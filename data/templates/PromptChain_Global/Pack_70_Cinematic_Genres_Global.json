@@ -1,0 +1,140 @@
+{
+  "name": "Pack_70_Cinematic_Genres_Global",
+  "prompts": [
+    {
+      "id": "genre_romance",
+      "name": "Romance",
+      "text": "Shape the scene with romance-film warmth, soft emotional tension, gentle lighting, and intimate character focus.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_adventure",
+      "name": "Adventure",
+      "text": "Shape the scene with adventure-film energy, travel details, wide environment, and a clear sense of discovery.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_fantasy_epic",
+      "name": "Fantasy Epic",
+      "text": "Shape the scene with epic fantasy scale, grand architecture or landscapes, heroic posture, and magical atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_noir",
+      "name": "Noir",
+      "text": "Shape the scene with noir mood, strong shadows, rainy streets, reflective surfaces, and investigative atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_slice_of_life",
+      "name": "Slice of Life",
+      "text": "Shape the scene as a natural everyday moment with believable setting, relaxed pose, and soft realism.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_mystery",
+      "name": "Mystery",
+      "text": "Shape the scene with mystery atmosphere, subtle clues, restrained tension, and layered environmental storytelling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_sci_fi_drama",
+      "name": "Sci-Fi Drama",
+      "text": "Shape the scene with futuristic technology, clean lighting, emotional focus, and thoughtful atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_cyber_thriller",
+      "name": "Cyber Thriller",
+      "text": "Shape the scene with neon light, surveillance mood, dense city detail, and stylish futuristic tension.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_comedy",
+      "name": "Comedy",
+      "text": "Shape the scene with playful timing, expressive pose, bright mood, and light visual energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_historical_drama",
+      "name": "Historical Drama",
+      "text": "Shape the scene with period clothing, grounded environment, refined lighting, and emotional realism.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_dark_fantasy",
+      "name": "Dark Fantasy",
+      "text": "Shape the scene with ornate shadowed detail, controlled gloom, supernatural atmosphere, and dramatic elegance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_magical_girl",
+      "name": "Magical Transformation",
+      "text": "Shape the scene with sparkling transformation energy, graceful pose, bright color, and heroic charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_road_trip",
+      "name": "Road Trip",
+      "text": "Shape the scene with travel atmosphere, open roads, luggage, vehicle detail, and a sense of movement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_stage_performance",
+      "name": "Stage Performance",
+      "text": "Shape the scene with stage lighting, spotlight focus, polished costume, and performance energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    },
+    {
+      "id": "genre_dream_sequence",
+      "name": "Dream Sequence",
+      "text": "Shape the scene with surreal softness, floating details, gentle glow, and emotional symbolism.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "cinematic genres"
+    }
+  ]
+}

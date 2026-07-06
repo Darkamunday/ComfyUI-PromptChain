@@ -1,0 +1,140 @@
+{
+  "name": "Pack_55_Tools_Weapons_Global",
+  "prompts": [
+    {
+      "id": "tool_sword",
+      "name": "Sword",
+      "text": "Add a sword with believable scale, clean blade geometry, detailed handle design, and natural interaction with the subject or setting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_dagger",
+      "name": "Dagger",
+      "text": "Add a small fantasy dagger with polished metal, ornate handle, and careful placement as a character accessory or prop.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_staff",
+      "name": "Magic Staff",
+      "text": "Add a magic staff with carved wood, crystal or metal details, subtle glow, and a design that supports the character theme.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_wand",
+      "name": "Wand",
+      "text": "Add a wand with elegant shape, small magical accents, and believable hand placement if held by the subject.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_bow",
+      "name": "Bow",
+      "text": "Add a bow with curved structure, string tension, and natural fantasy or historical styling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_shield",
+      "name": "Shield",
+      "text": "Add a shield with readable shape, surface wear, emblem detail, and believable weight.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_spear",
+      "name": "Spear",
+      "text": "Add a spear with long shaft, clean metal point, and grounded fantasy or historical design.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_hammer",
+      "name": "Crafting Hammer",
+      "text": "Add a crafting hammer or blacksmith hammer with worn handle, metal head, and practical tool detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_paintbrush",
+      "name": "Paintbrush",
+      "text": "Add a paintbrush with bristles, handle detail, and natural artistic context.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_quill",
+      "name": "Quill Pen",
+      "text": "Add a quill pen with feather detail, ink, paper texture, and scholarly or fantasy atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_map",
+      "name": "Map",
+      "text": "Add an old map with parchment texture, folds, symbolic markings, and adventure-story feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_compass",
+      "name": "Compass",
+      "text": "Add a compass with brass detail, glass cover, and travel or exploration mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_lantern",
+      "name": "Lantern",
+      "text": "Add a lantern with warm glow, glass panels, metal frame, and realistic light interaction.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_key",
+      "name": "Ornate Key",
+      "text": "Add an ornate key with aged metal, decorative teeth, and a sense of mystery or discovery.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    },
+    {
+      "id": "tool_spellbook",
+      "name": "Spellbook",
+      "text": "Add a spellbook with worn cover, decorative clasp, thick pages, and subtle magical presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "tools and weapons"
+    }
+  ]
+}

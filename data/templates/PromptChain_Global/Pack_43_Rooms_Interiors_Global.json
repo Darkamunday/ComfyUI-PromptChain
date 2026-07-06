@@ -1,0 +1,140 @@
+{
+  "name": "Pack_43_Rooms_Interiors_Global",
+  "prompts": [
+    {
+      "id": "interior_luxury_bedroom",
+      "name": "Luxury Bedroom",
+      "text": "Place the scene in a luxury bedroom with soft bedding, refined furniture, warm lighting, and polished interior styling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_small_apartment",
+      "name": "Small Apartment",
+      "text": "Place the scene in a compact lived-in apartment with practical furniture, personal details, and believable everyday atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_artist_studio",
+      "name": "Artist Studio",
+      "text": "Place the scene in an artist studio with canvases, paints, sketches, tools, and warm creative clutter.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_music_room",
+      "name": "Music Room",
+      "text": "Place the scene in a music room with instruments, acoustic panels, warm light, and expressive artistic atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_game_room",
+      "name": "Gaming Room",
+      "text": "Place the scene in a gaming room with monitors, ambient lights, headphones, collectibles, and modern tech detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_hospital_room",
+      "name": "Hospital Room",
+      "text": "Place the scene in a clean hospital room with medical equipment, soft clinical lighting, and calm realistic detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_classroom",
+      "name": "Classroom",
+      "text": "Place the scene in a classroom with desks, chalkboard or whiteboard, daylight, and believable school atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_train_carriage",
+      "name": "Train Carriage",
+      "text": "Place the scene inside a train carriage with seats, windows, overhead lights, and a quiet travel atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_hotel_lobby",
+      "name": "Hotel Lobby",
+      "text": "Place the scene in an elegant hotel lobby with polished floors, warm lamps, seating areas, and luxury ambience.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_greenhouse",
+      "name": "Greenhouse Interior",
+      "text": "Place the scene inside a greenhouse filled with plants, glass panels, filtered light, and botanical detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_workshop",
+      "name": "Workshop",
+      "text": "Place the scene in a workshop with tools, benches, shelves, raw materials, and practical working texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_kitchen",
+      "name": "Modern Kitchen",
+      "text": "Place the scene in a modern kitchen with clean counters, utensils, soft light, and realistic domestic detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_bathroom",
+      "name": "Elegant Bathroom",
+      "text": "Place the scene in an elegant bathroom with tile, mirrors, soft lighting, and polished reflective surfaces.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_attic",
+      "name": "Attic Room",
+      "text": "Place the scene in an attic room with slanted ceiling, old boxes, dust motes, warm light, and nostalgic detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    },
+    {
+      "id": "interior_basement",
+      "name": "Basement Room",
+      "text": "Place the scene in a basement room with subdued lighting, storage items, concrete textures, and quiet atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rooms and interiors"
+    }
+  ]
+}

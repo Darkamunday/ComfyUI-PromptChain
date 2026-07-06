@@ -1,0 +1,140 @@
+{
+  "name": "Pack_38_Body_Types_Global",
+  "prompts": [
+    {
+      "id": "body_slim",
+      "name": "Slim Build",
+      "text": "Give the subject a slim build with graceful proportions, natural posture, and balanced anatomy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_athletic",
+      "name": "Athletic Build",
+      "text": "Give the subject an athletic build with toned structure, confident posture, and believable body strength.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_curvy",
+      "name": "Curvy Build",
+      "text": "Give the subject a curvy build with balanced proportions, natural silhouette, and tasteful presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_petite",
+      "name": "Petite Build",
+      "text": "Give the subject a petite build with smaller frame, balanced proportions, and clear character readability.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_tall",
+      "name": "Tall Build",
+      "text": "Give the subject a tall build with elongated proportions, elegant posture, and strong silhouette.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_soft",
+      "name": "Soft Build",
+      "text": "Give the subject a softer build with gentle body contours, relaxed posture, and natural anatomy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_muscular",
+      "name": "Muscular Build",
+      "text": "Give the subject a muscular build with defined structure, realistic strength, and balanced proportions.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_dancer",
+      "name": "Dancer Build",
+      "text": "Give the subject a dancer-like build with graceful posture, flexible body lines, and elegant movement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_broad_shoulders",
+      "name": "Broad Shoulders",
+      "text": "Give the subject broader shoulders with strong silhouette and balanced upper-body structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_narrow_shoulders",
+      "name": "Narrow Shoulders",
+      "text": "Give the subject narrower shoulders for a delicate silhouette and softer overall frame.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_long_legs",
+      "name": "Long Legs",
+      "text": "Give the subject long legs with elegant proportions, natural stance, and balanced anatomy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_natural_proportions",
+      "name": "Natural Proportions",
+      "text": "Use natural body proportions with believable anatomy, grounded posture, and coherent silhouette.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_graceful_posture",
+      "name": "Graceful Posture",
+      "text": "Emphasize graceful posture with relaxed shoulders, balanced spine, and elegant body alignment.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_confident_posture",
+      "name": "Confident Posture",
+      "text": "Emphasize confident posture with stable stance, lifted head, and strong body language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    },
+    {
+      "id": "body_relaxed_posture",
+      "name": "Relaxed Posture",
+      "text": "Emphasize relaxed posture with natural weight distribution, soft shoulders, and comfortable body language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body types"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Pack_09_Clothing_Global",
+  "prompts": [
+    {
+      "id": "clothing_casual_outfit",
+      "name": "Casual Outfit",
+      "text": "Dress the subject in a clean modern casual outfit with believable fabric folds, comfortable styling, and everyday appeal.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_oversized_hoodie",
+      "name": "Oversized Hoodie",
+      "text": "Dress the subject in an oversized hoodie with soft fabric, relaxed fit, natural wrinkles, and cozy streetwear energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_tshirt_jeans",
+      "name": "T-Shirt and Jeans",
+      "text": "Dress the subject in a simple fitted t-shirt and jeans with realistic cotton and denim textures.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_summer_dress",
+      "name": "Summer Dress",
+      "text": "Dress the subject in a light summer dress with flowing fabric, soft folds, and a bright relaxed feel.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_evening_gown",
+      "name": "Evening Gown",
+      "text": "Dress the subject in an elegant evening gown with graceful drape, refined silhouette, and polished formal styling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_school_uniform",
+      "name": "School Uniform",
+      "text": "Dress the subject in a neat school uniform with crisp fabric, balanced proportions, and clean presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_business_suit",
+      "name": "Business Suit",
+      "text": "Dress the subject in a tailored business suit with sharp lines, professional styling, and realistic fabric structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_gothic_dress",
+      "name": "Gothic Dress",
+      "text": "Dress the subject in a gothic outfit with dark elegant fabrics, lace details, layered textures, and refined dramatic style.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_kimono",
+      "name": "Kimono",
+      "text": "Dress the subject in a traditional kimono with tasteful patterns, layered fabric, elegant posture, and refined cultural styling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_fantasy_armor",
+      "name": "Fantasy Armor",
+      "text": "Dress the subject in detailed fantasy armor with polished metal, layered cloth, practical structure, and heroic presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_maid_uniform",
+      "name": "Maid Uniform",
+      "text": "Dress the subject in a classic maid uniform with clean frills, crisp black-and-white contrast, and tidy styling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_winter_coat",
+      "name": "Winter Coat",
+      "text": "Dress the subject in a warm winter coat with layered fabrics, soft texture, and seasonal comfort.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_streetwear",
+      "name": "Streetwear",
+      "text": "Dress the subject in stylish modern streetwear with layered pieces, bold silhouette, and urban fashion detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_sportswear",
+      "name": "Sportswear",
+      "text": "Dress the subject in functional sportswear with breathable fabric, active fit, and clean athletic styling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    },
+    {
+      "id": "clothing_fantasy_robe",
+      "name": "Fantasy Robes",
+      "text": "Dress the subject in layered fantasy robes with flowing fabric, decorative trim, and a magical or scholarly presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "clothing"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Pack_95_Starter_Presets_Global",
+  "prompts": [
+    {
+      "id": "starter_bright_character",
+      "name": "Bright Character",
+      "text": "Create a clear character-focused image with bright soft daylight, clean background, readable outfit, expressive face, and polished detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_cozy_room",
+      "name": "Cozy Room",
+      "text": "Create a cozy indoor character scene with warm light, soft furniture, natural posture, and inviting domestic detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_fantasy_portrait",
+      "name": "Fantasy Portrait",
+      "text": "Create a fantasy portrait with elegant clothing, subtle magical atmosphere, refined lighting, and expressive character presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_modern_city",
+      "name": "Modern City",
+      "text": "Create a modern city character scene with urban detail, natural pose, clean lighting, and strong subject separation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_cyberpunk_neon",
+      "name": "Cyberpunk Neon",
+      "text": "Create a cyberpunk scene with neon lighting, reflective surfaces, futuristic fashion, and readable subject detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_rainy_mood",
+      "name": "Rainy Mood",
+      "text": "Create a rainy atmospheric scene with wet reflections, soft gray light, readable subject lighting, and emotional mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_shrine_scene",
+      "name": "Shrine Scene",
+      "text": "Create a peaceful shrine scene with traditional architecture, stone paths, soft light, and calm character presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_cafe_scene",
+      "name": "Cafe Scene",
+      "text": "Create a café scene with warm lighting, drink props, relaxed pose, and cozy everyday charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_library_scene",
+      "name": "Library Scene",
+      "text": "Create a library scene with bookshelves, warm reading light, thoughtful expression, and scholarly atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_full_body_outfit",
+      "name": "Full Body Outfit",
+      "text": "Create a full-body image with clear outfit, footwear, accessories, pose, and simple supportive background.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_close_portrait",
+      "name": "Close Portrait",
+      "text": "Create a close portrait focused on eyes, face, expression, hair detail, and soft flattering lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_action_pose",
+      "name": "Action Pose",
+      "text": "Create an action pose with clear motion, readable anatomy, flowing clothing, and dynamic composition.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_magic_scene",
+      "name": "Magic Scene",
+      "text": "Create a magical scene with controlled glowing effects, clear gesture, fantasy detail, and balanced lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_nature_scene",
+      "name": "Nature Scene",
+      "text": "Create a nature scene with greenery, soft sunlight, atmospheric depth, and peaceful character integration.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    },
+    {
+      "id": "starter_editorial",
+      "name": "Editorial Character",
+      "text": "Create an editorial character image with refined outfit styling, polished lighting, confident pose, and premium presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "starter presets"
+    }
+  ]
+}

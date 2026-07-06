@@ -1,0 +1,140 @@
+{
+  "name": "Pack_36_Final_Touches_Global",
+  "prompts": [
+    {
+      "id": "final_balanced_exposure",
+      "name": "Balanced Exposure",
+      "text": "Balance the exposure so the subject is clearly visible, highlights are controlled, and shadows retain detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_color_harmony",
+      "name": "Color Harmony",
+      "text": "Improve color harmony across the subject, background, clothing, and lighting for a cohesive image.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_subject_focus",
+      "name": "Subject Focus",
+      "text": "Keep strong focus on the main subject by controlling background complexity and visual contrast.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_depth",
+      "name": "Depth Enhancement",
+      "text": "Enhance depth with subtle foreground, midground, and background separation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_soft_polish",
+      "name": "Soft Polish",
+      "text": "Add a soft polished finish that improves appeal without blurring important details.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_crisp_details",
+      "name": "Crisp Details",
+      "text": "Sharpen important details such as eyes, hair, clothing edges, and key props while avoiding overprocessing.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_natural_skin",
+      "name": "Natural Skin",
+      "text": "Keep skin tones natural, flattering, and consistent with the lighting environment.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_clean_background",
+      "name": "Clean Background",
+      "text": "Clean up the background so it supports the subject and avoids distracting visual noise.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_material_consistency",
+      "name": "Material Consistency",
+      "text": "Ensure each material looks consistent, with believable texture, thickness, and response to light.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_expression_readability",
+      "name": "Expression Readability",
+      "text": "Make the facial expression clear, appealing, and emotionally readable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_pose_readability",
+      "name": "Pose Readability",
+      "text": "Make the body pose readable, anatomically coherent, and visually balanced.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_lighting_coherence",
+      "name": "Lighting Coherence",
+      "text": "Ensure all lighting directions, shadows, highlights, and reflections feel coherent.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_style_consistency",
+      "name": "Style Consistency",
+      "text": "Keep the style consistent across face, hair, clothes, props, background, and rendering.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_remove_noise",
+      "name": "Remove Visual Noise",
+      "text": "Reduce unnecessary visual noise, repeated details, and clutter that weakens the final composition.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    },
+    {
+      "id": "final_export_polish",
+      "name": "Export Polish",
+      "text": "Apply a final polished look with strong clarity, clean detail, balanced colors, and finished presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "final touches"
+    }
+  ]
+}

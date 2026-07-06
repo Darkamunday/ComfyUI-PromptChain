@@ -1,0 +1,140 @@
+{
+  "name": "Pack_57_Objects_Decor_Global",
+  "prompts": [
+    {
+      "id": "decor_candles",
+      "name": "Candles",
+      "text": "Add candles with warm flames, melted wax detail, and gentle light spill into the scene.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_flowers_vase",
+      "name": "Vase of Flowers",
+      "text": "Add a vase of flowers with natural stems, petals, glass or ceramic detail, and balanced placement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_bookshelf",
+      "name": "Bookshelf",
+      "text": "Add a bookshelf with varied books, small objects, and believable lived-in detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_paintings",
+      "name": "Wall Paintings",
+      "text": "Add framed wall paintings or art prints as tasteful background decoration without distracting from the subject.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_rug",
+      "name": "Decorative Rug",
+      "text": "Add a decorative rug with woven texture, pattern detail, and natural placement on the floor.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_curtains",
+      "name": "Curtains",
+      "text": "Add curtains with soft fabric folds, natural drape, and interaction with window light.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_string_lights",
+      "name": "String Lights",
+      "text": "Add string lights with warm glow, gentle bokeh, and cozy decorative atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_plants",
+      "name": "Indoor Plants",
+      "text": "Add indoor plants with healthy leaves, varied shapes, and natural home detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_mirror",
+      "name": "Mirror",
+      "text": "Add a mirror with believable reflection, frame detail, and careful placement within the composition.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_clock",
+      "name": "Wall Clock",
+      "text": "Add a wall clock with readable shape, decorative frame, and subtle environmental storytelling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_chandelier",
+      "name": "Chandelier",
+      "text": "Add a chandelier with glass or crystal detail, warm light, and elegant room atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_lanterns",
+      "name": "Paper Lanterns",
+      "text": "Add paper lanterns with soft glow, delicate texture, and festive or traditional atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_cushions",
+      "name": "Cushions",
+      "text": "Add cushions or pillows with soft fabric, natural compression, and cozy domestic detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_scrolls",
+      "name": "Scrolls",
+      "text": "Add scrolls or rolled parchment with aged paper texture and fantasy or scholarly mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    },
+    {
+      "id": "decor_crystals",
+      "name": "Decorative Crystals",
+      "text": "Add decorative crystals with faceted surfaces, gentle reflections, and mystical charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "objects and decor"
+    }
+  ]
+}

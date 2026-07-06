@@ -1,0 +1,95 @@
+{
+  "name": "Pack_03_Eyes_Global",
+  "prompts": [
+    {
+      "id": "eyes_emerald",
+      "name": "Emerald Eyes",
+      "text": "Use vivid emerald green eyes with clear reflections, expressive pupils, and a lively, attractive gaze.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    },
+    {
+      "id": "eyes_sapphire",
+      "name": "Sapphire Eyes",
+      "text": "Use deep sapphire blue eyes with rich color, clean highlights, and a calm, striking appearance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    },
+    {
+      "id": "eyes_amber",
+      "name": "Amber Eyes",
+      "text": "Use warm amber eyes with golden undertones and soft luminous reflections.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    },
+    {
+      "id": "eyes_crimson",
+      "name": "Crimson Eyes",
+      "text": "Use elegant crimson eyes with a strong, memorable gaze and clean iris detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    },
+    {
+      "id": "eyes_violet",
+      "name": "Violet Eyes",
+      "text": "Use soft violet eyes with subtle gradients and a dreamy, distinctive look.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    },
+    {
+      "id": "eyes_golden",
+      "name": "Golden Eyes",
+      "text": "Use radiant golden eyes with intricate iris detail and a refined fantasy feel.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    },
+    {
+      "id": "eyes_heterochromia",
+      "name": "Heterochromia",
+      "text": "Give the subject heterochromia, with each eye a different complementary color, while keeping the overall look balanced and natural.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    },
+    {
+      "id": "eyes_sleepy",
+      "name": "Sleepy Eyes",
+      "text": "Use half-lidded sleepy eyes that convey calmness, softness, and a relaxed mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    },
+    {
+      "id": "eyes_sparkling",
+      "name": "Sparkling Eyes",
+      "text": "Use large sparkling eyes full of light, emotion, and visual energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    },
+    {
+      "id": "eyes_sharp",
+      "name": "Sharp Eyes",
+      "text": "Use focused sharp eyes that convey confidence, intelligence, and strong presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eyes"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Pack_65_Lighting_Moods_Global",
+  "prompts": [
+    {
+      "id": "light_mood_clean_bright",
+      "name": "Clean Bright",
+      "text": "Use clean bright lighting with high readability, soft contrast, and an open positive feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_soft_romantic",
+      "name": "Soft Romantic",
+      "text": "Use soft romantic lighting with warm highlights, gentle shadows, and flattering emotional warmth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_moody_cinematic",
+      "name": "Moody Cinematic",
+      "text": "Use moody cinematic lighting with rich shadows and dramatic shape while keeping the subject readable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_fairy_glow",
+      "name": "Fairy Glow",
+      "text": "Use delicate glowing light from magical plants, particles, or fantasy sources with gentle color.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_cool_morning",
+      "name": "Cool Morning",
+      "text": "Use cool morning light with fresh blue shadows, soft highlights, and calm atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_warm_lamp",
+      "name": "Warm Lamp Light",
+      "text": "Use warm indoor lamp light with cozy falloff, amber tones, and comfortable intimacy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_backlit_halo",
+      "name": "Backlit Halo",
+      "text": "Use backlighting to create a soft halo around hair, shoulders, or silhouette while preserving face detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_split_light",
+      "name": "Split Lighting",
+      "text": "Use split lighting with one side brighter and one side shadowed for drama and character depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_under_neon",
+      "name": "Under Neon",
+      "text": "Use neon lighting from signs or screens, with colorful reflections and stylish urban mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_cloud_diffused",
+      "name": "Cloud Diffused",
+      "text": "Use cloud-diffused daylight with soft shadows, natural colors, and low harshness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_fire_glow",
+      "name": "Fire Glow",
+      "text": "Use warm fire glow with flickering highlights, orange tones, and soft moving shadows.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_cold_moon",
+      "name": "Cold Moon",
+      "text": "Use cold moonlight with blue tones, silver highlights, and quiet nighttime atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_stage_spotlight",
+      "name": "Stage Spotlight",
+      "text": "Use a stage spotlight to isolate the subject with controlled falloff and performance drama.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_rainy_gray",
+      "name": "Rainy Gray",
+      "text": "Use muted rainy-day light with gray softness, diffused contrast, and reflective surfaces.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    },
+    {
+      "id": "light_mood_divine_light",
+      "name": "Divine Light",
+      "text": "Use radiant divine light with soft bloom, gentle rays, and uplifting atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting moods"
+    }
+  ]
+}

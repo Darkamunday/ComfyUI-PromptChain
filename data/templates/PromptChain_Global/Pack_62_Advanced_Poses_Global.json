@@ -1,0 +1,140 @@
+{
+  "name": "Pack_62_Advanced_Poses_Global",
+  "prompts": [
+    {
+      "id": "pose_hand_on_chest",
+      "name": "Hand on Chest",
+      "text": "Pose the subject with one hand resting naturally on the chest, suggesting sincerity, surprise, or emotional emphasis.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_sitting_window",
+      "name": "Sitting by Window",
+      "text": "Pose the subject sitting near a window with relaxed body language, natural light, and thoughtful atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_crouched_ready",
+      "name": "Ready Crouch",
+      "text": "Pose the subject in a low ready crouch with stable balance, alert eyes, and dynamic tension.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_turning_motion",
+      "name": "Turning Motion",
+      "text": "Pose the subject mid-turn with flowing hair or clothing, natural torso rotation, and a captured-in-motion feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_adjusting_clothes",
+      "name": "Adjusting Clothes",
+      "text": "Pose the subject adjusting clothing, sleeves, tie, scarf, or collar with believable hand placement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_holding_hat",
+      "name": "Holding Hat",
+      "text": "Pose the subject holding or adjusting a hat with natural fingers, stylish body language, and clear silhouette.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_sitting_knees_up",
+      "name": "Knees Up Sitting",
+      "text": "Pose the subject sitting with knees drawn up, relaxed arms, and an intimate or cozy feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_side_sitting",
+      "name": "Side Sitting",
+      "text": "Pose the subject sitting sideways with elegant leg placement, balanced torso, and graceful posture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_backlit_standing",
+      "name": "Backlit Standing",
+      "text": "Pose the subject standing against backlight with a strong readable silhouette and calm presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_walking_away",
+      "name": "Walking Away",
+      "text": "Pose the subject walking away or into the distance with natural stride and storytelling mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_reaching_sky",
+      "name": "Reaching Up",
+      "text": "Pose the subject reaching upward with extended arm, open body line, and hopeful energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_covering_eye",
+      "name": "Covering One Eye",
+      "text": "Pose the subject with one hand or object partially covering one eye, creating mystery or playful character.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_resting_head_hand",
+      "name": "Head Resting on Hand",
+      "text": "Pose the subject resting their head on one hand with relaxed elbow support and thoughtful mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_arms_open",
+      "name": "Open Arms",
+      "text": "Pose the subject with arms open in a welcoming, excited, or freeing gesture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    },
+    {
+      "id": "pose_cloak_sweep",
+      "name": "Cloak Sweep",
+      "text": "Pose the subject with a sweeping cloak, coat, or cape creating dramatic motion and shape.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "advanced poses"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Pack_52_Worldbuilding_Global",
+  "prompts": [
+    {
+      "id": "world_royal_kingdom",
+      "name": "Royal Kingdom",
+      "text": "Create a setting that feels part of a royal kingdom, with noble architecture, refined clothing, banners, and ceremonial atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_magic_academy",
+      "name": "Magic Academy",
+      "text": "Create a setting that feels like a magic academy, with books, runes, classrooms, enchanted objects, and scholarly fantasy detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_forest_village",
+      "name": "Forest Village",
+      "text": "Create a forest village setting with wooden homes, lanterns, moss, greenery, and a close connection to nature.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_desert_city",
+      "name": "Desert City",
+      "text": "Create a desert city setting with sandstone buildings, fabric canopies, warm light, and dry atmospheric detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_sky_city",
+      "name": "Sky City",
+      "text": "Create a sky city setting with floating platforms, bridges, towers, clouds, and a grand sense of height.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_underwater_city",
+      "name": "Underwater City",
+      "text": "Create an underwater city setting with coral structures, blue filtered light, glass domes, and drifting aquatic detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_post_apocalyptic",
+      "name": "Post-Apocalyptic",
+      "text": "Create a post-apocalyptic setting with weathered structures, overgrown ruins, scavenged details, and quiet survival mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_steampunk",
+      "name": "Steampunk World",
+      "text": "Create a steampunk setting with brass machinery, gears, steam pipes, goggles, and Victorian-inspired invention.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_solarpunk",
+      "name": "Solarpunk World",
+      "text": "Create a solarpunk setting with greenery, clean technology, warm sunlight, and optimistic sustainable design.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_noir_city",
+      "name": "Noir City",
+      "text": "Create a noir city setting with wet streets, dramatic shadows, vintage details, and investigative mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_frozen_empire",
+      "name": "Frozen Empire",
+      "text": "Create a frozen empire setting with icy architecture, snow, pale light, and majestic cold atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_volcanic_realm",
+      "name": "Volcanic Realm",
+      "text": "Create a volcanic realm with black stone, lava glow, smoke, ash, and powerful elemental atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_spirit_realm",
+      "name": "Spirit Realm",
+      "text": "Create a spirit realm with soft mist, glowing paths, translucent forms, and quiet supernatural beauty.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_space_frontier",
+      "name": "Space Frontier",
+      "text": "Create a space frontier setting with outposts, ships, rugged technology, and exploratory atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    },
+    {
+      "id": "world_hidden_sanctuary",
+      "name": "Hidden Sanctuary",
+      "text": "Create a hidden sanctuary setting with peaceful architecture, protected nature, soft light, and secret calm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "worldbuilding"
+    }
+  ]
+}

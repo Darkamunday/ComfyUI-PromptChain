@@ -1,0 +1,140 @@
+{
+  "name": "Pack_67_Character_Relationships_Global",
+  "prompts": [
+    {
+      "id": "relationship_best_friends",
+      "name": "Best Friends",
+      "text": "Show two subjects as close friends with relaxed body language, warm expressions, natural spacing, and believable emotional connection.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_siblings",
+      "name": "Siblings",
+      "text": "Show the subjects as siblings with familiar comfort, subtle shared traits, casual posture, and grounded family warmth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_teacher_student",
+      "name": "Teacher and Student",
+      "text": "Show a respectful teacher-and-student dynamic with guidance, attention, classroom or learning context, and clear roles.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_mentor_apprentice",
+      "name": "Mentor and Apprentice",
+      "text": "Show a mentor guiding an apprentice with focused attention, shared tools or setting, and a sense of learning.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_rivals",
+      "name": "Rivals",
+      "text": "Show two subjects as rivals with confident posture, competitive energy, strong eye contact, and balanced tension.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_team_members",
+      "name": "Team Members",
+      "text": "Show subjects as team members working together with coordinated poses, shared purpose, and cooperative energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_guardian",
+      "name": "Guardian",
+      "text": "Show one subject protectively watching over another with calm strength, gentle distance, and protective body language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_reunion",
+      "name": "Reunion",
+      "text": "Create a reunion moment with emotional warmth, softened expressions, open posture, and a sense of relief.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_farewell",
+      "name": "Farewell",
+      "text": "Create a farewell between subjects using restrained emotion, meaningful distance, subtle gestures, and quiet atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_first_meeting",
+      "name": "First Meeting",
+      "text": "Show a first meeting between subjects with curiosity, cautious warmth, eye contact, and a sense of new possibility.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_partners",
+      "name": "Partners",
+      "text": "Show subjects as reliable partners with mutual trust, coordinated posture, and shared focus.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_rescue",
+      "name": "Rescue Moment",
+      "text": "Show a rescue moment with protective action, concern, controlled urgency, and clear emotional stakes.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_caregiver",
+      "name": "Caregiver",
+      "text": "Show a caregiver dynamic with gentle attention, calm support, and considerate body language.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_group_friendship",
+      "name": "Friend Group",
+      "text": "Show a small friend group with varied personalities, natural spacing, and lively social energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    },
+    {
+      "id": "relationship_quiet_support",
+      "name": "Quiet Support",
+      "text": "Show quiet emotional support through subtle gestures, gentle proximity, and soft reassuring expression.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "character relationships"
+    }
+  ]
+}

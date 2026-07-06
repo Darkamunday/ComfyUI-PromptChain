@@ -1,0 +1,140 @@
+{
+  "name": "Pack_22_Nature_Global",
+  "prompts": [
+    {
+      "id": "nature_mountain_range",
+      "name": "Mountain Range",
+      "text": "Set the scene before a vast mountain range with layered peaks, atmospheric depth, and clean natural light.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_waterfall",
+      "name": "Waterfall",
+      "text": "Place the subject near a waterfall with mist, rushing water, wet stones, and lush surrounding vegetation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_crystal_lake",
+      "name": "Crystal Lake",
+      "text": "Use a crystal-clear lake reflecting sky, trees, or mountains, with calm water and peaceful natural beauty.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_forest_path",
+      "name": "Forest Path",
+      "text": "Create a forest path with moss, trees, filtered sunlight, fallen leaves, and a quiet sense of discovery.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_bamboo_grove",
+      "name": "Bamboo Grove",
+      "text": "Place the scene in a bamboo grove with tall green stalks, soft filtered light, and a serene atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_wildflower_meadow",
+      "name": "Wildflower Meadow",
+      "text": "Use a meadow filled with wildflowers, soft grass, open sky, and a bright seasonal atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_desert_dunes",
+      "name": "Desert Dunes",
+      "text": "Create rolling desert dunes with warm sand, long shadows, dry air, and strong natural shapes.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_sea_cliffs",
+      "name": "Sea Cliffs",
+      "text": "Place the scene on coastal cliffs overlooking the ocean with wind, waves, and dramatic natural scale.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_riverbank",
+      "name": "Riverbank",
+      "text": "Set the scene beside a flowing river with stones, reeds, trees, and gentle reflective light.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_snowy_forest",
+      "name": "Snowy Forest",
+      "text": "Create a snowy forest with frosted branches, quiet white ground, and cold peaceful atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_tropical_jungle",
+      "name": "Tropical Jungle",
+      "text": "Use a dense tropical jungle with huge leaves, vines, humid atmosphere, and rich green detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_volcanic_landscape",
+      "name": "Volcanic Landscape",
+      "text": "Create a volcanic landscape with black rock, distant lava glow, smoke, and dramatic geological forms.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_canyon",
+      "name": "Canyon",
+      "text": "Set the scene in a wide canyon with layered stone walls, warm light, and grand natural depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_cave",
+      "name": "Cave",
+      "text": "Place the scene inside a natural cave with rock formations, soft shafts of light, and atmospheric depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    },
+    {
+      "id": "nature_flower_field",
+      "name": "Flower Field",
+      "text": "Create a large flower field with colorful blossoms, gentle wind, and a cheerful open-air feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "nature"
+    }
+  ]
+}

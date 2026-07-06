@@ -1,0 +1,140 @@
+{
+  "name": "Pack_44_Urban_Scenes_Global",
+  "prompts": [
+    {
+      "id": "urban_crosswalk",
+      "name": "Crosswalk",
+      "text": "Place the scene at a city crosswalk with traffic lights, street markings, pedestrians, and natural urban motion.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_bus_stop",
+      "name": "Bus Stop",
+      "text": "Place the scene at a bus stop with shelter glass, signs, road detail, and everyday city atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_train_platform",
+      "name": "Train Platform",
+      "text": "Place the scene on a train platform with rails, signage, benches, and believable travel context.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_rooftop",
+      "name": "Urban Rooftop",
+      "text": "Place the scene on an urban rooftop with distant buildings, wind, railings, and dramatic city depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_alley",
+      "name": "City Alley",
+      "text": "Place the scene in a city alley with brick walls, pipes, bins, posters, and gritty environmental texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_shopping_street",
+      "name": "Shopping Street",
+      "text": "Place the scene on a lively shopping street with storefronts, signs, window displays, and casual foot traffic.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_arcade",
+      "name": "Shopping Arcade",
+      "text": "Place the scene in a covered shopping arcade with lights, signs, tiled floors, and busy retail energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_parking_lot",
+      "name": "Parking Lot",
+      "text": "Place the scene in a parking lot with painted lines, cars, streetlights, and open urban space.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_bridge",
+      "name": "City Bridge",
+      "text": "Place the scene on a city bridge with railings, skyline, traffic, and strong linear perspective.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_subway",
+      "name": "Subway Entrance",
+      "text": "Place the scene near a subway entrance with stairs, signage, tile, and everyday urban detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_laundromat",
+      "name": "Laundromat",
+      "text": "Place the scene in a laundromat with washing machines, fluorescent light, baskets, and quiet slice-of-life mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_convenience_store",
+      "name": "Convenience Store",
+      "text": "Place the scene near or inside a convenience store with shelves, bright signs, and casual night atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_apartment_balcony",
+      "name": "Apartment Balcony",
+      "text": "Place the scene on an apartment balcony with railings, plants, city view, and personal domestic detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_street_corner",
+      "name": "Street Corner",
+      "text": "Place the scene at a street corner with layered signs, road markings, buildings, and natural city energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    },
+    {
+      "id": "urban_underpass",
+      "name": "Underpass",
+      "text": "Place the scene beneath an underpass with concrete structure, echoing space, graffiti, and moody urban lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "urban scenes"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Pack_88_Outdoor_Details_Global",
+  "prompts": [
+    {
+      "id": "outdoor_stone_path",
+      "name": "Stone Path",
+      "text": "Add a stone path with uneven shapes, moss, dirt between stones, and natural grounding.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_wooden_fence",
+      "name": "Wooden Fence",
+      "text": "Add a wooden fence with grain, weathering, posts, and rural or garden atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_lamp_posts",
+      "name": "Lamp Posts",
+      "text": "Add lamp posts with warm glow, metal detail, and believable street or park placement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_benches",
+      "name": "Park Benches",
+      "text": "Add park benches with wood or metal texture, natural scale, and relaxed public-space detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_flower_beds",
+      "name": "Flower Beds",
+      "text": "Add flower beds with layered blossoms, soil, leaves, and decorative garden structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_fallen_leaves",
+      "name": "Fallen Leaves",
+      "text": "Add fallen leaves scattered naturally across paths, grass, or streets for seasonal texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_puddles",
+      "name": "Puddles",
+      "text": "Add puddles with small ripples, reflections, and wet ground context.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_snow_tracks",
+      "name": "Snow Tracks",
+      "text": "Add footprints or tracks in snow with soft edges and natural placement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_utility_poles",
+      "name": "Utility Poles",
+      "text": "Add utility poles and wires for everyday town or street atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_street_signs",
+      "name": "Street Signs No Text",
+      "text": "Add street signs as environmental shapes without readable text, preserving clean image output.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_market_stalls",
+      "name": "Market Stalls",
+      "text": "Add market stalls with fabric awnings, goods, warm light, and controlled background activity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_bridge_railing",
+      "name": "Bridge Railing",
+      "text": "Add bridge railings with perspective lines, metal or stone texture, and environmental depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_fountain_square",
+      "name": "Fountain Square",
+      "text": "Add a public fountain square with water, stone, open space, and urban elegance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_garden_arch",
+      "name": "Garden Arch",
+      "text": "Add a garden arch with climbing plants, flowers, and romantic outdoor framing.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    },
+    {
+      "id": "outdoor_distant_mountains",
+      "name": "Distant Mountains",
+      "text": "Add distant mountains with atmospheric haze, layered silhouettes, and grand outdoor scale.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "outdoor details"
+    }
+  ]
+}

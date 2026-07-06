@@ -1,0 +1,140 @@
+{
+  "name": "Pack_31_Backgrounds_Global",
+  "prompts": [
+    {
+      "id": "background_clean_white",
+      "name": "Clean White Studio",
+      "text": "Use a clean white studio background with soft even lighting, minimal distractions, and clear subject focus.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_dark_studio",
+      "name": "Dark Studio",
+      "text": "Use a dark studio background with controlled contrast, readable subject lighting, and refined dramatic simplicity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_soft_gradient",
+      "name": "Soft Gradient",
+      "text": "Use a smooth gradient background with gentle color transition and polished visual balance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_bokeh_lights",
+      "name": "Bokeh Lights",
+      "text": "Use a softly blurred background with glowing bokeh lights that add depth without distracting from the subject.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_city_skyline",
+      "name": "City Skyline",
+      "text": "Use a city skyline background with atmospheric distance, urban lights, and clear environmental context.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_blurred_forest",
+      "name": "Blurred Forest",
+      "text": "Use a softly blurred forest background with natural greenery, depth, and gentle outdoor atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_beach_horizon",
+      "name": "Beach Horizon",
+      "text": "Use a beach horizon background with open sky, water, sand, and a relaxed coastal feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_minimal_room",
+      "name": "Minimal Room",
+      "text": "Use a minimal interior background with clean shapes, soft light, and uncluttered visual structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_abstract_shapes",
+      "name": "Abstract Shapes",
+      "text": "Use tasteful abstract background shapes that support the composition without overwhelming the subject.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_paper_texture",
+      "name": "Paper Texture",
+      "text": "Use a subtle paper-texture background with soft grain, natural warmth, and gentle artistic character.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_flower_wall",
+      "name": "Flower Wall",
+      "text": "Use a decorative flower wall background with layered blossoms, soft color, and romantic charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_neon_blur",
+      "name": "Neon Blur",
+      "text": "Use a blurred neon background with colorful light spill, reflective mood, and stylish city-night energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_cloudscape",
+      "name": "Cloudscape",
+      "text": "Use a cloud-filled background with soft light, open space, and peaceful airy atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_window_view",
+      "name": "Window View",
+      "text": "Use a window-view background with soft exterior detail, natural light, and believable indoor depth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    },
+    {
+      "id": "background_ornate_pattern",
+      "name": "Ornate Pattern",
+      "text": "Use an ornate patterned background with decorative detail, refined symmetry, and elegant visual rhythm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "backgrounds"
+    }
+  ]
+}

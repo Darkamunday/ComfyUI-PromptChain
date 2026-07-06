@@ -1,0 +1,140 @@
+{
+  "name": "Pack_50_Anime_Styles_Global",
+  "prompts": [
+    {
+      "id": "anime_modern_clean",
+      "name": "Modern Clean Anime",
+      "text": "Use a modern clean anime look with crisp line clarity, polished color, expressive eyes, and controlled detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_soft_movie",
+      "name": "Soft Anime Movie",
+      "text": "Use a soft anime movie style with gentle lighting, emotional color, cinematic framing, and natural character appeal.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_realism",
+      "name": "Anime Realism",
+      "text": "Blend anime character design with realistic lighting, believable materials, natural color, and polished semi-real detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_slice_of_life",
+      "name": "Slice of Life Anime",
+      "text": "Use a cozy slice-of-life anime feel with natural everyday detail, warm expressions, and relaxed atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_fantasy_adventure",
+      "name": "Fantasy Adventure Anime",
+      "text": "Use a fantasy adventure anime look with vibrant environments, heroic composition, and clear magical storytelling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_dark_fantasy",
+      "name": "Dark Fantasy Anime",
+      "text": "Use a dark fantasy anime look with dramatic mood, ornate details, rich shadows, and restrained supernatural atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_idol_stage",
+      "name": "Idol Stage Anime",
+      "text": "Use an idol-stage anime look with sparkling lighting, energetic color, stage presence, and polished performance detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_romance",
+      "name": "Romance Anime",
+      "text": "Use a romance anime feeling with soft expressions, warm lighting, gentle color harmony, and emotional closeness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_action",
+      "name": "Action Anime",
+      "text": "Use an action anime look with dynamic motion, strong silhouettes, expressive poses, and energetic composition.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_comedy",
+      "name": "Comedy Anime",
+      "text": "Use a light comedy anime feeling with playful expression, lively body language, and charming exaggeration kept readable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_school_life",
+      "name": "School Life Anime",
+      "text": "Use a school-life anime atmosphere with clean character presentation, natural classroom or campus detail, and youthful everyday energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_magical_girl",
+      "name": "Magical Girl Anime",
+      "text": "Use a magical-girl anime style with elegant transformation energy, sparkling effects, bright colors, and graceful heroic charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_cyberpunk",
+      "name": "Cyberpunk Anime",
+      "text": "Use a cyberpunk anime style with neon lighting, futuristic fashion, dense urban detail, and sleek tech atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_watercolor_soft",
+      "name": "Soft Watercolor Anime",
+      "text": "Use a soft watercolor anime finish with gentle edges, delicate color washes, and dreamy atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    },
+    {
+      "id": "anime_classic_90s",
+      "name": "Classic Anime Feeling",
+      "text": "Use a classic anime-inspired feeling with bold shapes, expressive eyes, warm color, and nostalgic presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "anime styles"
+    }
+  ]
+}

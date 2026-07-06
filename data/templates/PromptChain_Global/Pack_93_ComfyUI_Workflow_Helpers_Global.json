@@ -1,0 +1,140 @@
+{
+  "name": "Pack_93_ComfyUI_Workflow_Helpers_Global",
+  "prompts": [
+    {
+      "id": "workflow_img2img_consistency",
+      "name": "Image-to-Image Consistency",
+      "text": "Preserve the original subject identity, major shapes, pose logic, and key design elements while improving detail and lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_character_turnaround",
+      "name": "Character Turnaround",
+      "text": "Keep character identity, hairstyle, outfit, colors, accessories, and proportions consistent across different angles or views.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_lora_dataset_clean",
+      "name": "LoRA Dataset Clean",
+      "text": "Create a clean character-focused image suitable for training, with clear subject visibility, simple background, accurate outfit, and minimal clutter.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_lora_face_focus",
+      "name": "LoRA Face Focus",
+      "text": "Focus on clear face details, hairstyle, eyes, and key identity traits with strong lighting and minimal background distraction.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_lora_full_body",
+      "name": "LoRA Full Body",
+      "text": "Show the full character clearly from head to toe with outfit, shoes, body proportions, and silhouette readable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_style_test",
+      "name": "Style Test",
+      "text": "Use a straightforward composition that tests style, lighting, texture, face quality, hands, and overall model behavior.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_prompt_expansion",
+      "name": "Prompt Expansion",
+      "text": "Expand a short idea into a complete image prompt by adding subject detail, setting, lighting, mood, camera, and finish.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_prompt_cleanup",
+      "name": "Prompt Cleanup",
+      "text": "Clean up messy prompt input by removing duplicates, fixing contradictions, and improving the order of visual instructions.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_variation",
+      "name": "Variation Prompt",
+      "text": "Create a variation that preserves the original concept but changes lighting, pose, setting, or mood in a controlled way.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_pose_test",
+      "name": "Pose Test",
+      "text": "Use a clear pose-focused composition that tests body anatomy, hands, silhouette, and clothing movement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_lighting_test",
+      "name": "Lighting Test",
+      "text": "Use a lighting-focused composition that tests exposure, shadow quality, face readability, and material response.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_background_test",
+      "name": "Background Test",
+      "text": "Use a background-focused composition that tests environment detail, depth, lighting integration, and subject separation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_expression_test",
+      "name": "Expression Test",
+      "text": "Use a face-focused composition that tests emotion, eyes, mouth, skin detail, and expression readability.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_outfit_test",
+      "name": "Outfit Test",
+      "text": "Use an outfit-focused composition that tests fabric folds, accessories, materials, full silhouette, and design consistency.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    },
+    {
+      "id": "workflow_negative_test",
+      "name": "Negative Test",
+      "text": "Apply cleanup guidance to reduce bad anatomy, unwanted text, artifacts, clutter, poor lighting, and duplicate elements.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "workflow helpers"
+    }
+  ]
+}

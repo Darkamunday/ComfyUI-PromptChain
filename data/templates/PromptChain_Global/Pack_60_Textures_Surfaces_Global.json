@@ -1,0 +1,140 @@
+{
+  "name": "Pack_60_Textures_Surfaces_Global",
+  "prompts": [
+    {
+      "id": "texture_wet_pavement",
+      "name": "Wet Pavement",
+      "text": "Add wet pavement with realistic reflections, uneven surface detail, and light interaction.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_old_stone",
+      "name": "Old Stone",
+      "text": "Use old stone surfaces with cracks, moss, weathering, and believable age.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_polished_marble",
+      "name": "Polished Marble",
+      "text": "Use polished marble with veining, soft reflections, and refined luxury detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_weathered_wood",
+      "name": "Weathered Wood",
+      "text": "Use weathered wood with grain, scratches, softened edges, and natural age.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_clean_glass",
+      "name": "Clean Glass",
+      "text": "Use clean glass with transparent reflections, edge highlights, and believable refraction.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_frosted_glass",
+      "name": "Frosted Glass",
+      "text": "Use frosted glass with soft diffusion, muted reflections, and subtle surface texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_brick_wall",
+      "name": "Brick Wall",
+      "text": "Use a brick wall with mortar lines, uneven color, and real surface variation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_concrete",
+      "name": "Concrete",
+      "text": "Use concrete with subtle pores, stains, cracks, and grounded industrial texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_sand",
+      "name": "Sand",
+      "text": "Use sand with fine grains, footprints or wind patterns where appropriate, and natural light response.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_snow",
+      "name": "Snow Surface",
+      "text": "Use snow surface detail with soft accumulation, footprints, sparkle, and cold diffusion.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_water",
+      "name": "Water Surface",
+      "text": "Use water surface detail with ripples, reflections, transparency, and natural movement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_metal_scratched",
+      "name": "Scratched Metal",
+      "text": "Use scratched metal with small marks, worn edges, and realistic specular highlights.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_ceramic",
+      "name": "Ceramic",
+      "text": "Use ceramic surfaces with subtle glaze, smooth form, and small imperfections.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_paper",
+      "name": "Paper",
+      "text": "Use paper texture with fibers, folds, soft shadowing, and natural thickness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    },
+    {
+      "id": "texture_fur",
+      "name": "Fur Texture",
+      "text": "Use fur texture with layered strands, soft volume, and directional lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "textures and surfaces"
+    }
+  ]
+}

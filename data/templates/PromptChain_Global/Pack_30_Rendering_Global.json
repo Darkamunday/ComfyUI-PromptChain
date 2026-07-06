@@ -1,0 +1,140 @@
+{
+  "name": "Pack_30_Rendering_Global",
+  "prompts": [
+    {
+      "id": "render_anime_realism",
+      "name": "Anime Realism",
+      "text": "Render the image with anime-inspired beauty combined with realistic lighting, believable materials, and clean polished detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_soft_anime",
+      "name": "Soft Anime",
+      "text": "Render the image with soft anime styling, gentle gradients, smooth shading, and expressive facial clarity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_cinematic_realism",
+      "name": "Cinematic Realism",
+      "text": "Render the image with cinematic realism, natural depth, controlled contrast, and polished visual storytelling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_painterly",
+      "name": "Painterly",
+      "text": "Render the image with painterly softness, visible artistic texture, elegant color blending, and refined illustration quality.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_editorial",
+      "name": "Editorial Render",
+      "text": "Render the image with premium editorial polish, refined styling, crisp details, and confident visual presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_clean_digital",
+      "name": "Clean Digital",
+      "text": "Render the image with clean digital finish, sharp lines, clear details, and controlled color.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_filmic",
+      "name": "Filmic",
+      "text": "Render the image with filmic contrast, subtle grain, natural highlight rolloff, and cohesive color mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_high_detail",
+      "name": "High Detail",
+      "text": "Render with high detail across the subject, clothing, materials, and environment while keeping the composition readable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_soft_light",
+      "name": "Soft Light Render",
+      "text": "Render with gentle soft lighting, reduced harshness, smooth transitions, and attractive subject clarity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_luxury_polish",
+      "name": "Luxury Polish",
+      "text": "Render with a luxurious polished finish, premium surfaces, elegant color, and refined detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_natural",
+      "name": "Natural Render",
+      "text": "Render with natural colors, believable skin tones, realistic lighting, and restrained post-processing.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_dreamy",
+      "name": "Dreamy Render",
+      "text": "Render with dreamy softness, delicate glow, gentle atmosphere, and slightly romantic visual flow.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_sharp_focus",
+      "name": "Sharp Focus",
+      "text": "Render with crisp subject focus, defined facial features, clear clothing detail, and controlled background softness.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_atmospheric",
+      "name": "Atmospheric Render",
+      "text": "Render with strong atmospheric depth, light diffusion, subtle particles, and layered space.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    },
+    {
+      "id": "render_final_polish",
+      "name": "Final Polish",
+      "text": "Apply final polish with balanced exposure, clean detail, consistent style, and strong overall image quality.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "rendering"
+    }
+  ]
+}

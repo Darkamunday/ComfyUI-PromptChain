@@ -1,0 +1,140 @@
+{
+  "name": "Pack_74_Environment_Combos_Global",
+  "prompts": [
+    {
+      "id": "env_combo_cafe_rain",
+      "name": "Rainy Cafe Window",
+      "text": "Place the subject by a café window during rain, with soft indoor warmth, wet glass, muted daylight, and cozy reflective mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_library_sun",
+      "name": "Sunlit Library",
+      "text": "Place the subject in a library with sunlight through tall windows, dust motes, warm wood, and quiet scholarly beauty.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_rooftop_sunset",
+      "name": "Rooftop Sunset",
+      "text": "Place the subject on a rooftop at sunset with warm sky colors, city depth, wind, and cinematic atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_bedroom_morning",
+      "name": "Bedroom Morning",
+      "text": "Place the subject in a cozy bedroom during morning light, with soft bedding, gentle shadows, and relaxed intimacy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_train_night",
+      "name": "Night Train",
+      "text": "Place the subject inside a train at night with window reflections, soft interior light, and quiet travel mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_forest_mist",
+      "name": "Misty Forest Path",
+      "text": "Place the subject on a misty forest path with moss, filtered light, soft haze, and calm mystery.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_beach_golden",
+      "name": "Golden Beach",
+      "text": "Place the subject on a beach during golden hour with warm light, soft waves, and relaxed coastal atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_city_rain_neon",
+      "name": "Neon Rain Street",
+      "text": "Place the subject on a rainy neon city street with reflective pavement, glowing signs, and stylish night color.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_shrine_petals",
+      "name": "Shrine with Petals",
+      "text": "Place the subject at a quiet shrine with drifting petals, stone paths, lanterns, and serene seasonal beauty.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_greenhouse_overcast",
+      "name": "Overcast Greenhouse",
+      "text": "Place the subject inside a greenhouse on an overcast day with diffused light, glass, plants, and botanical calm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_castle_candle",
+      "name": "Candlelit Castle Hall",
+      "text": "Place the subject in a castle hall lit by candles and torches, with stone walls, banners, and noble atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_lab_blue_light",
+      "name": "Blue-Lit Laboratory",
+      "text": "Place the subject in a laboratory with soft blue lighting, glass equipment, clean surfaces, and thoughtful science mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_market_evening",
+      "name": "Evening Market",
+      "text": "Place the subject in an evening market with lanterns, stalls, warm crowds, food steam, and lively atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_snow_window",
+      "name": "Snowy Window Interior",
+      "text": "Place the subject indoors by a window during snowfall, with warm interior light and quiet winter comfort.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    },
+    {
+      "id": "env_combo_arcade_neon",
+      "name": "Neon Arcade",
+      "text": "Place the subject in an arcade with glowing screens, colorful machines, reflective floor, and playful energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "environment combos"
+    }
+  ]
+}

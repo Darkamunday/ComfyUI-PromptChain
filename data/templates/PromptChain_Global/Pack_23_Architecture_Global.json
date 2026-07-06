@@ -1,0 +1,140 @@
+{
+  "name": "Pack_23_Architecture_Global",
+  "prompts": [
+    {
+      "id": "architecture_modern_minimal",
+      "name": "Modern Minimalist",
+      "text": "Use modern minimalist architecture with clean lines, open space, glass, concrete, and calm geometric balance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_japanese_traditional",
+      "name": "Traditional Japanese",
+      "text": "Use traditional Japanese architecture with wooden beams, tatami, sliding doors, tiled roofs, and refined natural harmony.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_gothic",
+      "name": "Gothic Architecture",
+      "text": "Use gothic architecture with pointed arches, stained glass, tall columns, carved stone, and dramatic vertical beauty.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_art_nouveau",
+      "name": "Art Nouveau",
+      "text": "Use art nouveau architecture with flowing organic lines, floral motifs, curved glass, and ornamental elegance.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_victorian",
+      "name": "Victorian",
+      "text": "Use Victorian architecture with ornate trim, decorative windows, rich materials, and historical character.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_brutalist",
+      "name": "Brutalist",
+      "text": "Use brutalist architecture with heavy concrete, bold geometric shapes, strong shadows, and monumental presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_futuristic",
+      "name": "Futuristic",
+      "text": "Use futuristic architecture with sleek materials, curved structures, luminous panels, and advanced urban design.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_cozy_cottage",
+      "name": "Cozy Cottage",
+      "text": "Use cozy cottage architecture with warm wood, stone details, flower boxes, and inviting domestic charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_luxury_penthouse",
+      "name": "Luxury Penthouse",
+      "text": "Use a luxury penthouse interior with floor-to-ceiling windows, premium materials, city views, and refined design.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_greenhouse",
+      "name": "Glass Greenhouse",
+      "text": "Use a glass greenhouse with plants, transparent walls, warm natural light, and botanical atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_industrial",
+      "name": "Industrial Loft",
+      "text": "Use industrial loft architecture with exposed brick, metal beams, large windows, and raw urban texture.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_moroccan",
+      "name": "Moroccan Courtyard",
+      "text": "Use Moroccan courtyard architecture with patterned tiles, arches, fountains, and warm decorative color.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_roman",
+      "name": "Ancient Roman",
+      "text": "Use ancient Roman architecture with columns, marble floors, arches, and classical grandeur.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_floating_city",
+      "name": "Floating City",
+      "text": "Use fantasy floating-city architecture with suspended platforms, bridges, towers, and clouds below.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_underwater",
+      "name": "Underwater Architecture",
+      "text": "Use underwater architecture with domed glass, coral integration, blue filtered light, and aquatic atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "architecture"
+    }
+  ]
+}

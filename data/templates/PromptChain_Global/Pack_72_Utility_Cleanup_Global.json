@@ -1,0 +1,140 @@
+{
+  "name": "Pack_72_Utility_Cleanup_Global",
+  "prompts": [
+    {
+      "id": "cleanup_no_extra_people",
+      "name": "No Extra People",
+      "text": "Avoid adding extra people or background characters unless the prompt explicitly requests them.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_keep_one_subject",
+      "name": "Keep One Subject",
+      "text": "Keep the image focused on a single main subject with no duplicates, clones, or unintended companions.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_keep_outfit",
+      "name": "Keep Outfit Consistent",
+      "text": "Keep the outfit consistent across the body with matching fabrics, accessories, colors, and design logic.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_keep_hair_consistent",
+      "name": "Keep Hair Consistent",
+      "text": "Keep hairstyle, hair color, length, and accessories consistent throughout the image.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_keep_eye_color",
+      "name": "Keep Eye Color",
+      "text": "Keep the eye color consistent, clear, and symmetrical unless heterochromia is requested.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_keep_background_simple",
+      "name": "Keep Background Simple",
+      "text": "Keep the background simple and supportive, avoiding clutter that competes with the subject.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_no_random_props",
+      "name": "No Random Props",
+      "text": "Avoid adding random objects, weapons, food, signs, animals, or decorations unless requested.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_no_style_conflict",
+      "name": "No Style Conflict",
+      "text": "Avoid mixing incompatible styles within the same image, keeping rendering, clothing, and environment visually coherent.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_no_dark_bias",
+      "name": "No Dark Bias",
+      "text": "Avoid unnecessary darkening; preserve readable exposure, visible background, and clear subject lighting.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_no_overdetail",
+      "name": "No Overdetail",
+      "text": "Avoid excessive small details that create noise, clutter, or visual confusion.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_anatomy_priority",
+      "name": "Anatomy Priority",
+      "text": "Prioritize clean anatomy, believable joints, readable hands, and natural body proportions.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_face_priority",
+      "name": "Face Priority",
+      "text": "Prioritize a clean, attractive, symmetrical, expressive face with readable eyes and mouth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_hands_priority",
+      "name": "Hands Priority",
+      "text": "Prioritize correct hand anatomy, natural finger count, and believable hand gestures.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_material_priority",
+      "name": "Material Priority",
+      "text": "Prioritize believable material behavior for cloth, skin, metal, glass, leather, hair, and environmental surfaces.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    },
+    {
+      "id": "cleanup_prompt_balance",
+      "name": "Prompt Balance",
+      "text": "Balance all prompt elements so subject, outfit, lighting, background, and mood work together without overpowering each other.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "utility cleanup"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Pack_46_Magic_Effects_Global",
+  "prompts": [
+    {
+      "id": "magic_glowing_runes",
+      "name": "Glowing Runes",
+      "text": "Add glowing runes that float or appear on surfaces with clear symbols, soft light, and controlled magical energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_energy_ring",
+      "name": "Energy Ring",
+      "text": "Add a circular magical energy ring with elegant geometry, glowing edges, and balanced visual intensity.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_sparkles",
+      "name": "Magic Sparkles",
+      "text": "Add small magical sparkles around the subject or scene, keeping them subtle, elegant, and not too crowded.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_fire_spell",
+      "name": "Fire Spell",
+      "text": "Add a controlled fire spell with warm glow, flame movement, and believable light spill.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_ice_spell",
+      "name": "Ice Spell",
+      "text": "Add an ice spell effect with crystalline shapes, cool glow, frost detail, and clean structure.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_light_spell",
+      "name": "Light Spell",
+      "text": "Add a light-based spell effect with soft radiance, luminous particles, and hopeful atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_dark_spell",
+      "name": "Dark Spell",
+      "text": "Add a dark magic effect with smoky tendrils, deep violet tones, and restrained ominous energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_healing_aura",
+      "name": "Healing Aura",
+      "text": "Add a healing aura with soft green or golden light, gentle particles, and calm restorative feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_teleport",
+      "name": "Teleport Effect",
+      "text": "Add a teleportation effect with swirling light, broken particles, and a clear sense of transition.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_summoning_circle",
+      "name": "Summoning Circle",
+      "text": "Add a summoning circle on the ground with glowing symbols, careful perspective, and atmospheric light.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_floating_books",
+      "name": "Floating Books",
+      "text": "Add floating books or pages moved by magic, with believable spacing and subtle motion.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_crystal_orbs",
+      "name": "Crystal Orbs",
+      "text": "Add floating crystal orbs with internal glow, reflections, and mystical presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_wings_light",
+      "name": "Wings of Light",
+      "text": "Add translucent wings made of light with soft glow, elegant feather-like forms, and divine atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_elemental_aura",
+      "name": "Elemental Aura",
+      "text": "Add an elemental aura matching the scene, using fire, water, earth, wind, light, or shadow with coherent styling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    },
+    {
+      "id": "magic_time_distortion",
+      "name": "Time Distortion",
+      "text": "Add a time-distortion effect with floating clock fragments, warped light, and surreal but readable detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "magic effects"
+    }
+  ]
+}

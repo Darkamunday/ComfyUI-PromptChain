@@ -1,0 +1,95 @@
+{
+  "name": "Pack_05_Lighting_Global",
+  "prompts": [
+    {
+      "id": "lighting_soft_daylight",
+      "name": "Soft Daylight",
+      "text": "Illuminate the scene with soft natural daylight, balanced exposure, gentle shadows, and a bright, clean atmosphere that works well across many image models.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    },
+    {
+      "id": "lighting_golden_hour",
+      "name": "Golden Hour",
+      "text": "Use warm golden-hour lighting with soft highlights, pleasant amber tones, and natural cinematic warmth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    },
+    {
+      "id": "lighting_window_light",
+      "name": "Window Light",
+      "text": "Light the scene with soft window light, realistic indoor illumination, and gentle shadow transitions.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    },
+    {
+      "id": "lighting_studio_portrait",
+      "name": "Studio Portrait",
+      "text": "Use clean professional studio portrait lighting with soft key light, gentle fill light, and flattering subject illumination.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    },
+    {
+      "id": "lighting_moonlight",
+      "name": "Moonlight",
+      "text": "Create a cool moonlit atmosphere with soft blue-toned illumination, readable shadows, and a calm nighttime mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    },
+    {
+      "id": "lighting_candlelight",
+      "name": "Candlelight",
+      "text": "Use warm candlelight to create a cozy, intimate atmosphere with soft falloff and gentle highlights.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    },
+    {
+      "id": "lighting_volumetric",
+      "name": "Volumetric Lighting",
+      "text": "Add subtle volumetric lighting and light rays to create depth and atmosphere without overwhelming the subject.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    },
+    {
+      "id": "lighting_overcast",
+      "name": "Overcast Day",
+      "text": "Use soft overcast daylight with diffused illumination, low harsh contrast, and natural color rendering.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    },
+    {
+      "id": "lighting_rainy_window",
+      "name": "Rainy Window Light",
+      "text": "Use diffused daylight through rainy windows, with a muted but cozy atmosphere and soft reflections.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    },
+    {
+      "id": "lighting_neon_night",
+      "name": "Neon Night",
+      "text": "Light the scene with colorful neon illumination, reflective highlights, and a stylish night-city mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "lighting"
+    }
+  ]
+}

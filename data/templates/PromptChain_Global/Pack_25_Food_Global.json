@@ -1,0 +1,140 @@
+{
+  "name": "Pack_25_Food_Global",
+  "prompts": [
+    {
+      "id": "food_coffee",
+      "name": "Coffee",
+      "text": "Add a freshly brewed cup of coffee with rising steam, warm ceramic texture, and a cozy café-like feeling.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_tea_set",
+      "name": "Tea Set",
+      "text": "Add an elegant tea set with delicate cups, warm tea, subtle steam, and refined presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_ramen",
+      "name": "Ramen",
+      "text": "Add a steaming bowl of ramen with noodles, broth, toppings, chopsticks, and appetizing detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_bento",
+      "name": "Bento Box",
+      "text": "Add a neatly arranged Japanese bento box with colorful ingredients, clean presentation, and appealing food detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_sushi",
+      "name": "Sushi",
+      "text": "Add a plate of sushi with fresh ingredients, careful arrangement, and polished food photography appeal.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_cake",
+      "name": "Layered Cake",
+      "text": "Add a beautifully decorated layered cake with cream, fruit, soft texture, and dessert-table charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_pastries",
+      "name": "Pastries",
+      "text": "Add fresh pastries with flaky texture, golden crust, and bakery-style warmth.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_fruit_basket",
+      "name": "Fruit Basket",
+      "text": "Add a basket of fresh fruit with varied colors, natural shine, and abundant detail.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_picnic",
+      "name": "Picnic Food",
+      "text": "Add a picnic spread with sandwiches, fruit, drinks, cloth texture, and relaxed outdoor charm.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_ice_cream",
+      "name": "Ice Cream",
+      "text": "Add ice cream with creamy texture, colorful scoops, and playful dessert energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_street_food",
+      "name": "Street Food",
+      "text": "Add lively street food with steam, paper trays, sauces, and casual market atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_fancy_dinner",
+      "name": "Fancy Dinner",
+      "text": "Add a refined plated dinner with elegant arrangement, restaurant lighting, and premium presentation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_breakfast",
+      "name": "Breakfast",
+      "text": "Add a cozy breakfast scene with toast, eggs, fruit, coffee, and soft morning light.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_candy",
+      "name": "Candy",
+      "text": "Add colorful candy with glossy surfaces, playful shapes, and cheerful visual energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    },
+    {
+      "id": "food_hot_chocolate",
+      "name": "Hot Chocolate",
+      "text": "Add a warm cup of hot chocolate with cream, marshmallows, steam, and cozy winter atmosphere.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "food"
+    }
+  ]
+}

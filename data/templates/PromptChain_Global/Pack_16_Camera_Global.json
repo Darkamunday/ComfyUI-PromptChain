@@ -1,0 +1,140 @@
+{
+  "name": "Pack_16_Camera_Global",
+  "prompts": [
+    {
+      "id": "camera_24mm",
+      "name": "24mm Wide Lens",
+      "text": "Use a 24mm wide-angle perspective that shows more of the environment while keeping the subject readable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_35mm",
+      "name": "35mm Natural Lens",
+      "text": "Use a 35mm perspective with natural field of view, balanced environment, and realistic subject presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_50mm",
+      "name": "50mm Standard Lens",
+      "text": "Use a 50mm perspective with balanced subject proportions and a natural photographic feel.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_85mm",
+      "name": "85mm Portrait Lens",
+      "text": "Use an 85mm portrait perspective with flattering compression, soft background separation, and clear subject focus.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_135mm",
+      "name": "135mm Telephoto Lens",
+      "text": "Use a 135mm telephoto portrait feel with strong compression, smooth background blur, and focused subject presence.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_macro",
+      "name": "Macro Lens",
+      "text": "Use a macro lens feeling with very close detail, shallow focus, and sharp texture emphasis.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_wide_angle",
+      "name": "Wide Angle",
+      "text": "Use a wide-angle composition that emphasizes the environment and creates a sense of space.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_telephoto",
+      "name": "Telephoto",
+      "text": "Use a telephoto composition with compressed distance, strong subject isolation, and smooth background rendering.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_shallow_dof",
+      "name": "Shallow Depth of Field",
+      "text": "Use shallow depth of field to keep the subject sharp while softly blurring the background.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_deep_focus",
+      "name": "Deep Focus",
+      "text": "Use deep focus so both the subject and environment remain clear, detailed, and readable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_low_angle",
+      "name": "Low Angle",
+      "text": "Use a low camera angle to make the subject feel powerful, heroic, or visually dominant.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_high_angle",
+      "name": "High Angle",
+      "text": "Use a high camera angle to create vulnerability, cuteness, or a broader view of the scene.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_eye_level",
+      "name": "Eye Level",
+      "text": "Use an eye-level camera angle for natural connection, realism, and direct viewer engagement.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_over_shoulder",
+      "name": "Over the Shoulder",
+      "text": "Use an over-the-shoulder perspective to create narrative depth and a sense of interaction.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    },
+    {
+      "id": "camera_close_focus",
+      "name": "Close Focus",
+      "text": "Use close focus on the subject with careful facial detail, expressive eyes, and soft background separation.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "camera"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Pack_04_Expressions_Global",
+  "prompts": [
+    {
+      "id": "expression_happy_smile",
+      "name": "Happy Smile",
+      "text": "Give the subject a warm, genuine smile that feels cheerful, friendly, and naturally expressive.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    },
+    {
+      "id": "expression_soft_blush",
+      "name": "Soft Blush",
+      "text": "Add a gentle blush across the cheeks with a shy, sweet expression that feels soft and appealing.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    },
+    {
+      "id": "expression_laughing",
+      "name": "Laughing",
+      "text": "Use a bright laughing expression with joyful eyes and visible energy.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    },
+    {
+      "id": "expression_surprised",
+      "name": "Surprised",
+      "text": "Use a surprised expression with widened eyes and a slightly open mouth, while keeping the face attractive and readable.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    },
+    {
+      "id": "expression_confident",
+      "name": "Confident",
+      "text": "Give the subject a confident expression with calm eye contact and a subtle assured smile.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    },
+    {
+      "id": "expression_playful_smirk",
+      "name": "Playful Smirk",
+      "text": "Use a playful smirk that suggests teasing confidence and personality.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    },
+    {
+      "id": "expression_determined",
+      "name": "Determined",
+      "text": "Use a determined expression with focused eyes, mild brow tension, and clear intent.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    },
+    {
+      "id": "expression_sad",
+      "name": "Sad",
+      "text": "Use a soft sad expression with slightly watery eyes and restrained emotion.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    },
+    {
+      "id": "expression_sleepy",
+      "name": "Sleepy",
+      "text": "Give the subject a sleepy, relaxed expression with heavy eyelids and a calm mood.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    },
+    {
+      "id": "expression_wink",
+      "name": "Wink",
+      "text": "Use a playful wink with one eye closed and a light, charming expression.",
+      "scope": {
+        "type": "global"
+      },
+      "category": "expressions"
+    }
+  ]
+}
