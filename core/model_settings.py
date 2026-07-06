@@ -620,7 +620,21 @@ def list_version_details(model_name: str) -> list[dict]:
     Sorted by release_date descending (empty dates last), then version descending.
     """
     seen_hashes: set[str] = set()
+    seen_versions: set[str] = set()
     versions: list[dict] = []
+
+    def add_version(version: str, model_hash: str, filename: str, release_date: str = "") -> None:
+        vkey = str(version or "").strip().lower()
+        if not vkey or vkey in seen_versions or model_hash in seen_hashes:
+            return
+        seen_versions.add(vkey)
+        seen_hashes.add(model_hash)
+        versions.append({
+            "version": version,
+            "hash": model_hash,
+            "filename": filename,
+            "release_date": release_date,
+        })
 
     # Scan config index (covers system + discovered with any naming scheme)
     for _qh, data in _get_config_index()["by_quick_hash"].items():
@@ -628,18 +642,10 @@ def list_version_details(model_name: str) -> list[dict]:
         if name != model_name or not data.get("version"):
             continue
         primary_hash = _get_primary_hash(data) or _qh
-        if primary_hash in seen_hashes:
-            continue
         fp_info = fingerprint.find_by_hash(primary_hash)
         if not fp_info:
             continue
-        seen_hashes.add(primary_hash)
-        versions.append({
-            "version": data["version"],
-            "hash": primary_hash,
-            "filename": fp_info["filename"],
-            "release_date": data.get("release_date", ""),
-        })
+        add_version(data["version"], primary_hash, fp_info["filename"], data.get("release_date", ""))
 
     # Also check user overrides (still hash-named)
     user_dir = _user_dir()
@@ -659,13 +665,7 @@ def list_version_details(model_name: str) -> list[dict]:
             fp_info = fingerprint.find_by_hash(model_hash)
             if not fp_info:
                 continue
-            seen_hashes.add(model_hash)
-            versions.append({
-                "version": data["version"],
-                "hash": model_hash,
-                "filename": fp_info["filename"],
-                "release_date": data.get("release_date", ""),
-            })
+            add_version(data["version"], model_hash, fp_info["filename"], data.get("release_date", ""))
 
     def sort_key(v):
         return (1 if v["release_date"] else 0, v["release_date"], v["version"])
