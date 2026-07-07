@@ -1,0 +1,28 @@
+{
+  "name": "Prompt Subcategory Sample",
+  "prompts": [
+    {
+      "id": "sample_global_hair_black",
+      "name": "Black Hair",
+      "text": "black hair",
+      "scope": { "type": "global" },
+      "category": "character",
+      "subcategory": "hair color"
+    },
+    {
+      "id": "sample_sdxl_quality_soft_detail",
+      "name": "Soft Detail",
+      "text": "soft detailed rendering",
+      "scope": { "type": "architecture", "architecture": "sdxl" },
+      "category": "quality",
+      "subcategory": "detail"
+    },
+    {
+      "id": "sample_legacy_mood_warm",
+      "name": "Warm Mood",
+      "text": "warm mood",
+      "scope": { "type": "global" },
+      "category": "mood"
+    }
+  ]
+}

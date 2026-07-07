@@ -1,5 +1,5 @@
 import { d as delegate, p as push, a as prop, s as state, c as proxy, u as user_effect, e as set, f as sibling, o as bind_this, t as template_effect, g as get, F as set_style, x as set_attribute, q as set_value, j as delegated, k as append, l as pop, m as user_derived, n as child, A as from_html, w as each, z as index, i as if_block, H as set_checked, y as set_text, h as set_class, v as first_child, D as comment, a2 as set_selected, I as to_array, S as text, E as untrack, N as unmount, M as mount } from "./disclose-version-CPcS7M7Y.js";
-import { F as FAMILIES, A as ARCHITECTURES } from "./model-constants-cVxhUf51.js";
+import { F as FAMILIES, A as ARCHITECTURES } from "./model-constants-CUFikA1N.js";
 import { api } from "/scripts/api.js";
 import { S as SettingsSlider } from "./SettingsSlider-zD6I4sr7.js";
 import { b as bind_value } from "./input-uYBeAZAB.js";
@@ -187,15 +187,15 @@ var root_7$2 = from_html(`<option> </option>`);
 var root_6$3 = from_html(`<select class="pcr-seed-control-select svelte-82atyh"></select>`);
 var root_5$2 = from_html(`<div class="pcr-model-panel-row svelte-82atyh"><span class="pcr-model-panel-label svelte-82atyh">seed</span> <div class="pcr-seed-controls svelte-82atyh"><!> <input type="number" class="pcr-seed-input svelte-82atyh"/> <button class="pcr-seed-dice svelte-82atyh" title="Randomize seed">🎲</button></div></div>`);
 var root_14$2 = from_html(`<div><span class="pcr-resolution-preset-item-label svelte-82atyh"> </span> <span class="pcr-resolution-preset-remove svelte-82atyh">×</span></div>`);
-var root_13$3 = from_html(`<div class="pcr-resolution-preset-cat svelte-82atyh"> </div> <!>`, 1);
-var root_11$2 = from_html(`<div class="pcr-resolution-preset-menu svelte-82atyh" style="display:block"><!> <div> </div></div>`);
-var root_10$2 = from_html(`<div class="pcr-model-panel-row pcr-resolution-row svelte-82atyh"><span class="pcr-model-panel-label svelte-82atyh">resolution</span> <div class="pcr-resolution-controls svelte-82atyh"><div class="pcr-resolution-preset-wrap svelte-82atyh"><button> </button> <!></div> <input type="number"/> <span class="pcr-resolution-sep svelte-82atyh">×</span> <input type="number"/></div></div>`);
+var root_13$2 = from_html(`<div class="pcr-resolution-preset-cat svelte-82atyh"> </div> <!>`, 1);
+var root_11$3 = from_html(`<div class="pcr-resolution-preset-menu svelte-82atyh" style="display:block"><!> <div> </div></div>`);
+var root_10$3 = from_html(`<div class="pcr-model-panel-row pcr-resolution-row svelte-82atyh"><span class="pcr-model-panel-label svelte-82atyh">resolution</span> <div class="pcr-resolution-controls svelte-82atyh"><div class="pcr-resolution-preset-wrap svelte-82atyh"><button> </button> <!></div> <input type="number"/> <span class="pcr-resolution-sep svelte-82atyh">×</span> <input type="number"/></div></div>`);
 var root_25$1 = from_html(`<span class="pcr-model-panel-saved-hint svelte-82atyh"> </span>`);
 var root_26$1 = from_html(`<option> </option>`);
 var root_29 = from_html(`<option> </option>`);
 var root_28 = from_html(`<span style="color:#555;margin:0 2px">/</span> <div class="pcr-model-panel-combo-wrap svelte-82atyh"><select></select></div>`, 1);
 var root_24$1 = from_html(`<div class="pcr-model-panel-combo-wrap svelte-82atyh"><!> <select></select></div> <!>`, 1);
-var root_18$1 = from_html(`<div><span class="pcr-model-panel-label svelte-82atyh"> </span> <!></div>`);
+var root_18$2 = from_html(`<div><span class="pcr-model-panel-label svelte-82atyh"> </span> <!></div>`);
 var root_2$5 = from_html(`<div class="pcr-model-panel-section svelte-82atyh"><div class="pcr-model-panel-section-title svelte-82atyh"> <!></div> <!> <!> <!></div>`);
 var root_31 = from_html(`<option> </option>`);
 var root_32 = from_html(`<div class="pcr-model-panel-row svelte-82atyh"><span class="pcr-model-panel-label svelte-82atyh">strength</span> <!></div>`);
@@ -731,7 +731,7 @@ function SettingsTab($$anchor, $$props) {
                   return ((_a2 = get(editors)[type()]) == null ? void 0 : _a2["_resolutions"]) || [];
                 });
                 const isPreset = user_derived(() => get(presets).some((p) => p.width === get(w) && p.height === get(h)));
-                var div_6 = root_10$2();
+                var div_6 = root_10$3();
                 var div_7 = sibling(child(div_6), 2);
                 var div_8 = child(div_7);
                 var button_1 = child(div_8);
@@ -740,7 +740,7 @@ function SettingsTab($$anchor, $$props) {
                 var node_10 = sibling(button_1, 2);
                 {
                   var consequent_6 = ($$anchor6) => {
-                    var div_9 = root_11$2();
+                    var div_9 = root_11$3();
                     var node_11 = child(div_9);
                     each(node_11, 16, () => ["portrait", "landscape", "square"], index, ($$anchor7, cat) => {
                       const items = user_derived(() => get(presets).filter((p) => cat === "square" ? p.width === p.height : cat === "portrait" ? p.width < p.height : p.width > p.height));
@@ -748,7 +748,7 @@ function SettingsTab($$anchor, $$props) {
                       var node_12 = first_child(fragment_4);
                       {
                         var consequent_5 = ($$anchor8) => {
-                          var fragment_5 = root_13$3();
+                          var fragment_5 = root_13$2();
                           var div_10 = first_child(fragment_5);
                           var text_4 = child(div_10);
                           var node_13 = sibling(div_10, 2);
@@ -885,7 +885,7 @@ function SettingsTab($$anchor, $$props) {
               var node_17 = first_child(fragment_8);
               {
                 var consequent_17 = ($$anchor6) => {
-                  var div_13 = root_18$1();
+                  var div_13 = root_18$2();
                   let classes_5;
                   var span_3 = child(div_13);
                   var text_7 = child(span_3);
@@ -1468,21 +1468,21 @@ var root_5$1 = from_html(`<span class="pcr-tpl-drag-handle svelte-1o5g4cr">≡</
 var root_6$2 = from_html(`<button class="pcr-tpl-apply-btn svelte-1o5g4cr">Restore</button>`);
 var root_8$2 = from_html(`<button class="pcr-tpl-reset-btn svelte-1o5g4cr">Reset</button>`);
 var root_9$2 = from_html(`<button class="pcr-tpl-delete-btn svelte-1o5g4cr">×</button>`);
-var root_10$1 = from_html(`<button class="pcr-tpl-hide-btn svelte-1o5g4cr">×</button>`);
+var root_10$2 = from_html(`<button class="pcr-tpl-hide-btn svelte-1o5g4cr">×</button>`);
 var root_7$1 = from_html(`<!> <!>`, 1);
-var root_11$1 = from_html(`<button class="pcr-tpl-apply-btn svelte-1o5g4cr">Apply</button>`);
+var root_11$2 = from_html(`<button class="pcr-tpl-apply-btn svelte-1o5g4cr">Apply</button>`);
 var root_4$3 = from_html(`<div><!> <div class="pcr-tpl-item-info svelte-1o5g4cr"><span class="pcr-tpl-item-name svelte-1o5g4cr"> </span> <span class="pcr-tpl-item-meta svelte-1o5g4cr"> <span class="pcr-tpl-source-badge svelte-1o5g4cr"> </span></span></div> <div class="pcr-tpl-item-actions svelte-1o5g4cr"><!></div></div>`);
 var root_14$1 = from_html(`<span class="pcr-tpl-group-grip svelte-1o5g4cr">⠿</span>`);
 var root_15$1 = from_html(`<span class="pcr-tpl-group-dissolve svelte-1o5g4cr">×</span>`);
 var root_17 = from_html(`<span class="pcr-tpl-drag-handle svelte-1o5g4cr">≡</span>`);
-var root_18 = from_html(`<button class="pcr-tpl-apply-btn svelte-1o5g4cr">Restore</button>`);
+var root_18$1 = from_html(`<button class="pcr-tpl-apply-btn svelte-1o5g4cr">Restore</button>`);
 var root_20 = from_html(`<button class="pcr-tpl-reset-btn svelte-1o5g4cr">Reset</button>`);
 var root_21 = from_html(`<button class="pcr-tpl-delete-btn svelte-1o5g4cr">×</button>`);
 var root_22 = from_html(`<button class="pcr-tpl-hide-btn svelte-1o5g4cr">×</button>`);
-var root_19 = from_html(`<!> <!>`, 1);
+var root_19$1 = from_html(`<!> <!>`, 1);
 var root_23 = from_html(`<button class="pcr-tpl-apply-btn svelte-1o5g4cr">Apply</button>`);
 var root_16$1 = from_html(`<div><!> <div class="pcr-tpl-item-info svelte-1o5g4cr"><span class="pcr-tpl-item-name svelte-1o5g4cr"> </span> <span class="pcr-tpl-item-meta svelte-1o5g4cr"> <span class="pcr-tpl-source-badge svelte-1o5g4cr"> </span></span></div> <div class="pcr-tpl-item-actions svelte-1o5g4cr"><!></div></div>`);
-var root_13$2 = from_html(`<div class="pcr-tpl-group-header svelte-1o5g4cr"><!> <span class="pcr-tpl-group-toggle svelte-1o5g4cr">▾</span> <span> </span> <!></div> <div class="pcr-tpl-group-body svelte-1o5g4cr"></div>`, 1);
+var root_13$1 = from_html(`<div class="pcr-tpl-group-header svelte-1o5g4cr"><!> <span class="pcr-tpl-group-toggle svelte-1o5g4cr">▾</span> <span> </span> <!></div> <div class="pcr-tpl-group-body svelte-1o5g4cr"></div>`, 1);
 var root_3$3 = from_html(`<div class="pcr-tpl-list svelte-1o5g4cr"><!> <!></div>`);
 var root_25 = from_html(`<option> </option>`);
 var root_26 = from_html(`<option> </option>`);
@@ -1700,7 +1700,7 @@ function TemplatesTab($$anchor, $$props) {
                 append($$anchor5, button_2);
               };
               var alternate = ($$anchor5) => {
-                var button_3 = root_10$1();
+                var button_3 = root_10$2();
                 delegated("click", button_3, () => handleDelete(get(tpl)));
                 append($$anchor5, button_3);
               };
@@ -1712,7 +1712,7 @@ function TemplatesTab($$anchor, $$props) {
             append($$anchor4, fragment);
           };
           var alternate_1 = ($$anchor4) => {
-            var button_4 = root_11$1();
+            var button_4 = root_11$2();
             delegated("click", button_4, () => handleApply(get(tpl)));
             append($$anchor4, button_4);
           };
@@ -1742,7 +1742,7 @@ function TemplatesTab($$anchor, $$props) {
         var node_7 = first_child(fragment_1);
         {
           var consequent_14 = ($$anchor4) => {
-            var fragment_2 = root_13$2();
+            var fragment_2 = root_13$1();
             var div_7 = first_child(fragment_2);
             var node_8 = child(div_7);
             {
@@ -1795,12 +1795,12 @@ function TemplatesTab($$anchor, $$props) {
               var node_11 = child(div_11);
               {
                 var consequent_10 = ($$anchor6) => {
-                  var button_5 = root_18();
+                  var button_5 = root_18$1();
                   delegated("click", button_5, () => handleRestore(get(tpl)));
                   append($$anchor6, button_5);
                 };
                 var consequent_13 = ($$anchor6) => {
-                  var fragment_3 = root_19();
+                  var fragment_3 = root_19$1();
                   var node_12 = first_child(fragment_3);
                   {
                     var consequent_11 = ($$anchor7) => {
@@ -1962,15 +1962,17 @@ delegate(["click"]);
 var root_1$2 = from_html(`<div class="pcr-model-panel-empty">Loading...</div>`);
 var root_2$3 = from_html(`<div class="pcr-model-panel-empty">No prompt presets yet</div>`);
 var root_4$2 = from_html(`<div class="pcr-model-panel-section-title svelte-g1mbc7">Prompt Templates</div>`);
-var root_9$1 = from_html(`<span> </span> <span class="pcr-prompt-dropdown-item-del svelte-g1mbc7">×</span>`, 1);
-var root_8$1 = from_html(`<div class="pcr-prompt-dropdown-item svelte-g1mbc7"><!></div>`);
+var root_9$1 = from_html(`<div class="pcr-prompt-subcategory-header svelte-g1mbc7"> </div>`);
+var root_11$1 = from_html(`<span> </span> <span class="pcr-prompt-dropdown-item-del svelte-g1mbc7">×</span>`, 1);
+var root_10$1 = from_html(`<div class="pcr-prompt-dropdown-item svelte-g1mbc7"><!></div>`);
+var root_8$1 = from_html(`<!> <!>`, 1);
 var root_7 = from_html(`<div class="pcr-prompt-dropdown-menu svelte-g1mbc7" popover="manual"></div>`);
 var root_6$1 = from_html(`<div class="pcr-template-dropdown-container"><button> <span class="pcr-prompt-dropdown-arrow svelte-g1mbc7">▼</span></button> <!></div>`);
-var root_13$1 = from_html(` <span class="pcr-prompt-del-badge svelte-g1mbc7">×</span>`, 1);
-var root_12$1 = from_html(`<button class="pcr-prompt-btn svelte-g1mbc7"><!></button>`);
+var root_16 = from_html(` <span class="pcr-prompt-del-badge svelte-g1mbc7">×</span>`, 1);
+var root_15 = from_html(`<button class="pcr-prompt-btn svelte-g1mbc7"><!></button>`);
 var root_3$2 = from_html(`<!> <div class="pcr-prompt-grid svelte-g1mbc7"></div>`, 1);
-var root_16 = from_html(`<option> </option>`);
-var root_15 = from_html(`<div class="pcr-tpl-save-section svelte-g1mbc7"><div class="pcr-tpl-save-row svelte-g1mbc7"><input type="text" class="pcr-tpl-save-name svelte-g1mbc7" placeholder="Name..."/> <input type="text" class="pcr-tpl-save-name svelte-g1mbc7" placeholder="Category..." style="max-width:120px"/></div> <div class="pcr-tpl-save-row svelte-g1mbc7"><select class="pcr-tpl-save-scope svelte-g1mbc7"></select> <select class="pcr-tpl-save-scope svelte-g1mbc7"><option>Any slot</option><option>Positive</option><option>Negative</option></select></div> <textarea class="pcr-tpl-save-name svelte-g1mbc7" style="min-height:48px;resize:vertical;font-family:monospace;"></textarea> <button class="pcr-model-panel-save">Add Prompt</button></div>`);
+var root_19 = from_html(`<option> </option>`);
+var root_18 = from_html(`<div class="pcr-tpl-save-section svelte-g1mbc7"><div class="pcr-tpl-save-row svelte-g1mbc7"><input type="text" class="pcr-tpl-save-name svelte-g1mbc7" placeholder="Name..."/> <input type="text" class="pcr-tpl-save-name svelte-g1mbc7" placeholder="Category..." style="max-width:120px"/> <input type="text" class="pcr-tpl-save-name svelte-g1mbc7" placeholder="Subcategory..." style="max-width:120px"/></div> <div class="pcr-tpl-save-row svelte-g1mbc7"><select class="pcr-tpl-save-scope svelte-g1mbc7"></select> <select class="pcr-tpl-save-scope svelte-g1mbc7"><option>Any slot</option><option>Positive</option><option>Negative</option></select></div> <textarea class="pcr-tpl-save-name svelte-g1mbc7" style="min-height:48px;resize:vertical;font-family:monospace;"></textarea> <button class="pcr-model-panel-save">Add Prompt</button></div>`);
 var root$3 = from_html(`<div class="pcr-model-panel-body"><!> <!> <div style="border-top:1px solid #333;margin-top:8px;padding-top:8px;"><button class="pcr-model-panel-apply"> </button></div></div>`);
 function PromptsTab($$anchor, $$props) {
   var _a, _b, _c, _d;
@@ -1985,6 +1987,7 @@ function PromptsTab($$anchor, $$props) {
   let editMode = state(false);
   let newName = state("");
   let newCategory = state("");
+  let newSubcategory = state("");
   let newText = state("");
   let newScope = state("global");
   let newSlot = state("");
@@ -2006,13 +2009,29 @@ function PromptsTab($$anchor, $$props) {
   }
   loadPrompts();
   let grouped = user_derived(() => {
-    const groups = {};
+    const groups = /* @__PURE__ */ new Map();
     for (const p of get(prompts)) {
-      const cat = p.category || "";
-      if (!groups[cat]) groups[cat] = [];
-      groups[cat].push(p);
+      const category = (p.category || "General").trim();
+      const subcategory = (p.subcategory || "").trim();
+      if (!groups.has(category)) {
+        groups.set(category, {
+          category,
+          count: 0,
+          hasSubcategories: false,
+          subgroups: /* @__PURE__ */ new Map()
+        });
+      }
+      const group = groups.get(category);
+      const subKey = subcategory || "General";
+      if (subcategory) group.hasSubcategories = true;
+      if (!group.subgroups.has(subKey)) group.subgroups.set(subKey, []);
+      group.subgroups.get(subKey).push(p);
+      group.count += 1;
     }
-    return groups;
+    return [...groups.values()].map((group) => ({
+      ...group,
+      subgroups: [...group.subgroups.entries()].map(([subcategory, items]) => ({ subcategory, items }))
+    }));
   });
   function insertPromptText(text2) {
     const editor = $$props.getEditor();
@@ -2070,12 +2089,14 @@ function PromptsTab($$anchor, $$props) {
         text: get(newText).trim(),
         scope,
         category: get(newCategory).trim() || void 0,
+        subcategory: get(newSubcategory).trim() || void 0,
         slot: get(newSlot) || void 0
       })
     });
     set(newName, "");
     set(newText, "");
     set(newCategory, "");
+    set(newSubcategory, "");
     loadPrompts();
   }
   function anchorToButton(menu, onClose) {
@@ -2160,60 +2181,74 @@ function PromptsTab($$anchor, $$props) {
         });
       }
       var div_4 = sibling(node_1, 2);
-      each(div_4, 21, () => Object.entries(get(grouped)), index, ($$anchor3, $$item) => {
-        var $$array = user_derived(() => to_array(get($$item), 2));
-        let category = () => get($$array)[0];
-        let items = () => get($$array)[1];
+      each(div_4, 21, () => get(grouped), index, ($$anchor3, group) => {
         var fragment_1 = comment();
         var node_2 = first_child(fragment_1);
         {
-          var consequent_5 = ($$anchor4) => {
+          var consequent_6 = ($$anchor4) => {
             var div_5 = root_6$1();
             var button = child(div_5);
             let classes;
             var text_1 = child(button);
             var node_3 = sibling(button, 2);
             {
-              var consequent_4 = ($$anchor5) => {
+              var consequent_5 = ($$anchor5) => {
                 var div_6 = root_7();
-                each(div_6, 21, items, index, ($$anchor6, p) => {
-                  var div_7 = root_8$1();
-                  var node_4 = child(div_7);
+                each(div_6, 21, () => get(group).subgroups, index, ($$anchor6, subgroup) => {
+                  var fragment_2 = root_8$1();
+                  var node_4 = first_child(fragment_2);
                   {
                     var consequent_3 = ($$anchor7) => {
-                      var fragment_2 = root_9$1();
-                      var span = first_child(fragment_2);
-                      var text_2 = child(span);
-                      var span_1 = sibling(span, 2);
-                      template_effect(() => set_text(text_2, get(p).name));
-                      delegated("click", span_1, (e) => {
-                        e.stopPropagation();
-                        handleDelete(get(p));
-                      });
-                      append($$anchor7, fragment_2);
-                    };
-                    var alternate = ($$anchor7) => {
-                      var text_3 = text();
-                      template_effect(() => set_text(text_3, get(p).name));
-                      append($$anchor7, text_3);
+                      var div_7 = root_9$1();
+                      var text_2 = child(div_7);
+                      template_effect(() => set_text(text_2, get(subgroup).subcategory));
+                      append($$anchor7, div_7);
                     };
                     if_block(node_4, ($$render) => {
-                      if (get(editMode)) $$render(consequent_3);
-                      else $$render(alternate, -1);
+                      if (get(group).hasSubcategories) $$render(consequent_3);
                     });
                   }
-                  template_effect(() => {
-                    set_attribute(div_7, "title", get(p).text || "");
-                    set_style(div_7, get(editMode) ? "display:flex;justify-content:space-between;align-items:center" : "");
-                  });
-                  delegated("click", div_7, (e) => {
-                    if (!get(editMode)) {
-                      e.stopPropagation();
-                      set(openDropdown, null);
-                      insertPromptText(get(p).text || "");
+                  var node_5 = sibling(node_4, 2);
+                  each(node_5, 17, () => get(subgroup).items, index, ($$anchor7, p) => {
+                    var div_8 = root_10$1();
+                    var node_6 = child(div_8);
+                    {
+                      var consequent_4 = ($$anchor8) => {
+                        var fragment_3 = root_11$1();
+                        var span = first_child(fragment_3);
+                        var text_3 = child(span);
+                        var span_1 = sibling(span, 2);
+                        template_effect(() => set_text(text_3, get(p).name));
+                        delegated("click", span_1, (e) => {
+                          e.stopPropagation();
+                          handleDelete(get(p));
+                        });
+                        append($$anchor8, fragment_3);
+                      };
+                      var alternate = ($$anchor8) => {
+                        var text_4 = text();
+                        template_effect(() => set_text(text_4, get(p).name));
+                        append($$anchor8, text_4);
+                      };
+                      if_block(node_6, ($$render) => {
+                        if (get(editMode)) $$render(consequent_4);
+                        else $$render(alternate, -1);
+                      });
                     }
+                    template_effect(() => {
+                      set_attribute(div_8, "title", get(p).text || "");
+                      set_style(div_8, get(editMode) ? "display:flex;justify-content:space-between;align-items:center" : "");
+                    });
+                    delegated("click", div_8, (e) => {
+                      if (!get(editMode)) {
+                        e.stopPropagation();
+                        set(openDropdown, null);
+                        insertPromptText(get(p).text || "");
+                      }
+                    });
+                    append($$anchor7, div_8);
                   });
-                  append($$anchor6, div_7);
+                  append($$anchor6, fragment_2);
                 });
                 action(div_6, ($$node, $$action_arg) => anchorToButton == null ? void 0 : anchorToButton($$node, $$action_arg), () => () => {
                   set(openDropdown, null);
@@ -2221,57 +2256,62 @@ function PromptsTab($$anchor, $$props) {
                 append($$anchor5, div_6);
               };
               if_block(node_3, ($$render) => {
-                if (get(openDropdown) === category()) $$render(consequent_4);
+                if (get(openDropdown) === get(group).category) $$render(consequent_5);
               });
             }
             template_effect(() => {
-              classes = set_class(button, 1, "pcr-prompt-btn pcr-prompt-dropdown-btn svelte-g1mbc7", null, classes, { "pcr-open": get(openDropdown) === category() });
-              set_text(text_1, `${category() ?? ""} `);
+              classes = set_class(button, 1, "pcr-prompt-btn pcr-prompt-dropdown-btn svelte-g1mbc7", null, classes, { "pcr-open": get(openDropdown) === get(group).category });
+              set_text(text_1, `${get(group).category ?? ""} `);
             });
             delegated("click", button, (e) => {
               e.stopPropagation();
-              set(openDropdown, get(openDropdown) === category() ? null : category(), true);
+              set(openDropdown, get(openDropdown) === get(group).category ? null : get(group).category, true);
             });
             append($$anchor4, div_5);
           };
           var alternate_2 = ($$anchor4) => {
-            var fragment_4 = comment();
-            var node_5 = first_child(fragment_4);
-            each(node_5, 17, items, index, ($$anchor5, p) => {
-              var button_1 = root_12$1();
-              var node_6 = child(button_1);
-              {
-                var consequent_6 = ($$anchor6) => {
-                  var fragment_5 = root_13$1();
-                  var text_4 = first_child(fragment_5);
-                  template_effect(() => set_text(text_4, `${get(p).name ?? ""} `));
-                  append($$anchor6, fragment_5);
-                };
-                var alternate_1 = ($$anchor6) => {
-                  var text_5 = text();
-                  template_effect(() => set_text(text_5, get(p).name));
-                  append($$anchor6, text_5);
-                };
-                if_block(node_6, ($$render) => {
-                  if (get(editMode)) $$render(consequent_6);
-                  else $$render(alternate_1, -1);
-                });
-              }
-              template_effect(() => set_attribute(button_1, "title", get(p).text || ""));
-              delegated("click", button_1, (e) => {
-                e.stopPropagation();
-                if (get(editMode)) {
-                  handleDelete(get(p));
-                } else {
-                  insertPromptText(get(p).text || "");
+            var fragment_5 = comment();
+            var node_7 = first_child(fragment_5);
+            each(node_7, 17, () => get(group).subgroups, index, ($$anchor5, subgroup) => {
+              var fragment_6 = comment();
+              var node_8 = first_child(fragment_6);
+              each(node_8, 17, () => get(subgroup).items, index, ($$anchor6, p) => {
+                var button_1 = root_15();
+                var node_9 = child(button_1);
+                {
+                  var consequent_7 = ($$anchor7) => {
+                    var fragment_7 = root_16();
+                    var text_5 = first_child(fragment_7);
+                    template_effect(() => set_text(text_5, `${get(p).name ?? ""} `));
+                    append($$anchor7, fragment_7);
+                  };
+                  var alternate_1 = ($$anchor7) => {
+                    var text_6 = text();
+                    template_effect(() => set_text(text_6, get(p).name));
+                    append($$anchor7, text_6);
+                  };
+                  if_block(node_9, ($$render) => {
+                    if (get(editMode)) $$render(consequent_7);
+                    else $$render(alternate_1, -1);
+                  });
                 }
+                template_effect(() => set_attribute(button_1, "title", get(p).text || ""));
+                delegated("click", button_1, (e) => {
+                  e.stopPropagation();
+                  if (get(editMode)) {
+                    handleDelete(get(p));
+                  } else {
+                    insertPromptText(get(p).text || "");
+                  }
+                });
+                append($$anchor6, button_1);
               });
-              append($$anchor5, button_1);
+              append($$anchor5, fragment_6);
             });
-            append($$anchor4, fragment_4);
+            append($$anchor4, fragment_5);
           };
           if_block(node_2, ($$render) => {
-            if (category() && items().length > 1) $$render(consequent_5);
+            if (get(group).count > 1) $$render(consequent_6);
             else $$render(alternate_2, -1);
           });
         }
@@ -2285,21 +2325,22 @@ function PromptsTab($$anchor, $$props) {
       else $$render(alternate_3, -1);
     });
   }
-  var node_7 = sibling(node, 2);
+  var node_10 = sibling(node, 2);
   {
-    var consequent_7 = ($$anchor2) => {
-      var div_8 = root_15();
-      var div_9 = child(div_8);
-      var input = child(div_9);
+    var consequent_8 = ($$anchor2) => {
+      var div_9 = root_18();
+      var div_10 = child(div_9);
+      var input = child(div_10);
       var input_1 = sibling(input, 2);
-      var div_10 = sibling(div_9, 2);
-      var select = child(div_10);
+      var input_2 = sibling(input_1, 2);
+      var div_11 = sibling(div_10, 2);
+      var select = child(div_11);
       each(select, 21, () => get(scopeOptions), index, ($$anchor3, opt) => {
-        var option = root_16();
-        var text_6 = child(option);
+        var option = root_19();
+        var text_7 = child(option);
         var option_value = {};
         template_effect(() => {
-          set_text(text_6, get(opt).label);
+          set_text(text_7, get(opt).label);
           if (option_value !== (option_value = get(opt).value)) {
             option.value = (option.__value = get(opt).value) ?? "";
           }
@@ -2313,25 +2354,26 @@ function PromptsTab($$anchor, $$props) {
       option_2.value = option_2.__value = "positive";
       var option_3 = sibling(option_2);
       option_3.value = option_3.__value = "negative";
-      var textarea = sibling(div_10, 2);
+      var textarea = sibling(div_11, 2);
       set_attribute(textarea, "placeholder", "Prompt text... {cursor} marks cursor position");
       var button_2 = sibling(textarea, 2);
       bind_value(input, () => get(newName), ($$value) => set(newName, $$value));
       bind_value(input_1, () => get(newCategory), ($$value) => set(newCategory, $$value));
+      bind_value(input_2, () => get(newSubcategory), ($$value) => set(newSubcategory, $$value));
       bind_select_value(select, () => get(newScope), ($$value) => set(newScope, $$value));
       bind_select_value(select_1, () => get(newSlot), ($$value) => set(newSlot, $$value));
       bind_value(textarea, () => get(newText), ($$value) => set(newText, $$value));
       delegated("click", button_2, handleAdd);
-      append($$anchor2, div_8);
+      append($$anchor2, div_9);
     };
-    if_block(node_7, ($$render) => {
-      if (get(editMode)) $$render(consequent_7);
+    if_block(node_10, ($$render) => {
+      if (get(editMode)) $$render(consequent_8);
     });
   }
-  var div_11 = sibling(node_7, 2);
-  var button_3 = child(div_11);
-  var text_7 = child(button_3);
-  template_effect(() => set_text(text_7, get(editMode) ? "Done" : "Edit Prompts"));
+  var div_12 = sibling(node_10, 2);
+  var button_3 = child(div_12);
+  var text_8 = child(button_3);
+  template_effect(() => set_text(text_8, get(editMode) ? "Done" : "Edit Prompts"));
   delegated("click", button_3, (e) => {
     e.stopPropagation();
     set(editMode, !get(editMode));

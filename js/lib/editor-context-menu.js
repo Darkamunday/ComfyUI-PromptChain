@@ -189,12 +189,16 @@ async function _fetchPrompts(modelInfo) {
     const { prompts } = await r.json();
     if (!prompts?.length) return null;
 
-    // group by category
+    // group by category, then subcategory when present.
     const groups = new Map();
     for (const p of prompts) {
-      const cat = p.category || "";
-      if (!groups.has(cat)) groups.set(cat, []);
-      groups.get(cat).push(p);
+      const cat = p.category || "General";
+      const sub = p.subcategory || "";
+      if (!groups.has(cat)) groups.set(cat, new Map());
+      const subgroups = groups.get(cat);
+      const subKey = sub || "General";
+      if (!subgroups.has(subKey)) subgroups.set(subKey, []);
+      subgroups.get(subKey).push(p);
     }
 
     const entry = { prompts, groups };
@@ -237,7 +241,9 @@ function _isWildcardContext(doc, pos, node) {
 
 function _formatWildcardOption(prompt) {
   const cat = prompt.category || "";
-  const label = cat ? `${cat} - ${prompt.name}` : prompt.name;
+  const sub = prompt.subcategory || "";
+  const path = [cat, sub].filter(Boolean).join(" - ");
+  const label = path ? `${path} - ${prompt.name}` : prompt.name;
 
   // extract positive/negative from the raw text, stripping comment headers
   const raw = (prompt.text || "")
@@ -672,19 +678,32 @@ async function _buildPromptSubmenu(view, insertPos, modelInfo, node) {
   const { groups } = data;
   const subItems = [];
 
-  for (const [cat, prompts] of groups) {
-    if (prompts.length === 1 && !cat) {
+  for (const [cat, subgroups] of groups) {
+    const prompts = [...subgroups.values()].flat();
+    const hasSubcategories = prompts.some(p => p.subcategory);
+    if (prompts.length === 1 && cat === "General" && !hasSubcategories) {
       const p = prompts[0];
       subItems.push({ label: p.name, action: insertAction(p) });
-    } else if (prompts.length === 1) {
+    } else if (prompts.length === 1 && !hasSubcategories) {
       const p = prompts[0];
       subItems.push({
-        label: cat ? `${cat}: ${p.name}` : p.name,
+        label: `${cat}: ${p.name}`,
         action: insertAction(p),
+      });
+    } else if (hasSubcategories) {
+      subItems.push({
+        label: cat,
+        submenu: [...subgroups.entries()].map(([sub, subPrompts]) => ({
+          label: sub,
+          submenu: subPrompts.map(p => ({
+            label: p.name,
+            action: insertAction(p),
+          })),
+        })),
       });
     } else {
       subItems.push({
-        label: cat || "Uncategorized",
+        label: cat,
         submenu: prompts.map(p => ({
           label: p.name,
           action: insertAction(p),

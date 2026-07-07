@@ -2721,7 +2721,12 @@ function TagBuilder2($$anchor, $$props) {
       const pool2 = get(activeGroup) ? get(itemsByGroup)[get(activeGroup)] || [] : get(stylesCache).items;
       if (!q) return pool2;
       return pool2.filter((it) => {
-        const d = (it.display_name || "").toLowerCase().replace(/[_\s]+/g, " ");
+        const d = [
+          it.display_name,
+          it.item_tag,
+          it.item_group,
+          it.item_subgroup
+        ].filter(Boolean).join(" ").toLowerCase().replace(/[_\s]+/g, " ");
         const t = (it.tags || []).join(" ").toLowerCase().replace(/[_\s]+/g, " ");
         return d.includes(q) || t.includes(q);
       });
@@ -2922,6 +2927,7 @@ function TagBuilder2($$anchor, $$props) {
       item_tag: preset.id || preset.name,
       display_name: preset.name || preset.id,
       item_group: preset.category || "Uncategorized",
+      item_subgroup: preset.subcategory || "",
       tags,
       header: extractStyleHeader(preset.text || ""),
       negative: extractStyleNegative(preset.text || ""),

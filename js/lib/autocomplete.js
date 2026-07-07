@@ -259,8 +259,10 @@ function buildOutfitInsertion(outfit, characterDisplay, config) {
 //   already ends with enough newlines.
 function buildPromptInsertion(prompt, existingBefore, existingAfter) {
   const category = (prompt.category || "").trim();
+  const subcategory = (prompt.subcategory || "").trim();
   const name = (prompt.name || "prompt").trim();
-  const title = category ? `${category} > ${name}` : name;
+  const path = [category, subcategory].filter(Boolean).join(" > ");
+  const title = path ? `${path} > ${name}` : name;
 
   const text = prompt.text || "";
   const cursorIdx = text.indexOf("{cursor}");
@@ -557,9 +559,13 @@ async function promptValueSource(context) {
   if (!prompts.length) return null;
 
   const filtered = query
-    ? prompts.filter((p) =>
-        (p.name || "").toLowerCase().includes(query) ||
-        (p.category || "").toLowerCase().includes(query))
+    ? prompts.filter((p) => [
+        p.id,
+        p.name,
+        p.category,
+        p.subcategory,
+        p.text,
+      ].some((value) => (value || "").toLowerCase().includes(query)))
     : prompts;
   if (!filtered.length) return null;
 
@@ -568,7 +574,7 @@ async function promptValueSource(context) {
     to: m.to,
     options: filtered.map((p) => ({
       label: p.id || p.name || "prompt",
-      displayLabel: (p.category ? `${p.category} > ` : "") + (p.name || "prompt"),
+      displayLabel: [p.category, p.subcategory, p.name || "prompt"].filter(Boolean).join(" > "),
       detail: "prompt template",
       type: "prompt",
       apply: (view, completion, from, to) => {

@@ -7691,6 +7691,15 @@
     white-space: nowrap;
     transition: background 0.1s;
   }
+  .pcr-prompt-subcategory-header.svelte-g1mbc7 {
+    padding: 7px 12px 4px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #7fb6dd;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: default;
+  }
   .pcr-prompt-dropdown-item.svelte-g1mbc7:hover {
     background: rgba(79, 195, 247, 0.2);
     color: #4fc3f7;

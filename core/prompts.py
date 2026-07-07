@@ -41,6 +41,35 @@ def _read_json(path: Path) -> Optional[dict]:
         return None
 
 
+def _clean_string(value) -> str:
+    return value.strip() if isinstance(value, str) else ""
+
+
+def _normalize_prompt(prompt: dict, path: Path) -> Optional[dict]:
+    if not isinstance(prompt, dict):
+        return None
+    pid = _clean_string(prompt.get("id"))
+    if not pid:
+        return None
+
+    normalized = dict(prompt)
+    normalized["id"] = pid
+    for key in ("name", "text", "category", "subcategory", "slot"):
+        if key in normalized:
+            value = _clean_string(normalized.get(key))
+            if value:
+                normalized[key] = value
+            else:
+                normalized.pop(key, None)
+
+    scope = normalized.get("scope")
+    if scope is not None and not isinstance(scope, dict):
+        normalized.pop("scope", None)
+
+    normalized["_source_file"] = path.name
+    return normalized
+
+
 def _ingest_dir(directory: Path) -> dict[str, dict]:
     """Read all JSON files in a directory, return prompts keyed by id."""
     result = {}
@@ -51,10 +80,9 @@ def _ingest_dir(directory: Path) -> dict[str, dict]:
         if not data:
             continue
         for prompt in data.get("prompts", []):
-            pid = prompt.get("id")
-            if pid:
-                prompt["_source_file"] = path.name
-                result[pid] = prompt
+            normalized = _normalize_prompt(prompt, path)
+            if normalized:
+                result[normalized["id"]] = normalized
     return result
 
 
@@ -76,7 +104,7 @@ def list_prompts(architecture: Optional[str] = None,
             continue
         results.append(clean)
 
-    results.sort(key=lambda p: (p.get("category", ""), p.get("name", "")))
+    results.sort(key=lambda p: (p.get("category", ""), p.get("subcategory", ""), p.get("name", "")))
     return results
 
 
@@ -85,10 +113,11 @@ def save(prompt: dict) -> str:
     user_dir = _user_dir()
     user_dir.mkdir(parents=True, exist_ok=True)
 
+    custom_path = user_dir / "custom.json"
     if not prompt.get("id"):
         prompt["id"] = str(uuid.uuid4())
+    prompt = _normalize_prompt(prompt, custom_path) or prompt
 
-    custom_path = user_dir / "custom.json"
     with _write_lock:
         data = _read_json(custom_path) or {"name": "Custom Prompts", "prompts": []}
 

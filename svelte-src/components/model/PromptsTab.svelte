@@ -22,6 +22,7 @@
   // Add form
   let newName = $state("");
   let newCategory = $state("");
+  let newSubcategory = $state("");
   let newText = $state("");
   let newScope = $state("global");
   let newSlot = $state("");
@@ -46,13 +47,29 @@
   loadPrompts();
 
   let grouped = $derived.by(() => {
-    const groups = {};
+    const groups = new Map();
     for (const p of prompts) {
-      const cat = p.category || "";
-      if (!groups[cat]) groups[cat] = [];
-      groups[cat].push(p);
+      const category = (p.category || "General").trim();
+      const subcategory = (p.subcategory || "").trim();
+      if (!groups.has(category)) {
+        groups.set(category, {
+          category,
+          count: 0,
+          hasSubcategories: false,
+          subgroups: new Map(),
+        });
+      }
+      const group = groups.get(category);
+      const subKey = subcategory || "General";
+      if (subcategory) group.hasSubcategories = true;
+      if (!group.subgroups.has(subKey)) group.subgroups.set(subKey, []);
+      group.subgroups.get(subKey).push(p);
+      group.count += 1;
     }
-    return groups;
+    return [...groups.values()].map(group => ({
+      ...group,
+      subgroups: [...group.subgroups.entries()].map(([subcategory, items]) => ({ subcategory, items })),
+    }));
   });
 
   // Mirrors buildPromptInsertion in js/lib/autocomplete.js (@prompt source):
@@ -122,12 +139,14 @@
         text: newText.trim(),
         scope,
         category: newCategory.trim() || undefined,
+        subcategory: newSubcategory.trim() || undefined,
         slot: newSlot || undefined,
       }),
     });
     newName = "";
     newText = "";
     newCategory = "";
+    newSubcategory = "";
     loadPrompts();
   }
 
@@ -206,63 +225,70 @@
       <div class="pcr-model-panel-section-title">Prompt Templates</div>
     {/if}
     <div class="pcr-prompt-grid">
-      {#each Object.entries(grouped) as [category, items]}
-        {#if category && items.length > 1}
+      {#each grouped as group}
+        {#if group.count > 1}
           <!-- Dropdown group -->
           <div class="pcr-template-dropdown-container">
             <button class="pcr-prompt-btn pcr-prompt-dropdown-btn"
-              class:pcr-open={openDropdown === category}
+              class:pcr-open={openDropdown === group.category}
               onclick={(e) => {
                 e.stopPropagation();
-                openDropdown = openDropdown === category ? null : category;
+                openDropdown = openDropdown === group.category ? null : group.category;
               }}>
-              {category} <span class="pcr-prompt-dropdown-arrow">▼</span>
+              {group.category} <span class="pcr-prompt-dropdown-arrow">▼</span>
             </button>
-            {#if openDropdown === category}
+            {#if openDropdown === group.category}
               <div class="pcr-prompt-dropdown-menu" popover="manual"
                 use:anchorToButton={() => { openDropdown = null; }}>
-                {#each items as p}
-                  <div class="pcr-prompt-dropdown-item"
-                    title={p.text || ""}
-                    style={editMode ? "display:flex;justify-content:space-between;align-items:center" : ""}
-                    onclick={(e) => {
-                      if (!editMode) {
-                        e.stopPropagation();
-                        openDropdown = null;
-                        insertPromptText(p.text || "");
-                      }
-                    }}>
-                    {#if editMode}
-                      <span>{p.name}</span>
-                      <span class="pcr-prompt-dropdown-item-del"
-                        onclick={(e) => { e.stopPropagation(); handleDelete(p); }}>×</span>
-                    {:else}
-                      {p.name}
-                    {/if}
-                  </div>
+                {#each group.subgroups as subgroup}
+                  {#if group.hasSubcategories}
+                    <div class="pcr-prompt-subcategory-header">{subgroup.subcategory}</div>
+                  {/if}
+                  {#each subgroup.items as p}
+                    <div class="pcr-prompt-dropdown-item"
+                      title={p.text || ""}
+                      style={editMode ? "display:flex;justify-content:space-between;align-items:center" : ""}
+                      onclick={(e) => {
+                        if (!editMode) {
+                          e.stopPropagation();
+                          openDropdown = null;
+                          insertPromptText(p.text || "");
+                        }
+                      }}>
+                      {#if editMode}
+                        <span>{p.name}</span>
+                        <span class="pcr-prompt-dropdown-item-del"
+                          onclick={(e) => { e.stopPropagation(); handleDelete(p); }}>×</span>
+                      {:else}
+                        {p.name}
+                      {/if}
+                    </div>
+                  {/each}
                 {/each}
               </div>
             {/if}
           </div>
         {:else}
           <!-- Flat buttons -->
-          {#each items as p}
-            <button class="pcr-prompt-btn"
-              title={p.text || ""}
-              onclick={(e) => {
-                e.stopPropagation();
-                if (editMode) {
-                  handleDelete(p);
-                } else {
-                  insertPromptText(p.text || "");
-                }
-              }}>
-              {#if editMode}
-                {p.name} <span class="pcr-prompt-del-badge">×</span>
-              {:else}
-                {p.name}
-              {/if}
-            </button>
+          {#each group.subgroups as subgroup}
+            {#each subgroup.items as p}
+              <button class="pcr-prompt-btn"
+                title={p.text || ""}
+                onclick={(e) => {
+                  e.stopPropagation();
+                  if (editMode) {
+                    handleDelete(p);
+                  } else {
+                    insertPromptText(p.text || "");
+                  }
+                }}>
+                {#if editMode}
+                  {p.name} <span class="pcr-prompt-del-badge">×</span>
+                {:else}
+                  {p.name}
+                {/if}
+              </button>
+            {/each}
           {/each}
         {/if}
       {/each}
@@ -276,6 +302,8 @@
           bind:value={newName} />
         <input type="text" class="pcr-tpl-save-name" placeholder="Category..."
           style="max-width:120px" bind:value={newCategory} />
+        <input type="text" class="pcr-tpl-save-name" placeholder="Subcategory..."
+          style="max-width:120px" bind:value={newSubcategory} />
       </div>
       <div class="pcr-tpl-save-row">
         <select class="pcr-tpl-save-scope" bind:value={newScope}>
@@ -418,6 +446,15 @@
     cursor: pointer;
     white-space: nowrap;
     transition: background 0.1s;
+  }
+  .pcr-prompt-subcategory-header {
+    padding: 7px 12px 4px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #7fb6dd;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: default;
   }
   .pcr-prompt-dropdown-item:hover {
     background: rgba(79, 195, 247, 0.2);

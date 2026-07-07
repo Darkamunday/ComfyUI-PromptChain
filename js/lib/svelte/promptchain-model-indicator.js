@@ -1,6 +1,6 @@
 import { p as push, a as prop, D as comment, v as first_child, i as if_block, g as get, k as append, l as pop, s as state, e as set, f as sibling, t as template_effect, r as event, A as from_html, n as child, y as set_text, F as set_style, x as set_attribute, d as delegate, c as proxy, u as user_effect, E as untrack, o as bind_this, j as delegated, C as tick, m as user_derived, w as each, z as index, h as set_class, G as update, N as unmount, M as mount } from "./disclose-version-CPcS7M7Y.js";
 import { b as bind_value } from "./input-uYBeAZAB.js";
-import { e as extractPrecisions, r as resolveFilesForPrecision } from "./model-constants-cVxhUf51.js";
+import { e as extractPrecisions, r as resolveFilesForPrecision } from "./model-constants-CUFikA1N.js";
 import { api } from "/scripts/api.js";
 import { s as safeJson, H as HttpError } from "./api-context-paLznr_9.js";
 var root_2$4 = from_html(`<div class="pcr-hover-card-version svelte-oulz7g"> </div>`);
@@ -317,7 +317,13 @@ function ModelPicker($$anchor, $$props) {
     if (q) {
       const terms = q.split(/\s+/);
       items = items.filter((c) => {
-        const text = [c.display_name, c.model_name, c.version, c.architecture, c.family].filter(Boolean).join(" ").toLowerCase();
+        const text = [
+          c.display_name,
+          c.model_name,
+          c.version,
+          c.architecture,
+          c.family
+        ].filter(Boolean).join(" ").toLowerCase();
         return terms.every((t) => text.includes(t));
       });
     }
