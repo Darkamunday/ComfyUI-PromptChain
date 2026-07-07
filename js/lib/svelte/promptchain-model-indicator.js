@@ -317,7 +317,7 @@ function ModelPicker($$anchor, $$props) {
     if (q) {
       const terms = q.split(/\s+/);
       items = items.filter((c) => {
-        const text = [c.model_name, c.architecture, c.family].filter(Boolean).join(" ").toLowerCase();
+        const text = [c.display_name, c.model_name, c.version, c.architecture, c.family].filter(Boolean).join(" ").toLowerCase();
         return terms.every((t) => text.includes(t));
       });
     }
