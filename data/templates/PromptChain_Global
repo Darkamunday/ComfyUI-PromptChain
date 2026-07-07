@@ -1,0 +1,95 @@
+{
+  "name": "Pack_99_Skin_Tone_Global",
+  "prompts": [
+    {
+      "id": "skin_porcelain",
+      "name": "Porcelain",
+      "text": "porcelain skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    },
+    {
+      "id": "skin_fair",
+      "name": "Fair",
+      "text": "fair skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    },
+    {
+      "id": "skin_light",
+      "name": "Light",
+      "text": "light skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    },
+    {
+      "id": "skin_beige",
+      "name": "Beige",
+      "text": "beige skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    },
+    {
+      "id": "skin_olive",
+      "name": "Olive",
+      "text": "olive skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    },
+    {
+      "id": "skin_tan",
+      "name": "Tan",
+      "text": "tanned skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    },
+    {
+      "id": "skin_bronze",
+      "name": "Bronze",
+      "text": "bronze skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    },
+    {
+      "id": "skin_brown",
+      "name": "Brown",
+      "text": "rich brown skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    },
+    {
+      "id": "skin_dark",
+      "name": "Dark",
+      "text": "dark skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    },
+    {
+      "id": "skin_deep",
+      "name": "Deep",
+      "text": "deep ebony skin",
+      "scope": {
+        "type": "global"
+      },
+      "category": "skin tone"
+    }
+  ]
+}
