@@ -49,7 +49,7 @@ export const I2I_RECIPE_DEFAULTS = {
 // table of its own (no drift).
 export function i2iRecipe(architecture, filename = "", gen = null) {
   const a = String(architecture || "").toLowerCase();
-  const turbo = /turbo/i.test(filename);
+  const turbo = /turbo|z-?image-?anime|anime.*aio/i.test(filename);
   const raw = /raw/i.test(filename) && !turbo;
   let base;
   if (a === "krea2") base = raw ? I2I_RECIPE_DEFAULTS.krea2_raw : I2I_RECIPE_DEFAULTS.krea2_turbo;

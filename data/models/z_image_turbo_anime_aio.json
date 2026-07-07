@@ -1,0 +1,131 @@
+{
+  "display_name": "Z-Image-Turbo-Anime - AIO",
+  "model_name": "Z-Image-Turbo-Anime",
+  "version": "AIO",
+  "architecture": "zimage",
+  "family": "zimage_turbo_aio",
+  "author": "SeeSee21",
+  "description": "All-in-one anime fine-tune of Z-Image-Turbo with integrated text encoder and VAE. Optimized for fast anime generation.",
+  "license": "Apache 2.0",
+  "tags": [
+    "anime",
+    "illustration",
+    "turbo",
+    "fast",
+    "aio",
+    "zimage"
+  ],
+  "url": "https://civitai.com/models/2259646/z-image-turbo-anime",
+  "release_date": "2025-12-28",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "high quality anime illustration",
+  "default_prompt_id": "zimage-anime-cel_shaded",
+  "negative": "",
+  "quality_position": "end",
+  "notes": "AIO checkpoint for ComfyUI CheckpointLoaderSimple. Recommended: 8-9 steps, CFG 1.0, euler_ancestral+beta or res_multistep+simple.",
+  "files": [
+    {
+      "label": "Checkpoint",
+      "folder": "checkpoints",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "z-image-anime-aio-bf16.safetensors",
+          "size_bytes": 20522591874,
+          "source": {
+            "provider": "huggingface",
+            "repo": "SeeSee21/Z-Image-Turbo-AIO",
+            "path": "z-image-anime-aio-bf16.safetensors"
+          },
+          "download_url": "https://civitai.com/api/download/models/2543657",
+          "civitai_model_id": 2259646,
+          "civitai_version_id": 2543657,
+          "sha256": "eae8fe30a8b2e3b6258b921fcb1d612cc737c6ce3634925d762a0aa376128a36"
+        },
+        {
+          "precision": "fp16",
+          "filename": "z-image-anime-aio-fp16.safetensors",
+          "size_bytes": 20522546944,
+          "source": {
+            "provider": "huggingface",
+            "repo": "SeeSee21/Z-Image-Turbo-AIO",
+            "path": "z-image-anime-aio-fp16.safetensors"
+          },
+          "download_url": "https://civitai.com/api/download/models/2550879",
+          "civitai_model_id": 2259646,
+          "civitai_version_id": 2550879,
+          "sha256": "a89b031c84e415e39156b9e7f129b1f0636b04a666360a5776a8cfcfdb1cc20f"
+        },
+        {
+          "precision": "fp8",
+          "filename": "z-image-anime-aio-fp8.safetensors",
+          "size_bytes": 10345210578,
+          "source": {
+            "provider": "huggingface",
+            "repo": "SeeSee21/Z-Image-Turbo-AIO",
+            "path": "z-image-anime-aio-fp8.safetensors"
+          },
+          "download_url": "https://civitai.com/api/download/models/2544019",
+          "civitai_model_id": 2259646,
+          "civitai_version_id": 2544019,
+          "sha256": "68248da66143ef9e3e9969fbe79b9f1e8816932444f8c6dbfdb80139588866bc"
+        }
+      ]
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "beta",
+      "steps_range": [
+        6,
+        12
+      ],
+      "cfg_range": [
+        1.0,
+        1.5
+      ],
+      "sampler_name_options": [
+        "euler_ancestral",
+        "res_multistep",
+        "euler"
+      ],
+      "scheduler_options": [
+        "beta",
+        "simple",
+        "sgm_uniform"
+      ]
+    },
+    "EmptyLatentImage": {
+      "width": 832,
+      "height": 1216,
+      "_resolutions": [
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1152
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "civitai_model_id": 2259646
+}

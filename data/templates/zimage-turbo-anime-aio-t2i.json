@@ -1,0 +1,216 @@
+{
+  "name": "Text-to-Image",
+  "category": "Generation",
+  "order": 0,
+  "scope": {
+    "type": "family",
+    "architecture": "zimage",
+    "family": "zimage_turbo_aio"
+  },
+  "created_at": 1783449600,
+  "id": "e3959904-3ef0-4421-9886-a640b7d89e7b",
+  "nodes": [
+    {
+      "type": "CheckpointLoaderSimple",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        320,
+        100
+      ],
+      "widgets_values": [
+        "z-image-anime-aio-bf16.safetensors"
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        420,
+        0
+      ],
+      "size": [
+        360,
+        180
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "CLIPTextEncode",
+      "offset": [
+        420,
+        240
+      ],
+      "size": [
+        360,
+        140
+      ],
+      "widgets_values": [
+        ""
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      }
+    },
+    {
+      "type": "ModelSamplingAuraFlow",
+      "offset": [
+        420,
+        440
+      ],
+      "size": [
+        290,
+        80
+      ],
+      "widgets_values": [
+        3
+      ],
+      "properties": {
+        "Node name for S&R": "ModelSamplingAuraFlow"
+      }
+    },
+    {
+      "type": "EmptyLatentImage",
+      "offset": [
+        860,
+        420
+      ],
+      "size": [
+        280,
+        110
+      ],
+      "widgets_values": [
+        832,
+        1216,
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      }
+    },
+    {
+      "type": "KSampler",
+      "offset": [
+        1220,
+        160
+      ],
+      "size": [
+        330,
+        320
+      ],
+      "widgets_values": [
+        569931918528821,
+        "randomize",
+        8,
+        1,
+        "euler_ancestral",
+        "beta",
+        1
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      }
+    },
+    {
+      "type": "VAEDecode",
+      "offset": [
+        1640,
+        180
+      ],
+      "size": [
+        225,
+        72
+      ],
+      "widgets_values": [],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "type": "SaveImage",
+      "offset": [
+        1960,
+        100
+      ],
+      "size": [
+        276,
+        323
+      ],
+      "widgets_values": [
+        "Z-Image-Anime/%date:yyyy-MM-dd_hhmmss%"
+      ],
+      "properties": {}
+    }
+  ],
+  "connections": [
+    {
+      "from_node_idx": 0,
+      "from_slot": 1,
+      "to_node_idx": 1,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 0,
+      "from_slot": 1,
+      "to_node_idx": 2,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 0,
+      "from_slot": 0,
+      "to_node_idx": 3,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 1,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 2,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 2
+    },
+    {
+      "from_node_idx": 3,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 4,
+      "from_slot": 0,
+      "to_node_idx": 5,
+      "to_slot": 3
+    },
+    {
+      "from_node_idx": 5,
+      "from_slot": 0,
+      "to_node_idx": 6,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 0,
+      "from_slot": 2,
+      "to_node_idx": 6,
+      "to_slot": 1
+    },
+    {
+      "from_node_idx": 6,
+      "from_slot": 0,
+      "to_node_idx": 7,
+      "to_slot": 0
+    }
+  ]
+}

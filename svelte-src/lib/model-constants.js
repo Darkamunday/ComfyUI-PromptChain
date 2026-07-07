@@ -90,6 +90,7 @@ export const FAMILIES = {
   zimage: [
     { id: "zimage_base", label: "Z-Image Base" },
     { id: "zimage_turbo", label: "Z-Image Turbo" },
+    { id: "zimage_turbo_aio", label: "Z-Image Turbo AIO" },
   ],
   qwen_image: [
     { id: "qwen_image", label: "Qwen Image" },
