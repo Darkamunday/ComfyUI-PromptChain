@@ -32,7 +32,7 @@
       "variants": [
         {
           "precision": "bf16",
-          "filename": "z-image-anime-aio-bf16.safetensors",
+          "filename": "zImageTurboAnime_aioBF16.safetensors",
           "size_bytes": 20522591874,
           "source": {
             "provider": "huggingface",

@@ -21,7 +21,7 @@
         100
       ],
       "widgets_values": [
-        "z-image-anime-aio-bf16.safetensors"
+        "zImageTurboAnime_aioBF16.safetensors"
       ],
       "properties": {
         "Node name for S&R": "CheckpointLoaderSimple"
