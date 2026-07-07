@@ -1,0 +1,59 @@
+{
+  "name": "Pack_101_Age_Appearance_Global",
+  "prompts": [
+    {
+      "id": "age_teen",
+      "name": "Teen Appearance",
+      "text": "late-teen appearance",
+      "scope": {
+        "type": "global"
+      },
+      "category": "age appearance"
+    },
+    {
+      "id": "age_young",
+      "name": "Young Adult",
+      "text": "young adult appearance",
+      "scope": {
+        "type": "global"
+      },
+      "category": "age appearance"
+    },
+    {
+      "id": "age_mid20",
+      "name": "Mid Twenties",
+      "text": "mid-twenties appearance",
+      "scope": {
+        "type": "global"
+      },
+      "category": "age appearance"
+    },
+    {
+      "id": "age_30",
+      "name": "Thirtys",
+      "text": "early-thirties appearance",
+      "scope": {
+        "type": "global"
+      },
+      "category": "age appearance"
+    },
+    {
+      "id": "age_mature",
+      "name": "Mature Adult",
+      "text": "mature adult appearance",
+      "scope": {
+        "type": "global"
+      },
+      "category": "age appearance"
+    },
+    {
+      "id": "age_elder",
+      "name": "Elder",
+      "text": "elderly appearance",
+      "scope": {
+        "type": "global"
+      },
+      "category": "age appearance"
+    }
+  ]
+}

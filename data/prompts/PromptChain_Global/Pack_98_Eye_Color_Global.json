@@ -1,0 +1,140 @@
+{
+  "name": "Pack_98_Eye_Color_Global",
+  "prompts": [
+    {
+      "id": "eye_brown",
+      "name": "Brown Eyes",
+      "text": "brown eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_hazel",
+      "name": "Hazel Eyes",
+      "text": "hazel eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_amber",
+      "name": "Amber Eyes",
+      "text": "amber eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_green",
+      "name": "Emerald Green Eyes",
+      "text": "emerald green eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_blue",
+      "name": "Blue Eyes",
+      "text": "bright blue eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_ice",
+      "name": "Ice Blue Eyes",
+      "text": "ice blue eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_grey",
+      "name": "Grey Eyes",
+      "text": "grey eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_violet",
+      "name": "Violet Eyes",
+      "text": "violet eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_pink",
+      "name": "Pink Eyes",
+      "text": "pink eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_red",
+      "name": "Red Eyes",
+      "text": "red eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_gold",
+      "name": "Golden Eyes",
+      "text": "golden eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_silver",
+      "name": "Silver Eyes",
+      "text": "silver eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_teal",
+      "name": "Teal Eyes",
+      "text": "teal eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_hetero",
+      "name": "Heterochromia",
+      "text": "heterochromia, different colored eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    },
+    {
+      "id": "eye_glowing",
+      "name": "Glowing Eyes",
+      "text": "softly glowing eyes",
+      "scope": {
+        "type": "global"
+      },
+      "category": "eye color"
+    }
+  ]
+}

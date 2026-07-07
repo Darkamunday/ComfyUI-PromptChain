@@ -1,0 +1,95 @@
+{
+  "name": "Pack_100_Body_Type_Global",
+  "prompts": [
+    {
+      "id": "body_petite",
+      "name": "Petite",
+      "text": "petite build",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    },
+    {
+      "id": "body_slim",
+      "name": "Slim",
+      "text": "slim build",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    },
+    {
+      "id": "body_athletic",
+      "name": "Athletic",
+      "text": "athletic build",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    },
+    {
+      "id": "body_curvy",
+      "name": "Curvy",
+      "text": "curvy figure",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    },
+    {
+      "id": "body_average",
+      "name": "Average",
+      "text": "average build",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    },
+    {
+      "id": "body_tall",
+      "name": "Tall",
+      "text": "tall stature",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    },
+    {
+      "id": "body_short",
+      "name": "Short",
+      "text": "short stature",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    },
+    {
+      "id": "body_muscular",
+      "name": "Muscular",
+      "text": "muscular physique",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    },
+    {
+      "id": "body_soft",
+      "name": "Soft",
+      "text": "soft physique",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    },
+    {
+      "id": "body_lean",
+      "name": "Lean",
+      "text": "lean physique",
+      "scope": {
+        "type": "global"
+      },
+      "category": "body type"
+    }
+  ]
+}

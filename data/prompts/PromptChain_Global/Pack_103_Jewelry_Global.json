@@ -1,0 +1,95 @@
+{
+  "name": "Pack_103_Jewelry_Global",
+  "prompts": [
+    {
+      "id": "jw_necklace",
+      "name": "Pendant Necklace",
+      "text": "pendant necklace",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    },
+    {
+      "id": "jw_choker",
+      "name": "Choker",
+      "text": "choker",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    },
+    {
+      "id": "jw_earrings",
+      "name": "Earrings",
+      "text": "elegant earrings",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    },
+    {
+      "id": "jw_hoops",
+      "name": "Hoop Earrings",
+      "text": "hoop earrings",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    },
+    {
+      "id": "jw_bracelet",
+      "name": "Bracelet",
+      "text": "bracelet",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    },
+    {
+      "id": "jw_ring",
+      "name": "Ring",
+      "text": "ring",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    },
+    {
+      "id": "jw_multiple",
+      "name": "Layered Jewelry",
+      "text": "layered jewelry",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    },
+    {
+      "id": "jw_pearl",
+      "name": "Pearl Jewelry",
+      "text": "pearl jewelry",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    },
+    {
+      "id": "jw_silver",
+      "name": "Silver Jewelry",
+      "text": "silver jewelry",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    },
+    {
+      "id": "jw_gold",
+      "name": "Gold Jewelry",
+      "text": "gold jewelry",
+      "scope": {
+        "type": "global"
+      },
+      "category": "jewelry"
+    }
+  ]
+}

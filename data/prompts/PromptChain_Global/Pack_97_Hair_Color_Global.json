@@ -1,0 +1,275 @@
+{
+  "name": "Pack_97_Hair_Color_Global",
+  "prompts": [
+    {
+      "id": "hair_black",
+      "name": "Black Hair",
+      "text": "black hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_soft_black",
+      "name": "Soft Black Hair",
+      "text": "soft black hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_raven",
+      "name": "Raven Black",
+      "text": "raven black hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_dark_brown",
+      "name": "Dark Brown",
+      "text": "dark brown hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_chocolate",
+      "name": "Chocolate Brown",
+      "text": "chocolate brown hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_chestnut",
+      "name": "Chestnut Brown",
+      "text": "chestnut brown hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_auburn",
+      "name": "Auburn",
+      "text": "auburn hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_light_brown",
+      "name": "Light Brown",
+      "text": "light brown hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_dirty_blonde",
+      "name": "Dirty Blonde",
+      "text": "dirty blonde hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_golden_blonde",
+      "name": "Golden Blonde",
+      "text": "golden blonde hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_platinum",
+      "name": "Platinum Blonde",
+      "text": "platinum blonde hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_ash_blonde",
+      "name": "Ash Blonde",
+      "text": "ash blonde hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_strawberry",
+      "name": "Strawberry Blonde",
+      "text": "strawberry blonde hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_white",
+      "name": "White Hair",
+      "text": "white hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_silver",
+      "name": "Silver Hair",
+      "text": "silver hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_grey",
+      "name": "Grey Hair",
+      "text": "grey hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_red",
+      "name": "Crimson Red",
+      "text": "crimson red hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_pink",
+      "name": "Pastel Pink",
+      "text": "pastel pink hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_magenta",
+      "name": "Magenta",
+      "text": "magenta hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_purple",
+      "name": "Purple",
+      "text": "purple hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_lavender",
+      "name": "Lavender",
+      "text": "lavender hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_blue",
+      "name": "Deep Blue",
+      "text": "deep blue hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_cyan",
+      "name": "Cyan",
+      "text": "cyan hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_green",
+      "name": "Emerald Green",
+      "text": "emerald green hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_mint",
+      "name": "Mint Green",
+      "text": "mint green hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_teal",
+      "name": "Teal",
+      "text": "teal hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_orange",
+      "name": "Copper Orange",
+      "text": "copper orange hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_ombre",
+      "name": "Ombre",
+      "text": "ombre hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_twotone",
+      "name": "Two Tone",
+      "text": "two-tone hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    },
+    {
+      "id": "hair_rainbow",
+      "name": "Rainbow",
+      "text": "rainbow hair",
+      "scope": {
+        "type": "global"
+      },
+      "category": "hair color"
+    }
+  ]
+}

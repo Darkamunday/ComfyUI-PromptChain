@@ -1,0 +1,95 @@
+{
+  "name": "Pack_104_Footwear_Global",
+  "prompts": [
+    {
+      "id": "ft_barefoot",
+      "name": "Barefoot",
+      "text": "barefoot",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    },
+    {
+      "id": "ft_sneakers",
+      "name": "Sneakers",
+      "text": "modern sneakers",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    },
+    {
+      "id": "ft_boots",
+      "name": "Boots",
+      "text": "leather boots",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    },
+    {
+      "id": "ft_heels",
+      "name": "High Heels",
+      "text": "high heels",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    },
+    {
+      "id": "ft_sandals",
+      "name": "Sandals",
+      "text": "sandals",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    },
+    {
+      "id": "ft_loafers",
+      "name": "Loafers",
+      "text": "loafers",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    },
+    {
+      "id": "ft_combat",
+      "name": "Combat Boots",
+      "text": "combat boots",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    },
+    {
+      "id": "ft_thigh",
+      "name": "Thigh High Boots",
+      "text": "thigh-high boots",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    },
+    {
+      "id": "ft_flats",
+      "name": "Flats",
+      "text": "flats",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    },
+    {
+      "id": "ft_slippers",
+      "name": "Slippers",
+      "text": "soft slippers",
+      "scope": {
+        "type": "global"
+      },
+      "category": "footwear"
+    }
+  ]
+}

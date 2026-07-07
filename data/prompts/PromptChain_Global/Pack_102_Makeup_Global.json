@@ -1,0 +1,95 @@
+{
+  "name": "Pack_102_Makeup_Global",
+  "prompts": [
+    {
+      "id": "mk_natural",
+      "name": "Natural Makeup",
+      "text": "natural makeup",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    },
+    {
+      "id": "mk_none",
+      "name": "No Makeup",
+      "text": "no makeup",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    },
+    {
+      "id": "mk_soft_glam",
+      "name": "Soft Glam",
+      "text": "soft glam makeup",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    },
+    {
+      "id": "mk_bold",
+      "name": "Bold Makeup",
+      "text": "bold makeup",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    },
+    {
+      "id": "mk_smokey",
+      "name": "Smokey Eyes",
+      "text": "smokey eye makeup",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    },
+    {
+      "id": "mk_winged",
+      "name": "Winged Eyeliner",
+      "text": "winged eyeliner",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    },
+    {
+      "id": "mk_gloss",
+      "name": "Glossy Lips",
+      "text": "glossy lips",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    },
+    {
+      "id": "mk_matte",
+      "name": "Matte Lips",
+      "text": "matte lipstick",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    },
+    {
+      "id": "mk_blush",
+      "name": "Soft Blush",
+      "text": "soft blush",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    },
+    {
+      "id": "mk_freckles",
+      "name": "Freckles",
+      "text": "natural freckles",
+      "scope": {
+        "type": "global"
+      },
+      "category": "makeup"
+    }
+  ]
+}
