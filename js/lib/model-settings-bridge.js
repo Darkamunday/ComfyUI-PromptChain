@@ -29,7 +29,7 @@ export const FAMILIES = {
   flux: [{ id: "flux_dev", label: "Flux Dev" }, { id: "flux_schnell", label: "Flux Schnell" }, { id: "flux_fill", label: "Flux Fill" }],
   flux2: [{ id: "flux2", label: "Flux 2" }, { id: "flux2_gguf", label: "Flux 2 GGUF" }, { id: "flux2_klein", label: "Flux 2 Klein" }],
   sd3: [{ id: "sd3", label: "SD3" }, { id: "sd3.5", label: "SD 3.5" }],
-  zimage: [{ id: "zimage_base", label: "Z-Image Base" }, { id: "zimage_turbo", label: "Z-Image Turbo" }, { id: "zimage_turbo_aio", label: "Z-Image Turbo AIO" }],
+  zimage: [{ id: "zimage_base", label: "Z-Image Base" }, { id: "zimage_turbo", label: "Z-Image Turbo" }, { id: "zimage_turbo_aio", label: "Z-Image Turbo AIO" }, { id: "zimage_turbo_remix", label: "Z-Image Turbo Remix" }],
   qwen_image: [{ id: "qwen_image", label: "Qwen Image" }],
   qwen_edit: [{ id: "qwen_edit", label: "Qwen Edit" }, { id: "qwen_aio", label: "Qwen AIO" }],
   wan22: [{ id: "wan22_i2v", label: "Wan I2V 14B" }, { id: "wan22_i2v_gguf", label: "Wan I2V 14B (GGUF)" }, { id: "wan22_t2v", label: "Wan T2V 14B" }, { id: "wan22_t2v_gguf", label: "Wan T2V 14B (GGUF)" }, { id: "wan22_5b", label: "Wan TI2V 5B" }, { id: "wan22_5b_gguf", label: "Wan TI2V 5B (GGUF)" }],
@@ -2851,7 +2851,7 @@ export async function showModelModal(pcNode, modelInfo, anchorEl, { tab = null }
     if (arch !== "zimage") return null;
     const fam = savedConfig?.family || "";
     if (fam === "zimage_base" || fam === "zimage_turbo") return fam;
-    if (fam === "zimage_turbo_aio") return "zimage_turbo";
+    if (fam === "zimage_turbo_aio" || fam === "zimage_turbo_remix") return "zimage_turbo";
     const hay = [modelInfo.filename, modelInfo.model_name, savedConfig?.model_name]
       .filter(Boolean).join(" ").toLowerCase();
     return /turbo/.test(hay) ? "zimage_turbo" : "zimage_base";

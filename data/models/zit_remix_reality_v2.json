@@ -1,0 +1,152 @@
+{
+  "display_name": "ZIT - Remix - Reality v2",
+  "model_name": "ZIT - Remix",
+  "version": "Reality v2",
+  "architecture": "zimage",
+  "family": "zimage_turbo_remix",
+  "author": "FX_FeiHou",
+  "description": "Reality-focused Z-Image-Turbo remix. Uses the standard split Z-Image loader path with Qwen 3 4B text encoder and Z-Image VAE.",
+  "tags": [
+    "realistic",
+    "photographic",
+    "turbo",
+    "remix",
+    "zimage"
+  ],
+  "url": "https://civitai.com/models/2304785/zit-remix",
+  "download_url": "https://civitai.com/api/download/models/2642834",
+  "civitai_model_id": 2304785,
+  "civitai_version_id": 2642834,
+  "release_date": "2026-01-30",
+  "tag_sources": [],
+  "tag_format": "spaces",
+  "prompt_style": "natural",
+  "trigger": "4k, highly detailed",
+  "default_prompt_id": "zimage-photorealistic-default",
+  "negative": "",
+  "quality_position": "end",
+  "notes": "CFG 1.0, 10 steps, res_multistep+simple from Civitai sample metadata. Split Z-Image graph: UNETLoader + qwen_3_4b text encoder + ae VAE.",
+  "files": [
+    {
+      "label": "Diffusion Model",
+      "folder": "diffusion_models",
+      "variants": [
+        {
+          "precision": "fp16",
+          "filename": "zitRemix_realityV2.safetensors",
+          "size_bytes": 12309904384,
+          "source": {
+            "provider": "civitai",
+            "download_url": "https://civitai.com/api/download/models/2642834"
+          },
+          "civitai_model_id": 2304785,
+          "civitai_version_id": 2642834,
+          "sha256": "886c11635a916591e4d4fe5c658a8449e2e91236fa3e7095a34559b8a592f196"
+        }
+      ]
+    },
+    {
+      "label": "Text Encoder",
+      "folder": "text_encoders",
+      "variants": [
+        {
+          "precision": "bf16",
+          "filename": "qwen_3_4b.safetensors",
+          "size_bytes": 8044982048,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image_turbo",
+            "path": "split_files/text_encoders/qwen_3_4b.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp8",
+          "filename": "qwen_3_4b_fp8_mixed.safetensors",
+          "size_bytes": 5631994051,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image_turbo",
+            "path": "split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors"
+          },
+          "sha256": null
+        },
+        {
+          "precision": "fp4",
+          "filename": "qwen_3_4b_fp4_mixed.safetensors",
+          "size_bytes": 3479416193,
+          "source": {
+            "provider": "huggingface",
+            "repo": "Comfy-Org/z_image_turbo",
+            "path": "split_files/text_encoders/qwen_3_4b_fp4_mixed.safetensors"
+          },
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "label": "VAE",
+      "folder": "vae",
+      "filename": "ae.safetensors",
+      "size_bytes": 335304388,
+      "source": {
+        "provider": "huggingface",
+        "repo": "Comfy-Org/z_image_turbo",
+        "path": "split_files/vae/ae.safetensors"
+      },
+      "sha256": null
+    }
+  ],
+  "nodes": {
+    "KSampler": {
+      "steps": 10,
+      "cfg": 1.0,
+      "sampler_name": "res_multistep",
+      "scheduler": "simple",
+      "steps_range": [
+        6,
+        12
+      ],
+      "cfg_range": [
+        1.0,
+        1.5
+      ],
+      "sampler_name_options": [
+        "res_multistep",
+        "euler",
+        "euler_ancestral"
+      ],
+      "scheduler_options": [
+        "simple",
+        "beta",
+        "sgm_uniform"
+      ]
+    },
+    "EmptySD3LatentImage": {
+      "width": 960,
+      "height": 1280,
+      "_resolutions": [
+        {
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1152
+        },
+        {
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  }
+}
