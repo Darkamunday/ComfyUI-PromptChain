@@ -13,6 +13,29 @@
   const { model_name, architecture, family, civitai_model_id, file } = civitaiResult;
   const civitaiUrl = `https://civitai.com/models/${civitai_model_id}`;
 
+  function inferDownloadFolder(result) {
+    const f = result?.file || {};
+    const haystack = [
+      f.filename,
+      f.name,
+      result?.model_name,
+      result?.version_name,
+      result?.base_model,
+      result?.civitai_model_id,
+      result?.civitai_version_id,
+    ].filter(Boolean).join(" ").toLowerCase();
+
+    if (haystack.includes("zitremix") || haystack.includes("zit - remix") || result?.civitai_model_id === 2304785 || result?.civitai_version_id === 2642834) {
+      return "diffusion_models";
+    }
+    if ((haystack.includes("zimage") || haystack.includes("z-image")) && !haystack.includes("aio")) {
+      return "diffusion_models";
+    }
+    return f.folder || "checkpoints";
+  }
+
+  file.folder = inferDownloadFolder(civitaiResult);
+
   let downloading = $state(false);
   let progress = $state(0);
   let downloadedMB = $state(0);

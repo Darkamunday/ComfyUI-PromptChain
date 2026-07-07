@@ -288,7 +288,14 @@ async def search_models(query: str, limit: int = 10, cursor: str = "") -> dict:
         family = _refine_family_from_name(model_name, arch, family)
 
         # Pick best file
-        best_file = _pick_best_file(best_version.get("files", []))
+        best_file = _pick_best_file(
+            best_version.get("files", []),
+            model_name=model_name,
+            version_name=best_version.get("name", ""),
+            base_model=base_model,
+            model_id=model_id,
+            version_id=best_version.get("id"),
+        )
 
         thumbnail = _pick_thumbnail(best_version.get("images", []))
 
@@ -312,7 +319,39 @@ async def search_models(query: str, limit: int = 10, cursor: str = "") -> dict:
     return {"results": results, "next_cursor": next_cursor}
 
 
-def _pick_best_file(files: list) -> Optional[dict]:
+def _infer_file_folder(
+    filename: str,
+    *,
+    model_name: str = "",
+    version_name: str = "",
+    base_model: str = "",
+    model_id: Optional[int] = None,
+    version_id: Optional[int] = None,
+) -> str:
+    haystack = " ".join(
+        str(v or "")
+        for v in (filename, model_name, version_name, base_model, model_id, version_id)
+    ).lower()
+
+    # ZIT Remix is a split Z-Image UNet, not an all-in-one checkpoint.
+    # Keep AIO Z-Image files in checkpoints; they are loaded with CheckpointLoaderSimple.
+    if "zitremix" in haystack or "zit - remix" in haystack or model_id == 2304785 or version_id == 2642834:
+        return "diffusion_models"
+    if ("zimage" in haystack or "z-image" in haystack) and "aio" not in haystack:
+        return "diffusion_models"
+
+    return "checkpoints"
+
+
+def _pick_best_file(
+    files: list,
+    *,
+    model_name: str = "",
+    version_name: str = "",
+    base_model: str = "",
+    model_id: Optional[int] = None,
+    version_id: Optional[int] = None,
+) -> Optional[dict]:
     """Pick the best downloadable file — prefers safetensors fp16 pruned."""
     scored: list[tuple[int, dict]] = []
     for f in files:
@@ -335,7 +374,14 @@ def _pick_best_file(files: list) -> Optional[dict]:
     return {
         "name": name,
         "filename": name,
-        "folder": "checkpoints",
+        "folder": _infer_file_folder(
+            name,
+            model_name=model_name,
+            version_name=version_name,
+            base_model=base_model,
+            model_id=model_id,
+            version_id=version_id,
+        ),
         "size_gb": round(best.get("sizeKB", 0) / 1048576, 1),
         "download_url": best.get("downloadUrl", ""),
         "format": best.get("metadata", {}).get("format", ""),

@@ -1259,6 +1259,26 @@ function DownloadModal($$anchor, $$props) {
   push($$props, true);
   const { model_name, architecture, family, civitai_model_id, file } = $$props.civitaiResult;
   const civitaiUrl = `https://civitai.com/models/${civitai_model_id}`;
+  function inferDownloadFolder(result) {
+    const f = (result == null ? void 0 : result.file) || {};
+    const haystack = [
+      f.filename,
+      f.name,
+      result == null ? void 0 : result.model_name,
+      result == null ? void 0 : result.version_name,
+      result == null ? void 0 : result.base_model,
+      result == null ? void 0 : result.civitai_model_id,
+      result == null ? void 0 : result.civitai_version_id
+    ].filter(Boolean).join(" ").toLowerCase();
+    if (haystack.includes("zitremix") || haystack.includes("zit - remix") || (result == null ? void 0 : result.civitai_model_id) === 2304785 || (result == null ? void 0 : result.civitai_version_id) === 2642834) {
+      return "diffusion_models";
+    }
+    if ((haystack.includes("zimage") || haystack.includes("z-image")) && !haystack.includes("aio")) {
+      return "diffusion_models";
+    }
+    return f.folder || "checkpoints";
+  }
+  file.folder = inferDownloadFolder($$props.civitaiResult);
   let downloading = state(false);
   let progress = state(0);
   let downloadedMB = state(0);
