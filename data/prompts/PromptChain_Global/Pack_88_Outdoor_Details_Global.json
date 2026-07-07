@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_wooden_fence",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_lamp_posts",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_benches",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_flower_beds",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_fallen_leaves",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_puddles",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_snow_tracks",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_utility_poles",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_street_signs",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_market_stalls",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_bridge_railing",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_fountain_square",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_garden_arch",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     },
     {
       "id": "outdoor_distant_mountains",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outdoor details"
+      "category": "outdoor details",
+      "subcategory": "outdoor details"
     }
   ]
 }

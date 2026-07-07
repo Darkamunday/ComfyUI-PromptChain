@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_adventure",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_fantasy_epic",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_noir",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_slice_of_life",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_mystery",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_sci_fi_drama",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_cyber_thriller",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_comedy",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_historical_drama",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_dark_fantasy",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_magical_girl",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_road_trip",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_stage_performance",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     },
     {
       "id": "genre_dream_sequence",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cinematic genres"
+      "category": "genre",
+      "subcategory": "Cinematic Genre"
     }
   ]
 }

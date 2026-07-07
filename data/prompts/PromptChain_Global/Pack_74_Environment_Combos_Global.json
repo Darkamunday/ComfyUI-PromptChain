@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_library_sun",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_rooftop_sunset",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_bedroom_morning",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_train_night",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_forest_mist",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_beach_golden",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_city_rain_neon",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_shrine_petals",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_greenhouse_overcast",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_castle_candle",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_lab_blue_light",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_market_evening",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_snow_window",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     },
     {
       "id": "env_combo_arcade_neon",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment combos"
+      "category": "environment",
+      "subcategory": "Environment Combo"
     }
   ]
 }

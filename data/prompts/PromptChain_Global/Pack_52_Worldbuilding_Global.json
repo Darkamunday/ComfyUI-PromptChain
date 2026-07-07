@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_magic_academy",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_forest_village",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_desert_city",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_sky_city",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_underwater_city",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_post_apocalyptic",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_steampunk",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_solarpunk",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_noir_city",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_frozen_empire",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_volcanic_realm",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_spirit_realm",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_space_frontier",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     },
     {
       "id": "world_hidden_sanctuary",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "worldbuilding"
+      "category": "worldbuilding",
+      "subcategory": "worldbuilding"
     }
   ]
 }

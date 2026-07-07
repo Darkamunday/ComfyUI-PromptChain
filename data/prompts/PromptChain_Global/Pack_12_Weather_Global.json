@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_golden_sunset",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_light_rain",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_heavy_rain",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_snowfall",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_blizzard",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_mist",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_fog",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_storm_clouds",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_thunderstorm",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_rainbow",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_windy",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_autumn_leaves",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_cherry_blossoms",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     },
     {
       "id": "weather_summer_sun",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "weather"
+      "category": "environment",
+      "subcategory": "Weather"
     }
   ]
 }

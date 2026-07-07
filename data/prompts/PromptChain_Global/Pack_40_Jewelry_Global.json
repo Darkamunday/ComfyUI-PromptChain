@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_drop_earrings",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_hoop_earrings",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_choker",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_pendant",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_layered_necklaces",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_bracelet",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_bangles",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_rings",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_hair_chain",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_tiara",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_gemstone",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_silver_set",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_gold_set",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jewelry_fantasy_ornaments",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     }
   ]
 }

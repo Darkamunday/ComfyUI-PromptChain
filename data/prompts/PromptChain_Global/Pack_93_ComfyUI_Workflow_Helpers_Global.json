@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_character_turnaround",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_lora_dataset_clean",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_lora_face_focus",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_lora_full_body",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_style_test",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_prompt_expansion",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_prompt_cleanup",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_variation",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_pose_test",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_lighting_test",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_background_test",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_expression_test",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_outfit_test",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     },
     {
       "id": "workflow_negative_test",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workflow helpers"
+      "category": "workflow",
+      "subcategory": "Workflow Helper"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_back_alley",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_rooftop",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_night_market",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_augments",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_hacker_room",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_megacity",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_subway",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_club",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_raincoat",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_vendor_stall",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_drone",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_arcade",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_bridge",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     },
     {
       "id": "cyberpunk_apartment",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "cyberpunk"
+      "category": "genre",
+      "subcategory": "Cyberpunk"
     }
   ]
 }

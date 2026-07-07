@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_clean_signage",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_book_pages_blank",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_no_watermark",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_no_random_symbols",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_magical_symbols_ok",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_clean_ui",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_poster_abstract",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_label_free_product",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_tattoo_symbols",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_newspaper_texture",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_screen_glow",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_banner_no_words",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_clean_background",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     },
     {
       "id": "text_prompt_only_when_requested",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "text guidance"
+      "category": "text guidance",
+      "subcategory": "Text Guidance"
     }
   ]
 }

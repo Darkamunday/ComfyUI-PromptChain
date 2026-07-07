@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_dagger",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_staff",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_wand",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_bow",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_shield",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_spear",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_hammer",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_paintbrush",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_quill",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_map",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_compass",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_lantern",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_key",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     },
     {
       "id": "tool_spellbook",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "tools and weapons"
+      "category": "objects",
+      "subcategory": "Tool / Weapon"
     }
   ]
 }

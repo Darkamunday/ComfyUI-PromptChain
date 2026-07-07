@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     },
     {
       "id": "character_fox_spirit",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     },
     {
       "id": "character_shrine_maiden",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     },
     {
       "id": "character_high_elf",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     },
     {
       "id": "character_witch",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     },
     {
       "id": "character_mage",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     },
     {
       "id": "character_knight",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     },
     {
       "id": "character_android",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     },
     {
       "id": "character_maid",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     },
     {
       "id": "character_idol",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "characters"
+      "category": "characters",
+      "subcategory": "characters"
     }
   ]
 }

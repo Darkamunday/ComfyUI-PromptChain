@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     },
     {
       "id": "skin_fair",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     },
     {
       "id": "skin_light",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     },
     {
       "id": "skin_beige",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     },
     {
       "id": "skin_olive",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     },
     {
       "id": "skin_tan",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     },
     {
       "id": "skin_bronze",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     },
     {
       "id": "skin_brown",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     },
     {
       "id": "skin_dark",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     },
     {
       "id": "skin_deep",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "skin tone"
+      "category": "character",
+      "subcategory": "Skin Tone"
     }
   ]
 }

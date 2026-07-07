@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     },
     {
       "id": "lighting_golden_hour",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     },
     {
       "id": "lighting_window_light",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     },
     {
       "id": "lighting_studio_portrait",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     },
     {
       "id": "lighting_moonlight",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     },
     {
       "id": "lighting_candlelight",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     },
     {
       "id": "lighting_volumetric",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     },
     {
       "id": "lighting_overcast",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     },
     {
       "id": "lighting_rainy_window",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     },
     {
       "id": "lighting_neon_night",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting"
+      "category": "lighting",
+      "subcategory": "Lighting"
     }
   ]
 }

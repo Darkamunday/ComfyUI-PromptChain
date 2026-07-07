@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_kyoto_alley",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_tokyo_crossing",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_european_old_town",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_paris_street",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_london_rain",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_mediterranean_village",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_desert_bazaar",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_nordic_village",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_tropical_island",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_mountain_temple",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_coastal_harbor",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_rural_countryside",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_island_shrine",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     },
     {
       "id": "region_futuristic_tokyo",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "regional environments"
+      "category": "environment",
+      "subcategory": "Regional Environment"
     }
   ]
 }

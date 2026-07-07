@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_tea_set",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_ramen",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_bento",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_sushi",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_cake",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_pastries",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_fruit_basket",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_picnic",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_ice_cream",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_street_food",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_fancy_dinner",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_breakfast",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_candy",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     },
     {
       "id": "food_hot_chocolate",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "food"
+      "category": "objects",
+      "subcategory": "Food"
     }
   ]
 }

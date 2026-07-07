@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_three_subjects",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_small_team",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_crowd_background",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_stage_performance",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_classroom",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_party",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_festival",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_adventure_party",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_cafe_table",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_battle_lineup",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_family_scene",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_idol_unit",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_research_team",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     },
     {
       "id": "group_market_crowd",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "group scenes"
+      "category": "presets",
+      "subcategory": "Group Scene"
     }
   ]
 }

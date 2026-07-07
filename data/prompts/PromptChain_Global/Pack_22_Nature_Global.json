@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_waterfall",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_crystal_lake",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_forest_path",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_bamboo_grove",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_wildflower_meadow",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_desert_dunes",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_sea_cliffs",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_riverbank",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_snowy_forest",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_tropical_jungle",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_volcanic_landscape",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_canyon",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_cave",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     },
     {
       "id": "nature_flower_field",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "nature"
+      "category": "environment",
+      "subcategory": "Nature"
     }
   ]
 }

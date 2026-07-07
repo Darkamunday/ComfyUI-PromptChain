@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_art_gallery",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_aquarium",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_botanical_garden",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_amusement_park",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_festival_street",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_movie_theater",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_rooftop_garden",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_public_park",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_train_station",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_airport",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_bookstore",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_record_store",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_arcade_center",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     },
     {
       "id": "location_observatory",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "public locations"
+      "category": "environment",
+      "subcategory": "Public Location"
     }
   ]
 }

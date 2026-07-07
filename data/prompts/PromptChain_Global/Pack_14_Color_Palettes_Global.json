@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_cool_palette",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_pastel_palette",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_vibrant_palette",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_muted_palette",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_earth_tones",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_monochrome",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_black_gold",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_white_silver",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_red_black",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_blue_white",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_neon_palette",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_soft_gradient",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_cinematic_grade",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     },
     {
       "id": "color_natural_colors",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "colors"
+      "category": "mood",
+      "subcategory": "Color Palette"
     }
   ]
 }

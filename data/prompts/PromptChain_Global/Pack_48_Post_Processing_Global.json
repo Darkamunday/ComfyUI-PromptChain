@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_film_grain",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_vignette",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_color_grade_warm",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_color_grade_cool",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_high_contrast",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_low_contrast",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_sharpen_subject",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_soft_background",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_light_leaks",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_chromatic_aberration",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_hdr_balance",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_matte_finish",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_glossy_finish",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     },
     {
       "id": "post_clean_export",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "post processing"
+      "category": "camera",
+      "subcategory": "Post Processing"
     }
   ]
 }

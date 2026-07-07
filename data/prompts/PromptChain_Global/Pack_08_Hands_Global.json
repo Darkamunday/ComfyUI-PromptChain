@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_waving",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_heart",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_behind_back",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_in_pockets",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_crossed_arms",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_touching_hair",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_holding_book",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_holding_cup",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_clasped",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_pointing",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_covering_mouth",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_on_hips",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_holding_flower",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     },
     {
       "id": "hands_prayer",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hands"
+      "category": "character",
+      "subcategory": "Hands"
     }
   ]
 }

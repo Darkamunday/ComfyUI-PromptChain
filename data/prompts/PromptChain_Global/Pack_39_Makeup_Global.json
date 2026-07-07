@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_soft_glam",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_smokey_eye",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_rosy",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_glossy_lips",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_matte_lips",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_winged_liner",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_soft_eyeshadow",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_fantasy",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_gothic",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_idol",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_editorial",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_no_makeup",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_glitter",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     },
     {
       "id": "makeup_clean_skin",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "makeup"
+      "category": "character",
+      "subcategory": "Makeup"
     }
   ]
 }

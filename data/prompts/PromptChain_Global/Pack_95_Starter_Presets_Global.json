@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_cozy_room",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_fantasy_portrait",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_modern_city",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_cyberpunk_neon",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_rainy_mood",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_shrine_scene",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_cafe_scene",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_library_scene",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_full_body_outfit",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_close_portrait",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_action_pose",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_magic_scene",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_nature_scene",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     },
     {
       "id": "starter_editorial",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "starter presets"
+      "category": "presets",
+      "subcategory": "Starter Preset"
     }
   ]
 }

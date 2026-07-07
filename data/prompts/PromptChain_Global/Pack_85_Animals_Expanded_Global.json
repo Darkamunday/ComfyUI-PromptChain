@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_white_cat",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_calico_cat",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_husky",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_golden_retriever",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_shiba_inu",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_red_panda",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_snow_fox",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_arctic_wolf",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_hawk",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_swan",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_koi_fish",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_jellyfish",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_fireflies",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     },
     {
       "id": "animal_moths",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals expanded"
+      "category": "creatures",
+      "subcategory": "Animal Expanded"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_soft_black",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_raven",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_dark_brown",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_chocolate",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_chestnut",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_auburn",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_light_brown",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_dirty_blonde",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_golden_blonde",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_platinum",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_ash_blonde",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_strawberry",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_white",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_silver",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_grey",
@@ -143,7 +158,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_red",
@@ -152,7 +168,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_pink",
@@ -161,7 +178,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_magenta",
@@ -170,7 +188,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_purple",
@@ -179,7 +198,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_lavender",
@@ -188,7 +208,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_blue",
@@ -197,7 +218,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_cyan",
@@ -206,7 +228,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_green",
@@ -215,7 +238,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_mint",
@@ -224,7 +248,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_teal",
@@ -233,7 +258,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_orange",
@@ -242,7 +268,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_ombre",
@@ -251,7 +278,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_twotone",
@@ -260,7 +288,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     },
     {
       "id": "hair_rainbow",
@@ -269,7 +298,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair color"
+      "category": "character",
+      "subcategory": "Hair Color"
     }
   ]
 }

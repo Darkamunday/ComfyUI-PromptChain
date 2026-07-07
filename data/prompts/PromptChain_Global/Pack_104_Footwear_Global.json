@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "ft_sneakers",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "ft_boots",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "ft_heels",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "ft_sandals",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "ft_loafers",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "ft_combat",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "ft_thigh",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "ft_flats",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "ft_slippers",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     }
   ]
 }

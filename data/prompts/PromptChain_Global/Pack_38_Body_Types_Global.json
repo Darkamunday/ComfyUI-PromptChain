@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_athletic",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_curvy",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_petite",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_tall",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_soft",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_muscular",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_dancer",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_broad_shoulders",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_narrow_shoulders",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_long_legs",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_natural_proportions",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_graceful_posture",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_confident_posture",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_relaxed_posture",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body types"
+      "category": "character",
+      "subcategory": "Body Type"
     }
   ]
 }

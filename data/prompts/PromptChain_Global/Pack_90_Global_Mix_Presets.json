@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_cozy_cafe_character",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_rainy_city_portrait",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_fantasy_hero",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_soft_bedroom",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_cyberpunk_neon",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_shrine_petals",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_library_magic",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_idol_stage",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_snowy_window",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_forest_familiar",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_luxury_editorial",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_school_life",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_space_android",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     },
     {
       "id": "mix_dark_fantasy_noble",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global mix presets"
+      "category": "presets",
+      "subcategory": "Global Mix Preset"
     }
   ]
 }

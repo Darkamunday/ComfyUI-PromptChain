@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     },
     {
       "id": "eyes_sapphire",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     },
     {
       "id": "eyes_amber",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     },
     {
       "id": "eyes_crimson",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     },
     {
       "id": "eyes_violet",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     },
     {
       "id": "eyes_golden",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     },
     {
       "id": "eyes_heterochromia",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     },
     {
       "id": "eyes_sleepy",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     },
     {
       "id": "eyes_sparkling",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     },
     {
       "id": "eyes_sharp",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eyes"
+      "category": "character",
+      "subcategory": "Eye Style"
     }
   ]
 }

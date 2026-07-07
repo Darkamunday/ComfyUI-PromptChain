@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_keep_one_subject",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_keep_outfit",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_keep_hair_consistent",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_keep_eye_color",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_keep_background_simple",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_no_random_props",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_no_style_conflict",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_no_dark_bias",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_no_overdetail",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_anatomy_priority",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_face_priority",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_hands_priority",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_material_priority",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     },
     {
       "id": "cleanup_prompt_balance",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "utility cleanup"
+      "category": "cleanup",
+      "subcategory": "Utility Cleanup"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_sword",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_staff",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_umbrella",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_lantern",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_camera",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_phone",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_flower",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_bouquet",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_notebook",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_headphones",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_instrument",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_potion",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_plush",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     },
     {
       "id": "prop_backpack",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "props"
+      "category": "objects",
+      "subcategory": "Prop"
     }
   ]
 }

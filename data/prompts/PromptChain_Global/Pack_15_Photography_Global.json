@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_editorial",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_portrait",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_fashion",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_lifestyle",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_street",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_documentary",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_fine_art",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_product",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_macro",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_analog_film",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_polaroid",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_high_fashion",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_cinematic_still",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     },
     {
       "id": "photo_travel",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "photography"
+      "category": "camera",
+      "subcategory": "Photography"
     }
   ]
 }

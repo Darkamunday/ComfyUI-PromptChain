@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_full_outfit",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_low_hero",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_window_sitting",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_walking_city",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_running_action",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_over_shoulder_story",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_cafe_close",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_rooftop_wide",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_magic_fullbody",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_rain_reflection",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_flower_field",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_train_station",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_bedroom_soft",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     },
     {
       "id": "combo_backlit_silhouette",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "pose camera combos"
+      "category": "presets",
+      "subcategory": "Pose + Camera Combo"
     }
   ]
 }

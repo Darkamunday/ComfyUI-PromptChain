@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_old_stone",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_polished_marble",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_weathered_wood",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_clean_glass",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_frosted_glass",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_brick_wall",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_concrete",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_sand",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_snow",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_water",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_metal_scratched",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_ceramic",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_paper",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     },
     {
       "id": "texture_fur",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "textures and surfaces"
+      "category": "objects",
+      "subcategory": "Texture / Surface"
     }
   ]
 }

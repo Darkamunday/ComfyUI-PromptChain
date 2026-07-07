@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_falling_petals",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_wet_reflections",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_floating_leaves",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_steam",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_smoke",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_sunbeams",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_water_droplets",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_snow_accumulation",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_flower_petals_ground",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_cables_pipes",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_books_papers",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_table_items",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_lantern_glow",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     },
     {
       "id": "env_detail_background_people",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "environment details"
+      "category": "environment",
+      "subcategory": "Environment Detail"
     }
   ]
 }

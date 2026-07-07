@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_streetwear_layered",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_soft_girl",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_gothic_lolita",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_elegant_formal",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_academia",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_bohemian",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_techwear",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_pastel",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_punk",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_royal",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_fairycore",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_cyber_fashion",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_winter_layered",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     },
     {
       "id": "fashion_summer_light",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fashion styles"
+      "category": "fashion styles",
+      "subcategory": "fashion styles"
     }
   ]
 }

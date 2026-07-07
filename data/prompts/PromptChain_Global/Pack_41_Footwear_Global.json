@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_boots",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_ankle_boots",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_heels",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_mary_janes",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_sandals",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_loafers",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_combat_boots",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_tall_boots",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_slippers",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_barefoot",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_fantasy_boots",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_sci_fi_shoes",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_school_shoes",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     },
     {
       "id": "footwear_winter_boots",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "footwear"
+      "category": "character",
+      "subcategory": "Footwear"
     }
   ]
 }

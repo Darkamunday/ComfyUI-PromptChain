@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_abandoned_house",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_old_mansion",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_candle_corridor",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_shadow_figure",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_rain_window",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_attic",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_library_night",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_clock_room",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_mirror",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_forest_night",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_empty_station",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_hidden_door",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_old_photographs",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     },
     {
       "id": "mystery_occult_symbols",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "horror and mystery"
+      "category": "genre",
+      "subcategory": "Horror / Mystery"
     }
   ]
 }

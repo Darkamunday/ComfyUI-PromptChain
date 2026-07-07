@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_bus_stop",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_train_platform",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_rooftop",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_alley",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_shopping_street",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_arcade",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_parking_lot",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_bridge",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_subway",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_laundromat",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_convenience_store",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_apartment_balcony",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_street_corner",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     },
     {
       "id": "urban_underpass",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "urban scenes"
+      "category": "environment",
+      "subcategory": "Urban Scene"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_color_harmony",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_subject_focus",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_depth",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_soft_polish",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_crisp_details",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_natural_skin",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_clean_background",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_material_consistency",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_expression_readability",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_pose_readability",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_lighting_coherence",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_style_consistency",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_remove_noise",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     },
     {
       "id": "final_export_polish",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "final touches"
+      "category": "quality",
+      "subcategory": "Final Touch"
     }
   ]
 }

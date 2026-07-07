@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_energy_ring",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_sparkles",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_fire_spell",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_ice_spell",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_light_spell",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_dark_spell",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_healing_aura",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_teleport",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_summoning_circle",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_floating_books",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_crystal_orbs",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_wings_light",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_elemental_aura",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     },
     {
       "id": "magic_time_distortion",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "magic effects"
+      "category": "magic effects",
+      "subcategory": "Magic Effect"
     }
   ]
 }

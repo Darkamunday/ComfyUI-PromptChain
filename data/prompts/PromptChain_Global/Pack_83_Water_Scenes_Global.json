@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_calm_lake",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_river_crossing",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_rain_puddles",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_hot_spring",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_fountain",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_underwater_view",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_waterfall_pool",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_boat_lake",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_harbor_dock",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_glass_rain",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_reflecting_pool",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_stream_forest",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_waves_night",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     },
     {
       "id": "water_flooded_street",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "water scenes"
+      "category": "environment",
+      "subcategory": "Water Scene"
     }
   ]
 }

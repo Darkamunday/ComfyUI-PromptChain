@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_writing",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_drawing",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_cooking",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_drinking",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_dancing",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_singing",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_playing_instrument",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_shopping",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_waiting_train",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_using_phone",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_taking_photo",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_casting_spell",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_sword_pose",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     },
     {
       "id": "action_resting",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "actions"
+      "category": "action",
+      "subcategory": "Action"
     }
   ]
 }

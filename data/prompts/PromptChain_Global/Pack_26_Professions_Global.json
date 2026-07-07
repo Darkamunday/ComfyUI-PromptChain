@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_doctor",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_nurse",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_scientist",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_artist",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_musician",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_chef",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_detective",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_pilot",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_mechanic",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_barista",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_librarian",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_photographer",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_fashion_model",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     },
     {
       "id": "profession_gamer_streamer",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "professions"
+      "category": "character",
+      "subcategory": "Profession"
     }
   ]
 }

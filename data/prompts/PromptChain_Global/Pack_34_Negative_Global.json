@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_text_watermark",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_bad_anatomy",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_bad_hands",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_bad_face",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_extra_limbs",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_bad_lighting",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_clutter",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_artifacts",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_poor_perspective",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_bad_materials",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_duplicate_subject",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_overprocessed",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_wrong_style",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     },
     {
       "id": "negative_unwanted_nsfw",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "negative"
+      "category": "cleanup",
+      "subcategory": "Negative"
     }
   ]
 }

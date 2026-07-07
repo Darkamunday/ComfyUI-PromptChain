@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_sitting_window",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_crouched_ready",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_turning_motion",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_adjusting_clothes",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_holding_hat",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_sitting_knees_up",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_side_sitting",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_backlit_standing",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_walking_away",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_reaching_sky",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_covering_eye",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_resting_head_hand",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_arms_open",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     },
     {
       "id": "pose_cloak_sweep",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced poses"
+      "category": "character",
+      "subcategory": "Advanced Pose"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_spirit_orb",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_tiny_dragon",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_slime",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_familiar_cat",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_fox_familiar",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_bird_familiar",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_mushroom_sprite",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_plant_sprite",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_clockwork_pet",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_robot_pet",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_shadow_wisp",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_light_wisp",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_butterfly_spirits",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     },
     {
       "id": "creature_mini_golem",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "small creatures"
+      "category": "creatures",
+      "subcategory": "Small Creature"
     }
   ]
 }

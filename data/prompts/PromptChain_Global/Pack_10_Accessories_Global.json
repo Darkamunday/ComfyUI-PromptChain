@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_sunglasses",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_choker",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_necklace",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_earrings",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_hairpin",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_ribbon",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_hat",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_scarf",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_backpack",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_bag",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_gloves",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_belt",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_flower_crown",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     },
     {
       "id": "accessory_headphones",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "accessories"
+      "category": "character",
+      "subcategory": "Accessories"
     }
   ]
 }

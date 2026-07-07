@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_soft_romantic",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_moody_cinematic",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_fairy_glow",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_cool_morning",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_warm_lamp",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_backlit_halo",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_split_light",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_under_neon",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_cloud_diffused",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_fire_glow",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_cold_moon",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_stage_spotlight",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_rainy_gray",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     },
     {
       "id": "light_mood_divine_light",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting moods"
+      "category": "lighting",
+      "subcategory": "Lighting Mood"
     }
   ]
 }

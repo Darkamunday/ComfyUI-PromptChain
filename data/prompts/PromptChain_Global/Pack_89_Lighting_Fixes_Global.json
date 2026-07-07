@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_reduce_heavy_shadows",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_soften_harsh_light",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_keep_face_lit",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_avoid_black_background",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_even_lighting",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_clean_white_balance",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_control_bloom",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_night_readability",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_window_exposure",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_backlight_balance",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_no_muddy_colors",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_reflection_lighting",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_skin_lighting",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     },
     {
       "id": "fix_background_visibility",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting fixes"
+      "category": "lighting",
+      "subcategory": "Lighting Fix"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_small_apartment",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_artist_studio",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_music_room",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_game_room",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_hospital_room",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_classroom",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_train_carriage",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_hotel_lobby",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_greenhouse",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_workshop",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_kitchen",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_bathroom",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_attic",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     },
     {
       "id": "interior_basement",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rooms and interiors"
+      "category": "environment",
+      "subcategory": "Room / Interior"
     }
   ]
 }

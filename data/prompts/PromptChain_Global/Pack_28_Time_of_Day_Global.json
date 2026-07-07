@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_early_morning",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_late_morning",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_midday",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_afternoon",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_golden_hour",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_sunset",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_dusk",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_blue_hour",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_night",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_midnight",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_rainy_evening",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_snowy_morning",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_neon_night",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     },
     {
       "id": "time_candlelit_night",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "time of day"
+      "category": "environment",
+      "subcategory": "Time of Day"
     }
   ]
 }

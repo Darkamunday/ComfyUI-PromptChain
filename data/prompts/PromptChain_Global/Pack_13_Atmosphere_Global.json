@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_peaceful",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_romantic",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_dreamlike",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_mysterious",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_magical",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_melancholic",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_energetic",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_luxury",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_wholesome",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_dark_fantasy",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_slice_of_life",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_epic",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_serene",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     },
     {
       "id": "atmosphere_playful",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "atmosphere"
+      "category": "mood",
+      "subcategory": "Atmosphere"
     }
   ]
 }

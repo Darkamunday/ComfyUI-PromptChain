@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_cloudy",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_dramatic_clouds",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_pink_sunset",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_star_field",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_milky_way",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_aurora",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_full_moon",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_eclipse",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_shooting_stars",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_planets",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_nebula",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_storm_front",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_god_rays",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     },
     {
       "id": "sky_cloud_sea",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "sky and space"
+      "category": "environment",
+      "subcategory": "Sky / Space"
     }
   ]
 }

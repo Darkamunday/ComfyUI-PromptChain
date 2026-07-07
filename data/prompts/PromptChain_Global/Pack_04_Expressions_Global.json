@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     },
     {
       "id": "expression_soft_blush",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     },
     {
       "id": "expression_laughing",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     },
     {
       "id": "expression_surprised",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     },
     {
       "id": "expression_confident",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     },
     {
       "id": "expression_playful_smirk",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     },
     {
       "id": "expression_determined",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     },
     {
       "id": "expression_sad",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     },
     {
       "id": "expression_sleepy",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     },
     {
       "id": "expression_wink",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "expressions"
+      "category": "character",
+      "subcategory": "Expression"
     }
   ]
 }

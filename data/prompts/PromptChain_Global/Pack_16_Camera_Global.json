@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_35mm",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_50mm",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_85mm",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_135mm",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_macro",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_wide_angle",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_telephoto",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_shallow_dof",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_deep_focus",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_low_angle",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_high_angle",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_eye_level",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_over_shoulder",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     },
     {
       "id": "camera_close_focus",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "camera"
+      "category": "camera",
+      "subcategory": "Camera"
     }
   ]
 }

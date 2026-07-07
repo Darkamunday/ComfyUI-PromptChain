@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_cherry_blossom",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_rainy_spring",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_summer",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_late_summer",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_tropical_summer",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_autumn",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_late_autumn",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_winter",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_snowy_winter",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_holiday_winter",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_early_spring",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_harvest_autumn",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_foggy_winter",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     },
     {
       "id": "season_flower_summer",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "seasons"
+      "category": "environment",
+      "subcategory": "Season"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_flowers_vase",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_bookshelf",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_paintings",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_rug",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_curtains",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_string_lights",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_plants",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_mirror",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_clock",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_chandelier",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_lanterns",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_cushions",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_scrolls",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     },
     {
       "id": "decor_crystals",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "objects and decor"
+      "category": "objects",
+      "subcategory": "Object / Decor"
     }
   ]
 }

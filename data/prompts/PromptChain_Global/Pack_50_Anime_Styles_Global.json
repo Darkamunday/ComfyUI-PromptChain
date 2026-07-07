@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_soft_movie",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_realism",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_slice_of_life",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_fantasy_adventure",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_dark_fantasy",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_idol_stage",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_romance",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_action",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_comedy",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_school_life",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_magical_girl",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_cyberpunk",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_watercolor_soft",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     },
     {
       "id": "anime_classic_90s",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "anime styles"
+      "category": "anime styles",
+      "subcategory": "anime styles"
     }
   ]
 }

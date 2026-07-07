@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_slim",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_athletic",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_curvy",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_average",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_tall",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_short",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_muscular",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_soft",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     },
     {
       "id": "body_lean",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "body type"
+      "category": "character",
+      "subcategory": "Body Type"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_lived_in",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_luxury_interior",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_old_world",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_future_clean",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_overgrown_ruins",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_cute_room",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_dark_simple",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_bright_outdoors",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_busy_market",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_soft_nature",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_rainy_city",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_magical_depth",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_stage_backdrop",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     },
     {
       "id": "bg_mood_window_scene",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "background moods"
+      "category": "environment",
+      "subcategory": "Background Mood"
     }
   ]
 }

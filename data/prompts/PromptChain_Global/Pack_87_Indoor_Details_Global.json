@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_desk_lamp",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_books_stack",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_coffee_table",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_houseplants",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_wall_art",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_rain_window",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_sunlit_curtains",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_floor_cushions",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_vanity_mirror",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_kitchen_items",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_shelf_collectibles",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_candle_cluster",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_fabric_drapes",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     },
     {
       "id": "indoor_window_seat",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "indoor details"
+      "category": "indoor details",
+      "subcategory": "indoor details"
     }
   ]
 }

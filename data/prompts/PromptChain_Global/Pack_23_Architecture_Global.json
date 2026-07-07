@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_japanese_traditional",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_gothic",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_art_nouveau",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_victorian",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_brutalist",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_futuristic",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_cozy_cottage",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_luxury_penthouse",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_greenhouse",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_industrial",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_moroccan",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_roman",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_floating_city",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     },
     {
       "id": "architecture_underwater",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "architecture"
+      "category": "environment",
+      "subcategory": "Architecture"
     }
   ]
 }

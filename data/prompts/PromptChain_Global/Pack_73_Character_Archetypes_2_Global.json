@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_queen",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_wandering_hero",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_alchemist",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_fortune_teller",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_detective",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_thief",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_ranger",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_bard",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_monk",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_beast_tamer",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_scholar",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_inventor",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_gardener",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     },
     {
       "id": "archetype_traveler",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "character archetypes"
+      "category": "character archetypes",
+      "subcategory": "Character Archetype"
     }
   ]
 }

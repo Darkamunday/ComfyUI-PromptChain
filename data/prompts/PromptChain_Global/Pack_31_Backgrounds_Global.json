@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_dark_studio",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_soft_gradient",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_bokeh_lights",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_city_skyline",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_blurred_forest",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_beach_horizon",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_minimal_room",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_abstract_shapes",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_paper_texture",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_flower_wall",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_neon_blur",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_cloudscape",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_window_view",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     },
     {
       "id": "background_ornate_pattern",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "backgrounds"
+      "category": "environment",
+      "subcategory": "Background"
     }
   ]
 }

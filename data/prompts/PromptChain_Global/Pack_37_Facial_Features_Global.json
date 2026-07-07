@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_sharp_features",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_round_cheeks",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_delicate_nose",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_defined_jawline",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_small_mouth",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_full_lips",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_freckles",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_beauty_mark",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_rosy_cheeks",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_delicate_eyelashes",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_thick_eyebrows",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_thin_eyebrows",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_symmetry",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     },
     {
       "id": "face_expressive",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "facial features"
+      "category": "character",
+      "subcategory": "Facial Features"
     }
   ]
 }

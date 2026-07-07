@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_geometric",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_stripes",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_plaid",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_polka_dots",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_damask",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_lace_overlay",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_stars",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_moon",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_tribal",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_wave",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_leaf",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_checkerboard",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_embroidery",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     },
     {
       "id": "pattern_filigree",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "patterns"
+      "category": "objects",
+      "subcategory": "Pattern"
     }
   ]
 }

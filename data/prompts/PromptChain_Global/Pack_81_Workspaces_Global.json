@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_art_desk",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_streaming_setup",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_lab_bench",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_mechanic_bench",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_fashion_studio",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_kitchen_counter",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_library_table",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_blacksmith_forge",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_alchemy_table",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_office_desk",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_music_studio",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_greenhouse_table",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_architect_table",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     },
     {
       "id": "workspace_magic_research",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "workspaces"
+      "category": "environment",
+      "subcategory": "Workspace"
     }
   ]
 }

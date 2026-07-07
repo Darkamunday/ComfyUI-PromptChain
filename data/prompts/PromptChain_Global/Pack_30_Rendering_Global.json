@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_soft_anime",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_cinematic_realism",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_painterly",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_editorial",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_clean_digital",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_filmic",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_high_detail",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_soft_light",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_luxury_polish",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_natural",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_dreamy",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_sharp_focus",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_atmospheric",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     },
     {
       "id": "render_final_polish",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "rendering"
+      "category": "quality",
+      "subcategory": "Rendering"
     }
   ]
 }

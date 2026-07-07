@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_warm_lamp_bedroom",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_sunset_backlight",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_forest_dappled",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_neon_reflections",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_overcast_portrait",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_candle_gothic",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_blue_lab",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_snow_diffuse",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_stage_spotlights",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_firelight_night",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_rain_gray",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_moon_fog",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_golden_window",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     },
     {
       "id": "light_combo_hologram_glow",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "lighting combos"
+      "category": "lighting",
+      "subcategory": "Lighting Combo"
     }
   ]
 }

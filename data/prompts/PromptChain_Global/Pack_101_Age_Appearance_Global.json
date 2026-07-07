@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "age appearance"
+      "category": "character",
+      "subcategory": "Age Appearance"
     },
     {
       "id": "age_young",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "age appearance"
+      "category": "character",
+      "subcategory": "Age Appearance"
     },
     {
       "id": "age_mid20",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "age appearance"
+      "category": "character",
+      "subcategory": "Age Appearance"
     },
     {
       "id": "age_30",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "age appearance"
+      "category": "character",
+      "subcategory": "Age Appearance"
     },
     {
       "id": "age_mature",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "age appearance"
+      "category": "character",
+      "subcategory": "Age Appearance"
     },
     {
       "id": "age_elder",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "age appearance"
+      "category": "character",
+      "subcategory": "Age Appearance"
     }
   ]
 }

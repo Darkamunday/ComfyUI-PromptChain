@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_high_detail",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_professional",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_masterpiece",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_clean_render",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_high_fidelity",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_premium",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_sharp_focus",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_balanced",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_realistic_detail",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_visual_clarity",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_polished_style",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_coherent_design",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_attractive_finish",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     },
     {
       "id": "quality_gallery_ready",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "quality"
+      "category": "quality",
+      "subcategory": "Quality"
     }
   ]
 }

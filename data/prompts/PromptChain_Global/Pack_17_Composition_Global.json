@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_rule_of_thirds",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_symmetrical",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_dynamic",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_negative_space",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_leading_lines",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_close_up",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_full_body",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_environmental",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_candid",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_cinematic_wide",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_portrait_vertical",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_layered_depth",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_minimal",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     },
     {
       "id": "composition_storytelling",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "composition"
+      "category": "camera",
+      "subcategory": "Composition"
     }
   ]
 }

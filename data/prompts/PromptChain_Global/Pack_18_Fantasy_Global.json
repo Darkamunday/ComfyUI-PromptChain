@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_fairy_realm",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_dragon_lair",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_crystal_cavern",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_floating_islands",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_ancient_ruins",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_magic_school",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_enchanted_forest",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_celestial_temple",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_underwater_kingdom",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_dark_castle",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_spirit_world",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_alchemist_room",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_moonlit_ritual",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     },
     {
       "id": "fantasy_royal_court",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "fantasy"
+      "category": "genre",
+      "subcategory": "Fantasy"
     }
   ]
 }

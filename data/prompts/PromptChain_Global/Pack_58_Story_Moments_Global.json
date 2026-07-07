@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_quiet_morning",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_after_rain",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_farewell",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_discovery",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_secret",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_preparation",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_rest_after_journey",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_magical_awakening",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_royal_arrival",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_battle_ready",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_cafe_date",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_late_night_work",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_festival_evening",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     },
     {
       "id": "story_hidden_power",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "story moments"
+      "category": "presets",
+      "subcategory": "Story Moment"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_orbital_station",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_android_lab",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_mecha_hangar",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_alien_world",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_space_colony",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_hologram_room",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_cybernetic_clinic",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_zero_gravity",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_mars_base",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_nebula_window",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_robot_companion",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_futuristic_city",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_power_core",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     },
     {
       "id": "scifi_ai_archive",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scifi"
+      "category": "genre",
+      "subcategory": "Sci-Fi"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_improve_scene",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_keep_simple",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_add_depth",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_make_cohesive",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_focus_face",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_focus_outfit",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_focus_environment",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_more_realistic",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_more_anime",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_reduce_darkness",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_reduce_clutter",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_stronger_story",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_soften_image",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     },
     {
       "id": "helper_sharpen_key_details",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt helpers"
+      "category": "workflow",
+      "subcategory": "Prompt Helper"
     }
   ]
 }

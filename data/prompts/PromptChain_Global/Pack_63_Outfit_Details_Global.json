@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_frills",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_bows",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_lace_trim",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_embroidery",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_silver_filigree",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_gold_accents",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_crimson_details",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_belts_straps",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_buttons",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_pleats",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_sheer_overlay",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_cape",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_high_collar",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     },
     {
       "id": "outfit_asymmetrical_design",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit details"
+      "category": "character",
+      "subcategory": "Outfit Details"
     }
   ]
 }

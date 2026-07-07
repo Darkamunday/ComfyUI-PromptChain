@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_village",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_blacksmith",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_tavern",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_forest_road",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_knight_armor",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_royal_court",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_monastery",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_market",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_battlefield",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_throne_room",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_wizard_tower",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_farm",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_cathedral",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     },
     {
       "id": "medieval_dungeon",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "medieval"
+      "category": "genre",
+      "subcategory": "Medieval"
     }
   ]
 }

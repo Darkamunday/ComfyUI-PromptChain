@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     },
     {
       "id": "hair_long_wavy",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     },
     {
       "id": "hair_short_bob",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     },
     {
       "id": "hair_hime_cut",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     },
     {
       "id": "hair_pixie_cut",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     },
     {
       "id": "hair_high_ponytail",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     },
     {
       "id": "hair_low_ponytail",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     },
     {
       "id": "hair_twin_tails",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     },
     {
       "id": "hair_braided",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     },
     {
       "id": "hair_messy_natural",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "hair"
+      "category": "character",
+      "subcategory": "Hair Style"
     }
   ]
 }

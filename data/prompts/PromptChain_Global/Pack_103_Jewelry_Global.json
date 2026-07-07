@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jw_choker",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jw_earrings",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jw_hoops",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jw_bracelet",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jw_ring",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jw_multiple",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jw_pearl",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jw_silver",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     },
     {
       "id": "jw_gold",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "jewelry"
+      "category": "character",
+      "subcategory": "Jewelry"
     }
   ]
 }

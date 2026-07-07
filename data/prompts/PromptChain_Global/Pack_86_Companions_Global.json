@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_dog",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_fox",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_bird_on_hand",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_butterflies",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_spirit_wisp",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_robot_pet",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_tiny_dragon",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_plush_toy",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_familiar",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_fairy",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_shadow_pet",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_clockwork_bird",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_plant_sprite",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     },
     {
       "id": "companion_slime_pet",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "companions"
+      "category": "creatures",
+      "subcategory": "Companion"
     }
   ]
 }

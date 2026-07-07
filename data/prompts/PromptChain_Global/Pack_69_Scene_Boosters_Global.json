@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_depth",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_texture",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_motion",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_intimacy",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_scale",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_warmth",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_drama",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_cuteness",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_elegance",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_realism",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_fantasy",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_cinematic",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_polish",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     },
     {
       "id": "booster_more_focus",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "scene boosters"
+      "category": "presets",
+      "subcategory": "Scene Booster"
     }
   ]
 }

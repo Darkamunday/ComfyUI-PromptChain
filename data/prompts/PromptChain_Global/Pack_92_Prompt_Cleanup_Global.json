@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_remove_conflicts",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_prioritize_subject",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_clean_prompt_flow",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_reduce_tag_spam",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_fix_lighting_bias",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_simplify_scene",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_strengthen_materials",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_strengthen_pose",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_strengthen_mood",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_fix_background",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_fix_anatomy",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_model_neutral",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_keep_concise",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     },
     {
       "id": "cleanup_final_check",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "prompt cleanup"
+      "category": "cleanup",
+      "subcategory": "Prompt Cleanup"
     }
   ]
 }

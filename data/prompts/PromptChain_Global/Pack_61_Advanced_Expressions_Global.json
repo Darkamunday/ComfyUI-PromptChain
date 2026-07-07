@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_nervous",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_embarrassed",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_teary_smile",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_blank_stare",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_suspicious",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_proud",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_annoyed",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_gentle",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_curious",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_worried",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_elegant_smile",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_mischievous_safe",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_awe",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     },
     {
       "id": "expression_focus",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "advanced expressions"
+      "category": "character",
+      "subcategory": "Advanced Expression"
     }
   ]
 }

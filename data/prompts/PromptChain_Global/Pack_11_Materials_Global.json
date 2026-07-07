@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_denim",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_silk",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_satin",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_velvet",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_lace",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_leather",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_wool",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_metal",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_brushed_metal",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_gold",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_silver",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_glass",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_crystal",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     },
     {
       "id": "material_wood",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "materials"
+      "category": "materials",
+      "subcategory": "Materials"
     }
   ]
 }

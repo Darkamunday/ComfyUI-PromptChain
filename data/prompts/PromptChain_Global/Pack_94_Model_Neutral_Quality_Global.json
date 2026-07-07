@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_detailed",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_soft",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_sharp",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_balanced",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_premium",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_natural",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_cinematic",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_anime",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_realistic",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_print",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_social",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_gallery",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_promptchain_default",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     },
     {
       "id": "neutral_quality_final_polish",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "model neutral quality"
+      "category": "quality",
+      "subcategory": "Model Neutral Quality"
     }
   ]
 }

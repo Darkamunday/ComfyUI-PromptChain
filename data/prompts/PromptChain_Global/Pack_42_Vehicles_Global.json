@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_car_modern",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_sports_car",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_vintage_car",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_train",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_bicycle",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_scooter",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_airship",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_spaceship",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_mecha",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_boat",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_sailboat",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_subway",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_hovercraft",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     },
     {
       "id": "vehicle_carriage",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "vehicles"
+      "category": "objects",
+      "subcategory": "Vehicle"
     }
   ]
 }

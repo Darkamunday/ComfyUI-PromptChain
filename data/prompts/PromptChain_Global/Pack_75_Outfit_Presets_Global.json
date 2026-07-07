@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_elegant_gothic",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_fantasy_adventurer",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_luxury_formal",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_modern_street",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_academia",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_soft_pastel",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_techwear",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_winter_layers",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_summer_light",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_royal_ceremonial",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_idol_stage",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_work_uniform",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_travel_clothes",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     },
     {
       "id": "outfit_preset_mage_robes",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "outfit presets"
+      "category": "character",
+      "subcategory": "Outfit Presets"
     }
   ]
 }

@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_bad_face",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_extra_limbs",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_duplicate_subject",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_text",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_artifacts",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_muddy_lighting",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_clutter",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_style_drift",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_poor_perspective",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_bad_materials",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_overprocessed",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_unwanted_nsfw",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_lowres",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     },
     {
       "id": "negative_no_cropped_subject",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "global negative expanded"
+      "category": "cleanup",
+      "subcategory": "Negative Expanded"
     }
   ]
 }

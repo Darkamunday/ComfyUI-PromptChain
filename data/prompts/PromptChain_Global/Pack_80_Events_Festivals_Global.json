@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_fireworks_night",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_school_festival",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_masquerade_ball",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_royal_ceremony",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_winter_holiday",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_spring_picnic",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_music_concert",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_fashion_show",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_market_day",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_cafe_meetup",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_graduation",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_tea_ceremony",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_night_parade",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     },
     {
       "id": "event_stargazing",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "events and festivals"
+      "category": "events and festivals",
+      "subcategory": "Event / Festival"
     }
   ]
 }

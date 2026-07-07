@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_confident_standing",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_sitting_floor",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_sitting_chair",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_kneeling",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_walking",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_running",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_looking_back",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_leaning_wall",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_stretching",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_jump",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_reaching_out",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_crouching",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_dancing",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     },
     {
       "id": "pose_sleeping",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "poses"
+      "category": "character",
+      "subcategory": "Pose"
     }
   ]
 }

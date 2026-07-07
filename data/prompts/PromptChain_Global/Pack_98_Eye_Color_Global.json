@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_hazel",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_amber",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_green",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_blue",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_ice",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_grey",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_violet",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_pink",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_red",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_gold",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_silver",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_teal",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_hetero",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     },
     {
       "id": "eye_glowing",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "eye color"
+      "category": "character",
+      "subcategory": "Eye Color"
     }
   ]
 }

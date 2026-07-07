@@ -8,7 +8,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_fox",
@@ -17,7 +18,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_wolf",
@@ -26,7 +28,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_rabbit",
@@ -35,7 +38,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_owl",
@@ -44,7 +48,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_butterflies",
@@ -53,7 +58,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_horse",
@@ -62,7 +68,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_dragon",
@@ -71,7 +78,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_bird",
@@ -80,7 +88,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_dog",
@@ -89,7 +98,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_deer",
@@ -98,7 +108,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_fish",
@@ -107,7 +118,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_raven",
@@ -116,7 +128,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_panda",
@@ -125,7 +138,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     },
     {
       "id": "animal_tiger",
@@ -134,7 +148,8 @@
       "scope": {
         "type": "global"
       },
-      "category": "animals"
+      "category": "creatures",
+      "subcategory": "Animal"
     }
   ]
 }
