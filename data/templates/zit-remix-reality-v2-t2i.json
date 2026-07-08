@@ -172,7 +172,7 @@
     {
       "type": "UNETLoader",
       "offset": [
-        1219.9999698181155,
+        1190.0000000000000,
         0
       ],
       "size": [
@@ -185,6 +185,24 @@
       ],
       "properties": {
         "Node name for S&R": "UNETLoader"
+      }
+    },
+    {
+      "type": "LoraLoaderModelOnly",
+      "offset": [
+        1230,
+        130
+      ],
+      "size": [
+        360,
+        82
+      ],
+      "widgets_values": [
+        "",
+        0
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoaderModelOnly"
       }
     }
   ],
@@ -245,6 +263,12 @@
     },
     {
       "from_node_idx": 9,
+      "from_slot": 0,
+      "to_node_idx": 10,
+      "to_slot": 0
+    },
+    {
+      "from_node_idx": 10,
       "from_slot": 0,
       "to_node_idx": 6,
       "to_slot": 0
